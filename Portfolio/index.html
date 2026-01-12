@@ -1,617 +1,465 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html>
-    
+<html lang="en">
 <head>
-    <meta content='width=device-width, initial-scale=1' name='viewport' />
-    <title>OJAM</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OJAM | Portfolio</title>
+    <script>
+        if (localStorage.getItem('ojam_theme') === 'light') {
+            document.documentElement.classList.add('light-mode');
+        }
+    </script>
+    <style>
+        body.is-loading #wrapper, 
+        body.is-loading #mobile-top-bar, 
+        body.is-loading #desktop-header, 
+        body.is-loading #desktop-controls, 
+        body.is-loading #mobile-nav {
+            opacity: 0 !important; 
+            pointer-events: none;
+        }
+
+        html, body { background-color: #050505; } 
+        
+        html.light-mode, html.light-mode body {
+            background-color: #f0f9ff;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
-<body>
-    <header id="header">
-        <div class="logo">
-            <a class="logo-header click-in">
-                <h1>OJ(</h1>
-                <img alt='logo' src='./assets/img/ojam.png' />
-                <h1>)M</h1>
-            </a>
-        </div>
-        <div class="navigation">
-            <nav class="nav-menu">
-                <a class="blog click-in" href="https://brojamz.blogspot.com" target="_blank">
-                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.26 3.59997L5.04997 12.29C4.73997 12.62 4.43997 13.27 4.37997 13.72L4.00997 16.96C3.87997 18.13 4.71997 18.93 5.87997 18.73L9.09997 18.18C9.54997 18.1 10.18 17.77 10.49 17.43L18.7 8.73997C20.12 7.23997 20.76 5.52997 18.55 3.43997C16.35 1.36997 14.68 2.09997 13.26 3.59997Z"  stroke-width="1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M11.89 5.05005C12.32 7.81005 14.56 9.92005 17.34 10.2" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M3 22H21" stroke-width="1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <p class="nav-text">Blog</p>
-                </a>
-                <a class="show-menu click-in" target="profile">
-                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M12.1601 10.87C12.0601 10.86 11.9401 10.86 11.8301 10.87C9.45006 10.79 7.56006 8.84 7.56006 6.44C7.56006 3.99 9.54006 2 12.0001 2C14.4501 2 16.4401 3.99 16.4401 6.44C16.4301 8.84 14.5401 10.79 12.1601 10.87Z"
-                             stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M7.15997 14.56C4.73997 16.18 4.73997 18.82 7.15997 20.43C9.90997 22.27 14.42 22.27 17.17 20.43C19.59 18.81 19.59 16.17 17.17 14.56C14.43 12.73 9.91997 12.73 7.15997 14.56Z"
-                             stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <p class="nav-text">Profile</p>
-                </a>
-                <a class="show-menu click-in" target="skills">
-                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.38 12L10.79 14.42L15.62 9.57996" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M10.75 2.44995C11.44 1.85995 12.57 1.85995 13.27 2.44995L14.85 3.80995C15.15 4.06995 15.71 4.27995 16.11 4.27995H17.81C18.87 4.27995 19.74 5.14995 19.74 6.20995V7.90995C19.74 8.29995 19.95 8.86995 20.21 9.16995L21.57 10.7499C22.16 11.4399 22.16 12.5699 21.57 13.2699L20.21 14.8499C19.95 15.1499 19.74 15.7099 19.74 16.1099V17.8099C19.74 18.8699 18.87 19.7399 17.81 19.7399H16.11C15.72 19.7399 15.15 19.9499 14.85 20.2099L13.27 21.5699C12.58 22.1599 11.45 22.1599 10.75 21.5699L9.17 20.2099C8.87 19.9499 8.31 19.7399 7.91 19.7399H6.18C5.12 19.7399 4.25 18.8699 4.25 17.8099V16.0999C4.25 15.7099 4.04 15.1499 3.79 14.8499L2.44 13.2599C1.86 12.5699 1.86 11.4499 2.44 10.7599L3.79 9.16995C4.04 8.86995 4.25 8.30995 4.25 7.91995V6.19995C4.25 5.13995 5.12 4.26995 6.18 4.26995H7.91C8.3 4.26995 8.87 4.05995 9.17 3.79995L10.75 2.44995Z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <p class="nav-text">Skills</p>
-                </a>
-                <a class="show-menu click-in" target="project">
-                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 13V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H13"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M7.33008 14.49L9.71008 11.4C10.0501 10.96 10.6801 10.88 11.1201 11.22L12.9501 12.66C13.3901 13 14.0201 12.92 14.3601 12.49L16.6701 9.51001"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M19.48 15.8199L19.76 16.3899C19.9 16.6699 20.25 16.9299 20.56 16.9899L20.94 17.0499C22.08 17.2399 22.35 18.0799 21.53 18.9099L21.18 19.2599C20.95 19.4999 20.82 19.9599 20.89 20.2799L20.94 20.4899C21.25 21.8699 20.52 22.3999 19.32 21.6799L19.06 21.5299C18.75 21.3499 18.25 21.3499 17.94 21.5299L17.68 21.6799C16.47 22.4099 15.74 21.8699 16.06 20.4899L16.1099 20.2799C16.1799 19.9599 16.05 19.4999 15.82 19.2599L15.47 18.9099C14.65 18.0799 14.92 17.2399 16.06 17.0499L16.44 16.9899C16.74 16.9399 17.1 16.6699 17.24 16.3899L17.52 15.8199C18.06 14.7299 18.94 14.7299 19.48 15.8199Z"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <p class="nav-text">Project</p>
-                </a>
-                <a class="show-menu click-in" target="contact">
-                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18 7.16C17.94 7.15 17.87 7.15 17.81 7.16C16.43 7.11 15.33 5.98 15.33 4.58C15.33 3.15 16.48 2 17.91 2C19.34 2 20.49 3.16 20.49 4.58C20.48 5.98 19.38 7.11 18 7.16Z"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M16.9699 14.44C18.3399 14.67 19.8499 14.43 20.9099 13.72C22.3199 12.78 22.3199 11.24 20.9099 10.3C19.8399 9.59004 18.3099 9.35003 16.9399 9.59003"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M5.96998 7.16C6.02998 7.15 6.09998 7.15 6.15998 7.16C7.53998 7.11 8.63998 5.98 8.63998 4.58C8.63998 3.15 7.48998 2 6.05998 2C4.62998 2 3.47998 3.16 3.47998 4.58C3.48998 5.98 4.58998 7.11 5.96998 7.16Z"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M6.99994 14.44C5.62994 14.67 4.11994 14.43 3.05994 13.72C1.64994 12.78 1.64994 11.24 3.05994 10.3C4.12994 9.59004 5.65994 9.35003 7.02994 9.59003"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12 14.63C11.94 14.62 11.87 14.62 11.81 14.63C10.43 14.58 9.32996 13.45 9.32996 12.05C9.32996 10.62 10.48 9.46997 11.91 9.46997C13.34 9.46997 14.49 10.63 14.49 12.05C14.48 13.45 13.38 14.59 12 14.63Z"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M9.08997 17.78C7.67997 18.72 7.67997 20.26 9.08997 21.2C10.69 22.27 13.31 22.27 14.91 21.2C16.32 20.26 16.32 18.72 14.91 17.78C13.32 16.72 10.69 16.72 9.08997 17.78Z"  stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <p class="nav-text">Contact</p>
-                </a>
-            </nav>
-        </div>
-    </header>
+<body class="dark-mode is-loading">
 
-    <section>
-        <div class="main">
-            <a>Hello, I'm Ojam.</a>
-            <p></p>
+    <canvas id="bg-canvas"></canvas>
+
+    <div id="intro-text-layer">
+        <h1 class="intro-title">XIAOJAM</h1>
+    </div>
+
+    <div id="block-overlay" style="background-color: var(--block-final);"></div>
+
+    <div id="cert-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modal-title">Certificate View</h3>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        
+        <div id="mobile-top-bar">
+            <div class="mobile-brand">OJAM</div>
+            <button class="theme-toggle-btn" title="Switch Theme">
+                <i class="fas fa-sun"></i>
+            </button>
         </div>
 
-        <div id="show-profile" class="show" style="display: none;">
-            <h2>About Ojam</h2>
-            <p>
-                Hail hello...
-            </p>
-            <p>
-                My name is Ojam, an amateur writer who loves to write anything that I want to, and also likes to learn various things interest me. Kinda weird ya! 'cause mostly that made me interest wasn't related with my current work, hehehe. But..., it makes me happier than doing nothing, hahaha.</p>
-            <p>
-                I'm sorry, laughing out to loud. Oke, I will continue, got a lot knowledge in various fields when I was studying is the key, even tho it just nothing now, but I believe it will something then. Oh yah, if you play "AOV" let's play together, hehehe.
-            </p>
-            <p>
-                That's my quick intro, for more information, just check my curriculum vitae, thank you.
-            </p>
+        <header id="desktop-header">
+            <div class="desktop-brand">OJAM</div>
+            
+            <div class="desktop-actions">
+                <button class="theme-toggle-btn" title="Switch Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="desktop-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </header>
 
-            <div class="profile-button">
-                <svg height='38' width='172.3'>
-                    <path d='M 165 0 L 172 0 L 172 7 L 171 7 L 171 1 L 165 1 Z' fill='#000000' />
-                    <path d='M 0 25 L 0 32 L 7 32 L 7 31 L 1 31 L 1 31 Z' fill='#000000' />
-                    <a class="show-menu click-in" target="cv">
-                        <path d='M   0  0 L   155  0 L   172  13 L   172  32 L   17  32 L   0  19 Z' stroke='#000000'
-                            stroke-width='1' fill='none'></path>
-                        <text alignment-baseline='middle' class='text-explore' fill='#000000' text-anchor='middle'
-                            x='85' y='16'>
-                            Curriculum Vitae
-                        </text>
-                    </a>
-                </svg>
+        <div id="fullscreen-menu">
+            <button id="close-menu"><i class="fas fa-times"></i></button>
+            <div class="nav-content">
+                <div class="nav-brand">&lt;OJAM/&gt;</div>
+                <ul>
+                    <li><a href="#introduction"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="./page/about.html"><i class="fas fa-user"></i> Summary</a></li>
+                    <li><a href="#Experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                    <li><a href="./page/projects.html"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="#Skills"><i class="fas fa-layer-group"></i> Skills</a></li>
+                    <li><a href="#Education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="./page/publications.html"><i class="fas fa-book"></i> Publication</a></li>
+                    <li><a href="./page/certificates.html"><i class="fas fa-certificate"></i> Certificates</a></li>
+                    <li><a href="./page/contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
             </div>
         </div>
 
-        <div id="show-project" class="show" style="display: none;">
-            <h2>Projects</h2>
-            <p class="project-intro">Professional, not academic, career project lists.</p>
-            <div class="project-wrapper container">
-                <div class="project-list">
-                    <h3>Operation Sharia Platform</h3>
-                    <a class="project click-in">
-                        <img src="./assets/img/bfi.png" alt="">
-                        <div class="overlay">
-                            <svg fill="#FFF" width="50px" height="50px" viewBox="0 0 32 32" version="1.1"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z">
-                                </path>
-                            </svg>
+        <nav id="mobile-nav">
+            <a href="#introduction" class="nav-icon"><i class="fas fa-home"></i></a>
+            <a href="#Experience" class="nav-icon"><i class="fas fa-briefcase"></i></a>
+            <button id="mobile-plus-btn"><i class="fas fa-plus"></i></button>
+            <a href="#Projects" class="nav-icon"><i class="fas fa-code"></i></a>
+            <a href="#Contact" class="nav-icon"><i class="fas fa-envelope"></i></a>
+        </nav>
+
+        <main>
+            <section id="introduction" class="full-screen-section scroll-reveal">
+                <div class="text-center">
+                    <h1 class="glitch-text">M. MACHRUSH ALIY</h1>
+                    <h2 class="h2-subtitle">SIROJJAM MUSHLICH</h2>
+                    <p class="role-badge">&lt; Software Engineer & Researcher /&gt;</p>
+                    <div class="social-links">
+                        <a href="https://github.com/xiaojam" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/xiaojam" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:machruzh@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <br>
+                    <a href="#" class="btn btn-azure">Download Resume</a>
+                </div>
+            </section>
+
+            <section id="Summary" class="content-section scroll-reveal">
+                <h2 class="section-title">&lt;SUMMARY/&gt;</h2>
+                <div class="glass-frame summary-box">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    
+                    <h3 class="summary-quote">
+                        "Simplifying complexity through Human-Centered Engineering."
+                    </h3>
+                    
+                    <p class="summary-brief">
+                        An engineer by trade and a researcher by heart. With over 2 years in the finance sector and a Master's focus on Human-Centered Software Engineering, I don’t just write code; I architect scalable environments where technical complexity is hidden behind seamless human experiences.
+                    </p>
+                    
+                    <div class="center-btn">
+                        <a href="./page/about.html" class="btn btn-azure">More About Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Experience" class="content-section scroll-reveal">
+                <h2 class="section-title">&lt;EXPERIENCE/&gt;</h2>
+                
+                <div class="glass-frame">
+                    <div class="company-header">
+                        <div class="company-logo"><img src="./assets/img/logo/bfi.png" alt="BFI"></div>
+                        <h3>PT BFI Finance Indonesia Tbk</h3>
+                    </div>
+                    <div class="role-timeline">
+                        <div class="role-item">
+                            <div class="role-dot"></div>
+                            <h4 class="role-title">Backend Engineer</h4>
+                            <span class="role-date">01/2024 — 10/2024</span>
+                            <div class="role-desc">
+                                <ul>
+                                    <li>Contributed to the end-to-end implementation of a core system, managing its transition from a 3-branch pilot to a nationwide go-live across 200+ branches.</li>
+                                    <li>Developed an adaptable system template and modular workflows for 6 different loan products, enabling the system to handle diverse risk profiles and dynamic approval rules. </li>
+                                    <li>Provided technical guidance to associate engineers and performed peer code reviews to ensure architectural alignment and software robustness across the squad. </li>
+                                </ul>
+                            </div>
                         </div>
-                    </a>
+                        <div class="role-item">
+                            <div class="role-dot"></div>
+                            <h4 class="role-title">Associate Backend Engineer</h4>
+                            <span class="role-date">10/2022 — 12/2023</span>
+                            <div class="role-desc">
+                                <ul>
+                                    <li>Developed scalable microservices and 3+ core modules, optimizing system performance for high-traffic environments.</li>
+                                    <li>Built a hybrid scoring system and tailored operational workflows for Surveyors and Ops Staff, supporting complex Sharia and Conventional compliance requirements.</li> 
+                                    <li>Collaborated in cross-functional Agile teams to deliver end-to-end solutions aligned with strategic business objectives.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="role-item">
+                            <div class="role-dot"></div>
+                            <h4 class="role-title">BFI Technology Development Program</h4>
+                            <span class="role-date">06/2022 — 10/2022</span>
+                            <div class="role-desc">
+                                <ul>
+                                    <li>Accelerated mastery of complex finance business processes and internal system architectures within an intensive On-the-Job Training (OJT), achieving full readiness for squad deployment.</li>
+                                    <li>Assisted in backend development and technical documentation while proactively troubleshooting bugs to ensure system stability and 100% accuracy in system documentation prior to production releases.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="project-list">
-                    <h3>Surveyor Sharia Platform</h3>
-                    <a class="project click-in">
-                        <img src="./assets/img/bfi.png" alt="">
-                        <div class="overlay">
-                            <svg fill="#FFF" width="50px" height="50px" viewBox="0 0 32 32" version="1.1"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z">
-                                </path>
-                            </svg>
+                <div class="glass-frame" style="margin-top:20px;">
+                    <div class="company-header">
+                        <div class="company-logo"><img src="./assets/img/logo/merdeka.png" alt="RML"></div>
+                        <h3>PT Radio Merdeka Lokatama</h3>
+                    </div>
+                    <div class="role-timeline">
+                        <div class="role-item">
+                            <div class="role-dot"></div>
+                            <h4 class="role-title">IT Support (Intern)</h4>
+                            <span class="role-date">01/2020 — 02/2020</span>
+                            <div class="role-desc">
+                                <ul>
+                                    <li>Resolved hardware, software, and network issues through proactive troubleshooting and maintained detailed support logs for process improvement.</li>
+                                    <li>Authored 30+ broadcast segments, including ad announcements, song transitions, and breaking news, contributing to daily radio operations.</li>
+                                </ul>
+                            </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
+            </section>
 
-                <div class="project-list">
-                    <h3>Operation Platform</h3>
-                    <a class="project click-in">
-                        <img src="./assets/img/bfi.png" alt="">
-                        <div class="overlay">
-                            <svg fill="#FFF" width="50px" height="50px" viewBox="0 0 32 32" version="1.1"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z">
-                                </path>
-                            </svg>
+            <section id="Projects" class="content-section scroll-reveal">
+                <h2 class="section-title">&lt;PROJECTS/&gt;</h2>
+                <div class="project-grid">
+                    <div class="project-card glass-frame">
+                        <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
+                        <div class="proj-body">
+                            <h3>Marriage & Divorce Registration System</h3>
+                            <div class="tags">
+                                <span class="tag-lime">Spring Boot</span>
+                                <span class="tag-lime">Camunda</span>
+                                <span class="tag-lime">PostgreSQL</span>
+                            </div>
+                            <!--<p class="proj-desc"></p>-->
                         </div>
-                    </a>
-                </div>
-
-                <div class="project-list">
-                    <h3>Surveyor Platform</h3>
-                    <a class="project click-in">
-                        <img src="./assets/img/bfi.png" alt="">
-                        <div class="overlay">
-                            <svg fill="#FFF" width="50px" height="50px" viewBox="0 0 32 32" version="1.1"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M16 1v4.5h-10.5l3 3-7.5 7.5h4.5v10.5l3-3 7.5 7.5v-4.5h10.5l-3-3 7.5-7.5h-4.5v-10.5l-3 3-7.5-7.5zM16 8.5c4.142 0 7.5 3.358 7.5 7.5s-3.358 7.5-7.5 7.5-7.5-3.358-7.5-7.5c0-4.142 3.358-7.5 7.5-7.5zM19 16c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z">
-                                </path>
-                            </svg>
+                    </div>
+                    
+                    <div class="project-card glass-frame">
+                        <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
+                        <div class="proj-body">
+                            <h3>Sentiment Analysis Dating Apps</h3>
+                            <div class="tags">
+                                <span class="tag-lime">Python</span>
+                                <span class="tag-lime">PyTorch</span>
+                                <span class="tag-lime">Pandas</span>
+                            </div>
+                            <!--<p class="proj-desc"></p>-->
                         </div>
-                    </a>
+                    </div>
+                    
+                    <div class="project-card glass-frame">
+                        <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
+                        <div class="proj-body">
+                            <h3>User Management System</h3>
+                            <div class="tags">
+                                <span class="tag-lime">Spring Boot</span>
+                                <span class="tag-lime">Keycloak</span>
+                                <span class="tag-lime">PostgreSQL</span>
+                            </div>
+                            <!--<p class="proj-desc"></p>-->
+                        </div>
+                    </div>
+                    
+                    <div class="project-card glass-frame">
+                        <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
+                        <div class="proj-body">
+                            <h3>Surveyor Platform</h3>
+                            <div class="tags">
+                                <span class="tag-lime">Keycloak</span>
+                                <span class="tag-lime">Spring Boot</span>
+                                <span class="tag-lime">Camunda</span>
+                            </div>
+                            <!--<p class="proj-desc"></p>-->
+                        </div>
+                    </div>
                 </div>
-            </div>
+                
+                <div class="center-btn">
+                    <a href="publications.html" class="btn-outline-azure">View All Projects</a>
+                </div>
+            </section>
 
-        </div>
+            <section id="Skills" class="content-section scroll-reveal">
+                <h2 class="section-title">&lt;SKILLS/&gt;</h2>
+                <div class="skills-grid">
+                    <div class="skill-item glass-frame">
+                        <svg viewBox="0 0 128 128">
+                            <path fill="#0074BD" d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z"></path><path fill="#EA2D2E" d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z"></path><path fill="#0074BD" d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z"></path><path fill="#EA2D2E" d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z"></path><path fill="#0074BD" d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"></path>
+                        </svg>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item glass-frame">
+                        <svg viewBox="0 0 128 128">
+                            <path d="M116.452 6.643a59.104 59.104 0 01-6.837 12.136A64.249 64.249 0 0064.205-.026C28.984-.026 0 28.982 0 64.242a64.316 64.316 0 0019.945 46.562l2.368 2.1a64.22 64.22 0 0041.358 15.122c33.487 0 61.637-26.24 64.021-59.683 1.751-16.371-3.051-37.077-11.24-61.7zM29.067 111.17a5.5 5.5 0 01-4.269 2.034c-3.018 0-5.487-2.484-5.487-5.502 0-3.017 2.485-5.501 5.487-5.501 1.25 0 2.485.433 3.452 1.234 2.351 1.9 2.718 5.384.817 7.735zm87.119-19.238c-15.843 21.122-49.68 14.003-71.376 15.02 0 0-3.852.234-7.721.867 0 0 1.45-.617 3.335-1.334 15.226-5.301 22.43-6.335 31.685-11.086 17.427-8.869 34.654-28.274 38.24-48.463-6.637 19.422-26.75 36.11-45.077 42.895-12.557 4.635-35.238 9.136-35.238 9.136l-.917-.484c-15.442-7.518-15.91-40.977 12.157-51.78 12.291-4.735 24.048-2.134 37.323-5.302 14.175-3.367 30.568-14.004 37.238-27.874 7.471 22.19 16.46 56.932.35 78.405z" fill="#77bc1f"></path>
+                        </svg>
+                        <span>Spring</span>
+                    </div>                    
+                    <div class="skill-item glass-frame">
+                        <svg viewBox="0 0 128 128">
+                            <defs><path id="go-original-a" d="M18.8 1h90.5v126H18.8z"></path></defs><clipPath id="go-original-b"><use xlink:href="#go-original-a" overflow="visible"></use></clipPath><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M21.1 68.7c.2 3.5 3.7 1.9 5.3.8 1.5-1.1 2-.2 2.1-2.3.1-1.4.2-2.7.2-4.1-2.3-.2-4.8.3-6.7 1.7-.9.7-2.8 3-.9 3.9" clip-path="url(#go-original-b)"></path><path d="M23 71.2c-.7 0-2-.3-2.2-2.3-.6-.4-.8-.9-.8-1.2-.1-1.2 1.2-2.6 1.9-3.1 1.6-1.2 3.7-1.8 5.9-1.8h1.3v.3c.1 1.1 0 2.2-.1 3.2 0 .3 0 .6-.1.9-.1 1.5-.4 1.7-1.1 2-.3.1-.6.2-1.1.6-.5.3-2.2 1.4-3.7 1.4zm4.8-7.8c-2.1 0-4 .6-5.5 1.7-.7.5-1.7 1.7-1.6 2.5 0 .3.2.6.6.8l.2.1v.2c.1 1.6.9 1.8 1.5 1.8 1 0 2.4-.7 3.3-1.3.6-.4 1-.5 1.3-.6.5-.2.6-.2.7-1.4 0-.3 0-.6.1-.9.1-.9.1-1.9.1-2.8-.3-.1-.5-.1-.7-.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#C6B198" d="M21.1 68.7c.5-.2 1.1-.3 1.4-.8" clip-path="url(#go-original-b)"></path><path d="M21.1 69c-.1 0-.3-.1-.3-.2-.1-.2 0-.4.2-.4.1 0 .2-.1.2-.1.4-.2.8-.3 1-.6.1-.1.3-.2.5-.1.1.1.2.3.1.5-.4.5-.9.7-1.3.8l-.2.1h-.2z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M29.3 26.4c-13.6-3.8-3.5-21.1 7.4-14l-7.4 14z" clip-path="url(#go-original-b)"></path><path d="M29.5 26.8l-.3-.1c-7-2-6.9-7-6.7-8.5.5-3.8 4.1-7.8 8.9-7.8 1.9 0 3.7.6 5.5 1.8l.3.2-7.7 14.4zm1.9-15.7c-4.5 0-7.8 3.7-8.3 7.2-.5 3.6 1.7 6.4 6 7.7l7.1-13.5c-1.5-.9-3.1-1.4-4.8-1.4z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M89.6 11.1c10.7-7.5 20.5 9.5 8 13.8l-8-13.8z" clip-path="url(#go-original-b)"></path><path d="M97.5 25.3L89.2 11l.3-.2c1.9-1.3 3.8-2 5.7-2 4.6 0 7.9 3.8 8.6 7.5.3 1.5.6 6.6-6 8.8l-.3.2zm-7.4-14l7.7 13.3c3.9-1.4 5.9-4.4 5.3-8-.6-3.4-3.7-6.9-7.9-6.9-1.7-.1-3.4.4-5.1 1.6z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M92 112.3c2.7 1.7 7.7 6.8 3.6 9.3-3.9 3.6-6.1-4-9.6-5 1.5-2 3.4-3.9 6-4.3" clip-path="url(#go-original-b)"></path><path d="M93.5 122.9c-1.6 0-3-1.6-4.2-3.1-1.1-1.2-2.2-2.5-3.4-2.9l-.5-.1.3-.4c1.2-1.7 3.2-3.9 6.2-4.4h.1l.1.1c1.7 1.1 5.4 4.2 5.3 7.1 0 1.1-.6 2-1.7 2.7-.7.7-1.4 1-2.2 1zm-7-6.5c1.2.5 2.2 1.8 3.2 2.9 1.2 1.5 2.4 2.8 3.7 2.8.6 0 1.2-.3 1.8-.9h.1c.9-.6 1.4-1.3 1.4-2.2 0-2.3-2.9-5.2-4.9-6.5-1.8.5-3.6 1.7-5.3 3.9zm9.1 5.5c-.1 0-.2-.1-.3-.2-.2-.4-.4-.9-.5-1.3-.3-.8-.6-1.6-1.2-2.2-.1-.1-.1-.3 0-.5.1-.1.3-.1.5 0 .7.7 1.1 1.6 1.4 2.5l.5 1.2c.1.2 0 .4-.1.5h-.3z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M43.2 118.1c-3.2.5-5 3.4-7.7 4.9-2.5 1.5-3.5-.5-3.7-.9-.4-.2-.4.2-1-.4-2.3-3.7 2.4-6.4 4.9-8.2 3.5-.8 5.7 2.2 7.5 4.6" clip-path="url(#go-original-b)"></path><path d="M33.8 123.8c-1.3 0-2-1.1-2.2-1.5h-.1c-.3 0-.5-.1-.9-.5v-.1c-2.2-3.5 1.6-6.2 4.1-8l.9-.6h.2c.4-.1.7-.1 1.1-.1 3 0 4.9 2.6 6.5 4.7l.5.7-.6.1c-1.9.3-3.3 1.5-4.7 2.7-.9.8-1.8 1.5-2.8 2.1-.8.3-1.4.5-2 .5zm-2.2-2.1c.1 0 .2 0 .4.1h.1l.1.1c.2.3.7 1.2 1.7 1.2.5 0 1-.2 1.5-.5 1-.5 1.9-1.3 2.7-2 1.3-1.1 2.7-2.3 4.5-2.8-1.5-2-3.3-4.2-5.8-4.2-.3 0-.6 0-.9.1l-.8.6c-2.6 1.8-5.8 4.1-3.9 7.1.1.2.2.3.4.3zm.2.7c-.2 0-.4-.2-.3-.4.1-1 .6-1.7 1.1-2.5.3-.4.5-.8.7-1.2.1-.2.3-.2.4-.2.2.1.2.3.2.4-.2.5-.5.9-.8 1.3-.5.7-.9 1.3-1 2.1 0 .4-.1.5-.3.5z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M29.9 21.7c-1.8-.9-3.1-2.2-2-4.3 1-1.9 2.9-1.7 4.7-.8l-2.7 5.1zm64.9-1.8c1.8-.9 3.1-2.2 2-4.3-1-1.9-2.9-1.7-4.7-.8l2.7 5.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M107.1 68.2c-.2 3.5-3.7 1.9-5.3.8-1.5-1.1-2-.2-2.1-2.3-.1-1.4-.2-2.7-.2-4.1 2.3-.2 4.8.3 6.7 1.7 1 .8 2.8 3 .9 3.9" clip-path="url(#go-original-b)"></path><path d="M105.3 70.7c-1.5 0-3.2-1.1-3.7-1.4-.5-.3-.8-.5-1.1-.6-.8-.3-1-.5-1.1-2 0-.3 0-.6-.1-.9-.1-1-.2-2.1-.1-3.2v-.3h1.3c2.2 0 4.3.6 5.9 1.8.7.5 2 1.9 1.9 3.1 0 .4-.2.9-.8 1.2-.2 2-1.5 2.3-2.2 2.3zM99.8 63c0 .9 0 1.9.1 2.8 0 .3 0 .6.1.9.1 1.2.2 1.2.7 1.4.3.1.7.3 1.3.6.9.6 2.3 1.3 3.3 1.3.6 0 1.4-.2 1.5-1.8V68l.2-.1c.4-.2.6-.4.6-.8.1-.8-.9-2-1.6-2.5-1.5-1.1-3.5-1.7-5.5-1.7-.2.1-.4.1-.7.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#C6B198" d="M107.1 68.2c-.5-.2-1.1-.3-1.4-.8" clip-path="url(#go-original-b)"></path><path d="M107.1 68.6h-.1l-.2-.1c-.5-.2-1-.3-1.3-.8-.1-.1-.1-.4.1-.5.1-.1.4-.1.5.1.2.3.6.4 1 .6.1 0 .2.1.2.1.2.1.3.3.2.4-.1.1-.3.2-.4.2z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M62.8 4c13.6 0 26.3 1.9 33 15 6 14.6 3.8 30.4 4.8 45.9.8 13.3 2.5 28.6-3.6 40.9-6.5 12.9-22.7 16.2-36 15.7-10.5-.4-23.1-3.8-29.1-13.4-6.9-11.2-3.7-27.9-3.2-40.4.6-14.8-4-29.7.9-44.1C34.5 8.5 48.1 5.1 62.8 4" clip-path="url(#go-original-b)"></path><path d="M63.3 121.9h-2.5c-4.1-.1-10.3-.8-16.4-3.3-5.9-2.4-10.2-5.8-13-10.3-5.6-9.1-4.6-21.6-3.7-32.7.2-2.8.4-5.4.5-7.9.2-5.2-.2-10.6-.7-15.7-.8-9.4-1.6-19.1 1.5-28.5 2.4-7 6.7-12 13.2-15.2 5.1-2.5 11.4-3.9 20.4-4.6C76 3.6 89.3 5.5 96 18.8c4.4 10.7 4.4 22.2 4.5 33.3 0 4.2 0 8.5.3 12.7.1 1.3.2 2.6.2 3.9.8 12.2 1.7 26-3.9 37.2-2.8 5.7-7.7 9.9-14.4 12.6-5.4 2.2-12.2 3.4-19.4 3.4zM62.8 4.3c-14.1 1.1-27.9 4.2-33 19.4-3.1 9.3-2.3 18.9-1.5 28.2.4 5.2.9 10.5.7 15.8-.1 2.5-.3 5.1-.5 7.9-.9 11-1.9 23.4 3.6 32.3 2.3 3.7 9.7 12.5 28.8 13.2h2.5c22.1 0 30.3-9.8 33.3-15.6 5.5-11 4.6-24.8 3.9-36.9-.1-1.3-.2-2.6-.2-3.9-.2-4.2-.3-8.5-.3-12.7-.1-11-.1-22.5-4.4-33.1C92.7 13 88.2 9 82 6.7c-6.4-2.1-13.6-2.4-19.2-2.4z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M65.2 22.2c2.4 14.2 25.6 10.4 22.3-3.9-3-12.8-23.1-9.2-22.3 3.9" clip-path="url(#go-original-b)"></path><path d="M76.2 31.5c-4.5 0-10.2-2.4-11.4-9.2-.2-3.2.8-6.1 2.9-8.3 2.3-2.5 5.8-3.9 9.4-3.9 4.2 0 9.2 2.2 10.6 8.3.8 3.4.2 6.4-1.7 8.8-2.1 2.6-5.8 4.3-9.8 4.3zm-10.7-9.3c.5 2.8 1.8 5 3.9 6.6 1.8 1.4 4.3 2.1 6.8 2.1 3.7 0 7.3-1.6 9.3-4.1 1.8-2.2 2.3-5.1 1.6-8.3-1.3-5.7-6-7.7-10-7.7-3.4 0-6.7 1.4-8.9 3.7-1.9 2-2.9 4.7-2.7 7.7z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M37.5 24.5c3.2 12.3 22.9 9.2 22.2-3.2-.9-14.8-25.3-12-22.2 3.2" clip-path="url(#go-original-b)"></path><path d="M48 32.7c-4.3 0-9.3-2.1-10.9-8.1-.7-3.5 0-6.7 2-9.1 2.2-2.7 5.8-4.3 9.7-4.3 5.2 0 10.7 3.1 11.1 10.1.2 2.9-.7 5.5-2.7 7.6-2.1 2.3-5.6 3.8-9.2 3.8zm.8-20.8c-3.7 0-7.1 1.5-9.2 4-1.9 2.3-2.5 5.2-1.8 8.5C39.2 30 44 32 48 32c3.4 0 6.7-1.3 8.8-3.6 1.8-1.9 2.7-4.4 2.5-7.1-.2-4.3-3.1-9.4-10.5-9.4z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M68 39.2c0 1.8.4 3.9.1 5.9-.5.9-1.4 1-2.2 1.3-1.1-.2-2-.9-2.5-1.9-.3-2.2.1-4.4.2-6.6l4.4 1.3z" clip-path="url(#go-original-b)"></path><path d="M65.9 46.8c-1.3-.2-2.3-1-2.8-2.1-.2-1.6-.1-3.1 0-4.6.1-.7.1-1.4.1-2.1v-.4l5.1 1.6v.2c0 .6.1 1.2.1 1.9.1 1.3.2 2.7 0 4v.1c-.4.8-1.1 1-1.8 1.3-.2-.1-.4 0-.7.1zm-2.2-2.4c.4.9 1.2 1.5 2.1 1.7.2-.1.4-.1.5-.2.6-.2 1.1-.4 1.4-.9.2-1.2.1-2.5 0-3.8 0-.6-.1-1.2-.1-1.7l-3.8-1.2c0 .6-.1 1.2-.1 1.7-.1 1.6-.2 3 0 4.4z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M46.3 22.5c0 2-1.5 3.6-3.3 3.6-1.8 0-3.3-1.6-3.3-3.6s1.5-3.6 3.3-3.6c1.8 0 3.3 1.6 3.3 3.6" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M45.2 23.3c0 .5-.4.9-.8.9s-.8-.4-.8-.9.4-.9.8-.9c.5 0 .8.4.8.9" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M74.2 21.6c0 2-1.5 3.6-3.3 3.6-1.8 0-3.3-1.6-3.3-3.6s1.5-3.6 3.3-3.6c1.8 0 3.3 1.6 3.3 3.6" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M73.2 22.4c0 .5-.3.9-.8.9-.4 0-.8-.4-.8-.9s.3-.9.8-.9c.4 0 .8.4.8.9M58.4 39c-1.5 3.5.8 10.6 4.8 5.4-.3-2.2.1-4.4.2-6.6l-5 1.2z" clip-path="url(#go-original-b)"></path><path d="M60.5 46.6c-.7 0-1.4-.4-1.9-1.2-1.1-1.6-1.3-4.6-.5-6.5l.1-.2 5.5-1.4v.4l-.1 2.2c-.1 1.5-.2 2.9 0 4.4v.1l-.1.1c-1 1.4-2 2.1-3 2.1zm-1.8-7.3c-.6 1.7-.4 4.4.5 5.7.4.6.8.9 1.3.9.7 0 1.5-.6 2.3-1.6-.2-1.5-.1-3 .1-4.4l.1-1.7-4.3 1.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M58.9 32.2c-2.7.2-4.9 3.5-3.5 6 1.9 3.4 6-.3 8.6 0 3 .1 5.4 3.2 7.8.6 2.7-2.9-1.2-5.7-4.1-7l-8.8.4z" clip-path="url(#go-original-b)"></path><path fill="#231F20" d="M69.7 40.2c-.9 0-1.8-.4-2.7-.8-.9-.4-1.9-.8-3-.8h-.3c-.8 0-1.7.3-2.7.7-1.1.4-2.2.7-3.2.7-1.2 0-2.1-.5-2.7-1.6-.7-1.2-.6-2.6.1-3.9.8-1.5 2.2-2.4 3.7-2.6l8.9-.4h.1c2.2.9 4.7 2.6 5.2 4.6.2 1-.1 2-.9 2.9-.8.9-1.6 1.2-2.5 1.2zM64.1 38c1.1 0 2.2.5 3.2.9.9.4 1.7.7 2.5.7.7 0 1.3-.3 1.9-.9.7-.7.9-1.5.8-2.3-.4-1.7-2.8-3.3-4.7-4.1l-8.7.4c-1.3.1-2.5 1-3.2 2.2-.6 1.1-.6 2.3-.1 3.3.5.9 1.1 1.3 2.1 1.3.9 0 1.9-.4 2.9-.7 1.1-.4 2-.7 3-.7 0-.2.1-.2.3-.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M58.6 32.1c-.2-4.7 8.8-5.3 9.8-1.4 1.1 4-9.4 4.9-9.8 1.4" clip-path="url(#go-original-b)"></path>
+                        </svg>
+                        <span>Go</span>
+                    </div>               
+                    <div class="skill-item glass-frame">
+                        <svg viewBox="0 0 128 128">
+                            <path d="M93.809 92.112c.785-6.533.55-7.492 5.416-6.433l1.235.108c3.742.17 8.637-.602 11.513-1.938 6.191-2.873 9.861-7.668 3.758-6.409-13.924 2.873-14.881-1.842-14.881-1.842 14.703-21.815 20.849-49.508 15.543-56.287-14.47-18.489-39.517-9.746-39.936-9.52l-.134.025c-2.751-.571-5.83-.912-9.289-.968-6.301-.104-11.082 1.652-14.709 4.402 0 0-44.683-18.409-42.604 23.151.442 8.841 12.672 66.898 27.26 49.362 5.332-6.412 10.484-11.834 10.484-11.834 2.558 1.699 5.622 2.567 8.834 2.255l.249-.212c-.078.796-.044 1.575.099 2.497-3.757 4.199-2.653 4.936-10.166 6.482-7.602 1.566-3.136 4.355-.221 5.084 3.535.884 11.712 2.136 17.238-5.598l-.22.882c1.474 1.18 1.375 8.477 1.583 13.69.209 5.214.558 10.079 1.621 12.948 1.063 2.868 2.317 10.256 12.191 8.14 8.252-1.764 14.561-4.309 15.136-27.985"></path><path d="M75.458 125.256c-4.367 0-7.211-1.689-8.938-3.32-2.607-2.46-3.641-5.629-4.259-7.522l-.267-.79c-1.244-3.358-1.666-8.193-1.916-14.419-.038-.935-.064-1.898-.093-2.919-.021-.747-.047-1.684-.085-2.664a18.8 18.8 0 01-4.962 1.568c-3.079.526-6.389.356-9.84-.507-2.435-.609-4.965-1.871-6.407-3.82-4.203 3.681-8.212 3.182-10.396 2.453-3.853-1.285-7.301-4.896-10.542-11.037-2.309-4.375-4.542-10.075-6.638-16.943-3.65-11.96-5.969-24.557-6.175-28.693C4.292 23.698 7.777 14.44 15.296 9.129 27.157.751 45.128 5.678 51.68 7.915c4.402-2.653 9.581-3.944 15.433-3.851 3.143.051 6.136.327 8.916.823 2.9-.912 8.628-2.221 15.185-2.139 12.081.144 22.092 4.852 28.949 13.615 4.894 6.252 2.474 19.381.597 26.651-2.642 10.226-7.271 21.102-12.957 30.57 1.544.011 3.781-.174 6.961-.831 6.274-1.295 8.109 2.069 8.607 3.575 1.995 6.042-6.677 10.608-9.382 11.864-3.466 1.609-9.117 2.589-13.745 2.377l-.202-.013-1.216-.107-.12 1.014-.116.991c-.311 11.999-2.025 19.598-5.552 24.619-3.697 5.264-8.835 6.739-13.361 7.709-1.544.33-2.947.474-4.219.474zm-9.19-43.671c2.819 2.256 3.066 6.501 3.287 14.434.028.99.054 1.927.089 2.802.106 2.65.355 8.855 1.327 11.477.137.371.26.747.39 1.146 1.083 3.316 1.626 4.979 6.309 3.978 3.931-.843 5.952-1.599 7.534-3.851 2.299-3.274 3.585-9.86 3.821-19.575l4.783.116-4.75-.57.14-1.186c.455-3.91.783-6.734 3.396-8.602 2.097-1.498 4.486-1.353 6.389-1.01-2.091-1.58-2.669-3.433-2.823-4.193l-.399-1.965 1.121-1.663c6.457-9.58 11.781-21.354 14.609-32.304 2.906-11.251 2.02-17.226 1.134-18.356-11.729-14.987-32.068-8.799-34.192-8.097l-.359.194-1.8.335-.922-.191c-2.542-.528-5.366-.82-8.393-.869-4.756-.08-8.593 1.044-11.739 3.431l-2.183 1.655-2.533-1.043c-5.412-2.213-21.308-6.662-29.696-.721-4.656 3.298-6.777 9.76-6.305 19.207.156 3.119 2.275 14.926 5.771 26.377 4.831 15.825 9.221 21.082 11.054 21.693.32.108 1.15-.537 1.976-1.529a270.708 270.708 0 0110.694-12.07l2.77-2.915 3.349 2.225c1.35.897 2.839 1.406 4.368 1.502l7.987-6.812-1.157 11.808c-.026.265-.039.626.065 1.296l.348 2.238-1.51 1.688-.174.196 4.388 2.025 1.836-2.301z"></path><path fill="#336791" d="M115.731 77.44c-13.925 2.873-14.882-1.842-14.882-1.842 14.703-21.816 20.849-49.51 15.545-56.287C101.924.823 76.875 9.566 76.457 9.793l-.135.024c-2.751-.571-5.83-.911-9.291-.967-6.301-.103-11.08 1.652-14.707 4.402 0 0-44.684-18.408-42.606 23.151.442 8.842 12.672 66.899 27.26 49.363 5.332-6.412 10.483-11.834 10.483-11.834 2.559 1.699 5.622 2.567 8.833 2.255l.25-.212c-.078.796-.042 1.575.1 2.497-3.758 4.199-2.654 4.936-10.167 6.482-7.602 1.566-3.136 4.355-.22 5.084 3.534.884 11.712 2.136 17.237-5.598l-.221.882c1.473 1.18 2.507 7.672 2.334 13.557-.174 5.885-.29 9.926.871 13.082 1.16 3.156 2.316 10.256 12.192 8.14 8.252-1.768 12.528-6.351 13.124-13.995.422-5.435 1.377-4.631 1.438-9.49l.767-2.3c.884-7.367.14-9.743 5.225-8.638l1.235.108c3.742.17 8.639-.602 11.514-1.938 6.19-2.871 9.861-7.667 3.758-6.408z"></path><path fill="#fff" d="M75.957 122.307c-8.232 0-10.84-6.519-11.907-9.185-1.562-3.907-1.899-19.069-1.551-31.503a1.59 1.59 0 011.64-1.55 1.594 1.594 0 011.55 1.639c-.401 14.341.168 27.337 1.324 30.229 1.804 4.509 4.54 8.453 12.275 6.796 7.343-1.575 10.093-4.359 11.318-11.46.94-5.449 2.799-20.951 3.028-24.01a1.593 1.593 0 011.71-1.472 1.597 1.597 0 011.472 1.71c-.239 3.185-2.089 18.657-3.065 24.315-1.446 8.387-5.185 12.191-13.794 14.037-1.463.313-2.792.453-4 .454zM31.321 90.466a6.71 6.71 0 01-2.116-.35c-5.347-1.784-10.44-10.492-15.138-25.885-3.576-11.717-5.842-23.947-6.041-27.922-.589-11.784 2.445-20.121 9.02-24.778 13.007-9.216 34.888-.44 35.813-.062a1.596 1.596 0 01-1.207 2.955c-.211-.086-21.193-8.492-32.768-.285-5.622 3.986-8.203 11.392-7.672 22.011.167 3.349 2.284 15.285 5.906 27.149 4.194 13.742 8.967 22.413 13.096 23.79.648.216 2.62.873 5.439-2.517A245.272 245.272 0 0145.88 73.046a1.596 1.596 0 012.304 2.208c-.048.05-4.847 5.067-10.077 11.359-2.477 2.979-4.851 3.853-6.786 3.853zm69.429-13.445a1.596 1.596 0 01-1.322-2.487c14.863-22.055 20.08-48.704 15.612-54.414-5.624-7.186-13.565-10.939-23.604-11.156-7.433-.16-13.341 1.738-14.307 2.069l-.243.099c-.971.305-1.716-.227-1.997-.849a1.6 1.6 0 01.631-2.025c.046-.027.192-.089.429-.176l-.021.006.021-.007c1.641-.601 7.639-2.4 15.068-2.315 11.108.118 20.284 4.401 26.534 12.388 2.957 3.779 2.964 12.485.019 23.887-3.002 11.625-8.651 24.118-15.497 34.277-.306.457-.81.703-1.323.703zm.76 10.21c-2.538 0-4.813-.358-6.175-1.174-1.4-.839-1.667-1.979-1.702-2.584-.382-6.71 3.32-7.878 5.208-8.411-.263-.398-.637-.866-1.024-1.349-1.101-1.376-2.609-3.26-3.771-6.078-.182-.44-.752-1.463-1.412-2.648-3.579-6.418-11.026-19.773-6.242-26.612 2.214-3.165 6.623-4.411 13.119-3.716C97.6 28.837 88.5 10.625 66.907 10.271c-6.494-.108-11.82 1.889-15.822 5.93-8.96 9.049-8.636 25.422-8.631 25.586a1.595 1.595 0 11-3.19.084c-.02-.727-.354-17.909 9.554-27.916C53.455 9.272 59.559 6.96 66.96 7.081c13.814.227 22.706 7.25 27.732 13.101 5.479 6.377 8.165 13.411 8.386 15.759.165 1.746-1.088 2.095-1.341 2.147l-.576.013c-6.375-1.021-10.465-.312-12.156 2.104-3.639 5.201 3.406 17.834 6.414 23.229.768 1.376 1.322 2.371 1.576 2.985.988 2.396 2.277 4.006 3.312 5.3.911 1.138 1.7 2.125 1.982 3.283.131.23 1.99 2.98 13.021.703 2.765-.57 4.423-.083 4.93 1.45.997 3.015-4.597 6.532-7.694 7.97-2.775 1.29-7.204 2.106-11.036 2.106zm-4.696-4.021c.35.353 2.101.962 5.727.806 3.224-.138 6.624-.839 8.664-1.786 2.609-1.212 4.351-2.567 5.253-3.492l-.5.092c-7.053 1.456-12.042 1.262-14.828-.577a6.162 6.162 0 01-.54-.401c-.302.119-.581.197-.78.253-1.58.443-3.214.902-2.996 5.105zm-45.562 8.915c-1.752 0-3.596-.239-5.479-.71-1.951-.488-5.24-1.957-5.19-4.37.057-2.707 3.994-3.519 5.476-3.824 5.354-1.103 5.703-1.545 7.376-3.67.488-.619 1.095-1.39 1.923-2.314 1.229-1.376 2.572-2.073 3.992-2.073.989 0 1.8.335 2.336.558 1.708.708 3.133 2.42 3.719 4.467.529 1.847.276 3.625-.71 5.006-3.237 4.533-7.886 6.93-13.443 6.93zm-7.222-4.943c.481.372 1.445.869 2.518 1.137 1.631.408 3.213.615 4.705.615 4.546 0 8.196-1.882 10.847-5.594.553-.774.387-1.757.239-2.274-.31-1.083-1.08-2.068-1.873-2.397-.43-.178-.787-.314-1.115-.314-.176 0-.712 0-1.614 1.009a41.146 41.146 0 00-1.794 2.162c-2.084 2.646-3.039 3.544-9.239 4.821-1.513.31-2.289.626-2.674.835zm12.269-7.36a1.596 1.596 0 01-1.575-1.354 8.218 8.218 0 01-.08-.799c-4.064-.076-7.985-1.82-10.962-4.926-3.764-3.927-5.477-9.368-4.699-14.927.845-6.037.529-11.366.359-14.229-.047-.796-.081-1.371-.079-1.769.003-.505.013-1.844 4.489-4.113 1.592-.807 4.784-2.215 8.271-2.576 5.777-.597 9.585 1.976 10.725 7.246 3.077 14.228.244 20.521-1.825 25.117-.385.856-.749 1.664-1.04 2.447l-.257.69c-1.093 2.931-2.038 5.463-1.748 7.354a1.595 1.595 0 01-1.335 1.819l-.244.02zM42.464 42.26l.062 1.139c.176 2.974.504 8.508-.384 14.86-.641 4.585.759 9.06 3.843 12.276 2.437 2.542 5.644 3.945 8.94 3.945h.068c.369-1.555.982-3.197 1.642-4.966l.255-.686c.329-.884.714-1.74 1.122-2.646 1.991-4.424 4.47-9.931 1.615-23.132-.565-2.615-1.936-4.128-4.189-4.627-4.628-1.022-11.525 2.459-12.974 3.837zm9.63-.677c-.08.564 1.033 2.07 2.485 2.271 1.449.203 2.689-.975 2.768-1.539.079-.564-1.033-1.186-2.485-1.388-1.451-.202-2.691.092-2.768.656zm2.818 2.826l-.407-.028c-.9-.125-1.81-.692-2.433-1.518-.219-.29-.576-.852-.505-1.354.101-.736.999-1.177 2.4-1.177.313 0 .639.023.967.069.766.106 1.477.327 2.002.62.91.508.977 1.075.936 1.368-.112.813-1.405 2.02-2.96 2.02zm-2.289-2.732c.045.348.907 1.496 2.029 1.651l.261.018c1.036 0 1.81-.815 1.901-1.082-.096-.182-.762-.634-2.025-.81a5.823 5.823 0 00-.821-.059c-.812 0-1.243.183-1.345.282zm43.605-1.245c.079.564-1.033 2.07-2.484 2.272-1.45.202-2.691-.975-2.771-1.539-.076-.564 1.036-1.187 2.486-1.388 1.45-.203 2.689.092 2.769.655zm-2.819 2.56c-1.396 0-2.601-1.086-2.7-1.791-.115-.846 1.278-1.489 2.712-1.688.316-.044.629-.066.93-.066 1.238 0 2.058.363 2.14.949.053.379-.238.964-.739 1.492-.331.347-1.026.948-1.973 1.079l-.37.025zm.943-3.013c-.276 0-.564.021-.856.061-1.441.201-2.301.779-2.259 1.089.048.341.968 1.332 2.173 1.332l.297-.021c.787-.109 1.378-.623 1.66-.919.443-.465.619-.903.598-1.052-.028-.198-.56-.49-1.613-.49zm3.965 32.843a1.594 1.594 0 01-1.324-2.483c3.398-5.075 2.776-10.25 2.175-15.255-.257-2.132-.521-4.337-.453-6.453.07-2.177.347-3.973.614-5.71.317-2.058.617-4.002.493-6.31a1.595 1.595 0 113.186-.172c.142 2.638-.197 4.838-.525 6.967-.253 1.643-.515 3.342-.578 5.327-.061 1.874.178 3.864.431 5.97.64 5.322 1.365 11.354-2.691 17.411a1.596 1.596 0 01-1.328.708z"></path>
+                        </svg>
+                        <span>PostgreSQL</span>
+                    </div>
 
-        <div id="show-contact" class="show" style="display: none;">
-            <h2>Contact & Social Media</h2>
-            <h3>Send Me WhatsApp Message!</h3>
-            <div class="whatsapp-wrapper">
-                <textarea id="whatsapp" placeholder="Type your WhatsApp message here..."></textarea>
-                <div>
-                    <p class="whatsapp-preview-title">Preview:</p>
-                    <div class="scrollable">
-                        <p class="whatsapp-preview"></p>
+                    
+                    <div class="skill-item glass-frame">
+                        <svg viewBox="0 0 128 128">
+                            <path d="M124.8 52.1c-4.3-2.5-10-2.8-14.8-1.4-.6-5.2-4-9.7-8-12.9l-1.6-1.3-1.4 1.6c-2.7 3.1-3.5 8.3-3.1 12.3.3 2.9 1.2 5.9 3 8.3-1.4.8-2.9 1.9-4.3 2.4-2.8 1-5.9 2-8.9 2H79V49H66V24H51v12H26v13H13v14H1.8l-.2 1.5c-.5 6.4.3 12.6 3 18.5l1.1 2.2.1.2c7.9 13.4 21.7 19 36.8 19 29.2 0 53.3-13.1 64.3-40.6 7.4.4 15-1.8 18.6-8.9l.9-1.8-1.6-1zM28 39h10v11H28V39zm13.1 44.2c0 1.7-1.4 3.1-3.1 3.1-1.7 0-3.1-1.4-3.1-3.1 0-1.7 1.4-3.1 3.1-3.1 1.7.1 3.1 1.4 3.1 3.1zM28 52h10v11H28V52zm-13 0h11v11H15V52zm27.7 50.2c-15.8-.1-24.3-5.4-31.3-12.4 2.1.1 4.1.2 5.9.2 1.6 0 3.2 0 4.7-.1 3.9-.2 7.3-.7 10.1-1.5 2.3 5.3 6.5 10.2 14 13.8h-3.4zM51 63H40V52h11v11zm0-13H40V39h11v11zm13 13H53V52h11v11zm0-13H53V39h11v11zm0-13H53V26h11v11zm13 26H66V52h11v11zM38.8 81.2c-.2-.1-.5-.2-.8-.2-1.2 0-2.2 1-2.2 2.2 0 1.2 1 2.2 2.2 2.2s2.2-1 2.2-2.2c0-.3-.1-.6-.2-.8-.2.3-.4.5-.8.5-.5 0-.9-.4-.9-.9.1-.4.3-.7.5-.8z" fill="#019BC6"></path>
+                        </svg>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-item glass-frame">
+                        <svg viewBox="0 0 512 512"><style>.st9{fill:#d0d0d0}.st11{fill:#d9d9d9}.st13{fill:#d8d8d8}.st14{fill:#e2e2e2}.st16{fill:#dedede}.st21{fill:#00b8e3}.st22{fill:#33c6e9}.st23{fill:#008aaa}</style><g id="g2460" transform="translate(.714 .07)"><path id="path1588" d="M432.9 149.2c-1.4 0-2.7-.7-3.4-2L370.1 44.1c-.7-1.2-2-2-3.5-2H124.2c-1.4 0-2.7.7-3.4 2L58.9 150.9l23.9 34.9c-.7 1.2-6.2 24-5.5 25.2L58.9 360.9l61.9 106.9c.7 1.2 2 2 3.4 2h242.4c1.4 0 2.7-.7 3.5-2l59.4-103.2c.7-1.2 2-2 3.4-2h73.8c2.4 0 4.4-2 4.4-4.4V153.6c0-2.4-2-4.4-4.4-4.4z" style="fill:#4d4d4d"/><path id="path1594" d="M72.7 245.3 6.4 269.4l-6.6-11.3c-.7-1.2-.7-2.7 0-3.9l30-52z" style="fill:#e1e1e1"/><path id="polygon1794" d="M511.3 258.3V309l-43.7-44.5z" style="fill:#c8c8c8"/><path id="path1798" d="m467.5 264.5 43.7 44.5v49.6c0 2.4-2 4.4-4.4 4.4H456z" style="fill:#c2c2c2"/><path id="polygon1802" d="M467.5 264.5 456 362.9h-61.2l-18.5-44.7z" style="fill:#c7c7c7"/><path id="polygon1804" d="M511.3 211.2v47l-43.7 6.2z" style="fill:#cecece"/><path id="path1808" d="M511.3 153.6v57.6l-43.7 53.2-33.1-115.3h72.2c2.4-.1 4.5 1.8 4.6 4.3z" style="fill:#d3d3d3"/><path id="polygon1812" d="M394.8 362.9h-32.3l-8.4-12 22.1-32.7z" style="fill:#c6c6c6"/><path id="polygon1814" d="m467.5 264.5-121.1-51.2 63.7-64.1h24.4z" style="fill:#d5d5d5"/><path id="path1816" d="m346.5 213.3 29.8 105 91.2-53.8z" class="st9"/><path id="polygon1818" d="m353.8 362.9.4-12 8.4 12z" style="fill:#bfbfbf"/><path id="polygon1820" d="m410.1 149.2-63.7 64.1-11.4-57.4 24.6-6.8h50.5z" class="st11"/><path id="path1822" d="m346.5 213.3-147 33.9 154.7 103.7z" style="fill:#d4d4d4"/><path id="path1824" d="m346.5 213.3 7.7 137.6 22.1-32.7z" class="st9"/><path id="path1826" d="m335 155.9-135.5 91.2 147-33.9z" class="st11"/><path id="polygon1828" d="m199.5 247.2-63.7 115.7H99.6L72.7 245.3z" class="st13"/><path id="path1830" d="m134.3 149.2-61.5 96.1L57.3 155l2.2-3.8c.7-1.2 2-1.9 3.4-1.9z" class="st14"/><path id="path1832" d="M99.6 362.9H62.7c-1.4 0-2.8-.8-3.5-2L6.4 269.4l66.4-24.1z" class="st13"/><path id="polygon1834" d="M29.9 202.1 57.1 155l15.7 90.3z" style="fill:#e4e4e4"/><path id="polygon1836" d="m335 155.9-40.8-6.8H159.4l40.1 98z" class="st16"/><path id="polygon1838" d="m199.5 247.2-40.1-98h-25.1l-61.5 96.1z" class="st16"/><path id="polygon1840" d="M324.7 362.9h29.1l.4-12z" style="fill:#c5c5c5"/><path id="polygon1842" d="M266.7 362.9h58l29.5-12-154.7-103.7 27.9 115.7z" class="st9"/><path id="polygon1844" d="m227.4 362.9-27.9-115.7-63.7 115.7z" style="fill:#d1d1d1"/><path id="polygon1856" d="m335.4 149.2-.4 6.8 24.6-6.8z" style="fill:#ddd"/><path id="polygon1858" d="m335 155.9-3.8-6.8h-37z" style="fill:#e3e3e3"/><path id="polygon1860" d="m335 155.9.4-6.8h-4.2z" class="st14"/><path id="path1862" d="m223.9 151-59.7 103.4c-.3.5-.4 1.1-.4 1.7h-41.7l82-142q.75.45 1.2 1.2l18.6 32.3c.5 1.1.5 2.4 0 3.4" class="st21"/><path id="path1864" d="M223.8 364.9 205.3 397q-.45.75-1.2 1.2l-82-142.2h41.7c0 .6.1 1.1.4 1.6l59.6 103.2c.8 1.2.9 2.9 0 4.1" class="st22"/><path id="path1866" d="m204 114.2-82 141.9-20.6 35.6-19.6-34c-.3-.5-.4-1-.4-1.6s.1-1.2.4-1.7l19.9-34.4 60.4-104.5c.6-1.1 1.8-1.8 3-1.8h37.2c.6 0 1.2.2 1.7.5" class="st23"/><path id="path1868" d="M204 398.2c-.5.3-1.1.5-1.8.5h-37.1c-1.3 0-2.4-.7-3-1.8l-55.2-95.6-5.5-9.5 20.6-35.6z" class="st21"/><path id="path1870" d="m368.9 256.1-82 142q-.75-.45-1.2-1.2L267 364.7c-.5-1-.5-2.3 0-3.3L326.7 258c.3-.5.5-1.2.5-1.8z" class="st23"/><path id="path1872" d="M409.4 256.1c0 .6-.2 1.3-.5 1.8l-80.3 139.3c-.6 1-1.8 1.7-3 1.6h-37c-.6 0-1.2-.2-1.8-.5L368.9 256l20.6-35.6 19.5 33.8c.3.7.4 1.3.4 1.9" class="st21"/><path id="path1874" d="M368.9 256.1h-41.7c0-.6-.2-1.2-.5-1.8L267 151.2c-.6-1.1-.6-2.5 0-3.6l18.6-32.2q.45-.75 1.2-1.2z" class="st21"/><path id="path1876" d="m389.4 220.5-20.6 35.6-82-142c.6-.3 1.2-.5 1.8-.5h37.1c1.2 0 2.3.6 3 1.6z" class="st22"/></g></svg>
+                        <span>Keycloak</span>
+                    </div>                    
+                    <div class="skill-item glass-frame">
+                        <svg viewBox="0 0 128 128">
+                            <path fill="#632ca6" d="M104.375 90.884 93.726 83.86 84.843 98.7 74.51 95.677l-9.098 13.885.467 4.371 49.463-9.114-2.873-30.905zM58.247 77.56l7.936-1.092c1.284.577 2.178.797 3.718 1.189 2.397.625 5.173 1.224 9.284-.848.957-.474 2.95-2.296 3.755-3.335l32.515-5.898 3.317 40.144-55.704 10.04zm60.4-14.466-3.21.612L109.271 0 4.207 12.183 17.151 117.22l12.297-1.785c-.982-1.402-2.511-3.099-5.122-5.27-3.622-3.01-2.341-8.12-.205-11.348 2.826-5.453 17.39-12.383 16.565-21.099-.296-3.169-.8-7.295-3.741-10.121a9.8 9.8 0 0 0 .088 2.303s-1.208-1.541-1.81-3.643c-.598-.805-1.068-1.063-1.703-2.139-.453 1.245-.393 2.69-.393 2.69s-.988-2.336-1.148-4.306c-.586.882-.734 2.558-.734 2.558s-1.284-3.68-.991-5.662c-.586-1.725-2.323-5.148-1.831-12.929 3.206 2.247 10.265 1.713 13.015-2.34.913-1.343 1.538-5.008-.456-12.23-1.28-4.63-4.453-11.526-5.689-14.142l-.148.106c.652 2.108 1.996 6.526 2.511 8.668 1.56 6.498 1.98 8.76 1.247 11.755-.623 2.604-2.118 4.309-5.908 6.213-3.789 1.91-8.817-2.739-9.136-2.996-3.681-2.933-6.53-7.717-6.847-10.042-.33-2.544 1.466-4.072 2.372-6.152-1.296.37-2.742 1.028-2.742 1.028s1.725-1.785 3.852-3.329c.88-.583 1.398-.954 2.326-1.725-1.344-.022-2.435.016-2.435.016s2.241-1.21 4.564-2.092c-1.7-.075-3.326-.012-3.326-.012s5-2.236 8.95-3.878c2.715-1.113 5.369-.784 6.86 1.371 1.956 2.824 4.011 4.357 8.367 5.308 2.674-1.185 3.487-1.795 6.848-2.71 2.958-3.253 5.28-3.674 5.28-3.674s-1.152 1.057-1.46 2.717a39 39 0 0 1 3.516-2.424s-.711.879-1.375 2.275l.154.229c1.957-1.174 4.257-2.1 4.257-2.1s-.658.832-1.429 1.908c1.475-.012 4.468.063 5.63.195 6.856.15 8.28-7.324 10.91-8.26 3.295-1.177 4.767-1.889 10.382 3.626 4.817 4.734 8.581 13.208 6.713 15.106-1.567 1.576-4.658-.614-8.084-4.885-1.81-2.262-3.18-4.934-3.82-8.332-.542-2.867-2.648-4.53-2.648-4.53s1.223 2.717 1.223 5.118c0 1.31.164 6.212 2.266 8.962-.208.402-.305 1.99-.535 2.293-2.446-2.955-7.697-5.07-8.554-5.693 2.899 2.375 9.561 7.831 12.12 13.06 2.42 4.945.994 9.477 2.218 10.65.349.337 5.205 6.388 6.14 9.428 1.629 5.3.097 10.867-2.036 14.322l-5.957.928c-.872-.242-1.459-.363-2.24-.816.43-.762 1.286-2.664 1.295-3.055l-.336-.59c-1.854 2.625-4.96 5.176-7.54 6.64-3.377 1.914-7.27 1.62-9.803.835C61.744 71 54.944 66.14 53.304 64.864c0 0-.05 1.02.259 1.248 1.813 2.045 5.967 5.745 9.982 8.323l-8.56.942 4.047 31.508c-1.794.257-2.073.382-4.037.662-1.731-6.115-5.042-10.108-8.661-12.434-3.192-2.05-7.594-2.513-11.808-1.679l-.27.314c2.93-.305 6.388.12 9.942 2.37 3.487 2.204 6.297 7.9 7.332 11.329 1.324 4.382 2.24 9.07-1.325 14.039-2.537 3.532-9.942 5.484-15.924 1.261 1.598 2.57 3.758 4.672 6.665 5.068 4.317.586 8.415-.163 11.235-3.058 2.408-2.476 3.685-7.652 3.349-13.104l3.81-.553 1.375 9.785 63.078-7.595zM80.27 36.521c-.176.402-.453.665-.037 1.973l.025.075.066.169.173.392c.75 1.53 1.571 2.974 2.945 3.711q.534-.09 1.105-.12c1.29-.056 2.105.149 2.622.427.046-.258.057-.634.028-1.189-.1-1.939.384-5.236-3.342-6.972-1.407-.653-3.38-.451-4.038.364.12.015.227.04.311.068.994.349.32.691.142 1.102m10.444 18.09c-.488-.269-2.772-.163-4.378.029-3.058.36-6.36 1.421-7.084 1.986-1.315 1.017-.717 2.79.254 3.518 2.725 2.035 5.114 3.4 7.636 3.068 1.548-.203 2.913-2.654 3.88-4.879.663-1.532.663-3.185-.308-3.722m-27.076-15.69c.862-.818-4.297-1.895-8.3.835-2.952 2.013-3.046 6.33-.22 8.777.283.243.516.414.735.555a24 24 0 0 1 2.847-1.133c1.828-.594 3.349-.9 4.598-1.063.598-.668 1.293-1.845 1.12-3.975-.236-2.89-2.426-2.43-.78-3.995"></path>
+                        </svg>
+                        <span>DataDog</span>
+                    </div>               
+                    <div class="skill-item glass-frame">
+                        <svg viewBox="0 0 128 128">
+                            <path fill="#ff6600" d="M119.517 51.188H79.291a3.641 3.641 0 0 1-3.64-3.642V5.62A5.605 5.605 0 0 0 70.028 0H55.66a5.606 5.606 0 0 0-5.627 5.62v41.646a3.913 3.913 0 0 1-3.92 3.925l-13.188.047c-2.176 0-3.972-1.75-3.926-3.926l.094-41.687A5.606 5.606 0 0 0 23.467 0H9.1a5.61 5.61 0 0 0-5.626 5.625V122.99c0 2.737 2.22 5.01 5.01 5.01h111.033a5.014 5.014 0 0 0 5.008-5.011V56.195a4.975 4.975 0 0 0-5.008-5.007zM100.66 95.242a6.545 6.545 0 0 1-6.525 6.524H82.791a6.545 6.545 0 0 1-6.523-6.524V83.9a6.545 6.545 0 0 1 6.523-6.524h11.343a6.545 6.545 0 0 1 6.525 6.523zm0 0"></path>
+                        </svg>
+                        <span>RabbitMQ</span>
                     </div>
                 </div>
-            </div>
-            <div class="note-list">
-                <p>Note:</p>
-                <p>Use b>>TEXT*> to make it bold</p>
-                <p>Use i>>TEXT_> to make it italic</p>
-            </div>
-            <input type="button" id="whatsapp-button" class="button" onclick="getWhatsAppUrl()" value="Send">
-            <input type="button" id="reset-button" class="button" value="Reset">
-            <div class="break-point"></div>
-            <h3>Let's Connect!</h3>
-            <div class="contact-wrapper">
-                <div class="contact-list">
-                    <a href="https://wa.me/628388886086" target="_blank">
-                        +62 838 8886 086
-                    </a>
-                    <a href="mailto:jampirojam@gmail.com" target="_blank">
-                        jampirojam@gmail.com
-                    </a>
+        
+                <div class="center-btn">
+                    <a href="skills.html" class="btn-outline-azure">View All Skills</a>
                 </div>
-                <div class="socmed-list">
-                    <a href="https://linkedin.com/in/jampirojam" target="_blank">
-                        <svg fill="#000000" class="socmed-icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-                            <path d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z
-                            M41.4,508.1H-8.5V348.4h49.9V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7
-                            c18.4,0,29.7,11.9,30.1,27.7C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4
-                            c-14.9,0-23.2,10-27,19.6c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6
-                            c35.5,0,63.3,23,63.3,72.4V508.1z" />
-                        </svg>
-                        <p class="socmed-text">LinkedIn</p>
-                    </a>
-                    <a href="https://github.com/jampirojam" target="_blank">
-                        <svg fill="#000000" class="socmed-icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-                            <g>
-                                <path d="M177.1,398.4c-8.6-1.5-17.6-1.3-26.4-0.8c-20,1.1-40,3-60,1.2c-9.5-0.9-19.1-1.8-28.7-1.6c-17.4,0.3-32,6-40.6,22.6
-                                    c-4.3,8.2-5.3,17-5,26.1c0.7,25.6,11.8,40.2,36.2,47.5c19.6,5.8,39.7,6.6,59.9,6.2c7.5,0,15,0.4,22.5-0.1
-                                    c15.5-0.9,30.7-3.2,45.4-8.6c15.2-5.6,24.3-16.3,27.6-31.8c1.3-6,1.9-12.3,1.8-18.4C209.6,420,195.6,401.5,177.1,398.4z
-                                     M78.7,466.1c-6.5,7.1-15.9,7.2-22.6,0.3c-4.9-5-7.7-12.7-7.7-22.3c0.2-6.5,2.1-13.6,7.7-19.3c6.7-6.9,16.1-6.8,22.6,0.2
-                                    C88.5,435.6,88.5,455.5,78.7,466.1z M169.6,466.6c-6.1,6.3-14.9,6.5-21.4,0.7c-11.2-10.2-11.2-32.9,0-43.2
-                                    c6.4-5.9,15.2-5.7,21.4,0.6c5.7,5.8,7.6,13.1,7.9,20.9C177.2,453.5,175.2,460.7,169.6,466.6z"/>
-                                <path d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z
-                                     M244.2,423.4c-1.4,11.4-3.8,23.1-7.9,33.8c-12,30.7-36,47.6-67.8,52.7c-18.2,2.9-36.9,3-57.1,4.5c-18.1-1.6-38-1.8-57.3-5.2
-                                    c-37.4-6.6-62.8-32.8-70.2-70.3c-3.8-19.1-4.9-38.3,1-57.3c3.1-9.8,8.2-18.5,14.8-26.4c0.9-1,1.7-2.5,1.6-3.8
-                                    c-1.1-17.2,0.9-34.2,6-50.6c4.2-13.7,1.1-12.9,16.3-8.9c18.3,4.8,34.3,14.7,50,25c1.8,1.2,4.6,1.7,6.8,1.3
-                                    c22.2-3.4,44.3-3.6,66.5,0.3c1.6,0.3,3.7-0.3,5.2-1.2c13.5-8.8,27.4-16.7,42.6-22.2c5.5-2,11.3-3.3,16.9-5c2.5-0.7,3.6,0.2,4.5,2.6
-                                    c6.8,19,9.6,38.5,8.6,58.6c-0.1,1.1,0.5,2.6,1.2,3.5C243,374.6,247.3,398.2,244.2,423.4z"/>
-                            </g>
-                        </svg>
-                        <p class="socmed-text">Github</p>
-                    </a>
-                    <a href="https://instagram.com/jampirojam" target="_blank">
-                        <svg fill="#000000" class="socmed-icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-                            <g>
-                                <path d="M113,446c24.8,0,45.1-20.2,45.1-45.1c0-9.8-3.2-18.9-8.5-26.3c-8.2-11.3-21.5-18.8-36.5-18.8s-28.3,7.4-36.5,18.8
-                                    c-5.3,7.4-8.5,16.5-8.5,26.3C68,425.8,88.2,446,113,446z" />
-                                <polygon
-                                    points="211.4,345.9 211.4,308.1 211.4,302.5 205.8,302.5 168,302.6 168.2,346 	" />
-                                <path d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z
-                                     M241,374.7v104.8c0,27.3-22.2,49.5-49.5,49.5h-157C7.2,529-15,506.8-15,479.5V374.7v-52.3c0-27.3,22.2-49.5,49.5-49.5h157
-                                    c27.3,0,49.5,22.2,49.5,49.5V374.7z" />
-                                <path d="M183,401c0,38.6-31.4,70-70,70c-38.6,0-70-31.4-70-70c0-9.3,1.9-18.2,5.2-26.3H10v104.8C10,493,21,504,34.5,504h157
-                                    c13.5,0,24.5-11,24.5-24.5V374.7h-38.2C181.2,382.8,183,391.7,183,401z" />
-                            </g>
-                        </svg>
-                        <p class="socmed-text">Instagram</p>
-                    </a>
-                    <a href="https://facebook.com/jampirojam" target="_blank">
-                        <svg fill="#000000" class="socmed-icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-                            <path d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z
-                            M169.5,357.6l-2.9,38.3h-39.3v133H77.7v-133H51.2v-38.3h26.5v-25.7c0-11.3,0.3-28.8,8.5-39.7c8.7-11.5,20.6-19.3,41.1-19.3
-                            c33.4,0,47.4,4.8,47.4,4.8l-6.6,39.2c0,0-11-3.2-21.3-3.2c-10.3,0-19.5,3.7-19.5,14v29.9H169.5z"/>
-                        </svg>
-                        <p class="socmed-text">Facebook</p>
-                    </a>
-                    <a href="https://twitter.com/ojam96" target="_blank">
-                        <svg fill="#000000" class="socmed-icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve">
-                            <path d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z
-                            M215.2,361.2c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7
-                            c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9
-                            C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5
-                            c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6
-                            c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z" />
-                        </svg>
-                        <p class="socmed-text">Twitter</p>
+            </section>
 
-                    </a>
+            <section id="Education" class="content-section scroll-reveal">
+                <h2 class="section-title">&lt;EDUCATION/&gt;</h2>
+                
+                <div class="glass-frame edu-container">
+                    <div class="edu-left">
+                        <img src="./assets/img/logo/ugm.png" alt="UGM Logo">
+                    </div>
+                    <div class="edu-right">
+                        <div class="edu-head">
+                            <h3>Universitas Gadjah Mada</h3>
+                            <span class="edu-date">02/2024 — Present</span>
+                        </div>
+                        <div class="edu-program">Master of Information Technology</div>
+                        <div class="edu-thesis">
+                            <strong>Thesis:</strong> <br/>
+                            Optimizing Business Process Efficiency Through BPMN Engine-Enabled System Automation
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="break-point"></div>
-        </div>
 
-        <div id="show-skills" class="show" style="display: none;">
-            <h2>Skills</h2>
-            <p class="project-intro">Skills shown do not mean am an expert, but at least I know the basics, so it's necessary to explore more when joining projects related to these skills.</p>
-            <h3>General</h3>
-            <div class="group-skill">
-                <!-- Frontend -->
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/html.webp"/>
-                    <p>HTML</p>
+                <div class="glass-frame edu-container">
+                    <div class="edu-left">
+                        <img src="./assets/img/logo/uinsa.png" alt="UIN Logo">
+                    </div>
+                    <div class="edu-right">
+                        <div class="edu-head">
+                            <h3>Universitas Islam Negeri Sunan Ampel</h3>
+                            <span class="edu-date">09/2015 — 08/2021</span>
+                        </div>
+                        <div class="edu-program">Bachelor of Information System</div>
+                        <div class="edu-thesis">
+                            <strong>Thesis:</strong> <br/>
+                            Open-Source Forensic Applications Performance Analysis on Smartphone Android-Based in Collecting Digital Evidence
+                        </div>
+                    </div>
                 </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/css.webp"/>
-                    <p>CSS</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/sass.webp"/>
-                    <p>SASS</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/javascript.webp"/>
-                    <p>JavaScript</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/react.webp"/>
-                    <p>React Js</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/jquery.webp"/>
-                    <p>jQuery</p>
-                </div>
-            </div>
-            <div class="group-skill">
-                <!-- Backend -->
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/java.webp"/>
-                    <p>Java</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/spring.webp"/>
-                    <p>Spring</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/go.webp"/>
-                    <p>Go</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/node-js.webp"/>
-                    <p>Node Js</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/python.webp"/>
-                    <p>Python</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/ruby.webp"/>
-                    <p>Ruby</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/ruby-on-rails.webp"/>
-                    <p>Ruby on Rails</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/php.webp"/>
-                    <p>PHP</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/cpp.webp"/>
-                    <p>C++</p>
-                </div>
-            </div>
-            <div class="group-skill">
-                <!-- Database -->
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/mysql.webp"/>
-                    <p>MySQL</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/postgresql.webp"/>
-                    <p>PostgreSQL</p>
-                </div>
-            </div>
-            <div class="group-skill">
-                <!-- Testing -->
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/postman.webp"/>
-                    <p>Postman</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/katalon.webp"/>
-                    <p>Katalon</p>
-                </div>
-            </div>
-            <div class="group-skill">
-                <!-- Others -->
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/git.webp"/>
-                    <p>Git</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/camunda.webp"/>
-                    <p>Camunda</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/keycloak.webp"/>
-                    <p>Keycloak</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/docker.webp"/>
-                    <p>Docker</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/sonar-cloud.webp"/>
-                    <p>Sonarcloud</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/rabbit-mq.webp"/>
-                    <p>RabbitMQ</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/datadog.webp"/>
-                    <p>DataDog</p>
-                </div>
-            </div>
-            <div class="group-skill">
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/microsoft-office.webp"/>
-                    <p>Microsoft Office</p>
-                </div>
-            </div>
-            <div class="group-skill">
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/photoshop.webp"/>
-                    <p>Photoshop</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/coreldraw.webp"/>
-                    <p>CorelDraw</p>
-                </div>
-                <div class="skill click-in">
-                    <img src="./assets/img/logo/sony-vegas.webp"/>
-                    <p>Sony Vegas</p>
-                </div>
-            </div>
-            <h3>Languages</h3>
-            <div class="language-skill container">
-                <p>Indonesia</p>
-                <p>Native</p>
-                <p>English</p>
-                <p>Fluent</p>
-                <p>Arabic</p>
-                <p>12 years in school, inactive, and good understanding</p>
-            </div>
-        </div>
+            </section>
 
-        <div id="show-cv" class="show curriculum-vitae" style="display: none;">
-            <div class="about">
-                <h2>M. MACHRUSH ALIY SIROJJAM MUSHLICH</h2>
-                <div>
-                    <a href="wa.me/628388886086" target="_blank">+62 838 8886 086</a>
-                    <a href="mailto:jampirojam@gmail.com" target="_blank">jampirojam@gmail.com</a>
-                </div>
-            </div>
-            <div class="summary container">
-                <h3>Summary</h3>
-                <p>
-                    Highly skilled software development professional bringing enormous talents in face-paced
-                    environments. Team player who is willing to take on additional responsibility for meeting team
-                    goals to align with company business goals.
-                </p>
-            </div>
-            <div class="education container">
-                <h3>Education</h3>
-                <div class="section-list">
-                    <a>Universitas Islam Negeri Sunan Ampel</a>
-                    <a>Surabaya, Indonesia</a>
-                    <a>Information System</a>
-                    <a>09/2015-08/2021</a>
-                    <div class="section-note" target="Thesis: ">Open-Source Forensic Applications Performance
-                        Analysis on Smartphone Android-Based in Collecting Digital Evidence</div>
-                </div>
-                <!-- <div class="section-list">
-                <a>Institut Teknologi Sepuluh Nopember</a>
-                <a>Surabaya, Indonesia</a>
-                <a>Informatic Engineering</a>
-                <a>Soon to be</a>
-            </div> -->
-            </div>
-            <div class="work container">
-                <h3>Experience</h3>
-                <div class="section-list">
-                    <a>PT BFI Finance Indonesia Tbk</a>
-                    <a>South Tangerang, Indonesia</a>
-                    <a>Backend Engineer</a>
-                    <a>06/2022-Present</a>
-                    <div class="section-desc">
-                        <p>Involved in design and development scalable micro-services based on evolving user
-                            requirements.</p>
-                        <P>Performed unit-tests to validate service free from bugs before actual tested and improve
-                            code coverage.</P>
-                        <p>Collaborated with cross-functional development in Agile environment to built robust
-                            system solution.</p>
-                        <p>Edited and proofread technical documents on changing systems for accuracy and
-                            consistency.</p>
+            <section id="Publication" class="content-section scroll-reveal">
+                <h2 class="section-title">&lt;PUBLICATION/&gt;</h2>
+                <div class="pub-list">
+                    
+                    <div class="pub-item glass-frame">
+                        <h3>A Proposed Fault-Tolerant Approach to BPMN Workflow Migration Amidst Update Failures</h3>
+                        <div class="pub-meta">
+                            <span>IEEE International Conference on Recent Advances in Systems Science and Engineering</span> • <span>2025</span>
+                        </div>
+                        <a href="https://ieeexplore.ieee.org/document/11315246" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
                     </div>
-                    <div class="section-note" target="Environment: ">Java, Spring Boot, Git, Camunda, RabbitMQ,
-                        PostgreSQL, Keycloak, Docker, Postman, DataDog, Sonarcloud</div>
-                </div>
-                <div class="section-list">
-                    <a>PT Radio Merdeka Lokatama</a>
-                    <a>Surabaya, Indonesia</a>
-                    <a>IT Support (Intern)</a>
-                    <a>01/2020-02/2020</a>
-                    <div class="section-desc">
-                        <p>Determined hardware, software, and network system issues using proactive troubleshooting
-                            techniques.</p>
-                        <p>Documented support interactions for future reference.</p>
-                        <p>Wrote announced ads, song switches, and breaking news segments for radio broadcasts.</p>
+
+                    <div class="pub-item glass-frame">
+                        <h3>Forensic Analysis Using Autopsy to Get Deleted Whatsapp Data</h3>
+                        <div class="pub-meta">
+                            <span>Jurnal Teknologi Informasi Dan Komunikasi</span> • <span>2022</span>
+                        </div>
+                        <a href="https://www.neliti.com/publications/465521/analisis-kinerja-aplikasi-forensik-open-source-pada-ponsel-cerdas-berbasis-andro" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
                     </div>
-                </div>
-            </div>
-            <div class="organization container">
-                <h3>Organization</h3>
-                <div class="section-list">
-                    <a>Lembaga Pers Mahasiswa Riset</a>
-                    <a>Surabaya, Indonesia</a>
-                    <a>Editorial Head</a>
-                    <a>09/2017-09/2018</a>
-                    <div class="section-desc">
-                        <p>Proofread, edited, and evaluated final copy to verify content aligned with established
-                            guidelines.</p>
-                        <p>Collaborated with other members to support planned activities to exceed team goals.</p>
+
+                    <div class="pub-item glass-frame">
+                        <h3>“Open-Source Forensic Applications Performance Analysis on Smartphone Android-Based in Collecting Digital Evidence</h3>
+                        <div class="pub-meta">
+                            <span>Junal Inovasi Informatika</span> • <span>2021</span>
+                        </div>
+                        <a href="https://ejurnal.provisi.ac.id/index.php/JTIKP/article/view/313" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
                     </div>
+
                 </div>
-                <div class="section-list">
-                    <a>Himpunan Mahasiswa Prodi Sistem Informasi</a>
-                    <a>Surabaya, Indonesia</a>
-                    <a>Secretary</a>
-                    <a>06/2017-05/2018</a>
-                    <div class="section-desc">
-                        <p>Provided document support for various projects and departments.</p>
-                        <p>Supported organization leaders by managing, scheduling, and organizing every planned
-                            activity.</p>
-                        <p>Built and maintained excellent relationships with internal and external organization.</p>
+                <div class="center-btn">
+                    <a href="publications.html" class="btn-outline-azure">View All Publications</a>
+                </div>
+            </section>
+
+            <section id="Certificates" class="content-section scroll-reveal">
+                <h2 class="section-title">&lt;CERTIFICATES/&gt;</h2>
+                <div class="cert-list">
+                    
+                    <div class="cert-item glass-frame">
+                        <div class="cert-info">
+                            <h3>TOEFL ITP</h3>
+                            <p>Educational Testing Service (ETS) • 2025</p>
+                        </div>
+                        <button class="btn-view-cert" data-title="TOEFL ITP" data-src="https://raw.githubusercontent.com/jampirojam/assets/main/cert-sample.pdf">
+                            [ View ]
+                        </button>
                     </div>
-                </div>
-                <div class="section-list">
-                    <a>Pergerakan Mahasiswa Islam Indonesia</a>
-                    <a>Surabaya, Indonesia</a>
-                    <a>Member</a>
-                    <a>12/2015-0/20</a>
-                    <div class="section-desc">
-                        <p>Collaborated with other members to support planned activities to exceed team goals.</p>
-                        <p>Analyzed problems and worked with teams to develop solutions.</p>
-                        <p>Participated in weekly study meetings related current issues.</p>
+
+                    <div class="cert-item glass-frame">
+                        <div class="cert-info">
+                            <h3>AWS Academy Cloud Architecting</h3>
+                            <p>Amazon Web Services (AWS) • 2024</p>
+                        </div>
+                        <button class="btn-view-cert" data-title="AWS Academy Cloud Architecting" data-src="https://placehold.co/600x400/png?text=Certificate+Image">
+                            [ View ]
+                        </button>
                     </div>
-                </div>
-                <div class="section-list">
-                    <a>Remaja Masjid Jami Darun Najah</a>
-                    <a>Surabaya, Indonesia</a>
-                    <a>Secretary</a>
-                    <a>06/2017-05/2018</a>
-                    <div class="section-desc">
-                        <p>Provided document support for various projects and departments.</p>
-                        <p>Supported organization leaders by managing, scheduling, and organizing every planned
-                            activity.</p>
-                        <p>Built and maintained excellent relationships with internal and external organization.</p>
+
+                    <div class="cert-item glass-frame">
+                        <div class="cert-info">
+                            <h3>Secure Coding Overview</h3>
+                            <p>Cyber Academy • 2024</p>
+                        </div>
+                        <button class="btn-view-cert" data-title="Secure Coding Overview" data-src="https://placehold.co/600x400/png?text=Certificate+Image">
+                            [ View ]
+                        </button>
                     </div>
+
+                    <div class="cert-item glass-frame">
+                        <div class="cert-info">
+                            <h3>Web App using React</h3>
+                            <p>Dicoding • 2024</p>
+                        </div>
+                        <button class="btn-view-cert" data-title="Web App using React" data-src="https://placehold.co/600x400/png?text=Certificate+Image">
+                            [ View ]
+                        </button>
+                    </div>
+
                 </div>
-            </div>
-            <div class="certificate container">
-                <h3>Certificate & Training</h3>
-                <h4>2023:</h4>
-                <div class="list-per-year">
-                    <p>Backend Development using Javascript</p>
-                    <p>Dicoding</p>
-                    <p>Cloud Practitioner Essentials</p>
-                    <p>Dicoding</p>
-                    <p>Backend Development using Go Programming</p>
-                    <p>Hacktiv8</p>
+                <div class="center-btn">
+                    <a href="certificates.html" class="btn-outline-azure">View All Certificates</a>
                 </div>
-                <h4>2022:</h4>
-                <div class="list-per-year">
-                    <p>Big Data Associate</p>
-                    <p>Alibaba</p>
-                    <p>Automated Testing using Katalon Studio</p>
-                    <p>Hacktiv8</p>
-                    <p>Backend Development using Java</p>
-                    <p>Hacktiv8</p>
-                    <p>Scrum Master</p>
-                    <p>Rakamin Academy</p>
-                    <p>Full Stack Development</p>
-                    <p>Prograte</p>
+            </section>
+
+            <section id="Contact" class="content-section scroll-reveal">
+                <h2 class="section-title">&lt;CONTACT/&gt;</h2>
+                <div class="glass-frame">
+                    <p class="text-center" style="margin-bottom: 20px;">Have a project in mind?</p>
+                    <form id="contact-form">
+                        <div class="form-group"><input type="text" placeholder="Name" required></div>
+                        <div class="form-group"><input type="email" placeholder="Email" required></div>
+                        <div class="form-group"><textarea rows="4" placeholder="Message" required></textarea></div>
+                        <button type="submit" class="btn btn-azure" style="width: 100%;">Send Message</button>
+                    </form>
                 </div>
-                <h4>2021:</h4>
-                <div class="list-per-year">
-                    <p>Test of English as a Foreign Language</p>
-                    <p>P2B UINSA</p>
-                </div>
-                <h4>2018:</h4>
-                <div class="list-per-year">
-                    <p>Microsoft Office 2010</p>
-                    <p>Multimatics</p>
-                </div>
-                <h4>2017:</h4>
-                <div class="list-per-year">
-                    <p>Database Administration</p>
-                    <p>Inixindo</p>
-                </div>
-                <h4>2016:</h4>
-                <div class="list-per-year">
-                    <p>Microsoft Office Specialist</p>
-                    <p>Certiport</p>
-                    <p>Test of Arabic as a Foreign Language</p>
-                    <p>P2B UINSA</p>
-                </div>
-            </div>
-            <div class="publication container">
-                <h3>Publication</h3>
-                <h4>2022:</h4>
-                <div class="data-list">
-                    <p>Forensik Digital: Forensik Perangkat Seluler</p>
-                    <p>Forensic Analysis using Autopsy to Get Deleted WhatsApp Data</p>
-                </div>
-                <h4>2021:</h4>
-                <div class="data-list">
-                    <p>Analisis Kinerja Aplikasi Forensik Open-Source pada Ponsel Berbasis Android dalam Mendapatkan
-                        Bukti Digital</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- <footer id="footer">
-    </footer> -->
+            </section>
+
+        </main>
+
+        <footer><p>&copy; 2026 OJAM.</p></footer>
+    </div>
+
     <script src="./assets/script.js"></script>
 </body>
-
 </html>
