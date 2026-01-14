@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OJAM | Projects</title>
+    <script>if (localStorage.getItem('ojam_theme') === 'light') { document.documentElement.classList.add('light-mode'); }</script>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body class="dark-mode is-loading">
+    <canvas id="bg-canvas"></canvas>
+    <div id="block-overlay"></div>
+    <div id="wrapper">
+        
+        <div id="mobile-top-bar">
+            <div class="mobile-brand">OJAM</div>
+            <button class="theme-toggle-btn" title="Switch Theme">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+        <header id="desktop-header">
+            <div class="desktop-brand">OJAM</div>
+            <div class="desktop-actions">
+                <button class="theme-toggle-btn" title="Switch Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="desktop-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <div id="fullscreen-menu">
+            <button id="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="nav-content">
+                <div class="nav-brand">&lt;OJAM/&gt;</div>
+                <ul>
+                    <li>
+                        <a href="#introduction">
+                            <i class="fas fa-home"></i> Home </a>
+                    </li>
+                    <li>
+                        <a href="./page/about.html">
+                            <i class="fas fa-user"></i> Summary </a>
+                    </li>
+                    <li>
+                        <a href="#Experience">
+                            <i class="fas fa-briefcase"></i> Experience </a>
+                    </li>
+                    <li>
+                        <a href="./page/projects.html">
+                            <i class="fas fa-code"></i> Projects </a>
+                    </li>
+                    <li>
+                        <a href="./page/skills.html">
+                            <i class="fas fa-layer-group"></i> Skills </a>
+                    </li>
+                    <li>
+                        <a href="#Education">
+                            <i class="fas fa-graduation-cap"></i> Education </a>
+                    </li>
+                    <li>
+                        <a href="./page/publications.html">
+                            <i class="fas fa-book"></i> Publication </a>
+                    </li>
+                    <li>
+                        <a href="./page/certificates.html">
+                            <i class="fas fa-certificate"></i> Certificates </a>
+                    </li>
+                    <li>
+                        <a href="./page/contact.html">
+                            <i class="fas fa-envelope"></i> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav id="mobile-nav">
+            <a href="./index.html" class="nav-icon">
+                <i class="fas fa-home"></i>
+            </a>
+            <a href="./page/about.html" class="nav-icon">
+                <i class="fas fa-briefcase"></i>
+            </a>
+            <button id="mobile-plus-btn">
+                <i class="fas fa-plus"></i>
+            </button>
+            <a href="./page/projects.html" class="nav-icon">
+                <i class="fas fa-code"></i>
+            </a>
+            <a href="./page/contact.html" class="nav-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </nav>
+
+        <main class="content-section">
+            <h1 class="page-title scroll-reveal">&lt;PROJECTS/&gt;</h1>
+
+            <div class="project-list-container">
+                
+                <div class="glass-frame scroll-reveal">
+                    <div class="project-bar">
+                        <div class="bar-header">
+                            <div class="bar-title-group">
+                                <h3>Marriage Registration System</h3>
+                                <span class="bar-role">Lead Backend Engineer</span>
+                            </div>
+                            <div class="bar-actions">
+                                <a href="https://github.com/xiaojam" target="_blank" class="btn-outline-azure"><i class="fab fa-github"></i> Repo</a>
+                            </div>
+                        </div>
+
+                        <div class="bar-desc">
+                            A specialized e-government system for registering marriages and divorces utilizing BPMN engine (Camunda) for automated workflow. 
+                            The system solves the problem of manual paper handling and long queue times. 
+                            <br><br>
+                            Features include:
+                            <ul style="margin-left:20px; margin-top:5px;">
+                                <li>Dynamic workflow routing based on religious requirements.</li>
+                                <li>Digital signature integration (BSrE).</li>
+                                <li>Automated certificate generation (JasperReports).</li>
+                            </ul>
+                        </div>
+
+                        <div class="bar-tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Camunda BPM</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-frame scroll-reveal">
+                    <div class="project-bar">
+                        <div class="bar-header">
+                            <div class="bar-title-group">
+                                <h3>BFI Core Financing System</h3>
+                                <span class="bar-role">Backend Engineer</span>
+                            </div>
+                            <div class="bar-actions">
+                                <button class="btn-outline-azure cursor-not-allowed" disabled style="opacity:0.5;"><i class="fas fa-lock"></i> Private</button>
+                            </div>
+                        </div>
+
+                        <div class="bar-desc">
+                            Core financing engine serving 200+ branches nationwide. The system handles end-to-end loan origination, from application entry to disbursement.
+                            <br><br>
+                            I was responsible for designing the "Bucket Approval" module. This module uses Redis to queue and process high-concurrency requests during peak hours, ensuring data consistency and preventing database deadlocks.
+                        </div>
+
+                        <div class="bar-tech-stack">
+                            <span class="tech-tag">Microservices</span>
+                            <span class="tech-tag">Java Spring Cloud</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">RabbitMQ</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-frame scroll-reveal">
+                    <div class="project-bar">
+                        <div class="bar-header">
+                            <div class="bar-title-group">
+                                <h3>Hybrid IndoBERT-LSTM Sentiment Analysis</h3>
+                                <span class="bar-role">Researcher / AI Engineer</span>
+                            </div>
+                            <div class="bar-actions">
+                                <a href="#" class="btn-outline-azure"><i class="fas fa-file-pdf"></i> Paper</a>
+                            </div>
+                        </div>
+
+                        <div class="bar-desc">
+                            A research project focused on comparative sentiment analysis of online dating app reviews. 
+                            The challenge was to accurately classify Indonesian slang (bahasa gaul) which traditional models often misinterpret.
+                            <br><br>
+                            The proposed Hybrid Model combines IndoBERT's contextual embeddings with LSTM's sequence memory, achieving 92% accuracy and outperforming standard BERT implementations by 4% in sarcastic contexts.
+                        </div>
+
+                        <div class="bar-tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">IndoBERT</span>
+                            <span class="tech-tag">LSTM</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer><p>&copy; 2026 OJAM.</p></footer>
+    </div>
+    <script src="../assets/script.js"></script>
+</body>
+</html>

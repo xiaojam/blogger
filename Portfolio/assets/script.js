@@ -273,4 +273,67 @@ $(document).ready(function() {
         }
         initCanvas(); animate();
     }
+
+    // --- WEB3FORMS ---
+    const contactForm = document.getElementById('contact-form-page');
+    let formResult = document.getElementById('form-result');
+    if (!formResult) {
+        formResult = document.createElement('div');
+        formResult.id = 'form-result';
+        document.body.appendChild(formResult);
+    }
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            
+            const btn = contactForm.querySelector('button[type="submit"]');
+            const originalText = btn.innerText;
+            
+            btn.innerText = "Sending...";
+            btn.disabled = true;
+            btn.style.opacity = "0.7";
+            btn.style.cursor = "not-allowed";
+
+            const formData = new FormData(contactForm);
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    formResult.innerHTML = `<span>✓</span> Message Sent Successfully!`;
+                    formResult.className = "show success-msg";
+                    contactForm.reset();
+                } else {
+                    console.log(response);
+                    formResult.innerHTML = `<span>⚠</span> ${json.message}`;
+                    formResult.className = "show error-msg";
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                formResult.innerHTML = `<span>⚠</span> Something went wrong!`;
+                formResult.className = "show error-msg";
+            })
+            .then(function() {
+                btn.innerText = originalText;
+                btn.disabled = false;
+                btn.style.opacity = "1";
+                btn.style.cursor = "pointer";
+                
+                setTimeout(() => {
+                    formResult.classList.remove('show');
+                }, 4000);
+            });
+        });
+    }
 });

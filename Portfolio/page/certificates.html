@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OJAM | Certificates</title>
+    <script>if (localStorage.getItem('ojam_theme') === 'light') { document.documentElement.classList.add('light-mode'); }</script>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body class="dark-mode is-loading">
+    <canvas id="bg-canvas"></canvas>
+    <div id="block-overlay"></div>
+    
+    <div id="cert-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modal-title">Certificate View</h3>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        
+        <div id="mobile-top-bar">
+            <div class="mobile-brand">OJAM</div>
+            <button class="theme-toggle-btn" title="Switch Theme">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+        <header id="desktop-header">
+            <div class="desktop-brand">OJAM</div>
+            <div class="desktop-actions">
+                <button class="theme-toggle-btn" title="Switch Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="desktop-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <div id="fullscreen-menu">
+            <button id="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="nav-content">
+                <div class="nav-brand">&lt;OJAM/&gt;</div>
+                <ul>
+                    <li>
+                        <a href="#introduction">
+                            <i class="fas fa-home"></i> Home </a>
+                    </li>
+                    <li>
+                        <a href="./page/about.html">
+                            <i class="fas fa-user"></i> Summary </a>
+                    </li>
+                    <li>
+                        <a href="#Experience">
+                            <i class="fas fa-briefcase"></i> Experience </a>
+                    </li>
+                    <li>
+                        <a href="./page/projects.html">
+                            <i class="fas fa-code"></i> Projects </a>
+                    </li>
+                    <li>
+                        <a href="./page/skills.html">
+                            <i class="fas fa-layer-group"></i> Skills </a>
+                    </li>
+                    <li>
+                        <a href="#Education">
+                            <i class="fas fa-graduation-cap"></i> Education </a>
+                    </li>
+                    <li>
+                        <a href="./page/publications.html">
+                            <i class="fas fa-book"></i> Publication </a>
+                    </li>
+                    <li>
+                        <a href="./page/certificates.html">
+                            <i class="fas fa-certificate"></i> Certificates </a>
+                    </li>
+                    <li>
+                        <a href="./page/contact.html">
+                            <i class="fas fa-envelope"></i> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav id="mobile-nav">
+            <a href="./index.html" class="nav-icon">
+                <i class="fas fa-home"></i>
+            </a>
+            <a href="./page/about.html" class="nav-icon">
+                <i class="fas fa-briefcase"></i>
+            </a>
+            <button id="mobile-plus-btn">
+                <i class="fas fa-plus"></i>
+            </button>
+            <a href="./page/projects.html" class="nav-icon">
+                <i class="fas fa-code"></i>
+            </a>
+            <a href="./page/contact.html" class="nav-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </nav>
+
+        <main class="content-section">
+            <h1 class="page-title scroll-reveal">&lt;CERTIFICATES/&gt;</h1>
+
+            <div class="year-group scroll-reveal">
+                <h2 class="year-label">2025</h2>
+                <div class="cert-list">
+                    <div class="cert-item glass-frame">
+                        <div class="cert-info">
+                            <h3>TOEFL ITP</h3>
+                            <p>Educational Testing Service (ETS)</p>
+                        </div>
+                        <button class="btn-view-cert btn-fixed-width" data-title="TOEFL ITP" data-src="https://placehold.co/600x400.png?text=TOEFL">
+                            <i class="fas fa-eye" style="margin-right:5px;"></i> View
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="year-group scroll-reveal mt-60">
+                <h2 class="year-label">2024</h2>
+                <div class="cert-list">
+                    <div class="cert-item glass-frame">
+                        <div class="cert-info">
+                            <h3>AWS Cloud Architecting</h3>
+                            <p>Amazon Web Services</p>
+                        </div>
+                        <a href="#" target="_blank" class="btn-view-cert btn-fixed-width" style="text-decoration:none;">
+                            <i class="fas fa-external-link-alt" style="margin-right:5px;"></i> Verify
+                        </a>
+                    </div>
+                    <div class="cert-item glass-frame">
+                        <div class="cert-info">
+                            <h3>Secure Coding</h3>
+                            <p>Cyber Academy</p>
+                        </div>
+                        <button class="btn-view-cert btn-fixed-width cursor-not-allowed" disabled style="border-color: gray; color: gray;">
+                            <i class="fas fa-lock" style="margin-right:5px;"></i> Private
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer><p>&copy; 2026 OJAM.</p></footer>
+    </div>
+    <script src="../assets/script.js"></script>
+</body>
+</html>

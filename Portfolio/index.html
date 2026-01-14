@@ -1,465 +1,678 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OJAM | Portfolio</title>
-    <script>
-        if (localStorage.getItem('ojam_theme') === 'light') {
-            document.documentElement.classList.add('light-mode');
-        }
-    </script>
-    <style>
-        body.is-loading #wrapper, 
-        body.is-loading #mobile-top-bar, 
-        body.is-loading #desktop-header, 
-        body.is-loading #desktop-controls, 
-        body.is-loading #mobile-nav {
-            opacity: 0 !important; 
-            pointer-events: none;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OJAM | Portfolio</title>
+        <script>
+            if (localStorage.getItem('ojam_theme') === 'light') {
+                document.documentElement.classList.add('light-mode');
+            }
+        </script>
+        <style>
+            body.is-loading #wrapper,
+            body.is-loading #mobile-top-bar,
+            body.is-loading #desktop-header,
+            body.is-loading #desktop-controls,
+            body.is-loading #mobile-nav {
+                opacity: 0 !important;
+                pointer-events: none;
+            }
 
-        html, body { background-color: #050505; } 
-        
-        html.light-mode, html.light-mode body {
-            background-color: #f0f9ff;
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./assets/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-</head>
+            html,
+            body {
+                background-color: #050505;
+            }
 
-<body class="dark-mode is-loading">
-
-    <canvas id="bg-canvas"></canvas>
-
-    <div id="intro-text-layer">
-        <h1 class="intro-title">XIAOJAM</h1>
-    </div>
-
-    <div id="block-overlay" style="background-color: var(--block-final);"></div>
-
-    <div id="cert-modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h3 id="modal-title">Certificate View</h3>
-            <div id="modal-body">
-                </div>
+            html.light-mode,
+            html.light-mode body {
+                background-color: #f0f9ff;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="./assets/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+    <body class="dark-mode is-loading">
+        <canvas id="bg-canvas"></canvas>
+        <div id="intro-text-layer">
+            <h1 class="intro-title">XIAOJAM</h1>
         </div>
-    </div>
-
-    <div id="wrapper">
-        
-        <div id="mobile-top-bar">
-            <div class="mobile-brand">OJAM</div>
-            <button class="theme-toggle-btn" title="Switch Theme">
-                <i class="fas fa-sun"></i>
-            </button>
+        <div id="block-overlay" style="background-color: var(--block-final);"></div>
+        <div id="cert-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3 id="modal-title">Certificate View</h3>
+                <div id="modal-body"></div>
+            </div>
         </div>
-
-        <header id="desktop-header">
-            <div class="desktop-brand">OJAM</div>
-            
-            <div class="desktop-actions">
+        <div id="wrapper">
+            <div id="mobile-top-bar">
+                <div class="mobile-brand">OJAM</div>
                 <button class="theme-toggle-btn" title="Switch Theme">
                     <i class="fas fa-sun"></i>
                 </button>
-                <button id="desktop-menu-toggle">
-                    <i class="fas fa-bars"></i>
+            </div>
+            <header id="desktop-header">
+                <div class="desktop-brand">OJAM</div>
+                <div class="desktop-actions">
+                    <button class="theme-toggle-btn" title="Switch Theme">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button id="desktop-menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </header>
+            <div id="fullscreen-menu">
+                <button id="close-menu">
+                    <i class="fas fa-times"></i>
                 </button>
-            </div>
-        </header>
-
-        <div id="fullscreen-menu">
-            <button id="close-menu"><i class="fas fa-times"></i></button>
-            <div class="nav-content">
-                <div class="nav-brand">&lt;OJAM/&gt;</div>
-                <ul>
-                    <li><a href="#introduction"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="./page/about.html"><i class="fas fa-user"></i> Summary</a></li>
-                    <li><a href="#Experience"><i class="fas fa-briefcase"></i> Experience</a></li>
-                    <li><a href="./page/projects.html"><i class="fas fa-code"></i> Projects</a></li>
-                    <li><a href="#Skills"><i class="fas fa-layer-group"></i> Skills</a></li>
-                    <li><a href="#Education"><i class="fas fa-graduation-cap"></i> Education</a></li>
-                    <li><a href="./page/publications.html"><i class="fas fa-book"></i> Publication</a></li>
-                    <li><a href="./page/certificates.html"><i class="fas fa-certificate"></i> Certificates</a></li>
-                    <li><a href="./page/contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <nav id="mobile-nav">
-            <a href="#introduction" class="nav-icon"><i class="fas fa-home"></i></a>
-            <a href="#Experience" class="nav-icon"><i class="fas fa-briefcase"></i></a>
-            <button id="mobile-plus-btn"><i class="fas fa-plus"></i></button>
-            <a href="#Projects" class="nav-icon"><i class="fas fa-code"></i></a>
-            <a href="#Contact" class="nav-icon"><i class="fas fa-envelope"></i></a>
-        </nav>
-
-        <main>
-            <section id="introduction" class="full-screen-section scroll-reveal">
-                <div class="text-center">
-                    <h1 class="glitch-text">M. MACHRUSH ALIY</h1>
-                    <h2 class="h2-subtitle">SIROJJAM MUSHLICH</h2>
-                    <p class="role-badge">&lt; Software Engineer & Researcher /&gt;</p>
-                    <div class="social-links">
-                        <a href="https://github.com/xiaojam" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/xiaojam" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:machruzh@gmail.com"><i class="fas fa-envelope"></i></a>
-                    </div>
-                    <br>
-                    <a href="#" class="btn btn-azure">Download Resume</a>
+                <div class="nav-content">
+                    <div class="nav-brand">&lt;OJAM/&gt;</div>
+                    <ul>
+                        <li>
+                            <a href="#introduction">
+                                <i class="fas fa-home"></i> Home </a>
+                        </li>
+                        <li>
+                            <a href="./page/about.html">
+                                <i class="fas fa-user"></i> Summary </a>
+                        </li>
+                        <li>
+                            <a href="#Experience">
+                                <i class="fas fa-briefcase"></i> Experience </a>
+                        </li>
+                        <li>
+                            <a href="./page/projects.html">
+                                <i class="fas fa-code"></i> Projects </a>
+                        </li>
+                        <li>
+                            <a href="./page/skills.html">
+                                <i class="fas fa-layer-group"></i> Skills </a>
+                        </li>
+                        <li>
+                            <a href="#Education">
+                                <i class="fas fa-graduation-cap"></i> Education </a>
+                        </li>
+                        <li>
+                            <a href="./page/publications.html">
+                                <i class="fas fa-book"></i> Publication </a>
+                        </li>
+                        <li>
+                            <a href="./page/certificates.html">
+                                <i class="fas fa-certificate"></i> Certificates </a>
+                        </li>
+                        <li>
+                            <a href="./page/contact.html">
+                                <i class="fas fa-envelope"></i> Contact </a>
+                        </li>
+                    </ul>
                 </div>
-            </section>
-
-            <section id="Summary" class="content-section scroll-reveal">
-                <h2 class="section-title">&lt;SUMMARY/&gt;</h2>
-                <div class="glass-frame summary-box">
-                    <i class="fas fa-quote-left quote-icon"></i>
-                    
-                    <h3 class="summary-quote">
-                        "Simplifying complexity through Human-Centered Engineering."
-                    </h3>
-                    
-                    <p class="summary-brief">
-                        An engineer by trade and a researcher by heart. With over 2 years in the finance sector and a Master's focus on Human-Centered Software Engineering, I don’t just write code; I architect scalable environments where technical complexity is hidden behind seamless human experiences.
-                    </p>
-                    
+            </div>
+            <nav id="mobile-nav">
+                <a href="./index.html" class="nav-icon">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="./page/about.html" class="nav-icon">
+                    <i class="fas fa-briefcase"></i>
+                </a>
+                <button id="mobile-plus-btn">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <a href="./page/projects.html" class="nav-icon">
+                    <i class="fas fa-code"></i>
+                </a>
+                <a href="./page/contact.html" class="nav-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </nav>
+            <main>
+                <section id="introduction" class="full-screen-section scroll-reveal">
+                    <div class="text-center">
+                        <h1 class="glitch-text">M. MACHRUSH ALIY</h1>
+                        <h2 class="h2-subtitle">SIROJJAM MUSHLICH</h2>
+                        <p class="role-badge">&lt; Software Engineer & Researcher /&gt;</p>
+                        <div class="social-links">
+                            <a href="https://github.com/xiaojam" target="_blank">
+                                <svg viewBox="0 0 128 128">
+                                    <g><path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path><path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path></g>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com/in/xiaojam" target="_blank">
+                                <svg viewBox="0 0 128 128">
+                                    <path d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"></path>
+                                </svg>
+                            </a>
+                            <a href="mailto:machruzh@gmail.com">
+                                <svg viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+                            </a>
+                        </div>
+                        <br>
+                        <a href="#" class="btn btn-azure">Download Resume</a>
+                    </div>
+                </section>
+                <section id="Summary" class="content-section scroll-reveal">
+                    <h2 class="section-title">&lt;SUMMARY/&gt;</h2>
+                    <div class="glass-frame summary-box">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <h3 class="summary-quote"> "Simplifying complexity through Human-Centered Engineering." </h3>
+                        <p class="summary-brief"> An engineer by trade and a researcher by heart. With over 2 years in the finance sector and a Master's focus on Human-Centered Software Engineering, I don’t just write code; I architect scalable environments where technical complexity is hidden behind seamless human experiences. </p>
+                        <div class="center-btn">
+                            <a href="./page/about.html" class="btn btn-azure">More About Me</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="Experience" class="content-section scroll-reveal">
+                    <h2 class="section-title">&lt;EXPERIENCE/&gt;</h2>
+                    <div class="glass-frame">
+                        <div class="company-header">
+                            <div class="company-logo">
+                                <img src="./assets/img/logo/bfi.png" alt="BFI">
+                            </div>
+                            <h3>PT BFI Finance Indonesia Tbk</h3>
+                        </div>
+                        <div class="role-timeline">
+                            <div class="role-item">
+                                <div class="role-dot"></div>
+                                <h4 class="role-title">Backend Engineer</h4>
+                                <span class="role-date">01/2024 — 10/2024</span>
+                                <div class="role-desc">
+                                    <ul>
+                                        <li>Contributed to the end-to-end implementation of a core system, managing its transition from a 3-branch pilot to a nationwide go-live across 200+ branches.</li>
+                                        <li>Developed an adaptable system template and modular workflows for 6 different loan products, enabling the system to handle diverse risk profiles and dynamic approval rules. </li>
+                                        <li>Provided technical guidance to associate engineers and performed peer code reviews to ensure architectural alignment and software robustness across the squad. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="role-item">
+                                <div class="role-dot"></div>
+                                <h4 class="role-title">Associate Backend Engineer</h4>
+                                <span class="role-date">10/2022 — 12/2023</span>
+                                <div class="role-desc">
+                                    <ul>
+                                        <li>Developed scalable microservices and 3+ core modules, optimizing system performance for high-traffic environments.</li>
+                                        <li>Built a hybrid scoring system and tailored operational workflows for Surveyors and Ops Staff, supporting complex Sharia and Conventional compliance requirements.</li>
+                                        <li>Collaborated in cross-functional Agile teams to deliver end-to-end solutions aligned with strategic business objectives.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="role-item">
+                                <div class="role-dot"></div>
+                                <h4 class="role-title">BFI Technology Development Program</h4>
+                                <span class="role-date">06/2022 — 10/2022</span>
+                                <div class="role-desc">
+                                    <ul>
+                                        <li>Accelerated mastery of complex finance business processes and internal system architectures within an intensive On-the-Job Training (OJT), achieving full readiness for squad deployment.</li>
+                                        <li>Assisted in backend development and technical documentation while proactively troubleshooting bugs to ensure system stability and 100% accuracy in system documentation prior to production releases.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-frame" style="margin-top:20px;">
+                        <div class="company-header">
+                            <div class="company-logo">
+                                <img src="./assets/img/logo/merdeka.png" alt="RML">
+                            </div>
+                            <h3>PT Radio Merdeka Lokatama</h3>
+                        </div>
+                        <div class="role-timeline">
+                            <div class="role-item">
+                                <div class="role-dot"></div>
+                                <h4 class="role-title">IT Support (Intern)</h4>
+                                <span class="role-date">01/2020 — 02/2020</span>
+                                <div class="role-desc">
+                                    <ul>
+                                        <li>Resolved hardware, software, and network issues through proactive troubleshooting and maintained detailed support logs for process improvement.</li>
+                                        <li>Authored 30+ broadcast segments, including ad announcements, song transitions, and breaking news, contributing to daily radio operations.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="Projects" class="content-section scroll-reveal">
+                    <h2 class="section-title">&lt;PROJECTS/&gt;</h2>
+                    <div class="project-grid">
+                        <div class="project-card glass-frame">
+                            <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
+                            <div class="proj-body">
+                                <h3>Marriage & Divorce Registration System</h3>
+                                <div class="tags">
+                                    <span class="tag-lime">Spring Boot</span>
+                                    <span class="tag-lime">Camunda</span>
+                                    <span class="tag-lime">PostgreSQL</span>
+                                </div>
+                                <!--<p class="proj-desc"></p>-->
+                            </div>
+                        </div>
+                        <div class="project-card glass-frame">
+                            <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
+                            <div class="proj-body">
+                                <h3>Sentiment Analysis Dating Apps</h3>
+                                <div class="tags">
+                                    <span class="tag-lime">Python</span>
+                                    <span class="tag-lime">PyTorch</span>
+                                    <span class="tag-lime">Pandas</span>
+                                </div>
+                                <!--<p class="proj-desc"></p>-->
+                            </div>
+                        </div>
+                        <div class="project-card glass-frame">
+                            <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
+                            <div class="proj-body">
+                                <h3>User Management System</h3>
+                                <div class="tags">
+                                    <span class="tag-lime">Spring Boot</span>
+                                    <span class="tag-lime">Keycloak</span>
+                                    <span class="tag-lime">PostgreSQL</span>
+                                </div>
+                                <!--<p class="proj-desc"></p>-->
+                            </div>
+                        </div>
+                        <div class="project-card glass-frame">
+                            <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
+                            <div class="proj-body">
+                                <h3>Surveyor Platform</h3>
+                                <div class="tags">
+                                    <span class="tag-lime">Keycloak</span>
+                                    <span class="tag-lime">Spring Boot</span>
+                                    <span class="tag-lime">Camunda</span>
+                                </div>
+                                <!--<p class="proj-desc"></p>-->
+                            </div>
+                        </div>
+                    </div>
                     <div class="center-btn">
-                        <a href="./page/about.html" class="btn btn-azure">More About Me</a>
+                        <a href="./page/projects.html" class="btn-outline-azure">View All Projects</a>
                     </div>
-                </div>
-            </section>
+                </section>
+                <section id="Skills" class="content-section scroll-reveal">
+                    <h2 class="section-title">&lt;SKILLS/&gt;</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <path fill="#0074BD" d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z"></path>
+                                <path fill="#EA2D2E" d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z"></path>
+                                <path fill="#0074BD" d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z"></path>
+                                <path fill="#EA2D2E" d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z"></path>
+                                <path fill="#0074BD" d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"></path>
+                            </svg>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <path d="M116.452 6.643a59.104 59.104 0 01-6.837 12.136A64.249 64.249 0 0064.205-.026C28.984-.026 0 28.982 0 64.242a64.316 64.316 0 0019.945 46.562l2.368 2.1a64.22 64.22 0 0041.358 15.122c33.487 0 61.637-26.24 64.021-59.683 1.751-16.371-3.051-37.077-11.24-61.7zM29.067 111.17a5.5 5.5 0 01-4.269 2.034c-3.018 0-5.487-2.484-5.487-5.502 0-3.017 2.485-5.501 5.487-5.501 1.25 0 2.485.433 3.452 1.234 2.351 1.9 2.718 5.384.817 7.735zm87.119-19.238c-15.843 21.122-49.68 14.003-71.376 15.02 0 0-3.852.234-7.721.867 0 0 1.45-.617 3.335-1.334 15.226-5.301 22.43-6.335 31.685-11.086 17.427-8.869 34.654-28.274 38.24-48.463-6.637 19.422-26.75 36.11-45.077 42.895-12.557 4.635-35.238 9.136-35.238 9.136l-.917-.484c-15.442-7.518-15.91-40.977 12.157-51.78 12.291-4.735 24.048-2.134 37.323-5.302 14.175-3.367 30.568-14.004 37.238-27.874 7.471 22.19 16.46 56.932.35 78.405z" fill="#77bc1f"></path>
+                            </svg>
+                            <span>Spring</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <defs>
+                                    <path id="go-original-a" d="M18.8 1h90.5v126H18.8z"></path>
+                                </defs>
+                                <clipPath id="go-original-b">
+                                    <use xlink:href="#go-original-a" overflow="visible"></use>
+                                </clipPath>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M21.1 68.7c.2 3.5 3.7 1.9 5.3.8 1.5-1.1 2-.2 2.1-2.3.1-1.4.2-2.7.2-4.1-2.3-.2-4.8.3-6.7 1.7-.9.7-2.8 3-.9 3.9" clip-path="url(#go-original-b)"></path>
+                                <path d="M23 71.2c-.7 0-2-.3-2.2-2.3-.6-.4-.8-.9-.8-1.2-.1-1.2 1.2-2.6 1.9-3.1 1.6-1.2 3.7-1.8 5.9-1.8h1.3v.3c.1 1.1 0 2.2-.1 3.2 0 .3 0 .6-.1.9-.1 1.5-.4 1.7-1.1 2-.3.1-.6.2-1.1.6-.5.3-2.2 1.4-3.7 1.4zm4.8-7.8c-2.1 0-4 .6-5.5 1.7-.7.5-1.7 1.7-1.6 2.5 0 .3.2.6.6.8l.2.1v.2c.1 1.6.9 1.8 1.5 1.8 1 0 2.4-.7 3.3-1.3.6-.4 1-.5 1.3-.6.5-.2.6-.2.7-1.4 0-.3 0-.6.1-.9.1-.9.1-1.9.1-2.8-.3-.1-.5-.1-.7-.1z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C6B198" d="M21.1 68.7c.5-.2 1.1-.3 1.4-.8" clip-path="url(#go-original-b)"></path>
+                                <path d="M21.1 69c-.1 0-.3-.1-.3-.2-.1-.2 0-.4.2-.4.1 0 .2-.1.2-.1.4-.2.8-.3 1-.6.1-.1.3-.2.5-.1.1.1.2.3.1.5-.4.5-.9.7-1.3.8l-.2.1h-.2z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M29.3 26.4c-13.6-3.8-3.5-21.1 7.4-14l-7.4 14z" clip-path="url(#go-original-b)"></path>
+                                <path d="M29.5 26.8l-.3-.1c-7-2-6.9-7-6.7-8.5.5-3.8 4.1-7.8 8.9-7.8 1.9 0 3.7.6 5.5 1.8l.3.2-7.7 14.4zm1.9-15.7c-4.5 0-7.8 3.7-8.3 7.2-.5 3.6 1.7 6.4 6 7.7l7.1-13.5c-1.5-.9-3.1-1.4-4.8-1.4z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M89.6 11.1c10.7-7.5 20.5 9.5 8 13.8l-8-13.8z" clip-path="url(#go-original-b)"></path>
+                                <path d="M97.5 25.3L89.2 11l.3-.2c1.9-1.3 3.8-2 5.7-2 4.6 0 7.9 3.8 8.6 7.5.3 1.5.6 6.6-6 8.8l-.3.2zm-7.4-14l7.7 13.3c3.9-1.4 5.9-4.4 5.3-8-.6-3.4-3.7-6.9-7.9-6.9-1.7-.1-3.4.4-5.1 1.6z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M92 112.3c2.7 1.7 7.7 6.8 3.6 9.3-3.9 3.6-6.1-4-9.6-5 1.5-2 3.4-3.9 6-4.3" clip-path="url(#go-original-b)"></path>
+                                <path d="M93.5 122.9c-1.6 0-3-1.6-4.2-3.1-1.1-1.2-2.2-2.5-3.4-2.9l-.5-.1.3-.4c1.2-1.7 3.2-3.9 6.2-4.4h.1l.1.1c1.7 1.1 5.4 4.2 5.3 7.1 0 1.1-.6 2-1.7 2.7-.7.7-1.4 1-2.2 1zm-7-6.5c1.2.5 2.2 1.8 3.2 2.9 1.2 1.5 2.4 2.8 3.7 2.8.6 0 1.2-.3 1.8-.9h.1c.9-.6 1.4-1.3 1.4-2.2 0-2.3-2.9-5.2-4.9-6.5-1.8.5-3.6 1.7-5.3 3.9zm9.1 5.5c-.1 0-.2-.1-.3-.2-.2-.4-.4-.9-.5-1.3-.3-.8-.6-1.6-1.2-2.2-.1-.1-.1-.3 0-.5.1-.1.3-.1.5 0 .7.7 1.1 1.6 1.4 2.5l.5 1.2c.1.2 0 .4-.1.5h-.3z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M43.2 118.1c-3.2.5-5 3.4-7.7 4.9-2.5 1.5-3.5-.5-3.7-.9-.4-.2-.4.2-1-.4-2.3-3.7 2.4-6.4 4.9-8.2 3.5-.8 5.7 2.2 7.5 4.6" clip-path="url(#go-original-b)"></path>
+                                <path d="M33.8 123.8c-1.3 0-2-1.1-2.2-1.5h-.1c-.3 0-.5-.1-.9-.5v-.1c-2.2-3.5 1.6-6.2 4.1-8l.9-.6h.2c.4-.1.7-.1 1.1-.1 3 0 4.9 2.6 6.5 4.7l.5.7-.6.1c-1.9.3-3.3 1.5-4.7 2.7-.9.8-1.8 1.5-2.8 2.1-.8.3-1.4.5-2 .5zm-2.2-2.1c.1 0 .2 0 .4.1h.1l.1.1c.2.3.7 1.2 1.7 1.2.5 0 1-.2 1.5-.5 1-.5 1.9-1.3 2.7-2 1.3-1.1 2.7-2.3 4.5-2.8-1.5-2-3.3-4.2-5.8-4.2-.3 0-.6 0-.9.1l-.8.6c-2.6 1.8-5.8 4.1-3.9 7.1.1.2.2.3.4.3zm.2.7c-.2 0-.4-.2-.3-.4.1-1 .6-1.7 1.1-2.5.3-.4.5-.8.7-1.2.1-.2.3-.2.4-.2.2.1.2.3.2.4-.2.5-.5.9-.8 1.3-.5.7-.9 1.3-1 2.1 0 .4-.1.5-.3.5z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9 21.7c-1.8-.9-3.1-2.2-2-4.3 1-1.9 2.9-1.7 4.7-.8l-2.7 5.1zm64.9-1.8c1.8-.9 3.1-2.2 2-4.3-1-1.9-2.9-1.7-4.7-.8l2.7 5.1z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M107.1 68.2c-.2 3.5-3.7 1.9-5.3.8-1.5-1.1-2-.2-2.1-2.3-.1-1.4-.2-2.7-.2-4.1 2.3-.2 4.8.3 6.7 1.7 1 .8 2.8 3 .9 3.9" clip-path="url(#go-original-b)"></path>
+                                <path d="M105.3 70.7c-1.5 0-3.2-1.1-3.7-1.4-.5-.3-.8-.5-1.1-.6-.8-.3-1-.5-1.1-2 0-.3 0-.6-.1-.9-.1-1-.2-2.1-.1-3.2v-.3h1.3c2.2 0 4.3.6 5.9 1.8.7.5 2 1.9 1.9 3.1 0 .4-.2.9-.8 1.2-.2 2-1.5 2.3-2.2 2.3zM99.8 63c0 .9 0 1.9.1 2.8 0 .3 0 .6.1.9.1 1.2.2 1.2.7 1.4.3.1.7.3 1.3.6.9.6 2.3 1.3 3.3 1.3.6 0 1.4-.2 1.5-1.8V68l.2-.1c.4-.2.6-.4.6-.8.1-.8-.9-2-1.6-2.5-1.5-1.1-3.5-1.7-5.5-1.7-.2.1-.4.1-.7.1z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C6B198" d="M107.1 68.2c-.5-.2-1.1-.3-1.4-.8" clip-path="url(#go-original-b)"></path>
+                                <path d="M107.1 68.6h-.1l-.2-.1c-.5-.2-1-.3-1.3-.8-.1-.1-.1-.4.1-.5.1-.1.4-.1.5.1.2.3.6.4 1 .6.1 0 .2.1.2.1.2.1.3.3.2.4-.1.1-.3.2-.4.2z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M62.8 4c13.6 0 26.3 1.9 33 15 6 14.6 3.8 30.4 4.8 45.9.8 13.3 2.5 28.6-3.6 40.9-6.5 12.9-22.7 16.2-36 15.7-10.5-.4-23.1-3.8-29.1-13.4-6.9-11.2-3.7-27.9-3.2-40.4.6-14.8-4-29.7.9-44.1C34.5 8.5 48.1 5.1 62.8 4" clip-path="url(#go-original-b)"></path>
+                                <path d="M63.3 121.9h-2.5c-4.1-.1-10.3-.8-16.4-3.3-5.9-2.4-10.2-5.8-13-10.3-5.6-9.1-4.6-21.6-3.7-32.7.2-2.8.4-5.4.5-7.9.2-5.2-.2-10.6-.7-15.7-.8-9.4-1.6-19.1 1.5-28.5 2.4-7 6.7-12 13.2-15.2 5.1-2.5 11.4-3.9 20.4-4.6C76 3.6 89.3 5.5 96 18.8c4.4 10.7 4.4 22.2 4.5 33.3 0 4.2 0 8.5.3 12.7.1 1.3.2 2.6.2 3.9.8 12.2 1.7 26-3.9 37.2-2.8 5.7-7.7 9.9-14.4 12.6-5.4 2.2-12.2 3.4-19.4 3.4zM62.8 4.3c-14.1 1.1-27.9 4.2-33 19.4-3.1 9.3-2.3 18.9-1.5 28.2.4 5.2.9 10.5.7 15.8-.1 2.5-.3 5.1-.5 7.9-.9 11-1.9 23.4 3.6 32.3 2.3 3.7 9.7 12.5 28.8 13.2h2.5c22.1 0 30.3-9.8 33.3-15.6 5.5-11 4.6-24.8 3.9-36.9-.1-1.3-.2-2.6-.2-3.9-.2-4.2-.3-8.5-.3-12.7-.1-11-.1-22.5-4.4-33.1C92.7 13 88.2 9 82 6.7c-6.4-2.1-13.6-2.4-19.2-2.4z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M65.2 22.2c2.4 14.2 25.6 10.4 22.3-3.9-3-12.8-23.1-9.2-22.3 3.9" clip-path="url(#go-original-b)"></path>
+                                <path d="M76.2 31.5c-4.5 0-10.2-2.4-11.4-9.2-.2-3.2.8-6.1 2.9-8.3 2.3-2.5 5.8-3.9 9.4-3.9 4.2 0 9.2 2.2 10.6 8.3.8 3.4.2 6.4-1.7 8.8-2.1 2.6-5.8 4.3-9.8 4.3zm-10.7-9.3c.5 2.8 1.8 5 3.9 6.6 1.8 1.4 4.3 2.1 6.8 2.1 3.7 0 7.3-1.6 9.3-4.1 1.8-2.2 2.3-5.1 1.6-8.3-1.3-5.7-6-7.7-10-7.7-3.4 0-6.7 1.4-8.9 3.7-1.9 2-2.9 4.7-2.7 7.7z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M37.5 24.5c3.2 12.3 22.9 9.2 22.2-3.2-.9-14.8-25.3-12-22.2 3.2" clip-path="url(#go-original-b)"></path>
+                                <path d="M48 32.7c-4.3 0-9.3-2.1-10.9-8.1-.7-3.5 0-6.7 2-9.1 2.2-2.7 5.8-4.3 9.7-4.3 5.2 0 10.7 3.1 11.1 10.1.2 2.9-.7 5.5-2.7 7.6-2.1 2.3-5.6 3.8-9.2 3.8zm.8-20.8c-3.7 0-7.1 1.5-9.2 4-1.9 2.3-2.5 5.2-1.8 8.5C39.2 30 44 32 48 32c3.4 0 6.7-1.3 8.8-3.6 1.8-1.9 2.7-4.4 2.5-7.1-.2-4.3-3.1-9.4-10.5-9.4z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M68 39.2c0 1.8.4 3.9.1 5.9-.5.9-1.4 1-2.2 1.3-1.1-.2-2-.9-2.5-1.9-.3-2.2.1-4.4.2-6.6l4.4 1.3z" clip-path="url(#go-original-b)"></path>
+                                <path d="M65.9 46.8c-1.3-.2-2.3-1-2.8-2.1-.2-1.6-.1-3.1 0-4.6.1-.7.1-1.4.1-2.1v-.4l5.1 1.6v.2c0 .6.1 1.2.1 1.9.1 1.3.2 2.7 0 4v.1c-.4.8-1.1 1-1.8 1.3-.2-.1-.4 0-.7.1zm-2.2-2.4c.4.9 1.2 1.5 2.1 1.7.2-.1.4-.1.5-.2.6-.2 1.1-.4 1.4-.9.2-1.2.1-2.5 0-3.8 0-.6-.1-1.2-.1-1.7l-3.8-1.2c0 .6-.1 1.2-.1 1.7-.1 1.6-.2 3 0 4.4z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M46.3 22.5c0 2-1.5 3.6-3.3 3.6-1.8 0-3.3-1.6-3.3-3.6s1.5-3.6 3.3-3.6c1.8 0 3.3 1.6 3.3 3.6" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M45.2 23.3c0 .5-.4.9-.8.9s-.8-.4-.8-.9.4-.9.8-.9c.5 0 .8.4.8.9" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M74.2 21.6c0 2-1.5 3.6-3.3 3.6-1.8 0-3.3-1.6-3.3-3.6s1.5-3.6 3.3-3.6c1.8 0 3.3 1.6 3.3 3.6" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M73.2 22.4c0 .5-.3.9-.8.9-.4 0-.8-.4-.8-.9s.3-.9.8-.9c.4 0 .8.4.8.9M58.4 39c-1.5 3.5.8 10.6 4.8 5.4-.3-2.2.1-4.4.2-6.6l-5 1.2z" clip-path="url(#go-original-b)"></path>
+                                <path d="M60.5 46.6c-.7 0-1.4-.4-1.9-1.2-1.1-1.6-1.3-4.6-.5-6.5l.1-.2 5.5-1.4v.4l-.1 2.2c-.1 1.5-.2 2.9 0 4.4v.1l-.1.1c-1 1.4-2 2.1-3 2.1zm-1.8-7.3c-.6 1.7-.4 4.4.5 5.7.4.6.8.9 1.3.9.7 0 1.5-.6 2.3-1.6-.2-1.5-.1-3 .1-4.4l.1-1.7-4.3 1.1z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M58.9 32.2c-2.7.2-4.9 3.5-3.5 6 1.9 3.4 6-.3 8.6 0 3 .1 5.4 3.2 7.8.6 2.7-2.9-1.2-5.7-4.1-7l-8.8.4z" clip-path="url(#go-original-b)"></path>
+                                <path fill="#231F20" d="M69.7 40.2c-.9 0-1.8-.4-2.7-.8-.9-.4-1.9-.8-3-.8h-.3c-.8 0-1.7.3-2.7.7-1.1.4-2.2.7-3.2.7-1.2 0-2.1-.5-2.7-1.6-.7-1.2-.6-2.6.1-3.9.8-1.5 2.2-2.4 3.7-2.6l8.9-.4h.1c2.2.9 4.7 2.6 5.2 4.6.2 1-.1 2-.9 2.9-.8.9-1.6 1.2-2.5 1.2zM64.1 38c1.1 0 2.2.5 3.2.9.9.4 1.7.7 2.5.7.7 0 1.3-.3 1.9-.9.7-.7.9-1.5.8-2.3-.4-1.7-2.8-3.3-4.7-4.1l-8.7.4c-1.3.1-2.5 1-3.2 2.2-.6 1.1-.6 2.3-.1 3.3.5.9 1.1 1.3 2.1 1.3.9 0 1.9-.4 2.9-.7 1.1-.4 2-.7 3-.7 0-.2.1-.2.3-.1z" clip-path="url(#go-original-b)"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M58.6 32.1c-.2-4.7 8.8-5.3 9.8-1.4 1.1 4-9.4 4.9-9.8 1.4" clip-path="url(#go-original-b)"></path>
+                            </svg>
+                            <span>Go</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <path d="M93.809 92.112c.785-6.533.55-7.492 5.416-6.433l1.235.108c3.742.17 8.637-.602 11.513-1.938 6.191-2.873 9.861-7.668 3.758-6.409-13.924 2.873-14.881-1.842-14.881-1.842 14.703-21.815 20.849-49.508 15.543-56.287-14.47-18.489-39.517-9.746-39.936-9.52l-.134.025c-2.751-.571-5.83-.912-9.289-.968-6.301-.104-11.082 1.652-14.709 4.402 0 0-44.683-18.409-42.604 23.151.442 8.841 12.672 66.898 27.26 49.362 5.332-6.412 10.484-11.834 10.484-11.834 2.558 1.699 5.622 2.567 8.834 2.255l.249-.212c-.078.796-.044 1.575.099 2.497-3.757 4.199-2.653 4.936-10.166 6.482-7.602 1.566-3.136 4.355-.221 5.084 3.535.884 11.712 2.136 17.238-5.598l-.22.882c1.474 1.18 1.375 8.477 1.583 13.69.209 5.214.558 10.079 1.621 12.948 1.063 2.868 2.317 10.256 12.191 8.14 8.252-1.764 14.561-4.309 15.136-27.985"></path>
+                                <path d="M75.458 125.256c-4.367 0-7.211-1.689-8.938-3.32-2.607-2.46-3.641-5.629-4.259-7.522l-.267-.79c-1.244-3.358-1.666-8.193-1.916-14.419-.038-.935-.064-1.898-.093-2.919-.021-.747-.047-1.684-.085-2.664a18.8 18.8 0 01-4.962 1.568c-3.079.526-6.389.356-9.84-.507-2.435-.609-4.965-1.871-6.407-3.82-4.203 3.681-8.212 3.182-10.396 2.453-3.853-1.285-7.301-4.896-10.542-11.037-2.309-4.375-4.542-10.075-6.638-16.943-3.65-11.96-5.969-24.557-6.175-28.693C4.292 23.698 7.777 14.44 15.296 9.129 27.157.751 45.128 5.678 51.68 7.915c4.402-2.653 9.581-3.944 15.433-3.851 3.143.051 6.136.327 8.916.823 2.9-.912 8.628-2.221 15.185-2.139 12.081.144 22.092 4.852 28.949 13.615 4.894 6.252 2.474 19.381.597 26.651-2.642 10.226-7.271 21.102-12.957 30.57 1.544.011 3.781-.174 6.961-.831 6.274-1.295 8.109 2.069 8.607 3.575 1.995 6.042-6.677 10.608-9.382 11.864-3.466 1.609-9.117 2.589-13.745 2.377l-.202-.013-1.216-.107-.12 1.014-.116.991c-.311 11.999-2.025 19.598-5.552 24.619-3.697 5.264-8.835 6.739-13.361 7.709-1.544.33-2.947.474-4.219.474zm-9.19-43.671c2.819 2.256 3.066 6.501 3.287 14.434.028.99.054 1.927.089 2.802.106 2.65.355 8.855 1.327 11.477.137.371.26.747.39 1.146 1.083 3.316 1.626 4.979 6.309 3.978 3.931-.843 5.952-1.599 7.534-3.851 2.299-3.274 3.585-9.86 3.821-19.575l4.783.116-4.75-.57.14-1.186c.455-3.91.783-6.734 3.396-8.602 2.097-1.498 4.486-1.353 6.389-1.01-2.091-1.58-2.669-3.433-2.823-4.193l-.399-1.965 1.121-1.663c6.457-9.58 11.781-21.354 14.609-32.304 2.906-11.251 2.02-17.226 1.134-18.356-11.729-14.987-32.068-8.799-34.192-8.097l-.359.194-1.8.335-.922-.191c-2.542-.528-5.366-.82-8.393-.869-4.756-.08-8.593 1.044-11.739 3.431l-2.183 1.655-2.533-1.043c-5.412-2.213-21.308-6.662-29.696-.721-4.656 3.298-6.777 9.76-6.305 19.207.156 3.119 2.275 14.926 5.771 26.377 4.831 15.825 9.221 21.082 11.054 21.693.32.108 1.15-.537 1.976-1.529a270.708 270.708 0 0110.694-12.07l2.77-2.915 3.349 2.225c1.35.897 2.839 1.406 4.368 1.502l7.987-6.812-1.157 11.808c-.026.265-.039.626.065 1.296l.348 2.238-1.51 1.688-.174.196 4.388 2.025 1.836-2.301z"></path>
+                                <path fill="#336791" d="M115.731 77.44c-13.925 2.873-14.882-1.842-14.882-1.842 14.703-21.816 20.849-49.51 15.545-56.287C101.924.823 76.875 9.566 76.457 9.793l-.135.024c-2.751-.571-5.83-.911-9.291-.967-6.301-.103-11.08 1.652-14.707 4.402 0 0-44.684-18.408-42.606 23.151.442 8.842 12.672 66.899 27.26 49.363 5.332-6.412 10.483-11.834 10.483-11.834 2.559 1.699 5.622 2.567 8.833 2.255l.25-.212c-.078.796-.042 1.575.1 2.497-3.758 4.199-2.654 4.936-10.167 6.482-7.602 1.566-3.136 4.355-.22 5.084 3.534.884 11.712 2.136 17.237-5.598l-.221.882c1.473 1.18 2.507 7.672 2.334 13.557-.174 5.885-.29 9.926.871 13.082 1.16 3.156 2.316 10.256 12.192 8.14 8.252-1.768 12.528-6.351 13.124-13.995.422-5.435 1.377-4.631 1.438-9.49l.767-2.3c.884-7.367.14-9.743 5.225-8.638l1.235.108c3.742.17 8.639-.602 11.514-1.938 6.19-2.871 9.861-7.667 3.758-6.408z"></path>
+                                <path fill="#fff" d="M75.957 122.307c-8.232 0-10.84-6.519-11.907-9.185-1.562-3.907-1.899-19.069-1.551-31.503a1.59 1.59 0 011.64-1.55 1.594 1.594 0 011.55 1.639c-.401 14.341.168 27.337 1.324 30.229 1.804 4.509 4.54 8.453 12.275 6.796 7.343-1.575 10.093-4.359 11.318-11.46.94-5.449 2.799-20.951 3.028-24.01a1.593 1.593 0 011.71-1.472 1.597 1.597 0 011.472 1.71c-.239 3.185-2.089 18.657-3.065 24.315-1.446 8.387-5.185 12.191-13.794 14.037-1.463.313-2.792.453-4 .454zM31.321 90.466a6.71 6.71 0 01-2.116-.35c-5.347-1.784-10.44-10.492-15.138-25.885-3.576-11.717-5.842-23.947-6.041-27.922-.589-11.784 2.445-20.121 9.02-24.778 13.007-9.216 34.888-.44 35.813-.062a1.596 1.596 0 01-1.207 2.955c-.211-.086-21.193-8.492-32.768-.285-5.622 3.986-8.203 11.392-7.672 22.011.167 3.349 2.284 15.285 5.906 27.149 4.194 13.742 8.967 22.413 13.096 23.79.648.216 2.62.873 5.439-2.517A245.272 245.272 0 0145.88 73.046a1.596 1.596 0 012.304 2.208c-.048.05-4.847 5.067-10.077 11.359-2.477 2.979-4.851 3.853-6.786 3.853zm69.429-13.445a1.596 1.596 0 01-1.322-2.487c14.863-22.055 20.08-48.704 15.612-54.414-5.624-7.186-13.565-10.939-23.604-11.156-7.433-.16-13.341 1.738-14.307 2.069l-.243.099c-.971.305-1.716-.227-1.997-.849a1.6 1.6 0 01.631-2.025c.046-.027.192-.089.429-.176l-.021.006.021-.007c1.641-.601 7.639-2.4 15.068-2.315 11.108.118 20.284 4.401 26.534 12.388 2.957 3.779 2.964 12.485.019 23.887-3.002 11.625-8.651 24.118-15.497 34.277-.306.457-.81.703-1.323.703zm.76 10.21c-2.538 0-4.813-.358-6.175-1.174-1.4-.839-1.667-1.979-1.702-2.584-.382-6.71 3.32-7.878 5.208-8.411-.263-.398-.637-.866-1.024-1.349-1.101-1.376-2.609-3.26-3.771-6.078-.182-.44-.752-1.463-1.412-2.648-3.579-6.418-11.026-19.773-6.242-26.612 2.214-3.165 6.623-4.411 13.119-3.716C97.6 28.837 88.5 10.625 66.907 10.271c-6.494-.108-11.82 1.889-15.822 5.93-8.96 9.049-8.636 25.422-8.631 25.586a1.595 1.595 0 11-3.19.084c-.02-.727-.354-17.909 9.554-27.916C53.455 9.272 59.559 6.96 66.96 7.081c13.814.227 22.706 7.25 27.732 13.101 5.479 6.377 8.165 13.411 8.386 15.759.165 1.746-1.088 2.095-1.341 2.147l-.576.013c-6.375-1.021-10.465-.312-12.156 2.104-3.639 5.201 3.406 17.834 6.414 23.229.768 1.376 1.322 2.371 1.576 2.985.988 2.396 2.277 4.006 3.312 5.3.911 1.138 1.7 2.125 1.982 3.283.131.23 1.99 2.98 13.021.703 2.765-.57 4.423-.083 4.93 1.45.997 3.015-4.597 6.532-7.694 7.97-2.775 1.29-7.204 2.106-11.036 2.106zm-4.696-4.021c.35.353 2.101.962 5.727.806 3.224-.138 6.624-.839 8.664-1.786 2.609-1.212 4.351-2.567 5.253-3.492l-.5.092c-7.053 1.456-12.042 1.262-14.828-.577a6.162 6.162 0 01-.54-.401c-.302.119-.581.197-.78.253-1.58.443-3.214.902-2.996 5.105zm-45.562 8.915c-1.752 0-3.596-.239-5.479-.71-1.951-.488-5.24-1.957-5.19-4.37.057-2.707 3.994-3.519 5.476-3.824 5.354-1.103 5.703-1.545 7.376-3.67.488-.619 1.095-1.39 1.923-2.314 1.229-1.376 2.572-2.073 3.992-2.073.989 0 1.8.335 2.336.558 1.708.708 3.133 2.42 3.719 4.467.529 1.847.276 3.625-.71 5.006-3.237 4.533-7.886 6.93-13.443 6.93zm-7.222-4.943c.481.372 1.445.869 2.518 1.137 1.631.408 3.213.615 4.705.615 4.546 0 8.196-1.882 10.847-5.594.553-.774.387-1.757.239-2.274-.31-1.083-1.08-2.068-1.873-2.397-.43-.178-.787-.314-1.115-.314-.176 0-.712 0-1.614 1.009a41.146 41.146 0 00-1.794 2.162c-2.084 2.646-3.039 3.544-9.239 4.821-1.513.31-2.289.626-2.674.835zm12.269-7.36a1.596 1.596 0 01-1.575-1.354 8.218 8.218 0 01-.08-.799c-4.064-.076-7.985-1.82-10.962-4.926-3.764-3.927-5.477-9.368-4.699-14.927.845-6.037.529-11.366.359-14.229-.047-.796-.081-1.371-.079-1.769.003-.505.013-1.844 4.489-4.113 1.592-.807 4.784-2.215 8.271-2.576 5.777-.597 9.585 1.976 10.725 7.246 3.077 14.228.244 20.521-1.825 25.117-.385.856-.749 1.664-1.04 2.447l-.257.69c-1.093 2.931-2.038 5.463-1.748 7.354a1.595 1.595 0 01-1.335 1.819l-.244.02zM42.464 42.26l.062 1.139c.176 2.974.504 8.508-.384 14.86-.641 4.585.759 9.06 3.843 12.276 2.437 2.542 5.644 3.945 8.94 3.945h.068c.369-1.555.982-3.197 1.642-4.966l.255-.686c.329-.884.714-1.74 1.122-2.646 1.991-4.424 4.47-9.931 1.615-23.132-.565-2.615-1.936-4.128-4.189-4.627-4.628-1.022-11.525 2.459-12.974 3.837zm9.63-.677c-.08.564 1.033 2.07 2.485 2.271 1.449.203 2.689-.975 2.768-1.539.079-.564-1.033-1.186-2.485-1.388-1.451-.202-2.691.092-2.768.656zm2.818 2.826l-.407-.028c-.9-.125-1.81-.692-2.433-1.518-.219-.29-.576-.852-.505-1.354.101-.736.999-1.177 2.4-1.177.313 0 .639.023.967.069.766.106 1.477.327 2.002.62.91.508.977 1.075.936 1.368-.112.813-1.405 2.02-2.96 2.02zm-2.289-2.732c.045.348.907 1.496 2.029 1.651l.261.018c1.036 0 1.81-.815 1.901-1.082-.096-.182-.762-.634-2.025-.81a5.823 5.823 0 00-.821-.059c-.812 0-1.243.183-1.345.282zm43.605-1.245c.079.564-1.033 2.07-2.484 2.272-1.45.202-2.691-.975-2.771-1.539-.076-.564 1.036-1.187 2.486-1.388 1.45-.203 2.689.092 2.769.655zm-2.819 2.56c-1.396 0-2.601-1.086-2.7-1.791-.115-.846 1.278-1.489 2.712-1.688.316-.044.629-.066.93-.066 1.238 0 2.058.363 2.14.949.053.379-.238.964-.739 1.492-.331.347-1.026.948-1.973 1.079l-.37.025zm.943-3.013c-.276 0-.564.021-.856.061-1.441.201-2.301.779-2.259 1.089.048.341.968 1.332 2.173 1.332l.297-.021c.787-.109 1.378-.623 1.66-.919.443-.465.619-.903.598-1.052-.028-.198-.56-.49-1.613-.49zm3.965 32.843a1.594 1.594 0 01-1.324-2.483c3.398-5.075 2.776-10.25 2.175-15.255-.257-2.132-.521-4.337-.453-6.453.07-2.177.347-3.973.614-5.71.317-2.058.617-4.002.493-6.31a1.595 1.595 0 113.186-.172c.142 2.638-.197 4.838-.525 6.967-.253 1.643-.515 3.342-.578 5.327-.061 1.874.178 3.864.431 5.97.64 5.322 1.365 11.354-2.691 17.411a1.596 1.596 0 01-1.328.708z"></path>
+                            </svg>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <path d="M124.8 52.1c-4.3-2.5-10-2.8-14.8-1.4-.6-5.2-4-9.7-8-12.9l-1.6-1.3-1.4 1.6c-2.7 3.1-3.5 8.3-3.1 12.3.3 2.9 1.2 5.9 3 8.3-1.4.8-2.9 1.9-4.3 2.4-2.8 1-5.9 2-8.9 2H79V49H66V24H51v12H26v13H13v14H1.8l-.2 1.5c-.5 6.4.3 12.6 3 18.5l1.1 2.2.1.2c7.9 13.4 21.7 19 36.8 19 29.2 0 53.3-13.1 64.3-40.6 7.4.4 15-1.8 18.6-8.9l.9-1.8-1.6-1zM28 39h10v11H28V39zm13.1 44.2c0 1.7-1.4 3.1-3.1 3.1-1.7 0-3.1-1.4-3.1-3.1 0-1.7 1.4-3.1 3.1-3.1 1.7.1 3.1 1.4 3.1 3.1zM28 52h10v11H28V52zm-13 0h11v11H15V52zm27.7 50.2c-15.8-.1-24.3-5.4-31.3-12.4 2.1.1 4.1.2 5.9.2 1.6 0 3.2 0 4.7-.1 3.9-.2 7.3-.7 10.1-1.5 2.3 5.3 6.5 10.2 14 13.8h-3.4zM51 63H40V52h11v11zm0-13H40V39h11v11zm13 13H53V52h11v11zm0-13H53V39h11v11zm0-13H53V26h11v11zm13 26H66V52h11v11zM38.8 81.2c-.2-.1-.5-.2-.8-.2-1.2 0-2.2 1-2.2 2.2 0 1.2 1 2.2 2.2 2.2s2.2-1 2.2-2.2c0-.3-.1-.6-.2-.8-.2.3-.4.5-.8.5-.5 0-.9-.4-.9-.9.1-.4.3-.7.5-.8z" fill="#019BC6"></path>
+                            </svg>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 512 512">
+                                <style>
+                                    .st9 {
+                                        fill: #d0d0d0
+                                    }
 
-            <section id="Experience" class="content-section scroll-reveal">
-                <h2 class="section-title">&lt;EXPERIENCE/&gt;</h2>
+                                    .st11 {
+                                        fill: #d9d9d9
+                                    }
+
+                                    .st13 {
+                                        fill: #d8d8d8
+                                    }
+
+                                    .st14 {
+                                        fill: #e2e2e2
+                                    }
+
+                                    .st16 {
+                                        fill: #dedede
+                                    }
+
+                                    .st21 {
+                                        fill: #00b8e3
+                                    }
+
+                                    .st22 {
+                                        fill: #33c6e9
+                                    }
+
+                                    .st23 {
+                                        fill: #008aaa
+                                    }
+                                </style>
+                                <g id="g2460" transform="translate(.714 .07)">
+                                    <path id="path1588" d="M432.9 149.2c-1.4 0-2.7-.7-3.4-2L370.1 44.1c-.7-1.2-2-2-3.5-2H124.2c-1.4 0-2.7.7-3.4 2L58.9 150.9l23.9 34.9c-.7 1.2-6.2 24-5.5 25.2L58.9 360.9l61.9 106.9c.7 1.2 2 2 3.4 2h242.4c1.4 0 2.7-.7 3.5-2l59.4-103.2c.7-1.2 2-2 3.4-2h73.8c2.4 0 4.4-2 4.4-4.4V153.6c0-2.4-2-4.4-4.4-4.4z" style="fill:#4d4d4d" />
+                                    <path id="path1594" d="M72.7 245.3 6.4 269.4l-6.6-11.3c-.7-1.2-.7-2.7 0-3.9l30-52z" style="fill:#e1e1e1" />
+                                    <path id="polygon1794" d="M511.3 258.3V309l-43.7-44.5z" style="fill:#c8c8c8" />
+                                    <path id="path1798" d="m467.5 264.5 43.7 44.5v49.6c0 2.4-2 4.4-4.4 4.4H456z" style="fill:#c2c2c2" />
+                                    <path id="polygon1802" d="M467.5 264.5 456 362.9h-61.2l-18.5-44.7z" style="fill:#c7c7c7" />
+                                    <path id="polygon1804" d="M511.3 211.2v47l-43.7 6.2z" style="fill:#cecece" />
+                                    <path id="path1808" d="M511.3 153.6v57.6l-43.7 53.2-33.1-115.3h72.2c2.4-.1 4.5 1.8 4.6 4.3z" style="fill:#d3d3d3" />
+                                    <path id="polygon1812" d="M394.8 362.9h-32.3l-8.4-12 22.1-32.7z" style="fill:#c6c6c6" />
+                                    <path id="polygon1814" d="m467.5 264.5-121.1-51.2 63.7-64.1h24.4z" style="fill:#d5d5d5" />
+                                    <path id="path1816" d="m346.5 213.3 29.8 105 91.2-53.8z" class="st9" />
+                                    <path id="polygon1818" d="m353.8 362.9.4-12 8.4 12z" style="fill:#bfbfbf" />
+                                    <path id="polygon1820" d="m410.1 149.2-63.7 64.1-11.4-57.4 24.6-6.8h50.5z" class="st11" />
+                                    <path id="path1822" d="m346.5 213.3-147 33.9 154.7 103.7z" style="fill:#d4d4d4" />
+                                    <path id="path1824" d="m346.5 213.3 7.7 137.6 22.1-32.7z" class="st9" />
+                                    <path id="path1826" d="m335 155.9-135.5 91.2 147-33.9z" class="st11" />
+                                    <path id="polygon1828" d="m199.5 247.2-63.7 115.7H99.6L72.7 245.3z" class="st13" />
+                                    <path id="path1830" d="m134.3 149.2-61.5 96.1L57.3 155l2.2-3.8c.7-1.2 2-1.9 3.4-1.9z" class="st14" />
+                                    <path id="path1832" d="M99.6 362.9H62.7c-1.4 0-2.8-.8-3.5-2L6.4 269.4l66.4-24.1z" class="st13" />
+                                    <path id="polygon1834" d="M29.9 202.1 57.1 155l15.7 90.3z" style="fill:#e4e4e4" />
+                                    <path id="polygon1836" d="m335 155.9-40.8-6.8H159.4l40.1 98z" class="st16" />
+                                    <path id="polygon1838" d="m199.5 247.2-40.1-98h-25.1l-61.5 96.1z" class="st16" />
+                                    <path id="polygon1840" d="M324.7 362.9h29.1l.4-12z" style="fill:#c5c5c5" />
+                                    <path id="polygon1842" d="M266.7 362.9h58l29.5-12-154.7-103.7 27.9 115.7z" class="st9" />
+                                    <path id="polygon1844" d="m227.4 362.9-27.9-115.7-63.7 115.7z" style="fill:#d1d1d1" />
+                                    <path id="polygon1856" d="m335.4 149.2-.4 6.8 24.6-6.8z" style="fill:#ddd" />
+                                    <path id="polygon1858" d="m335 155.9-3.8-6.8h-37z" style="fill:#e3e3e3" />
+                                    <path id="polygon1860" d="m335 155.9.4-6.8h-4.2z" class="st14" />
+                                    <path id="path1862" d="m223.9 151-59.7 103.4c-.3.5-.4 1.1-.4 1.7h-41.7l82-142q.75.45 1.2 1.2l18.6 32.3c.5 1.1.5 2.4 0 3.4" class="st21" />
+                                    <path id="path1864" d="M223.8 364.9 205.3 397q-.45.75-1.2 1.2l-82-142.2h41.7c0 .6.1 1.1.4 1.6l59.6 103.2c.8 1.2.9 2.9 0 4.1" class="st22" />
+                                    <path id="path1866" d="m204 114.2-82 141.9-20.6 35.6-19.6-34c-.3-.5-.4-1-.4-1.6s.1-1.2.4-1.7l19.9-34.4 60.4-104.5c.6-1.1 1.8-1.8 3-1.8h37.2c.6 0 1.2.2 1.7.5" class="st23" />
+                                    <path id="path1868" d="M204 398.2c-.5.3-1.1.5-1.8.5h-37.1c-1.3 0-2.4-.7-3-1.8l-55.2-95.6-5.5-9.5 20.6-35.6z" class="st21" />
+                                    <path id="path1870" d="m368.9 256.1-82 142q-.75-.45-1.2-1.2L267 364.7c-.5-1-.5-2.3 0-3.3L326.7 258c.3-.5.5-1.2.5-1.8z" class="st23" />
+                                    <path id="path1872" d="M409.4 256.1c0 .6-.2 1.3-.5 1.8l-80.3 139.3c-.6 1-1.8 1.7-3 1.6h-37c-.6 0-1.2-.2-1.8-.5L368.9 256l20.6-35.6 19.5 33.8c.3.7.4 1.3.4 1.9" class="st21" />
+                                    <path id="path1874" d="M368.9 256.1h-41.7c0-.6-.2-1.2-.5-1.8L267 151.2c-.6-1.1-.6-2.5 0-3.6l18.6-32.2q.45-.75 1.2-1.2z" class="st21" />
+                                    <path id="path1876" d="m389.4 220.5-20.6 35.6-82-142c.6-.3 1.2-.5 1.8-.5h37.1c1.2 0 2.3.6 3 1.6z" class="st22" />
+                                </g>
+                            </svg>
+                            <span>Keycloak</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <path fill="#632ca6" d="M104.375 90.884 93.726 83.86 84.843 98.7 74.51 95.677l-9.098 13.885.467 4.371 49.463-9.114-2.873-30.905zM58.247 77.56l7.936-1.092c1.284.577 2.178.797 3.718 1.189 2.397.625 5.173 1.224 9.284-.848.957-.474 2.95-2.296 3.755-3.335l32.515-5.898 3.317 40.144-55.704 10.04zm60.4-14.466-3.21.612L109.271 0 4.207 12.183 17.151 117.22l12.297-1.785c-.982-1.402-2.511-3.099-5.122-5.27-3.622-3.01-2.341-8.12-.205-11.348 2.826-5.453 17.39-12.383 16.565-21.099-.296-3.169-.8-7.295-3.741-10.121a9.8 9.8 0 0 0 .088 2.303s-1.208-1.541-1.81-3.643c-.598-.805-1.068-1.063-1.703-2.139-.453 1.245-.393 2.69-.393 2.69s-.988-2.336-1.148-4.306c-.586.882-.734 2.558-.734 2.558s-1.284-3.68-.991-5.662c-.586-1.725-2.323-5.148-1.831-12.929 3.206 2.247 10.265 1.713 13.015-2.34.913-1.343 1.538-5.008-.456-12.23-1.28-4.63-4.453-11.526-5.689-14.142l-.148.106c.652 2.108 1.996 6.526 2.511 8.668 1.56 6.498 1.98 8.76 1.247 11.755-.623 2.604-2.118 4.309-5.908 6.213-3.789 1.91-8.817-2.739-9.136-2.996-3.681-2.933-6.53-7.717-6.847-10.042-.33-2.544 1.466-4.072 2.372-6.152-1.296.37-2.742 1.028-2.742 1.028s1.725-1.785 3.852-3.329c.88-.583 1.398-.954 2.326-1.725-1.344-.022-2.435.016-2.435.016s2.241-1.21 4.564-2.092c-1.7-.075-3.326-.012-3.326-.012s5-2.236 8.95-3.878c2.715-1.113 5.369-.784 6.86 1.371 1.956 2.824 4.011 4.357 8.367 5.308 2.674-1.185 3.487-1.795 6.848-2.71 2.958-3.253 5.28-3.674 5.28-3.674s-1.152 1.057-1.46 2.717a39 39 0 0 1 3.516-2.424s-.711.879-1.375 2.275l.154.229c1.957-1.174 4.257-2.1 4.257-2.1s-.658.832-1.429 1.908c1.475-.012 4.468.063 5.63.195 6.856.15 8.28-7.324 10.91-8.26 3.295-1.177 4.767-1.889 10.382 3.626 4.817 4.734 8.581 13.208 6.713 15.106-1.567 1.576-4.658-.614-8.084-4.885-1.81-2.262-3.18-4.934-3.82-8.332-.542-2.867-2.648-4.53-2.648-4.53s1.223 2.717 1.223 5.118c0 1.31.164 6.212 2.266 8.962-.208.402-.305 1.99-.535 2.293-2.446-2.955-7.697-5.07-8.554-5.693 2.899 2.375 9.561 7.831 12.12 13.06 2.42 4.945.994 9.477 2.218 10.65.349.337 5.205 6.388 6.14 9.428 1.629 5.3.097 10.867-2.036 14.322l-5.957.928c-.872-.242-1.459-.363-2.24-.816.43-.762 1.286-2.664 1.295-3.055l-.336-.59c-1.854 2.625-4.96 5.176-7.54 6.64-3.377 1.914-7.27 1.62-9.803.835C61.744 71 54.944 66.14 53.304 64.864c0 0-.05 1.02.259 1.248 1.813 2.045 5.967 5.745 9.982 8.323l-8.56.942 4.047 31.508c-1.794.257-2.073.382-4.037.662-1.731-6.115-5.042-10.108-8.661-12.434-3.192-2.05-7.594-2.513-11.808-1.679l-.27.314c2.93-.305 6.388.12 9.942 2.37 3.487 2.204 6.297 7.9 7.332 11.329 1.324 4.382 2.24 9.07-1.325 14.039-2.537 3.532-9.942 5.484-15.924 1.261 1.598 2.57 3.758 4.672 6.665 5.068 4.317.586 8.415-.163 11.235-3.058 2.408-2.476 3.685-7.652 3.349-13.104l3.81-.553 1.375 9.785 63.078-7.595zM80.27 36.521c-.176.402-.453.665-.037 1.973l.025.075.066.169.173.392c.75 1.53 1.571 2.974 2.945 3.711q.534-.09 1.105-.12c1.29-.056 2.105.149 2.622.427.046-.258.057-.634.028-1.189-.1-1.939.384-5.236-3.342-6.972-1.407-.653-3.38-.451-4.038.364.12.015.227.04.311.068.994.349.32.691.142 1.102m10.444 18.09c-.488-.269-2.772-.163-4.378.029-3.058.36-6.36 1.421-7.084 1.986-1.315 1.017-.717 2.79.254 3.518 2.725 2.035 5.114 3.4 7.636 3.068 1.548-.203 2.913-2.654 3.88-4.879.663-1.532.663-3.185-.308-3.722m-27.076-15.69c.862-.818-4.297-1.895-8.3.835-2.952 2.013-3.046 6.33-.22 8.777.283.243.516.414.735.555a24 24 0 0 1 2.847-1.133c1.828-.594 3.349-.9 4.598-1.063.598-.668 1.293-1.845 1.12-3.975-.236-2.89-2.426-2.43-.78-3.995"></path>
+                            </svg>
+                            <span>DataDog</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <path fill="#ff6600" d="M119.517 51.188H79.291a3.641 3.641 0 0 1-3.64-3.642V5.62A5.605 5.605 0 0 0 70.028 0H55.66a5.606 5.606 0 0 0-5.627 5.62v41.646a3.913 3.913 0 0 1-3.92 3.925l-13.188.047c-2.176 0-3.972-1.75-3.926-3.926l.094-41.687A5.606 5.606 0 0 0 23.467 0H9.1a5.61 5.61 0 0 0-5.626 5.625V122.99c0 2.737 2.22 5.01 5.01 5.01h111.033a5.014 5.014 0 0 0 5.008-5.011V56.195a4.975 4.975 0 0 0-5.008-5.007zM100.66 95.242a6.545 6.545 0 0 1-6.525 6.524H82.791a6.545 6.545 0 0 1-6.523-6.524V83.9a6.545 6.545 0 0 1 6.523-6.524h11.343a6.545 6.545 0 0 1 6.525 6.523zm0 0"></path>
+                            </svg>
+                            <span>RabbitMQ</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <path fill="url(#a)" d="M66.958.825a6.07 6.07 0 0 0-6.035 0L11.103 29.76c-1.895 1.072-2.96 3.095-2.96 5.24v57.988c0 2.143 1.183 4.167 2.958 5.24l49.82 28.934a6.07 6.07 0 0 0 6.036 0l49.82-28.935c1.894-1.072 2.958-3.096 2.958-5.24V35c0-2.144-1.183-4.167-2.958-5.24z"></path>
+                                <path fill="url(#b)" d="M116.897 29.76 66.841.825A8.161 8.161 0 0 0 65.302.23L9.21 96.798a6.251 6.251 0 0 0 1.657 1.43l50.057 28.934c1.42.833 3.076 1.072 4.615.595l52.66-96.925a3.702 3.702 0 0 0-1.302-1.072z"></path>
+                                <path fill="url(#c)" d="M116.898 98.225c1.42-.833 2.485-2.262 2.958-3.81L65.066.108c-1.42-.238-2.959-.119-4.26.715L11.104 29.639l53.606 98.355c.71-.12 1.54-.358 2.25-.715z"></path>
+                                <defs>
+                                    <linearGradient id="a" x1="34.513" x2="27.157" y1="15.535" y2="30.448" gradientTransform="translate(-129.242 -73.715) scale(6.18523)" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#3F873F"></stop>
+                                        <stop offset=".33" stop-color="#3F8B3D"></stop>
+                                        <stop offset=".637" stop-color="#3E9638"></stop>
+                                        <stop offset=".934" stop-color="#3DA92E"></stop>
+                                        <stop offset="1" stop-color="#3DAE2B"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="b" x1="30.009" x2="50.533" y1="23.359" y2="8.288" gradientTransform="translate(-129.242 -73.715) scale(6.18523)" gradientUnits="userSpaceOnUse">
+                                        <stop offset=".138" stop-color="#3F873F"></stop>
+                                        <stop offset=".402" stop-color="#52A044"></stop>
+                                        <stop offset=".713" stop-color="#64B749"></stop>
+                                        <stop offset=".908" stop-color="#6ABF4B"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="c" x1="21.917" x2="40.555" y1="22.261" y2="22.261" gradientTransform="translate(-129.242 -73.715) scale(6.18523)" gradientUnits="userSpaceOnUse">
+                                        <stop offset=".092" stop-color="#6ABF4B"></stop>
+                                        <stop offset=".287" stop-color="#64B749"></stop>
+                                        <stop offset=".598" stop-color="#52A044"></stop>
+                                        <stop offset=".862" stop-color="#3F873F"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <g fill="#61DAFB">
+                                    <circle cx="64" cy="64" r="11.4"></circle>
+                                    <path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"></path>
+                                </g>
+                            </svg>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg viewBox="0 0 128 128">
+                                <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
+                                    <stop offset="0" stop-color="#5A9FD4"></stop>
+                                    <stop offset="1" stop-color="#306998"></stop>
+                                </linearGradient>
+                                <linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
+                                    <stop offset="0" stop-color="#FFD43B"></stop>
+                                    <stop offset="1" stop-color="#FFE873"></stop>
+                                </linearGradient>
+                                <path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)"></path>
+                                <path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)"></path>
+                                <radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"></stop>
+                                    <stop offset="1" stop-color="#7F7F7F" stop-opacity="0"></stop>
+                                </radialGradient>
+                                <path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z"></path>
+                            </svg>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item glass-frame">
+                            <svg role="img" viewBox="0 0 24 24">
+                                <path d="M3.327 0A3.327 3.327 0 0 0 0 3.326v17.348A3.327 3.327 0 0 0 3.327 24h17.347A3.326 3.326 0 0 0 24 20.674V3.326A3.326 3.326 0 0 0 20.674 0H3.327Zm8.687 3.307c1.875 0 2.84 1.105 2.84 3.049v1.175H13.05V6.23c0-.867-.392-1.203-.994-1.203-.615-.014-.993.322-.993 1.189v6.56c0 .867.392 1.175.993 1.175.616 0 .994-.308.994-1.175v-1.734h1.804v1.608c-.014 1.945-.979 3.049-2.854 3.049-1.874 0-2.839-1.119-2.839-3.035V6.356c.014-1.944.979-3.049 2.853-3.049ZM9.161 17.476h5.693v3.217H9.161v-3.217Z" />
+                            </svg>
+                            <span>Camunda</span>
+                        </div>
+                    </div>
+                    <div class="center-btn">
+                        <a href="./page/skills.html" class="btn-outline-azure">View All Skills</a>
+                    </div>
+                </section>
+                <section id="Education" class="content-section scroll-reveal">
+                    <h2 class="section-title">&lt;EDUCATION/&gt;</h2>
+                    <div class="glass-frame edu-container">
+                        <div class="edu-left">
+                            <img src="./assets/img/logo/ugm.png" alt="UGM Logo">
+                        </div>
+                        <div class="edu-right">
+                            <div class="edu-head">
+                                <h3>Universitas Gadjah Mada</h3>
+                                <span class="edu-date">02/2024 — Present</span>
+                            </div>
+                            <div class="edu-program">Master of Information Technology</div>
+                            <div class="edu-thesis">
+                                <strong>Thesis:</strong>
+                                <br /> Optimizing Business Process Efficiency Through BPMN Engine-Enabled System Automation
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-frame edu-container">
+                        <div class="edu-left">
+                            <img src="./assets/img/logo/uinsa.png" alt="UIN Logo">
+                        </div>
+                        <div class="edu-right">
+                            <div class="edu-head">
+                                <h3>Universitas Islam Negeri Sunan Ampel</h3>
+                                <span class="edu-date">09/2015 — 08/2021</span>
+                            </div>
+                            <div class="edu-program">Bachelor of Information System</div>
+                            <div class="edu-thesis">
+                                <strong>Thesis:</strong>
+                                <br /> Open-Source Forensic Applications Performance Analysis on Smartphone Android-Based in Collecting Digital Evidence
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="Publication" class="content-section scroll-reveal">
+                    <h2 class="section-title">&lt;PUBLICATION/&gt;</h2>
+                    <div class="pub-list">
+                        <div class="pub-item glass-frame">
+                            <h3>A Proposed Fault-Tolerant Approach to BPMN Workflow Migration Amidst Update Failures</h3>
+                            <div class="pub-meta">
+                                <span>2025</span>
+                                <span>IEEE International Conference on Recent Advances in Systems Science and Engineering</span>
+                            </div>
+                            <a href="https://ieeexplore.ieee.org/document/11315246" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="pub-item glass-frame">
+                            <h3>Forensic Analysis Using Autopsy to Get Deleted Whatsapp Data</h3>
+                            <div class="pub-meta">
+                                <span>2022</span>
+                                <span>Jurnal Teknologi Informasi Dan Komunikasi</span>
+                            </div>
+                            <a href="https://www.neliti.com/publications/465521/analisis-kinerja-aplikasi-forensik-open-source-pada-ponsel-cerdas-berbasis-andro" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="pub-item glass-frame">
+                            <h3>“Open-Source Forensic Applications Performance Analysis on Smartphone Android-Based in Collecting Digital Evidence</h3>
+                            <div class="pub-meta">
+                                <span>2021</span>
+                                <span>Junal Inovasi Informatika</span>
+                            </div>
+                            <a href="https://ejurnal.provisi.ac.id/index.php/JTIKP/article/view/313" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="center-btn">
+                        <a href="./page/publications.html" class="btn-outline-azure">View All Publications</a>
+                    </div>
+                </section>
+                <section id="Certificates" class="content-section scroll-reveal">
+                    <h2 class="section-title">&lt;CERTIFICATES/&gt;</h2>
+                    <div class="cert-list">
+                        <div class="cert-item glass-frame">
+                            <div class="cert-info">
+                                <h3>TOEFL ITP</h3>
+                                <p>2025</p>
+                                <p>Educational Testing Service (ETS)</p>
+                            </div>
+                            <button class="btn-view-cert" data-title="TOEFL ITP" data-src="https://raw.githubusercontent.com/jampirojam/assets/main/cert-sample.pdf"> [ View ] </button>
+                        </div>
+                        <div class="cert-item glass-frame">
+                            <div class="cert-info">
+                                <h3>AWS Academy Cloud Architecting</h3>
+                                <p>2024</p>
+                                <p>Amazon Web Services (AWS)</p>
+                            </div>
+                            <button class="btn-view-cert" data-title="AWS Academy Cloud Architecting" data-src="https://placehold.co/600x400/png?text=Certificate+Image"> [ View ] </button>
+                        </div>
+                        <div class="cert-item glass-frame">
+                            <div class="cert-info">
+                                <h3>Secure Coding Overview</h3>
+                                <p>2024</p>
+                                <p>Cyber Academy</p>
+                            </div>
+                            <button class="btn-view-cert" data-title="Secure Coding Overview" data-src="https://placehold.co/600x400/png?text=Certificate+Image"> [ View ] </button>
+                        </div>
+                        <div class="cert-item glass-frame">
+                            <div class="cert-info">
+                                <h3>Web App using React</h3>
+                                <p>2024</p>
+                                <p>Dicoding</p>
+                            </div>
+                            <button class="btn-view-cert" data-title="Web App using React" data-src="https://placehold.co/600x400/png?text=Certificate+Image"> [ View ] </button>
+                        </div>
+                    </div>
+                    <div class="center-btn">
+                        <a href="./page/certificates.html" class="btn-outline-azure">View All Certificates</a>
+                    </div>
+                </section>
+                <section id="Contact" class="content-section scroll-reveal">
+                    <h2 class="section-title">&lt;CONTACT/&gt;</h2>
+                    <div class="glass-frame">
+                        <h3 class="title-form-head">Send a Message</h3>
+                        
+                        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form-page">
+                            <input type="hidden" name="access_key" value="c89d87db-b672-4323-a4ff-b6728f161feb">
+                            <input type="hidden" name="from_name" value="Portfolio Contact Form">
+                            <input type="checkbox" name="botcheck" class="hidden-input">
+
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" name="email" placeholder="email@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input type="text" name="subject" placeholder="Subject" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea name="message" rows="6" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-azure w-100">Send Message</button>
+                        </form>
+                    </div>
+                </section>
                 
-                <div class="glass-frame">
-                    <div class="company-header">
-                        <div class="company-logo"><img src="./assets/img/logo/bfi.png" alt="BFI"></div>
-                        <h3>PT BFI Finance Indonesia Tbk</h3>
-                    </div>
-                    <div class="role-timeline">
-                        <div class="role-item">
-                            <div class="role-dot"></div>
-                            <h4 class="role-title">Backend Engineer</h4>
-                            <span class="role-date">01/2024 — 10/2024</span>
-                            <div class="role-desc">
-                                <ul>
-                                    <li>Contributed to the end-to-end implementation of a core system, managing its transition from a 3-branch pilot to a nationwide go-live across 200+ branches.</li>
-                                    <li>Developed an adaptable system template and modular workflows for 6 different loan products, enabling the system to handle diverse risk profiles and dynamic approval rules. </li>
-                                    <li>Provided technical guidance to associate engineers and performed peer code reviews to ensure architectural alignment and software robustness across the squad. </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="role-item">
-                            <div class="role-dot"></div>
-                            <h4 class="role-title">Associate Backend Engineer</h4>
-                            <span class="role-date">10/2022 — 12/2023</span>
-                            <div class="role-desc">
-                                <ul>
-                                    <li>Developed scalable microservices and 3+ core modules, optimizing system performance for high-traffic environments.</li>
-                                    <li>Built a hybrid scoring system and tailored operational workflows for Surveyors and Ops Staff, supporting complex Sharia and Conventional compliance requirements.</li> 
-                                    <li>Collaborated in cross-functional Agile teams to deliver end-to-end solutions aligned with strategic business objectives.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="role-item">
-                            <div class="role-dot"></div>
-                            <h4 class="role-title">BFI Technology Development Program</h4>
-                            <span class="role-date">06/2022 — 10/2022</span>
-                            <div class="role-desc">
-                                <ul>
-                                    <li>Accelerated mastery of complex finance business processes and internal system architectures within an intensive On-the-Job Training (OJT), achieving full readiness for squad deployment.</li>
-                                    <li>Assisted in backend development and technical documentation while proactively troubleshooting bugs to ensure system stability and 100% accuracy in system documentation prior to production releases.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="glass-frame" style="margin-top:20px;">
-                    <div class="company-header">
-                        <div class="company-logo"><img src="./assets/img/logo/merdeka.png" alt="RML"></div>
-                        <h3>PT Radio Merdeka Lokatama</h3>
-                    </div>
-                    <div class="role-timeline">
-                        <div class="role-item">
-                            <div class="role-dot"></div>
-                            <h4 class="role-title">IT Support (Intern)</h4>
-                            <span class="role-date">01/2020 — 02/2020</span>
-                            <div class="role-desc">
-                                <ul>
-                                    <li>Resolved hardware, software, and network issues through proactive troubleshooting and maintained detailed support logs for process improvement.</li>
-                                    <li>Authored 30+ broadcast segments, including ad announcements, song transitions, and breaking news, contributing to daily radio operations.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="Projects" class="content-section scroll-reveal">
-                <h2 class="section-title">&lt;PROJECTS/&gt;</h2>
-                <div class="project-grid">
-                    <div class="project-card glass-frame">
-                        <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
-                        <div class="proj-body">
-                            <h3>Marriage & Divorce Registration System</h3>
-                            <div class="tags">
-                                <span class="tag-lime">Spring Boot</span>
-                                <span class="tag-lime">Camunda</span>
-                                <span class="tag-lime">PostgreSQL</span>
-                            </div>
-                            <!--<p class="proj-desc"></p>-->
-                        </div>
-                    </div>
-                    
-                    <div class="project-card glass-frame">
-                        <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
-                        <div class="proj-body">
-                            <h3>Sentiment Analysis Dating Apps</h3>
-                            <div class="tags">
-                                <span class="tag-lime">Python</span>
-                                <span class="tag-lime">PyTorch</span>
-                                <span class="tag-lime">Pandas</span>
-                            </div>
-                            <!--<p class="proj-desc"></p>-->
-                        </div>
-                    </div>
-                    
-                    <div class="project-card glass-frame">
-                        <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
-                        <div class="proj-body">
-                            <h3>User Management System</h3>
-                            <div class="tags">
-                                <span class="tag-lime">Spring Boot</span>
-                                <span class="tag-lime">Keycloak</span>
-                                <span class="tag-lime">PostgreSQL</span>
-                            </div>
-                            <!--<p class="proj-desc"></p>-->
-                        </div>
-                    </div>
-                    
-                    <div class="project-card glass-frame">
-                        <!--<div class="proj-img"><img src="https://placehold.co/600x300/1e293b/white?text=SADA" alt="BPMN"></div>-->
-                        <div class="proj-body">
-                            <h3>Surveyor Platform</h3>
-                            <div class="tags">
-                                <span class="tag-lime">Keycloak</span>
-                                <span class="tag-lime">Spring Boot</span>
-                                <span class="tag-lime">Camunda</span>
-                            </div>
-                            <!--<p class="proj-desc"></p>-->
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="center-btn">
-                    <a href="publications.html" class="btn-outline-azure">View All Projects</a>
-                </div>
-            </section>
-
-            <section id="Skills" class="content-section scroll-reveal">
-                <h2 class="section-title">&lt;SKILLS/&gt;</h2>
-                <div class="skills-grid">
-                    <div class="skill-item glass-frame">
-                        <svg viewBox="0 0 128 128">
-                            <path fill="#0074BD" d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z"></path><path fill="#EA2D2E" d="M69.802 61.271c6.025 6.935-1.58 13.17-1.58 13.17s15.289-7.891 8.269-17.777c-6.559-9.215-11.587-13.792 15.635-29.58 0 .001-42.731 10.67-22.324 34.187z"></path><path fill="#0074BD" d="M102.123 108.229s3.529 2.91-3.888 5.159c-14.102 4.272-58.706 5.56-71.094.171-4.451-1.938 3.899-4.625 6.526-5.192 2.739-.593 4.303-.485 4.303-.485-4.953-3.487-32.013 6.85-13.743 9.815 49.821 8.076 90.817-3.637 77.896-9.468zM49.912 70.294s-22.686 5.389-8.033 7.348c6.188.828 18.518.638 30.011-.326 9.39-.789 18.813-2.474 18.813-2.474s-3.308 1.419-5.704 3.053c-23.042 6.061-67.544 3.238-54.731-2.958 10.832-5.239 19.644-4.643 19.644-4.643zm40.697 22.747c23.421-12.167 12.591-23.86 5.032-22.285-1.848.385-2.677.72-2.677.72s.688-1.079 2-1.543c14.953-5.255 26.451 15.503-4.823 23.725 0-.002.359-.327.468-.617z"></path><path fill="#EA2D2E" d="M76.491 1.587S89.459 14.563 64.188 34.51c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815C58.041 28.42 81.722 22.195 76.491 1.587z"></path><path fill="#0074BD" d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"></path>
-                        </svg>
-                        <span>Java</span>
-                    </div>
-                    <div class="skill-item glass-frame">
-                        <svg viewBox="0 0 128 128">
-                            <path d="M116.452 6.643a59.104 59.104 0 01-6.837 12.136A64.249 64.249 0 0064.205-.026C28.984-.026 0 28.982 0 64.242a64.316 64.316 0 0019.945 46.562l2.368 2.1a64.22 64.22 0 0041.358 15.122c33.487 0 61.637-26.24 64.021-59.683 1.751-16.371-3.051-37.077-11.24-61.7zM29.067 111.17a5.5 5.5 0 01-4.269 2.034c-3.018 0-5.487-2.484-5.487-5.502 0-3.017 2.485-5.501 5.487-5.501 1.25 0 2.485.433 3.452 1.234 2.351 1.9 2.718 5.384.817 7.735zm87.119-19.238c-15.843 21.122-49.68 14.003-71.376 15.02 0 0-3.852.234-7.721.867 0 0 1.45-.617 3.335-1.334 15.226-5.301 22.43-6.335 31.685-11.086 17.427-8.869 34.654-28.274 38.24-48.463-6.637 19.422-26.75 36.11-45.077 42.895-12.557 4.635-35.238 9.136-35.238 9.136l-.917-.484c-15.442-7.518-15.91-40.977 12.157-51.78 12.291-4.735 24.048-2.134 37.323-5.302 14.175-3.367 30.568-14.004 37.238-27.874 7.471 22.19 16.46 56.932.35 78.405z" fill="#77bc1f"></path>
-                        </svg>
-                        <span>Spring</span>
-                    </div>                    
-                    <div class="skill-item glass-frame">
-                        <svg viewBox="0 0 128 128">
-                            <defs><path id="go-original-a" d="M18.8 1h90.5v126H18.8z"></path></defs><clipPath id="go-original-b"><use xlink:href="#go-original-a" overflow="visible"></use></clipPath><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M21.1 68.7c.2 3.5 3.7 1.9 5.3.8 1.5-1.1 2-.2 2.1-2.3.1-1.4.2-2.7.2-4.1-2.3-.2-4.8.3-6.7 1.7-.9.7-2.8 3-.9 3.9" clip-path="url(#go-original-b)"></path><path d="M23 71.2c-.7 0-2-.3-2.2-2.3-.6-.4-.8-.9-.8-1.2-.1-1.2 1.2-2.6 1.9-3.1 1.6-1.2 3.7-1.8 5.9-1.8h1.3v.3c.1 1.1 0 2.2-.1 3.2 0 .3 0 .6-.1.9-.1 1.5-.4 1.7-1.1 2-.3.1-.6.2-1.1.6-.5.3-2.2 1.4-3.7 1.4zm4.8-7.8c-2.1 0-4 .6-5.5 1.7-.7.5-1.7 1.7-1.6 2.5 0 .3.2.6.6.8l.2.1v.2c.1 1.6.9 1.8 1.5 1.8 1 0 2.4-.7 3.3-1.3.6-.4 1-.5 1.3-.6.5-.2.6-.2.7-1.4 0-.3 0-.6.1-.9.1-.9.1-1.9.1-2.8-.3-.1-.5-.1-.7-.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#C6B198" d="M21.1 68.7c.5-.2 1.1-.3 1.4-.8" clip-path="url(#go-original-b)"></path><path d="M21.1 69c-.1 0-.3-.1-.3-.2-.1-.2 0-.4.2-.4.1 0 .2-.1.2-.1.4-.2.8-.3 1-.6.1-.1.3-.2.5-.1.1.1.2.3.1.5-.4.5-.9.7-1.3.8l-.2.1h-.2z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M29.3 26.4c-13.6-3.8-3.5-21.1 7.4-14l-7.4 14z" clip-path="url(#go-original-b)"></path><path d="M29.5 26.8l-.3-.1c-7-2-6.9-7-6.7-8.5.5-3.8 4.1-7.8 8.9-7.8 1.9 0 3.7.6 5.5 1.8l.3.2-7.7 14.4zm1.9-15.7c-4.5 0-7.8 3.7-8.3 7.2-.5 3.6 1.7 6.4 6 7.7l7.1-13.5c-1.5-.9-3.1-1.4-4.8-1.4z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M89.6 11.1c10.7-7.5 20.5 9.5 8 13.8l-8-13.8z" clip-path="url(#go-original-b)"></path><path d="M97.5 25.3L89.2 11l.3-.2c1.9-1.3 3.8-2 5.7-2 4.6 0 7.9 3.8 8.6 7.5.3 1.5.6 6.6-6 8.8l-.3.2zm-7.4-14l7.7 13.3c3.9-1.4 5.9-4.4 5.3-8-.6-3.4-3.7-6.9-7.9-6.9-1.7-.1-3.4.4-5.1 1.6z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M92 112.3c2.7 1.7 7.7 6.8 3.6 9.3-3.9 3.6-6.1-4-9.6-5 1.5-2 3.4-3.9 6-4.3" clip-path="url(#go-original-b)"></path><path d="M93.5 122.9c-1.6 0-3-1.6-4.2-3.1-1.1-1.2-2.2-2.5-3.4-2.9l-.5-.1.3-.4c1.2-1.7 3.2-3.9 6.2-4.4h.1l.1.1c1.7 1.1 5.4 4.2 5.3 7.1 0 1.1-.6 2-1.7 2.7-.7.7-1.4 1-2.2 1zm-7-6.5c1.2.5 2.2 1.8 3.2 2.9 1.2 1.5 2.4 2.8 3.7 2.8.6 0 1.2-.3 1.8-.9h.1c.9-.6 1.4-1.3 1.4-2.2 0-2.3-2.9-5.2-4.9-6.5-1.8.5-3.6 1.7-5.3 3.9zm9.1 5.5c-.1 0-.2-.1-.3-.2-.2-.4-.4-.9-.5-1.3-.3-.8-.6-1.6-1.2-2.2-.1-.1-.1-.3 0-.5.1-.1.3-.1.5 0 .7.7 1.1 1.6 1.4 2.5l.5 1.2c.1.2 0 .4-.1.5h-.3z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M43.2 118.1c-3.2.5-5 3.4-7.7 4.9-2.5 1.5-3.5-.5-3.7-.9-.4-.2-.4.2-1-.4-2.3-3.7 2.4-6.4 4.9-8.2 3.5-.8 5.7 2.2 7.5 4.6" clip-path="url(#go-original-b)"></path><path d="M33.8 123.8c-1.3 0-2-1.1-2.2-1.5h-.1c-.3 0-.5-.1-.9-.5v-.1c-2.2-3.5 1.6-6.2 4.1-8l.9-.6h.2c.4-.1.7-.1 1.1-.1 3 0 4.9 2.6 6.5 4.7l.5.7-.6.1c-1.9.3-3.3 1.5-4.7 2.7-.9.8-1.8 1.5-2.8 2.1-.8.3-1.4.5-2 .5zm-2.2-2.1c.1 0 .2 0 .4.1h.1l.1.1c.2.3.7 1.2 1.7 1.2.5 0 1-.2 1.5-.5 1-.5 1.9-1.3 2.7-2 1.3-1.1 2.7-2.3 4.5-2.8-1.5-2-3.3-4.2-5.8-4.2-.3 0-.6 0-.9.1l-.8.6c-2.6 1.8-5.8 4.1-3.9 7.1.1.2.2.3.4.3zm.2.7c-.2 0-.4-.2-.3-.4.1-1 .6-1.7 1.1-2.5.3-.4.5-.8.7-1.2.1-.2.3-.2.4-.2.2.1.2.3.2.4-.2.5-.5.9-.8 1.3-.5.7-.9 1.3-1 2.1 0 .4-.1.5-.3.5z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M29.9 21.7c-1.8-.9-3.1-2.2-2-4.3 1-1.9 2.9-1.7 4.7-.8l-2.7 5.1zm64.9-1.8c1.8-.9 3.1-2.2 2-4.3-1-1.9-2.9-1.7-4.7-.8l2.7 5.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M107.1 68.2c-.2 3.5-3.7 1.9-5.3.8-1.5-1.1-2-.2-2.1-2.3-.1-1.4-.2-2.7-.2-4.1 2.3-.2 4.8.3 6.7 1.7 1 .8 2.8 3 .9 3.9" clip-path="url(#go-original-b)"></path><path d="M105.3 70.7c-1.5 0-3.2-1.1-3.7-1.4-.5-.3-.8-.5-1.1-.6-.8-.3-1-.5-1.1-2 0-.3 0-.6-.1-.9-.1-1-.2-2.1-.1-3.2v-.3h1.3c2.2 0 4.3.6 5.9 1.8.7.5 2 1.9 1.9 3.1 0 .4-.2.9-.8 1.2-.2 2-1.5 2.3-2.2 2.3zM99.8 63c0 .9 0 1.9.1 2.8 0 .3 0 .6.1.9.1 1.2.2 1.2.7 1.4.3.1.7.3 1.3.6.9.6 2.3 1.3 3.3 1.3.6 0 1.4-.2 1.5-1.8V68l.2-.1c.4-.2.6-.4.6-.8.1-.8-.9-2-1.6-2.5-1.5-1.1-3.5-1.7-5.5-1.7-.2.1-.4.1-.7.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#C6B198" d="M107.1 68.2c-.5-.2-1.1-.3-1.4-.8" clip-path="url(#go-original-b)"></path><path d="M107.1 68.6h-.1l-.2-.1c-.5-.2-1-.3-1.3-.8-.1-.1-.1-.4.1-.5.1-.1.4-.1.5.1.2.3.6.4 1 .6.1 0 .2.1.2.1.2.1.3.3.2.4-.1.1-.3.2-.4.2z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#6AD7E5" d="M62.8 4c13.6 0 26.3 1.9 33 15 6 14.6 3.8 30.4 4.8 45.9.8 13.3 2.5 28.6-3.6 40.9-6.5 12.9-22.7 16.2-36 15.7-10.5-.4-23.1-3.8-29.1-13.4-6.9-11.2-3.7-27.9-3.2-40.4.6-14.8-4-29.7.9-44.1C34.5 8.5 48.1 5.1 62.8 4" clip-path="url(#go-original-b)"></path><path d="M63.3 121.9h-2.5c-4.1-.1-10.3-.8-16.4-3.3-5.9-2.4-10.2-5.8-13-10.3-5.6-9.1-4.6-21.6-3.7-32.7.2-2.8.4-5.4.5-7.9.2-5.2-.2-10.6-.7-15.7-.8-9.4-1.6-19.1 1.5-28.5 2.4-7 6.7-12 13.2-15.2 5.1-2.5 11.4-3.9 20.4-4.6C76 3.6 89.3 5.5 96 18.8c4.4 10.7 4.4 22.2 4.5 33.3 0 4.2 0 8.5.3 12.7.1 1.3.2 2.6.2 3.9.8 12.2 1.7 26-3.9 37.2-2.8 5.7-7.7 9.9-14.4 12.6-5.4 2.2-12.2 3.4-19.4 3.4zM62.8 4.3c-14.1 1.1-27.9 4.2-33 19.4-3.1 9.3-2.3 18.9-1.5 28.2.4 5.2.9 10.5.7 15.8-.1 2.5-.3 5.1-.5 7.9-.9 11-1.9 23.4 3.6 32.3 2.3 3.7 9.7 12.5 28.8 13.2h2.5c22.1 0 30.3-9.8 33.3-15.6 5.5-11 4.6-24.8 3.9-36.9-.1-1.3-.2-2.6-.2-3.9-.2-4.2-.3-8.5-.3-12.7-.1-11-.1-22.5-4.4-33.1C92.7 13 88.2 9 82 6.7c-6.4-2.1-13.6-2.4-19.2-2.4z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M65.2 22.2c2.4 14.2 25.6 10.4 22.3-3.9-3-12.8-23.1-9.2-22.3 3.9" clip-path="url(#go-original-b)"></path><path d="M76.2 31.5c-4.5 0-10.2-2.4-11.4-9.2-.2-3.2.8-6.1 2.9-8.3 2.3-2.5 5.8-3.9 9.4-3.9 4.2 0 9.2 2.2 10.6 8.3.8 3.4.2 6.4-1.7 8.8-2.1 2.6-5.8 4.3-9.8 4.3zm-10.7-9.3c.5 2.8 1.8 5 3.9 6.6 1.8 1.4 4.3 2.1 6.8 2.1 3.7 0 7.3-1.6 9.3-4.1 1.8-2.2 2.3-5.1 1.6-8.3-1.3-5.7-6-7.7-10-7.7-3.4 0-6.7 1.4-8.9 3.7-1.9 2-2.9 4.7-2.7 7.7z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M37.5 24.5c3.2 12.3 22.9 9.2 22.2-3.2-.9-14.8-25.3-12-22.2 3.2" clip-path="url(#go-original-b)"></path><path d="M48 32.7c-4.3 0-9.3-2.1-10.9-8.1-.7-3.5 0-6.7 2-9.1 2.2-2.7 5.8-4.3 9.7-4.3 5.2 0 10.7 3.1 11.1 10.1.2 2.9-.7 5.5-2.7 7.6-2.1 2.3-5.6 3.8-9.2 3.8zm.8-20.8c-3.7 0-7.1 1.5-9.2 4-1.9 2.3-2.5 5.2-1.8 8.5C39.2 30 44 32 48 32c3.4 0 6.7-1.3 8.8-3.6 1.8-1.9 2.7-4.4 2.5-7.1-.2-4.3-3.1-9.4-10.5-9.4z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M68 39.2c0 1.8.4 3.9.1 5.9-.5.9-1.4 1-2.2 1.3-1.1-.2-2-.9-2.5-1.9-.3-2.2.1-4.4.2-6.6l4.4 1.3z" clip-path="url(#go-original-b)"></path><path d="M65.9 46.8c-1.3-.2-2.3-1-2.8-2.1-.2-1.6-.1-3.1 0-4.6.1-.7.1-1.4.1-2.1v-.4l5.1 1.6v.2c0 .6.1 1.2.1 1.9.1 1.3.2 2.7 0 4v.1c-.4.8-1.1 1-1.8 1.3-.2-.1-.4 0-.7.1zm-2.2-2.4c.4.9 1.2 1.5 2.1 1.7.2-.1.4-.1.5-.2.6-.2 1.1-.4 1.4-.9.2-1.2.1-2.5 0-3.8 0-.6-.1-1.2-.1-1.7l-3.8-1.2c0 .6-.1 1.2-.1 1.7-.1 1.6-.2 3 0 4.4z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M46.3 22.5c0 2-1.5 3.6-3.3 3.6-1.8 0-3.3-1.6-3.3-3.6s1.5-3.6 3.3-3.6c1.8 0 3.3 1.6 3.3 3.6" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M45.2 23.3c0 .5-.4.9-.8.9s-.8-.4-.8-.9.4-.9.8-.9c.5 0 .8.4.8.9" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M74.2 21.6c0 2-1.5 3.6-3.3 3.6-1.8 0-3.3-1.6-3.3-3.6s1.5-3.6 3.3-3.6c1.8 0 3.3 1.6 3.3 3.6" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M73.2 22.4c0 .5-.3.9-.8.9-.4 0-.8-.4-.8-.9s.3-.9.8-.9c.4 0 .8.4.8.9M58.4 39c-1.5 3.5.8 10.6 4.8 5.4-.3-2.2.1-4.4.2-6.6l-5 1.2z" clip-path="url(#go-original-b)"></path><path d="M60.5 46.6c-.7 0-1.4-.4-1.9-1.2-1.1-1.6-1.3-4.6-.5-6.5l.1-.2 5.5-1.4v.4l-.1 2.2c-.1 1.5-.2 2.9 0 4.4v.1l-.1.1c-1 1.4-2 2.1-3 2.1zm-1.8-7.3c-.6 1.7-.4 4.4.5 5.7.4.6.8.9 1.3.9.7 0 1.5-.6 2.3-1.6-.2-1.5-.1-3 .1-4.4l.1-1.7-4.3 1.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" fill="#F6D2A2" d="M58.9 32.2c-2.7.2-4.9 3.5-3.5 6 1.9 3.4 6-.3 8.6 0 3 .1 5.4 3.2 7.8.6 2.7-2.9-1.2-5.7-4.1-7l-8.8.4z" clip-path="url(#go-original-b)"></path><path fill="#231F20" d="M69.7 40.2c-.9 0-1.8-.4-2.7-.8-.9-.4-1.9-.8-3-.8h-.3c-.8 0-1.7.3-2.7.7-1.1.4-2.2.7-3.2.7-1.2 0-2.1-.5-2.7-1.6-.7-1.2-.6-2.6.1-3.9.8-1.5 2.2-2.4 3.7-2.6l8.9-.4h.1c2.2.9 4.7 2.6 5.2 4.6.2 1-.1 2-.9 2.9-.8.9-1.6 1.2-2.5 1.2zM64.1 38c1.1 0 2.2.5 3.2.9.9.4 1.7.7 2.5.7.7 0 1.3-.3 1.9-.9.7-.7.9-1.5.8-2.3-.4-1.7-2.8-3.3-4.7-4.1l-8.7.4c-1.3.1-2.5 1-3.2 2.2-.6 1.1-.6 2.3-.1 3.3.5.9 1.1 1.3 2.1 1.3.9 0 1.9-.4 2.9-.7 1.1-.4 2-.7 3-.7 0-.2.1-.2.3-.1z" clip-path="url(#go-original-b)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M58.6 32.1c-.2-4.7 8.8-5.3 9.8-1.4 1.1 4-9.4 4.9-9.8 1.4" clip-path="url(#go-original-b)"></path>
-                        </svg>
-                        <span>Go</span>
-                    </div>               
-                    <div class="skill-item glass-frame">
-                        <svg viewBox="0 0 128 128">
-                            <path d="M93.809 92.112c.785-6.533.55-7.492 5.416-6.433l1.235.108c3.742.17 8.637-.602 11.513-1.938 6.191-2.873 9.861-7.668 3.758-6.409-13.924 2.873-14.881-1.842-14.881-1.842 14.703-21.815 20.849-49.508 15.543-56.287-14.47-18.489-39.517-9.746-39.936-9.52l-.134.025c-2.751-.571-5.83-.912-9.289-.968-6.301-.104-11.082 1.652-14.709 4.402 0 0-44.683-18.409-42.604 23.151.442 8.841 12.672 66.898 27.26 49.362 5.332-6.412 10.484-11.834 10.484-11.834 2.558 1.699 5.622 2.567 8.834 2.255l.249-.212c-.078.796-.044 1.575.099 2.497-3.757 4.199-2.653 4.936-10.166 6.482-7.602 1.566-3.136 4.355-.221 5.084 3.535.884 11.712 2.136 17.238-5.598l-.22.882c1.474 1.18 1.375 8.477 1.583 13.69.209 5.214.558 10.079 1.621 12.948 1.063 2.868 2.317 10.256 12.191 8.14 8.252-1.764 14.561-4.309 15.136-27.985"></path><path d="M75.458 125.256c-4.367 0-7.211-1.689-8.938-3.32-2.607-2.46-3.641-5.629-4.259-7.522l-.267-.79c-1.244-3.358-1.666-8.193-1.916-14.419-.038-.935-.064-1.898-.093-2.919-.021-.747-.047-1.684-.085-2.664a18.8 18.8 0 01-4.962 1.568c-3.079.526-6.389.356-9.84-.507-2.435-.609-4.965-1.871-6.407-3.82-4.203 3.681-8.212 3.182-10.396 2.453-3.853-1.285-7.301-4.896-10.542-11.037-2.309-4.375-4.542-10.075-6.638-16.943-3.65-11.96-5.969-24.557-6.175-28.693C4.292 23.698 7.777 14.44 15.296 9.129 27.157.751 45.128 5.678 51.68 7.915c4.402-2.653 9.581-3.944 15.433-3.851 3.143.051 6.136.327 8.916.823 2.9-.912 8.628-2.221 15.185-2.139 12.081.144 22.092 4.852 28.949 13.615 4.894 6.252 2.474 19.381.597 26.651-2.642 10.226-7.271 21.102-12.957 30.57 1.544.011 3.781-.174 6.961-.831 6.274-1.295 8.109 2.069 8.607 3.575 1.995 6.042-6.677 10.608-9.382 11.864-3.466 1.609-9.117 2.589-13.745 2.377l-.202-.013-1.216-.107-.12 1.014-.116.991c-.311 11.999-2.025 19.598-5.552 24.619-3.697 5.264-8.835 6.739-13.361 7.709-1.544.33-2.947.474-4.219.474zm-9.19-43.671c2.819 2.256 3.066 6.501 3.287 14.434.028.99.054 1.927.089 2.802.106 2.65.355 8.855 1.327 11.477.137.371.26.747.39 1.146 1.083 3.316 1.626 4.979 6.309 3.978 3.931-.843 5.952-1.599 7.534-3.851 2.299-3.274 3.585-9.86 3.821-19.575l4.783.116-4.75-.57.14-1.186c.455-3.91.783-6.734 3.396-8.602 2.097-1.498 4.486-1.353 6.389-1.01-2.091-1.58-2.669-3.433-2.823-4.193l-.399-1.965 1.121-1.663c6.457-9.58 11.781-21.354 14.609-32.304 2.906-11.251 2.02-17.226 1.134-18.356-11.729-14.987-32.068-8.799-34.192-8.097l-.359.194-1.8.335-.922-.191c-2.542-.528-5.366-.82-8.393-.869-4.756-.08-8.593 1.044-11.739 3.431l-2.183 1.655-2.533-1.043c-5.412-2.213-21.308-6.662-29.696-.721-4.656 3.298-6.777 9.76-6.305 19.207.156 3.119 2.275 14.926 5.771 26.377 4.831 15.825 9.221 21.082 11.054 21.693.32.108 1.15-.537 1.976-1.529a270.708 270.708 0 0110.694-12.07l2.77-2.915 3.349 2.225c1.35.897 2.839 1.406 4.368 1.502l7.987-6.812-1.157 11.808c-.026.265-.039.626.065 1.296l.348 2.238-1.51 1.688-.174.196 4.388 2.025 1.836-2.301z"></path><path fill="#336791" d="M115.731 77.44c-13.925 2.873-14.882-1.842-14.882-1.842 14.703-21.816 20.849-49.51 15.545-56.287C101.924.823 76.875 9.566 76.457 9.793l-.135.024c-2.751-.571-5.83-.911-9.291-.967-6.301-.103-11.08 1.652-14.707 4.402 0 0-44.684-18.408-42.606 23.151.442 8.842 12.672 66.899 27.26 49.363 5.332-6.412 10.483-11.834 10.483-11.834 2.559 1.699 5.622 2.567 8.833 2.255l.25-.212c-.078.796-.042 1.575.1 2.497-3.758 4.199-2.654 4.936-10.167 6.482-7.602 1.566-3.136 4.355-.22 5.084 3.534.884 11.712 2.136 17.237-5.598l-.221.882c1.473 1.18 2.507 7.672 2.334 13.557-.174 5.885-.29 9.926.871 13.082 1.16 3.156 2.316 10.256 12.192 8.14 8.252-1.768 12.528-6.351 13.124-13.995.422-5.435 1.377-4.631 1.438-9.49l.767-2.3c.884-7.367.14-9.743 5.225-8.638l1.235.108c3.742.17 8.639-.602 11.514-1.938 6.19-2.871 9.861-7.667 3.758-6.408z"></path><path fill="#fff" d="M75.957 122.307c-8.232 0-10.84-6.519-11.907-9.185-1.562-3.907-1.899-19.069-1.551-31.503a1.59 1.59 0 011.64-1.55 1.594 1.594 0 011.55 1.639c-.401 14.341.168 27.337 1.324 30.229 1.804 4.509 4.54 8.453 12.275 6.796 7.343-1.575 10.093-4.359 11.318-11.46.94-5.449 2.799-20.951 3.028-24.01a1.593 1.593 0 011.71-1.472 1.597 1.597 0 011.472 1.71c-.239 3.185-2.089 18.657-3.065 24.315-1.446 8.387-5.185 12.191-13.794 14.037-1.463.313-2.792.453-4 .454zM31.321 90.466a6.71 6.71 0 01-2.116-.35c-5.347-1.784-10.44-10.492-15.138-25.885-3.576-11.717-5.842-23.947-6.041-27.922-.589-11.784 2.445-20.121 9.02-24.778 13.007-9.216 34.888-.44 35.813-.062a1.596 1.596 0 01-1.207 2.955c-.211-.086-21.193-8.492-32.768-.285-5.622 3.986-8.203 11.392-7.672 22.011.167 3.349 2.284 15.285 5.906 27.149 4.194 13.742 8.967 22.413 13.096 23.79.648.216 2.62.873 5.439-2.517A245.272 245.272 0 0145.88 73.046a1.596 1.596 0 012.304 2.208c-.048.05-4.847 5.067-10.077 11.359-2.477 2.979-4.851 3.853-6.786 3.853zm69.429-13.445a1.596 1.596 0 01-1.322-2.487c14.863-22.055 20.08-48.704 15.612-54.414-5.624-7.186-13.565-10.939-23.604-11.156-7.433-.16-13.341 1.738-14.307 2.069l-.243.099c-.971.305-1.716-.227-1.997-.849a1.6 1.6 0 01.631-2.025c.046-.027.192-.089.429-.176l-.021.006.021-.007c1.641-.601 7.639-2.4 15.068-2.315 11.108.118 20.284 4.401 26.534 12.388 2.957 3.779 2.964 12.485.019 23.887-3.002 11.625-8.651 24.118-15.497 34.277-.306.457-.81.703-1.323.703zm.76 10.21c-2.538 0-4.813-.358-6.175-1.174-1.4-.839-1.667-1.979-1.702-2.584-.382-6.71 3.32-7.878 5.208-8.411-.263-.398-.637-.866-1.024-1.349-1.101-1.376-2.609-3.26-3.771-6.078-.182-.44-.752-1.463-1.412-2.648-3.579-6.418-11.026-19.773-6.242-26.612 2.214-3.165 6.623-4.411 13.119-3.716C97.6 28.837 88.5 10.625 66.907 10.271c-6.494-.108-11.82 1.889-15.822 5.93-8.96 9.049-8.636 25.422-8.631 25.586a1.595 1.595 0 11-3.19.084c-.02-.727-.354-17.909 9.554-27.916C53.455 9.272 59.559 6.96 66.96 7.081c13.814.227 22.706 7.25 27.732 13.101 5.479 6.377 8.165 13.411 8.386 15.759.165 1.746-1.088 2.095-1.341 2.147l-.576.013c-6.375-1.021-10.465-.312-12.156 2.104-3.639 5.201 3.406 17.834 6.414 23.229.768 1.376 1.322 2.371 1.576 2.985.988 2.396 2.277 4.006 3.312 5.3.911 1.138 1.7 2.125 1.982 3.283.131.23 1.99 2.98 13.021.703 2.765-.57 4.423-.083 4.93 1.45.997 3.015-4.597 6.532-7.694 7.97-2.775 1.29-7.204 2.106-11.036 2.106zm-4.696-4.021c.35.353 2.101.962 5.727.806 3.224-.138 6.624-.839 8.664-1.786 2.609-1.212 4.351-2.567 5.253-3.492l-.5.092c-7.053 1.456-12.042 1.262-14.828-.577a6.162 6.162 0 01-.54-.401c-.302.119-.581.197-.78.253-1.58.443-3.214.902-2.996 5.105zm-45.562 8.915c-1.752 0-3.596-.239-5.479-.71-1.951-.488-5.24-1.957-5.19-4.37.057-2.707 3.994-3.519 5.476-3.824 5.354-1.103 5.703-1.545 7.376-3.67.488-.619 1.095-1.39 1.923-2.314 1.229-1.376 2.572-2.073 3.992-2.073.989 0 1.8.335 2.336.558 1.708.708 3.133 2.42 3.719 4.467.529 1.847.276 3.625-.71 5.006-3.237 4.533-7.886 6.93-13.443 6.93zm-7.222-4.943c.481.372 1.445.869 2.518 1.137 1.631.408 3.213.615 4.705.615 4.546 0 8.196-1.882 10.847-5.594.553-.774.387-1.757.239-2.274-.31-1.083-1.08-2.068-1.873-2.397-.43-.178-.787-.314-1.115-.314-.176 0-.712 0-1.614 1.009a41.146 41.146 0 00-1.794 2.162c-2.084 2.646-3.039 3.544-9.239 4.821-1.513.31-2.289.626-2.674.835zm12.269-7.36a1.596 1.596 0 01-1.575-1.354 8.218 8.218 0 01-.08-.799c-4.064-.076-7.985-1.82-10.962-4.926-3.764-3.927-5.477-9.368-4.699-14.927.845-6.037.529-11.366.359-14.229-.047-.796-.081-1.371-.079-1.769.003-.505.013-1.844 4.489-4.113 1.592-.807 4.784-2.215 8.271-2.576 5.777-.597 9.585 1.976 10.725 7.246 3.077 14.228.244 20.521-1.825 25.117-.385.856-.749 1.664-1.04 2.447l-.257.69c-1.093 2.931-2.038 5.463-1.748 7.354a1.595 1.595 0 01-1.335 1.819l-.244.02zM42.464 42.26l.062 1.139c.176 2.974.504 8.508-.384 14.86-.641 4.585.759 9.06 3.843 12.276 2.437 2.542 5.644 3.945 8.94 3.945h.068c.369-1.555.982-3.197 1.642-4.966l.255-.686c.329-.884.714-1.74 1.122-2.646 1.991-4.424 4.47-9.931 1.615-23.132-.565-2.615-1.936-4.128-4.189-4.627-4.628-1.022-11.525 2.459-12.974 3.837zm9.63-.677c-.08.564 1.033 2.07 2.485 2.271 1.449.203 2.689-.975 2.768-1.539.079-.564-1.033-1.186-2.485-1.388-1.451-.202-2.691.092-2.768.656zm2.818 2.826l-.407-.028c-.9-.125-1.81-.692-2.433-1.518-.219-.29-.576-.852-.505-1.354.101-.736.999-1.177 2.4-1.177.313 0 .639.023.967.069.766.106 1.477.327 2.002.62.91.508.977 1.075.936 1.368-.112.813-1.405 2.02-2.96 2.02zm-2.289-2.732c.045.348.907 1.496 2.029 1.651l.261.018c1.036 0 1.81-.815 1.901-1.082-.096-.182-.762-.634-2.025-.81a5.823 5.823 0 00-.821-.059c-.812 0-1.243.183-1.345.282zm43.605-1.245c.079.564-1.033 2.07-2.484 2.272-1.45.202-2.691-.975-2.771-1.539-.076-.564 1.036-1.187 2.486-1.388 1.45-.203 2.689.092 2.769.655zm-2.819 2.56c-1.396 0-2.601-1.086-2.7-1.791-.115-.846 1.278-1.489 2.712-1.688.316-.044.629-.066.93-.066 1.238 0 2.058.363 2.14.949.053.379-.238.964-.739 1.492-.331.347-1.026.948-1.973 1.079l-.37.025zm.943-3.013c-.276 0-.564.021-.856.061-1.441.201-2.301.779-2.259 1.089.048.341.968 1.332 2.173 1.332l.297-.021c.787-.109 1.378-.623 1.66-.919.443-.465.619-.903.598-1.052-.028-.198-.56-.49-1.613-.49zm3.965 32.843a1.594 1.594 0 01-1.324-2.483c3.398-5.075 2.776-10.25 2.175-15.255-.257-2.132-.521-4.337-.453-6.453.07-2.177.347-3.973.614-5.71.317-2.058.617-4.002.493-6.31a1.595 1.595 0 113.186-.172c.142 2.638-.197 4.838-.525 6.967-.253 1.643-.515 3.342-.578 5.327-.061 1.874.178 3.864.431 5.97.64 5.322 1.365 11.354-2.691 17.411a1.596 1.596 0 01-1.328.708z"></path>
-                        </svg>
-                        <span>PostgreSQL</span>
-                    </div>
-
-                    
-                    <div class="skill-item glass-frame">
-                        <svg viewBox="0 0 128 128">
-                            <path d="M124.8 52.1c-4.3-2.5-10-2.8-14.8-1.4-.6-5.2-4-9.7-8-12.9l-1.6-1.3-1.4 1.6c-2.7 3.1-3.5 8.3-3.1 12.3.3 2.9 1.2 5.9 3 8.3-1.4.8-2.9 1.9-4.3 2.4-2.8 1-5.9 2-8.9 2H79V49H66V24H51v12H26v13H13v14H1.8l-.2 1.5c-.5 6.4.3 12.6 3 18.5l1.1 2.2.1.2c7.9 13.4 21.7 19 36.8 19 29.2 0 53.3-13.1 64.3-40.6 7.4.4 15-1.8 18.6-8.9l.9-1.8-1.6-1zM28 39h10v11H28V39zm13.1 44.2c0 1.7-1.4 3.1-3.1 3.1-1.7 0-3.1-1.4-3.1-3.1 0-1.7 1.4-3.1 3.1-3.1 1.7.1 3.1 1.4 3.1 3.1zM28 52h10v11H28V52zm-13 0h11v11H15V52zm27.7 50.2c-15.8-.1-24.3-5.4-31.3-12.4 2.1.1 4.1.2 5.9.2 1.6 0 3.2 0 4.7-.1 3.9-.2 7.3-.7 10.1-1.5 2.3 5.3 6.5 10.2 14 13.8h-3.4zM51 63H40V52h11v11zm0-13H40V39h11v11zm13 13H53V52h11v11zm0-13H53V39h11v11zm0-13H53V26h11v11zm13 26H66V52h11v11zM38.8 81.2c-.2-.1-.5-.2-.8-.2-1.2 0-2.2 1-2.2 2.2 0 1.2 1 2.2 2.2 2.2s2.2-1 2.2-2.2c0-.3-.1-.6-.2-.8-.2.3-.4.5-.8.5-.5 0-.9-.4-.9-.9.1-.4.3-.7.5-.8z" fill="#019BC6"></path>
-                        </svg>
-                        <span>Docker</span>
-                    </div>
-                    <div class="skill-item glass-frame">
-                        <svg viewBox="0 0 512 512"><style>.st9{fill:#d0d0d0}.st11{fill:#d9d9d9}.st13{fill:#d8d8d8}.st14{fill:#e2e2e2}.st16{fill:#dedede}.st21{fill:#00b8e3}.st22{fill:#33c6e9}.st23{fill:#008aaa}</style><g id="g2460" transform="translate(.714 .07)"><path id="path1588" d="M432.9 149.2c-1.4 0-2.7-.7-3.4-2L370.1 44.1c-.7-1.2-2-2-3.5-2H124.2c-1.4 0-2.7.7-3.4 2L58.9 150.9l23.9 34.9c-.7 1.2-6.2 24-5.5 25.2L58.9 360.9l61.9 106.9c.7 1.2 2 2 3.4 2h242.4c1.4 0 2.7-.7 3.5-2l59.4-103.2c.7-1.2 2-2 3.4-2h73.8c2.4 0 4.4-2 4.4-4.4V153.6c0-2.4-2-4.4-4.4-4.4z" style="fill:#4d4d4d"/><path id="path1594" d="M72.7 245.3 6.4 269.4l-6.6-11.3c-.7-1.2-.7-2.7 0-3.9l30-52z" style="fill:#e1e1e1"/><path id="polygon1794" d="M511.3 258.3V309l-43.7-44.5z" style="fill:#c8c8c8"/><path id="path1798" d="m467.5 264.5 43.7 44.5v49.6c0 2.4-2 4.4-4.4 4.4H456z" style="fill:#c2c2c2"/><path id="polygon1802" d="M467.5 264.5 456 362.9h-61.2l-18.5-44.7z" style="fill:#c7c7c7"/><path id="polygon1804" d="M511.3 211.2v47l-43.7 6.2z" style="fill:#cecece"/><path id="path1808" d="M511.3 153.6v57.6l-43.7 53.2-33.1-115.3h72.2c2.4-.1 4.5 1.8 4.6 4.3z" style="fill:#d3d3d3"/><path id="polygon1812" d="M394.8 362.9h-32.3l-8.4-12 22.1-32.7z" style="fill:#c6c6c6"/><path id="polygon1814" d="m467.5 264.5-121.1-51.2 63.7-64.1h24.4z" style="fill:#d5d5d5"/><path id="path1816" d="m346.5 213.3 29.8 105 91.2-53.8z" class="st9"/><path id="polygon1818" d="m353.8 362.9.4-12 8.4 12z" style="fill:#bfbfbf"/><path id="polygon1820" d="m410.1 149.2-63.7 64.1-11.4-57.4 24.6-6.8h50.5z" class="st11"/><path id="path1822" d="m346.5 213.3-147 33.9 154.7 103.7z" style="fill:#d4d4d4"/><path id="path1824" d="m346.5 213.3 7.7 137.6 22.1-32.7z" class="st9"/><path id="path1826" d="m335 155.9-135.5 91.2 147-33.9z" class="st11"/><path id="polygon1828" d="m199.5 247.2-63.7 115.7H99.6L72.7 245.3z" class="st13"/><path id="path1830" d="m134.3 149.2-61.5 96.1L57.3 155l2.2-3.8c.7-1.2 2-1.9 3.4-1.9z" class="st14"/><path id="path1832" d="M99.6 362.9H62.7c-1.4 0-2.8-.8-3.5-2L6.4 269.4l66.4-24.1z" class="st13"/><path id="polygon1834" d="M29.9 202.1 57.1 155l15.7 90.3z" style="fill:#e4e4e4"/><path id="polygon1836" d="m335 155.9-40.8-6.8H159.4l40.1 98z" class="st16"/><path id="polygon1838" d="m199.5 247.2-40.1-98h-25.1l-61.5 96.1z" class="st16"/><path id="polygon1840" d="M324.7 362.9h29.1l.4-12z" style="fill:#c5c5c5"/><path id="polygon1842" d="M266.7 362.9h58l29.5-12-154.7-103.7 27.9 115.7z" class="st9"/><path id="polygon1844" d="m227.4 362.9-27.9-115.7-63.7 115.7z" style="fill:#d1d1d1"/><path id="polygon1856" d="m335.4 149.2-.4 6.8 24.6-6.8z" style="fill:#ddd"/><path id="polygon1858" d="m335 155.9-3.8-6.8h-37z" style="fill:#e3e3e3"/><path id="polygon1860" d="m335 155.9.4-6.8h-4.2z" class="st14"/><path id="path1862" d="m223.9 151-59.7 103.4c-.3.5-.4 1.1-.4 1.7h-41.7l82-142q.75.45 1.2 1.2l18.6 32.3c.5 1.1.5 2.4 0 3.4" class="st21"/><path id="path1864" d="M223.8 364.9 205.3 397q-.45.75-1.2 1.2l-82-142.2h41.7c0 .6.1 1.1.4 1.6l59.6 103.2c.8 1.2.9 2.9 0 4.1" class="st22"/><path id="path1866" d="m204 114.2-82 141.9-20.6 35.6-19.6-34c-.3-.5-.4-1-.4-1.6s.1-1.2.4-1.7l19.9-34.4 60.4-104.5c.6-1.1 1.8-1.8 3-1.8h37.2c.6 0 1.2.2 1.7.5" class="st23"/><path id="path1868" d="M204 398.2c-.5.3-1.1.5-1.8.5h-37.1c-1.3 0-2.4-.7-3-1.8l-55.2-95.6-5.5-9.5 20.6-35.6z" class="st21"/><path id="path1870" d="m368.9 256.1-82 142q-.75-.45-1.2-1.2L267 364.7c-.5-1-.5-2.3 0-3.3L326.7 258c.3-.5.5-1.2.5-1.8z" class="st23"/><path id="path1872" d="M409.4 256.1c0 .6-.2 1.3-.5 1.8l-80.3 139.3c-.6 1-1.8 1.7-3 1.6h-37c-.6 0-1.2-.2-1.8-.5L368.9 256l20.6-35.6 19.5 33.8c.3.7.4 1.3.4 1.9" class="st21"/><path id="path1874" d="M368.9 256.1h-41.7c0-.6-.2-1.2-.5-1.8L267 151.2c-.6-1.1-.6-2.5 0-3.6l18.6-32.2q.45-.75 1.2-1.2z" class="st21"/><path id="path1876" d="m389.4 220.5-20.6 35.6-82-142c.6-.3 1.2-.5 1.8-.5h37.1c1.2 0 2.3.6 3 1.6z" class="st22"/></g></svg>
-                        <span>Keycloak</span>
-                    </div>                    
-                    <div class="skill-item glass-frame">
-                        <svg viewBox="0 0 128 128">
-                            <path fill="#632ca6" d="M104.375 90.884 93.726 83.86 84.843 98.7 74.51 95.677l-9.098 13.885.467 4.371 49.463-9.114-2.873-30.905zM58.247 77.56l7.936-1.092c1.284.577 2.178.797 3.718 1.189 2.397.625 5.173 1.224 9.284-.848.957-.474 2.95-2.296 3.755-3.335l32.515-5.898 3.317 40.144-55.704 10.04zm60.4-14.466-3.21.612L109.271 0 4.207 12.183 17.151 117.22l12.297-1.785c-.982-1.402-2.511-3.099-5.122-5.27-3.622-3.01-2.341-8.12-.205-11.348 2.826-5.453 17.39-12.383 16.565-21.099-.296-3.169-.8-7.295-3.741-10.121a9.8 9.8 0 0 0 .088 2.303s-1.208-1.541-1.81-3.643c-.598-.805-1.068-1.063-1.703-2.139-.453 1.245-.393 2.69-.393 2.69s-.988-2.336-1.148-4.306c-.586.882-.734 2.558-.734 2.558s-1.284-3.68-.991-5.662c-.586-1.725-2.323-5.148-1.831-12.929 3.206 2.247 10.265 1.713 13.015-2.34.913-1.343 1.538-5.008-.456-12.23-1.28-4.63-4.453-11.526-5.689-14.142l-.148.106c.652 2.108 1.996 6.526 2.511 8.668 1.56 6.498 1.98 8.76 1.247 11.755-.623 2.604-2.118 4.309-5.908 6.213-3.789 1.91-8.817-2.739-9.136-2.996-3.681-2.933-6.53-7.717-6.847-10.042-.33-2.544 1.466-4.072 2.372-6.152-1.296.37-2.742 1.028-2.742 1.028s1.725-1.785 3.852-3.329c.88-.583 1.398-.954 2.326-1.725-1.344-.022-2.435.016-2.435.016s2.241-1.21 4.564-2.092c-1.7-.075-3.326-.012-3.326-.012s5-2.236 8.95-3.878c2.715-1.113 5.369-.784 6.86 1.371 1.956 2.824 4.011 4.357 8.367 5.308 2.674-1.185 3.487-1.795 6.848-2.71 2.958-3.253 5.28-3.674 5.28-3.674s-1.152 1.057-1.46 2.717a39 39 0 0 1 3.516-2.424s-.711.879-1.375 2.275l.154.229c1.957-1.174 4.257-2.1 4.257-2.1s-.658.832-1.429 1.908c1.475-.012 4.468.063 5.63.195 6.856.15 8.28-7.324 10.91-8.26 3.295-1.177 4.767-1.889 10.382 3.626 4.817 4.734 8.581 13.208 6.713 15.106-1.567 1.576-4.658-.614-8.084-4.885-1.81-2.262-3.18-4.934-3.82-8.332-.542-2.867-2.648-4.53-2.648-4.53s1.223 2.717 1.223 5.118c0 1.31.164 6.212 2.266 8.962-.208.402-.305 1.99-.535 2.293-2.446-2.955-7.697-5.07-8.554-5.693 2.899 2.375 9.561 7.831 12.12 13.06 2.42 4.945.994 9.477 2.218 10.65.349.337 5.205 6.388 6.14 9.428 1.629 5.3.097 10.867-2.036 14.322l-5.957.928c-.872-.242-1.459-.363-2.24-.816.43-.762 1.286-2.664 1.295-3.055l-.336-.59c-1.854 2.625-4.96 5.176-7.54 6.64-3.377 1.914-7.27 1.62-9.803.835C61.744 71 54.944 66.14 53.304 64.864c0 0-.05 1.02.259 1.248 1.813 2.045 5.967 5.745 9.982 8.323l-8.56.942 4.047 31.508c-1.794.257-2.073.382-4.037.662-1.731-6.115-5.042-10.108-8.661-12.434-3.192-2.05-7.594-2.513-11.808-1.679l-.27.314c2.93-.305 6.388.12 9.942 2.37 3.487 2.204 6.297 7.9 7.332 11.329 1.324 4.382 2.24 9.07-1.325 14.039-2.537 3.532-9.942 5.484-15.924 1.261 1.598 2.57 3.758 4.672 6.665 5.068 4.317.586 8.415-.163 11.235-3.058 2.408-2.476 3.685-7.652 3.349-13.104l3.81-.553 1.375 9.785 63.078-7.595zM80.27 36.521c-.176.402-.453.665-.037 1.973l.025.075.066.169.173.392c.75 1.53 1.571 2.974 2.945 3.711q.534-.09 1.105-.12c1.29-.056 2.105.149 2.622.427.046-.258.057-.634.028-1.189-.1-1.939.384-5.236-3.342-6.972-1.407-.653-3.38-.451-4.038.364.12.015.227.04.311.068.994.349.32.691.142 1.102m10.444 18.09c-.488-.269-2.772-.163-4.378.029-3.058.36-6.36 1.421-7.084 1.986-1.315 1.017-.717 2.79.254 3.518 2.725 2.035 5.114 3.4 7.636 3.068 1.548-.203 2.913-2.654 3.88-4.879.663-1.532.663-3.185-.308-3.722m-27.076-15.69c.862-.818-4.297-1.895-8.3.835-2.952 2.013-3.046 6.33-.22 8.777.283.243.516.414.735.555a24 24 0 0 1 2.847-1.133c1.828-.594 3.349-.9 4.598-1.063.598-.668 1.293-1.845 1.12-3.975-.236-2.89-2.426-2.43-.78-3.995"></path>
-                        </svg>
-                        <span>DataDog</span>
-                    </div>               
-                    <div class="skill-item glass-frame">
-                        <svg viewBox="0 0 128 128">
-                            <path fill="#ff6600" d="M119.517 51.188H79.291a3.641 3.641 0 0 1-3.64-3.642V5.62A5.605 5.605 0 0 0 70.028 0H55.66a5.606 5.606 0 0 0-5.627 5.62v41.646a3.913 3.913 0 0 1-3.92 3.925l-13.188.047c-2.176 0-3.972-1.75-3.926-3.926l.094-41.687A5.606 5.606 0 0 0 23.467 0H9.1a5.61 5.61 0 0 0-5.626 5.625V122.99c0 2.737 2.22 5.01 5.01 5.01h111.033a5.014 5.014 0 0 0 5.008-5.011V56.195a4.975 4.975 0 0 0-5.008-5.007zM100.66 95.242a6.545 6.545 0 0 1-6.525 6.524H82.791a6.545 6.545 0 0 1-6.523-6.524V83.9a6.545 6.545 0 0 1 6.523-6.524h11.343a6.545 6.545 0 0 1 6.525 6.523zm0 0"></path>
-                        </svg>
-                        <span>RabbitMQ</span>
-                    </div>
-                </div>
+            </main>
+            <footer>
+                <p>&copy; 2026 OJAM.</p>
+            </footer>
+        </div>
+        <script src="./assets/script.js"></script>
         
-                <div class="center-btn">
-                    <a href="skills.html" class="btn-outline-azure">View All Skills</a>
-                </div>
-            </section>
-
-            <section id="Education" class="content-section scroll-reveal">
-                <h2 class="section-title">&lt;EDUCATION/&gt;</h2>
-                
-                <div class="glass-frame edu-container">
-                    <div class="edu-left">
-                        <img src="./assets/img/logo/ugm.png" alt="UGM Logo">
-                    </div>
-                    <div class="edu-right">
-                        <div class="edu-head">
-                            <h3>Universitas Gadjah Mada</h3>
-                            <span class="edu-date">02/2024 — Present</span>
-                        </div>
-                        <div class="edu-program">Master of Information Technology</div>
-                        <div class="edu-thesis">
-                            <strong>Thesis:</strong> <br/>
-                            Optimizing Business Process Efficiency Through BPMN Engine-Enabled System Automation
-                        </div>
-                    </div>
-                </div>
-
-                <div class="glass-frame edu-container">
-                    <div class="edu-left">
-                        <img src="./assets/img/logo/uinsa.png" alt="UIN Logo">
-                    </div>
-                    <div class="edu-right">
-                        <div class="edu-head">
-                            <h3>Universitas Islam Negeri Sunan Ampel</h3>
-                            <span class="edu-date">09/2015 — 08/2021</span>
-                        </div>
-                        <div class="edu-program">Bachelor of Information System</div>
-                        <div class="edu-thesis">
-                            <strong>Thesis:</strong> <br/>
-                            Open-Source Forensic Applications Performance Analysis on Smartphone Android-Based in Collecting Digital Evidence
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="Publication" class="content-section scroll-reveal">
-                <h2 class="section-title">&lt;PUBLICATION/&gt;</h2>
-                <div class="pub-list">
-                    
-                    <div class="pub-item glass-frame">
-                        <h3>A Proposed Fault-Tolerant Approach to BPMN Workflow Migration Amidst Update Failures</h3>
-                        <div class="pub-meta">
-                            <span>IEEE International Conference on Recent Advances in Systems Science and Engineering</span> • <span>2025</span>
-                        </div>
-                        <a href="https://ieeexplore.ieee.org/document/11315246" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
-                    </div>
-
-                    <div class="pub-item glass-frame">
-                        <h3>Forensic Analysis Using Autopsy to Get Deleted Whatsapp Data</h3>
-                        <div class="pub-meta">
-                            <span>Jurnal Teknologi Informasi Dan Komunikasi</span> • <span>2022</span>
-                        </div>
-                        <a href="https://www.neliti.com/publications/465521/analisis-kinerja-aplikasi-forensik-open-source-pada-ponsel-cerdas-berbasis-andro" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
-                    </div>
-
-                    <div class="pub-item glass-frame">
-                        <h3>“Open-Source Forensic Applications Performance Analysis on Smartphone Android-Based in Collecting Digital Evidence</h3>
-                        <div class="pub-meta">
-                            <span>Junal Inovasi Informatika</span> • <span>2021</span>
-                        </div>
-                        <a href="https://ejurnal.provisi.ac.id/index.php/JTIKP/article/view/313" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
-                    </div>
-
-                </div>
-                <div class="center-btn">
-                    <a href="publications.html" class="btn-outline-azure">View All Publications</a>
-                </div>
-            </section>
-
-            <section id="Certificates" class="content-section scroll-reveal">
-                <h2 class="section-title">&lt;CERTIFICATES/&gt;</h2>
-                <div class="cert-list">
-                    
-                    <div class="cert-item glass-frame">
-                        <div class="cert-info">
-                            <h3>TOEFL ITP</h3>
-                            <p>Educational Testing Service (ETS) • 2025</p>
-                        </div>
-                        <button class="btn-view-cert" data-title="TOEFL ITP" data-src="https://raw.githubusercontent.com/jampirojam/assets/main/cert-sample.pdf">
-                            [ View ]
-                        </button>
-                    </div>
-
-                    <div class="cert-item glass-frame">
-                        <div class="cert-info">
-                            <h3>AWS Academy Cloud Architecting</h3>
-                            <p>Amazon Web Services (AWS) • 2024</p>
-                        </div>
-                        <button class="btn-view-cert" data-title="AWS Academy Cloud Architecting" data-src="https://placehold.co/600x400/png?text=Certificate+Image">
-                            [ View ]
-                        </button>
-                    </div>
-
-                    <div class="cert-item glass-frame">
-                        <div class="cert-info">
-                            <h3>Secure Coding Overview</h3>
-                            <p>Cyber Academy • 2024</p>
-                        </div>
-                        <button class="btn-view-cert" data-title="Secure Coding Overview" data-src="https://placehold.co/600x400/png?text=Certificate+Image">
-                            [ View ]
-                        </button>
-                    </div>
-
-                    <div class="cert-item glass-frame">
-                        <div class="cert-info">
-                            <h3>Web App using React</h3>
-                            <p>Dicoding • 2024</p>
-                        </div>
-                        <button class="btn-view-cert" data-title="Web App using React" data-src="https://placehold.co/600x400/png?text=Certificate+Image">
-                            [ View ]
-                        </button>
-                    </div>
-
-                </div>
-                <div class="center-btn">
-                    <a href="certificates.html" class="btn-outline-azure">View All Certificates</a>
-                </div>
-            </section>
-
-            <section id="Contact" class="content-section scroll-reveal">
-                <h2 class="section-title">&lt;CONTACT/&gt;</h2>
-                <div class="glass-frame">
-                    <p class="text-center" style="margin-bottom: 20px;">Have a project in mind?</p>
-                    <form id="contact-form">
-                        <div class="form-group"><input type="text" placeholder="Name" required></div>
-                        <div class="form-group"><input type="email" placeholder="Email" required></div>
-                        <div class="form-group"><textarea rows="4" placeholder="Message" required></textarea></div>
-                        <button type="submit" class="btn btn-azure" style="width: 100%;">Send Message</button>
-                    </form>
-                </div>
-            </section>
-
-        </main>
-
-        <footer><p>&copy; 2026 OJAM.</p></footer>
-    </div>
-
-    <script src="./assets/script.js"></script>
-</body>
+    </body>
 </html>
