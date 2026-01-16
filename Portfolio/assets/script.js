@@ -218,16 +218,18 @@ $(document).ready(function() {
     let isScrollObserverActive = false;
 
     function startScrollObserver() {
-        if (isScrollObserverActive) return; 
-        
+        if (isScrollObserverActive) return;
+
+        const thresholdValue = window.innerWidth < 768 ? 0.01 : 0.15;
+
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach(e => { 
-                if(e.isIntersecting) {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
                     e.target.classList.add('active');
-                    observer.unobserve(e.target); 
+                    observer.unobserve(e.target);
                 }
             });
-        }, { threshold: 0.15 }); 
+        }, { threshold: thresholdValue }); 
 
         document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
         isScrollObserverActive = true;
