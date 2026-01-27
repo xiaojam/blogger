@@ -128,6 +128,13 @@ $(document).ready(function() {
         setTimeout(() => { if(callback) callback(); }, 1200);
     }
 
+    window.addEventListener('pageshow', function(event) {
+        if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
+            $('#block-overlay').css('background-color', 'transparent');
+            
+            setTimeout(revealScreen, 100);
+        }
+    });
 
     // --- PAGE LOAD ---
     initBlocks(); 
@@ -155,8 +162,8 @@ $(document).ready(function() {
                         introText.hide();
                         $('.block').css('transition', 'none'); 
                         setTimeout(revealScreen, 50); 
-                    }, 1000);
-                }, 2500);
+                    }, 500);
+                }, 1250);
             }, 100);
             localStorage.setItem(CACHE_INTRO, now);
         }
