@@ -1,23 +1,23 @@
 var mf_defaults = {
   feedsUri: [{
-            name: "Teknologi",
+            name: "Kirunologi",
             url: "https://brojamz.blogspot.com/",
-            tag: "Teknologi"
+            tag: "Kirunologi"
         },
         {
-            name: "Informasi",
+            name: "Diskursus",
             url: "https://brojamz.blogspot.com/",
-            tag: "Informasi"
+            tag: "Diskursus"
         },
         {
-            name: "Pendidikan",
+            name: "Fragmen",
             url: "https://brojamz.blogspot.com/",
-            tag: "Pendidikan"
+            tag: "Fragmen"
         },
         {
-            name: "Permainan",
+            name: "Paranoia",
             url: "https://brojamz.blogspot.com/",
-            tag: "Permainan"
+            tag: "Paranoia"
         }],
   numPost: 4,
   showThumbnail: true,
