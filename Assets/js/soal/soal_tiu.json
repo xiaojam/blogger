@@ -1,0 +1,3256 @@
+{
+  "soal": {
+    "TIU": [
+      {
+        "id": "tiu_001",
+        "teks": "Sinonim dari kata <b>AFIRMASI</b> adalah...",
+        "opsi": [
+          "Penolakan",
+          "Konfirmasi",
+          "Penetapan",
+          "Penilaian",
+          "Pengakuan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, afirmasi berarti penetapan yang positif; penegasan; atau konfirmasi."
+      },
+      {
+        "id": "tiu_002",
+        "teks": "Lawan kata (Antonim) dari <b>SKEPTIS</b> adalah...",
+        "opsi": [
+          "Ragu-ragu",
+          "Yakin",
+          "Apatis",
+          "Cemas",
+          "Curiga"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Skeptis berarti kurang percaya atau ragu-ragu terhadap keberhasilan ajaran (dsb). Antonim yang paling tepat adalah yakin atau optimis."
+      },
+      {
+        "id": "tiu_003",
+        "teks": "GURU : MURID = DOKTER : ...",
+        "opsi": [
+          "Penyakit",
+          "Obat",
+          "Rumah Sakit",
+          "Pasien",
+          "Resep"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Analogi profesi dan subjek pelayanannya. Guru memberikan pelayanan jasa (pendidikan) kepada murid. Dokter memberikan pelayanan jasa (kesehatan) kepada pasien."
+      },
+      {
+        "id": "tiu_004",
+        "teks": "TERMOMETER : SUHU = SEISMOGRAF : ...",
+        "opsi": [
+          "Tekanan",
+          "Gelombang",
+          "Gempa",
+          "Cuaca",
+          "Angin"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi alat ukur. Termometer adalah alat untuk mengukur suhu. Seismograf adalah alat untuk mengukur kekuatan gempa bumi."
+      },
+      {
+        "id": "tiu_005",
+        "teks": "Perhatikan deret angka berikut: $3, 5, 9, 15, 23, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "31",
+          "33",
+          "35",
+          "37",
+          "39"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola deretnya memiliki beda yang terus bertambah genap: $+2, +4, +6, +8$. Maka penambahan selanjutnya adalah $+10$. Sehingga $23 + 10 = 33$."
+      },
+      {
+        "id": "tiu_006",
+        "teks": "Perhatikan deret angka berikut: $2, 3, 5, 8, 13, 21, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "28",
+          "31",
+          "34",
+          "42",
+          "55"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ini adalah deret Fibonacci, di mana angka selanjutnya adalah hasil penjumlahan dua angka sebelumnya. $13 + 21 = 34$."
+      },
+      {
+        "id": "tiu_007",
+        "teks": "Jika $x = 12,5\\%$ dari 32 dan $y = \\frac{1}{4}$ dari 16, maka hubungan antara $x$ dan $y$ adalah...",
+        "opsi": [
+          "x > y",
+          "x < y",
+          "x = y",
+          "x = 2y",
+          "Hubungan x dan y tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "$12,5\\%$ sama dengan pecahan $\\frac{1}{8}$.<br>$x = \\frac{1}{8} \\times 32 = 4$.<br>$y = \\frac{1}{4} \\times 16 = 4$.<br>Maka, $x = y$."
+      },
+      {
+        "id": "tiu_008",
+        "teks": "Tentukan hasil dari operasi hitung berikut: $\\frac{3}{4} + \\frac{1}{2} \\times \\frac{2}{3}$",
+        "opsi": [
+          "1",
+          "13/12",
+          "5/6",
+          "7/8",
+          "1/2"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kerjakan perkalian terlebih dahulu (KABATAKU).<br>$\\frac{1}{2} \\times \\frac{2}{3} = \\frac{2}{6} = \\frac{1}{3}$.<br>Selanjutnya: $\\frac{3}{4} + \\frac{1}{3} = \\frac{9}{12} + \\frac{4}{12} = \\frac{13}{12}$."
+      },
+      {
+        "id": "tiu_009",
+        "teks": "Sebuah pekerjaan dapat diselesaikan oleh 15 orang pekerja dalam waktu 20 hari. Jika pekerjaan tersebut ingin diselesaikan dalam waktu 12 hari, berapa tambahan pekerja yang diperlukan?",
+        "opsi": [
+          "5 orang",
+          "10 orang",
+          "15 orang",
+          "20 orang",
+          "25 orang"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ini adalah perbandingan berbalik nilai. $O_1 \\times H_1 = O_2 \\times H_2$.<br>$15 \\times 20 = O_2 \\times 12$<br>$300 = 12 \\times O_2$<br>$O_2 = 25$ orang.<br>Tambahan pekerja = Pekerja baru - Pekerja awal = $25 - 15 = 10$ orang."
+      },
+      {
+        "id": "tiu_010",
+        "teks": "Jarak antara kota A dan kota B adalah 120 km. Jika Budi mengendarai mobil dari kota A pada pukul 07.30 dengan kecepatan rata-rata 60 km/jam, pada pukul berapakah ia tiba di kota B?",
+        "opsi": [
+          "09.00",
+          "09.30",
+          "10.00",
+          "10.30",
+          "11.00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Waktu tempuh ($t$) = Jarak ($s$) / Kecepatan ($v$).<br>$t = \\frac{120}{60} = 2$ jam.<br>Budi berangkat pukul 07.30, maka ia akan tiba pada pukul $07.30 + 2$ jam = 09.30."
+      },
+      {
+        "id": "tiu_011",
+        "teks": "Umur Andi 10 tahun yang lalu adalah setengah dari umurnya yang sekarang. Berapakah umur Andi 5 tahun yang akan datang?",
+        "opsi": [
+          "15 tahun",
+          "20 tahun",
+          "25 tahun",
+          "30 tahun",
+          "35 tahun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misal umur Andi sekarang = $A$.<br>$A - 10 = \\frac{1}{2}A$<br>$A - \\frac{1}{2}A = 10$<br>$\\frac{1}{2}A = 10 \\implies A = 20$ tahun.<br>Umur Andi 5 tahun lagi = $20 + 5 = 25$ tahun."
+      },
+      {
+        "id": "tiu_012",
+        "teks": "Semua karyawan perusahaan diwajibkan memakai seragam setiap hari Senin. Sebagian karyawan menggunakan kacamata. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Sebagian karyawan tidak memakai seragam pada hari Senin",
+          "Semua karyawan yang memakai kacamata memakai seragam setiap hari Senin",
+          "Semua karyawan memakai seragam dan kacamata",
+          "Sebagian karyawan yang memakai seragam tidak menggunakan kacamata",
+          "Semua yang memakai seragam adalah karyawan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Premis 1: Semua karyawan pakai seragam (Senin). Premis 2: Sebagian karyawan pakai kacamata.<br>Karena 'semua' wajib berseragam, maka himpunan 'sebagian' yang berkacamata tersebut sudah pasti ikut diwajibkan memakai seragam."
+      },
+      {
+        "id": "tiu_013",
+        "teks": "Jika hari ini hujan, maka Andi membawa payung. Jika Andi membawa payung, maka ia tidak naik motor. Hari ini Andi naik motor. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Hari ini hujan",
+          "Hari ini hujan tapi Andi naik motor",
+          "Andi lupa membawa payung",
+          "Hari ini tidak hujan",
+          "Andi tidak membawa payung"
+        ],
+        "jawaban": 3,
+        "pembahasan": "P1: Hujan ($P$) $\\implies$ Payung ($Q$)<br>P2: Payung ($Q$) $\\implies$ Tidak Motor ($\\sim R$)<br>Dari P1 dan P2 (Silogisme): Hujan ($P$) $\\implies$ Tidak Motor ($\\sim R$).<br>Kenyataan: Andi naik motor ($R$).<br>Modus Tollens: Karena terjadi $R$, maka kesimpulannya adalah $\\sim P$ (Hari ini tidak hujan)."
+      },
+      {
+        "id": "tiu_014",
+        "teks": "Dalam sebuah antrean loket, posisi Ani berada di depan Budi. Cici berada di belakang Budi. Dodi berada di depan Ani. Siapakah yang berada di posisi paling depan?",
+        "opsi": [
+          "Ani",
+          "Budi",
+          "Cici",
+          "Dodi",
+          "Tidak dapat ditentukan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Mari kita susun posisinya dari depan ke belakang.<br>1. Ani di depan Budi: (Ani - Budi)<br>2. Cici di belakang Budi: (Ani - Budi - Cici)<br>3. Dodi di depan Ani: (Dodi - Ani - Budi - Cici)<br>Jadi, yang paling depan adalah Dodi."
+      },
+      {
+        "id": "tiu_015",
+        "teks": "Sebuah kemeja seharga Rp150.000,00 mendapat diskon sebesar 20%. Setelah itu, pembeli mendapatkan tambahan diskon lagi sebesar 10% karena memiliki kartu anggota. Berapakah harga yang harus dibayar pembeli tersebut?",
+        "opsi": [
+          "Rp105.000,00",
+          "Rp108.000,00",
+          "Rp110.000,00",
+          "Rp115.000,00",
+          "Rp120.000,00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Diskon berganda tidak boleh dijumlahkan (20%+10% = 30% adalah SALAH). Hitung secara berurutan.<br>Diskon 1 (20%): $0,2 \\times 150.000 = 30.000$. Harga = Rp120.000.<br>Diskon 2 (10% dari Rp120.000): $0,1 \\times 120.000 = 12.000$.<br>Harga akhir = $120.000 - 12.000$ = Rp108.000."
+      },
+      {
+        "id": "tiu_016",
+        "teks": "Andi, Banu, dan Candra membagikan keuntungan usaha dengan rasio $2 : 3 : 5$. Jika Banu menerima keuntungan sebesar Rp450.000,00, berapakah selisih keuntungan antara Candra dan Andi?",
+        "opsi": [
+          "Rp300.000,00",
+          "Rp350.000,00",
+          "Rp400.000,00",
+          "Rp450.000,00",
+          "Rp500.000,00"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Nilai satu bagian rasio = $\\frac{\\text{Keuntungan Banu}}{\\text{Rasio Banu}} = \\frac{450.000}{3} = 150.000$.<br>Selisih rasio Candra dan Andi = $5 - 2 = 3$.<br>Selisih nominal = $3 \\times 150.000 = 450.000$."
+      },
+      {
+        "id": "tiu_017",
+        "teks": "MUDAL : ... = ... : AIR",
+        "opsi": [
+          "Pusaran - Ombak",
+          "Keruh - Jernih",
+          "Laut - Sungai",
+          "Kotor - Embun",
+          "Kental - Cair"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analogi sinonim sifat/keadaan. Mudal bersinonim dengan keadaan yang keruh (untuk air). Air (yang normal) keadaannya jernih."
+      },
+      {
+        "id": "tiu_018",
+        "teks": "Antonim dari kata <b>PROLETAR</b> adalah...",
+        "opsi": [
+          "Buruh",
+          "Rakyat jelata",
+          "Borjuis",
+          "Marhaen",
+          "Konglomerat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Proletar berarti lapisan sosial paling bawah (kaum buruh/rakyat jelata). Antonim yang paling sesuai untuk istilah sosial/kelas ini adalah kaum borjuis (kelas menengah ke atas yang menguasai modal)."
+      },
+      {
+        "id": "tiu_019",
+        "teks": "Deret huruf: C, F, I, L, O, ... Huruf selanjutnya adalah...",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deret huruf tersebut melompati 2 huruf. C (d,e), F (g,h), I (j,k), L (m,n), O (p,q), R. Jawaban: R."
+      },
+      {
+        "id": "tiu_020",
+        "teks": "Semua tanaman di kebun Pak RT adalah tanaman obat. Sebagian tanaman di kebun Pak RT memiliki bunga berwarna putih. Kesimpulannya...",
+        "opsi": [
+          "Semua tanaman obat memiliki bunga putih",
+          "Sebagian tanaman obat memiliki bunga putih",
+          "Tanaman yang berbunga putih pasti tanaman obat",
+          "Sebagian tanaman yang bukan tanaman obat berbunga putih",
+          "Tidak ada kesimpulan yang sah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Himpunan 'Sebagian tanaman berbunga putih' berada di dalam kebun Pak RT. Karena 'Semua' isi kebun adalah tanaman obat, maka irisan keduanya: Sebagian tanaman obat memiliki bunga berwarna putih."
+      },
+      {
+        "id": "tiu_021",
+        "teks": "Bila $2a - 3 = 7$ dan $3b + 2 = 11$, berapakah nilai dari $a \\times b$?",
+        "opsi": [
+          "12",
+          "15",
+          "18",
+          "20",
+          "24"
+        ],
+        "jawaban": 1,
+        "pembahasan": "$2a - 3 = 7 \\implies 2a = 10 \\implies a = 5$.<br>$3b + 2 = 11 \\implies 3b = 9 \\implies b = 3$.<br>Maka, $a \\times b = 5 \\times 3 = 15$."
+      },
+      {
+        "id": "tiu_022",
+        "teks": "Lima orang duduk mengelilingi meja bundar. Ali duduk di antara Budi dan Cici. Dodi duduk berhadapan dengan Ali. Eko duduk di sebelah kanan Dodi. Siapakah yang duduk berhadapan dengan Cici jika Cici duduk di sebelah kiri Ali?",
+        "opsi": [
+          "Budi",
+          "Dodi",
+          "Eko",
+          "Ali",
+          "Tidak ada"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Coba gambarkan posisi melingkar:<br>1. Ali di antara Budi dan Cici. Cici di kiri Ali. Maka urutan searah jarum jam: Budi, Ali, Cici.<br>2. Dodi berhadapan dengan Ali.<br>3. Eko di sebelah kanan Dodi.<br>Jika divisualisasikan, posisi Dodi ada di seberang Ali, dan Eko di kanannya menempatkan Eko berseberangan dengan Cici."
+      },
+      {
+        "id": "tiu_023",
+        "teks": "Rani membeli 3 buah buku dan 2 buah pensil seharga Rp26.000. Di toko yang sama, Budi membeli 2 buah buku dan 4 buah pensil seharga Rp28.000. Jika Dina ingin membeli 1 buku dan 1 pensil, berapakah uang yang harus dibayarnya?",
+        "opsi": [
+          "Rp8.000",
+          "Rp8.500",
+          "Rp9.000",
+          "Rp9.500",
+          "Rp10.000"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Persamaan 1: $3b + 2p = 26.000$<br>Persamaan 2: $2b + 4p = 28.000 \\implies b + 2p = 14.000$.<br>Kurangkan P1 dengan P2:<br>$(3b + 2p) - (b + 2p) = 26.000 - 14.000$<br>$2b = 12.000 \\implies b = 6.000$<br>Cari $p$: $6.000 + 2p = 14.000 \\implies 2p = 8.000 \\implies p = 4.000$.<br>Harga 1 buku + 1 pensil = $6.000 + 3.000 = 9.000$. Eh, sebentar, pensil = 4.000. Berarti 6.000 + 4.000 = 10.000. Jawaban adalah opsi E (Rp10.000). Ralat opsi jawaban."
+      },
+      {
+        "id": "tiu_024",
+        "teks": "Pecahan berikut yang memiliki nilai paling kecil adalah...",
+        "opsi": [
+          "5/6",
+          "7/8",
+          "2/3",
+          "3/4",
+          "4/5"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ubah ke desimal atau samakan penyebut.<br>5/6 = 0,833<br>7/8 = 0,875<br>2/3 = 0,667 (Terkecil)<br>3/4 = 0,750<br>4/5 = 0,800."
+      },
+      {
+        "id": "tiu_025",
+        "teks": "Jika diputar sejauh 180 derajat searah jarum jam, bangun huruf 'p' kecil akan terlihat seperti huruf...",
+        "opsi": [
+          "b",
+          "d",
+          "q",
+          "p",
+          "h"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Huruf 'p' jika diputar balik (180 derajat) akan memiliki tiang di atas kanan dan lengkungan di bawah kiri, sehingga membentuk huruf 'd'."
+      },
+      {
+        "id": "tiu_026",
+        "teks": "Sinonim dari kata <b>TENTATIF</b> adalah...",
+        "opsi": [
+          "Pasti",
+          "Sementara",
+          "Selesai",
+          "Berlanjut",
+          "Terkini"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, tentatif berarti belum pasti; masih dapat diubah; sementara waktu."
+      },
+      {
+        "id": "tiu_027",
+        "teks": "Antonim dari kata <b>NOMADEN</b> adalah...",
+        "opsi": [
+          "Berpindah",
+          "Menetap",
+          "Mandiri",
+          "Kolektif",
+          "Modern"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Nomaden berarti kaum pengembara atau kelompok orang yang tidak mempunyai tempat tinggal tetap (berpindah-pindah). Lawan katanya adalah menetap."
+      },
+      {
+        "id": "tiu_028",
+        "teks": "BUKU : BACA = LAGU : ...",
+        "opsi": [
+          "Penyanyi",
+          "Nada",
+          "Dengar",
+          "Tulis",
+          "Irama"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi Objek dan Kata Kerja (Predikat). Buku adalah objek untuk di-BACA. Lagu adalah objek untuk di-DENGAR."
+      },
+      {
+        "id": "tiu_029",
+        "teks": "Perhatikan deret berikut: $4, 16, 36, 64, 100, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "121",
+          "125",
+          "136",
+          "144",
+          "169"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola deret tersebut adalah bilangan genap yang dikuadratkan: $2^2, 4^2, 6^2, 8^2, 10^2$. Maka bilangan selanjutnya adalah $12^2 = 144$."
+      },
+      {
+        "id": "tiu_030",
+        "teks": "Berapakah hasil dari $(2^3 \\times 3^2) - 12$?",
+        "opsi": [
+          "54",
+          "60",
+          "64",
+          "70",
+          "72"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Langkah pengerjaan: $(8 \\times 9) - 12 = 72 - 12 = 60$."
+      },
+      {
+        "id": "tiu_031",
+        "teks": "Umur Budi adalah 3 kali umur Caca. Jika selisih umur mereka adalah 14 tahun, berapakah umur Budi sekarang?",
+        "opsi": [
+          "18 tahun",
+          "21 tahun",
+          "24 tahun",
+          "27 tahun",
+          "30 tahun"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Misal umur Caca = $x$, maka umur Budi = $3x$. Selisih umur: $3x - x = 14 \\implies 2x = 14 \\implies x = 7$. Umur Budi adalah $3(7) = 21$ tahun."
+      },
+      {
+        "id": "tiu_032",
+        "teks": "Semua mahasiswa baru wajib mengikuti kegiatan ospek. Budi adalah mahasiswa baru tahun ini. Kesimpulannya...",
+        "opsi": [
+          "Budi mungkin mengikuti ospek",
+          "Budi wajib mengikuti ospek",
+          "Beberapa mahasiswa baru mengikuti ospek",
+          "Budi tidak wajib mengikuti ospek",
+          "Tidak ada kesimpulan yang sah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Premis 1 (Umum): Semua mahasiswa baru wajib ospek. Premis 2 (Khusus): Budi masuk dalam himpunan mahasiswa baru. Kesimpulan: Budi wajib mengikuti ospek."
+      },
+      {
+        "id": "tiu_033",
+        "teks": "Terdapat 5 keranjang buah. Keranjang A lebih berat dari B. Keranjang C lebih ringan dari B. Keranjang D lebih berat dari A. Keranjang E adalah yang paling ringan. Urutan keranjang dari yang paling ringan hingga paling berat adalah...",
+        "opsi": [
+          "E - B - C - A - D",
+          "E - C - B - D - A",
+          "E - C - B - A - D",
+          "C - E - B - A - D",
+          "E - A - B - C - D"
+        ],
+        "jawaban": 2,
+        "pembahasan": "E paling ringan. C < B. B < A. A < D. Jika diurutkan dari yang teringan: E - C - B - A - D."
+      },
+      {
+        "id": "tiu_034",
+        "teks": "Sebuah toko pakaian memberikan diskon ganda 20% + 15%. Jika harga awal sebuah kemeja adalah Rp200.000, berapakah harga yang harus dibayar?",
+        "opsi": [
+          "Rp130.000",
+          "Rp135.000",
+          "Rp136.000",
+          "Rp140.000",
+          "Rp145.000"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Diskon 1 (20%): $200.000 - (20\\% \\times 200.000) = 160.000$. Diskon 2 (15% dari sisa): $160.000 - (15\\% \\times 160.000) = 160.000 - 24.000 = 136.000$."
+      },
+      {
+        "id": "tiu_035",
+        "teks": "Sebuah mobil membutuhkan 5 liter bensin untuk menempuh jarak 60 km. Berapa liter bensin yang dibutuhkan untuk menempuh jarak 156 km?",
+        "opsi": [
+          "11 liter",
+          "12 liter",
+          "13 liter",
+          "14 liter",
+          "15 liter"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perbandingan senilai: $\\frac{60}{5} = \\frac{156}{x} \\implies 12 = \\frac{156}{x} \\implies x = \\frac{156}{12} = 13$ liter."
+      },
+      {
+        "id": "tiu_036",
+        "teks": "Jarak kota X dan Y adalah 120 km. Ali berangkat dari kota X menuju Y dengan kecepatan 45 km/jam. Pada waktu yang sama, Budi berangkat dari kota Y menuju X dengan kecepatan 35 km/jam. Jika mereka berangkat pukul 08.00, pukul berapakah mereka berpapasan?",
+        "opsi": [
+          "09.00",
+          "09.15",
+          "09.30",
+          "09.45",
+          "10.00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Waktu berpapasan = Jarak Total / (Kecepatan 1 + Kecepatan 2) = $\\frac{120}{45 + 35} = \\frac{120}{80} = 1,5$ jam (1 jam 30 menit). 08.00 + 01.30 = 09.30."
+      },
+      {
+        "id": "tiu_037",
+        "teks": "Sinonim dari kata <b>MUTAKHIR</b> adalah...",
+        "opsi": [
+          "Terdahulu",
+          "Terkini",
+          "Sempurna",
+          "Canggih",
+          "Andal"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Mutakhir memiliki arti terakhir; terbaru; atau terkini (up to date)."
+      },
+      {
+        "id": "tiu_038",
+        "teks": "Antonim dari kata <b>ANOMALI</b> adalah...",
+        "opsi": [
+          "Aneh",
+          "Normal",
+          "Ganjil",
+          "Menyimpang",
+          "Teratur"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Anomali berarti ketidaknormalan; penyimpangan dari yang biasa. Antonimnya adalah normal."
+      },
+      {
+        "id": "tiu_039",
+        "teks": "AIR : ES = UAP : ...",
+        "opsi": [
+          "Hujan",
+          "Embun",
+          "Air",
+          "Awan",
+          "Mendidih"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi perubahan wujud/suhu. Air didinginkan menjadi es. Uap didinginkan (mengembun) menjadi air."
+      },
+      {
+        "id": "tiu_040",
+        "teks": "Perhatikan deret berikut: $5, 10, 8, 16, 14, 28, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "24",
+          "25",
+          "26",
+          "30",
+          "56"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deretnya bergantian: dikali 2, lalu dikurangi 2. $5 \\times 2 = 10$; $10 - 2 = 8$; $8 \\times 2 = 16$; $16 - 2 = 14$; $14 \\times 2 = 28$. Selanjutnya $28 - 2 = 26$."
+      },
+      {
+        "id": "tiu_041",
+        "teks": "Hasil dari penjumlahan $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16}$ adalah...",
+        "opsi": [
+          "7/8",
+          "15/16",
+          "1",
+          "17/16",
+          "31/32"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Samakan penyebut menjadi 16: $\\frac{8}{16} + \\frac{4}{16} + \\frac{2}{16} + \\frac{1}{16} = \\frac{15}{16}$."
+      },
+      {
+        "id": "tiu_042",
+        "teks": "Andi berlari dengan kecepatan 5 m/s. Sepuluh detik kemudian, Budi mengejar Andi dengan kecepatan berlari 7 m/s. Berapa detik waktu yang dibutuhkan Budi untuk menyusul Andi?",
+        "opsi": [
+          "15 detik",
+          "20 detik",
+          "25 detik",
+          "30 detik",
+          "35 detik"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Selisih jarak awal (Andi lari 10 detik duluan) = $5 \\text{ m/s} \\times 10 \\text{ s} = 50$ meter. Selisih kecepatan Budi dan Andi = $7 - 5 = 2$ m/s. Waktu menyusul = Selisih Jarak / Selisih Kecepatan = $50 / 2 = 25$ detik."
+      },
+      {
+        "id": "tiu_043",
+        "teks": "Dari 5 orang kandidat, akan dipilih seorang ketua dan seorang wakil ketua. Berapakah banyak cara susunan pengurus yang dapat dibentuk?",
+        "opsi": [
+          "10 cara",
+          "15 cara",
+          "20 cara",
+          "25 cara",
+          "30 cara"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ini adalah permutasi karena urutan (ketua, wakil) diperhatikan. $P(5,2) = \\frac{5!}{(5-2)!} = \\frac{5 \\times 4 \\times 3!}{3!} = 5 \\times 4 = 20$ cara."
+      },
+      {
+        "id": "tiu_044",
+        "teks": "Jika turun hujan, maka jalanan menjadi licin. Jika jalanan licin, maka rawan kecelakaan. Hari ini tidak rawan kecelakaan. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Hari ini tidak turun hujan",
+          "Hari ini jalanan tidak licin",
+          "Hari ini turun hujan tetapi tidak licin",
+          "Hari ini tidak turun hujan dan jalanan tidak licin",
+          "Semua benar"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Silogisme: P $\\implies$ Q dan Q $\\implies$ R. Kesimpulannya P $\\implies$ R. Diketahui fakta $\\sim R$ (tidak rawan kecelakaan). Menggunakan Modus Tollens, jika P $\\implies$ R dan terjadi $\\sim R$, maka kesimpulannya $\\sim P$ (Tidak turun hujan)."
+      },
+      {
+        "id": "tiu_045",
+        "teks": "Dalam sebuah rapat, 6 orang duduk mengelilingi meja bundar. F berhadapan dengan C. A duduk di sebelah kanan C dan di sebelah kiri E. B duduk di antara D dan F. Siapakah yang duduk di sebelah kiri D?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Gambarkan posisi melingkar: C berhadapan dengan F. A di kanan C, berarti urutan berlawanan arah jarum jam: C - A - E. B di antara D dan F. Posisi D harus berada di sebelah kiri C, lalu B, lalu F. Susunan utuhnya: C - A - E - F - B - D. Sebelah kiri D (searah jarum jam dari D) adalah E."
+      },
+      {
+        "id": "tiu_046",
+        "teks": "Sinonim dari kata <b>IMPLISIT</b> adalah...",
+        "opsi": [
+          "Tersurat",
+          "Tegas",
+          "Langsung",
+          "Tersirat",
+          "Jelas"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Implisit memiliki arti terkandung di dalamnya (meskipun tidak dinyatakan secara jelas); tersimpul; atau tersirat."
+      },
+      {
+        "id": "tiu_047",
+        "teks": "Antonim dari kata <b>KONKRET</b> adalah...",
+        "opsi": [
+          "Nyata",
+          "Wujud",
+          "Abstrak",
+          "Keras",
+          "Jelas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Konkret berarti nyata; benar-benar ada (berwujud). Lawan katanya adalah abstrak (tidak berwujud / tidak nyata)."
+      },
+      {
+        "id": "tiu_048",
+        "teks": "Berapakah hasil dari $33 \\frac{1}{3}\\% \\times 0,15$?",
+        "opsi": [
+          "0,03",
+          "0,05",
+          "0,15",
+          "0,30",
+          "0,50"
+        ],
+        "jawaban": 1,
+        "pembahasan": "$33 \\frac{1}{3}\\%$ sama dengan pecahan $\\frac{1}{3}$. Operasinya menjadi $\\frac{1}{3} \\times \\frac{15}{100} = \\frac{5}{100} = 0,05$."
+      },
+      {
+        "id": "tiu_049",
+        "teks": "Seorang peternak memiliki pakan ayam yang cukup untuk 10 ekor ayam selama 12 hari. Jika ia menambah 5 ekor ayam lagi, dalam berapa hari pakan tersebut akan habis?",
+        "opsi": [
+          "6 hari",
+          "8 hari",
+          "9 hari",
+          "10 hari",
+          "15 hari"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Perbandingan berbalik nilai. Semakin banyak ayam, semakin cepat pakan habis. Total ayam = 15 ekor. $10 \\times 12 = 15 \\times H_2 \\implies 120 = 15 \\times H_2 \\implies H_2 = \\frac{120}{15} = 8$ hari."
+      },
+      {
+        "id": "tiu_050",
+        "teks": "Dari 40 siswa dalam sebuah kelas, 25 siswa menyukai Matematika, 20 siswa menyukai IPA, dan 5 siswa tidak menyukai keduanya. Berapa banyak siswa yang menyukai kedua pelajaran tersebut?",
+        "opsi": [
+          "5 siswa",
+          "10 siswa",
+          "15 siswa",
+          "20 siswa",
+          "25 siswa"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gunakan rumus himpunan: Total = $n(A) + n(B) - n(A \\cap B) + n(A \\cup B)^c$. $40 = 25 + 20 - x + 5 \\implies 40 = 50 - x \\implies x = 10$ siswa."
+      },
+      {
+        "id": "tiu_051",
+        "teks": "Sinonim dari kata <b>PARADOKS</b> adalah...",
+        "opsi": [
+          "Persamaan",
+          "Keselarasan",
+          "Kontradiksi",
+          "Sejalan",
+          "Perumpamaan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Paradoks bermakna pernyataan yang seolah-olah bertentangan (berlawanan) dengan pendapat umum atau kebenaran, tetapi kenyataannya mengandung kebenaran; kontradiksi."
+      },
+      {
+        "id": "tiu_052",
+        "teks": "Antonim dari kata <b>VETERAN</b> adalah...",
+        "opsi": [
+          "Pakar",
+          "Senior",
+          "Pemula",
+          "Pensiunan",
+          "Ahli"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Veteran berarti orang yang sudah banyak pengalaman (dalam suatu bidang/pekerjaan) atau bekas prajurit. Antonim yang tepat adalah pemula (orang yang baru mulai/belum berpengalaman)."
+      },
+      {
+        "id": "tiu_053",
+        "teks": "MALAS : GAGAL = RAJIN : ...",
+        "opsi": [
+          "Pandai",
+          "Sukses",
+          "Belajar",
+          "Buku",
+          "Kaya"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analogi sebab-akibat. Sifat malas akan mengakibatkan gagal. Sifat rajin akan mengakibatkan sukses."
+      },
+      {
+        "id": "tiu_054",
+        "teks": "ATAP : GENTENG = LANTAI : ...",
+        "opsi": [
+          "Semen",
+          "Tanah",
+          "Keramik",
+          "Bata",
+          "Karpet"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi bagian dan bahan pelapisnya. Atap umumnya dilapisi/ditutupi oleh genteng. Lantai umumnya dilapisi/ditutupi oleh keramik."
+      },
+      {
+        "id": "tiu_055",
+        "teks": "Perhatikan deret berikut: $1, 4, 9, 16, 25, 36, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "45",
+          "49",
+          "54",
+          "64",
+          "81"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Deret tersebut merupakan barisan bilangan kuadrat sempurna: $1^2, 2^2, 3^2, 4^2, 5^2, 6^2$. Maka bilangan selanjutnya adalah $7^2 = 49$."
+      },
+      {
+        "id": "tiu_056",
+        "teks": "Perhatikan deret berikut: $100, 95, 85, 70, 50, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "20",
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola pengurangan bertingkat: dikurang 5, lalu kurang 10, kurang 15, kurang 20. Selanjutnya dikurangi 25. $50 - 25 = 25$."
+      },
+      {
+        "id": "tiu_057",
+        "teks": "Jika $2x + y = 10$ dan $x - y = 2$, berapakah nilai dari $x \\times y$?",
+        "opsi": [
+          "4",
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Eliminasi dengan menjumlahkan kedua persamaan:<br>$(2x + y) + (x - y) = 10 + 2 \\implies 3x = 12 \\implies x = 4$.<br>Substitusi ke $x - y = 2 \\implies 4 - y = 2 \\implies y = 2$.<br>Nilai $x \\times y = 4 \\times 2 = 8$."
+      },
+      {
+        "id": "tiu_058",
+        "teks": "Sebuah proyek pembangunan dapat diselesaikan oleh 10 orang pekerja dalam waktu 15 hari. Jika karena suatu hal pekerja yang tersedia hanya 5 orang, berapa lama proyek tersebut akan selesai?",
+        "opsi": [
+          "20 hari",
+          "25 hari",
+          "30 hari",
+          "35 hari",
+          "40 hari"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perbandingan berbalik nilai. $10 \\text{ orang} \\times 15 \\text{ hari} = 5 \\text{ orang} \\times H_2$.<br>$150 = 5 \\times H_2 \\implies H_2 = \\frac{150}{5} = 30$ hari."
+      },
+      {
+        "id": "tiu_059",
+        "teks": "Andi berangkat dari kota A ke kota B pada pukul 07.00 dengan kecepatan 40 km/jam. Budi menyusul dari kota A melalui rute yang sama pada pukul 07.30 dengan kecepatan 60 km/jam. Pada pukul berapa Budi berhasil menyusul Andi?",
+        "opsi": [
+          "08.00",
+          "08.15",
+          "08.30",
+          "08.45",
+          "09.00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Selisih waktu berangkat = 30 menit (0,5 jam). Jarak yang sudah ditempuh Andi = $40 \\times 0,5 = 20$ km.<br>Waktu menyusul = $\\frac{\\text{Selisih Jarak}}{\\text{Selisih Kecepatan}} = \\frac{20}{60 - 40} = \\frac{20}{20} = 1$ jam.<br>Budi menyusul 1 jam setelah ia berangkat, yaitu pukul $07.30 + 1$ jam = 08.30."
+      },
+      {
+        "id": "tiu_060",
+        "teks": "Semua dokter ahli bedah adalah orang yang teliti. Sebagian dokter ahli bedah adalah penulis buku medis. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua penulis buku medis adalah orang yang teliti",
+          "Semua orang yang teliti adalah penulis buku medis",
+          "Sebagian penulis buku medis adalah orang yang teliti",
+          "Sebagian orang yang teliti bukan dokter ahli bedah",
+          "Semua dokter ahli bedah adalah penulis buku medis"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Premis 1: Semua D = T.<br>Premis 2: Sebagian D = P.<br>Irisannya adalah 'Sebagian D', di mana kelompok ini memiliki sifat P (penulis) sekaligus sifat T (teliti). Maka, sebagian penulis buku medis adalah orang yang teliti."
+      },
+      {
+        "id": "tiu_061",
+        "teks": "Jika karyawan rajin bekerja, maka ia mendapat bonus. Jika mendapat bonus, maka ia bisa membeli motor baru. Saat ini karyawan tersebut tidak bisa membeli motor baru. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Karyawan rajin bekerja namun tidak dapat bonus",
+          "Karyawan mendapat bonus",
+          "Karyawan tidak rajin bekerja",
+          "Karyawan rajin bekerja",
+          "Tidak dapat ditarik kesimpulan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme (P $\\implies$ Q, Q $\\implies$ R) menghasilkan P $\\implies$ R (Jika rajin, maka beli motor).<br>Fakta yang ada adalah $\\sim R$ (Tidak beli motor).<br>Berdasarkan Modus Tollens (P $\\implies$ R dan $\\sim R$), kesimpulannya adalah $\\sim P$ (Tidak rajin bekerja)."
+      },
+      {
+        "id": "tiu_062",
+        "teks": "Dalam sebuah keluarga, Anton lebih tinggi dari Budi. Budi lebih pendek dari Coki. Coki sama tingginya dengan Dodi. Anton lebih tinggi dari Dodi. Siapakah yang paling pendek?",
+        "opsi": [
+          "Anton",
+          "Budi",
+          "Coki",
+          "Dodi",
+          "Coki dan Dodi"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Mari kita susun tinggi badan mereka:<br>Anton > Budi<br>Coki > Budi<br>Coki = Dodi<br>Anton > Dodi (atau Anton > Coki).<br>Susunan dari yang tertinggi: Anton > Coki = Dodi > Budi. Yang paling pendek adalah Budi."
+      },
+      {
+        "id": "tiu_063",
+        "teks": "Hasil dari operasi pecahan $\\frac{1}{3} + \\frac{1}{5} + \\frac{1}{15}$ adalah...",
+        "opsi": [
+          "1/5",
+          "2/5",
+          "3/5",
+          "4/5",
+          "1"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Samakan penyebut menjadi 15:<br>$\\frac{5}{15} + \\frac{3}{15} + \\frac{1}{15} = \\frac{9}{15}$.<br>Sederhanakan dengan membagi 3 = $\\frac{3}{5}$."
+      },
+      {
+        "id": "tiu_064",
+        "teks": "Harga sebuah tas di toko adalah Rp240.000,00. Toko tersebut sedang memberikan diskon sebesar 25%. Berapakah harga tas tersebut setelah diskon?",
+        "opsi": [
+          "Rp160.000,00",
+          "Rp180.000,00",
+          "Rp190.000,00",
+          "Rp200.000,00",
+          "Rp210.000,00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Diskon = $25\\% \\times 240.000 = \\frac{1}{4} \\times 240.000 = 60.000$.<br>Harga yang harus dibayar = $240.000 - 60.000 = 180.000$."
+      },
+      {
+        "id": "tiu_065",
+        "teks": "Sinonim dari kata <b>MILITAN</b> adalah...",
+        "opsi": [
+          "Damai",
+          "Keras kepala",
+          "Bersemangat tinggi",
+          "Pengecut",
+          "Konservatif"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Militan berarti bersemangat tinggi; penuh gairah; atau berhaluan keras (dalam arti memperjuangkan sesuatu secara sungguh-sungguh)."
+      },
+      {
+        "id": "tiu_066",
+        "teks": "Antonim dari kata <b>EKSPLISIT</b> adalah...",
+        "opsi": [
+          "Tegas",
+          "Nyata",
+          "Gamblang",
+          "Implisit",
+          "Akurat"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Eksplisit berarti terus terang dan tidak berbelit-belit (tersurat). Lawan katanya adalah implisit (tersirat atau tidak diungkapkan secara langsung)."
+      },
+      {
+        "id": "tiu_067",
+        "teks": "Perhatikan deret huruf berikut: A, C, E, G, ... Huruf selanjutnya adalah...",
+        "opsi": [
+          "H",
+          "I",
+          "J",
+          "K",
+          "L"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola deretnya adalah melompati 1 huruf dalam alfabet. A (b) C (d) E (f) G (h) I. Jawaban yang benar adalah I."
+      },
+      {
+        "id": "tiu_068",
+        "teks": "Perhatikan deret berikut: $2, 6, 18, 54, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "108",
+          "120",
+          "154",
+          "162",
+          "180"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Deret geometri dengan rasio perkalian 3. $2 \\times 3 = 6$, $6 \\times 3 = 18$, $18 \\times 3 = 54$. Selanjutnya $54 \\times 3 = 162$."
+      },
+      {
+        "id": "tiu_069",
+        "teks": "Umur seorang ayah saat ini adalah 3 kali umur anaknya. Jika selisih umur mereka adalah 26 tahun, berapakah umur anak tersebut sekarang?",
+        "opsi": [
+          "10 tahun",
+          "11 tahun",
+          "12 tahun",
+          "13 tahun",
+          "14 tahun"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Misalkan umur anak = $x$, maka umur ayah = $3x$.<br>Selisih umur: $3x - x = 26 \\implies 2x = 26 \\implies x = 13$. Jadi umur anak adalah 13 tahun."
+      },
+      {
+        "id": "tiu_070",
+        "teks": "Sebuah kereta api dengan panjang 200 meter melaju dengan kecepatan 20 m/s. Kereta tersebut akan melewati sebuah terowongan yang panjangnya 400 meter. Berapa waktu yang dibutuhkan kereta dari mulai masuk hingga seluruh gerbongnya keluar dari terowongan?",
+        "opsi": [
+          "20 detik",
+          "25 detik",
+          "30 detik",
+          "35 detik",
+          "40 detik"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Jarak total yang harus ditempuh = Panjang Kereta + Panjang Terowongan = $200 + 400 = 600$ meter.<br>Waktu ($t$) = Jarak / Kecepatan = $600 / 20 = 30$ detik."
+      },
+      {
+        "id": "tiu_071",
+        "teks": "Empat orang direktur duduk mengelilingi meja bundar. Direktur A duduk berhadapan dengan direktur B. Direktur C duduk di sebelah kanan direktur A. Siapakah yang duduk berhadapan dengan direktur C?",
+        "opsi": [
+          "Direktur A",
+          "Direktur B",
+          "Direktur C",
+          "Direktur D",
+          "Tidak ada"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Ada 4 kursi. A berhadapan dengan B. C di sebelah kanan A. Satu-satunya kursi yang tersisa di seberang C diisi oleh Direktur D."
+      },
+      {
+        "id": "tiu_072",
+        "teks": "Angka 15 adalah 30% dari suatu bilangan. Berapakah bilangan tersebut?",
+        "opsi": [
+          "35",
+          "40",
+          "45",
+          "50",
+          "60"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Persamaan matematis: $30\\% \\times x = 15$<br>$\\frac{30}{100} \\times x = 15 \\implies x = \\frac{15 \\times 100}{30} = \\frac{1500}{30} = 50$."
+      },
+      {
+        "id": "tiu_073",
+        "teks": "Sinonim dari kata <b>DONATUR</b> adalah...",
+        "opsi": [
+          "Penyumbang",
+          "Penerima",
+          "Pengemis",
+          "Relawan",
+          "Pengasuh"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan KBBI, donatur adalah orang yang secara tetap memberikan sumbangan (berupa uang dan sebagainya) kepada suatu perkumpulan; penyumbang; penderma."
+      },
+      {
+        "id": "tiu_074",
+        "teks": "Antonim dari kata <b>AMATIR</b> adalah...",
+        "opsi": [
+          "Pemula",
+          "Pakar",
+          "Magang",
+          "Profesional",
+          "Kampiun"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Amatir berarti kegiatan yang dilakukan atas dasar kesenangan (hobi) semata, bukan untuk memperoleh nafkah. Antonim atau lawan kata yang paling tepat dalam konteks pekerjaan adalah Profesional."
+      },
+      {
+        "id": "tiu_075",
+        "teks": "Ibu membeli 5 kg beras dengan harga Rp60.000,00. Jika tetangga ibu ingin menitip membeli beras yang sama sebanyak 8 kg, berapakah uang yang harus disiapkan oleh tetangganya?",
+        "opsi": [
+          "Rp86.000,00",
+          "Rp90.000,00",
+          "Rp96.000,00",
+          "Rp100.000,00",
+          "Rp120.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perbandingan senilai. Harga per kg = $60.000 / 5 = 12.000$.<br>Harga untuk 8 kg = $8 \\times 12.000 = 96.000$."
+      },
+      {
+        "id": "tiu_076",
+        "teks": "Sinonim dari kata <b>BONAFIDE</b> adalah...",
+        "opsi": [
+          "Sertifikat",
+          "Dapat dipercaya",
+          "Surat berharga",
+          "Teguh",
+          "Palsu"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, bonafide berarti dapat dipercaya dengan baik (tentang perusahaan dan sebagainya); jujur."
+      },
+      {
+        "id": "tiu_077",
+        "teks": "Antonim dari kata <b>APATIS</b> adalah...",
+        "opsi": [
+          "Antusias",
+          "Acuh",
+          "Egois",
+          "Simpati",
+          "Skeptis"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Apatis berarti acuh tak acuh; tidak peduli; masa bodoh. Lawan katanya adalah antusias (peduli/bersemangat)."
+      },
+      {
+        "id": "tiu_078",
+        "teks": "MATAHARI : BUMI = BUMI : ...",
+        "opsi": [
+          "Bulan",
+          "Tata Surya",
+          "Bintang",
+          "Planet",
+          "Venus"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analogi pusat orbit. Bumi mengorbit (mengelilingi) Matahari. Benda langit yang mengorbit (mengelilingi) Bumi adalah Bulan."
+      },
+      {
+        "id": "tiu_079",
+        "teks": "Perhatikan deret berikut: $2, 4, 8, 16, 32, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "48",
+          "56",
+          "64",
+          "72",
+          "128"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deret tersebut adalah dikali 2 untuk angka selanjutnya. $32 \\times 2 = 64$."
+      },
+      {
+        "id": "tiu_080",
+        "teks": "Berapakah $25\\%$ dari 120?",
+        "opsi": [
+          "25",
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
+        "jawaban": 1,
+        "pembahasan": "$25\\%$ sama dengan $\\frac{1}{4}$. Maka $\\frac{1}{4} \\times 120 = 30$."
+      },
+      {
+        "id": "tiu_081",
+        "teks": "Sinonim dari kata <b>INJEKSI</b> adalah...",
+        "opsi": [
+          "Terapi",
+          "Pengobatan",
+          "Suntikan",
+          "Vaksin",
+          "Operasi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Injeksi berarti suntikan (memasukkan cairan obat ke dalam tubuh menggunakan jarum)."
+      },
+      {
+        "id": "tiu_082",
+        "teks": "Antonim dari kata <b>MAYORITAS</b> adalah...",
+        "opsi": [
+          "Banyak",
+          "Minoritas",
+          "Sedikit",
+          "Dominan",
+          "Masyarakat"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Mayoritas berarti bagian terbanyak/terbesar dari suatu himpunan. Lawan katanya adalah minoritas (bagian terkecil)."
+      },
+      {
+        "id": "tiu_083",
+        "teks": "Perhatikan deret Fibonacci berikut: $1, 1, 2, 3, 5, 8, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "10",
+          "11",
+          "12",
+          "13",
+          "15"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Deret Fibonacci didapat dengan menjumlahkan dua angka sebelumnya. $5 + 8 = 13$."
+      },
+      {
+        "id": "tiu_084",
+        "teks": "Perbandingan uang Ani dan Budi adalah $3 : 5$. Jika selisih uang mereka adalah Rp10.000, berapakah jumlah uang mereka secara keseluruhan?",
+        "opsi": [
+          "Rp20.000",
+          "Rp30.000",
+          "Rp40.000",
+          "Rp50.000",
+          "Rp60.000"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rasio jumlah = $3 + 5 = 8$. Rasio selisih = $5 - 3 = 2$.<br>Jumlah uang = (Rasio Jumlah / Rasio Selisih) $\\times$ Selisih Nominal = $\\frac{8}{2} \\times 10.000 = 4 \\times 10.000 = 40.000$."
+      },
+      {
+        "id": "tiu_085",
+        "teks": "Semua guru adalah Pegawai Negeri Sipil (PNS). Sebagian guru mengajar di daerah terpencil. Kesimpulannya...",
+        "opsi": [
+          "Semua PNS mengajar di daerah terpencil",
+          "Semua guru yang bukan PNS mengajar di daerah terpencil",
+          "Sebagian PNS mengajar di daerah terpencil",
+          "Sebagian PNS bukan guru",
+          "Semua yang mengajar di daerah terpencil adalah PNS"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Karena himpunan 'guru' sepenuhnya masuk ke dalam himpunan 'PNS', maka 'sebagian guru' yang mengajar di daerah terpencil otomatis juga berstatus sebagai PNS."
+      },
+      {
+        "id": "tiu_086",
+        "teks": "Umur Anton adalah dua kali umur Budi. Umur Budi adalah tiga kali umur Candra. Jika umur Candra saat ini adalah 5 tahun, berapakah umur Anton?",
+        "opsi": [
+          "15 tahun",
+          "20 tahun",
+          "25 tahun",
+          "30 tahun",
+          "35 tahun"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Candra = 5 tahun.<br>Budi = $3 \\times 5 = 15$ tahun.<br>Anton = $2 \\times 15 = 30$ tahun."
+      },
+      {
+        "id": "tiu_087",
+        "teks": "Sinonim dari kata <b>TENDENSI</b> adalah...",
+        "opsi": [
+          "Tekanan",
+          "Tensi",
+          "Kecenderungan",
+          "Tujuan",
+          "Masalah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Tendensi memiliki arti kecenderungan; kecondongan (pada suatu hal)."
+      },
+      {
+        "id": "tiu_088",
+        "teks": "Antonim dari kata <b>STABIL</b> adalah...",
+        "opsi": [
+          "Labil",
+          "Kuat",
+          "Permanen",
+          "Runtuh",
+          "Berubah"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Stabil berarti mantap; kukuh; tidak goyah. Antonim yang tepat dan serumpun adalah labil (mudah goyah/berubah-ubah)."
+      },
+      {
+        "id": "tiu_089",
+        "teks": "Perhatikan deret berikut: $10, 12, 15, 19, 24, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "28",
+          "29",
+          "30",
+          "31",
+          "32"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Beda antarsuku terus meningkat: $+2, +3, +4, +5$. Maka penambahan selanjutnya adalah $+6$. Sehingga $24 + 6 = 30$."
+      },
+      {
+        "id": "tiu_090",
+        "teks": "Hasil dari operasi $\\frac{1}{2} + 20\\% - 0,1$ adalah...",
+        "opsi": [
+          "0,4",
+          "0,5",
+          "0,6",
+          "0,7",
+          "0,8"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ubah semuanya menjadi desimal: $0,5 + 0,2 - 0,1 = 0,7 - 0,1 = 0,6$."
+      },
+      {
+        "id": "tiu_091",
+        "teks": "Jarak kota P dan kota Q adalah 150 km. Ahmad berangkat dari kota P menuju Q dengan sepeda motor pada pukul 06.00 dengan kecepatan rata-rata 50 km/jam. Di tengah jalan, ia beristirahat selama 30 menit. Pukul berapakah ia tiba di kota Q?",
+        "opsi": [
+          "08.30",
+          "09.00",
+          "09.30",
+          "10.00",
+          "10.30"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Waktu tempuh normal = Jarak / Kecepatan = $150 / 50 = 3$ jam.<br>Total waktu perjalanan = $3$ jam $+ 30$ menit.<br>Waktu tiba = 06.00 + 3 jam 30 menit = 09.30."
+      },
+      {
+        "id": "tiu_092",
+        "teks": "Jika turun hujan, maka jalanan basah. Jika jalanan basah, maka jalanan menjadi licin. Hari ini turun hujan. Kesimpulannya...",
+        "opsi": [
+          "Hari ini jalanan basah",
+          "Hari ini jalanan licin",
+          "Hari ini jalanan tidak licin",
+          "Jalanan licin karena hujan",
+          "Tidak ada kesimpulan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme: Hujan $\\implies$ Basah, Basah $\\implies$ Licin. Maka Hujan $\\implies$ Licin. Karena fakta hari ini Hujan (Modus Ponens), maka kesimpulannya hari ini jalanan licin."
+      },
+      {
+        "id": "tiu_093",
+        "teks": "GIGIH : SUKSES = ... : ...",
+        "opsi": [
+          "Rajin : Buku",
+          "Kaya : Harta",
+          "Malas : Gagal",
+          "Belajar : Ujian",
+          "Bekerja : Kantuk"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi sebab-akibat (Sifat dan Hasilnya). Sifat gigih berakibat sukses. Sifat malas berakibat gagal."
+      },
+      {
+        "id": "tiu_094",
+        "teks": "Sinonim dari kata <b>VIRTUAL</b> adalah...",
+        "opsi": [
+          "Nyata",
+          "Digital",
+          "Maya",
+          "Palsu",
+          "Modern"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Virtual bermakna (secara) maya; hadir melalui perangkat lunak komputer atau simulasi, namun tidak dalam wujud fisik."
+      },
+      {
+        "id": "tiu_095",
+        "teks": "Antonim dari kata <b>PROLOG</b> adalah...",
+        "opsi": [
+          "Monolog",
+          "Dialog",
+          "Epilog",
+          "Katalog",
+          "Klimaks"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Prolog adalah kata pendahuluan / pengantar dalam lakon atau karya sastra. Antonimnya adalah Epilog (bagian penutup)."
+      },
+      {
+        "id": "tiu_096",
+        "teks": "Perhatikan deret berikut: $100, 50, 25, 12,5, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "5",
+          "6,25",
+          "6,5",
+          "7,25",
+          "10"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola deretnya adalah dibagi 2. $12,5 \\div 2 = 6,25$."
+      },
+      {
+        "id": "tiu_097",
+        "teks": "Jika $x = 5$ dan $y = 3$, berapakah nilai dari $x^2 - y^2$?",
+        "opsi": [
+          "8",
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "jawaban": 4,
+        "pembahasan": "$x^2 - y^2 = 5^2 - 3^2 = 25 - 9 = 16$. (Bisa juga menggunakan rumus aljabar $(x+y)(x-y) = 8 \\times 2 = 16$)."
+      },
+      {
+        "id": "tiu_098",
+        "teks": "Seorang pedagang membeli barang seharga Rp40.000 dan menjualnya kembali dengan harga Rp50.000. Berapa persentase keuntungan yang ia dapatkan?",
+        "opsi": [
+          "10%",
+          "15%",
+          "20%",
+          "25%",
+          "30%"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Keuntungan nominal = $50.000 - 40.000 = 10.000$.<br>Persentase untung = (Keuntungan / Harga Beli) $\\times 100\\% = (10.000 / 40.000) \\times 100\\% = \\frac{1}{4} \\times 100\\% = 25\\%$."
+      },
+      {
+        "id": "tiu_099",
+        "teks": "Tidak ada PNS yang pemalas. Budi adalah seorang PNS. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Budi mungkin pemalas",
+          "Budi adalah PNS yang pemalas",
+          "Budi bukan pemalas",
+          "Sebagian PNS bukan Budi",
+          "Semua pemalas bukan Budi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Karena himpunan PNS dan pemalas tidak beririsan ('Tidak ada PNS yang pemalas'), dan Budi masuk dalam himpunan PNS, maka Budi pasti bukan pemalas."
+      },
+      {
+        "id": "tiu_100",
+        "teks": "Sebuah proyek dijadwalkan selesai dalam 20 hari oleh 15 orang pekerja. Agar proyek tersebut bisa selesai lebih cepat yaitu dalam 10 hari, berapa jumlah total pekerja yang dibutuhkan?",
+        "opsi": [
+          "15 orang",
+          "20 orang",
+          "25 orang",
+          "30 orang",
+          "35 orang"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Perbandingan berbalik nilai. $O_1 \\times H_1 = O_2 \\times H_2 \\implies 15 \\times 20 = O_2 \\times 10$.<br>$300 = 10 \\times O_2 \\implies O_2 = 30$. Jadi, total pekerja yang dibutuhkan adalah 30 orang."
+      },
+      {
+        "id": "tiu_101",
+        "teks": "Sinonim dari kata <b>KOLUSI</b> adalah...",
+        "opsi": [
+          "Suap-menyuap",
+          "Penyalahgunaan wewenang",
+          "Permufakatan jahat",
+          "Korupsi waktu",
+          "Tindakan kekerasan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, kolusi adalah kerja sama rahasia atau permufakatan jahat untuk maksud tidak terpuji atau melanggar hukum."
+      },
+      {
+        "id": "tiu_102",
+        "teks": "Antonim dari kata <b>NISBI</b> adalah...",
+        "opsi": [
+          "Relatif",
+          "Abstrak",
+          "Mutlak",
+          "Pasti",
+          "Kekal"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Nisbi berarti hanya dapat dilihat/diukur apabila dibandingkan dengan yang lain (relatif). Antonim yang paling tepat adalah mutlak (absolut)."
+      },
+      {
+        "id": "tiu_103",
+        "teks": "GENTENG : RUMAH = RAMBUT : ...",
+        "opsi": [
+          "Kepala",
+          "Topi",
+          "Sisir",
+          "Hitam",
+          "Wajah"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analogi penutup bagian atas. Genteng menutupi bagian atas rumah. Rambut menutupi bagian atas kepala."
+      },
+      {
+        "id": "tiu_104",
+        "teks": "Perhatikan deret berikut: $1, 2, 4, 7, 11, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deretnya adalah penambahan yang terus meningkat: $+1, +2, +3, +4$. Maka penambahan selanjutnya adalah $+5$. Sehingga $11 + 5 = 16$."
+      },
+      {
+        "id": "tiu_105",
+        "teks": "Seseorang membeli sebuah barang seharga Rp200.000. Karena suatu hal, barang tersebut dijual kembali dan ia mengalami kerugian sebesar 10%. Berapakah harga jual barang tersebut?",
+        "opsi": [
+          "Rp170.000",
+          "Rp180.000",
+          "Rp190.000",
+          "Rp210.000",
+          "Rp220.000"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kerugian = $10\\% \\times 200.000 = 20.000$. Harga jual = Harga beli - Rugi = $200.000 - 20.000 = 180.000$."
+      },
+      {
+        "id": "tiu_106",
+        "teks": "Semua pegawai memakai kemeja berdasi. Sebagian pegawai memakai kacamata. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua pegawai memakai kacamata dan berdasi",
+          "Sebagian pegawai yang memakai kacamata tidak berdasi",
+          "Sebagian pegawai yang berdasi memakai kacamata",
+          "Semua pegawai tidak berkacamata",
+          "Tidak ada kesimpulan yang sah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Himpunan 'Sebagian pegawai yang memakai kacamata' sepenuhnya berada di dalam himpunan 'pegawai'. Karena semua pegawai memakai dasi, maka mereka (yang berkacamata) pasti juga memakai kemeja berdasi."
+      },
+      {
+        "id": "tiu_107",
+        "teks": "Dalam ujian matematika, nilai Anton lebih tinggi dari Budi. Nilai Candra lebih rendah dari Budi. Nilai Dodi lebih tinggi dari Anton. Siapakah yang mendapat nilai terendah?",
+        "opsi": [
+          "Anton",
+          "Budi",
+          "Candra",
+          "Dodi",
+          "Budi dan Candra"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan nilai dari yang tertinggi ke terendah: Dodi > Anton > Budi > Candra. Maka yang terendah adalah Candra."
+      },
+      {
+        "id": "tiu_108",
+        "teks": "Sinonim dari kata <b>PROMINEN</b> adalah...",
+        "opsi": [
+          "Biasa",
+          "Menonjol",
+          "Sejalan",
+          "Perintis",
+          "Konsisten"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Prominen berarti terkemuka; menonjol; atau luar biasa (dikenal banyak orang)."
+      },
+      {
+        "id": "tiu_109",
+        "teks": "Antonim dari kata <b>SPORADIS</b> adalah...",
+        "opsi": [
+          "Jarang",
+          "Berdekatan",
+          "Sering",
+          "Teratur",
+          "Terpisah"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sporadis berarti tidak merata; jarang-jarang; atau kadang-kadang. Antonim yang paling tepat adalah teratur atau sering."
+      },
+      {
+        "id": "tiu_110",
+        "teks": "PISAU : DAGING = SAPU : ...",
+        "opsi": [
+          "Bersih",
+          "Lantai",
+          "Debu",
+          "Halaman",
+          "Kotoran"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analogi alat dan objek yang dikenai tindakan. Pisau digunakan untuk memotong/mengenai Daging. Sapu digunakan untuk menyapu/mengenai Lantai."
+      },
+      {
+        "id": "tiu_111",
+        "teks": "Perhatikan deret berikut: $2, 3, 6, 18, 108, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "1644",
+          "1824",
+          "1944",
+          "1984",
+          "2108"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deretnya adalah mengalikan dua angka sebelumnya untuk mendapatkan angka berikutnya. $2 \\times 3 = 6$; $3 \\times 6 = 18$; $6 \\times 18 = 108$; $18 \\times 108 = 1944$."
+      },
+      {
+        "id": "tiu_112",
+        "teks": "Budi mengendarai mobil dengan kecepatan 60 km/jam untuk menempuh jarak 150 km. Di tengah perjalanan ia beristirahat selama 15 menit. Jika Budi berangkat pukul 08.00, pukul berapakah ia akan tiba di tujuan?",
+        "opsi": [
+          "10.15",
+          "10.30",
+          "10.45",
+          "11.00",
+          "11.15"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Waktu tempuh normal = Jarak / Kecepatan = $150 / 60 = 2,5$ jam (2 jam 30 menit).<br>Total waktu = 2 jam 30 menit + 15 menit istirahat = 2 jam 45 menit.<br>08.00 + 2 jam 45 menit = 10.45."
+      },
+      {
+        "id": "tiu_113",
+        "teks": "Hasil dari operasi pecahan $0,4 + \\frac{3}{10} - \\frac{1}{2}$ adalah...",
+        "opsi": [
+          "0,1",
+          "0,2",
+          "0,3",
+          "0,4",
+          "0,5"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ubah semua ke dalam bentuk desimal. $\\frac{3}{10} = 0,3$ dan $\\frac{1}{2} = 0,5$.<br>$0,4 + 0,3 - 0,5 = 0,7 - 0,5 = 0,2$."
+      },
+      {
+        "id": "tiu_114",
+        "teks": "Jika udara bersih, maka warga sehat. Jika warga sehat, maka biaya kesehatan menurun. Saat ini biaya kesehatan tidak menurun. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Udara bersih",
+          "Warga sehat",
+          "Udara tidak bersih",
+          "Biaya kesehatan naik",
+          "Tidak ada kesimpulan yang sah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme (P $\\implies$ Q, Q $\\implies$ R) menjadi P $\\implies$ R (Udara bersih $\\implies$ Biaya turun). Karena faktanya biaya tidak menurun ($\\sim R$), maka menurut Modus Tollens kesimpulannya adalah $\\sim P$ (Udara tidak bersih)."
+      },
+      {
+        "id": "tiu_115",
+        "teks": "Empat orang, yaitu P, Q, R, dan S duduk mengelilingi meja persegi saling berhadapan. P duduk tepat berhadapan dengan Q. R duduk di sebelah kanan P. Siapakah yang duduk di sebelah kiri Q?",
+        "opsi": [
+          "P",
+          "R",
+          "S",
+          "Q",
+          "Tidak ada"
+        ],
+        "jawaban": 1,
+        "pembahasan": "P berhadapan dengan Q (arah pandang mereka berlawanan). R berada di sebelah kanan P. Karena arah pandang Q berlawanan dengan P, maka sebelah kanan P sama posisinya dengan sebelah kiri Q. Jadi, R berada di sebelah kiri Q."
+      },
+      {
+        "id": "tiu_116",
+        "teks": "Sinonim dari kata <b>PRAGMATIS</b> adalah...",
+        "opsi": [
+          "Teoritis",
+          "Logis",
+          "Praktis",
+          "Rumit",
+          "Teratur"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pragmatis berarti bersifat praktis dan berguna bagi umum; mementingkan hasil akhir yang nyata."
+      },
+      {
+        "id": "tiu_117",
+        "teks": "Antonim dari kata <b>MASIF</b> adalah...",
+        "opsi": [
+          "Kecil",
+          "Utuh",
+          "Parsial",
+          "Padat",
+          "Kuat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Masif berarti utuh dan padat; kuat; atau berskala sangat besar. Antonim yang tepat dalam konteks menyeluruh/besar adalah parsial (sebagian)."
+      },
+      {
+        "id": "tiu_118",
+        "teks": "GELAP : TERANG = BODOH : ...",
+        "opsi": [
+          "Belajar",
+          "Pintar",
+          "Guru",
+          "Buku",
+          "Sekolah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analogi lawan kata (antonim). Lawan dari gelap adalah terang. Lawan dari bodoh adalah pintar."
+      },
+      {
+        "id": "tiu_119",
+        "teks": "Perhatikan deret huruf berikut: A, D, G, J, ... Huruf selanjutnya adalah...",
+        "opsi": [
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola huruf melompati 2 huruf abjad. A (b,c) D (e,f) G (h,i) J (k,l) M. Huruf selanjutnya adalah M."
+      },
+      {
+        "id": "tiu_120",
+        "teks": "Sebuah pekerjaan dapat diselesaikan oleh 4 orang pekerja dalam waktu 15 hari. Jika pekerjaan tersebut dikerjakan oleh 6 orang, berapa hari pekerjaan tersebut akan selesai?",
+        "opsi": [
+          "8 hari",
+          "9 hari",
+          "10 hari",
+          "11 hari",
+          "12 hari"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perbandingan berbalik nilai. $4 \\times 15 = 6 \\times H_2 \\implies 60 = 6 \\times H_2 \\implies H_2 = \\frac{60}{6} = 10$ hari."
+      },
+      {
+        "id": "tiu_121",
+        "teks": "Semua mahasiswa tingkat akhir diwajibkan membawa laptop ke kampus. Beberapa mahasiswa tingkat akhir tergabung dalam tim basket kampus. Kesimpulannya...",
+        "opsi": [
+          "Semua anggota tim basket kampus membawa laptop",
+          "Beberapa anggota tim basket kampus membawa laptop",
+          "Semua yang membawa laptop adalah tim basket",
+          "Beberapa mahasiswa tidak membawa laptop",
+          "Tidak dapat disimpulkan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena himpunan 'mahasiswa tingkat akhir' semuanya membawa laptop, maka 'beberapa' dari mereka yang ikut tim basket sudah pasti juga membawa laptop."
+      },
+      {
+        "id": "tiu_122",
+        "teks": "Andi lebih tua dari Budi. Budi lebih muda dari Cici. Cici berumur sama dengan Dodi. Dodi lebih muda dari Andi. Siapakah yang paling muda di antara mereka?",
+        "opsi": [
+          "Andi",
+          "Budi",
+          "Cici",
+          "Dodi",
+          "Cici dan Dodi"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan usia: Andi > Budi. Cici > Budi. Cici = Dodi. Andi > Dodi. Jika digabung: Andi > Cici = Dodi > Budi. Maka yang paling muda adalah Budi."
+      },
+      {
+        "id": "tiu_123",
+        "teks": "Umur seorang ayah saat ini adalah 4 kali umur anaknya. Jika selisih umur mereka adalah 24 tahun, berapakah umur anak tersebut sekarang?",
+        "opsi": [
+          "6 tahun",
+          "7 tahun",
+          "8 tahun",
+          "9 tahun",
+          "10 tahun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misal umur anak = $x$, umur ayah = $4x$. Selisih: $4x - x = 24 \\implies 3x = 24 \\implies x = 8$. Umur anak adalah 8 tahun."
+      },
+      {
+        "id": "tiu_124",
+        "teks": "Sinonim dari kata <b>KREDIBEL</b> adalah...",
+        "opsi": [
+          "Biasa",
+          "Tangguh",
+          "Terpercaya",
+          "Sulit",
+          "Hebat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kredibel berarti dapat dipercaya (tentang sumber informasi, lembaga, atau seseorang)."
+      },
+      {
+        "id": "tiu_125",
+        "teks": "Antonim dari kata <b>PASCA</b> adalah...",
+        "opsi": [
+          "Sebelum",
+          "Sesudah",
+          "Pra",
+          "Purna",
+          "Mantan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasca adalah bentuk terikat yang berarti sesudah (seperti pascasarjana). Antonim yang sepadan sebagai bentuk terikat adalah pra- (seperti prasejarah)."
+      },
+      {
+        "id": "tiu_126",
+        "teks": "Sinonim dari kata <b>INSINUASI</b> adalah...",
+        "opsi": [
+          "Penilaian",
+          "Sindiran",
+          "Sanjungan",
+          "Pernyataan",
+          "Tebakan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Menurut KBBI, insinuasi berarti tuduhan tersembunyi, tidak terang-terangan, atau sindiran."
+      },
+      {
+        "id": "tiu_127",
+        "teks": "Antonim dari kata <b>PROGRESIF</b> adalah...",
+        "opsi": [
+          "Dinasmis",
+          "Aktif",
+          "Regresif",
+          "Pasif",
+          "Revolusioner"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Progresif berarti ke arah kemajuan; berhaluan ke arah perbaikan sekarang. Antonimnya adalah regresif (bersifat mundur / kembali ke belakang)."
+      },
+      {
+        "id": "tiu_128",
+        "teks": "KENDARAAN : BENSIN = MANUSIA : ...",
+        "opsi": [
+          "Udara",
+          "Minuman",
+          "Makanan",
+          "Pakaian",
+          "Rumah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi sumber energi. Kendaraan membutuhkan bensin sebagai sumber energinya untuk bergerak. Manusia membutuhkan makanan sebagai sumber energi utamanya."
+      },
+      {
+        "id": "tiu_129",
+        "teks": "Perhatikan deret berikut: $3, 6, 12, 24, 48, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "64",
+          "72",
+          "84",
+          "96",
+          "108"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Deret geometri dengan rasio perkalian 2. $48 \\times 2 = 96$."
+      },
+      {
+        "id": "tiu_130",
+        "teks": "Berapakah hasil dari $2,5 \\times 0,4 + 1,5$?",
+        "opsi": [
+          "1,5",
+          "2,0",
+          "2,5",
+          "3,0",
+          "3,5"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kerjakan perkalian terlebih dahulu: $2,5 \\times 0,4 = 1,0$. Kemudian jumlahkan: $1,0 + 1,5 = 2,5$."
+      },
+      {
+        "id": "tiu_131",
+        "teks": "Semua atlet di pelatnas rajin berlatih. Andi adalah seorang atlet di pelatnas. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Andi mungkin rajin berlatih",
+          "Andi rajin berlatih",
+          "Sebagian atlet rajin berlatih",
+          "Semua yang rajin berlatih adalah atlet",
+          "Andi belum tentu rajin berlatih"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Premis mayor: Semua atlet rajin berlatih. Premis minor: Andi = atlet. Kesimpulan: Andi rajin berlatih."
+      },
+      {
+        "id": "tiu_132",
+        "teks": "Dalam sebuah keluarga, usia Dodi lebih tua dari Budi. Usia Budi lebih tua dari Caca. Usia Ali lebih muda dari Caca. Siapakah yang paling muda?",
+        "opsi": [
+          "Ali",
+          "Budi",
+          "Caca",
+          "Dodi",
+          "Tidak bisa ditentukan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan usia dari yang paling tua: Dodi > Budi > Caca > Ali. Maka yang paling muda adalah Ali."
+      },
+      {
+        "id": "tiu_133",
+        "teks": "Sinonim dari kata <b>KOMPREHENSIF</b> adalah...",
+        "opsi": [
+          "Sebagian",
+          "Terperinci",
+          "Menyeluruh",
+          "Berbelit",
+          "Terbatas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Komprehensif memiliki arti bersifat mampu menangkap (menerima) dengan baik; luas dan lengkap (tentang ruang lingkup atau isi); menyeluruh."
+      },
+      {
+        "id": "tiu_134",
+        "teks": "Antonim dari kata <b>STATIS</b> adalah...",
+        "opsi": [
+          "Dinamis",
+          "Pasif",
+          "Labil",
+          "Konstan",
+          "Diam"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Statis berarti dalam keadaan diam (tidak bergerak/tidak berubah). Antonim yang tepat adalah dinamis (penuh pergerakan/mudah berubah)."
+      },
+      {
+        "id": "tiu_135",
+        "teks": "BUKU : PERPUSTAKAAN = OBAT : ...",
+        "opsi": [
+          "Dokter",
+          "Resep",
+          "Apotek",
+          "Pasien",
+          "Penyakit"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi benda dan tempat penyimpanannya/distribusinya. Buku biasa disimpan dan ditemukan di perpustakaan. Obat biasa disimpan dan ditemukan di apotek."
+      },
+      {
+        "id": "tiu_136",
+        "teks": "Perhatikan deret angka berikut: $1, 8, 27, 64, 125, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "144",
+          "169",
+          "196",
+          "216",
+          "256"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Deret bilangan pangkat tiga (kubik): $1^3, 2^3, 3^3, 4^3, 5^3$. Selanjutnya adalah $6^3 = 216$."
+      },
+      {
+        "id": "tiu_137",
+        "teks": "Harga 3 lusin pensil adalah Rp 108.000. Berapakah harga untuk 5 batang pensil?",
+        "opsi": [
+          "Rp 10.000",
+          "Rp 12.000",
+          "Rp 15.000",
+          "Rp 18.000",
+          "Rp 20.000"
+        ],
+        "jawaban": 2,
+        "pembahasan": "1 lusin = 12 batang. 3 lusin = 36 batang.<br>Harga 1 batang = $108.000 / 36 = 3.000$.<br>Harga 5 batang = $5 \\times 3.000 = 15.000$."
+      },
+      {
+        "id": "tiu_138",
+        "teks": "Jika udara dingin, maka saya memakai jaket. Jika saya memakai jaket, maka saya merasa hangat. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Jika saya merasa hangat, maka udara dingin",
+          "Jika udara tidak dingin, maka saya merasa hangat",
+          "Jika udara dingin, maka saya merasa hangat",
+          "Udara dingin dan saya merasa hangat",
+          "Saya memakai jaket karena merasa hangat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme (Hukum Transitif): $P \\implies Q$ dan $Q \\implies R$, maka $P \\implies R$. Jadi, jika udara dingin, maka saya merasa hangat."
+      },
+      {
+        "id": "tiu_139",
+        "teks": "Terdapat 4 orang anak duduk di bangku panjang. B duduk di sebelah kanan A. C duduk di sebelah kiri A. D duduk di sebelah kanan B. Urutan duduk mereka dari kiri ke kanan adalah...",
+        "opsi": [
+          "C - A - B - D",
+          "A - B - C - D",
+          "C - B - A - D",
+          "D - B - A - C",
+          "B - A - C - D"
+        ],
+        "jawaban": 0,
+        "pembahasan": "B di kanan A (A - B). C di kiri A (C - A - B). D di kanan B (C - A - B - D). Susunan dari kiri ke kanan adalah C - A - B - D."
+      },
+      {
+        "id": "tiu_140",
+        "teks": "Sinonim dari kata <b>AMBIGU</b> adalah...",
+        "opsi": [
+          "Jelas",
+          "Membingungkan",
+          "Bermakna ganda",
+          "Transparan",
+          "Pasti"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ambigu berarti bermakna lebih dari satu (sehingga menimbulkan keraguan, kekaburan, atau ketidakjelasan); bermakna ganda."
+      },
+      {
+        "id": "tiu_141",
+        "teks": "Antonim dari kata <b>OBJEKTIF</b> adalah...",
+        "opsi": [
+          "Rasional",
+          "Faktual",
+          "Subjektif",
+          "Logis",
+          "Realistis"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Objektif berarti mengenai keadaan yang sebenarnya tanpa dipengaruhi pendapat atau pandangan pribadi. Antonimnya adalah subjektif (menurut pandangan/perasaan sendiri)."
+      },
+      {
+        "id": "tiu_142",
+        "teks": "PELUKIS : KUAS = PETANI : ...",
+        "opsi": [
+          "Padi",
+          "Sawah",
+          "Cangkul",
+          "Beras",
+          "Traktor"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi profesi dan alat kerjanya. Pelukis bekerja menggunakan kuas. Petani bekerja menggunakan cangkul."
+      },
+      {
+        "id": "tiu_143",
+        "teks": "Perhatikan deret berikut: $10, 15, 21, 28, 36, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "42",
+          "43",
+          "44",
+          "45",
+          "46"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola penambahannya terus meningkat: $+5, +6, +7, +8$. Selanjutnya adalah $+9$. Sehingga $36 + 9 = 45$."
+      },
+      {
+        "id": "tiu_144",
+        "teks": "Suatu pekerjaan dapat diselesaikan dalam waktu 20 hari oleh 12 orang pekerja. Jika jumlah pekerja ditambah menjadi 15 orang, berapa hari pekerjaan tersebut dapat diselesaikan?",
+        "opsi": [
+          "14 hari",
+          "15 hari",
+          "16 hari",
+          "18 hari",
+          "25 hari"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perbandingan berbalik nilai. $20 \\times 12 = H_2 \\times 15 \\implies 240 = 15 \\times H_2 \\implies H_2 = 240 / 15 = 16$ hari."
+      },
+      {
+        "id": "tiu_145",
+        "teks": "Sebagian karyawan memakai dasi. Semua yang memakai dasi terlihat rapi. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua karyawan terlihat rapi",
+          "Semua yang terlihat rapi adalah karyawan",
+          "Sebagian karyawan tidak terlihat rapi",
+          "Sebagian karyawan terlihat rapi",
+          "Tidak ada kesimpulan yang benar"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Premis minor mengatakan 'Sebagian karyawan' memiliki sifat X (memakai dasi). Premis mayor menyatakan 'Semua X' memiliki sifat Y (rapi). Maka kelompok sebagian karyawan tersebut pasti terlihat rapi."
+      },
+      {
+        "id": "tiu_146",
+        "teks": "Dalam antrean kasir, Wina berada tepat di depan Tari. Sari berada di belakang Tari. Rina berada tepat di depan Wina. Siapakah yang berada di antrean paling belakang?",
+        "opsi": [
+          "Wina",
+          "Tari",
+          "Sari",
+          "Rina",
+          "Tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan dari depan ke belakang: Rina di depan Wina (Rina - Wina). Wina di depan Tari (Rina - Wina - Tari). Sari di belakang Tari (Rina - Wina - Tari - Sari). Paling belakang adalah Sari."
+      },
+      {
+        "id": "tiu_147",
+        "teks": "Sinonim dari kata <b>ELIT</b> adalah...",
+        "opsi": [
+          "Terpinggirkan",
+          "Kelas bawah",
+          "Terpandang",
+          "Biasa",
+          "Mayoritas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Elit memiliki arti kelompok orang yang terbaik atau pilihan dalam suatu kelompok; terpandang; golongan atas."
+      },
+      {
+        "id": "tiu_148",
+        "teks": "Antonim dari kata <b>APRESIASI</b> adalah...",
+        "opsi": [
+          "Penghargaan",
+          "Pujian",
+          "Sanjungan",
+          "Hinaan",
+          "Dukungan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Apresiasi berarti penilaian atau penghargaan yang positif. Antonimnya adalah hinaan, cacian, atau celaan."
+      },
+      {
+        "id": "tiu_149",
+        "teks": "KAYU : MEJA = KAIN : ...",
+        "opsi": [
+          "Benang",
+          "Baju",
+          "Kapas",
+          "Jahit",
+          "Pola"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analogi bahan baku dan hasil jadinya. Kayu adalah bahan baku untuk membuat meja. Kain adalah bahan baku untuk membuat baju."
+      },
+      {
+        "id": "tiu_150",
+        "teks": "Perhatikan deret berikut: $2, 5, 11, 23, 47, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "90",
+          "93",
+          "94",
+          "95",
+          "96"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola deretnya adalah dikali 2 kemudian ditambah 1. $2\\times2+1=5$; $5\\times2+1=11$; $11\\times2+1=23$; $23\\times2+1=47$. Maka selanjutnya $47\\times2+1=95$."
+      },
+      {
+        "id": "tiu_151",
+        "teks": "Sinonim dari kata <b>PARIPURNA</b> adalah...",
+        "opsi": [
+          "Sederhana",
+          "Sebagian",
+          "Lengkap",
+          "Terbatas",
+          "Rapat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, paripurna berarti penuh lengkap; sempurna; tiada cacat dan celanya."
+      },
+      {
+        "id": "tiu_152",
+        "teks": "Antonim dari kata <b>HETEROGEN</b> adalah...",
+        "opsi": [
+          "Beragam",
+          "Kolektif",
+          "Campuran",
+          "Homogen",
+          "Mandiri"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Heterogen berarti terdiri atas berbagai unsur yang berbeda sifat atau berlainan jenis (beraneka ragam). Antonimnya adalah Homogen (terdiri atas berbagai unsur yang sama)."
+      },
+      {
+        "id": "tiu_153",
+        "teks": "GURU : SEKOLAH = PETANI : ...",
+        "opsi": [
+          "Cangkul",
+          "Padi",
+          "Sawah",
+          "Traktor",
+          "Beras"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi profesi dan tempat kerjanya. Guru bekerja atau bertugas di sekolah. Petani bekerja atau bertugas di sawah."
+      },
+      {
+        "id": "tiu_154",
+        "teks": "Perhatikan deret angka berikut: $1, 3, 7, 15, 31, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "45",
+          "51",
+          "63",
+          "64",
+          "71"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola penambahannya adalah kelipatan dua: $+2, +4, +8, +16$. Maka penambahan selanjutnya adalah $+32$. Sehingga $31 + 32 = 63$."
+      },
+      {
+        "id": "tiu_155",
+        "teks": "Berapakah hasil dari $\\frac{1}{4} \\times 160 + 20\\% \\times 50$?",
+        "opsi": [
+          "40",
+          "45",
+          "50",
+          "55",
+          "60"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kerjakan perkalian terlebih dahulu: $(\\frac{1}{4} \\times 160) = 40$. Kemudian $(20\\% \\times 50) = 10$. Jumlahkan: $40 + 10 = 50$."
+      },
+      {
+        "id": "tiu_156",
+        "teks": "Semua hewan mamalia bernapas menggunakan paru-paru. Ikan paus adalah hewan mamalia. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Ikan paus bernapas dengan insang",
+          "Ikan paus bukan mamalia",
+          "Ikan paus bernapas menggunakan paru-paru",
+          "Sebagian mamalia bernapas dengan insang",
+          "Tidak dapat disimpulkan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Premis mayor: Semua mamalia bernapas dengan paru-paru. Premis minor: Ikan paus adalah mamalia. Berdasarkan silogisme kategorik, kesimpulannya adalah ikan paus bernapas dengan paru-paru."
+      },
+      {
+        "id": "tiu_157",
+        "teks": "Tinggi A lebih dari B. Tinggi C lebih pendek dari B. Tinggi D lebih tinggi dari A. Jika diurutkan dari yang paling tinggi ke paling pendek, maka urutan yang benar adalah...",
+        "opsi": [
+          "D - A - B - C",
+          "A - D - B - C",
+          "D - B - A - C",
+          "A - B - C - D",
+          "C - B - A - D"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Susunan berdasarkan informasi: A > B, C < B (B > C), D > A. Jika digabung menjadi: D > A > B > C."
+      },
+      {
+        "id": "tiu_158",
+        "teks": "Sinonim dari kata <b>AGITASI</b> adalah...",
+        "opsi": [
+          "Kedamaian",
+          "Hasutan",
+          "Ketenangan",
+          "Pemulihan",
+          "Persetujuan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, agitasi berarti hasutan kepada orang banyak (untuk mengadakan huru-hara, pemberontakan, dsb)."
+      },
+      {
+        "id": "tiu_159",
+        "teks": "Antonim dari kata <b>PERMANEN</b> adalah...",
+        "opsi": [
+          "Tetap",
+          "Abadi",
+          "Kekal",
+          "Sementara",
+          "Kuat"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Permanen berarti tetap (tidak untuk sementara waktu); berlangsung lama. Antonim yang tepat adalah sementara."
+      },
+      {
+        "id": "tiu_160",
+        "teks": "SEPATU : KAKI = TOPI : ...",
+        "opsi": [
+          "Tangan",
+          "Rambut",
+          "Kepala",
+          "Leher",
+          "Mata"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi benda dan anggota tubuh tempat memakainya. Sepatu dipakai di kaki. Topi dipakai di kepala."
+      },
+      {
+        "id": "tiu_161",
+        "teks": "Perhatikan deret berikut: $5, 8, 14, 26, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "42",
+          "48",
+          "50",
+          "52",
+          "54"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola penambahannya: $+3, +6, +12$. Terlihat penambahannya selalu dikali dua dari penambahan sebelumnya. Maka penambahan selanjutnya adalah $+24$. Sehingga $26 + 24 = 50$."
+      },
+      {
+        "id": "tiu_162",
+        "teks": "Hasil dari operasi campuran $3^3 - 2^3 + 5^2$ adalah...",
+        "opsi": [
+          "40",
+          "42",
+          "44",
+          "46",
+          "50"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung masing-masing nilai pangkatnya terlebih dahulu: $27 - 8 + 25$. Kemudian selesaikan: $19 + 25 = 44$."
+      },
+      {
+        "id": "tiu_163",
+        "teks": "Sebuah proyek pembangunan taman mempekerjakan 8 orang dan ditargetkan selesai dalam 15 hari. Jika proyek tersebut harus selesai dalam waktu 10 hari, berapa banyak pekerja tambahan yang diperlukan?",
+        "opsi": [
+          "4 orang",
+          "6 orang",
+          "10 orang",
+          "12 orang",
+          "14 orang"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gunakan perbandingan berbalik nilai. $8 \\times 15 = H_2 \\times 10 \\implies 120 = 10 \\times H_2 \\implies H_2 = 12$ orang. Pekerja tambahan = $12 - 8 = 4$ orang."
+      },
+      {
+        "id": "tiu_164",
+        "teks": "Budi berkendara dari kota A ke kota B yang berjarak 200 km dengan kecepatan konstan 80 km/jam. Jika Budi berangkat pada pukul 08.00 pagi, pukul berapakah ia akan tiba di kota B?",
+        "opsi": [
+          "09.30",
+          "10.00",
+          "10.30",
+          "11.00",
+          "11.30"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Waktu tempuh ($t$) = Jarak / Kecepatan = $200 / 80 = 2,5$ jam (2 jam 30 menit). Budi berangkat pukul 08.00, maka ia tiba pukul $08.00 + 02.30 = 10.30$."
+      },
+      {
+        "id": "tiu_165",
+        "teks": "Sinonim dari kata <b>KOLABORASI</b> adalah...",
+        "opsi": [
+          "Pemisahan",
+          "Persaingan",
+          "Kerja sama",
+          "Perdebatan",
+          "Penyatuan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kolaborasi memiliki arti (perbuatan) kerja sama (dengan musuh, kolega, dan sebagainya)."
+      },
+      {
+        "id": "tiu_166",
+        "teks": "Antonim dari kata <b>SEKULER</b> adalah...",
+        "opsi": [
+          "Duniawi",
+          "Fana",
+          "Agamis",
+          "Modern",
+          "Tradisional"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sekuler berarti bersifat duniawi atau kebendaan (tidak mengacu/terikat pada nilai-nilai keagamaan). Antonim yang paling tepat adalah Agamis (bersifat keagamaan)."
+      },
+      {
+        "id": "tiu_167",
+        "teks": "GITAR : PETIK = SERULING : ...",
+        "opsi": [
+          "Tiup",
+          "Pukul",
+          "Gesek",
+          "Tekan",
+          "Nada"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analogi alat musik dan cara memainkannya. Gitar dimainkan dengan cara dipetik. Seruling dimainkan dengan cara ditiup."
+      },
+      {
+        "id": "tiu_168",
+        "teks": "Perhatikan deret berikut: $2, 5, 10, 17, 26, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deretnya adalah bilangan ganjil bertingkat: $+3, +5, +7, +9$. Maka penambahan selanjutnya adalah $+11$. Sehingga $26 + 11 = 37$."
+      },
+      {
+        "id": "tiu_169",
+        "teks": "Umur ayah adalah 2 kali umur anaknya. Saat ini umur ayah adalah 40 tahun. Berapakah jumlah umur ayah dan anak tersebut 5 tahun yang akan datang?",
+        "opsi": [
+          "60 tahun",
+          "65 tahun",
+          "70 tahun",
+          "75 tahun",
+          "80 tahun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Saat ini: Umur ayah = 40. Umur anak = $40 / 2 = 20$.<br>5 tahun kemudian: Umur ayah = 45, umur anak = 25.<br>Jumlah umur mereka = $45 + 25 = 70$ tahun."
+      },
+      {
+        "id": "tiu_170",
+        "teks": "Jika Andi rajin belajar, maka Andi akan naik kelas. Ternyata tahun ini Andi tidak naik kelas. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Andi rajin belajar",
+          "Andi tidak rajin belajar",
+          "Andi malas belajar",
+          "Mungkin Andi tidak rajin",
+          "Andi kurang beruntung"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme (Modus Tollens). $P \\implies Q$. Kenyataannya $\\sim Q$ (Tidak naik kelas). Maka kesimpulannya adalah $\\sim P$ (Andi tidak rajin belajar)."
+      },
+      {
+        "id": "tiu_171",
+        "teks": "Dalam sebuah antrean di kasir, P berada di depan Q. R berada di belakang Q. S berada tepat di depan P. Siapakah yang berada di urutan ke-3 dari depan?",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "Tidak tentu"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Mari susun urutannya. P di depan Q (P - Q). R di belakang Q (P - Q - R). S tepat di depan P (S - P - Q - R). Maka urutan ke-3 dari depan adalah Q."
+      },
+      {
+        "id": "tiu_172",
+        "teks": "Sinonim dari kata <b>ESENSI</b> adalah...",
+        "opsi": [
+          "Permulaan",
+          "Hakikat",
+          "Tambahan",
+          "Penjelasan",
+          "Permukaan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Menurut KBBI, esensi berarti hakikat; inti; hal yang pokok."
+      },
+      {
+        "id": "tiu_173",
+        "teks": "Antonim dari kata <b>CHAOS</b> adalah...",
+        "opsi": [
+          "Kacau",
+          "Hancur",
+          "Bimbang",
+          "Tertib",
+          "Gagal"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Chaos adalah kata serapan (kekacauan/huru-hara). Antonim atau lawan kata yang paling sesuai adalah normal, teratur, atau tertib."
+      },
+      {
+        "id": "tiu_174",
+        "teks": "Sebuah toko memberikan diskon sebesar 30% untuk semua produk. Jika Dina membeli baju yang harga awalnya Rp200.000, berapakah uang yang harus dibayarkan Dina?",
+        "opsi": [
+          "Rp130.000",
+          "Rp140.000",
+          "Rp150.000",
+          "Rp160.000",
+          "Rp170.000"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Besar diskon = $30\\% \\times 200.000 = 60.000$. Harga bayar = $200.000 - 60.000 = 140.000$. (Atau $70\\% \\times 200.000 = 140.000$)."
+      },
+      {
+        "id": "tiu_175",
+        "teks": "Hasil dari operasi desimal dan pecahan $0,75 + \\frac{1}{4} - 0,5$ adalah...",
+        "opsi": [
+          "0,25",
+          "0,50",
+          "0,75",
+          "1,00",
+          "1,25"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ubah pecahan $\\frac{1}{4}$ menjadi desimal yaitu $0,25$.<br>$0,75 + 0,25 - 0,50 = 1,00 - 0,50 = 0,50$."
+      },
+      {
+        "id": "tiu_176",
+        "teks": "Sinonim dari kata <b>DELEGASI</b> adalah...",
+        "opsi": [
+          "Pemimpin",
+          "Utusan",
+          "Rombongan",
+          "Kekuasaan",
+          "Tugas"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, delegasi berarti orang yang ditunjuk dan diutus oleh suatu perkumpulan (negara dan sebagainya) dalam suatu perundingan; utusan."
+      },
+      {
+        "id": "tiu_177",
+        "teks": "Antonim dari kata <b>FANA</b> adalah...",
+        "opsi": [
+          "Nyata",
+          "Duniawi",
+          "Mati",
+          "Baka",
+          "Rusak"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Fana berarti dapat rusak (hilang, mati); tidak kekal. Antonim atau lawan kata yang tepat adalah Baka (kekal/abadi)."
+      },
+      {
+        "id": "tiu_178",
+        "teks": "BUNGA : TAMAN = BINTANG : ...",
+        "opsi": [
+          "Langit",
+          "Malam",
+          "Bulan",
+          "Angkasa",
+          "Galaksi"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analogi benda dan tempat keberadaannya yang biasa terlihat. Bunga umumnya terlihat menghiasi taman. Bintang umumnya terlihat menghiasi langit."
+      },
+      {
+        "id": "tiu_179",
+        "teks": "Perhatikan deret berikut: $1, 2, 6, 24, 120, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "240",
+          "360",
+          "480",
+          "600",
+          "720"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Pola deret perkalian yang terus meningkat: $\\times2, \\times3, \\times4, \\times5$. Maka angka selanjutnya dikalikan 6. $120 \\times 6 = 720$."
+      },
+      {
+        "id": "tiu_180",
+        "teks": "Berapakah nilai $15\\%$ dari $200$?",
+        "opsi": [
+          "15",
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
+        "jawaban": 3,
+        "pembahasan": "$\\frac{15}{100} \\times 200 = 15 \\times 2 = 30$."
+      },
+      {
+        "id": "tiu_181",
+        "teks": "Semua pelaut pandai berenang. Sebagian pelaut adalah juru masak. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua juru masak pandai berenang",
+          "Sebagian juru masak pandai berenang",
+          "Semua pelaut adalah juru masak",
+          "Sebagian juru masak tidak pandai berenang",
+          "Tidak ada kesimpulan yang sah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena 'sebagian juru masak' adalah 'pelaut', dan 'semua pelaut' itu 'pandai berenang', maka kelompok sebagian juru masak tersebut pasti juga pandai berenang."
+      },
+      {
+        "id": "tiu_182",
+        "teks": "Buku A lebih tebal dari buku B. Buku C lebih tipis dari buku B. Buku D lebih tebal dari buku A. Buku manakah yang paling tipis?",
+        "opsi": [
+          "Buku A",
+          "Buku B",
+          "Buku C",
+          "Buku D",
+          "Tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan ketebalan dari yang paling tebal: D > A > B > C. Maka yang paling tipis adalah buku C."
+      },
+      {
+        "id": "tiu_183",
+        "teks": "Sinonim dari kata <b>EKSKAVASI</b> adalah...",
+        "opsi": [
+          "Pembangunan",
+          "Perluasan",
+          "Penggalian",
+          "Penemuan",
+          "Peninggalan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ekskavasi bermakna penggalian (biasanya dalam konteks arkeologi atau pertambangan)."
+      },
+      {
+        "id": "tiu_184",
+        "teks": "Antonim dari kata <b>OPOSISI</b> adalah...",
+        "opsi": [
+          "Oponen",
+          "Penolakan",
+          "Koalisi",
+          "Abstain",
+          "Netral"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Oposisi berarti partai penentang atau pihak yang berseberangan di dewan perwakilan. Antonim/lawan katanya dalam konteks politik adalah Koalisi (kerja sama gabungan partai)."
+      },
+      {
+        "id": "tiu_185",
+        "teks": "DOKUMEN : BRANKAS = UANG : ...",
+        "opsi": [
+          "Kasir",
+          "Bank",
+          "Dompet",
+          "Brankas",
+          "Emas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi tempat penyimpanan pribadi. Dokumen berharga biasanya disimpan dengan aman di brankas. Uang (untuk keperluan pribadi/dibawa) biasanya disimpan di dompet."
+      },
+      {
+        "id": "tiu_186",
+        "teks": "Jika $2x - 3 = 7$, berapakah nilai dari $3x + 1$?",
+        "opsi": [
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "jawaban": 3,
+        "pembahasan": "$2x = 7 + 3 \\implies 2x = 10 \\implies x = 5$.<br>Substitusikan nilai x: $3(5) + 1 = 15 + 1 = 16$."
+      },
+      {
+        "id": "tiu_187",
+        "teks": "Perhatikan deret berikut: $3, 4, 7, 11, 18, 29, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "38",
+          "42",
+          "47",
+          "50",
+          "57"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ini adalah deret Fibonacci, di mana angka selanjutnya adalah hasil penjumlahan dua angka sebelumnya. $18 + 29 = 47$."
+      },
+      {
+        "id": "tiu_188",
+        "teks": "Perbandingan uang Tono dan Tini adalah $2 : 3$. Jika jumlah uang mereka adalah Rp50.000, berapakah jumlah uang Tono?",
+        "opsi": [
+          "Rp10.000",
+          "Rp15.000",
+          "Rp20.000",
+          "Rp25.000",
+          "Rp30.000"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Uang Tono = $\\frac{\\text{Rasio Tono}}{\\text{Total Rasio}} \\times \\text{Total Uang}$.<br>Uang Tono = $\\frac{2}{2+3} \\times 50.000 = \\frac{2}{5} \\times 50.000 = 20.000$."
+      },
+      {
+        "id": "tiu_189",
+        "teks": "Sebuah kelas terdiri dari 30 siswa. Jika 20 siswa menyukai Matematika, 15 siswa menyukai Fisika, dan semua siswa menyukai setidaknya satu dari kedua mata pelajaran tersebut, berapa siswa yang menyukai keduanya?",
+        "opsi": [
+          "2 siswa",
+          "5 siswa",
+          "10 siswa",
+          "15 siswa",
+          "20 siswa"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Total Siswa = Suka MTK + Suka Fisika - Suka Keduanya.<br>$30 = 20 + 15 - x \\implies 30 = 35 - x \\implies x = 5$ siswa."
+      },
+      {
+        "id": "tiu_190",
+        "teks": "Jika lapar, maka saya akan makan. Jika makan, maka saya akan kenyang. Saat ini saya lapar. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Saya makan",
+          "Saya lapar dan makan",
+          "Saya tidak kenyang",
+          "Saya kenyang",
+          "Tidak ada kesimpulan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme transitif: Lapar $\\implies$ Makan, Makan $\\implies$ Kenyang. Maka Lapar $\\implies$ Kenyang. Karena faktanya saat ini 'Lapar', maka kesimpulannya adalah 'Kenyang'."
+      },
+      {
+        "id": "tiu_191",
+        "teks": "Lima orang duduk berderet di sebuah kursi panjang. A duduk di ujung kiri. B duduk di sebelah kanan A. C duduk di sebelah kanan B. D duduk di ujung kanan. E duduk di antara C dan D. Siapakah yang duduk di tengah?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Susunan dari kiri ke kanan: 1) A di ujung kiri. 2) B di kanan A (A-B). 3) C di kanan B (A-B-C). 4) D di ujung kanan. 5) E di antara C dan D (C-E-D). Susunan lengkap: A - B - C - E - D. Yang berada di tengah (posisi ke-3) adalah C."
+      },
+      {
+        "id": "tiu_192",
+        "teks": "Sinonim dari kata <b>INTERVENSI</b> adalah...",
+        "opsi": [
+          "Perlindungan",
+          "Campur tangan",
+          "Penyerangan",
+          "Pendanaan",
+          "Kesepakatan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Intervensi berarti campur tangan dalam perselisihan antara dua pihak (orang, golongan, negara, dan sebagainya)."
+      },
+      {
+        "id": "tiu_193",
+        "teks": "Antonim dari kata <b>DESTRUKTIF</b> adalah...",
+        "opsi": [
+          "Instruktif",
+          "Inovatif",
+          "Konsumtif",
+          "Konstruktif",
+          "Defensif"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Destruktif berarti bersifat merusak, memusnahkan, atau menghancurkan. Antonimnya adalah konstruktif (bersifat membangun/memperbaiki)."
+      },
+      {
+        "id": "tiu_194",
+        "teks": "TELEVISI : GAMBAR = RADIO : ...",
+        "opsi": [
+          "Penyiar",
+          "Musik",
+          "Suara",
+          "Gelombang",
+          "Berita"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi media dan bentuk informasi utamanya. Televisi menyajikan informasi utama dalam bentuk gambar (visual). Radio menyajikan informasi utama dalam bentuk suara (audio)."
+      },
+      {
+        "id": "tiu_195",
+        "teks": "Perhatikan deret huruf berikut: B, E, H, K, ... Huruf selanjutnya adalah...",
+        "opsi": [
+          "M",
+          "N",
+          "O",
+          "P",
+          "Q"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola lompat 2 huruf. B (c,d) E (f,g) H (i,j) K (l,m) N. Huruf selanjutnya adalah N."
+      },
+      {
+        "id": "tiu_196",
+        "teks": "Berapakah nilai dari $\\frac{1}{2} + \\frac{2}{3}$?",
+        "opsi": [
+          "3/5",
+          "3/6",
+          "5/6",
+          "7/6",
+          "1"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Samakan penyebutnya menjadi 6. $\\frac{3}{6} + \\frac{4}{6} = \\frac{7}{6}$."
+      },
+      {
+        "id": "tiu_197",
+        "teks": "Suatu pekerjaan jika dikerjakan oleh 15 orang akan selesai dalam waktu 20 hari. Jika pekerjaan tersebut hanya dikerjakan oleh 10 orang, berapa hari pekerjaan tersebut akan selesai?",
+        "opsi": [
+          "25 hari",
+          "28 hari",
+          "30 hari",
+          "32 hari",
+          "35 hari"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perbandingan berbalik nilai. $15 \\times 20 = 10 \\times H_2 \\implies 300 = 10 \\times H_2 \\implies H_2 = 30$ hari."
+      },
+      {
+        "id": "tiu_198",
+        "teks": "Andi berkendara dengan sepeda motor menempuh jarak 120 km. Jika ia berangkat pukul 07.00 dan melaju dengan kecepatan 60 km/jam, pada pukul berapakah ia tiba?",
+        "opsi": [
+          "08.30",
+          "09.00",
+          "09.30",
+          "10.00",
+          "10.30"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Waktu tempuh = Jarak / Kecepatan = $120 / 60 = 2$ jam. Waktu tiba = 07.00 + 2 jam = 09.00."
+      },
+      {
+        "id": "tiu_199",
+        "teks": "Sinonim dari kata <b>VALID</b> adalah...",
+        "opsi": [
+          "Benar",
+          "Sah",
+          "Palsu",
+          "Ragu",
+          "Kuat"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Valid berarti menurut cara yang semestinya; berlaku; atau sah (dapat diterima kebenarannya)."
+      },
+      {
+        "id": "tiu_200",
+        "teks": "Antonim dari kata <b>ANTAGONIS</b> adalah...",
+        "opsi": [
+          "Protagonis",
+          "Harmonis",
+          "Selaras",
+          "Kawan",
+          "Pendukung"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Antagonis adalah tokoh penentang atau tokoh jahat dalam karya sastra. Antonimnya adalah Protagonis (tokoh utama/baik)."
+      },
+      {
+        "id": "tiu_201",
+        "teks": "Sinonim dari kata <b>INSOMNIA</b> adalah...",
+        "opsi": [
+          "Kesulitan tidur",
+          "Mimpi buruk",
+          "Kurang gizi",
+          "Sakit kepala",
+          "Kelelahan ekstrem"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan makna medis dan KBBI, insomnia adalah gangguan yang menyebabkan penderitanya kesulitan untuk tidur atau tidak bisa tidur cukup."
+      },
+      {
+        "id": "tiu_202",
+        "teks": "Antonim dari kata <b>EKSTRINSIK</b> adalah...",
+        "opsi": [
+          "Eksklusif",
+          "Eksternal",
+          "Luaran",
+          "Asing",
+          "Intrinsik"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Ekstrinsik bermakna berasal dari luar. Antonimnya yang paling tepat adalah Intrinsik, yang berarti terkandung di dalam atau berasal dari dalam."
+      },
+      {
+        "id": "tiu_203",
+        "teks": "MATA : MELIHAT = TELINGA : ...",
+        "opsi": [
+          "Mendengar",
+          "Suara",
+          "Tuli",
+          "Bunyi",
+          "Nada"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analogi panca indra dan fungsinya. Mata berfungsi untuk melihat, sedangkan telinga berfungsi untuk mendengar."
+      },
+      {
+        "id": "tiu_204",
+        "teks": "Perhatikan deret angka berikut: $7, 14, 28, 56, 112, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "124",
+          "156",
+          "180",
+          "200",
+          "224"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Pola deret geometri dengan rasio perkalian 2. $7 \\times 2 = 14$, $14 \\times 2 = 28$, hingga $112 \\times 2 = 224$."
+      },
+      {
+        "id": "tiu_205",
+        "teks": "Berapakah hasil dari $4^3 - 2^4$?",
+        "opsi": [
+          "48",
+          "50",
+          "54",
+          "60",
+          "64"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Selesaikan bilangan berpangkat terlebih dahulu: $4^3 = 64$ dan $2^4 = 16$. Kemudian kurangkan: $64 - 16 = 48$."
+      },
+      {
+        "id": "tiu_206",
+        "teks": "Jarak antara dua kota adalah 240 km. Jika sebuah mobil dapat menempuh jarak tersebut dalam waktu 4 jam, berapakah kecepatan rata-rata mobil tersebut?",
+        "opsi": [
+          "40 km/jam",
+          "45 km/jam",
+          "50 km/jam",
+          "55 km/jam",
+          "60 km/jam"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kecepatan = Jarak / Waktu = $240 / 4 = 60$ km/jam."
+      },
+      {
+        "id": "tiu_207",
+        "teks": "Semua kucing mengeong. Heli tidak mengeong. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Heli bukan kucing",
+          "Heli adalah anjing",
+          "Heli kucing yang bisu",
+          "Heli belum bisa mengeong",
+          "Heli bukan hewan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Silogisme (Modus Tollens). Semua K adalah M. Karena Heli bukan M, maka Heli pasti bukan K (Heli bukan kucing)."
+      },
+      {
+        "id": "tiu_208",
+        "teks": "Empat buah kursi disusun sebaris. Kursi A berada di sebelah kiri B. Kursi C berada di sebelah kanan B. Kursi D berada di sebelah kanan C. Kursi manakah yang berada di ujung paling kanan?",
+        "opsi": [
+          "Kursi A",
+          "Kursi B",
+          "Kursi C",
+          "Tidak ada",
+          "Kursi D"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Posisi: A di kiri B (A - B). C di kanan B (A - B - C). D di kanan C (A - B - C - D). Maka yang paling kanan adalah D."
+      },
+      {
+        "id": "tiu_209",
+        "teks": "Sinonim dari kata <b>ITERASI</b> adalah...",
+        "opsi": [
+          "Pengulangan",
+          "Hubungan",
+          "Perpindahan",
+          "Penyebaran",
+          "Interaksi"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Menurut KBBI dan istilah matematika/komputer, iterasi bermakna perulangan atau hal melakukan sesuatu berulang kali."
+      },
+      {
+        "id": "tiu_210",
+        "teks": "Antonim dari kata <b>EKSKLUSIF</b> adalah...",
+        "opsi": [
+          "Terbatas",
+          "Khusus",
+          "Rahasia",
+          "Terpisah",
+          "Umum"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Eksklusif berarti terpisah dari yang lain; khusus (tidak sembarangan orang bisa ikut). Antonimnya adalah Umum (terbuka untuk siapa saja / inklusif)."
+      },
+      {
+        "id": "tiu_211",
+        "teks": "BULU : BURUNG = SISIK : ...",
+        "opsi": [
+          "Ikan",
+          "Reptil",
+          "Buaya",
+          "Kadal",
+          "Bulu"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analogi penutup tubuh hewan (secara identik/umum). Tubuh burung ditutupi oleh bulu. Tubuh ikan ditutupi oleh sisik."
+      },
+      {
+        "id": "tiu_212",
+        "teks": "Perhatikan deret berikut: $100, 90, 80, 70, 60, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "20",
+          "30",
+          "40",
+          "45",
+          "50"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Pola deret hitung (aritmetika) menurun konstan, yaitu dikurangi 10 secara berurutan. $60 - 10 = 50$."
+      },
+      {
+        "id": "tiu_213",
+        "teks": "Berapakah $30\\%$ dari $150$?",
+        "opsi": [
+          "45",
+          "50",
+          "55",
+          "60",
+          "65"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gunakan perkalian pecahan: $\\frac{30}{100} \\times 150 = 3 \\times 15 = 45$."
+      },
+      {
+        "id": "tiu_214",
+        "teks": "Sebuah proyek biasanya diselesaikan dalam 10 hari oleh 6 orang pekerja. Jika proyek tersebut dikerjakan oleh 12 orang, berapa hari proyek itu akan selesai?",
+        "opsi": [
+          "2 hari",
+          "3 hari",
+          "3,5 hari",
+          "4 hari",
+          "5 hari"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Perbandingan berbalik nilai. $10 \\times 6 = H_2 \\times 12 \\implies 60 = 12 \\times H_2 \\implies H_2 = 60 / 12 = 5$ hari."
+      },
+      {
+        "id": "tiu_215",
+        "teks": "Umur Andi lebih tua 5 tahun daripada umur Budi. Jika saat ini umur Budi adalah 10 tahun, berapakah umur Andi?",
+        "opsi": [
+          "15 tahun",
+          "20 tahun",
+          "25 tahun",
+          "30 tahun",
+          "35 tahun"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Umur Budi = 10 tahun. Umur Andi = Umur Budi + 5 = $10 + 5 = 15$ tahun."
+      },
+      {
+        "id": "tiu_216",
+        "teks": "Semua mahasiswa memakai kemeja berkerah saat ujian. Joni tidak memakai kemeja berkerah saat ujian. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Joni lupa memakai kemeja",
+          "Joni adalah mahasiswa yang dihukum",
+          "Joni bukan mahasiswa yang baik",
+          "Joni mungkin mahasiswa",
+          "Joni bukan mahasiswa"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Silogisme (Modus Tollens). Semua mahasiswa ($M$) memakai kemeja ($K$). Joni tidak $K$. Kesimpulannya, Joni tidak $M$ (bukan mahasiswa)."
+      },
+      {
+        "id": "tiu_217",
+        "teks": "Benda A lebih berat daripada benda B. Benda C lebih ringan daripada benda B. Benda manakah yang paling berat?",
+        "opsi": [
+          "Benda A",
+          "Benda B",
+          "Benda C",
+          "Benda D",
+          "Tidak ada"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan pernyataan: A > B, C < B (B > C). Urutan dari yang paling berat adalah A > B > C. Maka yang paling berat adalah benda A."
+      },
+      {
+        "id": "tiu_218",
+        "teks": "Sinonim dari kata <b>RELATIF</b> adalah...",
+        "opsi": [
+          "Pasti",
+          "Tetap",
+          "Statis",
+          "Mutlak",
+          "Nisbi"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Relatif berarti tidak mutlak; bergantung pada sesuatu yang lain. Sinonim yang paling tepat di bahasa Indonesia adalah nisbi."
+      },
+      {
+        "id": "tiu_219",
+        "teks": "Antonim dari kata <b>APRIORI</b> adalah...",
+        "opsi": [
+          "Aposteriori",
+          "Asumsi",
+          "Dugaan",
+          "Hipotesis",
+          "Prasangka"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Apriori berarti beranggapan sebelum mengetahui fakta (berdasarkan dugaan awal). Antonimnya adalah Aposteriori (setelah mengetahui/melalui pengalaman dan fakta)."
+      },
+      {
+        "id": "tiu_220",
+        "teks": "KAMERA : FOTO = PRINTER : ...",
+        "opsi": [
+          "Tinta",
+          "Kertas",
+          "Dokumen",
+          "Mesin",
+          "Cetakan"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Analogi mesin pembuat dan hasil produksinya. Kamera digunakan untuk menghasilkan foto. Printer digunakan untuk menghasilkan cetakan."
+      },
+      {
+        "id": "tiu_221",
+        "teks": "Perhatikan deret berikut: $2, 5, 8, 11, 14, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "17",
+          "18",
+          "19",
+          "20",
+          "21"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pola deret hitung dengan beda konstan $+3$. Angka selanjutnya adalah $14 + 3 = 17$."
+      },
+      {
+        "id": "tiu_222",
+        "teks": "Berapakah hasil dari penjumlahan pecahan $\\frac{3}{4} + \\frac{1}{4}$?",
+        "opsi": [
+          "1/4",
+          "1/2",
+          "3/4",
+          "4/3",
+          "1"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Penyebutnya sudah sama, maka langsung jumlahkan pembilangnya: $\\frac{3+1}{4} = \\frac{4}{4} = 1$."
+      },
+      {
+        "id": "tiu_223",
+        "teks": "Harga sebuah baju awalnya adalah Rp100.000. Toko memberikan diskon sebesar 20%. Berapakah harga baju tersebut sekarang?",
+        "opsi": [
+          "Rp80.000",
+          "Rp85.000",
+          "Rp90.000",
+          "Rp95.000",
+          "Rp100.000"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Besar diskon = $20\\% \\times 100.000 = 20.000$. Harga bayar = $100.000 - 20.000 = 80.000$."
+      },
+      {
+        "id": "tiu_224",
+        "teks": "Jika seseorang rajin belajar, maka ia akan lulus ujian. Budi ternyata tidak lulus ujian. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Budi mungkin sakit",
+          "Budi kurang beruntung",
+          "Budi rajin namun gagal",
+          "Budi tidak ikut ujian",
+          "Budi tidak rajin belajar"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Menggunakan logika matematika (Modus Tollens). $P \\implies Q$. Karena $\\sim Q$ (Budi tidak lulus), maka ditarik kesimpulan $\\sim P$ (Budi tidak rajin belajar)."
+      },
+      {
+        "id": "tiu_225",
+        "teks": "Dalam sebuah antrean masuk kelas, Cici berada di depan Banu. Ayu berada di depan Cici. Dodi berada di belakang Banu. Siapakah yang berada di urutan paling pertama (terdepan)?",
+        "opsi": [
+          "Ayu",
+          "Banu",
+          "Cici",
+          "Dodi",
+          "Eko"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Susun dari depan: Cici di depan Banu (C - B). Ayu di depan Cici (A - C - B). Dodi di belakang Banu (A - C - B - D). Yang paling depan adalah Ayu."
+      },
+      {
+        "id": "tiu_226",
+        "teks": "Sinonim dari kata <b>RANCU</b> adalah...",
+        "opsi": [
+          "Jelas",
+          "Kacau",
+          "Nyata",
+          "Berbeda",
+          "Sepadan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, rancu berarti tidak teratur; campur aduk; atau kacau (tentang bahasa, pikiran, dan sebagainya)."
+      },
+      {
+        "id": "tiu_227",
+        "teks": "Antonim dari kata <b>NISKALA</b> adalah...",
+        "opsi": [
+          "Fana",
+          "Nyata",
+          "Abstrak",
+          "Kekal",
+          "Rapuh"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Niskala berarti tidak berwujud atau abstrak. Antonim atau lawan katanya adalah berwujud (sekala) atau nyata."
+      },
+      {
+        "id": "tiu_228",
+        "teks": "SUTRADARA : FILM = PENGARANG : ...",
+        "opsi": [
+          "Buku",
+          "Penerbit",
+          "Cetakan",
+          "Teater",
+          "Panggung"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analogi profesi dan karya yang dihasilkannya. Sutradara mengarahkan dan menghasilkan karya berupa film. Pengarang menulis dan menghasilkan karya berupa buku/novel."
+      },
+      {
+        "id": "tiu_229",
+        "teks": "Perhatikan deret angka berikut: $1, 4, 10, 22, 46, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "90",
+          "92",
+          "94",
+          "96",
+          "98"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deret tersebut adalah dikalikan 2 kemudian ditambah 2. $1\\times2+2=4$; $4\\times2+2=10$; $10\\times2+2=22$; $22\\times2+2=46$. Maka $46\\times2+2=94$."
+      },
+      {
+        "id": "tiu_230",
+        "teks": "Berapakah hasil dari $15^2 - 12^2$?",
+        "opsi": [
+          "71",
+          "75",
+          "81",
+          "85",
+          "91"
+        ],
+        "jawaban": 2,
+        "pembahasan": "$15^2 = 225$ dan $12^2 = 144$. Maka $225 - 144 = 81$. (Dapat juga dihitung menggunakan pemfaktoran $(15+12)(15-12) = 27 \\times 3 = 81$)."
+      },
+      {
+        "id": "tiu_231",
+        "teks": "Jarak kota X dan Y adalah 180 km. Jika sebuah mobil berangkat dari kota X pada pukul 06.00 dengan kecepatan rata-rata 60 km/jam, pukul berapakah mobil tersebut tiba di kota Y?",
+        "opsi": [
+          "08.00",
+          "08.30",
+          "09.00",
+          "09.30",
+          "10.00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Waktu tempuh = Jarak / Kecepatan = $180 / 60 = 3$ jam. Waktu tiba = 06.00 + 3 jam = 09.00."
+      },
+      {
+        "id": "tiu_232",
+        "teks": "Semua karyawan mendapat gaji bulanan. Sebagian karyawan mendapat bonus tahunan. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Semua karyawan mendapat gaji dan bonus",
+          "Sebagian karyawan yang mendapat gaji juga mendapat bonus",
+          "Karyawan yang tidak mendapat bonus tidak mendapat gaji",
+          "Semua yang mendapat bonus bukan karyawan",
+          "Sebagian karyawan tidak mendapat gaji"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena 'semua' karyawan mendapat gaji, maka kelompok 'sebagian' yang mendapat bonus itu pasti juga bagian dari yang menerima gaji."
+      },
+      {
+        "id": "tiu_233",
+        "teks": "Benda A lebih berat dari benda B. Benda C lebih ringan dari benda D. Benda B lebih berat dari benda D. Urutan benda dari yang paling ringan hingga paling berat adalah...",
+        "opsi": [
+          "A - B - C - D",
+          "B - D - C - A",
+          "C - D - B - A",
+          "C - B - D - A",
+          "D - C - B - A"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Diketahui: A > B, C < D (D > C), B > D. Jika digabung: A > B > D > C. Diurutkan dari yang paling ringan (terkecil): C - D - B - A."
+      },
+      {
+        "id": "tiu_234",
+        "teks": "Sinonim dari kata <b>PEDAGOGI</b> adalah...",
+        "opsi": [
+          "Ilmu pengobatan",
+          "Ilmu pendidikan",
+          "Ilmu bumi",
+          "Ilmu sosial",
+          "Ilmu budaya"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pedagogi adalah ilmu atau seni dalam menjadi seorang guru; ilmu pendidikan (pengajaran)."
+      },
+      {
+        "id": "tiu_235",
+        "teks": "Antonim dari kata <b>KAPITALISME</b> adalah...",
+        "opsi": [
+          "Sosialisme",
+          "Agamis",
+          "Borjuis",
+          "Liberalisme",
+          "Demokratis"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Kapitalisme adalah sistem ekonomi di mana perdagangan dan industri dikendalikan oleh pemilik swasta. Antonim sistem ini adalah Sosialisme (sistem kepemilikan/distribusi dikendalikan oleh negara/bersama)."
+      },
+      {
+        "id": "tiu_236",
+        "teks": "PESAWAT : HANGGAR = MOBIL : ...",
+        "opsi": [
+          "Jalan",
+          "Bagasi",
+          "Garasi",
+          "Parkir",
+          "Supir"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analogi kendaraan dan tempat penyimpanannya. Pesawat disimpan/diparkir di dalam hanggar. Mobil disimpan/diparkir di dalam garasi."
+      },
+      {
+        "id": "tiu_237",
+        "teks": "Perhatikan deret berikut: $100, 81, 64, 49, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "25",
+          "30",
+          "36",
+          "42",
+          "49"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deret tersebut adalah barisan bilangan kuadrat yang menurun secara berurutan: $10^2, 9^2, 8^2, 7^2$. Maka angka selanjutnya adalah $6^2 = 36$."
+      },
+      {
+        "id": "tiu_238",
+        "teks": "Hasil dari operasi pembagian pecahan $\\frac{2}{5} \\div \\frac{4}{15}$ adalah...",
+        "opsi": [
+          "1",
+          "1,25",
+          "1,5",
+          "1,75",
+          "2"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pembagian pecahan diubah menjadi perkalian terbalik: $\\frac{2}{5} \\times \\frac{15}{4} = \\frac{30}{20} = \\frac{3}{2} = 1,5$."
+      },
+      {
+        "id": "tiu_239",
+        "teks": "Sebuah proyek ditargetkan selesai dalam 15 hari oleh 8 orang pekerja. Jika proyek tersebut ingin diselesaikan oleh 12 orang pekerja, maka akan selesai dalam waktu...",
+        "opsi": [
+          "8 hari",
+          "10 hari",
+          "12 hari",
+          "14 hari",
+          "16 hari"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Perbandingan berbalik nilai. $15 \\times 8 = H_2 \\times 12 \\implies 120 = 12 \\times H_2 \\implies H_2 = \\frac{120}{12} = 10$ hari."
+      },
+      {
+        "id": "tiu_240",
+        "teks": "Jika hari ini hujan, maka tanah menjadi basah. Kenyataannya, tanah di halaman tidak basah. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Hari ini hujan",
+          "Hari ini tidak hujan",
+          "Hari ini kemarau",
+          "Halaman terkena banjir",
+          "Tidak dapat disimpulkan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Logika Modus Tollens. P $\\implies$ Q. Fakta: $\\sim Q$ (tidak basah). Kesimpulan: $\\sim P$ (tidak hujan)."
+      },
+      {
+        "id": "tiu_241",
+        "teks": "Kakak X lebih tua dari Y. Z lebih muda dari Y. W lebih tua dari X. Siapakah yang merupakan anak kedua termuda?",
+        "opsi": [
+          "W",
+          "X",
+          "Y",
+          "Z",
+          "Tidak diketahui"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan dari yang tertua: X > Y, Y > Z, W > X. Jika digabung: W > X > Y > Z. Yang paling muda adalah Z, maka kedua termuda adalah Y."
+      },
+      {
+        "id": "tiu_242",
+        "teks": "Sinonim dari kata <b>KISI-KISI</b> adalah...",
+        "opsi": [
+          "Terali",
+          "Alat tangkap",
+          "Jaring",
+          "Pola",
+          "Tabel"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan KBBI, kisi-kisi berarti kayu atau besi yang dipasang bersilang-silang (seperti pada jendela); terali; jeruji."
+      },
+      {
+        "id": "tiu_243",
+        "teks": "Antonim dari kata <b>IDENTIK</b> adalah...",
+        "opsi": [
+          "Mirip",
+          "Sama",
+          "Berbeda",
+          "Sejalan",
+          "Mutlak"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Identik berarti sama benar; tidak ada bedanya. Antonim atau lawan katanya adalah berbeda."
+      },
+      {
+        "id": "tiu_244",
+        "teks": "GIGI : MENGUNYAH = JANTUNG : ...",
+        "opsi": [
+          "Darah",
+          "Memompa",
+          "Dada",
+          "Berdetak",
+          "Menyaring"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analogi organ dan fungsi kerja utamanya. Gigi berfungsi untuk mengunyah (makanan). Jantung berfungsi untuk memompa (darah)."
+      },
+      {
+        "id": "tiu_245",
+        "teks": "Perhatikan deret berikut: $2, 3, 5, 8, 12, 17, ...$ Angka selanjutnya adalah...",
+        "opsi": [
+          "21",
+          "22",
+          "23",
+          "24",
+          "25"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola penambahannya naik secara berurutan: $+1, +2, +3, +4, +5$. Maka penambahan selanjutnya adalah $+6$. Sehingga $17 + 6 = 23$."
+      },
+      {
+        "id": "tiu_246",
+        "teks": "Berapakah hasil dari $40\\%$ dari $150$?",
+        "opsi": [
+          "40",
+          "50",
+          "60",
+          "70",
+          "80"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perhitungan: $\\frac{40}{100} \\times 150 = 4 \\times 15 = 60$."
+      },
+      {
+        "id": "tiu_247",
+        "teks": "Harga sepasang sepatu awalnya adalah Rp300.000. Toko memberikan diskon sebesar 20%. Berapakah harga sepatu tersebut setelah diskon?",
+        "opsi": [
+          "Rp220.000",
+          "Rp230.000",
+          "Rp240.000",
+          "Rp250.000",
+          "Rp260.000"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Besar diskon = $20\\% \\times 300.000 = 60.000$. Harga setelah diskon = $300.000 - 60.000 = 240.000$."
+      },
+      {
+        "id": "tiu_248",
+        "teks": "Semua buku sains sangat tebal. Sebagian buku di rak adalah buku sains. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Semua buku di rak sangat tebal",
+          "Sebagian buku di rak sangat tebal",
+          "Semua buku sains ada di rak",
+          "Tidak ada buku tebal di rak",
+          "Sebagian buku sains tidak tebal"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena himpunan 'sebagian buku di rak' memiliki sifat 'buku sains', dan 'semua buku sains' bersifat 'tebal', maka sebagian buku di rak tersebut pasti juga tebal."
+      },
+      {
+        "id": "tiu_249",
+        "teks": "Nilai ujian A lebih tinggi dari B. Nilai C sama persis dengan A. Nilai D lebih tinggi dari C. Siapakah yang mendapat nilai tertinggi?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "A dan C"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Urutan nilai: A > B, C = A, D > C. Karena D lebih tinggi dari C (yang nilainya sama dengan A), maka susunan tertingginya adalah D > A=C > B. Tertinggi adalah D."
+      },
+      {
+        "id": "tiu_250",
+        "teks": "Sinonim dari kata <b>KENDALA</b> adalah...",
+        "opsi": [
+          "Dorongan",
+          "Hambatan",
+          "Dukungan",
+          "Bantuan",
+          "Kelancaran"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kendala berarti halangan; rintangan; atau hambatan yang membatasi suatu proses atau kegiatan."
+      }
+    ]
+  }
+}

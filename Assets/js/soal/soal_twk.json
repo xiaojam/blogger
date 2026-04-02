@@ -1,0 +1,2618 @@
+{
+  "soal": {
+    "TWK": [
+      {
+        "id": "twk_001",
+        "teks": "Pancasila sebagai ideologi terbuka memiliki dimensi idealitas, normatif, dan realitas. Makna dari dimensi realitas adalah...",
+        "opsi": [
+          "Nilai-nilai dasar yang terkandung di dalamnya bersumber dari nilai riil yang hidup dalam masyarakat",
+          "Nilai-nilai Pancasila dijabarkan dalam suatu sistem norma atau aturan hukum",
+          "Pancasila mengandung cita-cita yang ingin dicapai dalam berbagai bidang kehidupan",
+          "Pancasila mampu menyesuaikan diri dengan perkembangan zaman tanpa mengubah nilai dasarnya",
+          "Pancasila menjadi pedoman mutlak yang tidak boleh diubah atau ditafsirkan ulang"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Dimensi realitas berarti nilai-nilai dasar Pancasila bersumber dari nilai riil (nyata) yang hidup dan berakar di dalam kehidupan masyarakat dan bangsanya."
+      },
+      {
+        "id": "twk_002",
+        "teks": "Sikap etnosentrisme yang berlebihan dapat membahayakan persatuan bangsa. Namun, kebanggaan terhadap budaya lokal juga penting. Solusi terbaik sesuai nilai Pancasila adalah...",
+        "opsi": [
+          "Menghilangkan semua budaya lokal dan membentuk satu budaya nasional yang baru",
+          "Membiarkan setiap daerah menerapkan hukum adatnya masing-masing secara mutlak",
+          "Menjadikan satu budaya dominan sebagai standar budaya nasional",
+          "Mengembangkan budaya lokal selaras dengan nilai-nilai luhur persatuan dan kesatuan bangsa",
+          "Membatasi interaksi antar-suku agar budaya lokal tetap murni"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sesuai Sila ke-3 (Persatuan Indonesia), kebanggaan terhadap budaya daerah sangat dibolehkan asalkan diselaraskan dengan semangat Bhinneka Tunggal Ika agar tidak memicu perpecahan atau chauvinisme."
+      },
+      {
+        "id": "twk_003",
+        "teks": "Berdasarkan Pasal 14 ayat (2) UUD 1945, Presiden memberi amnesti dan abolisi dengan memperhatikan pertimbangan dari...",
+        "opsi": [
+          "Mahkamah Agung",
+          "Dewan Perwakilan Rakyat",
+          "Mahkamah Konstitusi",
+          "Menteri Hukum dan Hak Asasi Manusia",
+          "Dewan Pertimbangan Presiden"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sesuai Pasal 14 UUD 1945: Ayat (1) Presiden memberi grasi dan rehabilitasi dengan memperhatikan pertimbangan Mahkamah Agung. Ayat (2) Presiden memberi amnesti dan abolisi dengan memperhatikan pertimbangan Dewan Perwakilan Rakyat (DPR)."
+      },
+      {
+        "id": "twk_004",
+        "teks": "Lembaga negara yang memiliki kewenangan untuk menguji undang-undang (UU) terhadap Undang-Undang Dasar (UUD) 1945 adalah...",
+        "opsi": [
+          "Mahkamah Agung",
+          "Komisi Yudisial",
+          "Mahkamah Konstitusi",
+          "Dewan Perwakilan Rakyat",
+          "Majelis Permusyawaratan Rakyat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Mahkamah Konstitusi (MK) berwenang menguji Undang-Undang terhadap UUD 1945 (Judicial Review). Sedangkan Mahkamah Agung (MA) berwenang menguji peraturan perundang-undangan di bawah UU terhadap UU."
+      },
+      {
+        "id": "twk_005",
+        "teks": "Sikap saling menghargai hasil karya orang lain yang bermanfaat bagi kemajuan dan kesejahteraan bersama merupakan butir pengamalan Pancasila, yaitu sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Menghargai hasil karya orang lain merupakan salah satu butir pengamalan dari Sila ke-5 Pancasila: Keadilan Sosial bagi Seluruh Rakyat Indonesia."
+      },
+      {
+        "id": "twk_006",
+        "teks": "Amandemen pertama terhadap UUD 1945 disahkan pada Sidang Umum MPR yang diselenggarakan pada tahun...",
+        "opsi": [
+          "1998",
+          "1999",
+          "2000",
+          "2001",
+          "2002"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Amandemen UUD 1945 dilakukan sebanyak empat kali. Amandemen I tahun 1999, Amandemen II tahun 2000, Amandemen III tahun 2001, dan Amandemen IV tahun 2002."
+      },
+      {
+        "id": "twk_007",
+        "teks": "Deklarasi Djuanda yang dicetuskan pada tanggal 13 Desember 1957 memiliki arti penting bagi kedaulatan Indonesia, karena menetapkan...",
+        "opsi": [
+          "Batas Zona Ekonomi Eksklusif (ZEE) sejauh 200 mil laut",
+          "Berdirinya negara kesatuan berbentuk republik",
+          "Laut antara pulau-pulau merupakan wilayah teritorial Republik Indonesia",
+          "Pengakuan dunia internasional terhadap kemerdekaan Indonesia",
+          "Pemisahan batas darat dengan negara-negara tetangga"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deklarasi Djuanda menyatakan bahwa laut Indonesia adalah termasuk laut sekitar, di antara, dan di dalam kepulauan Indonesia menjadi satu kesatuan wilayah NKRI (Wawasan Nusantara), bukan laut bebas."
+      },
+      {
+        "id": "twk_008",
+        "teks": "Setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara. Ketentuan ini secara tegas diatur dalam UUD 1945 Pasal...",
+        "opsi": [
+          "Pasal 27 ayat (1)",
+          "Pasal 27 ayat (2)",
+          "Pasal 27 ayat (3)",
+          "Pasal 30 ayat (1)",
+          "Pasal 30 ayat (2)"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasal 27 ayat (3) berbunyi: 'Setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara.' (Sedangkan Pasal 30 mengatur tentang pertahanan dan keamanan negara)."
+      },
+      {
+        "id": "twk_009",
+        "teks": "Dalam susunan ketatanegaraan Indonesia, anggota Badan Pemeriksa Keuangan (BPK) dipilih oleh DPR dengan memperhatikan pertimbangan dari...",
+        "opsi": [
+          "Presiden",
+          "Dewan Perwakilan Daerah (DPD)",
+          "Mahkamah Agung (MA)",
+          "Menteri Keuangan",
+          "Kementerian Dalam Negeri"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan Pasal 23F ayat (1) UUD 1945, anggota BPK dipilih oleh DPR dengan memperhatikan pertimbangan DPD dan diresmikan oleh Presiden."
+      },
+      {
+        "id": "twk_010",
+        "teks": "Peristiwa perumusan teks Proklamasi Kemerdekaan Indonesia dilakukan di kediaman seorang perwira tinggi Angkatan Laut Jepang yang bersimpati pada perjuangan Indonesia, yaitu...",
+        "opsi": [
+          "Laksamana Maeda",
+          "Jenderal Terauchi",
+          "Mayor Jenderal Yamamoto",
+          "Letnan Jenderal Kumakichi Harada",
+          "Ichibangase Yoshio"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Perumusan naskah proklamasi kemerdekaan dilakukan di rumah Laksamana Muda Tadashi Maeda, Jl. Imam Bonjol No. 1, Jakarta."
+      },
+      {
+        "id": "twk_011",
+        "teks": "Sikap tidak memaksakan kehendak kepada orang lain dalam sebuah musyawarah pemilihan ketua rukun warga (RW) merupakan cerminan pengamalan Pancasila, sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sila ke-4 Pancasila (Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan) menekankan pada prinsip musyawarah mufakat dan larangan memaksakan kehendak kepada orang lain."
+      },
+      {
+        "id": "twk_012",
+        "teks": "Konstitusi RIS tahun 1949 menetapkan bentuk negara Indonesia sebagai negara serikat. Namun, rakyat Indonesia menuntut kembali ke bentuk negara kesatuan yang akhirnya terwujud pada tanggal...",
+        "opsi": [
+          "17 Agustus 1950",
+          "5 Juli 1959",
+          "17 Agustus 1959",
+          "15 Agustus 1950",
+          "5 Juli 1950"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Bentuk Negara Kesatuan Republik Indonesia (NKRI) kembali secara resmi dipulihkan dan diproklamasikan bertepatan dengan berlakunya UUDS 1950, yaitu pada tanggal 15 Agustus 1950."
+      },
+      {
+        "id": "twk_013",
+        "teks": "Semboyan 'Bhinneka Tunggal Ika' yang menjadi semboyan bangsa Indonesia diambil dari sebuah kitab peninggalan Kerajaan Majapahit, yaitu Kitab Sutasoma karangan...",
+        "opsi": [
+          "Mpu Prapanca",
+          "Mpu Tantular",
+          "Mpu Sedah",
+          "Mpu Panuluh",
+          "Mpu Kanwa"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Semboyan Bhinneka Tunggal Ika berasal dari bahasa Jawa Kuno yang tertulis dalam Kitab Sutasoma karangan Mpu Tantular pada masa pemerintahan Hayam Wuruk (Kerajaan Majapahit)."
+      },
+      {
+        "id": "twk_014",
+        "teks": "Salah satu syarat berdirinya sebuah negara secara konstitutif adalah adanya pengakuan dari negara lain. Pengakuan dari negara lain ini dikategorikan menjadi dua, yaitu...",
+        "opsi": [
+          "De facto dan De jure",
+          "Eksplisit dan Implisit",
+          "Formal dan Informal",
+          "Unilateral dan Multilateral",
+          "Teritorial dan Ekstrateritorial"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pengakuan dari negara lain sebagai unsur deklaratif (bukan konstitutif mutlak, namun penting dalam pergaulan internasional) dibagi menjadi De facto (berdasarkan kenyataan) dan De jure (berdasarkan hukum internasional)."
+      },
+      {
+        "id": "twk_015",
+        "teks": "Siapakah yang berhak menyatakan keadaan bahaya di negara Republik Indonesia?",
+        "opsi": [
+          "Presiden",
+          "Dewan Perwakilan Rakyat (DPR)",
+          "Menteri Pertahanan",
+          "Panglima TNI",
+          "Majelis Permusyawaratan Rakyat (MPR)"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan Pasal 12 UUD 1945, Presiden menyatakan keadaan bahaya. Syarat-syarat dan akibatnya keadaan bahaya ditetapkan dengan undang-undang."
+      },
+      {
+        "id": "twk_016",
+        "teks": "Cabang-cabang produksi yang penting bagi negara dan yang menguasai hajat hidup orang banyak dikuasai oleh negara. Hal ini secara tegas diatur dalam UUD 1945 Pasal...",
+        "opsi": [
+          "Pasal 33 ayat (1)",
+          "Pasal 33 ayat (2)",
+          "Pasal 33 ayat (3)",
+          "Pasal 34 ayat (1)",
+          "Pasal 34 ayat (2)"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pasal 33 UUD 1945: Ayat (1) Perekonomian disusun sebagai usaha bersama berdasar asas kekeluargaan. Ayat (2) Cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak dikuasai oleh negara."
+      },
+      {
+        "id": "twk_017",
+        "teks": "Tokoh yang mengusulkan rancangan dasar negara pada sidang BPUPKI tanggal 29 Mei 1945 adalah...",
+        "opsi": [
+          "Ir. Soekarno",
+          "Drs. Mohammad Hatta",
+          "Prof. Dr. Soepomo",
+          "Mr. Mohammad Yamin",
+          "K.H. Agus Salim"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Mr. Mohammad Yamin mengemukakan pidatonya pada tanggal 29 Mei 1945. Prof. Dr. Soepomo pada tanggal 31 Mei 1945. Ir. Soekarno pada tanggal 1 Juni 1945."
+      },
+      {
+        "id": "twk_018",
+        "teks": "Sikap nasionalisme harus dipupuk dan dikembangkan dalam kehidupan berbangsa dan bernegara. Salah satu contoh perwujudan nasionalisme di lingkungan sekolah adalah...",
+        "opsi": [
+          "Mempelajari semua budaya asing agar wawasan bertambah",
+          "Membeli barang-barang bermerk untuk menunjukkan gengsi",
+          "Mengikuti upacara bendera dengan khidmat dan tertib",
+          "Mengutamakan kepentingan pribadi di atas kepentingan kelas",
+          "Mengeksploitasi sumber daya alam di lingkungan sekitar"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Mengikuti upacara bendera dengan khidmat merupakan salah satu bentuk perwujudan rasa cinta tanah air (nasionalisme) di lingkungan pendidikan (sekolah)."
+      },
+      {
+        "id": "twk_019",
+        "teks": "Menurut UUD 1945 Pasal 1 ayat (2), kedaulatan berada di tangan rakyat dan dilaksanakan menurut...",
+        "opsi": [
+          "Undang-Undang Dasar",
+          "Pancasila",
+          "Majelis Permusyawaratan Rakyat",
+          "Ketetapan MPR",
+          "Dewan Perwakilan Rakyat"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pasal 1 ayat (2) UUD 1945 Amandemen ketiga berbunyi: 'Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar'."
+      },
+      {
+        "id": "twk_020",
+        "teks": "Sistem pemerintahan di mana presiden berkedudukan sebagai kepala negara sekaligus kepala pemerintahan disebut...",
+        "opsi": [
+          "Sistem Parlementer",
+          "Sistem Presidensial",
+          "Sistem Monarki Konstitusional",
+          "Sistem Republik Absolut",
+          "Sistem Federal"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sistem presidensial adalah sistem pemerintahan negara republik di mana kekuasaan eksekutif dipilih melalui pemilu dan terpisah dari kekuasaan legislatif. Presiden berfungsi sebagai kepala negara dan kepala pemerintahan."
+      },
+      {
+        "id": "twk_021",
+        "teks": "Makna yang terkandung dalam alinea pertama Pembukaan UUD 1945 adalah...",
+        "opsi": [
+          "Kemerdekaan adalah hak segala bangsa",
+          "Perjuangan pergerakan kemerdekaan Indonesia telah sampailah kepada saat yang berbahagia",
+          "Kemerdekaan atas berkat rahmat Allah Yang Maha Kuasa",
+          "Tujuan negara Indonesia untuk melindungi segenap bangsa",
+          "Pernyataan kemerdekaan Republik Indonesia secara de facto"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Alinea pertama Pembukaan UUD 1945 berbunyi 'Bahwa sesungguhnya kemerdekaan itu ialah hak segala bangsa dan oleh sebab itu, maka penjajahan di atas dunia harus dihapuskan...'. Ini menunjukkan keteguhan bangsa Indonesia dalam membela kemerdekaan melawan penjajahan."
+      },
+      {
+        "id": "twk_022",
+        "teks": "Komisi Yudisial merupakan lembaga negara yang bersifat mandiri. Anggota Komisi Yudisial diangkat dan diberhentikan oleh Presiden dengan persetujuan...",
+        "opsi": [
+          "Mahkamah Agung",
+          "Mahkamah Konstitusi",
+          "Dewan Perwakilan Rakyat",
+          "Majelis Permusyawaratan Rakyat",
+          "Dewan Perwakilan Daerah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasal 24B ayat (3) UUD 1945 menyatakan bahwa Anggota Komisi Yudisial diangkat dan diberhentikan oleh Presiden dengan persetujuan Dewan Perwakilan Rakyat (DPR)."
+      },
+      {
+        "id": "twk_023",
+        "teks": "Pengamalan sila kedua Pancasila, Kemanusiaan yang Adil dan Beradab, dalam kehidupan bermasyarakat dapat diwujudkan dalam bentuk...",
+        "opsi": [
+          "Gemar melakukan kegiatan kemanusiaan seperti bakti sosial",
+          "Menjaga kerukunan antarumat beragama",
+          "Menggunakan produk-produk dalam negeri",
+          "Mengedepankan musyawarah dalam mengambil keputusan",
+          "Berlaku adil dan tidak bergaya hidup mewah"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gemar melakukan kegiatan kemanusiaan (bakti sosial, membantu korban bencana) adalah bentuk nyata pengamalan Sila ke-2 Pancasila yang menitikberatkan pada nilai kemanusiaan."
+      },
+      {
+        "id": "twk_024",
+        "teks": "Dekrit Presiden 5 Juli 1959 dikeluarkan oleh Presiden Soekarno karena kegagalan Konstituante dalam merumuskan UUD baru. Salah satu isi Dekrit tersebut adalah...",
+        "opsi": [
+          "Pembubaran Kabinet Dwikora",
+          "Berlakunya kembali UUD 1945 dan tidak berlakunya UUDS 1950",
+          "Pembentukan Majelis Permusyawaratan Rakyat Sementara (MPRS) oleh DPR",
+          "Pemilihan umum akan diselenggarakan secepatnya",
+          "Penghapusan seluruh partai politik di Indonesia"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Isi Dekrit Presiden 5 Juli 1959: (1) Pembubaran Konstituante, (2) Berlakunya kembali UUD 1945 dan tidak berlakunya UUDS 1950, (3) Pembentukan MPRS dan DPAS dalam waktu sesingkat-singkatnya."
+      },
+      {
+        "id": "twk_025",
+        "teks": "Hak Asasi Manusia (HAM) secara tegas diatur dalam UUD 1945. Hak untuk hidup, hak untuk tidak disiksa, dan hak kemerdekaan pikiran dan hati nurani merupakan hak asasi yang...",
+        "opsi": [
+          "Dapat dibatasi dengan undang-undang",
+          "Dapat dikurangi dalam keadaan darurat sipil",
+          "Tidak dapat dikurangi dalam keadaan apapun",
+          "Diberikan secara selektif oleh negara",
+          "Hanya berlaku bagi warga negara Indonesia"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sesuai Pasal 28I ayat (1) UUD 1945, hak untuk hidup, hak untuk tidak disiksa, hak kemerdekaan pikiran dan hati nurani, hak beragama, dsb., adalah hak asasi manusia yang tidak dapat dikurangi dalam keadaan apa pun (non-derogable rights)."
+      },
+      {
+        "id": "twk_026",
+        "teks": "Pemberontakan DI/TII di wilayah Jawa Barat yang berupaya mendirikan Negara Islam Indonesia (NII) dipimpin oleh...",
+        "opsi": [
+          "Kahar Muzakkar",
+          "Daud Beureueh",
+          "Amir Fatah",
+          "Sekarmadji Maridjan Kartosuwiryo",
+          "Kyai Somalangu"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pemberontakan DI/TII di Jawa Barat dipimpin oleh S.M. Kartosuwiryo. Kahar Muzakkar di Sulawesi Selatan, Daud Beureueh di Aceh, dan Amir Fatah di Jawa Tengah."
+      },
+      {
+        "id": "twk_027",
+        "teks": "Organisasi pergerakan nasional pertama di Indonesia yang didirikan pada tanggal 20 Mei 1908 dan menjadi tonggak Hari Kebangkitan Nasional adalah...",
+        "opsi": [
+          "Sarekat Islam",
+          "Indische Partij",
+          "Budi Utomo",
+          "Perhimpunan Indonesia",
+          "Taman Siswa"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Budi Utomo didirikan pada 20 Mei 1908 oleh para mahasiswa STOVIA yang digagas oleh dr. Wahidin Soedirohoesodo. Tanggal ini kemudian diperingati sebagai Hari Kebangkitan Nasional."
+      },
+      {
+        "id": "twk_028",
+        "teks": "Prinsip 'Bhinneka Tunggal Ika' mengajarkan bangsa Indonesia untuk...",
+        "opsi": [
+          "Menyatukan seluruh agama menjadi satu kepercayaan baru",
+          "Mengahapuskan semua adat istiadat daerah demi kemajuan modern",
+          "Menghormati perbedaan suku, agama, dan ras dalam bingkai persatuan",
+          "Memilih salah satu budaya daerah untuk dijadikan budaya tunggal",
+          "Mengunggulkan suku bangsa sendiri di atas suku bangsa lain"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Bhinneka Tunggal Ika berarti 'Berbeda-beda tetapi tetap satu jua'. Prinsip ini mengajarkan toleransi dan penghormatan terhadap keberagaman untuk menjaga persatuan bangsa."
+      },
+      {
+        "id": "twk_029",
+        "teks": "Pengadilan tingkat kasasi, serta menguji peraturan perundang-undangan di bawah undang-undang terhadap undang-undang, merupakan wewenang dari lembaga...",
+        "opsi": [
+          "Komisi Yudisial",
+          "Mahkamah Konstitusi",
+          "Pengadilan Tinggi",
+          "Pengadilan Negeri",
+          "Mahkamah Agung"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Berdasarkan Pasal 24A ayat (1) UUD 1945, Mahkamah Agung berwenang mengadili pada tingkat kasasi, menguji peraturan perundang-undangan di bawah undang-undang terhadap undang-undang, dan wewenang lainnya."
+      },
+      {
+        "id": "twk_030",
+        "teks": "Nilai integritas sangat penting bagi seorang aparatur negara dan warga negara. Menurut Komisi Pemberantasan Korupsi (KPK), ada sembilan nilai integritas anti korupsi. Berikut yang termasuk nilai integritas adalah...",
+        "opsi": [
+          "Jujur, disiplin, berani, dan tanggung jawab",
+          "Santun, ramah, toleransi, dan dermawan",
+          "Kreatif, inovatif, visioner, dan asertif",
+          "Cerdas, cepat, tangkas, dan efisien",
+          "Kuat, tangguh, sabar, dan gigih"
+        ],
+        "jawaban": 0,
+        "pembahasan": "KPK merumuskan 9 nilai integritas antikorupsi yaitu: Jujur, Peduli, Mandiri, Disiplin, Tanggung Jawab, Kerja Keras, Sederhana, Berani, dan Adil."
+      },
+      {
+        "id": "twk_031",
+        "teks": "Siapakah tokoh yang bertugas mengetik naskah asli Proklamasi Kemerdekaan Indonesia setelah dirumuskan oleh Bung Karno, Bung Hatta, dan Achmad Soebardjo?",
+        "opsi": [
+          "B.M. Diah",
+          "Sayuti Melik",
+          "Sukarni",
+          "Sutan Sjahrir",
+          "Latief Hendraningrat"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Naskah Proklamasi yang ditulis tangan oleh Soekarno kemudian diketik oleh Sayuti Melik dengan beberapa perubahan penyempurnaan ejaan."
+      },
+      {
+        "id": "twk_032",
+        "teks": "Sila kedua Pancasila berbunyi \"Kemanusiaan yang Adil dan Beradab\". Salah satu bentuk pengamalannya dalam kehidupan sehari-hari adalah...",
+        "opsi": [
+          "Menjaga kerukunan antarumat beragama di lingkungan sekitar",
+          "Mengakui persamaan derajat, hak, dan kewajiban asasi setiap manusia",
+          "Mengedepankan penyelesaian masalah melalui musyawarah mufakat",
+          "Rela berkorban demi kepentingan bangsa dan negara",
+          "Menghargai hasil karya orang lain demi kemajuan bersama"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Mengakui persamaan derajat, hak, dan kewajiban asasi setiap manusia tanpa membeda-bedakan suku, keturunan, agama, dan warna kulit adalah pengamalan inti Sila Ke-2."
+      },
+      {
+        "id": "twk_033",
+        "teks": "Ketua Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan Indonesia (BPUPKI) yang dibentuk pada tanggal 1 Maret 1945 adalah...",
+        "opsi": [
+          "Ir. Soekarno",
+          "Drs. Mohammad Hatta",
+          "dr. K.R.T. Radjiman Wedyodiningrat",
+          "Mr. Soepomo",
+          "RP. Soeroso"
+        ],
+        "jawaban": 2,
+        "pembahasan": "BPUPKI diketuai oleh dr. K.R.T. Radjiman Wedyodiningrat, dengan wakil ketua Ichibangase Yosio (Jepang) dan RP. Soeroso."
+      },
+      {
+        "id": "twk_034",
+        "teks": "Kedudukan Pancasila sebagai sumber dari segala sumber hukum negara Republik Indonesia ditegaskan dalam undang-undang, yaitu...",
+        "opsi": [
+          "UU No. 12 Tahun 2011",
+          "UU No. 39 Tahun 1999",
+          "UU No. 20 Tahun 2003",
+          "UU No. 32 Tahun 2004",
+          "UU No. 14 Tahun 2008"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pasal 2 Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan menegaskan bahwa Pancasila merupakan sumber segala sumber hukum negara."
+      },
+      {
+        "id": "twk_035",
+        "teks": "Hasil utama dari Konferensi Meja Bundar (KMB) yang diselenggarakan di Den Haag, Belanda pada tahun 1949 adalah...",
+        "opsi": [
+          "Penghentian tembak-menembak antara Indonesia dan Belanda",
+          "Pembentukan Pemerintah Darurat Republik Indonesia (PDRI)",
+          "Pengakuan kedaulatan Republik Indonesia Serikat (RIS) oleh Belanda",
+          "Pengembalian Irian Barat ke dalam pangkuan NKRI",
+          "Diakuinya wilayah de facto RI atas Jawa, Sumatera, dan Madura"
+        ],
+        "jawaban": 2,
+        "pembahasan": "KMB menghasilkan persetujuan bahwa Belanda mengakui kedaulatan Republik Indonesia Serikat (RIS) sebagai negara yang merdeka dan berdaulat penuh pada 27 Desember 1949."
+      },
+      {
+        "id": "twk_036",
+        "teks": "Sikap suka bekerja keras, hemat, tidak boros, dan tidak bergaya hidup mewah merupakan perwujudan pengamalan Pancasila, khususnya sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Tidak menggunakan hak milik untuk hal-hal yang bersifat pemborosan dan gaya hidup mewah serta suka bekerja keras adalah butir pengamalan Sila Ke-5 Pancasila."
+      },
+      {
+        "id": "twk_037",
+        "teks": "Setelah dilakukan amandemen UUD 1945, lembaga negara yang berwenang melantik Presiden dan/atau Wakil Presiden terpilih adalah...",
+        "opsi": [
+          "Mahkamah Agung (MA)",
+          "Dewan Perwakilan Rakyat (DPR)",
+          "Mahkamah Konstitusi (MK)",
+          "Majelis Permusyawaratan Rakyat (MPR)",
+          "Komisi Pemilihan Umum (KPU)"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sesuai Pasal 3 ayat (2) UUD 1945, Majelis Permusyawaratan Rakyat (MPR) berwenang melantik Presiden dan/atau Wakil Presiden."
+      },
+      {
+        "id": "twk_038",
+        "teks": "Dalam peristiwa bersejarah Sumpah Pemuda tanggal 28 Oktober 1928, ikrar ketiga berbunyi...",
+        "opsi": [
+          "Kami putra dan putri Indonesia, mengaku bertumpah darah yang satu, tanah air Indonesia",
+          "Kami putra dan putri Indonesia, mengaku berbangsa yang satu, bangsa Indonesia",
+          "Kami putra dan putri Indonesia, menjunjung bahasa persatuan, bahasa Indonesia",
+          "Kami putra dan putri Indonesia, bertekad memajukan kebudayaan nasional Indonesia",
+          "Kami putra dan putri Indonesia, bersatu melawan penjajahan kolonial"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Isi Sumpah Pemuda: (1) Bertumpah darah yang satu, tanah air Indonesia. (2) Berbangsa yang satu, bangsa Indonesia. (3) Menjunjung bahasa persatuan, bahasa Indonesia."
+      },
+      {
+        "id": "twk_039",
+        "teks": "Pahlawan nasional yang juga dijuluki sebagai Bapak Pendidikan Nasional dan dikenal dengan semboyan <i>\"Ing ngarso sung tulodo, Ing madya mangun karso, Tut wuri handayani\"</i> adalah...",
+        "opsi": [
+          "Dr. Soetomo",
+          "Ki Hajar Dewantara",
+          "Douwes Dekker",
+          "K.H. Ahmad Dahlan",
+          "Dr. Tjipto Mangoenkoesoemo"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ki Hajar Dewantara (Suwardi Suryaningrat) adalah pendiri Taman Siswa yang mencetuskan trilogi kepemimpinan pendidikan tersebut."
+      },
+      {
+        "id": "twk_040",
+        "teks": "Salah satu tugas dan wewenang Dewan Perwakilan Daerah (DPD) menurut UUD 1945 adalah...",
+        "opsi": [
+          "Memilih anggota Badan Pemeriksa Keuangan",
+          "Menyatakan perang, membuat perdamaian, dan perjanjian dengan negara lain",
+          "Ikut serta dalam mengesahkan Undang-Undang",
+          "Mengajukan Rancangan Undang-Undang yang berkaitan dengan otonomi daerah",
+          "Melakukan uji materiil terhadap Peraturan Pemerintah"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sesuai Pasal 22D ayat (1) UUD 1945, DPD dapat mengajukan kepada DPR rancangan undang-undang yang berkaitan dengan otonomi daerah, hubungan pusat dan daerah, dll."
+      },
+      {
+        "id": "twk_041",
+        "teks": "Ciri utama dari Demokrasi Pancasila yang membedakannya secara tegas dengan demokrasi liberal di negara Barat adalah...",
+        "opsi": [
+          "Adanya pemilu yang diselenggarakan secara berkala",
+          "Kekuasaan tertinggi berada di tangan lembaga perwakilan",
+          "Mengutamakan musyawarah untuk mencapai mufakat",
+          "Kebebasan individu yang tidak terbatas",
+          "Presiden berkuasa mutlak tanpa pengawasan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Demokrasi Pancasila berintikan kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan, yang lebih mengutamakan musyawarah mufakat dibanding sistem voting mayoritas mutlak."
+      },
+      {
+        "id": "twk_042",
+        "teks": "Pemilihan Umum (Pemilu) pertama di Indonesia yang sering dianggap paling demokratis diselenggarakan pada tahun 1955 dengan tujuan untuk memilih...",
+        "opsi": [
+          "Presiden dan Wakil Presiden",
+          "Anggota DPR dan anggota Konstituante",
+          "Anggota MPR dan DPRD",
+          "Anggota Kabinet Pemerintahan",
+          "Gubernur dan Bupati se-Indonesia"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pemilu 1955 dibagi menjadi dua tahap: Tahap pertama (29 September 1955) untuk memilih anggota DPR, dan Tahap kedua (15 Desember 1955) untuk memilih anggota Konstituante."
+      },
+      {
+        "id": "twk_043",
+        "teks": "Paham yang mengagungkan bangsa sendiri secara berlebihan sekaligus memandang rendah bangsa-bangsa lain di dunia disebut...",
+        "opsi": [
+          "Nasionalisme",
+          "Patriotisme",
+          "Chauvinisme",
+          "Etnosentrisme",
+          "Fasisme"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Chauvinisme adalah bentuk nasionalisme ekstrem dan berlebihan yang menganggap bangsanya paling unggul sambil merendahkan bangsa lain."
+      },
+      {
+        "id": "twk_044",
+        "teks": "Mengembangkan sikap toleransi antarumat beragama dan tidak memaksakan suatu agama dan kepercayaan kepada orang lain merupakan wujud pengamalan Pancasila sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Sila Ke-1 (Ketuhanan Yang Maha Esa) mengandung nilai-nilai kerukunan umat beragama, kebebasan beribadah, dan pelarangan pemaksaan keyakinan."
+      },
+      {
+        "id": "twk_045",
+        "teks": "Organisasi pergerakan Budi Utomo pada awal berdirinya memiliki tujuan utama di bidang...",
+        "opsi": [
+          "Militer dan persenjataan",
+          "Politik dan perlawanan fisik",
+          "Ekonomi dan perdagangan maritim",
+          "Sosial, pendidikan, dan kebudayaan",
+          "Agama dan penyebaran dakwah"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Budi Utomo pada awalnya bukan organisasi politik, melainkan berfokus pada kemajuan sosial, pendidikan, dan kebudayaan bagi masyarakat Jawa dan Madura."
+      },
+      {
+        "id": "twk_046",
+        "teks": "Salah satu tujuan negara Republik Indonesia yang secara eksplisit tercantum dalam Pembukaan UUD 1945 alinea keempat adalah...",
+        "opsi": [
+          "Mewujudkan kemerdekaan berserikat dan berkumpul",
+          "Mencerdaskan kehidupan bangsa",
+          "Menghapuskan segala bentuk penjajahan di atas dunia",
+          "Membentuk negara serikat yang demokratis",
+          "Memajukan kesejahteraan negara-negara Asia Tenggara"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Tujuan negara pada alinea keempat: Melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum, <b>mencerdaskan kehidupan bangsa</b>, dan ikut melaksanakan ketertiban dunia."
+      },
+      {
+        "id": "twk_047",
+        "teks": "Perjanjian Linggarjati yang ditandatangani pada bulan November 1946 menghasilkan kesepakatan bahwa Belanda mengakui secara <i>de facto</i> wilayah Republik Indonesia yang meliputi...",
+        "opsi": [
+          "Jawa, Sumatera, dan Madura",
+          "Seluruh wilayah bekas Hindia Belanda",
+          "Jawa, Sumatera, dan Kalimantan",
+          "Jawa, Bali, dan Sulawesi",
+          "Jawa dan Madura saja"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Hasil utama Perjanjian Linggarjati adalah Belanda mengakui secara de facto wilayah Republik Indonesia meliputi Jawa, Sumatera, dan Madura."
+      },
+      {
+        "id": "twk_048",
+        "teks": "Pemberontakan Partai Komunis Indonesia (PKI) yang terjadi di kota Madiun pada tahun 1948 dipimpin oleh dua tokoh utama, yaitu...",
+        "opsi": [
+          "D.N. Aidit dan Untung",
+          "S.M. Kartosuwiryo dan Amir Fatah",
+          "Musso dan Amir Sjarifuddin",
+          "Kahar Muzakkar dan Daud Beureueh",
+          "Tan Malaka dan Semaun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pemberontakan PKI di Madiun pada 18 September 1948 dipimpin oleh Musso (tokoh PKI lama) bersama Amir Sjarifuddin (mantan Perdana Menteri)."
+      },
+      {
+        "id": "twk_049",
+        "teks": "Dalam prinsip dan sistem pengelolaan Koperasi di Indonesia yang sesuai dengan asas kekeluargaan, kekuasaan tertinggi berada di tangan...",
+        "opsi": [
+          "Ketua Koperasi",
+          "Dewan Pengawas",
+          "Badan Pengurus Harian",
+          "Rapat Anggota",
+          "Pemerintah Daerah"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sesuai dengan asas demokrasi dan kekeluargaan dalam UU Koperasi, kekuasaan tertinggi dalam tata kehidupan koperasi adalah Rapat Anggota."
+      },
+      {
+        "id": "twk_050",
+        "teks": "Komisi Pemberantasan Korupsi (KPK) adalah lembaga negara yang dibentuk untuk memberantas tindak pidana korupsi. KPK dibentuk berdasarkan Undang-Undang Nomor 30 Tahun 2002 pada masa pemerintahan Presiden...",
+        "opsi": [
+          "B.J. Habibie",
+          "Abdurrahman Wahid",
+          "Megawati Soekarnoputri",
+          "Susilo Bambang Yudhoyono",
+          "Soeharto"
+        ],
+        "jawaban": 2,
+        "pembahasan": "KPK secara resmi didirikan pada tahun 2002 berdasarkan Undang-Undang Republik Indonesia Nomor 30 Tahun 2002 di masa pemerintahan Presiden ke-5, Megawati Soekarnoputri."
+      },
+      {
+        "id": "twk_051",
+        "teks": "Pasal berapakah dalam UUD 1945 yang secara khusus mengatur tentang Pendidikan Nasional dan Kebudayaan?",
+        "opsi": [
+          "Pasal 28 dan 29",
+          "Pasal 29 dan 30",
+          "Pasal 30 dan 31",
+          "Pasal 31 dan 32",
+          "Pasal 33 dan 34"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Bab XIII UUD 1945 mengatur tentang Pendidikan dan Kebudayaan. Pasal 31 khusus mengatur tentang Pendidikan, sedangkan Pasal 32 mengatur tentang Kebudayaan Nasional."
+      },
+      {
+        "id": "twk_052",
+        "teks": "Cara pandang dan sikap bangsa Indonesia mengenai diri dan lingkungannya yang serba beragam dan bernilai strategis dengan mengutamakan persatuan dan kesatuan bangsa disebut...",
+        "opsi": [
+          "Geopolitik Indonesia",
+          "Wawasan Nusantara",
+          "Ketahanan Nasional",
+          "Ideologi Nasional",
+          "Patriotisme"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Wawasan Nusantara adalah cara pandang bangsa Indonesia terhadap diri dan lingkungannya yang mengutamakan persatuan dan kesatuan wilayah dalam penyelenggaraan kehidupan bermasyarakat, berbangsa, dan bernegara."
+      },
+      {
+        "id": "twk_053",
+        "teks": "Sidang BPUPKI kedua yang dilaksanakan pada tanggal 10 - 17 Juli 1945 fokus membahas tentang...",
+        "opsi": [
+          "Dasar Negara Indonesia Merdeka",
+          "Bentuk Negara dan Rancangan Undang-Undang Dasar",
+          "Pemilihan Presiden dan Wakil Presiden",
+          "Teks Proklamasi Kemerdekaan",
+          "Pembentukan Tentara Nasional"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sidang pertama BPUPKI (29 Mei - 1 Juni) membahas Dasar Negara. Sedangkan sidang kedua (10 - 17 Juli 1945) membahas tentang Bentuk Negara, Wilayah Negara, dan merancang Undang-Undang Dasar."
+      },
+      {
+        "id": "twk_054",
+        "teks": "Rumusan Pancasila yang sah dan resmi sebagai dasar negara terdapat dalam...",
+        "opsi": [
+          "Piagam Jakarta",
+          "Pembukaan UUD 1945 Alinea IV",
+          "Dekrit Presiden 5 Juli 1959",
+          "Batang Tubuh UUD 1945",
+          "Ketetapan MPR"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Rumusan Pancasila yang sah dan mengikat secara hukum sebagai dasar negara RI terdapat dalam Pembukaan UUD 1945 Alinea ke-4, yang disahkan oleh PPKI pada 18 Agustus 1945."
+      },
+      {
+        "id": "twk_055",
+        "teks": "Negara pertama di dunia yang mengakui kemerdekaan Republik Indonesia secara <i>de facto</i> adalah...",
+        "opsi": [
+          "India",
+          "Mesir",
+          "Palestina",
+          "Australia",
+          "Suriah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Mesir adalah negara pertama yang mengakui kemerdekaan Indonesia secara de facto (22 Maret 1946) dan secara de jure (10 Juni 1947), disusul oleh negara-negara Liga Arab lainnya."
+      },
+      {
+        "id": "twk_056",
+        "teks": "Lagu kebangsaan Indonesia Raya pertama kali diperdengarkan kepada publik pada peristiwa...",
+        "opsi": [
+          "Proklamasi Kemerdekaan 17 Agustus 1945",
+          "Kongres Pemuda II tanggal 28 Oktober 1928",
+          "Sidang BPUPKI 1 Juni 1945",
+          "Sumpah Palapa",
+          "Perundingan Linggarjati"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Lagu Indonesia Raya ciptaan W.R. Supratman pertama kali dikumandangkan menggunakan biola (tanpa syair) pada saat penutupan Kongres Pemuda II, 28 Oktober 1928 (Sumpah Pemuda)."
+      },
+      {
+        "id": "twk_057",
+        "teks": "Setelah Amandemen UUD 1945, Majelis Permusyawaratan Rakyat (MPR) tidak lagi memiliki kewenangan untuk...",
+        "opsi": [
+          "Melantik Presiden dan Wakil Presiden",
+          "Mengubah dan menetapkan UUD",
+          "Memberhentikan Presiden dalam masa jabatannya",
+          "Menetapkan Garis-Garis Besar Haluan Negara (GBHN)",
+          "Memilih Wakil Presiden jika terjadi kekosongan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pasca Amandemen UUD 1945, MPR tidak lagi berkedudukan sebagai lembaga tertinggi negara, sehingga wewenangnya untuk menetapkan GBHN dihapuskan."
+      },
+      {
+        "id": "twk_058",
+        "teks": "Pemilihan Umum pertama tahun 1955 di Indonesia berlangsung sangat demokratis. Pemilu ini diselenggarakan pada masa pemerintahan kabinet...",
+        "opsi": [
+          "Kabinet Natsir",
+          "Kabinet Wilopo",
+          "Kabinet Ali Sastroamidjojo I",
+          "Kabinet Burhanuddin Harahap",
+          "Kabinet Djuanda"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pemilu 1955 direncanakan oleh Kabinet Ali Sastroamidjojo I, namun baru terlaksana pada masa pemerintahan Kabinet Burhanuddin Harahap."
+      },
+      {
+        "id": "twk_059",
+        "teks": "Pada tahun 1943, pemerintah pendudukan Jepang membentuk organisasi militer yang terdiri dari pemuda Indonesia untuk membantu pertahanan. Organisasi ini kelak menjadi cikal bakal TNI, yaitu...",
+        "opsi": [
+          "Heiho",
+          "Seinendan",
+          "Keibodan",
+          "Putera",
+          "PETA (Pembela Tanah Air)"
+        ],
+        "jawaban": 4,
+        "pembahasan": "PETA (Pembela Tanah Air) dibentuk Jepang pada 3 Oktober 1943. Organisasi ini memberikan pelatihan kemiliteran tingkat perwira bagi bangsa Indonesia, yang nantinya banyak menjadi tokoh utama dalam TKR/TNI."
+      },
+      {
+        "id": "twk_060",
+        "teks": "Pemberontakan Angkatan Perang Ratu Adil (APRA) di Bandung pada tahun 1950 dipimpin oleh seorang mantan kapten KNIL yang bernama...",
+        "opsi": [
+          "Andi Azis",
+          "Raymond Westerling",
+          "Soumokil",
+          "Dr. Soumokil",
+          "Van Mook"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pemberontakan APRA (Angkatan Perang Ratu Adil) di Bandung pada 23 Januari 1950 dipimpin oleh Raymond Westerling, dengan tujuan mempertahankan bentuk negara federal di Indonesia."
+      },
+      {
+        "id": "twk_061",
+        "teks": "UUD 1945 memiliki sifat singkat dan supel. Maksud dari sifat 'supel' (luwes) pada UUD 1945 adalah...",
+        "opsi": [
+          "Dapat diubah kapan saja oleh Presiden",
+          "Hanya memuat aturan-aturan pokok, sehingga aturannya dapat menyesuaikan dengan perkembangan zaman",
+          "Menjamin kebebasan mutlak bagi warganya",
+          "Berlaku tanpa batas waktu",
+          "Tidak mengikat secara hukum"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sifat supel/luwes UUD 1945 berarti konstitusi ini hanya memuat garis-garis besar/aturan pokok, sehingga penjabarannya (melalui undang-undang) dapat mengikuti dinamika dan perkembangan zaman."
+      },
+      {
+        "id": "twk_062",
+        "teks": "Penyelenggara Pemilihan Umum di Indonesia menurut Pasal 22E UUD 1945 dilaksanakan oleh suatu komisi pemilihan umum yang bersifat...",
+        "opsi": [
+          "Nasional, tetap, dan mandiri",
+          "Nasional, independen, dan sementara",
+          "Daerah, tetap, dan mandiri",
+          "Nasional, terstruktur, dan terpusat",
+          "Lokal, adil, dan transparan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pasal 22E Ayat (5) UUD 1945 secara jelas menyebutkan: 'Pemilihan umum diselenggarakan oleh suatu komisi pemilihan umum yang bersifat nasional, tetap, dan mandiri.'"
+      },
+      {
+        "id": "twk_063",
+        "teks": "Hak anggota DPR untuk mengajukan usul rancangan undang-undang disebut hak...",
+        "opsi": [
+          "Interpelasi",
+          "Angket",
+          "Inisiatif",
+          "Imunitas",
+          "Petisi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hak inisiatif adalah hak anggota DPR untuk mengajukan rancangan undang-undang (RUU). Hak interpelasi adalah hak meminta keterangan pemerintah, dan angket adalah hak melakukan penyelidikan."
+      },
+      {
+        "id": "twk_064",
+        "teks": "Prinsip pemilu di Indonesia adalah LUBER dan JURDIL. Asas JURDIL (Jujur dan Adil) pertama kali secara resmi ditambahkan dalam pemilu pada masa...",
+        "opsi": [
+          "Orde Lama (Pemilu 1955)",
+          "Awal Orde Baru (Pemilu 1971)",
+          "Pertengahan Orde Baru",
+          "Era Reformasi (Pemilu 1999)",
+          "Era Reformasi (Pemilu 2004)"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pada masa Orde Baru asas pemilu hanya LUBER (Langsung, Umum, Bebas, Rahasia). Asas JURDIL (Jujur dan Adil) ditambahkan pasca reformasi dan diterapkan mulai Pemilu 1999 untuk mencegah kecurangan yang masif terjadi pada era sebelumnya."
+      },
+      {
+        "id": "twk_065",
+        "teks": "Tokoh ulama besar yang mendirikan organisasi Muhammadiyah pada 18 November 1912 di Yogyakarta adalah...",
+        "opsi": [
+          "K.H. Hasyim Asy'ari",
+          "K.H. Ahmad Dahlan",
+          "H.O.S. Tjokroaminoto",
+          "K.H. Samanhudi",
+          "K.H. Mas Mansyur"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Muhammadiyah didirikan di Kampung Kauman, Yogyakarta, pada 18 November 1912 (8 Dzulhijjah 1330 H) oleh K.H. Ahmad Dahlan."
+      },
+      {
+        "id": "twk_066",
+        "teks": "Peristiwa Rengasdengklok yang terjadi pada 16 Agustus 1945 dilatarbelakangi oleh adanya perbedaan pendapat antara golongan tua dan golongan muda mengenai...",
+        "opsi": [
+          "Tempat pembacaan teks Proklamasi",
+          "Penyusun teks Proklamasi",
+          "Waktu pelaksanaan Proklamasi Kemerdekaan",
+          "Sistem pemerintahan setelah merdeka",
+          "Pemilihan Presiden dan Wakil Presiden"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Peristiwa Rengasdengklok dilatarbelakangi oleh perbedaan pendapat mengenai kapan waktu yang tepat untuk memproklamasikan kemerdekaan. Golongan muda ingin proklamasi dipercepat sebelum Jepang menyerahkan kekuasaan kepada Sekutu."
+      },
+      {
+        "id": "twk_067",
+        "teks": "Setelah BPUPKI menyelesaikan tugasnya, Jepang membentuk PPKI (Panitia Persiapan Kemerdekaan Indonesia) pada tanggal...",
+        "opsi": [
+          "1 Juni 1945",
+          "7 Agustus 1945",
+          "9 Agustus 1945",
+          "14 Agustus 1945",
+          "18 Agustus 1945"
+        ],
+        "jawaban": 1,
+        "pembahasan": "BPUPKI dibubarkan pada tanggal 7 Agustus 1945 karena dianggap telah menyelesaikan tugasnya. Sebagai gantinya, dibentuklah PPKI (Dokuritsu Junbi Inkai)."
+      },
+      {
+        "id": "twk_068",
+        "teks": "Politik luar negeri Indonesia menganut prinsip 'Bebas Aktif'. Makna 'Aktif' dalam prinsip tersebut adalah...",
+        "opsi": [
+          "Tidak memihak pada blok manapun di dunia",
+          "Aktif memberikan bantuan militer kepada negara yang berkonflik",
+          "Aktif meminjam dana dari negara-negara maju",
+          "Aktif ikut serta mewujudkan perdamaian dan ketertiban dunia",
+          "Aktif mencampuri urusan dalam negeri negara sahabat"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Bebas berarti tidak terikat/memihak pada blok politik tertentu (Blok Barat/Timur). Aktif berarti Indonesia ikut serta secara aktif dalam upaya mewujudkan ketertiban dan perdamaian dunia."
+      },
+      {
+        "id": "twk_069",
+        "teks": "Sikap mengutamakan gotong royong dan menyelesaikan permasalahan bersama secara kekeluargaan merupakan perwujudan Pancasila, sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Gotong royong dan mengembangkan sikap kekeluargaan erat kaitannya dengan keadilan sosial dan pemerataan bersama, yang merupakan butir pengamalan Sila Ke-5 Pancasila."
+      },
+      {
+        "id": "twk_070",
+        "teks": "Dalam sistem ketatanegaraan Indonesia, lembaga yang memiliki wewenang mengusulkan pengangkatan hakim agung kepada DPR adalah...",
+        "opsi": [
+          "Mahkamah Konstitusi",
+          "Presiden",
+          "Komisi Yudisial",
+          "Kementerian Hukum dan HAM",
+          "Majelis Kehormatan Hakim"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sesuai Pasal 24B ayat (1) UUD 1945, Komisi Yudisial berwenang mengusulkan pengangkatan hakim agung dan wewenang lain dalam rangka menjaga kehormatan keluhuran martabat hakim."
+      },
+      {
+        "id": "twk_071",
+        "teks": "Pahlawan nasional wanita yang berasal dari Aceh dan terus melakukan perlawanan bergerilya melawan Belanda bahkan setelah suaminya, Teuku Umar, wafat adalah...",
+        "opsi": [
+          "Cut Meutia",
+          "Cut Nyak Dien",
+          "Laksamana Malahayati",
+          "RA Kartini",
+          "Dewi Sartika"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Cut Nyak Dien adalah pahlawan nasional dari Aceh yang bergerilya meneruskan perjuangan melawan Belanda setelah suaminya (Teuku Umar) gugur di medan perang."
+      },
+      {
+        "id": "twk_072",
+        "teks": "Perhatikan semboyan berikut: 'Tri Komando Rakyat' (Tritura). Salah satu dari tiga tuntutan mahasiswa pada tahun 1966 tersebut adalah...",
+        "opsi": [
+          "Bubarkan PKI",
+          "Kembali ke UUD 1945",
+          "Pemilu yang bersih",
+          "Turunkan Presiden Soekarno",
+          "Pembentukan MPR"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Tiga tuntutan rakyat (Tritura) yang disuarakan KAMI/KAPPI pada 10 Januari 1966 adalah: 1) Bubarkan PKI beserta ormas-ormasnya, 2) Perombakan (Retooling) Kabinet Dwikora, 3) Turunkan harga sandang pangan."
+      },
+      {
+        "id": "twk_073",
+        "teks": "Tokoh pergerakan nasional yang memimpin delegasi Indonesia dalam Konferensi Meja Bundar (KMB) di Den Haag adalah...",
+        "opsi": [
+          "Sutan Sjahrir",
+          "Amir Sjarifuddin",
+          "Ir. Soekarno",
+          "Drs. Moh. Hatta",
+          "Mr. Moh. Roem"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Delegasi Republik Indonesia dalam perundingan Konferensi Meja Bundar (KMB) tahun 1949 dipimpin oleh Drs. Mohammad Hatta."
+      },
+      {
+        "id": "twk_074",
+        "teks": "Semangat nasionalisme yang sehat tidak boleh terjebak dalam chauvinisme. Makna chauvinisme adalah...",
+        "opsi": [
+          "Paham yang merendahkan budaya sendiri demi budaya asing",
+          "Kecintaan tanah air yang diimbangi toleransi internasional",
+          "Rasa cinta tanah air yang berlebihan dan memandang rendah bangsa lain",
+          "Sikap memisahkan agama dari urusan negara",
+          "Paham yang anti terhadap perubahan dan modernisasi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Chauvinisme adalah bentuk patriotisme/nasionalisme yang fanatik, berlebihan, dan agresif, sehingga menganggap bangsanya jauh lebih superior dan merendahkan bangsa lain."
+      },
+      {
+        "id": "twk_075",
+        "teks": "Setiap tanggal 1 Oktober, bangsa Indonesia memperingati hari bersejarah yang berkaitan dengan ideologi bangsa. Hari tersebut adalah...",
+        "opsi": [
+          "Hari Lahir Pancasila",
+          "Hari Pahlawan",
+          "Hari Kebangkitan Nasional",
+          "Hari Kesaktian Pancasila",
+          "Hari Sumpah Pemuda"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Tanggal 1 Oktober diperingati sebagai Hari Kesaktian Pancasila, sehari setelah terjadinya peristiwa pemberontakan G30S/PKI (30 September), untuk mengingat bahwa Pancasila tidak bisa digantikan oleh ideologi lain."
+      },{
+        "id": "twk_075",
+        "teks": "Setiap tanggal 1 Oktober, bangsa Indonesia memperingati hari bersejarah yang berkaitan dengan ideologi bangsa. Hari tersebut adalah...",
+        "opsi": [
+          "Hari Lahir Pancasila",
+          "Hari Pahlawan",
+          "Hari Kebangkitan Nasional",
+          "Hari Kesaktian Pancasila",
+          "Hari Sumpah Pemuda"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Tanggal 1 Oktober diperingati sebagai Hari Kesaktian Pancasila, sehari setelah terjadinya peristiwa pemberontakan G30S/PKI (30 September), untuk mengingat bahwa Pancasila tidak bisa digantikan oleh ideologi lain."
+      },
+      {
+        "id": "twk_076",
+        "teks": "Tokoh yang merancang lambang negara Indonesia, Garuda Pancasila, adalah...",
+        "opsi": [
+          "Ir. Soekarno",
+          "Mohammad Yamin",
+          "Sultan Hamid II",
+          "Ki Hajar Dewantara",
+          "Radjiman Wedyodiningrat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Lambang negara Garuda Pancasila dirancang oleh Sultan Hamid II dari Pontianak, yang kemudian disempurnakan oleh Presiden Soekarno."
+      },
+      {
+        "id": "twk_077",
+        "teks": "Ketentuan yang menyatakan bahwa fakir miskin dan anak-anak yang telantar dipelihara oleh negara diatur secara tegas dalam UUD 1945 Pasal...",
+        "opsi": [
+          "Pasal 33 ayat (1)",
+          "Pasal 33 ayat (3)",
+          "Pasal 34 ayat (1)",
+          "Pasal 34 ayat (2)",
+          "Pasal 34 ayat (3)"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan Pasal 34 ayat (1) UUD 1945, diatur bahwa fakir miskin dan anak-anak yang terlantar dipelihara oleh negara."
+      },
+      {
+        "id": "twk_078",
+        "teks": "Pada tanggal 18 Agustus 1945, PPKI menggelar sidang pertama yang menghasilkan beberapa keputusan penting, kecuali...",
+        "opsi": [
+          "Mengesahkan UUD 1945",
+          "Memilih Soekarno sebagai Presiden dan Moh. Hatta sebagai Wakil Presiden",
+          "Membentuk Komite Nasional Indonesia Pusat (KNIP)",
+          "Membentuk Badan Keamanan Rakyat (BKR)",
+          "Menetapkan rancangan dasar negara"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pembentukan Badan Keamanan Rakyat (BKR) bukan merupakan hasil sidang PPKI I (18 Agustus), melainkan hasil sidang PPKI III pada tanggal 22 Agustus 1945."
+      },
+      {
+        "id": "twk_079",
+        "teks": "Sikap suka menabung, tidak bergaya hidup mewah, dan bekerja keras merupakan cerminan pengamalan Pancasila sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Gaya hidup hemat, tidak boros, serta bekerja keras merupakan butir-butir pengamalan dari Sila ke-5 Pancasila (Keadilan Sosial bagi Seluruh Rakyat Indonesia)."
+      },
+      {
+        "id": "twk_080",
+        "teks": "Garis demarkasi imajiner yang memisahkan wilayah kedaulatan Indonesia dan wilayah pendudukan Belanda pasca Perundingan Renville dikenal dengan sebutan...",
+        "opsi": [
+          "Garis Wallace",
+          "Garis Weber",
+          "Garis Van Mook",
+          "Garis Curzon",
+          "Garis MacMahon"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Garis Van Mook adalah batas buatan yang memisahkan wilayah kekuasaan Belanda dan Republik Indonesia yang disepakati melalui Perjanjian Renville."
+      },
+      {
+        "id": "twk_081",
+        "teks": "Tujuan utama diselenggarakannya Konferensi Asia Afrika (KAA) tahun 1955 di Bandung adalah...",
+        "opsi": [
+          "Membangun pakta pertahanan militer bersama di Asia-Afrika",
+          "Membentuk organisasi kerja sama ekonomi regional",
+          "Membangun solidaritas negara Asia-Afrika melawan kolonialisme",
+          "Memilih ketua Gerakan Non-Blok pertama",
+          "Menggalang dana untuk pembangunan negara-negara miskin"
+        ],
+        "jawaban": 2,
+        "pembahasan": "KAA 1955 diselenggarakan untuk memajukan kerja sama bangsa-bangsa Asia dan Afrika, serta menentang dan memberantas segala bentuk kolonialisme dan imperialisme."
+      },
+      {
+        "id": "twk_082",
+        "teks": "Lembaga negara yang memiliki kewenangan untuk memutus sengketa kewenangan antar lembaga negara yang kewenangannya diberikan oleh UUD adalah...",
+        "opsi": [
+          "Mahkamah Agung",
+          "Mahkamah Konstitusi",
+          "Komisi Yudisial",
+          "Majelis Permusyawaratan Rakyat",
+          "Pengadilan Tata Usaha Negara"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan Pasal 24C UUD 1945, Mahkamah Konstitusi berwenang memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh UUD."
+      },
+      {
+        "id": "twk_083",
+        "teks": "Asas pemilu di Indonesia adalah LUBER JURDIL. Yang dimaksud dengan asas 'Umum' adalah...",
+        "opsi": [
+          "Setiap pemilih berhak memberikan suaranya tanpa perantara",
+          "Berlaku bagi semua warga negara yang memenuhi syarat tanpa diskriminasi",
+          "Pemilih dijamin kerahasiaan pilihannya",
+          "Masyarakat dapat mengawasi jalannya pemilu",
+          "Peserta pemilu mendapatkan perlakuan yang sama"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Asas 'Umum' berarti pemilihan umum berlaku bagi semua warga negara yang telah memenuhi syarat tanpa ada diskriminasi suku, agama, ras, golongan, jenis kelamin, kedaerahan, dll."
+      },
+      {
+        "id": "twk_084",
+        "teks": "Perubahan sila pertama Piagam Jakarta menjadi 'Ketuhanan Yang Maha Esa' dilatarbelakangi oleh...",
+        "opsi": [
+          "Desakan dari pemerintah pendudukan Jepang",
+          "Permintaan dari golongan ulama",
+          "Keberatan dari perwakilan rakyat Indonesia wilayah Timur demi menjaga persatuan bangsa",
+          "Adanya ancaman blokade ekonomi dari Sekutu",
+          "Kesepakatan spontan antara Soekarno dan Hatta tanpa pertimbangan lain"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perubahan tersebut diusulkan oleh Moh. Hatta setelah menerima aspirasi/keberatan dari perwakilan Indonesia Timur agar bangsa Indonesia yang majemuk tetap bersatu."
+      },
+      {
+        "id": "twk_085",
+        "teks": "Pemberontakan Pemerintahan Revolusioner Republik Indonesia (PRRI) di Sumatera Barat pada tahun 1958 dipimpin oleh...",
+        "opsi": [
+          "Kahar Muzakkar",
+          "Andi Azis",
+          "Ahmad Husein",
+          "Daud Beureueh",
+          "S.M. Kartosuwiryo"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pemberontakan PRRI di Sumatera dipimpin oleh Letkol Ahmad Husein yang mendeklarasikan berdirinya PRRI pada 15 Februari 1958."
+      },
+      {
+        "id": "twk_086",
+        "teks": "Pancasila berkedudukan sebagai dasar negara dan ideologi nasional. Sebagai dasar negara, fungsi utamanya adalah...",
+        "opsi": [
+          "Menjadi pedoman perilaku individu sehari-hari",
+          "Menjadi sumber dari segala sumber hukum negara",
+          "Menjadi alat tawar diplomasi internasional",
+          "Sebagai pedoman penyusunan anggaran negara",
+          "Sebagai identitas kebanggaan bangsa di dunia internasional"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Fungsi Pancasila sebagai dasar negara adalah menjadi sumber dari segala sumber hukum, di mana seluruh peraturan perundang-undangan harus merujuk dan tidak boleh bertentangan dengan Pancasila."
+      },
+      {
+        "id": "twk_087",
+        "teks": "Hak DPR untuk melakukan penyelidikan terhadap pelaksanaan suatu undang-undang atau kebijakan pemerintah yang strategis dan berdampak luas disebut hak...",
+        "opsi": [
+          "Interpelasi",
+          "Inisiatif",
+          "Angket",
+          "Imunitas",
+          "Amandemen"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hak Angket adalah hak DPR untuk melakukan penyelidikan. Hak Interpelasi adalah hak meminta keterangan. Hak Imunitas adalah kekebalan hukum dalam menjalankan tugas."
+      },
+      {
+        "id": "twk_088",
+        "teks": "Menjaga kerukunan antarumat beragama dan tidak memaksakan agama atau kepercayaan kepada orang lain merupakan wujud pengamalan sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Membina kerukunan hidup, toleransi antarumat beragama, dan tidak memaksakan agama adalah nilai dari Sila ke-1 (Ketuhanan Yang Maha Esa)."
+      },
+      {
+        "id": "twk_089",
+        "teks": "Makna pokok dari prinsip <i>Archipelagic State</i> (Negara Kepulauan) yang ditegaskan dalam Deklarasi Djuanda 1957 adalah...",
+        "opsi": [
+          "Laut dikuasai oleh militer secara penuh",
+          "Pulau-pulau di Indonesia berhak memiliki otonomi khusus",
+          "Laut di antara pulau-pulau adalah penghubung dan kesatuan wilayah, bukan pemisah",
+          "Setiap pulau berdaulat menentukan batas perairannya sendiri",
+          "Laut bebas boleh dimasuki oleh armada asing kapan saja"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deklarasi Djuanda merubah konsep laut sebagai pemisah antar pulau menjadi laut sebagai penghubung yang menyatukan pulau-pulau di Indonesia menjadi satu kesatuan NKRI utuh."
+      },
+      {
+        "id": "twk_090",
+        "teks": "Organisasi pergerakan Budi Utomo didirikan oleh para mahasiswa STOVIA. Tokoh yang merupakan pencetus ide awal berdirinya Budi Utomo adalah...",
+        "opsi": [
+          "Soetomo",
+          "Cipto Mangunkusumo",
+          "Suwardi Suryaningrat",
+          "dr. Wahidin Sudirohusodo",
+          "Tirto Adhi Soerjo"
+        ],
+        "jawaban": 3,
+        "pembahasan": "dr. Wahidin Sudirohusodo adalah inspirator/pencetus ide yang berkeliling Jawa untuk mengumpulkan dana pendidikan (studiefonds), yang kemudian menginspirasi Sutomo dan mahasiswa STOVIA mendirikan Budi Utomo."
+      },
+      {
+        "id": "twk_091",
+        "teks": "Kongres Pemuda II yang melahirkan Sumpah Pemuda pada tanggal 28 Oktober 1928 diketuai oleh...",
+        "opsi": [
+          "Mohammad Yamin",
+          "Sugondo Djojopuspito",
+          "Amir Sjarifuddin",
+          "W.R. Supratman",
+          "Djoko Marsaid"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ketua panitia Kongres Pemuda II adalah Sugondo Djojopuspito (dari PPPI), dengan wakil Djoko Marsaid (Jong Java), dan sekretaris Mohammad Yamin (Jong Sumatranen Bond)."
+      },
+      {
+        "id": "twk_092",
+        "teks": "Berdasarkan Pasal 23E UUD 1945, Badan Pemeriksa Keuangan (BPK) wajib menyerahkan hasil pemeriksaan atas pengelolaan dan tanggung jawab keuangan negara kepada...",
+        "opsi": [
+          "Presiden dan Wakil Presiden",
+          "Menteri Keuangan",
+          "KPK dan Kejaksaan",
+          "DPR, DPD, dan DPRD",
+          "Mahkamah Agung"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sesuai Pasal 23E ayat (2) UUD 1945, hasil pemeriksaan keuangan negara diserahkan kepada Dewan Perwakilan Rakyat (DPR), Dewan Perwakilan Daerah (DPD), dan Dewan Perwakilan Rakyat Daerah (DPRD) sesuai kewenangannya."
+      },
+      {
+        "id": "twk_093",
+        "teks": "Menurut UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan, tata urutan peraturan perundang-undangan yang posisinya tepat di bawah UUD 1945 adalah...",
+        "opsi": [
+          "Undang-Undang / Perpu",
+          "Ketetapan MPR",
+          "Peraturan Presiden",
+          "Peraturan Pemerintah",
+          "Peraturan Daerah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan Pasal 7 UU No. 12 Tahun 2011, hierarkinya adalah: UUD 1945 -> Ketetapan MPR -> UU/Perpu -> Peraturan Pemerintah -> Peraturan Presiden -> Perda Provinsi -> Perda Kab/Kota."
+      },
+      {
+        "id": "twk_094",
+        "teks": "Cita-cita nasional bangsa Indonesia yaitu mewujudkan negara yang 'merdeka, bersatu, berdaulat, adil, dan makmur' secara eksplisit tercantum dalam Pembukaan UUD 1945 alinea ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Satu dan Empat"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Alinea Kedua berbunyi: 'Dan perjuangan pergerakan kemerdekaan Indonesia telah sampailah kepada saat yang berbahagia dengan selamat sentausa mengantarkan rakyat Indonesia ke depan pintu gerbang kemerdekaan negara Indonesia, yang merdeka, bersatu, berdaulat, adil dan makmur.'"
+      },
+      {
+        "id": "twk_095",
+        "teks": "Peran aktif Indonesia di kawasan Asia Tenggara dibuktikan dengan menjadi salah satu pelopor berdirinya ASEAN pada 8 Agustus 1967. Deklarasi pembentukan ASEAN tersebut ditandatangani di kota...",
+        "opsi": [
+          "Jakarta",
+          "Kuala Lumpur",
+          "Singapura",
+          "Manila",
+          "Bangkok"
+        ],
+        "jawaban": 4,
+        "pembahasan": "ASEAN didirikan melalui penandatanganan Deklarasi Bangkok (Bangkok Declaration) di Thailand oleh 5 perwakilan negara pendiri."
+      },
+      {
+        "id": "twk_096",
+        "teks": "Sistem pemerintahan di mana menteri-menteri diangkat, diberhentikan, dan hanya bertanggung jawab kepada Presiden (bukan kepada parlemen/DPR) disebut sistem pemerintahan...",
+        "opsi": [
+          "Parlementer",
+          "Presidensial",
+          "Monarki Absolut",
+          "Republik Konstitusional",
+          "Federalis"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pada sistem pemerintahan Presidensial, presiden berkedudukan sebagai kepala negara sekaligus kepala pemerintahan, dan menteri-menteri bertanggung jawab penuh kepadanya, bukan kepada parlemen."
+      },
+      {
+        "id": "twk_097",
+        "teks": "KPK menetapkan sembilan nilai integritas antikorupsi. Salah satu nilai tersebut adalah 'Berani'. Contoh perwujudan sikap berani dalam integritas antikorupsi di lingkungan kerja adalah...",
+        "opsi": [
+          "Berani mengambil risiko bisnis yang tinggi tanpa perhitungan",
+          "Berani melaporkan rekan kerja yang melakukan tindak kecurangan atau korupsi",
+          "Berani menolak tugas dari atasan karena merasa tidak sesuai jobdesk",
+          "Berani datang terlambat karena memiliki jabatan tinggi",
+          "Berani meminjam uang kas kantor untuk keperluan pribadi yang mendesak"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Nilai integritas 'Berani' diwujudkan melalui sikap berani menegakkan kebenaran, seperti berani menolak suap dan berani melaporkan indikasi kecurangan (whistleblowing)."
+      },
+      {
+        "id": "twk_098",
+        "teks": "Negara menghormati dan memelihara bahasa daerah sebagai kekayaan budaya nasional. Ketentuan mengenai perlindungan bahasa daerah ini secara khusus diatur dalam UUD 1945 Pasal...",
+        "opsi": [
+          "Pasal 31 ayat (1)",
+          "Pasal 32 ayat (1)",
+          "Pasal 32 ayat (2)",
+          "Pasal 36",
+          "Pasal 36A"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasal 32 ayat (2) UUD 1945 menyatakan: 'Negara menghormati dan memelihara bahasa daerah sebagai kekayaan budaya nasional.'"
+      },
+      {
+        "id": "twk_099",
+        "teks": "Sistem pemerintahan pertama yang diterapkan di Indonesia tak lama setelah kemerdekaan (pada bulan Agustus hingga November 1945) adalah sistem...",
+        "opsi": [
+          "Parlementer",
+          "Presidensial",
+          "Semi-Parlementer",
+          "Komunis",
+          "Serikat"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pada masa awal kemerdekaan (Agustus - 14 November 1945), Indonesia menganut sistem pemerintahan Presidensial sebelum akhirnya diubah menjadi sistem Parlementer melalui Maklumat Pemerintah 14 November 1945."
+      },
+      {
+        "id": "twk_100",
+        "teks": "Sikap selektif terhadap informasi di media sosial agar tidak mudah terpancing hoaks yang dapat memecah belah persatuan bangsa merupakan bentuk pengamalan Pancasila sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Menyaring informasi atau hoaks yang berpotensi memecah belah persatuan dan kesatuan bangsa adalah perwujudan langsung dari pengamalan Sila Ke-3 Pancasila (Persatuan Indonesia)."
+      },
+      {
+        "id": "twk_101",
+        "teks": "Panitia kecil yang dibentuk oleh BPUPKI untuk merumuskan dasar negara yang kemudian menghasilkan Piagam Jakarta (Jakarta Charter) diketuai oleh...",
+        "opsi": [
+          "Drs. Mohammad Hatta",
+          "Mr. Mohammad Yamin",
+          "Ir. Soekarno",
+          "K.H. Wahid Hasyim",
+          "A.A. Maramis"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Panitia Sembilan dibentuk pada masa reses sidang BPUPKI pertama dan diketuai oleh Ir. Soekarno. Panitia ini menghasilkan rancangan Pembukaan UUD yang dikenal sebagai Piagam Jakarta."
+      },
+      {
+        "id": "twk_102",
+        "teks": "Asas kewarganegaraan yang menentukan kewarganegaraan seseorang berdasarkan keturunan atau pertalian darah (tanpa mengindahkan di mana ia dilahirkan) disebut...",
+        "opsi": [
+          "Ius Soli",
+          "Ius Sanguinis",
+          "Bipatride",
+          "Apatride",
+          "Naturalisasi"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ius Sanguinis (asas keturunan) menetapkan kewarganegaraan berdasarkan darah/keturunan orang tuanya. Ius Soli (asas kedaerahan) menetapkan berdasarkan tempat kelahiran."
+      },
+      {
+        "id": "twk_103",
+        "teks": "Pancasila berfungsi sebagai <i>Leitstar</i> yang dinamis. Makna dari istilah tersebut adalah...",
+        "opsi": [
+          "Sebagai pedoman hukum tertinggi yang kaku dan statis",
+          "Sebagai bintang penunjuk arah kehidupan bangsa yang terus berkembang",
+          "Sebagai alat pemersatu bangsa saat masa penjajahan",
+          "Sebagai ideologi yang tertutup dari pengaruh globalisasi",
+          "Sebagai dasar untuk membatasi kebebasan berpendapat"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Leitstar bermakna 'bintang pemandu' atau penunjuk arah. Sifatnya yang dinamis berarti Pancasila mampu menuntun bangsa Indonesia menghadapi perkembangan zaman tanpa kehilangan nilai hakikinya."
+      },
+      {
+        "id": "twk_104",
+        "teks": "KPK menyebutkan bahwa tindak pidana korupsi bermula dari hilangnya integritas diri. Salah satu nilai dasar antikorupsi adalah sikap tidak bergantung pada orang lain, yang disebut...",
+        "opsi": [
+          "Jujur",
+          "Berani",
+          "Sederhana",
+          "Mandiri",
+          "Adil"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Mandiri adalah salah satu dari 9 nilai integritas KPK, yang berarti mampu menyelesaikan tugas dan tanggung jawab tanpa harus selalu bergantung atau menyusahkan orang lain."
+      },
+      {
+        "id": "twk_105",
+        "teks": "Pada masa sebelum amandemen UUD 1945, kekuasaan membentuk undang-undang (legislatif) berada di tangan Presiden. Setelah amandemen, kekuasaan tersebut secara penuh diserahkan kepada...",
+        "opsi": [
+          "Majelis Permusyawaratan Rakyat (MPR)",
+          "Dewan Perwakilan Daerah (DPD)",
+          "Dewan Perwakilan Rakyat (DPR)",
+          "Mahkamah Konstitusi (MK)",
+          "Mahkamah Agung (MA)"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Amandemen UUD 1945 menggeser <i>legislative heavy</i> (kekuasaan legislatif dominan di Presiden) menjadi kewenangan utama DPR, sesuai dengan Pasal 20 ayat (1) UUD 1945."
+      },
+      {
+        "id": "twk_106",
+        "teks": "Dalam Sistem Pertahanan dan Keamanan Rakyat Semesta (Sishankamrata), pihak yang bertindak sebagai kekuatan utama adalah...",
+        "opsi": [
+          "Seluruh Rakyat Indonesia",
+          "Tentara Nasional Indonesia (TNI) dan Polri",
+          "Menteri Pertahanan",
+          "Presiden",
+          "Badan Intelijen Negara (BIN)"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan Pasal 30 ayat (2) UUD 1945, pertahanan dan keamanan negara dilaksanakan melalui Sishankamrata oleh TNI dan Kepolisian Negara Republik Indonesia sebagai kekuatan utama, dan rakyat sebagai kekuatan pendukung."
+      },
+      {
+        "id": "twk_107",
+        "teks": "Menurut Prof. Notonagoro, Pancasila digali dari nilai-nilai luhur adat istiadat, kebudayaan, dan agama bangsa Indonesia sendiri. Berdasarkan teori kausalitas, hal ini disebut sebagai...",
+        "opsi": [
+          "Causa Materialis",
+          "Causa Formalis",
+          "Causa Efisien",
+          "Causa Finalis",
+          "Causa Objektif"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Causa Materialis (asal mula bahan) berarti bahan dasar Pancasila digali dari bangsa Indonesia itu sendiri. (Formalis = bentuk/rumusan, Efisien = karya/BPUPKI, Finalis = tujuan dijadikan dasar negara)."
+      },
+      {
+        "id": "twk_108",
+        "teks": "Rela berkorban demi kepentingan negara dan bangsa, serta mengembangkan rasa kebanggaan berkebangsaan dan bertanah air Indonesia merupakan perwujudan Pancasila sila ke-...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rela berkorban untuk bangsa dan negara, serta cinta tanah air merupakan butir-butir pengamalan dari Sila ke-3 (Persatuan Indonesia)."
+      },
+      {
+        "id": "twk_109",
+        "teks": "Salah satu hasil penting dari Perjanjian Roem-Royen yang ditandatangani pada tanggal 7 Mei 1949 adalah...",
+        "opsi": [
+          "Pengakuan kedaulatan RI secara penuh oleh Belanda",
+          "Penyerahan Irian Barat kepada Indonesia",
+          "Pengembalian ibu kota RI ke Yogyakarta dan pembebasan para pemimpin RI",
+          "Pembentukan Republik Indonesia Serikat (RIS)",
+          "Penarikan seluruh tentara sekutu dari Indonesia"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perjanjian Roem-Royen menyepakati berhentinya perang gerilya, kembalinya pemerintah RI ke Yogyakarta, serta kesediaan Belanda membebaskan Soekarno-Hatta yang sebelumnya ditawan."
+      },
+      {
+        "id": "twk_110",
+        "teks": "Menurut Pasal 1 ayat (3) UUD 1945, Negara Indonesia adalah negara hukum. Ciri utama dari sebuah negara hukum (<i>rechtsstaat</i>) adalah...",
+        "opsi": [
+          "Hukum dibuat untuk melindungi penguasa",
+          "Hanya pejabat yang memiliki kekebalan hukum",
+          "Hukum berada di bawah kendali lembaga politik",
+          "Adanya supremasi hukum di mana semua warga setara di mata hukum",
+          "Hukum adat lebih tinggi derajatnya daripada konstitusi"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Ciri negara hukum adalah adanya supremasi hukum (hukum sebagai kekuasaan tertinggi), kesetaraan di hadapan hukum (equality before the law), dan jaminan penegakan Hak Asasi Manusia."
+      },
+      {
+        "id": "twk_111",
+        "teks": "Untuk mewujudkan peradilan yang bersih dan bermartabat, UUD 1945 mengamanatkan pembentukan lembaga yang mengawasi perilaku hakim dan mengusulkan pengangkatan hakim agung. Lembaga tersebut adalah...",
+        "opsi": [
+          "Mahkamah Konstitusi",
+          "Komisi Yudisial",
+          "Kejaksaan Agung",
+          "Kementerian Hukum dan Hak Asasi Manusia",
+          "Komisi Pemberantasan Korupsi"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Komisi Yudisial (KY) berwenang mengusulkan pengangkatan hakim agung serta menjaga dan menegakkan kehormatan, keluhuran martabat, serta perilaku hakim."
+      },
+      {
+        "id": "twk_112",
+        "teks": "Sumpah Pemuda pada 28 Oktober 1928 memiliki nilai filosofis yang sangat tinggi bagi pergerakan kemerdekaan Indonesia karena...",
+        "opsi": [
+          "Memulai perlawanan bersenjata serentak di seluruh Nusantara",
+          "Mengakhiri masa penjajahan Belanda secara de facto",
+          "Mengubah pergerakan yang bersifat kedaerahan menjadi pergerakan persatuan nasional",
+          "Mendirikan negara Republik Indonesia yang merdeka",
+          "Merumuskan dasar negara Pancasila"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sumpah Pemuda menjadi tonggak penting karena berhasil menyatukan organisasi-organisasi pemuda yang awalnya bersifat kedaerahan menjadi satu kesatuan perjuangan nasional."
+      },
+      {
+        "id": "twk_113",
+        "teks": "Sistem kabinet presidensial di Indonesia ditegaskan dalam UUD 1945, yang menyatakan bahwa Presiden memegang kekuasaan pemerintahan menurut UUD. Hal ini tertuang dalam pasal...",
+        "opsi": [
+          "Pasal 2",
+          "Pasal 3",
+          "Pasal 4 ayat (1)",
+          "Pasal 5 ayat (2)",
+          "Pasal 7"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasal 4 ayat (1) UUD 1945 berbunyi: 'Presiden Republik Indonesia memegang kekuasaan pemerintahan menurut Undang-Undang Dasar', yang menegaskan sistem presidensial di Indonesia."
+      },
+      {
+        "id": "twk_114",
+        "teks": "Mengembangkan sikap tenggang rasa dan <i>tepa selira</i> agar tidak bertindak semena-mena terhadap orang lain merupakan bentuk pengamalan Pancasila sila ke-...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sikap tenggang rasa dan tepa selira (menjaga perasaan orang lain) adalah nilai-nilai kemanusiaan yang adil dan beradab (Sila ke-2)."
+      },
+      {
+        "id": "twk_115",
+        "teks": "Pemberian Grasi dan Rehabilitasi merupakan hak prerogatif Presiden. Namun, menurut UUD 1945 setelah amandemen, Presiden harus memperhatikan pertimbangan dari...",
+        "opsi": [
+          "Majelis Permusyawaratan Rakyat",
+          "Dewan Perwakilan Rakyat",
+          "Mahkamah Agung",
+          "Mahkamah Konstitusi",
+          "Menteri Hukum dan HAM"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sesuai Pasal 14 ayat (1) UUD 1945, Presiden memberi grasi dan rehabilitasi dengan memperhatikan pertimbangan Mahkamah Agung."
+      },
+      {
+        "id": "twk_116",
+        "teks": "Sebelum pelaksanaan Konferensi Meja Bundar (KMB), para pemimpin Republik Indonesia mengadakan Konferensi Inter-Indonesia yang bertujuan untuk...",
+        "opsi": [
+          "Mendapat dukungan dari negara-negara Asia Afrika",
+          "Menyatukan pandangan dan sikap antara pihak RI dan BFO (Bijeenkomst voor Federaal Overleg) dalam menghadapi Belanda",
+          "Menyusun strategi perlawanan gerilya melawan sekutu",
+          "Menentukan mata uang tunggal Republik Indonesia",
+          "Membentuk angkatan perang gabungan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Konferensi Inter-Indonesia (Juli - Agustus 1949) diadakan untuk membangun kesepakatan front nasional antara RI dan negara-negara bagian bentukan Belanda (BFO) sebelum berhadapan dengan Belanda di KMB."
+      },
+      {
+        "id": "twk_117",
+        "teks": "Kemerdekaan berserikat dan berkumpul, serta mengeluarkan pikiran dengan lisan dan tulisan diatur dan dijamin dalam UUD 1945 pasal...",
+        "opsi": [
+          "Pasal 27",
+          "Pasal 28",
+          "Pasal 29",
+          "Pasal 30",
+          "Pasal 31"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pasal 28 UUD 1945 menetapkan: 'Kemerdekaan berserikat dan berkumpul, mengeluarkan pikiran dengan lisan dan tulisan dan sebagainya ditetapkan dengan undang-undang.'"
+      },
+      {
+        "id": "twk_118",
+        "teks": "Tindakan tidak memaksakan suatu agama dan kepercayaan terhadap Tuhan Yang Maha Esa kepada orang lain adalah penerapan nilai Pancasila, yaitu sila...",
+        "opsi": [
+          "Pertama",
+          "Kedua",
+          "Ketiga",
+          "Keempat",
+          "Kelima"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Tidak memaksakan agama dan menghormati kebebasan beragama merupakan butir pengamalan dari Sila Pertama (Ketuhanan Yang Maha Esa)."
+      },
+      {
+        "id": "twk_119",
+        "teks": "Dalam pelaksanaan Pemilihan Umum di Indonesia dikenal asas LUBER dan JURDIL. Makna dari asas 'Adil' adalah...",
+        "opsi": [
+          "Pemilih memberikan suaranya secara langsung tanpa diwakilkan",
+          "Setiap pemilih dan peserta pemilu mendapat perlakuan yang sama tanpa diskriminasi atau kecurangan",
+          "Pemilih dapat memilih kapan pun ia mau",
+          "Hanya partai besar yang mendapatkan porsi suara terbanyak",
+          "Pemilu tidak memerlukan pengawasan internasional"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Asas 'Adil' menjamin setiap pemilih dan penyelenggara/peserta pemilu mendapat perlakuan yang setara serta bebas dari kecurangan pihak mana pun."
+      },
+      {
+        "id": "twk_120",
+        "teks": "Dalam Pembukaan UUD 1945, disebutkan empat tujuan negara Indonesia. Tujuan negara yang berkaitan erat dengan peran aktif Indonesia di kancah global adalah...",
+        "opsi": [
+          "Melindungi segenap bangsa Indonesia",
+          "Memajukan kesejahteraan umum",
+          "Mencerdaskan kehidupan bangsa",
+          "Ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial",
+          "Mewujudkan negara kepulauan yang mandiri"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Tujuan keempat (ikut melaksanakan ketertiban dunia...) menjadi landasan konstitusional bagi politik luar negeri Indonesia yang bebas aktif dalam perdamaian global."
+      },
+      {
+        "id": "twk_121",
+        "teks": "Perlawanan heroik rakyat Bali terhadap pemerintah Hindia Belanda pada pertengahan abad ke-19 yang dipimpin oleh I Gusti Ketut Jelantik dan pasukannya hingga titik darah penghabisan dikenal dengan nama...",
+        "opsi": [
+          "Perang Padri",
+          "Perang Banjar",
+          "Perang Puputan Jagaraga",
+          "Perang Puputan Margarana",
+          "Perang Saparua"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perang Puputan Jagaraga (1846-1849) dipimpin oleh Patih I Gusti Ketut Jelantik dari Kerajaan Buleleng menentang penghapusan Hak Tawan Karang oleh Belanda."
+      },
+      {
+        "id": "twk_122",
+        "teks": "Ketentuan yang mewajibkan Anggaran Pendapatan dan Belanja Negara (APBN) ditetapkan setiap tahun dengan undang-undang dan dilaksanakan secara terbuka serta bertanggung jawab untuk kemakmuran rakyat terdapat dalam UUD 1945 Pasal...",
+        "opsi": [
+          "Pasal 22D",
+          "Pasal 23 ayat (1)",
+          "Pasal 23B",
+          "Pasal 27 ayat (2)",
+          "Pasal 33 ayat (1)"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pasal 23 ayat (1) UUD 1945 secara rinci mengatur tentang APBN sebagai wujud pengelolaan keuangan negara yang ditetapkan setiap tahun untuk sebesar-besarnya kemakmuran rakyat."
+      },
+      {
+        "id": "twk_123",
+        "teks": "Jaminan bahwa 'Setiap orang berhak atas pengakuan, jaminan, perlindungan, dan kepastian hukum yang adil serta perlakuan yang sama di hadapan hukum' termaktub secara spesifik di dalam UUD 1945 pasal...",
+        "opsi": [
+          "Pasal 28A",
+          "Pasal 28B",
+          "Pasal 28C",
+          "Pasal 28D ayat (1)",
+          "Pasal 28E"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pasal 28D ayat (1) mengatur tentang kepastian hukum yang adil dan persamaan kedudukan di hadapan hukum (equality before the law)."
+      },
+      {
+        "id": "twk_124",
+        "teks": "Kondisi di mana masyarakat yang memiliki perbedaan etnis, budaya, dan agama dapat hidup berdampingan secara damai dan menghargai perbedaan tersebut tanpa harus menghilangkan identitas asli masing-masing disebut...",
+        "opsi": [
+          "Asimilasi",
+          "Amalgamasi",
+          "Multikulturalisme",
+          "Etnosentrisme",
+          "Chauvinisme"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Multikulturalisme menghargai keanekaragaman (pluralitas) budaya sebagai sesuatu yang setara dan hidup berdampingan. Berbeda dengan asimilasi yang meleburkan identitas hingga membentuk yang baru."
+      },
+      {
+        "id": "twk_125",
+        "teks": "Pengadilan Hak Asasi Manusia (Pengadilan HAM) dibentuk untuk mengadili pelanggaran HAM berat. Pengadilan ini merupakan pengadilan khusus yang berada pada lingkungan peradilan...",
+        "opsi": [
+          "Peradilan Militer",
+          "Peradilan Tata Usaha Negara",
+          "Peradilan Umum",
+          "Peradilan Agama",
+          "Peradilan Adat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan UU No. 26 Tahun 2000, Pengadilan HAM adalah pengadilan khusus terhadap pelanggaran hak asasi manusia yang berat yang dibentuk di lingkungan Peradilan Umum."
+      },
+      {
+        "id": "twk_126",
+        "teks": "Pahlawan Nasional dari Maluku yang memimpin perlawanan rakyat melawan Belanda di Saparua pada tahun 1817 adalah...",
+        "opsi": [
+          "Sultan Hasanuddin",
+          "Pangeran Diponegoro",
+          "Tuanku Imam Bonjol",
+          "Kapitan Pattimura",
+          "Teuku Umar"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kapitan Pattimura (Thomas Matulessy) adalah pahlawan dari Maluku yang memimpin perlawanan terhadap monopoli rempah-rempah Belanda di Saparua pada tahun 1817."
+      },
+      {
+        "id": "twk_127",
+        "teks": "Sesuai dengan Pasal 24C UUD 1945, lembaga yang berwenang untuk memutus perselisihan tentang hasil Pemilihan Umum adalah...",
+        "opsi": [
+          "Mahkamah Agung",
+          "Komisi Pemilihan Umum",
+          "Badan Pengawas Pemilu",
+          "Mahkamah Konstitusi",
+          "Komisi Yudisial"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Mahkamah Konstitusi (MK) memiliki kewenangan antara lain memutus sengketa kewenangan lembaga negara, memutus pembubaran partai politik, dan memutus perselisihan tentang hasil Pemilihan Umum."
+      },
+      {
+        "id": "twk_128",
+        "teks": "Tujuan utama dari pemberontakan Gerakan 30 September (G30S/PKI) tahun 1965 adalah...",
+        "opsi": [
+          "Mengganti dasar negara Pancasila dengan ideologi Komunis",
+          "Memisahkan diri dari Negara Kesatuan Republik Indonesia",
+          "Membentuk negara serikat yang lepas dari campur tangan Barat",
+          "Menurunkan Soeharto dari jabatan militernya",
+          "Menyatukan seluruh militer di bawah satu komando pusat"
+        ],
+        "jawaban": 0,
+        "pembahasan": "G30S/PKI bertujuan untuk menggulingkan pemerintahan Presiden Soekarno dan mengubah ideologi negara dari Pancasila menjadi ideologi Komunis."
+      },
+      {
+        "id": "twk_129",
+        "teks": "Kabinet pertama Republik Indonesia yang dibentuk pada tanggal 2 September 1945 menganut sistem...",
+        "opsi": [
+          "Parlementer",
+          "Presidensial",
+          "Semi-Parlementer",
+          "Semi-Presidensial",
+          "Demokrasi Terpimpin"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kabinet pertama RI adalah Kabinet Presidensial, di mana Presiden Soekarno bertindak sebagai kepala negara sekaligus kepala pemerintahan (kabinet langsung bertanggung jawab kepada presiden)."
+      },
+      {
+        "id": "twk_130",
+        "teks": "Seorang anak yang lahir di negara B yang menganut asas <i>Ius Sanguinis</i>, dari orang tua yang berasal dari negara A yang menganut asas <i>Ius Soli</i>. Maka status kewarganegaraan anak tersebut adalah...",
+        "opsi": [
+          "Bipatride (Kewarganegaraan ganda)",
+          "Apatride (Tanpa kewarganegaraan)",
+          "Mengikuti kewarganegaraan ibu",
+          "Mengikuti kewarganegaraan ayah",
+          "Bebas memilih setelah usia 18 tahun"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Apatride terjadi karena negara B (Ius Sanguinis) tidak mengakuinya (karena bukan keturunan warganya), dan negara A (Ius Soli) juga tidak mengakuinya (karena lahir di luar wilayahnya). Hasilnya anak tersebut tidak memiliki kewarganegaraan."
+      },
+      {
+        "id": "twk_131",
+        "teks": "Sikap tidak membeda-bedakan teman berdasarkan suku, ras, atau agama di tempat kerja merupakan wujud penerapan Pancasila sila ke-...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Meskipun sekilas berkaitan dengan keadilan atau kemanusiaan, namun 'tidak membeda-bedakan suku/ras' demi persatuan erat kaitannya dengan Sila Ke-3 (Persatuan Indonesia)."
+      },
+      {
+        "id": "twk_132",
+        "teks": "Konferensi Asia Afrika (KAA) yang diselenggarakan di Bandung pada tahun 1955 menghasilkan 10 prinsip dasar untuk memajukan perdamaian dan kerja sama dunia, yang dikenal dengan sebutan...",
+        "opsi": [
+          "Piagam Jakarta",
+          "Pancasila",
+          "Dasasila Bandung",
+          "Deklarasi Bangkok",
+          "Trisakti"
+        ],
+        "jawaban": 2,
+        "pembahasan": "KAA 1955 menghasilkan kesepakatan yang tertuang dalam 'Dasasila Bandung', yang berisi prinsip-prinsip penghormatan terhadap kedaulatan dan integritas teritorial setiap bangsa."
+      },
+      {
+        "id": "twk_133",
+        "teks": "Lembaga penyelenggara Pemilu di Indonesia bersifat nasional, tetap, dan mandiri yang terdiri dari...",
+        "opsi": [
+          "KPU, Bawaslu, dan MK",
+          "KPU, Bawaslu, dan DKPP",
+          "KPU, DPR, dan MK",
+          "Bawaslu, MK, dan KY",
+          "KPU, MA, dan MK"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penyelenggara pemilu di Indonesia adalah Komisi Pemilihan Umum (KPU), Badan Pengawas Pemilihan Umum (Bawaslu), dan Dewan Kehormatan Penyelenggara Pemilu (DKPP)."
+      },
+      {
+        "id": "twk_134",
+        "teks": "Berdasarkan Pasal 11 ayat (1) UUD 1945, Presiden dengan persetujuan Dewan Perwakilan Rakyat (DPR) menyatakan...",
+        "opsi": [
+          "Undang-undang dan Peraturan Pemerintah",
+          "Keadaan darurat militer",
+          "Perang, membuat perdamaian dan perjanjian dengan negara lain",
+          "Pengangkatan Duta dan Konsul",
+          "Pemberian Grasi, Amnesti, dan Abolisi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasal 11 ayat (1) berbunyi: 'Presiden dengan persetujuan Dewan Perwakilan Rakyat menyatakan perang, membuat perdamaian dan perjanjian dengan negara lain.'"
+      },
+      {
+        "id": "twk_135",
+        "teks": "Pada saat Agresi Militer Belanda II (Desember 1948), para pemimpin RI di Yogyakarta ditawan. Untuk memastikan pemerintahan tetap berjalan, dibentuklah Pemerintahan Darurat Republik Indonesia (PDRI) yang berkedudukan di...",
+        "opsi": [
+          "Surakarta",
+          "Bukittinggi",
+          "Madiun",
+          "Bandung",
+          "Aceh"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Syafruddin Prawiranegara memimpin PDRI (Pemerintahan Darurat Republik Indonesia) di Bukittinggi, Sumatera Barat, ketika Soekarno-Hatta ditawan di Yogyakarta."
+      },
+      {
+        "id": "twk_136",
+        "teks": "Perbuatan merusak fasilitas umum saat melakukan demonstrasi merupakan tindakan yang bertentangan dengan Pancasila, khususnya sila ke-...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Merusak fasilitas umum bertentangan dengan Sila ke-5 karena melanggar hak orang lain dan merugikan kepentingan umum demi mencapai tujuan sekelompok pihak."
+      },
+      {
+        "id": "twk_137",
+        "teks": "Pancasila memiliki fungsi sebagai <i>Philosophische Grondslag</i>. Istilah ini bermakna bahwa Pancasila adalah...",
+        "opsi": [
+          "Falsafah atau dasar filsafat negara",
+          "Pandangan hidup beragama",
+          "Hukum pidana tertinggi",
+          "Ideologi internasional",
+          "Landasan ekonomi bangsa"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Istilah <i>Philosophische Grondslag</i> (bahasa Belanda) yang disebut oleh Soekarno berarti dasar, filsafat, atau pemikiran sedalam-dalamnya yang menjadi landasan berdirinya negara Indonesia."
+      },
+      {
+        "id": "twk_138",
+        "teks": "Salah satu prinsip dari sembilan nilai integritas antikorupsi KPK adalah sikap untuk tidak menerima pemberian yang berpotensi menjadi suap atau gratifikasi. Hal ini sangat berkaitan dengan nilai...",
+        "opsi": [
+          "Jujur",
+          "Kerja Keras",
+          "Sederhana",
+          "Mandiri",
+          "Tanggung Jawab"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Menolak suap dan gratifikasi, serta melaporkannya sesuai keadaan yang sebenarnya, adalah bentuk dari nilai 'Jujur'."
+      },
+      {
+        "id": "twk_139",
+        "teks": "Pernyataan kedaulatan negara dalam Pembukaan UUD 1945 ditegaskan melalui kalimat yang berbunyi...",
+        "opsi": [
+          "Kemerdekaan itu ialah hak segala bangsa",
+          "Atas berkat rahmat Allah Yang Maha Kuasa",
+          "Disusunlah kemerdekaan kebangsaan Indonesia itu dalam suatu Undang-Undang Dasar",
+          "Negara Republik Indonesia yang berkedaulatan rakyat",
+          "Mewujudkan keadilan sosial bagi seluruh rakyat Indonesia"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pada alinea keempat tertulis: '...yang terbentuk dalam suatu susunan Negara Republik Indonesia yang berkedaulatan rakyat...'"
+      },
+      {
+        "id": "twk_140",
+        "teks": "Sikap individualisme dan apatis terhadap penderitaan tetangga atau warga sekitar bertentangan dengan nilai-nilai Pancasila, yaitu sila ke-...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Peduli terhadap sesama dan saling mencintai sesama manusia merupakan cerminan pengamalan Sila ke-2 (Kemanusiaan yang adil dan beradab)."
+      },
+      {
+        "id": "twk_141",
+        "teks": "Kapan naskah Undang-Undang Dasar 1945 untuk pertama kalinya ditetapkan secara sah sebagai konstitusi Negara Republik Indonesia?",
+        "opsi": [
+          "1 Juni 1945",
+          "22 Juni 1945",
+          "17 Agustus 1945",
+          "18 Agustus 1945",
+          "27 Desember 1949"
+        ],
+        "jawaban": 3,
+        "pembahasan": "UUD 1945 disahkan pada sidang pertama PPKI tanggal 18 Agustus 1945, sehari setelah Proklamasi Kemerdekaan RI."
+      },
+      {
+        "id": "twk_142",
+        "teks": "Pembentukan peraturan perundang-undangan harus memperhatikan asas 'dapat dilaksanakan'. Artinya adalah...",
+        "opsi": [
+          "Peraturan tersebut dapat dipaksakan berlakunya oleh polisi",
+          "Peraturan tersebut mengacu pada asas keadilan hukum",
+          "Peraturan tersebut harus memperhitungkan efektivitas di masyarakat, baik secara filosofis, sosiologis, maupun yuridis",
+          "Peraturan tersebut dibuat oleh badan yang berwenang",
+          "Peraturan tersebut menggunakan bahasa yang mudah dipahami"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Asas 'dapat dilaksanakan' berarti pembentukan peraturan harus memperhitungkan daya laku/efektivitasnya di masyarakat secara filosofis, sosiologis, dan yuridis."
+      },
+      {
+        "id": "twk_143",
+        "teks": "Tujuan dilakukannya <i>Amandemen</i> (Perubahan) terhadap UUD 1945 pasca reformasi tahun 1998 adalah untuk...",
+        "opsi": [
+          "Mengganti dasar negara menjadi lebih liberal",
+          "Menghapuskan sistem presidensial",
+          "Menyempurnakan aturan dasar penyelenggaraan negara secara lebih demokratis dan melindungi HAM",
+          "Memusatkan kembali kekuasaan pemerintahan pada MPR",
+          "Membatasi wewenang daerah agar tetap terpusat di ibu kota"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Tujuan amandemen adalah menyempurnakan aturan dasar (tata negara, HAM, pembagian kekuasaan, otonomi daerah) agar lebih demokratis dan relevan tanpa mengubah Pembukaan UUD 1945."
+      },
+      {
+        "id": "twk_144",
+        "teks": "Berdasarkan sejarah pembentukannya, siapakah yang pertama kali mengusulkan nama 'Pancasila' untuk lima dasar negara pada 1 Juni 1945?",
+        "opsi": [
+          "Drs. Mohammad Hatta",
+          "Mr. Soepomo",
+          "Mr. Mohammad Yamin",
+          "Ir. Soekarno",
+          "K.H. Mas Mansyur"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pada pidatonya tanggal 1 Juni 1945, Ir. Soekarno menyebut kelima dasar negara yang ia usulkan dengan nama 'Pancasila' berdasarkan saran dari seorang temannya ahli bahasa."
+      },
+      {
+        "id": "twk_145",
+        "teks": "Pada masa pemerintahan Orde Baru, penafsiran tunggal terhadap Pancasila dilakukan melalui sebuah program wajib bagi seluruh ASN dan pelajar, yang dikenal dengan nama...",
+        "opsi": [
+          "Nawacita",
+          "Eka Prasetya Pancakarsa (P4)",
+          "Trisakti",
+          "Revolusi Mental",
+          "Bhinneka Tunggal Ika"
+        ],
+        "jawaban": 1,
+        "pembahasan": "P4 (Pedoman Penghayatan dan Pengamalan Pancasila) atau Eka Prasetya Pancakarsa adalah doktrin wajib yang ditetapkan pada masa pemerintahan Soeharto (Orde Baru)."
+      },
+      {
+        "id": "twk_146",
+        "teks": "Pemberontakan PRRI/Permesta pada tahun 1958 pada dasarnya dilatarbelakangi oleh...",
+        "opsi": [
+          "Keinginan mengubah ideologi Pancasila menjadi negara agama",
+          "Penyusupan unsur-unsur Komunis dalam pemerintahan pusat",
+          "Kekecewaan daerah (Sumatera dan Sulawesi) atas ketidakadilan pembangunan dan otonomi daerah dari pemerintah pusat",
+          "Dukungan pihak asing untuk memecah belah Indonesia",
+          "Sengketa batas wilayah antar provinsi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "PRRI (Pemerintah Revolusioner Republik Indonesia) dan Permesta muncul karena ketidakpuasan daerah terhadap kebijakan pemerintah pusat di Jakarta yang dianggap sentralistis dan mengabaikan pembangunan di daerah."
+      },
+      {
+        "id": "twk_147",
+        "teks": "Salah satu bentuk kewajiban warga negara yang diatur dalam Pasal 23A UUD 1945 adalah...",
+        "opsi": [
+          "Menaati hukum dan pemerintahan",
+          "Membayar pajak dan pungutan lain yang bersifat memaksa",
+          "Melaksanakan bela negara",
+          "Menghormati hak asasi orang lain",
+          "Mendapat pendidikan dasar"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pasal 23A UUD 1945 berbunyi: 'Pajak dan pungutan lain yang bersifat memaksa untuk keperluan negara diatur dengan undang-undang.' Membayar pajak adalah kewajiban."
+      },
+      {
+        "id": "twk_148",
+        "teks": "Istilah <i>Checks and Balances</i> dalam sistem ketatanegaraan Indonesia menurut UUD 1945 setelah amandemen berarti...",
+        "opsi": [
+          "Pemusatan kekuasaan pada lembaga legislatif",
+          "Pembagian tugas antar lembaga tanpa ada kaitan",
+          "Prinsip saling mengawasi dan mengimbangi antar cabang kekuasaan negara agar tidak ada yang terlalu kuat",
+          "Dominasi presiden atas kekuasaan yudikatif",
+          "Keterlibatan militer dalam urusan sipil"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Checks and balances adalah prinsip agar cabang kekuasaan (eksekutif, legislatif, yudikatif) saling mengawasi dan mengimbangi kekuatannya untuk mencegah kesewenang-wenangan absolut."
+      },
+      {
+        "id": "twk_149",
+        "teks": "Sikap mendahulukan penyelesaian perselisihan warga melalui dialog di balai desa, daripada membawanya langsung ke kepolisian, sesuai dengan pengamalan Pancasila sila ke-...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sila ke-4 menekankan permusyawaratan, kebijaksanaan, dan dialog bersama untuk mencapai mufakat dalam menyelesaikan masalah di masyarakat."
+      },
+      {
+        "id": "twk_150",
+        "teks": "Konstitusi pertama Indonesia (UUD 1945) dibentuk oleh BPUPKI dan disahkan oleh PPKI. Pada rentang waktu 27 Desember 1949 hingga 17 Agustus 1950, konstitusi yang berlaku di Indonesia adalah...",
+        "opsi": [
+          "UUD 1945",
+          "Konstitusi RIS 1949",
+          "UUDS 1950",
+          "UUD Amandemen",
+          "Dekrit Presiden"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pada masa Republik Indonesia Serikat (RIS) yang berlangsung dari 27 Desember 1949 hingga 17 Agustus 1950, konstitusi yang berlaku adalah Konstitusi RIS 1949."
+      },
+      {
+        "id": "twk_151",
+        "teks": "Landasan operasional politik luar negeri Indonesia yang bebas aktif saat ini diatur dalam...",
+        "opsi": [
+          "UU No. 37 Tahun 1999",
+          "UU No. 39 Tahun 1999",
+          "Ketetapan MPR No. IV/MPR/1999",
+          "UUD 1945 Pasal 11",
+          "Peraturan Presiden No. 20 Tahun 2000"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Landasan operasional penyelenggaraan hubungan luar negeri dan pelaksanaan politik luar negeri Republik Indonesia yang bebas aktif diatur dalam Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri."
+      },
+      {
+        "id": "twk_152",
+        "teks": "Sikap rela berkorban segala-galanya termasuk nyawa demi kejayaan dan kemakmuran bangsa dan negara dinamakan...",
+        "opsi": [
+          "Nasionalisme",
+          "Patriotisme",
+          "Chauvinisme",
+          "Etnosentrisme",
+          "Kosmopolitanisme"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Patriotisme berasal dari kata patria (cinta tanah air). Sikap ini bermakna rela berkorban apa saja demi kejayaan dan kelangsungan hidup bangsa dan negaranya."
+      },
+      {
+        "id": "twk_153",
+        "teks": "Berdasarkan Undang-Undang No. 12 Tahun 2006 tentang Kewarganegaraan, anak hasil perkawinan campuran dapat memiliki kewarganegaraan ganda terbatas hingga ia berusia...",
+        "opsi": [
+          "17 tahun",
+          "18 tahun",
+          "21 tahun",
+          "25 tahun",
+          "Belum menikah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "UU No. 12 Tahun 2006 memberikan kewarganegaraan ganda terbatas bagi anak hasil kawin campur. Setelah anak berusia 18 tahun atau sudah kawin, ia harus memilih salah satu kewarganegaraannya (diberi tenggang waktu 3 tahun hingga usia 21 tahun)."
+      },
+      {
+        "id": "twk_154",
+        "teks": "Berikut ini yang <i>bukan</i> merupakan nilai-nilai luhur yang terkandung dalam peristiwa Sumpah Pemuda adalah...",
+        "opsi": [
+          "Nilai persatuan",
+          "Nilai kemandirian",
+          "Nilai cinta tanah air",
+          "Nilai etnosentrisme",
+          "Nilai persaudaraan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Etnosentrisme adalah paham yang menganggap suku/budayanya sendiri lebih unggul dari yang lain. Hal ini sangat bertentangan dengan semangat Sumpah Pemuda yang melebur sekat kedaerahan demi persatuan."
+      },
+      {
+        "id": "twk_155",
+        "teks": "Menerima hasil keputusan musyawarah dengan lapang dada dan melaksanakannya dengan penuh tanggung jawab meskipun tidak sesuai dengan pendapat pribadi merupakan perwujudan pengamalan sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Menerima dan melaksanakan keputusan musyawarah secara bertanggung jawab adalah butir pengamalan dari Sila ke-4 (Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan)."
+      },
+      {
+        "id": "twk_156",
+        "teks": "Pancasila sebagai ideologi terbuka mengharuskan bangsa Indonesia untuk...",
+        "opsi": [
+          "Menyaring budaya dan nilai-nilai asing menggunakan nilai-nilai dasar Pancasila",
+          "Menerima semua ideologi dan budaya asing demi kemajuan zaman",
+          "Menolak secara mutlak masuknya budaya asing ke Indonesia",
+          "Mengubah nilai-nilai dasar Pancasila agar relevan dengan globalisasi",
+          "Menutup diri dari pergaulan internasional"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Sebagai ideologi terbuka, Pancasila bersifat dinamis dan adaptif terhadap perkembangan zaman, namun tetap menyaring (memfilter) budaya dan ideologi asing dengan nilai-nilai dasarnya agar tidak merusak identitas bangsa."
+      },
+      {
+        "id": "twk_157",
+        "teks": "Sesuai amanat UUD 1945, lembaga negara yang berwenang mengusulkan pengangkatan hakim agung kepada DPR adalah...",
+        "opsi": [
+          "Mahkamah Agung",
+          "Mahkamah Konstitusi",
+          "Komisi Yudisial",
+          "Presiden",
+          "Menteri Hukum dan HAM"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan Pasal 24B ayat (1) UUD 1945, Komisi Yudisial berwenang mengusulkan pengangkatan hakim agung dan mempunyai wewenang lain dalam rangka menjaga dan menegakkan kehormatan, keluhuran martabat, serta perilaku hakim."
+      },
+      {
+        "id": "twk_158",
+        "teks": "Pemberontakan Andi Azis di Makassar pada tahun 1950 dilatarbelakangi oleh...",
+        "opsi": [
+          "Keinginan mendirikan Negara Islam Indonesia (NII) di wilayah timur",
+          "Penolakan terhadap masuknya pasukan APRIS dari unsur TNI ke Sulawesi Selatan",
+          "Kekecewaan atas pembagian dana pembangunan yang tidak merata",
+          "Tuntutan agar Negara Indonesia Timur (NIT) diberikan otonomi khusus",
+          "Penolakan terhadap Perjanjian Renville"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pemberontakan Andi Azis (mantan perwira KNIL) terjadi karena menolak masuknya pasukan APRIS dari unsur TNI ke Sulawesi Selatan, dengan alasan keamanan di NIT menjadi tanggung jawab pasukannya."
+      },
+      {
+        "id": "twk_159",
+        "teks": "Tokoh pahlawan nasional yang berjasa menjahit Bendera Pusaka Sang Saka Merah Putih yang dikibarkan saat Proklamasi Kemerdekaan adalah...",
+        "opsi": [
+          "S.K. Trimurti",
+          "Sayuti Melik",
+          "Fatmawati",
+          "Martha Christina Tiahahu",
+          "Cut Nyak Meutia"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ibu Fatmawati (istri dari Presiden Soekarno) adalah tokoh yang menjahit Bendera Pusaka Sang Saka Merah Putih yang dikibarkan pada tanggal 17 Agustus 1945."
+      },
+      {
+        "id": "twk_160",
+        "teks": "Tidak datang terlambat, mematuhi jam kerja, dan menyelesaikan tugas sesuai batas waktu merupakan wujud penerapan nilai integritas antikorupsi, yaitu...",
+        "opsi": [
+          "Kerja Keras",
+          "Disiplin",
+          "Mandiri",
+          "Tanggung Jawab",
+          "Adil"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Mematuhi aturan waktu dan tata tertib, serta tidak menunda-nunda pekerjaan adalah manifestasi dari nilai 'Disiplin' dalam 9 nilai integritas antikorupsi KPK."
+      },
+      {
+        "id": "twk_161",
+        "teks": "Salah satu asas Wawasan Nusantara yang mengutamakan kesesuaian pembagian hasil dengan adil, jerih payah, dan kegiatan (baik perorangan maupun kelompok) adalah asas...",
+        "opsi": [
+          "Keadilan",
+          "Kejujuran",
+          "Solidaritas",
+          "Kerja Sama",
+          "Kesetiaan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Asas Keadilan dalam Wawasan Nusantara menekankan pada kesesuaian pembagian hasil yang proporsional dan adil, baik materiil maupun spiritual, bagi semua pihak."
+      },
+      {
+        "id": "twk_162",
+        "teks": "Jaminan kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan beribadat menurut agamanya dan kepercayaannya itu secara tegas diatur dalam UUD 1945 pasal...",
+        "opsi": [
+          "Pasal 28E ayat (1)",
+          "Pasal 29 ayat (1)",
+          "Pasal 29 ayat (2)",
+          "Pasal 31 ayat (1)",
+          "Pasal 34 ayat (1)"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasal 29 ayat (2) UUD 1945 berbunyi: 'Negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu.'"
+      },
+      {
+        "id": "twk_163",
+        "teks": "Pemilihan umum pertama tahun 1955 dilakukan dalam dua tahap. Tahap kedua yang diselenggarakan pada 15 Desember 1955 bertujuan untuk memilih...",
+        "opsi": [
+          "Anggota DPR",
+          "Presiden dan Wakil Presiden",
+          "Anggota Majelis Permusyawaratan Rakyat Sementara",
+          "Anggota Konstituante",
+          "Gubernur se-Indonesia"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pemilu 1955 tahap pertama (29 September 1955) diadakan untuk memilih anggota DPR, sedangkan tahap kedua (15 Desember 1955) untuk memilih anggota Konstituante (dewan penyusun konstitusi/UUD)."
+      },
+      {
+        "id": "twk_164",
+        "teks": "Perundingan Renville menimbulkan dampak politik yang sangat besar bagi Republik Indonesia. Salah satu dampak tersebut adalah jatuhnya kabinet yang dipimpin oleh...",
+        "opsi": [
+          "Mohammad Hatta",
+          "Sutan Sjahrir",
+          "Amir Sjarifuddin",
+          "Ali Sastroamidjojo",
+          "Burhanuddin Harahap"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kabinet Amir Sjarifuddin jatuh (mengundurkan diri) karena menerima banyak mosi tidak percaya dari golongan politik lain akibat dianggap gagal dalam Perundingan Renville yang sangat merugikan wilayah RI."
+      },
+      {
+        "id": "twk_165",
+        "teks": "Dalam menjalin hubungan dan perjanjian internasional, negara Indonesia berpegang pada asas bahwa setiap perjanjian yang telah disepakati harus ditaati. Asas hukum internasional ini disebut...",
+        "opsi": [
+          "Pacta Sunt Servanda",
+          "Egality Rights",
+          "Courtesy",
+          "Reciprocity",
+          "Bonafides"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pacta Sunt Servanda adalah asas dasar dalam hukum internasional yang berarti 'janji harus ditepati'. Setiap perjanjian mengikat pihak-pihak yang melakukannya dan harus dilaksanakan dengan iktikad baik."
+      },
+      {
+        "id": "twk_166",
+        "teks": "Sikap tidak menggunakan hak milik untuk usaha-usaha yang bersifat pemerasan terhadap orang lain merupakan bentuk pengamalan Pancasila sila ke...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Sikap tidak menggunakan hak milik untuk memeras orang lain, tidak boros, dan tidak bergaya hidup mewah adalah bagian dari butir pengamalan Sila ke-5 (Keadilan Sosial bagi Seluruh Rakyat Indonesia)."
+      },
+      {
+        "id": "twk_167",
+        "teks": "Pahlawan nasional yang terkenal dengan taktik gerilyanya di Aceh, yang berpura-pura menyerah kepada Belanda untuk mendapatkan persenjataan, kemudian berbalik menyerang Belanda adalah...",
+        "opsi": [
+          "Tuanku Imam Bonjol",
+          "Panglima Polim",
+          "Teuku Umar",
+          "Sultan Iskandar Muda",
+          "Teungku Cik Di Tiro"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Teuku Umar dikenal dengan taktiknya yang berpura-pura bekerjasama (menyerah) kepada Belanda. Setelah mendapatkan posisi, persenjataan, dan kepercayaan, ia dan pasukannya berbalik menyerang pihak Belanda."
+      },
+      {
+        "id": "twk_168",
+        "teks": "Setelah berlakunya amandemen UUD 1945, salah satu wewenang Majelis Permusyawaratan Rakyat (MPR) yang masih dipertahankan adalah...",
+        "opsi": [
+          "Memilih Presiden dan Wakil Presiden secara langsung",
+          "Menyusun dan menetapkan Garis-Garis Besar Haluan Negara (GBHN)",
+          "Meminta pertanggungjawaban Presiden setiap tahun",
+          "Mengubah dan menetapkan Undang-Undang Dasar",
+          "Membentuk undang-undang tanpa campur tangan DPR"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sesuai Pasal 3 ayat (1) UUD 1945, wewenang MPR adalah mengubah dan menetapkan Undang-Undang Dasar."
+      },
+      {
+        "id": "twk_169",
+        "teks": "Peran aktif Indonesia dalam mewujudkan perdamaian dunia dibuktikan dengan keikutsertaannya dalam Gerakan Non-Blok (GNB). Indonesia pernah menjadi tuan rumah Konferensi Tingkat Tinggi (KTT) GNB ke-10 pada tahun 1992 di...",
+        "opsi": [
+          "Bandung",
+          "Bali",
+          "Surabaya",
+          "Jakarta",
+          "Yogyakarta"
+        ],
+        "jawaban": 3,
+        "pembahasan": "KTT GNB ke-10 diselenggarakan di Jakarta pada 1-6 September 1992, di mana Indonesia (Presiden Soeharto) bertindak sebagai Ketua GNB."
+      },
+      {
+        "id": "twk_170",
+        "teks": "Sebagai norma hukum dasar yang tidak dapat diubah oleh peraturan di bawahnya, Pancasila berkedudukan sebagai...",
+        "opsi": [
+          "Sumber hukum formal",
+          "Hukum tidak tertulis (konvensi)",
+          "Sumber dari segala sumber hukum negara (Grundnorm)",
+          "Peraturan perundang-undangan tertinggi operasional",
+          "Pedoman tata krama masyarakat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sesuai dengan UU No. 12 Tahun 2011, Pancasila berkedudukan sebagai sumber dari segala sumber hukum negara, yang menjadi fondasi utama bagi setiap peraturan hukum di bawahnya."
+      },
+      {
+        "id": "twk_171",
+        "teks": "Tindakan pemulihan nama baik, hak, serta kedudukan seseorang karena ternyata tidak terbukti bersalah atau karena kekeliruan pengadilan yang diberikan oleh Presiden disebut...",
+        "opsi": [
+          "Amnesti",
+          "Abolisi",
+          "Grasi",
+          "Rehabilitasi",
+          "Remisi"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Rehabilitasi adalah tindakan Presiden memulihkan hak seseorang yang telah hilang akibat suatu putusan hakim yang ternyata mengandung kekeliruan atau orang tersebut terbukti tidak bersalah."
+      },
+      {
+        "id": "twk_172",
+        "teks": "Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan Indonesia (BPUPKI) dibentuk oleh pemerintah pendudukan Jepang. Dalam bahasa Jepang, BPUPKI disebut...",
+        "opsi": [
+          "Dokuritsu Junbi Inkai",
+          "Dokuritsu Junbi Cosakai",
+          "Chuo Sangi In",
+          "Seinendan",
+          "Kempeitai"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dokuritsu Junbi Cosakai adalah sebutan bahasa Jepang untuk BPUPKI. Sedangkan Dokuritsu Junbi Inkai adalah sebutan untuk PPKI."
+      },
+      {
+        "id": "twk_173",
+        "teks": "Pancasila mengandung nilai kekeluargaan dan kegotongroyongan dalam menyelesaikan permasalahan demi mewujudkan keadilan sosial. Hal ini merupakan pencerminan kuat dari sila...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Nilai kekeluargaan dan kegotongroyongan demi mencapai kesejahteraan/keadilan sosial sangat melekat pada Sila ke-5 (Keadilan Sosial bagi Seluruh Rakyat Indonesia)."
+      },
+      {
+        "id": "twk_174",
+        "teks": "Lembaga negara yang bertugas memeriksa pengelolaan dan tanggung jawab tentang keuangan negara secara bebas dan mandiri adalah...",
+        "opsi": [
+          "Kementerian Keuangan",
+          "Komisi Pemberantasan Korupsi (KPK)",
+          "Badan Pengawas Keuangan dan Pembangunan (BPKP)",
+          "Badan Pemeriksa Keuangan (BPK)",
+          "Bank Indonesia (BI)"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Berdasarkan Pasal 23E UUD 1945, Badan Pemeriksa Keuangan (BPK) diadakan untuk memeriksa pengelolaan dan tanggung jawab tentang keuangan negara secara bebas dan mandiri."
+      },
+      {
+        "id": "twk_175",
+        "teks": "Unsur berdirinya sebuah negara terbagi menjadi unsur konstitutif dan deklaratif. Yang termasuk unsur deklaratif adalah...",
+        "opsi": [
+          "Adanya wilayah",
+          "Adanya rakyat",
+          "Adanya pemerintahan yang berdaulat",
+          "Adanya pengakuan dari negara lain",
+          "Adanya konstitusi atau UUD"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Unsur konstitutif (mutlak) berdirinya suatu negara adalah rakyat, wilayah, dan pemerintahan yang berdaulat. Sedangkan unsur deklaratif (sebagai pelengkap/penerimaan internasional) adalah pengakuan dari negara lain."
+      },
+      {
+        "id": "twk_176",
+        "teks": "Bendera Negara Indonesia ialah Sang Merah Putih. Hal ini secara tegas diatur dalam UUD 1945 Pasal...",
+        "opsi": [
+          "Pasal 35",
+          "Pasal 36",
+          "Pasal 36A",
+          "Pasal 36B",
+          "Pasal 36C"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pasal 35 UUD 1945 secara spesifik berbunyi: 'Bendera Negara Indonesia ialah Sang Merah Putih.' Sementara Pasal 36 mengatur tentang Bahasa Negara."
+      },
+      {
+        "id": "twk_177",
+        "teks": "Tokoh pemuda yang mengusulkan agar naskah Proklamasi Kemerdekaan ditandatangani oleh Soekarno dan Hatta 'Atas nama bangsa Indonesia' adalah...",
+        "opsi": [
+          "Sayuti Melik",
+          "Sukarni",
+          "B.M. Diah",
+          "Sutan Sjahrir",
+          "Chairul Saleh"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sukarni mengusulkan agar teks proklamasi tidak perlu ditandatangani oleh semua anggota PPKI yang hadir, melainkan cukup oleh Soekarno dan Hatta atas nama bangsa Indonesia."
+      },
+      {
+        "id": "twk_178",
+        "teks": "Bentuk negara Indonesia pada masa berlakunya Konstitusi RIS 1949 adalah...",
+        "opsi": [
+          "Kesatuan",
+          "Serikat (Federasi)",
+          "Konfederasi",
+          "Republik Absolut",
+          "Monarki Konstitusional"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sesuai dengan kesepakatan Konferensi Meja Bundar (KMB), Indonesia berubah bentuk menjadi negara serikat atau federasi yang dinamakan Republik Indonesia Serikat (RIS)."
+      },
+      {
+        "id": "twk_179",
+        "teks": "Dalam tata urutan peraturan perundang-undangan di Indonesia menurut UU No. 12 Tahun 2011, peraturan yang posisinya berada tepat di bawah Peraturan Pemerintah (PP) adalah...",
+        "opsi": [
+          "Undang-Undang / Perpu",
+          "Ketetapan MPR",
+          "Peraturan Presiden",
+          "Peraturan Daerah Provinsi",
+          "Peraturan Daerah Kabupaten/Kota"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutannya: UUD 1945 -> TAP MPR -> UU/Perpu -> Peraturan Pemerintah (PP) -> Peraturan Presiden (Perpres) -> Perda Provinsi -> Perda Kabupaten/Kota."
+      },
+      {
+        "id": "twk_180",
+        "teks": "Ajaran <i>Trias Politica</i> yang membagi kekuasaan negara menjadi Legislatif, Eksekutif, dan Yudikatif untuk mencegah kesewenang-wenangan dikemukakan oleh...",
+        "opsi": [
+          "John Locke",
+          "Montesquieu",
+          "J.J. Rousseau",
+          "Thomas Hobbes",
+          "Machiavelli"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Montesquieu mengembangkan dan menyempurnakan teori pemisahan kekuasaan (Trias Politica) menjadi bentuk legislatif, eksekutif, dan yudikatif secara terpisah."
+      },
+      {
+        "id": "twk_181",
+        "teks": "Sila ketiga Pancasila, Persatuan Indonesia, dilambangkan dengan...",
+        "opsi": [
+          "Bintang",
+          "Rantai",
+          "Pohon Beringin",
+          "Kepala Banteng",
+          "Padi dan Kapas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pohon Beringin melambangkan Sila Ke-3. Akar yang menjalar melambangkan keragaman suku bangsa yang menyatu di bawah naungan Negara Kesatuan Republik Indonesia."
+      },
+      {
+        "id": "twk_182",
+        "teks": "Menurut Pasal 13 UUD 1945, Presiden mengangkat duta dan konsul. Dalam mengangkat duta, Presiden harus memperhatikan pertimbangan dari...",
+        "opsi": [
+          "Majelis Permusyawaratan Rakyat",
+          "Dewan Perwakilan Daerah",
+          "Dewan Perwakilan Rakyat",
+          "Mahkamah Agung",
+          "Menteri Luar Negeri"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasal 13 ayat (2) UUD 1945 menyatakan: 'Dalam hal mengangkat duta, Presiden memperhatikan pertimbangan Dewan Perwakilan Rakyat.'"
+      },
+      {
+        "id": "twk_183",
+        "teks": "Pemberontakan PKI di Madiun pada tahun 1948 yang dipimpin oleh Musso memiliki tujuan utama untuk...",
+        "opsi": [
+          "Menurunkan Soekarno dari kursi kepresidenan",
+          "Membentuk negara Islam di wilayah Jawa Timur",
+          "Mendirikan Soviet Republik Indonesia yang berideologi komunis",
+          "Menolak hasil Perjanjian Linggarjati",
+          "Memprotes kebijakan reorganisasi dan rasionalisasi (Re-Ra) militer"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pemberontakan PKI Madiun 1948 bertujuan meruntuhkan pemerintahan RI yang sah dan mengganti ideologi Pancasila dengan ideologi Komunis (mendirikan Soviet Republik Indonesia)."
+      },
+      {
+        "id": "twk_184",
+        "teks": "Lagu Kebangsaan ialah Indonesia Raya. Ketentuan mengenai lagu kebangsaan ini diatur secara khusus dalam UUD 1945 pasal...",
+        "opsi": [
+          "Pasal 35",
+          "Pasal 36",
+          "Pasal 36A",
+          "Pasal 36B",
+          "Pasal 36C"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pasal 36B UUD 1945 berbunyi: 'Lagu Kebangsaan ialah Indonesia Raya.'"
+      },
+      {
+        "id": "twk_185",
+        "teks": "Berdasarkan Pasal 20A ayat (1) UUD 1945, Dewan Perwakilan Rakyat (DPR) memiliki tiga fungsi utama, yaitu...",
+        "opsi": [
+          "Legislasi, Eksekusi, dan Yudikasi",
+          "Legislasi, Anggaran, dan Pengawasan",
+          "Anggaran, Pengawasan, dan Penindakan",
+          "Inisiatif, Interpelasi, dan Angket",
+          "Perencanaan, Pelaksanaan, dan Evaluasi"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Fungsi DPR adalah fungsi legislasi (membentuk undang-undang), fungsi anggaran (membahas APBN), dan fungsi pengawasan (mengawasi kinerja pemerintah)."
+      },
+      {
+        "id": "twk_186",
+        "teks": "Pahlawan Nasional dari Kalimantan Selatan yang memimpin Perang Banjar menentang monopoli dan intervensi Belanda di Kesultanan Banjar adalah...",
+        "opsi": [
+          "Pangeran Diponegoro",
+          "Tuanku Imam Bonjol",
+          "Pangeran Antasari",
+          "Sultan Hasanuddin",
+          "Sultan Nuku"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pangeran Antasari adalah pemimpin rakyat Banjar dalam Perang Banjar (1859-1905) melawan pemerintah kolonial Hindia Belanda."
+      },
+      {
+        "id": "twk_187",
+        "teks": "Menjaga keseimbangan antara hak dan kewajiban serta tidak menggunakan hak milik untuk hal-hal yang bersifat pemborosan merupakan perwujudan Pancasila sila ke-...",
+        "opsi": [
+          "Satu",
+          "Dua",
+          "Tiga",
+          "Empat",
+          "Lima"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Menjaga keseimbangan antara hak dan kewajiban adalah salah satu butir penting dari pengamalan Sila Ke-5 Pancasila (Keadilan Sosial bagi Seluruh Rakyat Indonesia)."
+      },
+      {
+        "id": "twk_188",
+        "teks": "Puncak dari perundingan yang menyepakati pengakuan dan penyerahan kedaulatan kepada Indonesia oleh Belanda pada akhir tahun 1949 adalah...",
+        "opsi": [
+          "Perjanjian Linggarjati",
+          "Perjanjian Renville",
+          "Perjanjian Roem-Royen",
+          "Konferensi Meja Bundar (KMB)",
+          "Konferensi Inter-Indonesia"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Konferensi Meja Bundar (KMB) di Den Haag, Belanda, menghasilkan kesepakatan penyerahan kedaulatan dari Belanda kepada Republik Indonesia Serikat pada 27 Desember 1949."
+      },
+      {
+        "id": "twk_189",
+        "teks": "Konsep dasar Wawasan Nusantara mencakup tiga unsur utama yang membentuk cara pandang bangsa Indonesia. Ketiga unsur tersebut adalah...",
+        "opsi": [
+          "Geografi, Demografi, dan Kondisi Sosial",
+          "Pancasila, UUD 1945, dan Bhinneka Tunggal Ika",
+          "Wadah (Contour), Isi (Content), dan Tata Laku (Conduct)",
+          "Ekonomi, Sosial Budaya, dan Pertahanan Keamanan",
+          "Politik, Hukum, dan Kelembagaan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Unsur dasar Wawasan Nusantara terdiri atas Wadah (ruang lingkup wilayah), Isi (aspirasi bangsa), dan Tata Laku (hasil interaksi antara wadah dan isi, baik lahiriah maupun batiniah)."
+      },
+      {
+        "id": "twk_190",
+        "teks": "Semboyan <i>Bhinneka Tunggal Ika</i> tertulis pada pita yang dicengkeram oleh burung Garuda. Ketentuan mengenai Lambang Negara ini diatur dalam UUD 1945 pasal...",
+        "opsi": [
+          "Pasal 35",
+          "Pasal 36",
+          "Pasal 36A",
+          "Pasal 36B",
+          "Pasal 36C"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasal 36A UUD 1945 berbunyi: 'Lambang Negara ialah Garuda Pancasila dengan semboyan Bhinneka Tunggal Ika.'"
+      },
+      {
+        "id": "twk_191",
+        "teks": "Penyelenggaraan negara yang bersih dan bebas dari Korupsi, Kolusi, dan Nepotisme (KKN) pasca era Reformasi ditegaskan secara khusus melalui instrumen hukum...",
+        "opsi": [
+          "UU No. 31 Tahun 1999",
+          "UU No. 28 Tahun 1999",
+          "UU No. 30 Tahun 2002",
+          "Ketetapan MPR No. III/MPR/2000",
+          "Instruksi Presiden No. 5 Tahun 2004"
+        ],
+        "jawaban": 1,
+        "pembahasan": "UU No. 28 Tahun 1999 secara khusus mengatur tentang Penyelenggaraan Negara yang Bersih dan Bebas dari Korupsi, Kolusi, dan Nepotisme."
+      },
+      {
+        "id": "twk_192",
+        "teks": "Pada tanggal 19 Agustus 1945, Panitia Persiapan Kemerdekaan Indonesia (PPKI) mengadakan sidang kedua yang menghasilkan keputusan...",
+        "opsi": [
+          "Mengesahkan UUD 1945 dan memilih Presiden",
+          "Membentuk Komite Nasional Indonesia Pusat (KNIP)",
+          "Membentuk 12 Kementerian dan membagi wilayah Indonesia menjadi 8 Provinsi",
+          "Membentuk Badan Keamanan Rakyat (BKR)",
+          "Membubarkan BPUPKI secara resmi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hasil sidang PPKI II (19 Agustus 1945) adalah membagi wilayah Indonesia menjadi 8 provinsi beserta gubernurnya, dan menetapkan 12 kementerian (departemen) dalam pemerintahan."
+      },
+      {
+        "id": "twk_193",
+        "teks": "Menurut UUD 1945 Pasal 12, Presiden berhak menyatakan keadaan bahaya. Syarat-syarat dan akibat dari keadaan bahaya tersebut ditetapkan dengan...",
+        "opsi": [
+          "Ketetapan MPR",
+          "Undang-Undang",
+          "Peraturan Pemerintah",
+          "Peraturan Presiden",
+          "Keputusan Mahkamah Konstitusi"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pasal 12 UUD 1945 menyatakan: 'Presiden menyatakan keadaan bahaya. Syarat-syarat dan akibatnya keadaan bahaya ditetapkan dengan undang-undang.'"
+      },
+      {
+        "id": "twk_194",
+        "teks": "Sila Ketuhanan Yang Maha Esa menjiwai dan meliputi sila-sila di bawahnya. Hal ini membuktikan bahwa Pancasila memiliki susunan yang...",
+        "opsi": [
+          "Dinamis dan Terbuka",
+          "Hierarkis dan Piramidal",
+          "Universal dan Abstrak",
+          "Kaku dan Mengikat",
+          "Materialis dan Formalis"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Susunan hierarkis piramidal berarti sila pertama menjadi basis/fondasi yang menjiwai keempat sila di bawahnya, dan begitu seterusnya. Bentuknya bertingkat dan saling mengikat."
+      },
+      {
+        "id": "twk_195",
+        "teks": "Asas kewarganegaraan yang menetapkan kewarganegaraan seseorang berdasarkan tempat (negara) kelahirannya disebut asas...",
+        "opsi": [
+          "Ius Sanguinis",
+          "Ius Soli",
+          "Apatride",
+          "Bipatride",
+          "Stelsel Pasif"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ius Soli (hak tanah) adalah asas kedaerahan di mana status kewarganegaraan ditentukan oleh di mana tempat orang tersebut dilahirkan."
+      },
+      {
+        "id": "twk_196",
+        "teks": "Pelaksanaan sistem Demokrasi Terpimpin di Indonesia secara resmi dimulai semenjak peristiwa konstitusional...",
+        "opsi": [
+          "Maklumat Wakil Presiden 3 November 1945",
+          "Pemberlakuan UUDS 1950",
+          "Keluarnya Dekrit Presiden 5 Juli 1959",
+          "Dikeluarkannya Supersemar 11 Maret 1966",
+          "Terjadinya amandemen UUD 1945 pada tahun 1999"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dekrit Presiden 5 Juli 1959 yang membubarkan Konstituante dan mengembalikan UUD 1945 menandai berakhirnya Demokrasi Liberal/Parlementer dan dimulainya era Demokrasi Terpimpin."
+      },
+      {
+        "id": "twk_197",
+        "teks": "Sikap peduli merupakan salah satu dari 9 nilai integritas antikorupsi KPK. Contoh penerapan nilai peduli dalam kehidupan bermasyarakat adalah...",
+        "opsi": [
+          "Bekerja lembur untuk mengejar target promosi jabatan",
+          "Membantu tetangga yang sedang kesulitan atau tertimpa musibah",
+          "Membayar pajak tepat waktu agar terhindar dari denda",
+          "Menolak memberikan uang tip kepada petugas kelurahan",
+          "Mencatat pengeluaran keuangan pribadi secara transparan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Nilai kepedulian (peduli) berarti peka terhadap lingkungan sekitar, berempati, dan bersedia membantu orang lain yang sedang membutuhkan bantuan."
+      },
+      {
+        "id": "twk_198",
+        "teks": "Badan bentukan Jepang, <i>Dokuritsu Junbi Inkai</i>, yang diketuai oleh Ir. Soekarno memiliki peran krusial dalam mengesahkan dasar negara. Dalam bahasa Indonesia, badan ini disebut...",
+        "opsi": [
+          "BPUPKI",
+          "PPKI",
+          "Chuo Sangi In",
+          "KNIP",
+          "BKR"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dokuritsu Junbi Inkai adalah nama Jepang untuk PPKI (Panitia Persiapan Kemerdekaan Indonesia) yang dibentuk pada tanggal 7 Agustus 1945."
+      },
+      {
+        "id": "twk_199",
+        "teks": "Menurut UUD 1945 Pasal 3 ayat (1), kekuasaan untuk mengubah dan menetapkan Undang-Undang Dasar berada di tangan...",
+        "opsi": [
+          "Presiden",
+          "Mahkamah Konstitusi (MK)",
+          "Dewan Perwakilan Rakyat (DPR)",
+          "Majelis Permusyawaratan Rakyat (MPR)",
+          "Komisi Yudisial (KY)"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Meskipun telah diamandemen dan kedudukannya setara dengan lembaga negara lain, MPR tetap memegang wewenang tertinggi dalam hal mengubah dan menetapkan UUD (Pasal 3 ayat 1)."
+      },
+      {
+        "id": "twk_200",
+        "teks": "Pemisahan Kepolisian Negara Republik Indonesia (Polri) dan Tentara Nasional Indonesia (TNI) secara resmi dilakukan pada masa Reformasi. Hal ini ditetapkan melalui...",
+        "opsi": [
+          "Ketetapan MPR No. VI/MPR/2000",
+          "Ketetapan MPR No. VII/MPR/2000",
+          "Undang-Undang No. 2 Tahun 2002",
+          "Undang-Undang No. 34 Tahun 2004",
+          "Dekrit Presiden era Abdurrahman Wahid"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Ketetapan MPR RI Nomor VI/MPR/2000 mengatur secara tegas tentang pemisahan Tentara Nasional Indonesia (TNI) dan Kepolisian Negara Republik Indonesia (Polri) beserta peran masing-masing."
+      }
+    ]
+  }
+}
