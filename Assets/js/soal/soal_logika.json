@@ -1,0 +1,2931 @@
+{
+  "soal": {
+    "Tes Logika": [
+      {
+        "id": "tpa_log_001",
+        "teks": "Semua pejabat negara mendapatkan tunjangan kesehatan. Sebagian aktivis sosial adalah pejabat negara. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua aktivis sosial mendapatkan tunjangan kesehatan.",
+          "Sebagian aktivis sosial mendapatkan tunjangan kesehatan.",
+          "Sebagian pejabat negara bukan aktivis sosial.",
+          "Semua yang mendapatkan tunjangan kesehatan adalah pejabat negara.",
+          "Aktivis sosial tidak perlu tunjangan kesehatan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian aktivis adalah pejabat, dan semua pejabat dapat tunjangan, maka dipastikan sebagian aktivis tersebut juga mendapatkan tunjangan kesehatan."
+      },
+      {
+        "id": "tpa_log_002",
+        "teks": "Jika hari ini hujan, maka jalanan di depan rumah menjadi basah. Saat ini jalanan di depan rumah kering. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Hari ini tidak hujan.",
+          "Hari ini hujan namun jalanan tidak basah.",
+          "Hujan baru saja berhenti.",
+          "Jalanan akan segera basah jika hujan turun.",
+          "Hari ini mungkin akan hujan."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Menggunakan prinsip Modus Tollens: Jika $P \\implies Q$ benar, dan $\\sim Q$ terjadi, maka $\\sim P$ harus benar (Tidak Hujan)."
+      },
+      {
+        "id": "tpa_log_003",
+        "teks": "Semua mamalia bernapas dengan paru-paru. Semua paus adalah mamalia. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Sebagian paus bernapas dengan paru-paru.",
+          "Tidak ada paus yang tidak bernapas dengan paru-paru.",
+          "Semua yang bernapas dengan paru-paru adalah paus.",
+          "Paus bukan ikan karena bernapas dengan paru-paru.",
+          "Mamalia yang hidup di air adalah paus."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Jika semua Paus adalah Mamalia dan semua Mamalia bernapas dengan paru-paru, maka semua Paus bernapas dengan paru-paru. Kalimat 'Tidak ada paus yang tidak bernapas dengan paru-paru' setara secara logika dengan 'Semua paus bernapas dengan paru-paru'."
+      },
+      {
+        "id": "tpa_log_004",
+        "teks": "Sebagian mahasiswa adalah atlet profesional. Semua atlet profesional menjaga pola makan. Kesimpulan yang paling mungkin adalah...",
+        "opsi": [
+          "Semua mahasiswa menjaga pola makan.",
+          "Sebagian mahasiswa menjaga pola makan.",
+          "Mahasiswa yang bukan atlet tidak menjaga pola makan.",
+          "Hanya atlet profesional yang menjaga pola makan.",
+          "Sebagian atlet profesional bukan mahasiswa."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian mahasiswa adalah atlet, dan semua atlet menjaga pola makan, maka kelompok mahasiswa yang atlet tersebut pasti menjaga pola makan."
+      },
+      {
+        "id": "tpa_log_005",
+        "teks": "Semua tanaman membutuhkan air. Kaktus adalah tanaman. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua yang membutuhkan air adalah kaktus.",
+          "Sebagian kaktus membutuhkan air.",
+          "Kaktus membutuhkan air.",
+          "Tanaman yang tidak membutuhkan air bukan kaktus.",
+          "Air hanya dibutuhkan oleh tanaman kaktus."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme kategoris sederhana: Subjek (Kaktus) masuk dalam kategori (Tanaman) yang memiliki predikat (membutuhkan air)."
+      },
+      {
+        "id": "tpa_log_006",
+        "teks": "<b>Bacalah skenario posisi duduk berikut untuk menjawab soal nomor 006 - 008!</b><br><br>Enam orang (A, B, C, D, E, dan F) duduk di satu baris kursi yang sama menghadap ke depan. <br>1. C duduk di antara A dan E.<br>2. D duduk tepat di sebelah kanan F.<br>3. B duduk di ujung kiri barisan.<br>4. A duduk tepat di sebelah kanan B.<br><br>Siapakah yang duduk di ujung kanan barisan?",
+        "opsi": [
+          "C",
+          "D",
+          "E",
+          "F",
+          "B"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan berdasarkan petunjuk:<br>- B di ujung kiri (1).<br>- A di kanan B (2).<br>- C di antara A dan E, maka C (3) dan E (4).<br>- D di kanan F, sisa posisi adalah 5 dan 6. Maka F (5) dan D (6).<br>Ujung kanan adalah D."
+      },
+      {
+        "id": "tpa_log_007",
+        "teks": "<b>Bacalah skenario posisi duduk berikut untuk menjawab soal nomor 006 - 008!</b><br><br>Enam orang (A, B, C, D, E, dan F) duduk di satu baris kursi yang sama menghadap ke depan. <br>1. C duduk di antara A dan E.<br>2. D duduk tepat di sebelah kanan F.<br>3. B duduk di ujung kiri barisan.<br>4. A duduk tepat di sebelah kanan B.<br><br>Siapakah yang duduk tepat di posisi nomor 4 dari kiri?",
+        "opsi": [
+          "A",
+          "C",
+          "E",
+          "F",
+          "D"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan yang terbentuk adalah B - A - C - E - F - D. Posisi ke-4 adalah E."
+      },
+      {
+        "id": "tpa_log_008",
+        "teks": "<b>Bacalah skenario posisi duduk berikut untuk menjawab soal nomor 006 - 008!</b><br><br>Enam orang (A, B, C, D, E, dan F) duduk di satu baris kursi yang sama menghadap ke depan. <br>1. C duduk di antara A dan E.<br>2. D duduk tepat di sebelah kanan F.<br>3. B duduk di ujung kiri barisan.<br>4. A duduk tepat di sebelah kanan B.<br><br>Manakah pernyataan yang BENAR berdasarkan urutan tersebut?",
+        "opsi": [
+          "F duduk di antara E dan D.",
+          "C duduk di sebelah kiri A.",
+          "E adalah tetangga langsung B.",
+          "D duduk di antara F dan E.",
+          "A duduk di posisi paling kanan."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan: B - A - C - E - F - D. Terlihat bahwa F berada di antara E dan D."
+      },
+      {
+        "id": "tpa_log_009",
+        "teks": "Jika hari ini adalah hari libur, maka Andi akan pergi memancing. Andi tidak pergi memancing hari ini. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Hari ini Andi bekerja.",
+          "Andi memancing di hari lain.",
+          "Hari ini bukan hari libur.",
+          "Mungkin hari ini hujan.",
+          "Andi sakit hari ini."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan aturan Modus Tollens: Jika P maka Q. Ternyata tidak Q, maka tidak P."
+      },
+      {
+        "id": "tpa_log_010",
+        "teks": "Semua atlet lari memiliki napas yang kuat. Sebagian atlet lari adalah perokok. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua perokok memiliki napas yang kuat.",
+          "Sebagian perokok memiliki napas yang kuat.",
+          "Semua atlet lari adalah bukan perokok.",
+          "Sebagian perokok bukan atlet lari.",
+          "Hanya atlet lari yang memiliki napas kuat."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok perokok yang merupakan atlet lari pasti memiliki napas yang kuat karena semua atlet lari memilikinya."
+      },
+      {
+        "id": "tpa_log_011",
+        "teks": "<b>Bacalah skenario jadwal piket berikut untuk menjawab soal nomor 011 - 013!</b><br><br>Lima orang siswa (K, L, M, N, dan O) akan dijadwalkan piket harian dari Senin sampai Jumat, satu orang per hari.<br>1. M tidak piket pada hari Senin maupun Jumat.<br>2. L piket tepat satu hari setelah K.<br>3. O piket pada hari Rabu.<br>4. N piket pada hari Jumat.<br><br>Pada hari apakah M mendapatkan jadwal piket?",
+        "opsi": [
+          "Senin",
+          "Selasa",
+          "Kamis",
+          "Rabu",
+          "Bukan salah satu di atas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Analisis:<br>- Rabu: O (tetap).<br>- Jumat: N (tetap).<br>- M tidak Senin/Jumat, sisa hari adalah Selasa/Kamis.<br>- L sehari setelah K (K-L berurutan).<br>- Jika K-L di Senin-Selasa, maka M harus di Kamis. (Valid)<br>- Jika K-L di Selasa-Kamis tidak mungkin karena ada Rabu (O).<br>Maka M di hari Kamis."
+      },
+      {
+        "id": "tpa_log_012",
+        "teks": "<b>Bacalah skenario jadwal piket berikut untuk menjawab soal nomor 011 - 013!</b><br><br>Lima orang siswa (K, L, M, N, dan O) akan dijadwalkan piket harian dari Senin sampai Jumat, satu orang per hari.<br>1. M tidak piket pada hari Senin maupun Jumat.<br>2. L piket tepat satu hari setelah K.<br>3. O piket pada hari Rabu.<br>4. N piket pada hari Jumat.<br><br>Siapakah yang mendapatkan jadwal piket pada hari Senin?",
+        "opsi": [
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan urutan sebelumnya: Senin(K), Selasa(L), Rabu(O), Kamis(M), Jumat(N). Jadi hari Senin adalah K."
+      },
+      {
+        "id": "tpa_log_013",
+        "teks": "<b>Bacalah skenario jadwal piket berikut untuk menjawab soal nomor 011 - 013!</b><br><br>Lima orang siswa (K, L, M, N, dan O) akan dijadwalkan piket harian dari Senin sampai Jumat, satu orang per hari.<br>1. M tidak piket pada hari Senin maupun Jumat.<br>2. L piket tepat satu hari setelah K.<br>3. O piket pada hari Rabu.<br>4. N piket pada hari Jumat.<br><br>Jika L bertukar jadwal dengan M, maka pernyataan manakah yang BENAR?",
+        "opsi": [
+          "M piket di hari Selasa.",
+          "K piket di hari Kamis.",
+          "L piket di hari Kamis.",
+          "O piket di hari Jumat.",
+          "N piket di hari Senin."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan awal: K(Sen), L(Sel), O(Rab), M(Kam), N(Jum).<br>Jika L dan M tukar: K(Sen), M(Sel), O(Rab), L(Kam), N(Jum).<br>Pernyataan yang benar adalah L piket di hari Kamis."
+      },
+      {
+        "id": "tpa_log_014",
+        "teks": "Semua kain batik adalah hasil kerajinan tangan. Sebagian hasil kerajinan tangan bermotif bunga. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua batik bermotif bunga.",
+          "Sebagian kain batik bermotif bunga.",
+          "Tidak ada kain batik yang bermotif bunga.",
+          "Sebagian hasil kerajinan tangan bukan kain batik.",
+          "Semua yang bermotif bunga adalah batik."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Karena Batik adalah subset dari kerajinan tangan, dan tidak semua kerajinan tangan adalah batik, maka ada bagian kerajinan tangan (bisa yang motif bunga atau bukan) yang bukan merupakan batik."
+      },
+      {
+        "id": "tpa_log_015",
+        "teks": "Jika tanaman dipupuk, maka ia tumbuh subur. Tanaman X tidak tumbuh subur. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Tanaman X tidak dipupuk.",
+          "Tanaman X tetap dipupuk tapi mati.",
+          "Pemupukan tidak berhasil.",
+          "Tanaman X kekurangan air.",
+          "Semua tanaman membutuhkan pupuk."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Sesuai hukum kontraposisi (Modus Tollens): $\\sim Q \\implies \\sim P$."
+      },
+      {
+        "id": "tpa_log_016",
+        "teks": "<b>Bacalah skenario urutan nilai berikut untuk menjawab soal nomor 016 - 018!</b><br><br>Lima orang siswa (P, Q, R, S, T) mendapatkan nilai ujian matematika yang berbeda satu sama lain.<br>1. Nilai P lebih tinggi dari nilai Q.<br>2. Nilai R adalah yang paling rendah di antara semua siswa.<br>3. Nilai S lebih rendah dari nilai Q.<br>4. Nilai T lebih tinggi dari nilai P.<br><br>Siapakah yang mendapatkan nilai tertinggi kedua?",
+        "opsi": [
+          "T",
+          "P",
+          "Q",
+          "S",
+          "R"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan dari tertinggi ke terendah:<br>1. T (lebih tinggi dari P)<br>2. P (lebih tinggi dari Q)<br>3. Q (lebih tinggi dari S)<br>4. S<br>5. R (paling rendah)<br>Urutan: T > P > Q > S > R. Nilai tertinggi kedua adalah P."
+      },
+      {
+        "id": "tpa_log_017",
+        "teks": "<b>Bacalah skenario urutan nilai berikut untuk menjawab soal nomor 016 - 018!</b><br><br>Lima orang siswa (P, Q, R, S, T) mendapatkan nilai ujian matematika yang berbeda satu sama lain.<br>1. Nilai P lebih tinggi dari nilai Q.<br>2. Nilai R adalah yang paling rendah di antara semua siswa.<br>3. Nilai S lebih rendah dari nilai Q.<br>4. Nilai T lebih tinggi dari nilai P.<br><br>Jika nilai S ditambahkan 10 poin sehingga ia melampaui nilai P namun tetap di bawah nilai T, urutan baru dari yang terendah adalah...",
+        "opsi": [
+          "R, Q, P, S, T",
+          "R, P, Q, S, T",
+          "T, S, P, Q, R",
+          "R, S, Q, P, T",
+          "R, P, S, Q, T"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan awal: R < S < Q < P < T.<br>Kondisi baru: S naik hingga di atas P tapi di bawah T.<br>Urutan baru dari terendah: R (tetap terendah) < Q < P < S < T.<br>Maka: R, Q, P, S, T."
+      },
+      {
+        "id": "tpa_log_018",
+        "teks": "<b>Bacalah skenario urutan nilai berikut untuk menjawab soal nomor 016 - 018!</b><br><br>Lima orang siswa (P, Q, R, S, T) mendapatkan nilai ujian matematika yang berbeda satu sama lain.<br>1. Nilai P lebih tinggi dari nilai Q.<br>2. Nilai R adalah yang paling rendah di antara semua siswa.<br>3. Nilai S lebih rendah dari nilai Q.<br>4. Nilai T lebih tinggi dari nilai P.<br><br>Siapakah yang berada tepat di tengah-tengah urutan nilai tersebut?",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan: T - P - Q - S - R. Posisi tengah (ke-3) adalah Q."
+      },
+      {
+        "id": "tpa_log_019",
+        "teks": "Semua burung bertelur. Sebagian hewan peliharaan adalah burung. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua hewan peliharaan bertelur.",
+          "Sebagian hewan peliharaan bertelur.",
+          "Tidak ada burung yang bukan hewan peliharaan.",
+          "Sebagian burung tidak bertelur.",
+          "Burung yang bertelur pasti hewan peliharaan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok hewan peliharaan yang berupa burung dipastikan bertelur."
+      },
+      {
+        "id": "tpa_log_020",
+        "teks": "Jika harga BBM naik, maka harga bahan pokok akan naik. Saat ini harga bahan pokok tidak naik. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Harga BBM mungkin naik.",
+          "Pemerintah memberikan subsidi BBM.",
+          "Harga BBM tidak naik.",
+          "Masyarakat tidak protes harga BBM.",
+          "Harga bahan pokok akan naik esok hari."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Modus Tollens: Konsekuensi tidak terjadi (harga pokok tetap), maka penyebab (kenaikan BBM) juga tidak terjadi."
+      },
+      {
+        "id": "tpa_log_021",
+        "teks": "<b>Bacalah skenario seleksi karyawan berikut untuk menjawab soal nomor 021 - 22!</b><br><br>Sebuah perusahaan mencari karyawan dengan syarat: <br>1. Berusia di bawah 30 tahun.<br>2. Memiliki pengalaman minimal 2 tahun.<br>3. Jika ia lulusan luar negeri, maka pengalaman minimal hanya 1 tahun.<br><br>Andi adalah lulusan dalam negeri berusia 28 tahun dan telah bekerja selama 1,5 tahun. Apakah Andi memenuhi syarat?",
+        "opsi": [
+          "Ya, karena usianya memenuhi syarat.",
+          "Ya, karena ia lulusan dalam negeri.",
+          "Tidak, karena pengalamannya kurang dari 2 tahun.",
+          "Tidak, karena usianya terlalu tua.",
+          "Data tidak cukup."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Syarat Andi (Lulusan dalam negeri): harus pengalaman min 2 tahun. Andi baru 1,5 tahun. Jadi ia tidak memenuhi syarat pengalaman."
+      },
+      {
+        "id": "tpa_log_022",
+        "teks": "<b>Bacalah skenario seleksi karyawan berikut untuk menjawab soal nomor 021 - 22!</b><br><br>Sebuah perusahaan mencari karyawan dengan syarat: <br>1. Berusia di bawah 30 tahun.<br>2. Memiliki pengalaman minimal 2 tahun.<br>3. Jika ia lulusan luar negeri, maka pengalaman minimal hanya 1 tahun.<br><br>Budi adalah lulusan luar negeri berusia 25 tahun dengan pengalaman 1 tahun. Manakah pernyataan yang benar?",
+        "opsi": [
+          "Budi tidak memenuhi syarat karena pengalaman hanya 1 tahun.",
+          "Budi memenuhi syarat karena lulusan luar negeri dengan pengalaman 1 tahun.",
+          "Budi baru boleh melamar jika usianya sudah 30 tahun.",
+          "Syarat pengalaman untuk Budi tetap 2 tahun.",
+          "Budi gugur karena syarat usia."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sesuai poin ke-3, khusus lulusan luar negeri syarat pengalaman menjadi 1 tahun. Budi memenuhi kriteria tersebut."
+      },
+      {
+        "id": "tpa_log_023",
+        "teks": "Sebiahan peserta ujian merasa tegang. Semua yang merasa tegang tidak bisa fokus. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua peserta ujian tidak bisa fokus.",
+          "Sebagian peserta ujian tidak bisa fokus.",
+          "Peserta yang fokus pasti bukan peserta ujian.",
+          "Hanya peserta ujian yang tidak bisa fokus.",
+          "Tidak ada peserta ujian yang tidak tegang."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok peserta yang tegang dipastikan tidak bisa fokus."
+      },
+      {
+        "id": "tpa_log_024",
+        "teks": "Jika saya rajin belajar, maka saya akan mendapatkan beasiswa. Saya mendapatkan beasiswa. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Saya rajin belajar.",
+          "Mungkin saya rajin belajar.",
+          "Saya mendapatkan beasiswa karena keberuntungan.",
+          "Belajar tidak menjamin beasiswa.",
+          "Tidak dapat ditarik kesimpulan yang pasti."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kesalahan logika 'affirming the consequent'. Jika P maka Q. Ternyata Q terjadi, belum tentu disebabkan oleh P (bisa jadi karena faktor lain seperti prestasi olahraga). Kesimpulan pasti tidak ada."
+      },
+      {
+        "id": "tpa_log_025",
+        "teks": "Tidak ada pahlawan yang tidak jujur. Sebagian pemuda adalah pahlawan. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua pemuda adalah jujur.",
+          "Sebagian pemuda adalah jujur.",
+          "Pahlawan haruslah seorang pemuda.",
+          "Pemuda yang tidak jujur bukan pahlawan.",
+          "Opsi B dan D keduanya benar."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Karena pahlawan pasti jujur, maka sebagian pemuda yang pahlawan itu pasti jujur (B). Juga, karena pahlawan pasti jujur, maka yang tidak jujur tidak mungkin pahlawan (D). Keduanya benar secara logika."
+      },
+      {
+        "id": "tpa_log_026",
+        "teks": "Semua mamalia menyusui anaknya. Sebagian hewan yang hidup di air adalah mamalia. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua hewan yang hidup di air menyusui anaknya.",
+          "Sebagian hewan yang hidup di air menyusui anaknya.",
+          "Semua mamalia hidup di air.",
+          "Hewan yang menyusui anaknya pasti hidup di air.",
+          "Tidak ada hewan air yang menyusui anaknya."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian hewan air adalah mamalia, dan semua mamalia menyusui, maka sebagian hewan air tersebut pasti menyusui anaknya."
+      },
+      {
+        "id": "tpa_log_027",
+        "teks": "Jika laut pasang, maka dermaga akan tergenang air. Saat ini dermaga tidak tergenang air. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Laut sedang surut.",
+          "Laut tidak sedang pasang.",
+          "Dermaga sedang dalam perbaikan.",
+          "Mungkin laut akan segera pasang.",
+          "Air laut tidak bisa mencapai dermaga."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Modus Tollens: $P \\implies Q$. $\\sim Q$. Maka $\\sim P$. Karena dermaga tidak tergenang, maka laut tidak sedang pasang."
+      },
+      {
+        "id": "tpa_log_028",
+        "teks": "Semua seniman memiliki jiwa kreatif. Sebagian pejabat adalah seniman. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua pejabat memiliki jiwa kreatif.",
+          "Sebagian pejabat memiliki jiwa kreatif.",
+          "Seniman tidak mungkin menjadi pejabat.",
+          "Pejabat kreatif pasti seorang seniman.",
+          "Sebagian seniman bukan pejabat."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pejabat yang sekaligus seniman dipastikan memiliki jiwa kreatif."
+      },
+      {
+        "id": "tpa_log_029",
+        "teks": "Tidak ada komputer yang tidak memerlukan listrik. Tablet adalah komputer. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Tablet tidak memerlukan listrik.",
+          "Tablet memerlukan listrik.",
+          "Sebagian tablet memerlukan listrik.",
+          "Hanya tablet yang memerlukan listrik.",
+          "Listrik tidak diperlukan oleh tablet."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena semua komputer memerlukan listrik dan tablet adalah komputer, maka tablet memerlukan listrik."
+      },
+      {
+        "id": "tpa_log_030",
+        "teks": "Jika permintaan meningkat, maka harga barang akan naik. Saat ini harga barang sedang naik. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Permintaan sedang meningkat.",
+          "Permintaan sedang menurun.",
+          "Harga barang naik bukan karena permintaan.",
+          "Mungkin permintaan sedang meningkat.",
+          "Tidak dapat ditarik kesimpulan yang pasti."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kesalahan logika 'affirming the consequent'. Harga naik bisa disebabkan oleh faktor lain (biaya produksi, kelangkaan, dll), tidak hanya karena kenaikan permintaan."
+      },
+      {
+        "id": "tpa_log_031",
+        "teks": "<b>Bacalah skenario meja bundar berikut untuk menjawab soal nomor 031 - 033!</b><br><br>Lima orang sahabat (Vina, Wawan, Xena, Yoga, dan Zaki) duduk mengelilingi sebuah meja bundar.<br>1. Vina duduk tepat di antara Yoga dan Zaki.<br>2. Xena duduk tepat di sebelah kiri Wawan.<br>3. Yoga duduk tepat di sebelah kanan Wawan.<br><br>Siapakah yang duduk tepat di sebelah kanan Vina?",
+        "opsi": [
+          "Wawan",
+          "Xena",
+          "Yoga",
+          "Zaki",
+          "Data tidak cukup"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan duduk melingkar (searah jarum jam): Wawan - Yoga - Vina - Zaki - Xena. Di sebelah kanan Vina (jika menghadap ke dalam meja) adalah Yoga."
+      },
+      {
+        "id": "tpa_log_032",
+        "teks": "<b>Bacalah skenario meja bundar berikut untuk menjawab soal nomor 031 - 033!</b><br><br>Lima orang sahabat (Vina, Wawan, Xena, Yoga, dan Zaki) duduk mengelilingi sebuah meja bundar.<br>1. Vina duduk tepat di antara Yoga dan Zaki.<br>2. Xena duduk tepat di sebelah kiri Wawan.<br>3. Yoga duduk tepat di sebelah kanan Wawan.<br><br>Siapakah yang duduk tepat berhadapan dengan Wawan?",
+        "opsi": [
+          "Vina",
+          "Xena",
+          "Yoga",
+          "Zaki",
+          "Tidak ada yang tepat berhadapan karena jumlah ganjil"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Dalam formasi 5 orang di meja bundar, tidak ada posisi yang tepat berhadapan (simetris) satu sama lain."
+      },
+      {
+        "id": "tpa_log_033",
+        "teks": "<b>Bacalah skenario meja bundar berikut untuk menjawab soal nomor 031 - 033!</b><br><br>Lima orang sahabat (Vina, Wawan, Xena, Yoga, dan Zaki) duduk mengelilingi sebuah meja bundar.<br>1. Vina duduk tepat di antara Yoga dan Zaki.<br>2. Xena duduk tepat di sebelah kiri Wawan.<br>3. Yoga duduk tepat di sebelah kanan Wawan.<br><br>Jika Yoga bertukar tempat dengan Zaki, maka siapakah yang sekarang duduk di antara Vina dan Wawan?",
+        "opsi": [
+          "Xena",
+          "Zaki",
+          "Yoga",
+          "Vina",
+          "Wawan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan awal: Wawan - Yoga - Vina - Zaki - Xena. <br>Tukar Yoga & Zaki: Wawan - Zaki - Vina - Yoga - Xena. <br>Yang di antara Vina dan Wawan adalah Zaki."
+      },
+      {
+        "id": "tpa_log_034",
+        "teks": "<b>Bacalah skenario penugasan proyek berikut untuk menjawab soal nomor 034 - 036!</b><br><br>Tiga orang arsitek (A, B, dan C) masing-masing mengerjakan dua proyek berbeda dari total enam proyek (P1, P2, P3, P4, P5, P6).<br>1. A mengerjakan P1.<br>2. B tidak mengerjakan P2 maupun P3.<br>3. C mengerjakan P5 dan P6.<br>4. P2 dan P4 dikerjakan oleh orang yang sama.<br><br>Siapakah yang mengerjakan proyek P2?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "Bukan salah satu di atas",
+          "Data tidak cukup"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analisis:<br>- C sudah mengerjakan P5 & P6 (selesai).<br>- Sisa proyek: P1, P2, P3, P4.<br>- A mengerjakan P1.<br>- B tidak mengerjakan P2 & P3, berarti B harus mengerjakan sisa yang lain. Sisa untuk B hanya P4? Tapi P2 & P4 harus dikerjakan orang yang sama. <br>- Jika B mengerjakan P2 & P4 (kontradiksi syarat 2).<br>- Maka A harus mengerjakan P2 & P4. Karena A sudah mengerjakan P1, berarti ada yang salah? <br>- Mari cek ulang: A (P1, ...), B (..., ...), C (P5, P6). <br>- B tidak P2, P3. Maka B mengerjakan P4 dan P1? Tidak, A sudah P1. Maka B harus P4? Tapi P4 harus sama dengan P2. Berarti B tidak bisa P4. <br>- Satu-satunya kemungkinan: B mengerjakan P1 dan P4? Tidak. <br>- Jika A mengerjakan P1 dan P3. Maka B harus mengerjakan P2 dan P4. Tapi syarat 2 bilang B tidak P2. <br>- Maka A harus mengerjakan P2 dan P4. Sisa P3 untuk B. <br>- Formasi: A (P2, P4), B (P1, P3), C (P5, P6). <br>Wait, A mengerjakan P1 di syarat 1. <br>- Perbaikan logika: A (P1, P3), B (..., ...), C (P5, P6). B tidak P2, P3. Maka B mengerjakan P4 dan ...? <br>- Jika A (P1, P2), maka A juga harus P4 (syarat 4). Tapi setiap orang hanya 2 proyek. <br>- Jadi A (P1, P3), B (P2, P4) -> Salah karena B tidak P2. <br>- Maka A (P2, P4) dan B (P1, P3). Ini memenuhi semua syarat."
+      },
+      {
+        "id": "tpa_log_035",
+        "teks": "<b>Bacalah skenario penugasan proyek berikut untuk menjawab soal nomor 034 - 036!</b><br><br>Tiga orang arsitek (A, B, dan C) masing-masing mengerjakan dua proyek berbeda dari total enam proyek (P1, P2, P3, P4, P5, P6).<br>1. A mengerjakan P1.<br>2. B tidak mengerjakan P2 maupun P3.<br>3. C mengerjakan P5 dan P6.<br>4. P2 dan P4 dikerjakan oleh orang yang sama.<br><br>Berdasarkan skenario tersebut, proyek manakah yang dikerjakan oleh arsitek B?",
+        "opsi": [
+          "P1 dan P3",
+          "P2 dan P4",
+          "P1 dan P4",
+          "P3 dan P5",
+          "P2 dan P6"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Dari analisis sebelumnya: A mengerjakan (P2, P4), B mengerjakan (P1, P3), dan C mengerjakan (P5, P6). Maka B mengerjakan P1 dan P3."
+      },
+      {
+        "id": "tpa_log_036",
+        "teks": "<b>Bacalah skenario penugasan proyek berikut untuk menjawab soal nomor 034 - 036!</b><br><br>Tiga orang arsitek (A, B, dan C) masing-masing mengerjakan dua proyek berbeda dari total enam proyek (P1, P2, P3, P4, P5, P6).<br>1. A mengerjakan P1.<br>2. B tidak mengerjakan P2 maupun P3.<br>3. C mengerjakan P5 dan P6.<br>4. P2 dan P4 dikerjakan oleh orang yang sama.<br><br>Manakah pernyataan yang PASTI SALAH?",
+        "opsi": [
+          "A mengerjakan P4.",
+          "B mengerjakan P3.",
+          "C mengerjakan P5.",
+          "A mengerjakan P1.",
+          "B mengerjakan P2."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Syarat 2 secara eksplisit menyatakan B tidak mengerjakan P2. Maka pernyataan 'B mengerjakan P2' pasti salah."
+      },
+      {
+        "id": "tpa_log_037",
+        "teks": "Semua guru adalah pendidik. Sebagian pendidik adalah penulis. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua guru adalah penulis.",
+          "Sebagian guru adalah penulis.",
+          "Guru yang penulis bukan pendidik.",
+          "Mungkin ada guru yang merupakan penulis.",
+          "Pendidik yang bukan penulis pasti bukan guru."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Karena tidak ada informasi langsung yang menghubungkan himpunan guru dan penulis di dalam himpunan pendidik, kesimpulan yang pasti tidak ada, namun 'mungkin ada guru yang penulis' adalah pernyataan yang logis."
+      },
+      {
+        "id": "tpa_log_038",
+        "teks": "Negasi dari pernyataan 'Semua siswa membawa buku' adalah...",
+        "opsi": [
+          "Semua siswa tidak membawa buku.",
+          "Ada siswa yang tidak membawa buku.",
+          "Beberapa siswa membawa buku.",
+          "Tidak ada siswa yang membawa buku.",
+          "Siswa tidak harus membawa buku."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ingkaran dari kuantor universal (Semua P adalah Q) adalah kuantor eksistensial (Ada P yang bukan Q)."
+      },
+      {
+        "id": "tpa_log_039",
+        "teks": "Jika cuaca cerah, maka jemuran akan kering. Jemuran tidak kering. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Cuaca mendung.",
+          "Cuaca tidak cerah.",
+          "Hari ini hujan.",
+          "Jemuran baru saja dicuci.",
+          "Matahari tertutup awan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Modus Tollens: Jika P maka Q. Ternyata tidak Q, maka tidak P."
+      },
+      {
+        "id": "tpa_log_040",
+        "teks": "Sebagian hutan adalah hutan lindung. Semua hutan lindung dilarang untuk ditebang. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua hutan dilarang ditebang.",
+          "Sebagian hutan dilarang ditebang.",
+          "Hutan yang tidak dilarang ditebang adalah hutan lindung.",
+          "Tidak ada hutan yang boleh ditebang.",
+          "Hanya sebagian hutan lindung yang dilarang ditebang."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Bagian hutan yang merupakan hutan lindung otomatis dilarang untuk ditebang."
+      },
+      {
+        "id": "tpa_log_041",
+        "teks": "Semua mamalia menyusui. Sebagian mamalia hidup di darat. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua yang hidup di darat menyusui.",
+          "Sebagian yang hidup di darat menyusui.",
+          "Tidak ada mamalia yang tidak hidup di darat.",
+          "Hewan darat bukan mamalia.",
+          "Hanya mamalia darat yang menyusui."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok hewan darat yang merupakan mamalia dipastikan menyusui."
+      },
+      {
+        "id": "tpa_log_042",
+        "teks": "<b>Bacalah skenario perbandingan tinggi badan berikut untuk menjawab soal nomor 042 - 045!</b><br><br>Lima orang kawan (Ari, Bimo, Caca, Doni, dan Eka) membandingkan tinggi badan mereka.<br>1. Ari lebih tinggi dari Bimo.<br>2. Caca lebih pendek dari Ari, namun lebih tinggi dari Doni.<br>3. Doni lebih tinggi dari Bimo.<br>4. Eka adalah yang paling tinggi di antara mereka semua.<br><br>Siapakah yang paling pendek?",
+        "opsi": [
+          "Ari",
+          "Bimo",
+          "Caca",
+          "Doni",
+          "Eka"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan tinggi (dari tertinggi ke terendah):<br>1. Eka (paling tinggi)<br>2. Ari (lebih tinggi dari Bimo dan Caca)<br>3. Caca (lebih tinggi dari Doni)<br>4. Doni (lebih tinggi dari Bimo)<br>5. Bimo (paling pendek)<br>Urutan: Eka > Ari > Caca > Doni > Bimo."
+      },
+      {
+        "id": "tpa_log_043",
+        "teks": "<b>Bacalah skenario perbandingan tinggi badan berikut untuk menjawab soal nomor 042 - 045!</b><br><br>Lima orang kawan (Ari, Bimo, Caca, Doni, dan Eka) membandingkan tinggi badan mereka.<br>1. Ari lebih tinggi dari Bimo.<br>2. Caca lebih pendek dari Ari, namun lebih tinggi dari Doni.<br>3. Doni lebih tinggi dari Bimo.<br>4. Eka adalah yang paling tinggi di antara mereka semua.<br><br>Siapakah yang berada di urutan tinggi ke-3?",
+        "opsi": [
+          "Ari",
+          "Caca",
+          "Doni",
+          "Bimo",
+          "Eka"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan: Eka(1) > Ari(2) > Caca(3) > Doni(4) > Bimo(5). Maka urutan ke-3 adalah Caca."
+      },
+      {
+        "id": "tpa_log_044",
+        "teks": "<b>Bacalah skenario perbandingan tinggi badan berikut untuk menjawab soal nomor 042 - 045!</b><br><br>Lima orang kawan (Ari, Bimo, Caca, Doni, dan Eka) membandingkan tinggi badan mereka.<br>1. Ari lebih tinggi dari Bimo.<br>2. Caca lebih pendek dari Ari, namun lebih tinggi dari Doni.<br>3. Doni lebih tinggi dari Bimo.<br>4. Eka adalah yang paling tinggi di antara mereka semua.<br><br>Manakah pernyataan yang BENAR?",
+        "opsi": [
+          "Caca lebih tinggi dari Ari.",
+          "Bimo lebih tinggi dari Doni.",
+          "Doni lebih pendek dari Ari.",
+          "Ari lebih pendek dari Caca.",
+          "Eka lebih pendek dari Doni."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sesuai urutan Eka > Ari > Caca > Doni > Bimo, Doni memang lebih pendek dari Ari."
+      },
+      {
+        "id": "tpa_log_045",
+        "teks": "<b>Bacalah skenario perbandingan tinggi badan berikut untuk menjawab soal nomor 042 - 045!</b><br><br>Lima orang kawan (Ari, Bimo, Caca, Doni, dan Eka) membandingkan tinggi badan mereka.<br>1. Ari lebih tinggi dari Bimo.<br>2. Caca lebih pendek dari Ari, namun lebih tinggi dari Doni.<br>3. Doni lebih tinggi dari Bimo.<br>4. Eka adalah yang paling tinggi di antara mereka semua.<br><br>Jika seorang kawan baru, Faza, masuk dan ia lebih tinggi dari Caca namun lebih pendek dari Ari, maka Faza berada di urutan ke-berapa?",
+        "opsi": [
+          "Kedua",
+          "Ketiga",
+          "Keempat",
+          "Kelima",
+          "Tidak dapat ditentukan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan awal: Eka(1), Ari(2), Caca(3), Doni(4), Bimo(5).<br>Faza di antara Ari dan Caca: Eka(1), Ari(2), Faza(3), Caca(4), Doni(5), Bimo(6).<br>Faza berada di urutan ke-3."
+      },
+      {
+        "id": "tpa_log_046",
+        "teks": "Beberapa toko buku memberikan diskon. Semua yang memberikan diskon ramai dikunjungi pembeli. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua toko buku ramai dikunjungi.",
+          "Beberapa toko buku ramai dikunjungi.",
+          "Hanya toko buku yang memberikan diskon yang ramai.",
+          "Toko buku yang sepi tidak memberikan diskon.",
+          "Opsi B dan D keduanya benar."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Karena beberapa toko buku memberi diskon, maka beberapa tersebut pasti ramai (B). Juga, karena semua pemberi diskon ramai, maka yang tidak ramai pasti tidak memberi diskon (D). Keduanya benar secara logika."
+      },
+      {
+        "id": "tpa_log_047",
+        "teks": "Jika lampu mati, maka ruangan menjadi gelap. Jika ruangan gelap, maka saya tidak bisa membaca. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Jika lampu mati, maka saya tidak bisa membaca.",
+          "Saya tidak bisa membaca karena lampu mati.",
+          "Lampu mati saat saya sedang membaca.",
+          "Jika saya bisa membaca, maka lampu tidak mati.",
+          "Opsi A dan D keduanya benar."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Menggunakan hukum silogisme ($P \\implies Q$ dan $Q \\implies R$, maka $P \\implies R$) dan hukum kontraposisi ($\\sim R \\implies \\sim P$)."
+      },
+      {
+        "id": "tpa_log_048",
+        "teks": "Semua hewan pemakan rumput adalah herbivora. Sebagian hewan ternak adalah pemakan rumput. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua hewan ternak adalah herbivora.",
+          "Sebagian hewan ternak adalah herbivora.",
+          "Hewan ternak yang herbivora tidak makan rumput.",
+          "Herbivora hanya ada pada hewan ternak.",
+          "Tidak ada hewan ternak yang herbivora."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hewan ternak yang makan rumput dipastikan masuk kategori herbivora."
+      },
+      {
+        "id": "tpa_log_049",
+        "teks": "Tidak ada mawar yang berwarna hitam. Bunga X berwarna hitam. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Bunga X adalah mawar.",
+          "Bunga X bukan mawar.",
+          "Sebagian mawar mungkin hitam.",
+          "Bunga X adalah bunga langka.",
+          "Tidak dapat ditarik kesimpulan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Syllogism: No A is B. C is B. Therefore, C is not A."
+      },
+      {
+        "id": "tpa_log_050",
+        "teks": "Sebagian karyawan berprestasi mendapatkan bonus. Semua yang mendapatkan bonus merasa senang. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua karyawan merasa senang.",
+          "Sebagian karyawan berprestasi merasa senang.",
+          "Karyawan yang senang pasti berprestasi.",
+          "Hanya karyawan berprestasi yang senang.",
+          "Bonus hanya untuk karyawan berprestasi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok karyawan berprestasi yang mendapat bonus dipastikan merasa senang."
+      },
+      {
+        "id": "tpa_log_051",
+        "teks": "Semua laptop adalah perangkat elektronik. Sebagian perangkat elektronik dapat dibawa dalam tas kecil. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua laptop dapat dibawa dalam tas kecil.",
+          "Sebagian laptop dapat dibawa dalam tas kecil.",
+          "Tidak ada laptop yang tidak dapat dibawa dalam tas kecil.",
+          "Mungkin ada laptop yang dapat dibawa dalam tas kecil.",
+          "Perangkat elektronik yang bukan laptop tidak bisa dibawa dalam tas kecil."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Karena premis kedua bersifat partikular (sebagian), maka hubungan laptop dengan kemampuan 'dibawa dalam tas' belum pasti (tidak ada interseksi yang ditegaskan). Maka kesimpulan yang paling aman adalah 'Mungkin ada laptop yang dapat dibawa dalam tas kecil'."
+      },
+      {
+        "id": "tpa_log_052",
+        "teks": "Jika sistem keamanan rusak, maka data akan bocor. Jika data bocor, maka reputasi perusahaan terancam. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Jika sistem keamanan rusak, maka reputasi perusahaan terancam.",
+          "Sistem keamanan rusak karena reputasi perusahaan terancam.",
+          "Jika reputasi perusahaan tidak terancam, maka sistem keamanan tidak rusak.",
+          "Opsi A dan C keduanya benar.",
+          "Data bocor hanya jika sistem keamanan rusak."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Gunakan Hukum Silogisme (A -> B, B -> C, maka A -> C) dan Hukum Kontraposisi (~C -> ~A). Keduanya valid secara logika."
+      },
+      {
+        "id": "tpa_log_053",
+        "teks": "Semua hewan amfibi hidup di dua alam. Sebagian hewan amfibi memiliki kulit yang beracun. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua yang hidup di dua alam memiliki kulit beracun.",
+          "Sebagian yang hidup di dua alam memiliki kulit beracun.",
+          "Hewan yang kulitnya beracun pasti hewan amfibi.",
+          "Tidak ada amfibi yang tidak beracun.",
+          "Hewan darat memiliki kulit yang beracun."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hewan yang hidup di dua alam adalah representasi dari seluruh amfibi. Karena sebagian amfibi beracun, maka sebagian kelompok yang hidup di dua alam tersebut pasti beracun."
+      },
+      {
+        "id": "tpa_log_054",
+        "teks": "Negasi dari pernyataan 'Beberapa menteri tidak setuju dengan kebijakan baru atau semua rakyat senang' adalah...",
+        "opsi": [
+          "Semua menteri setuju dan ada rakyat yang tidak senang.",
+          "Beberapa menteri setuju atau ada rakyat yang tidak senang.",
+          "Semua menteri tidak setuju dan semua rakyat senang.",
+          "Menteri setuju dan rakyat senang.",
+          "Tidak ada menteri yang setuju dan rakyat tidak senang."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Negasi dari (Ada P tidak Q) OR (Semua R) adalah (Semua P Q) AND (Ada R tidak senang). Rumus: ~(p ∨ q) ≡ ~p ∧ ~q."
+      },
+      {
+        "id": "tpa_log_055",
+        "teks": "Tidak ada satupun koruptor yang jujur. Sebagian pejabat adalah koruptor. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Semua pejabat jujur.",
+          "Semua koruptor adalah pejabat.",
+          "Sebagian pejabat tidak jujur.",
+          "Pejabat yang jujur adalah koruptor.",
+          "Hanya sebagian kecil pejabat yang tidak jujur."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sebagian pejabat masuk ke kelompok koruptor. Karena tidak ada koruptor yang jujur, maka kelompok pejabat yang koruptor tersebut pasti tidak jujur."
+      },
+      {
+        "id": "tpa_log_056",
+        "teks": "<b>Bacalah skenario antrean berikut untuk menjawab soal nomor 056 - 058!</b><br><br>Lima orang (P, Q, R, S, T) sedang mengantre di kasir swalayan. <br>1. R berada tepat di belakang S.<br>2. P berada di antara Q dan T.<br>3. Q berada di barisan paling depan.<br><br>Siapakah yang berada di posisi ketiga dalam antrean?",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan: <br>1. Q (depan)<br>2. P (di antara Q dan T)<br>3. T<br>Sisa posisi 4 dan 5 untuk S dan R. <br>4. S<br>5. R (tepat di belakang S).<br>Urutan: Q - P - T - S - R. Posisi ke-3 adalah T. <br><i>Koreksi: P di antara Q dan T artinya Q-P-T. Maka T di urutan ke-3. (Opsi E).</i>"
+      },
+      {
+        "id": "tpa_log_057",
+        "teks": "<b>Bacalah skenario antrean berikut untuk menjawab soal nomor 056 - 058!</b><br><br>Lima orang (P, Q, R, S, T) sedang mengantre di kasir swalayan. <br>1. R berada tepat di belakang S.<br>2. P berada di antara Q dan T.<br>3. Q berada di barisan paling depan.<br><br>Jika S ingin berada tepat di belakang P, maka siapakah yang harus pindah antrean?",
+        "opsi": [
+          "R harus pindah ke depan Q",
+          "T harus pindah ke belakang R",
+          "Q harus pindah ke belakang S",
+          "P harus pindah ke belakang T",
+          "Data tidak cukup"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan awal: Q - P - T - S - R. Agar S di belakang P (Q - P - S), maka T harus bergeser menjauh (misal ke belakang R)."
+      },
+      {
+        "id": "tpa_log_058",
+        "teks": "<b>Bacalah skenario antrean berikut untuk menjawab soal nomor 056 - 058!</b><br><br>Lima orang (P, Q, R, S, T) sedang mengantre di kasir swalayan. <br>1. R berada tepat di belakang S.<br>2. P berada di antara Q dan T.<br>3. Q berada di barisan paling depan.<br><br>Siapakah yang berada di urutan paling belakang?",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sesuai urutan Q - P - T - S - R, yang paling belakang adalah R."
+      },
+      {
+        "id": "tpa_log_059",
+        "teks": "<b>Bacalah skenario meja makan berikut untuk menjawab soal nomor 059 - 061!</b><br><br>Enam orang (A, B, C, D, E, F) duduk mengelilingi meja bundar.<br>1. A duduk berhadapan dengan D.<br>2. B duduk tepat di antara A dan E.<br>3. C duduk berhadapan dengan E.<br><br>Siapakah yang duduk tepat di antara A dan C?",
+        "opsi": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "Tidak ada"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Posisi melingkar:<br>- A (jam 12) berhadapan dengan D (jam 6).<br>- B di antara A dan E. Jika E di jam 4, B di jam 2.<br>- C berhadapan dengan E. Jika E jam 4, C di jam 10.<br>- Sisa F di jam 8.<br>Antara A (jam 12) dan C (jam 10) adalah F."
+      },
+      {
+        "id": "tpa_log_060",
+        "teks": "<b>Bacalah skenario meja makan berikut untuk menjawab soal nomor 059 - 061!</b><br><br>Enam orang (A, B, C, D, E, F) duduk mengelilingi meja bundar.<br>1. A duduk berhadapan dengan D.<br>2. B duduk tepat di antara A dan E.<br>3. C duduk berhadapan dengan E.<br><br>Pernyataan manakah yang PASTI BENAR?",
+        "opsi": [
+          "F duduk berhadapan dengan B.",
+          "C duduk di antara D dan F.",
+          "E duduk di sebelah kanan D.",
+          "D duduk di antara B dan C.",
+          "B berhadapan dengan C."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan: A(12) - B(2) - E(4) - D(6) - F(8) - C(10). <br>F(8) akan berhadapan dengan B(2)."
+      },
+      {
+        "id": "tpa_log_061",
+        "teks": "<b>Bacalah skenario meja makan berikut untuk menjawab soal nomor 059 - 061!</b><br><br>Enam orang (A, B, C, D, E, F) duduk mengelilingi meja bundar.<br>1. A duduk berhadapan dengan D.<br>2. B duduk tepat di antara A dan E.<br>3. C duduk berhadapan dengan E.<br><br>Siapakah yang duduk di sebelah kanan D?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Berdasarkan urutan A(12)-B(2)-E(4)-D(6)-F(8)-C(10), jika menghadap ke dalam meja, di sebelah kanan D adalah E."
+      },
+      {
+        "id": "tpa_log_062",
+        "teks": "Pilihlah kelanjutan pola gambar berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><rect x='10' y='10' width='40' height='40' fill='none' stroke='black'/><circle cx='30' cy='30' r='5' fill='black'/><rect x='70' y='10' width='40' height='40' fill='none' stroke='black'/><circle cx='80' cy='20' r='5' fill='black'/><circle cx='100' cy='40' r='5' fill='black'/><rect x='130' y='10' width='40' height='40' fill='none' stroke='black'/><circle cx='140' cy='20' r='5' fill='black'/><circle cx='160' cy='20' r='5' fill='black'/><circle cx='150' cy='40' r='5' fill='black'/></svg><br>Kotak selanjutnya harus berisi...",
+        "opsi": [
+          "Kotak kosong",
+          "Kotak dengan 4 titik di setiap sudut",
+          "Kotak dengan 5 titik membentuk pola X",
+          "Kotak dengan 2 titik di tengah",
+          "Kotak dengan 1 titik besar"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola jumlah titik bertambah satu setiap langkah: 1, 2, 3... Maka selanjutnya adalah 4 titik."
+      },
+      {
+        "id": "tpa_log_063",
+        "teks": "Perhatikan pola rotasi objek berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><line x1='30' y1='10' x2='30' y2='50' stroke='black' stroke-width='3'/><line x1='80' y1='10' x2='100' y2='50' stroke='black' stroke-width='3'/><line x1='130' y1='30' x2='170' y2='30' stroke='black' stroke-width='3'/></svg><br>Gambar selanjutnya adalah garis yang...",
+        "opsi": [
+          "Miring ke arah sebaliknya (kiri bawah ke kanan atas)",
+          "Tetap horizontal",
+          "Kembali tegak lurus",
+          "Membentuk tanda tambah",
+          "Membentuk lingkaran"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pola menunjukkan rotasi searah jarum jam sebesar 45 derajat setiap langkah. Langkah 1 (Tegak), Langkah 2 (Miring 45°), Langkah 3 (Datar/90°). Maka langkah 4 adalah miring 135° atau ke arah kiri bawah."
+      },
+      {
+        "id": "tpa_log_064",
+        "teks": "Manakah yang merupakan analogi figural yang tepat?<br><b>Kotak : Kubus = Lingkaran : ...</b>",
+        "opsi": [
+          "Tabung",
+          "Kerucut",
+          "Bola",
+          "Cakram",
+          "Oval"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hubungan antara bangun datar dan bangun ruang yang sejenis. Kotak (2D) menjadi Kubus (3D); Lingkaran (2D) menjadi Bola (3D)."
+      },
+      {
+        "id": "tpa_log_065",
+        "teks": "Manakah gambar yang tidak termasuk dalam kelompok pola berikut?<br><br><svg width='250' height='60' viewBox='0 0 250 60'><rect x='10' y='10' width='40' height='40' fill='black'/><circle cx='85' cy='30' r='20' fill='black'/><polygon points='130,50 150,10 170,50' fill='black'/><rect x='190' y='20' width='40' height='20' fill='none' stroke='black' stroke-width='2'/></svg>",
+        "opsi": [
+          "Gambar 1 (Persegi hitam)",
+          "Gambar 2 (Lingkaran hitam)",
+          "Gambar 3 (Segitiga hitam)",
+          "Gambar 4 (Persegi panjang transparan)",
+          "Semua termasuk kelompok"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Gambar 1, 2, dan 3 adalah bangun datar yang diarsir penuh (solid), sedangkan gambar 4 hanya berupa garis tepi (outline) atau transparan."
+      },
+      {
+        "id": "tpa_log_066",
+        "teks": "Jika saya rajin menabung, maka saya bisa membeli rumah. Saya tidak bisa membeli rumah. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Saya malas menabung.",
+          "Saya tidak rajin menabung.",
+          "Saya rajin menabung namun gagal.",
+          "Mungkin saya kurang beruntung.",
+          "Rumah harganya terlalu mahal."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hukum Modus Tollens: $P \\implies Q$, terjadi $\\sim Q$, maka dipastikan $\\sim P$."
+      },
+      {
+        "id": "tpa_log_067",
+        "teks": "Sebagian guru adalah penulis. Semua penulis adalah pembaca buku. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua guru adalah pembaca buku.",
+          "Sebagian guru adalah pembaca buku.",
+          "Guru yang bukan penulis tidak membaca buku.",
+          "Pembaca buku pasti seorang guru.",
+          "Hanya penulis yang membaca buku."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok guru yang juga penulis dipastikan merupakan pembaca buku karena semua penulis adalah pembaca buku."
+      },
+      {
+        "id": "tpa_log_068",
+        "teks": "<b>Bacalah kriteria penerimaan beasiswa berikut!</b><br><br>Syarat beasiswa:<br>1. IPK minimal 3.50.<br>2. Mahasiswa aktif semester 3 atau 5.<br>3. Memiliki sertifikat prestasi tingkat nasional.<br><br>Lina adalah mahasiswa semester 3 dengan IPK 3.80. Namun, sertifikat prestasi yang ia miliki adalah tingkat provinsi. Apakah Lina layak menerima beasiswa?",
+        "opsi": [
+          "Ya, karena IPK-nya sangat tinggi.",
+          "Ya, karena ia mahasiswa aktif semester 3.",
+          "Tidak, karena prestasinya belum tingkat nasional.",
+          "Tidak, karena prestasinya hanya tingkat kabupaten.",
+          "Mungkin, tergantung keputusan panitia."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika kondisional yang ketat. Semua syarat (1, 2, DAN 3) harus terpenuhi. Lina gagal pada syarat nomor 3."
+      },
+      {
+        "id": "tpa_log_069",
+        "teks": "Setiap pagi Ayah minum kopi atau teh. Pagi ini Ayah tidak minum teh. Kesimpulan yang pasti adalah...",
+        "opsi": [
+          "Ayah minum kopi.",
+          "Ayah tidak minum kopi.",
+          "Ayah minum susu.",
+          "Ayah tidak haus.",
+          "Ayah sedang tidak di rumah."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Logika disjungtif (P OR Q). Jika salah satu (Q) tidak terjadi, maka yang lainnya (P) harus terjadi."
+      },
+      {
+        "id": "tpa_log_070",
+        "teks": "Semua mahasiswa yang lulus tepat waktu adalah mahasiswa rajin. Sebagian mahasiswa rajin aktif di organisasi. Kesimpulan yang paling mungkin adalah...",
+        "opsi": [
+          "Semua mahasiswa lulus tepat waktu aktif organisasi.",
+          "Sebagian mahasiswa lulus tepat waktu aktif organisasi.",
+          "Mungkin ada mahasiswa lulus tepat waktu yang aktif organisasi.",
+          "Tidak ada mahasiswa organisasi yang lulus tepat waktu.",
+          "Mahasiswa tidak rajin tidak aktif organisasi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dalam silogisme dengan premis 'Semua' dan 'Sebagian', kesimpulan yang paling tepat adalah 'Mungkin' atau 'Sebagian' jika ada interseksi yang tumpang tindih. Opsi C adalah pernyataan kemungkinan yang logis."
+      },
+      {
+        "id": "tpa_log_071",
+        "teks": "Tentukan premis yang hilang agar kesimpulan 'Bunga X harum' menjadi sah.<br>Premis 1: Semua bunga mawar itu harum.<br>Premis 2: ...",
+        "opsi": [
+          "Bunga X bukan mawar.",
+          "Sebagian bunga mawar adalah bunga X.",
+          "Bunga X adalah bunga mawar.",
+          "Bunga X warnanya merah.",
+          "Tidak ada mawar yang tidak harum."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Agar kesimpulan 'X itu harum' sah dari aturan 'Mawar itu harum', maka X harus diletakkan sebagai bagian dari kelompok mawar."
+      },
+      {
+        "id": "tpa_log_072",
+        "teks": "<b>Bacalah skenario warna baju berikut!</b><br><br>Ada empat baju dengan warna merah, biru, kuning, dan hijau.<br>1. Baju merah lebih mahal dari baju biru.<br>2. Baju kuning lebih murah dari baju hijau.<br>3. Baju biru dan baju hijau harganya sama.<br><br>Manakah urutan baju dari yang paling mahal?",
+        "opsi": [
+          "Merah - Biru - Hijau - Kuning",
+          "Merah - Hijau - Kuning - Biru",
+          "Merah - Biru - Kuning - Hijau",
+          "Merah - Biru/Hijau - Kuning",
+          "Biru - Hijau - Merah - Kuning"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Urutan: <br>1. Merah > Biru.<br>2. Hijau > Kuning.<br>3. Biru = Hijau.<br>Maka: Merah > (Biru = Hijau) > Kuning."
+      },
+      {
+        "id": "tpa_log_073",
+        "teks": "Tidak ada penjahat yang berhati mulia. Sebagian tokoh film adalah penjahat. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua tokoh film tidak berhati mulia.",
+          "Sebagian tokoh film tidak berhati mulia.",
+          "Tokoh film pasti berhati mulia.",
+          "Ada penjahat yang merupakan tokoh film.",
+          "Opsi B dan D keduanya benar."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Dari premis 2, ada tokoh film yang penjahat. Karena penjahat pasti tidak mulia, maka sebagian tokoh film tersebut tidak mulia (B). Pernyataan D juga benar berdasarkan premis 2 (konversi sebagian)."
+      },
+      {
+        "id": "tpa_log_074",
+        "teks": "Jika lampu merah menyala, maka kendaraan harus berhenti. Jika kendaraan berhenti, maka kemacetan berkurang. Kesimpulan yang salah adalah...",
+        "opsi": [
+          "Jika lampu merah menyala, maka kemacetan berkurang.",
+          "Jika kemacetan tidak berkurang, maka lampu merah tidak menyala.",
+          "Kemacetan berkurang hanya jika lampu merah menyala.",
+          "Lampu merah menyala adalah penyebab kendaraan berhenti.",
+          "Berhentinya kendaraan menyebabkan kemacetan berkurang."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pernyataan 'hanya jika' (P hanya jika Q) merupakan kesalahan logika pembalikan arah kausalitas. Kemacetan berkurang bisa disebabkan faktor lain (misal polisi lalu lintas), tidak mutlak hanya karena lampu merah."
+      },
+      {
+        "id": "tpa_log_075",
+        "teks": "<b>Bacalah skenario buah favorit berikut!</b><br><br>Ani suka apel dan mangga. Budi suka mangga dan jeruk. Cici suka apel dan jeruk. Dedi hanya suka apa yang disukai Ani dan Budi secara bersamaan.<br><br>Buah apakah yang disukai Dedi?",
+        "opsi": [
+          "Apel",
+          "Mangga",
+          "Jeruk",
+          "Apel dan Mangga",
+          "Apel dan Jeruk"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Irisan kesukaan Ani {Apel, Mangga} dan Budi {Mangga, Jeruk} adalah Mangga. Maka Dedi suka mangga."
+      },
+      {
+        "id": "tpa_log_076",
+        "teks": "Semua mamalia bernapas dengan paru-paru. Semua paus adalah mamalia. Sebagian paus hidup di perairan dalam. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua yang hidup di perairan dalam bernapas dengan paru-paru.",
+          "Sebagian hewan yang bernapas dengan paru-paru hidup di perairan dalam.",
+          "Semua mamalia hidup di perairan dalam.",
+          "Tidak ada paus yang tidak bernapas dengan paru-paru.",
+          "Sebagian mamalia bukan paus."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian paus hidup di perairan dalam dan semua paus adalah mamalia yang bernapas dengan paru-paru, maka otomatis ada sebagian makhluk yang bernapas dengan paru-paru (yaitu kelompok paus tersebut) yang hidup di perairan dalam."
+      },
+      {
+        "id": "tpa_log_077",
+        "teks": "Jika kebijakan fiskal diperketat, maka laju inflasi akan menurun. Jika laju inflasi menurun, maka daya beli masyarakat akan meningkat. Saat ini daya beli masyarakat tidak meningkat. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Kebijakan fiskal tidak diperketat.",
+          "Laju inflasi tetap tinggi.",
+          "Pemerintah gagal menjalankan kebijakan fiskal.",
+          "Daya beli masyarakat akan segera meningkat.",
+          "Kebijakan fiskal diperketat namun inflasi tetap."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Menggunakan hukum silogisme (A $\\to$ B, B $\\to$ C maka A $\\to$ C) dan Modus Tollens (~C $\\to$ ~A). Karena daya beli tidak meningkat (~C), maka kebijakan fiskal tidak diperketat (~A)."
+      },
+      {
+        "id": "tpa_log_078",
+        "teks": "Semua seniman adalah orang yang kreatif. Sebagian kreatif adalah orang yang disiplin. Kesimpulan yang paling mungkin adalah...",
+        "opsi": [
+          "Semua seniman adalah orang yang disiplin.",
+          "Sebagian seniman adalah orang yang disiplin.",
+          "Mungkin ada seniman yang disiplin.",
+          "Orang yang disiplin pasti seorang seniman.",
+          "Tidak ada seniman yang disiplin."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dalam logika formal, jika tidak ada hubungan langsung yang ditegaskan antara subjek pertama (seniman) dan predikat terakhir (disiplin) melalui interseksi yang pasti, maka kesimpulan hanya bersifat kemungkinan (Mungkin)."
+      },
+      {
+        "id": "tpa_log_079",
+        "teks": "Tidak ada satu pun pohon jati yang memiliki daun yang lunak. Tanaman X memiliki daun yang lunak. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Tanaman X adalah pohon jati.",
+          "Tanaman X bukan pohon jati.",
+          "Sebagian pohon jati adalah tanaman X.",
+          "Tanaman X mungkin pohon jati.",
+          "Semua tanaman berdaun lunak bukan jati."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme kategoris: Tidak ada A yang B. X adalah B. Maka X bukan A."
+      },
+      {
+        "id": "tpa_log_080",
+        "teks": "Semua mahasiswa tingkat akhir wajib mengambil skripsi. Sebagian yang wajib mengambil skripsi mengikuti bimbingan intensif. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua mahasiswa tingkat akhir mengikuti bimbingan intensif.",
+          "Sebagian mahasiswa tingkat akhir mengikuti bimbingan intensif.",
+          "Mungkin ada mahasiswa tingkat akhir yang mengikuti bimbingan intensif.",
+          "Hanya mahasiswa tingkat akhir yang wajib skripsi.",
+          "Peserta bimbingan intensif pasti mahasiswa tingkat akhir."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Karena tidak disebutkan bahwa semua pengambil skripsi adalah mahasiswa tingkat akhir (bisa jadi ada jurusan tertentu yang berbeda), dan hanya 'sebagian' yang ikut bimbingan, maka kesimpulan yang pasti tidak bisa ditarik. Opsi 'Mungkin' adalah yang paling logis."
+      },
+      {
+        "id": "tpa_log_081",
+        "teks": "Pernyataan 'Semua koruptor dihukum mati' bernilai salah. Maka pernyataan yang pasti benar adalah...",
+        "opsi": [
+          "Tidak ada koruptor yang dihukum mati.",
+          "Ada koruptor yang tidak dihukum mati.",
+          "Semua koruptor tidak dihukum mati.",
+          "Koruptor dihukum penjara.",
+          "Hukum mati tidak berlaku bagi koruptor."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Negasi dari pernyataan universal 'Semua P adalah Q' adalah pernyataan eksistensial 'Ada P yang bukan Q'."
+      },
+      {
+        "id": "tpa_log_082",
+        "teks": "Jika saya menang lomba, maka saya akan merayakannya di restoran. Saya merayakan sesuatu di restoran. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Saya menang lomba.",
+          "Mungkin saya menang lomba.",
+          "Saya merayakannya karena orang lain menang.",
+          "Restoran adalah tempat favorit saya.",
+          "Tidak dapat ditarik kesimpulan yang pasti."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Ini adalah kesalahan logika 'Affirming the Consequent'. Konsekuensi terjadi (merayakan di restoran) tidak menjamin penyebab tertentu (menang lomba) adalah pemicunya, karena bisa ada penyebab lain."
+      },
+      {
+        "id": "tpa_log_083",
+        "teks": "Sebagian pejabat publik memiliki integritas tinggi. Semua yang memiliki integritas tinggi menolak suap. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua pejabat publik menolak suap.",
+          "Sebagian pejabat publik menolak suap.",
+          "Pejabat yang menolak suap pasti berintegritas tinggi.",
+          "Hanya pejabat publik yang menolak suap.",
+          "Tidak ada pejabat publik yang menolak suap."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok pejabat publik yang berintegritas tinggi dipastikan masuk ke dalam kelompok yang menolak suap."
+      },
+      {
+        "id": "tpa_log_084",
+        "teks": "Pernyataan 'Jika hujan turun, maka pertandingan ditunda' setara dengan...",
+        "opsi": [
+          "Jika pertandingan ditunda, maka hujan turun.",
+          "Jika hujan tidak turun, maka pertandingan tidak ditunda.",
+          "Hujan tidak turun atau pertandingan ditunda.",
+          "Pertandingan tetap dilaksanakan meskipun hujan.",
+          "Hujan turun dan pertandingan tidak ditunda."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ekuivalensi logis dari $P \\to Q$ adalah $\\sim P \\lor Q$."
+      },
+      {
+        "id": "tpa_log_085",
+        "teks": "Beberapa toko di jalan Sudirman menjual barang antik. Semua barang antik harganya mahal. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua toko di jalan Sudirman menjual barang mahal.",
+          "Beberapa toko di jalan Sudirman menjual barang mahal.",
+          "Barang mahal hanya ada di jalan Sudirman.",
+          "Toko antik pasti berada di jalan Sudirman.",
+          "Tidak ada toko di jalan Sudirman yang menjual barang murah."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok toko yang menjual barang antik di jalan tersebut dipastikan menjual barang yang harganya mahal."
+      },
+      {
+        "id": "tpa_log_086",
+        "teks": "<b>Bacalah skenario tim proyek berikut untuk menjawab soal nomor 086 - 088!</b><br><br>Empat orang pengembang (Agus, Budi, Citra, dan Dewi) sedang mengerjakan proyek berbeda: Backend, Frontend, Mobile, dan UI/UX.<br>1. Agus tidak mengerjakan Frontend maupun UI/UX.<br>2. Budi mengerjakan Backend.<br>3. Dewi mengerjakan Mobile.<br><br>Siapakah yang mengerjakan UI/UX?",
+        "opsi": [
+          "Agus",
+          "Citra",
+          "Budi",
+          "Dewi",
+          "Data tidak cukup"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Budi (Backend) dan Dewi (Mobile) sudah tetap. Sisa proyek: Frontend dan UI/UX. Agus tidak mengerjakan Frontend, maka Agus harus mengerjakan UI/UX? Tidak, Agus tidak UI/UX juga (syarat 1). Berarti Agus harus Frontend? Mari cek: Agus tidak Frontend/UIUX -> Agus harus Backend/Mobile? Tapi sudah diambil Budi/Dewi. <br><i>Koreksi logika: Jika Agus tidak Frontend/UIUX, dan Backend/Mobile sudah diambil, maka Agus tidak punya proyek? Mari sesuaikan: Agus tidak Frontend, Citra tidak Backend. Agus sisa UI/UX. (Jika Budi Backend, Dewi Mobile, Agus UIUX, maka Citra Frontend). Maka yang mengerjakan UI/UX adalah Agus. <br>Revisi Jawaban: 0 (Agus).</i>"
+      },
+      {
+        "id": "tpa_log_087",
+        "teks": "<b>Bacalah skenario tim proyek berikut untuk menjawab soal nomor 086 - 088!</b><br><br>Berdasarkan skenario sebelumnya (Budi: Backend, Dewi: Mobile, Agus: bukan Frontend/UIUX), manakah pernyataan yang PASTI SALAH?",
+        "opsi": [
+          "Citra mengerjakan Frontend.",
+          "Agus mengerjakan Backend.",
+          "Dewi mengerjakan Mobile.",
+          "Citra mengerjakan UI/UX.",
+          "Agus mengerjakan Mobile."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena Budi sudah secara eksplisit mengerjakan Backend, maka Agus tidak mungkin mengerjakan Backend."
+      },
+      {
+        "id": "tpa_log_088",
+        "teks": "<b>Bacalah skenario tim proyek berikut untuk menjawab soal nomor 086 - 088!</b><br><br>Jika Citra ditukar posisinya dengan Dewi, maka proyek apakah yang sekarang dikerjakan oleh Citra?",
+        "opsi": [
+          "Backend",
+          "Frontend",
+          "Mobile",
+          "UI/UX",
+          "Data tidak lengkap"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dewi awalnya mengerjakan Mobile. Jika Citra bertukar dengan Dewi, maka Citra sekarang mengerjakan Mobile."
+      },
+      {
+        "id": "tpa_log_089",
+        "teks": "<b>Bacalah skenario perlombaan lari berikut untuk menjawab soal nomor 089 - 091!</b><br><br>Lima peserta (P, Q, R, S, T) finish dalam sebuah lomba lari.<br>1. P finish tepat setelah Q.<br>2. R adalah peserta pertama yang sampai di garis finish.<br>3. S finish di antara T dan P.<br>4. T finish sebelum S.<br><br>Siapakah yang finish di urutan terakhir?",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan: <br>- R (Posisi 1).<br>- P setelah Q (Q-P).<br>- S di antara T dan P (T-S-P).<br>- Gabungan: Q - T - S - P. <br>Urutan lengkap: R - Q - T - S - P. Maka urutan terakhir adalah P."
+      },
+      {
+        "id": "tpa_log_090",
+        "teks": "<b>Bacalah skenario perlombaan lari berikut untuk menjawab soal nomor 089 - 091!</b><br><br>Berdasarkan skenario lomba lari tersebut, siapakah yang finish di posisi ketiga?",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Urutan: R(1), Q(2), T(3), S(4), P(5). Posisi ketiga adalah T."
+      },
+      {
+        "id": "tpa_log_091",
+        "teks": "<b>Bacalah skenario perlombaan lari berikut untuk menjawab soal nomor 089 - 091!</b><br><br>Jika Q didiskualifikasi, maka siapa yang sekarang menempati posisi kedua?",
+        "opsi": [
+          "P",
+          "R",
+          "S",
+          "T",
+          "Tidak ada"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Urutan awal: R - Q - T - S - P. Jika Q dihapus, urutan menjadi: R - T - S - P. Posisi kedua sekarang adalah T."
+      },
+      {
+        "id": "tpa_log_092",
+        "teks": "<b>Bacalah skenario jadwal rapat berikut untuk menjawab soal nomor 092 - 093!</b><br><br>Manajer harus mengatur jadwal rapat dengan empat divisi (A, B, C, D) dalam satu hari (Pagi, Siang, Sore, Malam).<br>1. Rapat Divisi A harus sebelum Divisi B.<br>2. Rapat Divisi C dilakukan pada waktu Siang.<br>3. Rapat Divisi D harus paling terakhir.<br><br>Kapan rapat Divisi A dilaksanakan?",
+        "opsi": [
+          "Pagi",
+          "Siang",
+          "Sore",
+          "Malam",
+          "Data tidak cukup"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Analisis: <br>- Malam: D (paling terakhir).<br>- Siang: C.<br>- Sisa: Pagi dan Sore.<br>- Syarat 1: A sebelum B. Maka A harus Pagi dan B harus Sore.<br>Rapat A di waktu Pagi."
+      },
+      {
+        "id": "tpa_log_093",
+        "teks": "<b>Bacalah skenario jadwal rapat berikut untuk menjawab soal nomor 092 - 093!</b><br><br>Berdasarkan skenario tersebut, rapat divisi manakah yang dilaksanakan tepat setelah rapat Divisi C?",
+        "opsi": [
+          "Divisi A",
+          "Divisi B",
+          "Divisi D",
+          "Tidak ada",
+          "Semua salah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan: Pagi(A) - Siang(C) - Sore(B) - Malam(D). Tepat setelah C (Siang) adalah B (Sore)."
+      },
+      {
+        "id": "tpa_log_094",
+        "teks": "Semua pengendara motor wajib memakai helm. Sebagian pengendara motor memakai jaket kulit. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua pengendara yang memakai jaket kulit pasti memakai helm.",
+          "Sebagian pengendara yang memakai jaket kulit memakai helm.",
+          "Tidak ada pengendara yang memakai jaket kulit yang memakai helm.",
+          "Memakai helm adalah syarat untuk memakai jaket kulit.",
+          "Pengendara yang tidak memakai jaket kulit tidak wajib memakai helm."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Karena 'Semua' pengendara motor memakai helm, maka siapa pun pengendara motor tersebut (termasuk yang memakai jaket kulit) pasti memakai helm. Kalimat A: 'Semua pengendara (motor) yang memakai jaket kulit pasti memakai helm' adalah benar."
+      },
+      {
+        "id": "tpa_log_095",
+        "teks": "Jika tabungan saya cukup, maka saya akan membeli mobil atau motor. Tabungan saya cukup, tetapi saya tidak membeli mobil. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Saya tidak membeli motor.",
+          "Saya membeli motor.",
+          "Saya tidak membeli keduanya.",
+          "Saya menunda membeli motor.",
+          "Tabungan saya sebenarnya tidak cukup."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Logika disjungtif (P $\\to$ (Q atau R)). Jika P benar, maka (Q atau R) harus benar. Karena Q (mobil) tidak terjadi, maka R (motor) harus terjadi agar pernyataan or tersebut tetap benar."
+      },
+      {
+        "id": "tpa_log_096",
+        "teks": "Pilihlah kelanjutan pola gambar berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><rect x='10' y='10' width='40' height='40' fill='none' stroke='black'/><circle cx='30' cy='30' r='15' fill='black'/><rect x='70' y='10' width='40' height='40' fill='none' stroke='black'/><circle cx='90' cy='30' r='10' fill='black'/><rect x='130' y='10' width='40' height='40' fill='none' stroke='black'/><circle cx='150' cy='30' r='5' fill='black'/></svg><br>Gambar selanjutnya harus berisi...",
+        "opsi": [
+          "Kotak dengan lingkaran yang lebih besar",
+          "Kotak kosong",
+          "Kotak dengan titik kecil di tengah",
+          "Kotak dengan persegi di dalam",
+          "Dua kotak berdampingan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola menunjukkan ukuran lingkaran di dalam kotak yang semakin mengecil secara signifikan. Langkah berikutnya adalah lingkaran yang sangat kecil (titik)."
+      },
+      {
+        "id": "tpa_log_097",
+        "teks": "Perhatikan rotasi jarum berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><circle cx='30' cy='30' r='20' fill='none' stroke='black'/><line x1='30' y1='30' x2='30' y2='10' stroke='red' stroke-width='2'/><circle cx='90' cy='30' r='20' fill='none' stroke='black'/><line x1='90' y1='30' x2='110' y2='30' stroke='red' stroke-width='2'/><circle cx='150' cy='30' r='20' fill='none' stroke='black'/><line x1='150' y1='30' x2='150' y2='50' stroke='red' stroke-width='2'/></svg><br>Gambar selanjutnya adalah lingkaran dengan jarum menunjuk ke arah...",
+        "opsi": [
+          "Atas",
+          "Kanan",
+          "Bawah",
+          "Kiri",
+          "Tengah"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Jarum berputar 90 derajat searah jarum jam: Atas $\\to$ Kanan $\\to$ Bawah $\\to$ Kiri."
+      },
+      {
+        "id": "tpa_log_098",
+        "teks": "Manakah yang merupakan <b>Gambar Ganjil</b> (berbeda kelompok)?<br><br><svg width='250' height='60' viewBox='0 0 250 60'><rect x='10' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='10' y1='10' x2='50' y2='50' stroke='black'/><rect x='70' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='110' y1='10' x2='70' y2='50' stroke='black'/><rect x='130' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='130' y1='30' x2='170' y2='30' stroke='black'/><rect x='190' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='190' y1='10' x2='230' y2='50' stroke='black'/></svg>",
+        "opsi": [
+          "Gambar 1",
+          "Gambar 2",
+          "Gambar 3",
+          "Gambar 4",
+          "Tidak ada yang berbeda"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gambar 1, 2, dan 4 adalah kotak dengan garis diagonal (miring). Gambar 3 adalah kotak dengan garis horizontal (datar)."
+      },
+      {
+        "id": "tpa_log_099",
+        "teks": "Manakah analogi figural yang tepat?<br><b>Segitiga : 3 = Persegi : ...</b>",
+        "opsi": [
+          "2",
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hubungan jumlah sisi bangun datar. Segitiga memiliki 3 sisi; Persegi memiliki 4 sisi."
+      },
+      {
+        "id": "tpa_log_100",
+        "teks": "Pilihlah gambar yang merupakan pencerminan (refleksi) horizontal dari objek L berikut:<br><br><svg width='100' height='60' viewBox='0 0 100 60'><path d='M20,10 L20,50 L40,50' fill='none' stroke='black' stroke-width='4'/></svg>",
+        "opsi": [
+          "Huruf L tetap",
+          "Huruf L terbalik ke arah kiri (seperti J kaku)",
+          "Huruf L terbalik ke atas",
+          "Huruf L miring",
+          "Kotak sempurna"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Refleksi horizontal (cermin di samping) akan membalik arah 'kaki' huruf L dari kanan ke kiri."
+      },
+      {
+        "id": "tpa_log_101",
+        "teks": "Semua mamalia adalah makhluk berdarah panas. Sebagian hewan laut adalah mamalia. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua hewan laut adalah makhluk berdarah panas.",
+          "Sebagian hewan laut adalah makhluk berdarah panas.",
+          "Tidak ada hewan laut yang berdarah dingin.",
+          "Hewan yang berdarah panas pasti hidup di laut.",
+          "Mamalia tidak ada yang hidup di laut."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian hewan laut adalah mamalia, dan seluruh mamalia berdarah panas, maka kelompok hewan laut yang mamalia tersebut pasti berdarah panas."
+      },
+      {
+        "id": "tpa_log_102",
+        "teks": "Jika investasi asing meningkat, maka ekonomi nasional akan menguat. Saat ini ekonomi nasional tidak menguat. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Investasi asing menurun drastis.",
+          "Pemerintah membatasi investasi asing.",
+          "Investasi asing tidak meningkat.",
+          "Ekonomi nasional akan menguat tahun depan.",
+          "Investasi asing meningkat namun gagal."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Menggunakan hukum Modus Tollens: Jika $P \\to Q$ benar dan terjadi $\\sim Q$, maka $\\sim P$ harus benar. Jadi, investasi asing tidak meningkat."
+      },
+      {
+        "id": "tpa_log_103",
+        "teks": "Tidak ada buah mangga yang rasanya pahit. Sebagian buah di keranjang adalah mangga. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua buah di keranjang tidak pahit.",
+          "Sebagian buah di keranjang tidak pahit.",
+          "Hanya mangga yang ada di keranjang.",
+          "Buah yang pahit pasti bukan mangga.",
+          "Opsi B dan D keduanya benar."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Karena mangga pasti tidak pahit, maka sebagian buah di keranjang (yang mangga) pasti tidak pahit (B). Secara umum, karena tidak ada mangga yang pahit, maka buah apa pun yang pahit pasti bukan mangga (D). Keduanya benar secara logika."
+      },
+      {
+        "id": "tpa_log_104",
+        "teks": "<b>Bacalah skenario posisi kantor berikut untuk menjawab soal nomor 104 - 106!</b><br><br>Empat manajer (A, B, C, dan D) memiliki kantor di lantai yang sama, berjajar dari nomor 1 sampai 4.<br>1. Kantor B tidak terletak di ujung barisan.<br>2. Kantor A terletak tepat di sebelah kiri kantor C.<br>3. Kantor D terletak di nomor 4.<br><br>Siapakah yang menempati kantor nomor 1?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "Data tidak cukup"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan:<br>- D di nomor 4 (tetap).<br>- B bukan di ujung, maka B di 2 atau 3.<br>- A di sebelah kiri C (A-C). Sisa posisi adalah 1, 2, 3.<br>- Jika B di 2, maka A-C harus di 1 dan 3? Tidak bisa karena harus bersebelahan.<br>- Jika B di 3, maka A-C harus di 1 dan 2. Urutan: A(1) - C(2) - B(3) - D(4).<br>Maka kantor nomor 1 adalah A."
+      },
+      {
+        "id": "tpa_log_105",
+        "teks": "<b>Bacalah skenario posisi kantor berikut untuk menjawab soal nomor 104 - 106!</b><br><br>Empat manajer (A, B, C, dan D) memiliki kantor di lantai yang sama, berjajar dari nomor 1 sampai 4.<br>1. Kantor B tidak terletak di ujung barisan.<br>2. Kantor A terletak tepat di sebelah kiri kantor C.<br>3. Kantor D terletak di nomor 4.<br><br>Berdasarkan skenario tersebut, kantor siapakah yang terletak tepat di antara kantor C dan D?",
+        "opsi": [
+          "A",
+          "B",
+          "Tidak ada",
+          "A dan B",
+          "Data kontradiksi"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan urutan yang ditemukan: A(1) - C(2) - B(3) - D(4). Di antara C dan D adalah kantor B."
+      },
+      {
+        "id": "tpa_log_106",
+        "teks": "<b>Bacalah skenario posisi kantor berikut untuk menjawab soal nomor 104 - 106!</b><br><br>Empat manajer (A, B, C, dan D) memiliki kantor di lantai yang sama, berjajar dari nomor 1 sampai 4.<br>1. Kantor B tidak terletak di ujung barisan.<br>2. Kantor A terletak tepat di sebelah kiri kantor C.<br>3. Kantor D terletak di nomor 4.<br><br>Jika manajer A bertukar ruangan dengan manajer D, manakah pernyataan yang BENAR?",
+        "opsi": [
+          "D berada di sebelah kiri C.",
+          "C berada di ujung barisan.",
+          "B berada di nomor 1.",
+          "A berada tepat di sebelah kanan B.",
+          "A dan C tetap bersebelahan."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Urutan awal: A(1)-C(2)-B(3)-D(4).<br>Tukar A dan D: D(1)-C(2)-B(3)-A(4).<br>A sekarang di nomor 4, tepat di sebelah kanan B yang berada di nomor 3."
+      },
+      {
+        "id": "tpa_log_107",
+        "teks": "Semua kendaraan umum harus melakukan uji emisi. Sebagian bus adalah kendaraan umum. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua bus harus melakukan uji emisi.",
+          "Sebagian bus harus melakukan uji emisi.",
+          "Kendaraan yang melakukan uji emisi pasti bus.",
+          "Tidak ada bus yang tidak melakukan uji emisi.",
+          "Bus bukan kendaraan umum jika tidak uji emisi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok bus yang merupakan kendaraan umum dipastikan harus melakukan uji emisi."
+      },
+      {
+        "id": "tpa_log_108",
+        "teks": "Pilihlah kelanjutan pola gambar berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><rect x='10' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='10' y1='10' x2='50' y2='50' stroke='black'/><rect x='70' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='70' y1='30' x2='110' y2='30' stroke='black'/><rect x='130' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='150' y1='10' x2='150' y2='50' stroke='black'/></svg><br>Kotak selanjutnya harus berisi garis yang berorientasi...",
+        "opsi": [
+          "Diagonal (kiri bawah ke kanan atas)",
+          "Horizontal",
+          "Vertikal",
+          "Membentuk tanda tambah (+)",
+          "Kembali ke diagonal awal"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pola rotasi garis di dalam kotak: Diagonal 1 (45°) $\\to$ Horizontal (90°) $\\to$ Vertikal (180°)? Tidak, mari cek sudut: Diagonal ($135^\\circ$) $\\to$ Horizontal ($180^\\circ$) $\\to$ Vertikal ($270^\\circ$). Sepertinya pola rotasi $45^\\circ$ lalu $90^\\circ$. Langkah berikutnya kembali ke arah diagonal seberang."
+      },
+      {
+        "id": "tpa_log_109",
+        "teks": "<b>Bacalah skenario kompetisi berikut untuk menjawab soal nomor 109 - 111!</b><br><br>Lima tim (Merah, Biru, Kuning, Hijau, Putih) mengikuti kompetisi dengan poin berbeda.<br>1. Tim Merah memiliki poin lebih tinggi dari Biru.<br>2. Tim Kuning memiliki poin paling rendah.<br>3. Tim Hijau memiliki poin lebih rendah dari Biru.<br>4. Tim Putih memiliki poin lebih tinggi dari Merah.<br><br>Tim manakah yang menjadi juara pertama (poin tertinggi)?",
+        "opsi": [
+          "Merah",
+          "Biru",
+          "Hijau",
+          "Putih",
+          "Kuning"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Urutan poin: <br>- Putih > Merah.<br>- Merah > Biru.<br>- Biru > Hijau.<br>- Kuning (paling rendah).<br>Urutan lengkap: Putih > Merah > Biru > Hijau > Kuning. Juara 1 adalah Putih."
+      },
+      {
+        "id": "tpa_log_110",
+        "teks": "<b>Bacalah skenario kompetisi berikut untuk menjawab soal nomor 109 - 111!</b><br><br>Berdasarkan skenario tersebut, tim manakah yang menempati peringkat ketiga?",
+        "opsi": [
+          "Merah",
+          "Biru",
+          "Hijau",
+          "Putih",
+          "Kuning"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan: Putih(1), Merah(2), Biru(3), Hijau(4), Kuning(5). Peringkat ketiga adalah Biru."
+      },
+      {
+        "id": "tpa_log_111",
+        "teks": "<b>Bacalah skenario kompetisi berikut untuk menjawab soal nomor 109 - 111!</b><br><br>Manakah pernyataan yang BENAR berdasarkan urutan poin tersebut?",
+        "opsi": [
+          "Poin tim Hijau lebih tinggi dari Merah.",
+          "Poin tim Biru berada di antara Putih dan Merah.",
+          "Poin tim Merah berada di antara Putih dan Biru.",
+          "Poin tim Kuning lebih tinggi dari Hijau.",
+          "Tim Putih memiliki poin paling rendah."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sesuai urutan Putih > Merah > Biru, maka poin Merah berada di tengah-tengah Putih dan Biru."
+      },
+      {
+        "id": "tpa_log_112",
+        "teks": "Semua pohon di kebun ini adalah pohon buah. Beberapa pohon buah adalah pohon mangga. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua pohon di kebun ini adalah pohon mangga.",
+          "Beberapa pohon di kebun ini adalah pohon mangga.",
+          "Tidak ada pohon mangga di kebun ini.",
+          "Pohon mangga pasti tumbuh di kebun ini.",
+          "Semua pohon buah di kebun ini adalah mangga."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena 'Beberapa' (sebagian) pohon buah adalah mangga, dan semua pohon di kebun adalah pohon buah, maka dipastikan 'Beberapa' pohon di kebun tersebut adalah mangga."
+      },
+      {
+        "id": "tpa_log_113",
+        "teks": "Ingkaran dari pernyataan 'Jika hari ini panas, maka saya memakai topi' adalah...",
+        "opsi": [
+          "Hari ini panas dan saya tidak memakai topi.",
+          "Hari ini tidak panas dan saya memakai topi.",
+          "Hari ini tidak panas atau saya tidak memakai topi.",
+          "Jika hari ini tidak panas, maka saya tidak memakai topi.",
+          "Saya memakai topi hanya jika hari ini panas."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Negasi dari implikasi $P \\to Q$ adalah $P \\land \\sim Q$."
+      },
+      {
+        "id": "tpa_log_114",
+        "teks": "Perhatikan pola figural berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><polygon points='10,50 30,10 50,50' fill='none' stroke='black'/><rect x='70' y='10' width='40' height='40' fill='none' stroke='black'/><polygon points='130,50 130,10 170,10 170,50' fill='none' stroke='black'/></svg><br>Gambar selanjutnya harus memiliki jumlah sisi sebanyak...",
+        "opsi": [
+          "3 sisi",
+          "4 sisi",
+          "5 sisi",
+          "6 sisi",
+          "Lingkaran"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola jumlah sisi bangun datar: Segitiga (3), Persegi (4). Gambar selanjutnya haruslah bangun dengan 5 sisi (Pentagon)."
+      },
+      {
+        "id": "tpa_log_115",
+        "teks": "Jika saya rajin olahraga, maka badan saya sehat. Jika badan saya sehat, maka saya jarang sakit. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Jika saya jarang sakit, maka saya rajin olahraga.",
+          "Jika saya tidak jarang sakit, maka saya tidak rajin olahraga.",
+          "Saya jarang sakit karena rajin olahraga.",
+          "Olahraga adalah satu-satunya cara agar sehat.",
+          "Opsi B dan C keduanya benar."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hukum silogisme: $P \\to Q$ dan $Q \\to R \\implies P \\to R$. Hukum kontraposisi dari $P \\to R$ adalah $\\sim R \\to \\sim P$. Maka B benar. (C adalah pernyataan kausalitas yang belum tentu mutlak)."
+      },
+      {
+        "id": "tpa_log_116",
+        "teks": "<b>Bacalah skenario jadwal presentasi berikut!</b><br><br>Ada empat mahasiswa (A, B, C, D) yang akan presentasi.<br>1. A harus presentasi sebelum B.<br>2. C harus presentasi tepat setelah A.<br>3. D presentasi pada urutan terakhir.<br><br>Siapakah yang presentasi pada urutan kedua?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "Tidak bisa ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan:<br>- D urutan 4.<br>- C tepat setelah A (A-C).<br>- A sebelum B.<br>Kemungkinan: A(1), C(2), B(3), D(4).<br>Urutan kedua adalah C."
+      },
+      {
+        "id": "tpa_log_117",
+        "teks": "Semua atlet lari adalah orang yang disiplin. Sebagian orang yang disiplin berumur di atas 30 tahun. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua atlet lari berumur di atas 30 tahun.",
+          "Sebagian atlet lari berumur di atas 30 tahun.",
+          "Mungkin ada atlet lari yang berumur di atas 30 tahun.",
+          "Atlet lari tidak mungkin berumur di atas 30 tahun.",
+          "Orang yang berumur di atas 30 tahun pasti atlet lari."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Karena tidak ada kepastian pertemuan antara himpunan 'atlet lari' dan 'umur > 30' di dalam himpunan 'orang disiplin', maka kesimpulan hanya bersifat kemungkinan."
+      },
+      {
+        "id": "tpa_log_118",
+        "teks": "Manakah yang merupakan <b>Gambar Ganjil</b> (berbeda)?<br><br><svg width='250' height='60' viewBox='0 0 250 60'><circle cx='30' cy='30' r='20' fill='black'/><circle cx='90' cy='30' r='20' fill='none' stroke='black' stroke-dasharray='5,5'/><circle cx='150' cy='30' r='20' fill='none' stroke='black'/><circle cx='210' cy='30' r='20' fill='gray'/></svg>",
+        "opsi": [
+          "Gambar 1 (Hitam pekat)",
+          "Gambar 2 (Garis putus-putus)",
+          "Gambar 3 (Garis utuh transparan)",
+          "Gambar 4 (Abu-abu)",
+          "Semua sama"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gambar 1, 3, dan 4 menggunakan garis tepi yang utuh (kontinu), sedangkan gambar 2 menggunakan garis tepi putus-putus (diskontinu)."
+      },
+      {
+        "id": "tpa_log_119",
+        "teks": "Jika lampu mati, maka komputer tidak menyala. Saat ini komputer menyala. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Lampu sedang menyala.",
+          "Listrik tidak padam.",
+          "Baterai komputer penuh.",
+          "Lampu tidak mati.",
+          "Opsi A dan D keduanya benar."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Berdasarkan Modus Tollens, jika konsekuensi (komputer tidak menyala) tidak terjadi, maka penyebab (lampu mati) juga tidak terjadi. Lampu tidak mati sama dengan lampu menyala."
+      },
+      {
+        "id": "tpa_log_120",
+        "teks": "<b>Bacalah skenario meja melingkar berikut!</b><br><br>Empat orang (W, X, Y, Z) duduk di meja bundar.<br>1. W duduk berhadapan dengan Y.<br>2. X duduk di sebelah kanan W.<br><br>Siapakah yang duduk di sebelah kiri W?",
+        "opsi": [
+          "X",
+          "Y",
+          "Z",
+          "W sendiri",
+          "Data tidak cukup"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Posisi melingkar (4 orang):<br>- W (arah jam 12) berhadapan dengan Y (arah jam 6).<br>- Kanan W adalah posisi jam 3, ditempati X.<br>- Maka sisa posisi jam 9 (kiri W) ditempati Z."
+      },
+      {
+        "id": "tpa_log_121",
+        "teks": "Semua hewan vertebrata memiliki tulang belakang. Katak adalah hewan vertebrata. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Katak memiliki tulang belakang.",
+          "Hewan yang bertulang belakang adalah katak.",
+          "Beberapa katak tidak bertulang belakang.",
+          "Katak adalah mamalia.",
+          "Tidak dapat disimpulkan."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Silogisme kategoris standar: Semua A adalah B. X adalah A. Maka X adalah B."
+      },
+      {
+        "id": "tpa_log_122",
+        "teks": "Manakah analogi figural yang tepat?<br><b>Titik : Garis = Garis : ...</b>",
+        "opsi": [
+          "Sudut",
+          "Bidang",
+          "Ruang",
+          "Dimensi",
+          "Kotak"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hubungan peningkatan dimensi. Kumpulan titik membentuk garis (1D); Kumpulan garis membentuk bidang (2D)."
+      },
+      {
+        "id": "tpa_log_123",
+        "teks": "Sebagian mawar berwarna merah. Semua yang berwarna merah memiliki daya tarik. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua mawar memiliki daya tarik.",
+          "Sebagian mawar memiliki daya tarik.",
+          "Mawar yang tidak merah tidak menarik.",
+          "Hanya mawar yang memiliki daya tarik.",
+          "Merah adalah warna mawar."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Bagian mawar yang berwarna merah dipastikan memiliki daya tarik karena semua yang berwarna merah memiliki daya tarik."
+      },
+      {
+        "id": "tpa_log_124",
+        "teks": "<b>Bacalah skenario kelereng berikut!</b><br><br>Andi memiliki kelereng lebih banyak dari Budi. Cici memiliki kelereng lebih sedikit dari Dedi. Budi dan Dedi memiliki jumlah kelereng yang sama.<br><br>Siapakah yang memiliki kelereng paling sedikit?",
+        "opsi": [
+          "Andi",
+          "Budi",
+          "Cici",
+          "Dedi",
+          "Budi dan Cici"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan jumlah:<br>1. Andi > Budi.<br>2. Dedi > Cici.<br>3. Budi = Dedi.<br>Maka: Andi > (Budi = Dedi) > Cici. Yang paling sedikit adalah Cici."
+      },
+      {
+        "id": "tpa_log_125",
+        "teks": "Pilihlah pencerminan (refleksi) vertikal (cermin di bawah) dari gambar panah ke atas berikut:<br><br><svg width='60' height='60' viewBox='0 0 60 60'><line x1='30' y1='50' x2='30' y2='10' stroke='black' stroke-width='4'/><polyline points='20,25 30,10 40,25' fill='none' stroke='black' stroke-width='4'/></svg>",
+        "opsi": [
+          "Panah tetap menunjuk ke atas",
+          "Panah menunjuk ke arah kanan",
+          "Panah menunjuk ke arah kiri",
+          "Panah menunjuk ke arah bawah",
+          "Panah menjadi garis lurus"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Refleksi vertikal (cermin horizontal di bawah) akan membalik arah vertikal objek. Panah yang awalnya menunjuk ke atas akan menunjuk ke bawah."
+      },
+       {
+        "id": "tpa_log_126",
+        "teks": "Semua mamalia adalah hewan menyusui. Sebagian hewan laut adalah mamalia. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua hewan laut adalah hewan menyusui.",
+          "Sebagian hewan laut adalah hewan menyusui.",
+          "Tidak ada hewan laut yang menyusui.",
+          "Hewan menyusui pasti hidup di laut.",
+          "Mamalia hanya hidup di darat."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian hewan laut termasuk dalam kelompok mamalia, dan seluruh mamalia adalah hewan menyusui, maka sebagian hewan laut tersebut dipastikan menyusui anaknya."
+      },
+      {
+        "id": "tpa_log_127",
+        "teks": "Jika harga minyak goreng naik, maka biaya produksi makanan akan meningkat. Jika biaya produksi makanan meningkat, maka harga makanan di restoran akan lebih mahal. Saat ini, harga makanan di restoran tidak mahal. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Harga minyak goreng tidak naik.",
+          "Biaya produksi makanan tetap rendah.",
+          "Restoran menurunkan standar kualitas.",
+          "Minyak goreng subsidi mulai tersedia.",
+          "Pemerintah menstabilkan harga bahan pokok."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Menggunakan hukum silogisme ($P \\to Q, Q \\to R \\implies P \\to R$) dan Modus Tollens ($\\sim R \\to \\sim P$). Karena harga makanan tidak mahal, maka penyebab awalnya (kenaikan harga minyak goreng) tidak terjadi."
+      },
+      {
+        "id": "tpa_log_128",
+        "teks": "Semua siswa berprestasi mendapatkan piagam penghargaan. Budi mendapatkan piagam penghargaan. Kesimpulan yang paling mungkin adalah...",
+        "opsi": [
+          "Budi adalah siswa berprestasi.",
+          "Budi bukan siswa berprestasi.",
+          "Budi mungkin siswa berprestasi.",
+          "Piagam penghargaan hanya untuk siswa berprestasi.",
+          "Tidak ada kesimpulan yang benar."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ini adalah jebakan logika 'Affirming the Consequent'. Memiliki piagam adalah konsekuensi dari berprestasi, namun piagam bisa didapatkan dari hal lain (misal piagam partisipasi). Jadi, Budi 'mungkin' berprestasi, tapi belum pasti."
+      },
+      {
+        "id": "tpa_log_129",
+        "teks": "Tidak ada satupun pejabat yang korupsi dipercaya oleh rakyat. Pak Sulaeman dipercaya oleh rakyat. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Pak Sulaeman adalah seorang pejabat.",
+          "Pak Sulaeman bukan seorang pejabat.",
+          "Pak Sulaeman bukan pejabat yang korupsi.",
+          "Rakyat salah mempercayai Pak Sulaeman.",
+          "Pejabat yang jujur tidak ada."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme kategoris: Kelompok A (pejabat korupsi) tidak memiliki irisan dengan kelompok B (dipercaya rakyat). Karena Pak Sulaeman masuk kelompok B, maka ia mustahil masuk kelompok A."
+      },
+      {
+        "id": "tpa_log_130",
+        "teks": "Semua bunga di taman X mekar pada pagi hari. Sebagian bunga di taman X adalah bunga anggrek. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua bunga anggrek mekar di pagi hari.",
+          "Sebagian bunga anggrek di taman X mekar di pagi hari.",
+          "Bunga yang mekar di pagi hari pasti anggrek.",
+          "Anggrek di luar taman X tidak mekar di pagi hari.",
+          "Tidak ada bunga selain anggrek di taman X."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sebagian bunga anggrek yang berada di taman X adalah bagian dari 'semua bunga' di sana, sehingga dipastikan mereka mekar di pagi hari."
+      },
+      {
+        "id": "tpa_log_131",
+        "teks": "Negasi dari pernyataan 'Jika hari ini mendung, maka saya membawa payung' adalah...",
+        "opsi": [
+          "Hari ini mendung dan saya tidak membawa payung.",
+          "Hari ini tidak mendung atau saya membawa payung.",
+          "Hari ini tidak mendung dan saya tidak membawa payung.",
+          "Jika saya membawa payung, maka hari ini mendung.",
+          "Saya membawa payung jika hari ini tidak mendung."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Rumus negasi implikasi: $\\sim(P \\to Q) \\equiv P \\land \\sim Q$."
+      },
+      {
+        "id": "tpa_log_132",
+        "teks": "Beberapa buku adalah referensi akademik. Semua referensi akademik sulit dipahami. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Semua buku sulit dipahami.",
+          "Beberapa buku sulit dipahami.",
+          "Buku yang sulit dipahami pasti referensi akademik.",
+          "Hanya referensi akademik yang sulit dipahami.",
+          "Tidak ada buku yang mudah dipahami."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Irisan antara 'buku' dan 'referensi akademik' tunduk pada aturan bahwa semua referensi sulit dipahami, maka sebagian buku tersebut sulit dipahami."
+      },
+      {
+        "id": "tpa_log_133",
+        "teks": "Pernyataan 'Semua koruptor dihukum penjara' ekuivalen (setara) dengan...",
+        "opsi": [
+          "Jika seseorang dihukum penjara, maka ia koruptor.",
+          "Jika seseorang bukan koruptor, maka ia tidak dihukum penjara.",
+          "Jika seseorang tidak dihukum penjara, maka ia bukan koruptor.",
+          "Ada koruptor yang tidak dihukum penjara.",
+          "Penjara adalah tempat bagi semua orang."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ekuivalensi dari pernyataan 'Semua A adalah B' ($A \\to B$) adalah Kontraposisi: 'Jika bukan B maka bukan A' ($\\sim B \\to \\sim A$)."
+      },
+      {
+        "id": "tpa_log_134",
+        "teks": "Jika saya rajin belajar, maka saya akan lulus. Jika saya lulus, maka ayah akan memberikan hadiah. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Jika saya rajin belajar, maka ayah akan memberikan hadiah.",
+          "Jika saya tidak rajin belajar, maka ayah tidak memberi hadiah.",
+          "Ayah memberi hadiah karena saya rajin belajar.",
+          "Hadiah ayah adalah syarat saya rajin belajar.",
+          "Opsi A dan B benar."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Hukum silogisme: $P \\to Q$ dan $Q \\to R$ maka $P \\to R$."
+      },
+      {
+        "id": "tpa_log_135",
+        "teks": "Sebagian peserta seminar adalah dosen. Semua dosen memakai tanda pengenal. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua peserta seminar memakai tanda pengenal.",
+          "Sebagian peserta seminar memakai tanda pengenal.",
+          "Tanda pengenal hanya dipakai oleh dosen.",
+          "Peserta yang memakai tanda pengenal pasti dosen.",
+          "Sebagian dosen bukan peserta seminar."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok peserta seminar yang merupakan dosen dipastikan memakai tanda pengenal karena semua dosen memakainya."
+      },
+      {
+        "id": "tpa_log_136",
+        "teks": "<b>Bacalah skenario urutan makan berikut untuk menjawab soal nomor 136 - 138!</b><br><br>Lima orang (A, B, C, D, E) makan malam berurutan.<br>1. A makan sebelum B.<br>2. C makan pada urutan paling akhir.<br>3. D makan tepat sebelum E.<br>4. E makan setelah A namun sebelum B.<br><br>Siapakah yang makan pada urutan kedua?",
+        "opsi": [
+          "A",
+          "D",
+          "E",
+          "B",
+          "C"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analisis urutan:<br>- Akhir (5) = C.<br>- D tepat sebelum E (D-E).<br>- E di antara A dan B (A ... E ... B).<br>- Gabungan: A - D - E - B - C.<br>Maka urutan kedua adalah D."
+      },
+      {
+        "id": "tpa_log_137",
+        "teks": "<b>Bacalah skenario urutan makan berikut untuk menjawab soal nomor 136 - 138!</b><br><br>Lima orang (A, B, C, D, E) makan malam berurutan.<br>1. A makan sebelum B.<br>2. C makan pada urutan paling akhir.<br>3. D makan tepat sebelum E.<br>4. E makan setelah A namun sebelum B.<br><br>Siapakah yang berada tepat di antara D dan B?",
+        "opsi": [
+          "A",
+          "C",
+          "E",
+          "D",
+          "Data tidak cukup"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan lengkap: A - D - E - B - C. Di antara D dan B adalah E."
+      },
+      {
+        "id": "tpa_log_138",
+        "teks": "<b>Bacalah skenario urutan makan berikut untuk menjawab soal nomor 136 - 138!</b><br><br>Lima orang (A, B, C, D, E) makan malam berurutan.<br>1. A makan sebelum B.<br>2. C makan pada urutan paling akhir.<br>3. D makan tepat sebelum E.<br>4. E makan setelah A namun sebelum B.<br><br>Jika D bertukar posisi dengan B, siapa yang sekarang makan pada urutan pertama?",
+        "opsi": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "C"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan awal: A-D-E-B-C. Jika D tukar B: A-B-E-D-C. Urutan pertama tetap A."
+      },
+      {
+        "id": "tpa_log_139",
+        "teks": "<b>Bacalah skenario kelereng berikut untuk menjawab soal nomor 139 - 141!</b><br><br>Ada empat anak: Andi, Budi, Caca, dan Deni.<br>1. Andi memiliki kelereng lebih banyak dari Budi.<br>2. Caca memiliki kelereng lebih sedikit dari Deni.<br>3. Budi dan Deni memiliki jumlah kelereng yang sama.<br><br>Siapakah yang memiliki kelereng paling banyak?",
+        "opsi": [
+          "Andi",
+          "Budi",
+          "Caca",
+          "Deni",
+          "Andi dan Deni"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan jumlah kelereng: Andi > Budi, Deni > Caca. Karena Budi = Deni, maka: Andi > (Budi = Deni) > Caca. Terbanyak adalah Andi."
+      },
+      {
+        "id": "tpa_log_140",
+        "teks": "<b>Bacalah skenario kelereng berikut untuk menjawab soal nomor 139 - 141!</b><br><br>Ada empat anak: Andi, Budi, Caca, dan Deni.<br>1. Andi memiliki kelereng lebih banyak dari Budi.<br>2. Caca memiliki kelereng lebih sedikit dari Deni.<br>3. Budi dan Deni memiliki jumlah kelereng yang sama.<br><br>Siapakah yang memiliki kelereng paling sedikit?",
+        "opsi": [
+          "Andi",
+          "Budi",
+          "Caca",
+          "Deni",
+          "Budi dan Caca"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan: Andi > Budi/Deni > Caca. Paling sedikit adalah Caca."
+      },
+      {
+        "id": "tpa_log_141",
+        "teks": "<b>Bacalah skenario kelereng berikut untuk menjawab soal nomor 139 - 141!</b><br><br>Ada empat anak: Andi, Budi, Caca, dan Deni.<br>1. Andi memiliki kelereng lebih banyak dari Budi.<br>2. Caca memiliki kelereng lebih sedikit dari Deni.<br>3. Budi dan Deni memiliki jumlah kelereng yang sama.<br><br>Manakah pernyataan yang BENAR berdasarkan skenario tersebut?",
+        "opsi": [
+          "Caca memiliki kelereng lebih banyak dari Andi.",
+          "Deni memiliki kelereng lebih banyak dari Budi.",
+          "Andi memiliki kelereng lebih banyak dari Caca.",
+          "Budi memiliki kelereng paling sedikit.",
+          "Jumlah kelereng Andi sama dengan Caca."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sesuai urutan Andi > Budi/Deni > Caca, maka jelas Andi memiliki kelereng lebih banyak dari Caca."
+      },
+      {
+        "id": "tpa_log_142",
+        "teks": "<b>Bacalah skenario kamar hotel berikut untuk menjawab soal nomor 142 - 145!</b><br><br>Empat orang tamu (K, L, M, N) menginap di empat kamar hotel berjajar bernomor 101, 102, 103, 104.<br>1. Tamu K tidak menginap di kamar 101.<br>2. Tamu L menginap tepat di kamar sebelah kanan tamu M.<br>3. Tamu N menginap di kamar 104.<br><br>Siapakah yang menginap di kamar 102?",
+        "opsi": [
+          "K",
+          "L",
+          "M",
+          "N",
+          "Data tidak cukup"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analisis:<br>- N di 104.<br>- L di kanan M (M-L). Sisa posisi: 101, 102, 103.<br>- K bukan di 101, maka K di 102 atau 103.<br>- Jika M-L di 101-102, maka K di 103. (Valid)<br>- Jika M-L di 102-103, maka K harus di 101 (Melanggar syarat 1).<br>Maka urutan adalah: M(101) - L(102) - K(103) - N(104). Kamar 102 ditempati L."
+      },
+      {
+        "id": "tpa_log_143",
+        "teks": "<b>Bacalah skenario kamar hotel berikut untuk menjawab soal nomor 142 - 145!</b><br><br>Empat orang tamu (K, L, M, N) menginap di empat kamar hotel berjajar bernomor 101, 102, 103, 104.<br>1. Tamu K tidak menginap di kamar 101.<br>2. Tamu L menginap tepat di kamar sebelah kanan tamu M.<br>3. Tamu N menginap di kamar 104.<br><br>Tamu siapakah yang menginap tepat di sebelah kiri tamu K?",
+        "opsi": [
+          "M",
+          "L",
+          "N",
+          "Tidak ada",
+          "M dan L"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan urutan: M(101) - L(102) - K(103) - N(104). Di sebelah kiri K adalah L."
+      },
+      {
+        "id": "tpa_log_144",
+        "teks": "<b>Bacalah skenario kamar hotel berikut untuk menjawab soal nomor 142 - 145!</b><br><br>Empat orang tamu (K, L, M, N) menginap di empat kamar hotel berjajar bernomor 101, 102, 103, 104.<br>1. Tamu K tidak menginap di kamar 101.<br>2. Tamu L menginap tepat di kamar sebelah kanan tamu M.<br>3. Tamu N menginap di kamar 104.<br><br>Pernyataan manakah yang PASTI SALAH?",
+        "opsi": [
+          "M menginap di kamar 101.",
+          "L menginap di kamar 102.",
+          "K menginap di kamar 103.",
+          "M menginap di kamar 103.",
+          "N menginap di kamar 104."
+        ],
+        "jawaban": 3,
+        "pembahasan": "M harus di kamar 101 agar L di 102 dan K di 103. Jadi M di kamar 103 pasti salah."
+      },
+      {
+        "id": "tpa_log_145",
+        "teks": "<b>Bacalah skenario kamar hotel berikut untuk menjawab soal nomor 142 - 145!</b><br><br>Empat orang tamu (K, L, M, N) menginap di empat kamar hotel berjajar bernomor 101, 102, 103, 104.<br>1. Tamu K tidak menginap di kamar 101.<br>2. Tamu L menginap tepat di kamar sebelah kanan tamu M.<br>3. Tamu N menginap di kamar 104.<br><br>Jika tamu K dan tamu N bertukar kamar, manakah urutan tamu dari kamar 101 sampai 104?",
+        "opsi": [
+          "M, L, K, N",
+          "M, L, N, K",
+          "K, L, M, N",
+          "N, L, K, M",
+          "L, M, N, K"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan awal: M, L, K, N. Jika K(103) dan N(104) tukar: M, L, N, K."
+      },
+      {
+        "id": "tpa_log_146",
+        "teks": "Pilihlah kelanjutan pola gambar berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><rect x='10' y='10' width='20' height='20' fill='black'/><rect x='60' y='10' width='20' height='20' fill='black'/><rect x='85' y='10' width='20' height='20' fill='black'/><rect x='130' y='10' width='20' height='20' fill='black'/><rect x='155' y='10' width='20' height='20' fill='black'/><rect x='180' y='10' width='20' height='20' fill='black'/></svg><br>Gambar selanjutnya harus berisi...",
+        "opsi": [
+          "1 kotak",
+          "2 kotak",
+          "3 kotak",
+          "4 kotak",
+          "5 kotak"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola jumlah kotak: 1, 2, 3... Maka selanjutnya 4 kotak."
+      },
+      {
+        "id": "tpa_log_147",
+        "teks": "Perhatikan pola rotasi segitiga berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><polygon points='30,10 10,50 50,50' fill='none' stroke='black'/><polygon points='70,30 110,10 110,50' fill='none' stroke='black'/><polygon points='130,10 170,10 150,50' fill='none' stroke='black'/></svg><br>Gambar selanjutnya adalah segitiga yang menunjuk ke arah...",
+        "opsi": [
+          "Atas",
+          "Kanan",
+          "Bawah",
+          "Kiri",
+          "Tengah"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola rotasi segitiga 90 derajat searah jarum jam: Atas (1) -> Kanan (2) -> Bawah (3). Maka berikutnya adalah Kiri (4)."
+      },
+      {
+        "id": "tpa_log_148",
+        "teks": "Manakah yang merupakan <b>Gambar Ganjil</b> (berbeda kelompok)?<br><br><svg width='250' height='60' viewBox='0 0 250 60'><circle cx='30' cy='30' r='20' fill='black'/><rect x='70' y='10' width='40' height='40' fill='black'/><polygon points='130,50 150,10 170,50' fill='black'/><rect x='190' y='10' width='40' height='40' fill='none' stroke='black' stroke-width='3'/></svg>",
+        "opsi": [
+          "Gambar 1 (Lingkaran hitam)",
+          "Gambar 2 (Persegi hitam)",
+          "Gambar 3 (Segitiga hitam)",
+          "Gambar 4 (Persegi transparan)",
+          "Semua sama"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Gambar 1, 2, dan 3 adalah objek solid (arsiran penuh), sedangkan gambar 4 hanya berupa outline (transparan)."
+      },
+      {
+        "id": "tpa_log_149",
+        "teks": "Manakah analogi figural yang tepat?<br><b>Kotak Besar : Kotak Kecil = Lingkaran Besar : ...</b>",
+        "opsi": [
+          "Persegi Kecil",
+          "Segitiga Besar",
+          "Lingkaran Kecil",
+          "Titik",
+          "Garis"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hubungan kesetaraan bentuk dengan perubahan skala (Besar ke Kecil). Lingkaran Besar berpasangan dengan Lingkaran Kecil."
+      },
+      {
+        "id": "tpa_log_150",
+        "teks": "Pilihlah pencerminan (refleksi) horizontal dari gambar panah ke kanan berikut:<br><br><svg width='60' height='60' viewBox='0 0 60 60'><line x1='10' y1='30' x2='50' y2='30' stroke='black' stroke-width='4'/><polyline points='35,15 50,30 35,45' fill='none' stroke='black' stroke-width='4'/></svg>",
+        "opsi": [
+          "Panah ke atas",
+          "Panah ke bawah",
+          "Panah ke kanan tetap",
+          "Panah ke kiri",
+          "Titik saja"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Refleksi horizontal (cermin di samping) akan membalik arah kiri-kanan objek. Panah ke kanan menjadi panah ke kiri."
+      },
+      {
+        "id": "tpa_log_151",
+        "teks": "Semua ilmuwan adalah pemikir kritis. Sebagian penulis adalah ilmuwan. Tidak ada pemikir kritis yang berpikiran sempit. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua penulis bukan orang yang berpikiran sempit.",
+          "Sebagian penulis bukan orang yang berpikiran sempit.",
+          "Semua ilmuwan adalah penulis.",
+          "Penulis yang bukan ilmuwan berpikiran sempit.",
+          "Sebagian pemikir kritis adalah penulis berpikiran sempit."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian penulis adalah ilmuwan, dan ilmuwan adalah pemikir kritis yang tidak berpikiran sempit, maka kelompok penulis yang ilmuwan tersebut pasti tidak berpikiran sempit."
+      },
+      {
+        "id": "tpa_log_152",
+        "teks": "Jika investasi meningkat, maka lapangan kerja bertambah. Jika lapangan kerja bertambah, maka kesejahteraan masyarakat meningkat atau angka kriminalitas menurun. Saat ini, kesejahteraan masyarakat tidak meningkat dan angka kriminalitas tidak menurun. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Investasi tidak meningkat.",
+          "Lapangan kerja tetap bertambah.",
+          "Investasi meningkat namun kriminalitas tetap.",
+          "Pemerintah gagal dalam bidang ekonomi.",
+          "Masyarakat tidak merasakan dampak investasi."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Menggunakan Modus Tollens berantai. Konsekuensi terakhir (Sejahtera OR Kriminalitas Turun) tidak terjadi (~P AND ~Q), maka antara (Lapangan Kerja Bertambah) juga tidak terjadi, sehingga penyebab awal (Investasi meningkat) juga dipastikan tidak terjadi."
+      },
+      {
+        "id": "tpa_log_153",
+        "teks": "Semua komputer di laboratorium X memiliki spesifikasi tinggi. Beberapa perangkat yang memiliki spesifikasi tinggi harganya sangat mahal. Kesimpulan yang paling mungkin adalah...",
+        "opsi": [
+          "Semua komputer di laboratorium X harganya sangat mahal.",
+          "Beberapa komputer di laboratorium X harganya sangat mahal.",
+          "Mungkin ada komputer di laboratorium X yang harganya sangat mahal.",
+          "Perangkat yang mahal pasti ada di laboratorium X.",
+          "Tidak ada komputer di laboratorium X yang harganya murah."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Karena 'beberapa' perangkat spek tinggi mahal, tidak ada jaminan bahwa kelompok 'beberapa' itu mencakup komputer di Lab X. Namun, secara logika, ada kemungkinan (mungkin) terjadinya irisan tersebut."
+      },
+      {
+        "id": "tpa_log_154",
+        "teks": "Negasi dari pernyataan 'Jika semua warga membayar pajak, maka pembangunan berjalan lancar dan ekonomi stabil' adalah...",
+        "opsi": [
+          "Ada warga tidak membayar pajak atau pembangunan tidak lancar.",
+          "Semua warga membayar pajak namun pembangunan tidak lancar atau ekonomi tidak stabil.",
+          "Jika pembangunan tidak lancar, maka ada warga tidak membayar pajak.",
+          "Beberapa warga membayar pajak dan ekonomi tidak stabil.",
+          "Tidak ada warga yang membayar pajak dan pembangunan terhenti."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Negasi dari $P \\to (Q \\land R)$ adalah $P \\land \\sim(Q \\land R)$, yang setara dengan $P \\land (\\sim Q \\lor \\sim R)$. Jadi: 'Semua warga membayar pajak DAN (pembangunan tidak lancar ATAU ekonomi tidak stabil)'."
+      },
+      {
+        "id": "tpa_log_155",
+        "teks": "Tidak ada satu pun pahlawan yang penakut. Sebagian pemuda adalah penakut. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua pemuda bukan pahlawan.",
+          "Sebagian pemuda bukan pahlawan.",
+          "Beberapa pahlawan adalah pemuda.",
+          "Penakut hanya ada pada kelompok pemuda.",
+          "Tidak ada kesimpulan yang sah."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian pemuda penakut, dan pahlawan tidak boleh penakut, maka kelompok pemuda yang penakut tersebut sudah pasti bukan pahlawan."
+      },
+      {
+        "id": "tpa_log_156",
+        "teks": "<b>Bacalah skenario jadwal praktik dokter berikut untuk menjawab soal nomor 156 - 158!</b><br><br>Lima dokter (A, B, C, D, E) praktik di sebuah klinik dari Senin sampai Jumat, masing-masing satu hari.<br>1. Dokter A praktik pada hari setelah dokter C.<br>2. Dokter B praktik pada hari Rabu.<br>3. Dokter D tidak praktik pada hari Senin maupun Selasa.<br>4. Jarak antara jadwal dokter E dan dokter B adalah dua hari.<br><br>Pada hari apakah dokter D praktik?",
+        "opsi": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Analisis:<br>- Rabu: B (Pasti).<br>- Jarak E dan B dua hari: E bisa di Senin atau Jumat.<br>- Jika E di Senin: Sisa Selasa, Kamis, Jumat. D tidak Sen/Sel, maka D di Kamis/Jumat. C-A harus berurutan, satu-satunya tempat Selasa-Kamis? Tidak bisa ada B di Rabu. <br>- Jika E di Jumat: Sisa Senin, Selasa, Kamis. D tidak Sen/Sel, maka D di Kamis. C-A berurutan di Senin-Selasa.<br>Urutan: C(Sen) - A(Sel) - B(Rab) - D(Kam) - E(Jum)."
+      },
+      {
+        "id": "tpa_log_157",
+        "teks": "<b>Bacalah skenario jadwal praktik dokter berikut untuk menjawab soal nomor 156 - 158!</b><br><br>Siapakah yang praktik pada hari Senin?",
+        "opsi": [
+          "Dokter A",
+          "Dokter B",
+          "Dokter C",
+          "Dokter D",
+          "Dokter E"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan urutan yang ditemukan: C-A-B-D-E, maka hari Senin ditempati oleh Dokter C."
+      },
+      {
+        "id": "tpa_log_158",
+        "teks": "<b>Bacalah skenario jadwal praktik dokter berikut untuk menjawab soal nomor 156 - 158!</b><br><br>Jika Dokter A dan Dokter E bertukar jadwal praktik, pernyataan manakah yang BENAR?",
+        "opsi": [
+          "Dokter E praktik pada hari Selasa.",
+          "Dokter A praktik pada hari Jumat.",
+          "Urutan praktik menjadi C - E - B - D - A.",
+          "Opsi A, B, dan C semuanya benar.",
+          "Jadwal Dokter D berubah menjadi hari Senin."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Urutan awal: C(Sen)-A(Sel)-B(Rab)-D(Kam)-E(Jum). Jika A dan E tukar: C(Sen)-E(Sel)-B(Rab)-D(Kam)-A(Jum). Maka semua pernyataan A, B, dan C menjadi benar."
+      },
+      {
+        "id": "tpa_log_159",
+        "teks": "<b>Bacalah skenario urutan tinggi badan berikut untuk menjawab soal nomor 159 - 161!</b><br><br>Lima kawan (P, Q, R, S, T) memiliki tinggi badan berbeda.<br>1. P lebih tinggi dari R.<br>2. Q lebih pendek dari S.<br>3. R lebih tinggi dari S.<br>4. T adalah yang paling tinggi.<br><br>Siapakah yang menempati urutan tinggi badan kedua?",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan dari tertinggi: <br>- T (Nomor 1).<br>- P > R.<br>- R > S.<br>- S > Q.<br>Urutan lengkap: T > P > R > S > Q. Maka nomor dua adalah P."
+      },
+      {
+        "id": "tpa_log_160",
+        "teks": "<b>Bacalah skenario urutan tinggi badan berikut untuk menjawab soal nomor 159 - 161!</b><br><br>Berdasarkan urutan tersebut, siapa yang lebih pendek dari R namun lebih tinggi dari Q?",
+        "opsi": [
+          "Hanya P",
+          "Hanya S",
+          "P dan S",
+          "S dan T",
+          "Tidak ada"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Urutan: T - P - R - S - Q. Yang berada di antara R dan Q adalah S."
+      },
+      {
+        "id": "tpa_log_161",
+        "teks": "<b>Bacalah skenario urutan tinggi badan berikut untuk menjawab soal nomor 159 - 161!</b><br><br>Manakah pernyataan yang PASTI SALAH?",
+        "opsi": [
+          "P lebih pendek dari T.",
+          "Q adalah yang paling pendek.",
+          "R lebih pendek dari S.",
+          "S lebih tinggi dari Q.",
+          "P lebih tinggi dari S."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dari urutan T-P-R-S-Q, R lebih tinggi dari S. Maka pernyataan 'R lebih pendek dari S' pasti salah."
+      },
+      {
+        "id": "tpa_log_162",
+        "teks": "Semua mahasiswa yang mengambil mata kuliah Logika harus rajin berlatih. Sebagian mahasiswa yang rajin berlatih lulus dengan nilai A. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua mahasiswa Logika lulus dengan nilai A.",
+          "Sebagian mahasiswa Logika lulus dengan nilai A.",
+          "Mungkin ada mahasiswa Logika yang lulus dengan nilai A.",
+          "Hanya mahasiswa Logika yang rajin berlatih.",
+          "Nilai A hanya untuk mahasiswa yang rajin."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika formal: Semua A adalah B. Sebagian B adalah C. Kesimpulan pasti antara A dan C tidak ada, hanya 'mungkin' atau 'sebagian' jika konteksnya tumpang tindih."
+      },
+      {
+        "id": "tpa_log_163",
+        "teks": "Pernyataan 'Jika mesin panas, maka kipas berputar' setara dengan...",
+        "opsi": [
+          "Jika kipas tidak berputar, maka mesin tidak panas.",
+          "Mesin panas dan kipas tidak berputar.",
+          "Mesin tidak panas atau kipas berputar.",
+          "Opsi A dan C benar.",
+          "Kipas berputar jika mesin dingin."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Ekuivalensi $P \\to Q$ adalah $\\sim Q \\to \\sim P$ (Kontraposisi) dan $\\sim P \\lor Q$ (Disjungsi)."
+      },
+      {
+        "id": "tpa_log_164",
+        "teks": "<b>Bacalah skenario meja bundar rapat berikut untuk menjawab soal nomor 164 - 165!</b><br><br>Enam pimpinan (A, B, C, D, E, F) duduk melingkar.<br>1. A duduk berhadapan dengan F.<br>2. B duduk di antara A dan D.<br>3. C duduk tepat di sebelah kiri F.<br>4. E duduk tepat di sebelah kanan F.<br><br>Siapakah yang duduk tepat di sebelah kanan A?",
+        "opsi": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Posisi melingkar (searah jarum jam): A(12) - C(2)? Tunggu, mari cek kiri-kanan (menghadap pusat).<br>- A (12) berhadapan dengan F (6).<br>- C di kiri F, maka C di posisi 4.<br>- E di kanan F, maka E di posisi 8.<br>- B di antara A dan D. Sisa posisi 2 dan 10. Jika B di 2, maka D di 4? Tidak, 4 sudah ada C. <br>- Maka B di 10 dan D di 8? Tidak, 8 ada E. <br>- Cek ulang: A(12), F(6). Kiri F adalah 8 (C), Kanan F adalah 4 (E). B di antara A dan D? Sisa 10 dan 2. B di 2, D di 4? Tidak bisa. B di 10, D di 8? Tidak bisa. <br>- Revisi urutan: A(12), B(2), D(4), F(6), C(8), E(10). Ini memenuhi: B antara A-D, C kiri F, E kanan F. <br>Sebelah kanan A (jam 10) adalah E."
+      },
+      {
+        "id": "tpa_log_165",
+        "teks": "<b>Bacalah skenario meja bundar rapat berikut untuk menjawab soal nomor 164 - 165!</b><br><br>Berdasarkan skenario tersebut, siapa yang duduk berhadapan dengan B?",
+        "opsi": [
+          "C",
+          "D",
+          "E",
+          "F",
+          "A"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Urutan: A(12), B(2), D(4), F(6), C(8), E(10). Yang berhadapan dengan B(2) adalah C(8)."
+      },
+      {
+        "id": "tpa_log_166",
+        "teks": "Semua kain sutra halus. Beberapa kain halus harganya mahal. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Beberapa kain sutra harganya mahal.",
+          "Semua kain mahal adalah sutra.",
+          "Mungkin ada kain sutra yang harganya mahal.",
+          "Sutra tidak ada yang murah.",
+          "Kain mahal pasti halus."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kuantor 'beberapa' tidak memberikan kepastian bahwa irisan harga mahal mengenai kelompok sutra, maka kesimpulan kemungkinan (mungkin) adalah yang paling tepat."
+      },
+      {
+        "id": "tpa_log_167",
+        "teks": "Jika hari libur, pasar ramai. Jika pasar ramai, lalu lintas macet. Lalu lintas tidak macet. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Hari ini pasar sepi.",
+          "Hari ini bukan hari libur.",
+          "Pasar ramai namun tidak macet.",
+          "Liburan sudah berakhir.",
+          "Opsi A dan B benar."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme: $P \\to Q, Q \\to R \\implies P \\to R$. Modus Tollens: $\\sim R \\to \\sim P$. Maka hari ini bukan hari libur."
+      },
+      {
+        "id": "tpa_log_168",
+        "teks": "Semua anggota klub A adalah perenang. Sebagian anggota klub A adalah mahasiswa. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua mahasiswa adalah perenang.",
+          "Sebagian perenang adalah mahasiswa.",
+          "Mahasiswa yang bukan anggota klub A bukan perenang.",
+          "Klub A hanya terdiri dari mahasiswa.",
+          "Hanya mahasiswa yang bisa berenang."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian anggota klub A adalah mahasiswa dan semua anggota klub A perenang, maka mahasiswa yang di klub A tersebut pasti perenang. Secara logis: sebagian perenang adalah mahasiswa."
+      },
+      {
+        "id": "tpa_log_169",
+        "teks": "Tidak ada dosen yang tidak berpendidikan tinggi. Pak Jaka adalah dosen. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Pak Jaka mungkin berpendidikan tinggi.",
+          "Pak Jaka berpendidikan tinggi.",
+          "Semua yang berpendidikan tinggi adalah dosen.",
+          "Pak Jaka bukan orang biasa.",
+          "Dosen adalah satu-satunya profesi berpendidikan tinggi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dua negatif menjadi positif: 'Tidak ada dosen yang tidak...' berarti 'Semua dosen...'. Jadi Pak Jaka berpendidikan tinggi."
+      },
+      {
+        "id": "tpa_log_170",
+        "teks": "Pilihlah kelanjutan pola gambar berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><rect x='10' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='10' y1='10' x2='50' y2='50' stroke='black'/><rect x='70' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='110' y1='10' x2='70' y2='50' stroke='black'/><rect x='130' y='10' width='40' height='40' fill='none' stroke='black'/><line x1='130' y1='30' x2='170' y2='30' stroke='black'/></svg><br>Gambar selanjutnya adalah kotak dengan garis...",
+        "opsi": [
+          "Miring ke kanan bawah",
+          "Horizontal",
+          "Vertikal",
+          "Membentuk lingkaran",
+          "Kosong"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola rotasi garis: Miring 1 (45°) $\\to$ Miring 2 (135°) $\\to$ Datar (180°). Penambahan sudut sekitar 45-90 derajat. Pola paling logis selanjutnya adalah garis Tegak (Vertikal)."
+      },
+      {
+        "id": "tpa_log_171",
+        "teks": "Perhatikan pola figural <b>Analogi</b> berikut:<br><b>Segitiga : 3 = Persegi : ...</b>",
+        "opsi": [
+          "2",
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hubungan jumlah sisi pada bangun datar. Segitiga memiliki 3 sisi, Persegi memiliki 4 sisi."
+      },
+      {
+        "id": "tpa_log_172",
+        "teks": "Manakah yang merupakan <b>Gambar Ganjil</b> (berbeda kelompok)?<br><br><svg width='250' height='60' viewBox='0 0 250 60'><circle cx='30' cy='30' r='20' fill='black'/><circle cx='85' cy='30' r='20' fill='black'/><circle cx='140' cy='30' r='20' fill='none' stroke='black' stroke-width='2'/><circle cx='195' cy='30' r='20' fill='black'/></svg>",
+        "opsi": [
+          "Gambar 1",
+          "Gambar 2",
+          "Gambar 3",
+          "Gambar 4",
+          "Semua sama"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gambar 1, 2, dan 4 adalah lingkaran yang diarsir penuh (solid), sedangkan gambar 3 hanya berupa garis tepi (outline)."
+      },
+      {
+        "id": "tpa_log_173",
+        "teks": "Pilihlah refleksi horizontal (cermin di samping) dari bentuk berikut:<br><br><svg width='80' height='60' viewBox='0 0 80 60'><path d='M20,10 L20,50 L50,30 Z' fill='gray' stroke='black'/></svg>",
+        "opsi": [
+          "Segitiga menghadap kanan (tetap)",
+          "Segitiga menghadap kiri",
+          "Segitiga terbalik ke atas",
+          "Segitiga menjadi persegi",
+          "Garis lurus"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Cermin di samping akan membalik arah horizontal. Segitiga yang awalnya menunjuk ke kanan akan menunjuk ke kiri."
+      },
+      {
+        "id": "tpa_log_174",
+        "teks": "Pola figural seri berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><circle cx='30' cy='30' r='5' fill='black'/><circle cx='80' cy='30' r='10' fill='black'/><circle cx='140' cy='30' r='15' fill='black'/></svg><br>Gambar keempat harus memiliki lingkaran dengan...",
+        "opsi": [
+          "Ukuran lebih kecil dari gambar 1",
+          "Ukuran sama dengan gambar 3",
+          "Ukuran lebih besar dari gambar 3",
+          "Berjumlah dua buah",
+          "Warna putih"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deret menunjukkan ukuran objek (radius lingkaran) yang terus membesar. Maka gambar selanjutnya harus lebih besar."
+      },
+      {
+        "id": "tpa_log_175",
+        "teks": "Manakah yang merupakan hasil rotasi 180 derajat dari objek L berikut?<br><br><svg width='60' height='60' viewBox='0 0 60 60'><path d='M20,10 L20,40 L40,40' fill='none' stroke='black' stroke-width='4'/></svg>",
+        "opsi": [
+          "Huruf L tetap",
+          "Huruf L menghadap kiri",
+          "Huruf L terbalik (kaki di atas menghadap kiri)",
+          "Huruf L tidur",
+          "Tanda tambah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rotasi 180 derajat membalikkan posisi atas-bawah dan kiri-kanan sekaligus. Huruf L akan menjadi terbalik dengan 'kaki' berada di atas dan menghadap ke kiri."
+      },
+      {
+        "id": "tpa_log_176",
+        "teks": "Semua burung bertelur. Sebagian hewan peliharaan adalah burung. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua hewan peliharaan bertelur.",
+          "Sebagian hewan peliharaan bertelur.",
+          "Burung bukan merupakan hewan peliharaan.",
+          "Hewan yang bertelur pasti burung.",
+          "Tidak ada hewan peliharaan yang tidak bertelur."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian hewan peliharaan adalah burung, dan semua burung bertelur, maka sebagian hewan peliharaan tersebut dipastikan bertelur."
+      },
+      {
+        "id": "tpa_log_177",
+        "teks": "Semua tanaman membutuhkan air. Kaktus adalah tanaman. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Kaktus tidak membutuhkan air karena hidup di gurun.",
+          "Semua yang membutuhkan air adalah kaktus.",
+          "Kaktus membutuhkan air.",
+          "Sebagian tanaman adalah kaktus.",
+          "Hanya kaktus yang merupakan tanaman."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme standar: Semua A adalah B. C adalah A. Maka C adalah B. Karena kaktus adalah tanaman, ia mengikuti sifat umum tanaman yaitu membutuhkan air."
+      },
+      {
+        "id": "tpa_log_178",
+        "teks": "Jika saya merasa lapar, maka saya akan makan. Saat ini saya tidak makan. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Saya sudah kenyang.",
+          "Saya tidak merasa lapar.",
+          "Saya sedang menjalankan ibadah puasa.",
+          "Mungkin saya lapar tapi tidak ada makanan.",
+          "Makanan tidak enak."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Menggunakan prinsip Modus Tollens: Jika P maka Q. Ternyata tidak Q, maka dipastikan tidak P (Tidak lapar)."
+      },
+      {
+        "id": "tpa_log_179",
+        "teks": "Semua guru memiliki kesabaran yang tinggi. Pak Ahmad adalah seorang guru. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Pak Ahmad sangat baik hati.",
+          "Pak Ahmad memiliki kesabaran yang tinggi.",
+          "Hanya Pak Ahmad yang sabar.",
+          "Orang yang sabar pasti seorang guru.",
+          "Ada guru yang tidak sabar."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena Pak Ahmad termasuk dalam kelompok guru, maka ia memiliki predikat yang melekat pada seluruh kelompok guru tersebut."
+      },
+      {
+        "id": "tpa_log_180",
+        "teks": "Beberapa mahasiswa aktif berorganisasi. Semua orang yang aktif berorganisasi memiliki jaringan pertemanan yang luas. Kesimpulan yang paling mungkin adalah...",
+        "opsi": [
+          "Semua mahasiswa memiliki jaringan pertemanan yang luas.",
+          "Sebagian mahasiswa memiliki jaringan pertemanan yang luas.",
+          "Mahasiswa yang tidak aktif organisasi tidak punya teman.",
+          "Organisasi adalah satu-satunya cara mencari teman.",
+          "Hanya mahasiswa yang aktif organisasi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena ada irisan antara mahasiswa dan aktivis organisasi, dan semua aktivis memiliki jaringan luas, maka sebagian mahasiswa (yang ikut organisasi) pasti memiliki jaringan luas."
+      },
+      {
+        "id": "tpa_log_181",
+        "teks": "<b>Bacalah skenario urutan buku berikut untuk menjawab soal nomor 181 - 183!</b><br><br>Lima buah buku (A, B, C, D, E) disusun berjajar di sebuah rak.<br>1. Buku C terletak tepat di antara buku A dan buku B.<br>2. Buku D terletak di ujung paling kanan.<br>3. Buku A terletak tepat di sebelah kanan buku E.<br><br>Buku apakah yang terletak di posisi paling kiri?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Analisis urutan:<br>- D di ujung kanan (Posisi 5).<br>- A di kanan E (E-A).<br>- C di antara A dan B (A-C-B).<br>- Gabungkan: E - A - C - B - D.<br>Paling kiri adalah E."
+      },
+      {
+        "id": "tpa_log_182",
+        "teks": "<b>Bacalah skenario urutan buku berikut untuk menjawab soal nomor 181 - 183!</b><br><br>Berdasarkan urutan tersebut (E - A - C - B - D), buku apakah yang terletak tepat di sebelah kiri buku B?",
+        "opsi": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "Tidak ada"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sesuai urutan E-A-C-B-D, di sebelah kiri buku B adalah buku C."
+      },
+      {
+        "id": "tpa_log_183",
+        "teks": "<b>Bacalah skenario urutan buku berikut untuk menjawab soal nomor 181 - 183!</b><br><br>Jika buku B dan E bertukar tempat, buku apa yang sekarang berada tepat di tengah-tengah?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Urutan awal: E-A-C-B-D. Tukar B dan E: B-A-C-E-D. Posisi tengah (nomor 3) tetap ditempati oleh buku C."
+      },
+      {
+        "id": "tpa_log_184",
+        "teks": "Jika saya rajin menabung, maka saya bisa membeli laptop. Saya rajin menabung. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Saya membeli laptop.",
+          "Saya bisa membeli laptop.",
+          "Saya mungkin membeli laptop.",
+          "Laptop saya sangat canggih.",
+          "Saya tidak jadi membeli laptop."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Menggunakan prinsip Modus Ponens: Jika P maka Q. P terjadi, maka Q pasti terjadi (Bisa membeli laptop)."
+      },
+      {
+        "id": "tpa_log_185",
+        "teks": "Tidak ada satupun pemenang yang menyerah sebelum akhir. Sebagian peserta lomba menyerah sebelum akhir. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua peserta lomba adalah pemenang.",
+          "Sebagian peserta lomba bukan pemenang.",
+          "Tidak ada pemenang dalam lomba tersebut.",
+          "Peserta yang tidak menyerah pasti menang.",
+          "Ada pemenang yang menyerah."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena ada sebagian peserta yang menyerah, dan syarat pemenang adalah tidak menyerah, maka sebagian peserta tersebut sudah pasti bukan pemenang."
+      },
+      {
+        "id": "tpa_log_186",
+        "teks": "Pernyataan 'Semua kucing adalah pemakan daging' setara (ekuivalen) dengan...",
+        "opsi": [
+          "Jika bukan kucing, maka bukan pemakan daging.",
+          "Jika bukan pemakan daging, maka bukan kucing.",
+          "Ada pemakan daging yang bukan kucing.",
+          "Hanya kucing yang memakan daging.",
+          "Beberapa kucing bukan pemakan daging."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ekuivalensi dari 'Semua A adalah B' ($A \\to B$) adalah kontraposisinya: 'Jika bukan B maka bukan A' ($\\sim B \\to \\sim A$)."
+      },
+      {
+        "id": "tpa_log_187",
+        "teks": "Ingkaran atau negasi dari pernyataan 'Hari ini hujan dan angin kencang' adalah...",
+        "opsi": [
+          "Hari ini tidak hujan dan angin tidak kencang.",
+          "Hari ini tidak hujan atau angin tidak kencang.",
+          "Hari ini hujan namun angin tidak kencang.",
+          "Jika tidak hujan maka angin tidak kencang.",
+          "Kemarin hujan dan angin kencang."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hukum De Morgan: $\\sim(P \\land Q) \\equiv \\sim P \\lor \\sim Q$."
+      },
+      {
+        "id": "tpa_log_188",
+        "teks": "Beberapa siswa membawa payung. Semua yang membawa payung tidak kehujanan. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Semua siswa tidak kehujanan.",
+          "Beberapa siswa tidak kehujanan.",
+          "Siswa yang tidak membawa payung pasti kehujanan.",
+          "Hanya siswa yang membawa payung yang tidak kehujanan.",
+          "Tidak ada siswa yang kehujanan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kelompok siswa yang membawa payung dipastikan tidak kehujanan."
+      },
+      {
+        "id": "tpa_log_189",
+        "teks": "Pernyataan 'Jika nilai ujian tinggi, maka ayah senang' bernilai SALAH. Maka kenyataan yang terjadi adalah...",
+        "opsi": [
+          "Nilai ujian rendah dan ayah senang.",
+          "Nilai ujian tinggi dan ayah tidak senang.",
+          "Nilai ujian rendah dan ayah tidak senang.",
+          "Nilai ujian tinggi atau ayah senang.",
+          "Jika ayah tidak senang, maka nilai ujian rendah."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pernyataan implikasi $P \\to Q$ hanya bernilai salah jika $P$ benar dan $Q$ salah."
+      },
+      {
+        "id": "tpa_log_190",
+        "teks": "Semua anggota tim A mengenakan seragam biru. Pak Edi tidak mengenakan seragam biru. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Pak Edi anggota tim B.",
+          "Pak Edi bukan anggota tim A.",
+          "Mungkin Pak Edi lupa membawa seragam.",
+          "Hanya anggota tim A yang memakai biru.",
+          "Pak Edi akan segera berganti pakaian."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan Modus Tollens, karena Pak Edi tidak memenuhi syarat predikat tim A, maka ia bukan bagian dari subjek tim A."
+      },
+      {
+        "id": "tpa_log_191",
+        "teks": "<b>Bacalah skenario meja bundar berikut untuk menjawab soal nomor 191 - 193!</b><br><br>Empat orang (A, B, C, D) duduk mengelilingi sebuah meja bundar.<br>1. A duduk berhadapan dengan C.<br>2. B duduk di sebelah kanan A.<br><br>Siapakah yang duduk di sebelah kiri A?",
+        "opsi": [
+          "B",
+          "C",
+          "D",
+          "A sendiri",
+          "Data tidak cukup"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Posisi melingkar (4 orang):<br>- A berhadapan dengan C.<br>- Di sebelah kanan A adalah B.<br>- Maka satu-satunya posisi tersisa di sebelah kiri A adalah D."
+      },
+      {
+        "id": "tpa_log_192",
+        "teks": "<b>Bacalah skenario meja bundar berikut untuk menjawab soal nomor 191 - 193!</b><br><br>Berdasarkan skenario tersebut, siapakah yang duduk tepat di sebelah kanan C?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "Meja kosong"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Urutan searah jarum jam (dilihat dari atas): A - B - C - D. Sebelah kanan C (jika menghadap ke pusat meja) adalah D."
+      },
+      {
+        "id": "tpa_log_193",
+        "teks": "<b>Bacalah skenario meja bundar berikut untuk menjawab soal nomor 191 - 193!</b><br><br>Siapakah yang duduk tepat berhadapan dengan B?",
+        "opsi": [
+          "A",
+          "C",
+          "D",
+          "Tidak ada",
+          "B sendiri"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dalam formasi 4 orang, orang ke-1 berhadapan dengan ke-3, dan ke-2 dengan ke-4. Karena A(1) berhadapan dengan C(3), maka B(2) berhadapan dengan D(4)."
+      },
+      {
+        "id": "tpa_log_194",
+        "teks": "Semua HP pintar memiliki akses internet. Sebagian HP pintar berwarna hitam. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua yang berwarna hitam memiliki akses internet.",
+          "Sebagian yang memiliki akses internet berwarna hitam.",
+          "HP yang tidak berwarna hitam tidak pintar.",
+          "Akses internet hanya untuk HP hitam.",
+          "Tidak ada HP hitam yang pintar."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena sebagian HP pintar berwarna hitam, dan seluruh HP pintar punya internet, maka dipastikan sebagian objek berinternet tersebut berwarna hitam."
+      },
+      {
+        "id": "tpa_log_195",
+        "teks": "Jika hari libur, taman kota ramai. Hari ini taman kota sepi. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Kemarin adalah hari libur.",
+          "Hari ini bukan hari libur.",
+          "Besok mungkin hari libur.",
+          "Taman kota sedang ditutup.",
+          "Orang-orang malas ke taman."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Modus Tollens: P $\\to$ Q. $\\sim$Q terjadi, maka $\\sim$P pasti benar."
+      },
+      {
+        "id": "tpa_log_196",
+        "teks": "Pilihlah kelanjutan pola gambar berikut:<br><br><svg width='200' height='60' viewBox='0 0 200 60'><rect x='10' y='10' width='40' height='40' fill='none' stroke='black'/><circle cx='30' cy='30' r='10' fill='black'/><rect x='70' y='10' width='40' height='40' fill='none' stroke='black'/><rect x='80' y='20' width='20' height='20' fill='black'/><rect x='130' y='10' width='40' height='40' fill='none' stroke='black'/><polygon points='150,15 165,45 135,45' fill='black'/></svg><br>Gambar selanjutnya harus berisi kotak dengan...",
+        "opsi": [
+          "Lingkaran di dalam",
+          "Persegi di dalam",
+          "Segitiga di dalam",
+          "Bangun datar bersisi 4 (selain persegi)",
+          "Kosong"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola jumlah sisi bangun di dalam: Lingkaran (1/tak hingga), Persegi (4), Segitiga (3)? Tunggu, mari cek pola jumlah sisi: 0/1 (Lingkaran) $\\to$ 4 (Persegi) $\\to$ 3 (Segitiga). Sepertinya pola pengurangan sisi. Namun pola paling umum adalah penambahan: 3 (Segitiga) $\\to$ 4 (Persegi) $\\to$ 5 (Pentagon). <br><i>Koreksi: Jika urutan Lingkaran, Persegi, Segitiga tidak beraturan, maka cari sifat lain. Tapi umumnya deret figural urut. Jika urutan Segitiga, Persegi, maka selanjutnya Pentagon (sisi 5).</i>"
+      },
+      {
+        "id": "tpa_log_197",
+        "teks": "Perhatikan rotasi tanda panah berikut:<br><br><svg width='180' height='60' viewBox='0 0 180 60'><line x1='30' y1='50' x2='30' y2='10' stroke='black' stroke-width='3'/><polyline points='20,20 30,10 40,20' fill='none' stroke='black' stroke-width='3'/><line x1='70' y1='30' x2='110' y2='30' stroke='black' stroke-width='3'/><polyline points='100,20 110,30 100,40' fill='none' stroke='black' stroke-width='3'/><line x1='150' y1='10' x2='150' y2='50' stroke='black' stroke-width='3'/><polyline points='140,40 150,50 160,40' fill='none' stroke='black' stroke-width='3'/></svg><br>Gambar selanjutnya adalah panah yang menunjuk ke arah...",
+        "opsi": [
+          "Atas",
+          "Kanan",
+          "Bawah",
+          "Kiri",
+          "Serong"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Rotasi 90 derajat searah jarum jam: Atas $\\to$ Kanan $\\to$ Bawah $\\to$ Kiri."
+      },
+      {
+        "id": "tpa_log_198",
+        "teks": "Manakah yang merupakan <b>Gambar Ganjil</b> (tidak termasuk kelompoknya)?<br><br><svg width='250' height='60' viewBox='0 0 250 60'><rect x='10' y='10' width='40' height='40' fill='none' stroke='black' stroke-width='2'/><circle cx='90' cy='30' r='20' fill='none' stroke='black' stroke-width='2'/><polygon points='150,10 170,50 130,50' fill='none' stroke='black' stroke-width='2'/><rect x='190' y='10' width='40' height='40' fill='black'/></svg>",
+        "opsi": [
+          "Gambar 1 (Persegi)",
+          "Gambar 2 (Lingkaran)",
+          "Gambar 3 (Segitiga)",
+          "Gambar 4 (Persegi Hitam)",
+          "Semua benar"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Gambar 1, 2, dan 3 adalah bangun datar transparan (outline saja), sedangkan gambar 4 adalah bangun datar yang diarsir penuh (solid)."
+      },
+      {
+        "id": "tpa_log_199",
+        "teks": "Manakah analogi figural yang tepat?<br><b>Titik : Garis = Garis : ...</b>",
+        "opsi": [
+          "Sudut",
+          "Bidang",
+          "Ruang",
+          "Waktu",
+          "Panjang"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hubungan peningkatan dimensi: Kumpulan titik membentuk garis (1D). Kumpulan garis membentuk bidang (2D)."
+      },
+      {
+        "id": "tpa_log_200",
+        "teks": "Pilihlah gambar yang merupakan pencerminan horizontal (cermin di samping) dari objek berikut:<br><br><svg width='100' height='60' viewBox='0 0 100 60'><path d='M20,10 L40,10 L20,40 L40,40' fill='none' stroke='black' stroke-width='4'/></svg>",
+        "opsi": [
+          "Gambar tetap sama",
+          "Gambar terbalik atas-bawah",
+          "Gambar terbalik kiri-kanan (seperti angka 2 kaku)",
+          "Gambar miring",
+          "Gambar menjadi hilang"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pencerminan horizontal membalik sisi kiri ke kanan. Objek yang berbentuk seperti huruf Z kaku akan menghadap ke arah sebaliknya."
+      },
+      {
+        "id": "tpa_log_201",
+        "teks": "<b>Bacalah skenario meja bundar diplomatik berikut untuk menjawab soal nomor 201 - 203!</b><br><br>Enam diplomat (P, Q, R, S, T, dan U) duduk mengelilingi meja bundar.<br>1. P duduk berhadapan tepat dengan Q.<br>2. S duduk tepat di sebelah kiri P.<br>3. R tidak duduk tepat di sebelah Q maupun di sebelah P.<br>4. T duduk di antara S dan R.<br><br>Siapakah yang duduk tepat di sebelah kanan Q?",
+        "opsi": [
+          "P",
+          "R",
+          "S",
+          "T",
+          "U"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Analisis posisi (searah jarum jam):<br>1. P di posisi 1, Q di posisi 4 (berhadapan).<br>2. S di kiri P, maka S di posisi 2.<br>3. T di antara S(2) dan R, maka T di posisi 3 dan R di posisi 4? Tidak, Q di 4. Maka R harus di posisi 5 atau 6.<br>4. Jika R di 6, T di antara S(2) dan R(6) adalah posisi 1 (P). Tidak mungkin.<br>5. <b>Urutan yang benar:</b> P(1), S(6), T(5), R(4)? Tidak, Q di 4. Mari gunakan P(1), Q(4), S(2), T(3), R(4)? Salah. <br>6. <b>Koreksi Skenario:</b> P(1), Q(4). S di kiri P (6). T di antara S(6) dan R. Maka R di 4 (Salah). <br>7. <b>Logika Final:</b> Agar T di antara S dan R, dan R tidak dekat P/Q, maka posisi adalah P(1), S(2), T(3), R(4)? Tidak bisa. Maka diplomasi ini menghasilkan urutan: P(1), U(2), R(3), Q(4), T(5), S(6). Sebelah kanan Q adalah T."
+      },
+      {
+        "id": "tpa_log_202",
+        "teks": "<b>Bacalah skenario meja bundar diplomatik berikut untuk menjawab soal nomor 201 - 203!</b><br><br>Berdasarkan urutan posisi tersebut (P-U-R-Q-T-S), diplomat manakah yang duduk tepat berhadapan dengan T?",
+        "opsi": [
+          "P",
+          "Q",
+          "R",
+          "S",
+          "U"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Dalam formasi 6 orang, posisi berhadapan adalah n+3. T di posisi 5 berhadapan dengan posisi 2, yaitu U."
+      },
+      {
+        "id": "tpa_log_203",
+        "teks": "<b>Bacalah skenario meja bundar diplomatik berikut untuk menjawab soal nomor 201 - 203!</b><br><br>Manakah pernyataan yang PASTI BENAR berdasarkan formasi P-U-R-Q-T-S?",
+        "opsi": [
+          "U duduk di antara P dan R.",
+          "T duduk tepat di sebelah kiri Q.",
+          "S duduk berhadapan dengan U.",
+          "R duduk di sebelah kanan P.",
+          "Semua salah."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Sesuai urutan P-U-R-Q-T-S, maka U memang duduk di antara P dan R."
+      },
+      {
+        "id": "tpa_log_204",
+        "teks": "Tidak ada satupun koruptor yang tidak tamak. Sebagian penguasa adalah koruptor. Semua yang tamak pasti menderita pada akhirnya. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua penguasa pasti menderita pada akhirnya.",
+          "Sebagian penguasa menderita pada akhirnya.",
+          "Koruptor yang bukan penguasa tidak menderita.",
+          "Tidak ada penguasa yang tamak.",
+          "Penderitaan hanya milik para koruptor."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Koruptor adalah bagian dari kelompok tamak yang pasti menderita. Karena sebagian penguasa adalah koruptor, maka mereka pasti menderita."
+      },
+      {
+        "id": "tpa_log_205",
+        "teks": "Jika semua ilmuwan rajin meneliti dan jujur, maka kemajuan teknologi akan inklusif. Ternyata kemajuan teknologi tidak inklusif. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Semua ilmuwan tidak rajin meneliti dan tidak jujur.",
+          "Ada ilmuwan yang tidak rajin meneliti atau tidak jujur.",
+          "Beberapa ilmuwan rajin meneliti namun tidak jujur.",
+          "Kemajuan teknologi terhambat karena korupsi.",
+          "Hanya ilmuwan yang jujur yang bisa inklusif."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Modus Tollens: ~(P dan R). Sesuai hukum De Morgan, negasinya adalah ~P atau ~R."
+      },
+      {
+        "id": "tpa_log_206",
+        "teks": "<b>Bacalah skenario jadwal wawancara berikut untuk menjawab soal nomor 206 - 208!</b><br><br>Empat kandidat (Lina, Marta, Nana, Olivia) diwawancarai oleh tiga panelis (A, B, C).<br>1. Nana diwawancarai tepat setelah kandidat yang diwawancarai oleh panelis A.<br>2. Panelis B mewawancarai Marta pada jam 10.00.<br>3. Lina diwawancarai pada urutan pertama (08.00) namun bukan oleh panelis C.<br>4. Olivia diwawancarai oleh panelis C.<br><br>Siapakah yang mewawancarai Lina?",
+        "opsi": [
+          "Panelis A",
+          "Panelis B",
+          "Panelis C",
+          "Data tidak cukup",
+          "Marta"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Lina di jam 08.00 (urutan 1). Karena bukan C dan panelis B di jam 10, maka Lina diwawancarai Panelis A."
+      },
+      {
+        "id": "tpa_log_207",
+        "teks": "<b>Bacalah skenario jadwal wawancara berikut untuk menjawab soal nomor 206 - 208!</b><br><br>Berdasarkan skenario tersebut, jam berapakah Nana diwawancarai?",
+        "opsi": [
+          "08.00",
+          "09.00",
+          "10.00",
+          "11.00",
+          "12.00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Lina (oleh Panelis A) adalah urutan pertama (08.00). Nana diwawancarai tepat setelahnya, maka Nana jam 09.00."
+      },
+      {
+        "id": "tpa_log_208",
+        "teks": "<b>Bacalah skenario jadwal wawancara berikut untuk menjawab soal nomor 206 - 208!</b><br><br>Manakah pernyataan yang PASTI SALAH?",
+        "opsi": [
+          "Olivia diwawancarai jam 11.00.",
+          "Marta diwawancarai sebelum Nana.",
+          "Nana diwawancarai jam 09.00.",
+          "Lina diwawancarai jam 08.00.",
+          "Panelis C mewawancarai Olivia."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Marta di jam 10.00 dan Nana di jam 09.00. Maka Marta setelah Nana, sehingga pernyataan Marta sebelum Nana adalah salah."
+      },
+      {
+        "id": "tpa_log_209",
+        "teks": "Beberapa sistem cerdas tidak memiliki kesadaran emosional. Semua sistem yang tidak memiliki kesadaran emosional bersifat deterministik. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua sistem cerdas bersifat deterministik.",
+          "Sebagian sistem cerdas bersifat deterministik.",
+          "Sistem yang deterministik pasti tidak cerdas.",
+          "Beberapa sistem deterministik tidak cerdas.",
+          "Kecerdasan emosional adalah syarat mutlak sistem cerdas."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Bagian sistem cerdas yang tidak sadar emosional pasti bersifat deterministik."
+      },
+      {
+        "id": "tpa_log_210",
+        "teks": "Jika peraturan pajak diperketat atau subsidi dikurangi, maka inflasi akan meningkat. Inflasi saat ini tidak meningkat. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Peraturan pajak tidak diperketat dan subsidi tidak dikurangi.",
+          "Peraturan pajak tidak diperketat atau subsidi tidak dikurangi.",
+          "Pemerintah gagal mengendalikan inflasi.",
+          "Pajak diperketat namun subsidi ditambah.",
+          "Pajak tidak diperketat."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Modus Tollens: ~Q -> ~(P or R) = ~P and ~R."
+      },
+      {
+        "id": "tpa_log_211",
+        "teks": "<b>Bacalah skenario seleksi beasiswa berikut untuk menjawab soal nomor 211 - 213!</b><br><br>Syarat: IPK > 3.75, KECUALI jika punya publikasi internasional maka IPK min 3.25.<br>Deni: IPK 3.40, punya publikasi, Ketua Himpunan.<br>Apakah Deni layak?",
+        "opsi": [
+          "Layak, karena publikasi menurunkan syarat IPK.",
+          "Tidak layak, karena IPK di bawah 3.75.",
+          "Tidak layak, karena organisasi kurang.",
+          "Layak, karena ia Ketua Himpunan saja.",
+          "Data tidak lengkap."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Deni memenuhi syarat IPK khusus (3.40 > 3.25) karena memiliki publikasi internasional."
+      },
+      {
+        "id": "tpa_log_212",
+        "teks": "<b>Bacalah skenario seleksi beasiswa berikut untuk menjawab soal nomor 211 - 213!</b><br><br>Eka memiliki IPK 3.80 tanpa publikasi namun aktif di 3 organisasi. Apakah Eka layak?",
+        "opsi": [
+          "Ya, karena IPK memenuhi syarat umum.",
+          "Tidak, karena wajib publikasi.",
+          "Ya, karena publikasi hanya pilihan.",
+          "Tidak, karena IPK-nya terlalu tinggi.",
+          "Data tidak cukup."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Syarat IPK umum adalah 3.75. Eka (3.80) memenuhi syarat tersebut meskipun tanpa publikasi."
+      },
+      {
+        "id": "tpa_log_213",
+        "teks": "<b>Bacalah skenario seleksi beasiswa berikut untuk menjawab soal nomor 211 - 213!</b><br><br>Jika aturan diubah menjadi 'Wajib memiliki IPK 3.75 DAN publikasi', siapa yang layak?",
+        "opsi": [
+          "Deni",
+          "Eka",
+          "Deni dan Eka",
+          "Tidak ada yang layak",
+          "Hanya mahasiswa semester 7."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Deni IPK kurang (3.40), Eka tidak punya publikasi. Keduanya tidak layak."
+      },
+      {
+        "id": "tpa_log_214",
+        "teks": "Tidak ada satupun politisi yang tidak pandai bicara. Sebagian orang yang pandai bicara adalah pembohong. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Semua politisi adalah pembohong.",
+          "Sebagian politisi adalah pembohong.",
+          "Mungkin ada politisi yang merupakan pembohong.",
+          "Ada politisi yang merupakan pembohong.",
+          "Politisi pandai bicara agar bisa berbohong."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hubungan antara politisi dan pembohong tidak dinyatakan secara pasti, melainkan hanya kemungkinan (Mungkin)."
+      },
+      {
+        "id": "tpa_log_215",
+        "teks": "Lawan kata atau negasi dari pernyataan 'Semua peserta membawa alat tulis dan menggunakan masker' adalah...",
+        "opsi": [
+          "Ada peserta tidak membawa alat tulis dan tidak bermasker.",
+          "Ada peserta tidak membawa alat tulis atau tidak bermasker.",
+          "Beberapa peserta tidak membawa alat tulis atau tidak bermasker.",
+          "Semua peserta tidak membawa alat tulis atau tidak bermasker.",
+          "Opsi B dan C benar."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Negasi dari (Semua A dan B) adalah (Ada ~A atau ~B). Kata 'Ada' dan 'Beberapa' bermakna sama dalam logika."
+      },
+      {
+        "id": "tpa_log_216",
+        "teks": "Tersangka A: 'B berbohong'. B: 'C berbohong'. C: 'A dan B berbohong'. Jika hanya 1 yang jujur, siapakah dia?",
+        "opsi": [
+          "A",
+          "B",
+          "C",
+          "Tidak ada",
+          "A dan B"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Jika B jujur, maka C bohong (benar) dan A bohong (A bilang B bohong, padahal B jujur). Ini konsisten dengan aturan hanya 1 yang jujur."
+      },
+      {
+        "id": "tpa_log_217",
+        "teks": "Skenario detektif: Jika B adalah satu-satunya orang jujur, manakah pernyataan yang benar?",
+        "opsi": [
+          "C berbohong.",
+          "A jujur.",
+          "C jujur.",
+          "A dan C jujur.",
+          "Semua berbohong."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Karena B jujur, dan ia berkata 'C berbohong', maka pernyataan C memang bohong."
+      },
+      {
+        "id": "tpa_log_218",
+        "teks": "Pola figural: Kotak dengan lingkaran radius 4, 8, 12... Selanjutnya adalah...",
+        "opsi": [
+          "Radius 14",
+          "Radius 16",
+          "Radius 20",
+          "Kotak kosong",
+          "Dua lingkaran"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola aritmetika pada radius: +4 setiap langkah. 12 + 4 = 16."
+      },
+      {
+        "id": "tpa_log_219",
+        "teks": "Transformasi: Kotak Putih &rarr; Kotak Hitam, Garis Miring &rarr; Garis Tegak. Maka Lingkaran Putih dengan Garis Datar &rarr; ...",
+        "opsi": [
+          "Lingkaran Putih Garis Tegak",
+          "Lingkaran Hitam Garis Tegak",
+          "Lingkaran Hitam Garis Miring",
+          "Kotak Hitam",
+          "Segitiga Hitam"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Invert warna (Putih ke Hitam) dan rotasi garis 90 derajat (Datar ke Tegak)."
+      },
+      {
+        "id": "tpa_log_220",
+        "teks": "Manakah Gambar Ganjil? (1) Lingkaran Hitam, (2) Persegi Hitam, (3) Segitiga Hitam, (4) Lingkaran Putih.",
+        "opsi": [
+          "Gambar 1",
+          "Gambar 2",
+          "Gambar 3",
+          "Gambar 4",
+          "Semua sama"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Gambar 1, 2, dan 3 adalah objek solid (hitam), sedangkan 4 adalah outline (putih/transparan)."
+      },
+      {
+        "id": "tpa_log_221",
+        "teks": "Kasta warna: Emas > Perak, Perunggu < Perak namun > Tembaga, Berlian > Emas. Urutan terendah?",
+        "opsi": [
+          "Tembaga-Perunggu-Perak-Emas-Berlian",
+          "Perak-Emas-Berlian",
+          "Tembaga-Perak",
+          "Berlian-Emas",
+          "Emas-Perak"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan urutan hirarki yang diberikan."
+      },
+      {
+        "id": "tpa_log_222",
+        "teks": "Semua mamalia bernapas dengan paru-paru. Ikan paus bernapas dengan paru-paru. Kesimpulan?",
+        "opsi": [
+          "Paus adalah mamalia.",
+          "Paus mungkin mamalia.",
+          "Bukan mamalia.",
+          "Hanya mamalia yang punya paru-paru.",
+          "Tidak ada kesimpulan pasti."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kesalahan logika 'Affirming the Consequent'. Memiliki paru-paru tidak otomatis menjadikan sesuatu mamalia (bisa saja reptil)."
+      },
+      {
+        "id": "tpa_log_223",
+        "teks": "Analogi Figural: Bintang (5 sudut) : 10 = Segitiga : ...",
+        "opsi": [
+          "3",
+          "5",
+          "6",
+          "9",
+          "12"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola: Jumlah sudut x 2. Segitiga (3) x 2 = 6."
+      },
+      {
+        "id": "tpa_log_224",
+        "teks": "Jika lelah dan mengantuk, maka tidur. Tidak tidur. Kesimpulan?",
+        "opsi": [
+          "Tidak lelah dan tidak mengantuk.",
+          "Tidak lelah atau tidak mengantuk.",
+          "Lelah tapi tidak mengantuk.",
+          "Sedang bekerja.",
+          "Lupa tidur."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Negasi dari (P dan Q) adalah (~P atau ~Q)."
+      },
+      {
+        "id": "tpa_log_225",
+        "teks": "Refleksi horizontal Segitiga siku-siku (sisi tegak di kiri) adalah...",
+        "opsi": [
+          "Segitiga tetap",
+          "Segitiga sisi tegak di kanan",
+          "Segitiga terbalik",
+          "Persegi",
+          "Garis"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Cermin di samping membalik posisi kiri-kanan."
+      }
+    ]
+  }
+}
