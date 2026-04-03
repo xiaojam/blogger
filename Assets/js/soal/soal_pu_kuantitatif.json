@@ -1,0 +1,2931 @@
+{
+  "soal": {
+    "Penalaran Kuantitatif PU": [
+      {
+        "id": "utbk_kuan_001",
+        "teks": "Sebuah kemeja seharga Rp200.000,00 didiskon sebesar 20%, kemudian dari harga setelah diskon tersebut diberikan lagi potongan harga tambahan sebesar 15%. Berapa total persentase diskon aktual yang didapatkan pembeli jika dihitung dari harga awalnya?",
+        "opsi": [
+          "35%",
+          "32%",
+          "30%",
+          "28%",
+          "25%"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Diskon pertama 20%, sisa harga menjadi 80% (0,8). Diskon kedua 15%, sisa harga menjadi 85% (0,85). Harga bayar akhir = $0,8 \\times 0,85 = 0,68$ (atau 68% dari harga awal). Maka total diskon aktual yang didapatkan adalah $100\\% - 68\\% = 32\\%$."
+      },
+      {
+        "id": "utbk_kuan_002",
+        "teks": "Jika diketahui $P = 33 \\frac{1}{3}\\%$ dari 60 dan $Q = \\frac{1}{3}$ dari 60, maka hubungan matematis antara nilai P dan Q yang benar adalah...",
+        "opsi": [
+          "P > Q",
+          "P < Q",
+          "P = Q",
+          "P = 2Q",
+          "Hubungan P dan Q tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Nilai persentase $33 \\frac{1}{3}\\%$ merupakan bentuk lain yang sama persis (ekuivalen) dengan pecahan $\\frac{1}{3}$. Karena pengalinya juga sama-sama 60, maka nilai P mutlak sama dengan nilai Q ($P = Q$)."
+      },
+      {
+        "id": "utbk_kuan_003",
+        "teks": "Rata-rata nilai ujian matematika dari 5 orang siswa adalah 12. Jika seorang siswa baru bergabung ke dalam kelompok tersebut, rata-rata nilai ujian mereka berenam naik menjadi 14. Berapakah nilai ujian siswa yang baru bergabung tersebut?",
+        "opsi": [
+          "20",
+          "22",
+          "24",
+          "26",
+          "28"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total nilai 5 siswa = $5 \\times 12 = 60$. Total nilai 6 siswa = $6 \\times 14 = 84$. Nilai siswa baru = Total nilai 6 siswa - Total nilai 5 siswa = $84 - 60 = 24$."
+      },
+      {
+        "id": "utbk_kuan_004",
+        "teks": "Sebuah proyek pembangunan diperkirakan akan selesai dalam waktu 20 hari jika dikerjakan secara konstan oleh 12 orang pekerja. Jika proyek tersebut dipaksa untuk selesai lebih cepat dalam waktu 15 hari, berapa banyak total pekerja yang dibutuhkan?",
+        "opsi": [
+          "14 orang",
+          "15 orang",
+          "16 orang",
+          "18 orang",
+          "20 orang"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gunakan perbandingan berbalik nilai. $12 \\text{ pekerja} \\times 20 \\text{ hari} = x \\text{ pekerja} \\times 15 \\text{ hari}$. $240 = 15x \\implies x = \\frac{240}{15} = 16$ pekerja."
+      },
+      {
+        "id": "utbk_kuan_005",
+        "teks": "Dalam sebuah kelas yang terdiri dari 40 siswa, terdapat 22 siswa yang menyukai pelajaran Biologi, 18 siswa menyukai pelajaran Kimia, dan 5 siswa sama sekali tidak menyukai kedua mata pelajaran tersebut. Berapakah jumlah siswa yang menyukai KEDUANYA (Biologi dan Kimia)?",
+        "opsi": [
+          "4 siswa",
+          "5 siswa",
+          "6 siswa",
+          "8 siswa",
+          "10 siswa"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Rumus himpunan dasar: Total Siswa = Suka A + Suka B - Suka Keduanya + Tidak Suka Keduanya. $40 = 22 + 18 - x + 5 \\implies 40 = 45 - x \\implies x = 5$ siswa."
+      },
+      {
+        "id": "utbk_kuan_006",
+        "teks": "Budi berkendara dari kota A ke kota B yang berjarak 150 km dengan kecepatan rata-rata konstan 60 km/jam. Di tengah perjalanan, ia berhenti untuk beristirahat selama 20 menit. Jika Budi berangkat pada pukul 06.30 pagi, pukul berapakah ia akan tiba di kota B?",
+        "opsi": [
+          "08.50",
+          "09.00",
+          "09.10",
+          "09.20",
+          "09.30"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Waktu tempuh murni = $\\frac{\\text{Jarak}}{\\text{Kecepatan}} = \\frac{150}{60} = 2,5$ jam (2 jam 30 menit). Waktu istirahat = 20 menit. Total waktu perjalanan = 2 jam 50 menit. Waktu tiba = 06.30 + 02.50 = 09.20."
+      },
+      {
+        "id": "utbk_kuan_007",
+        "teks": "Perhatikan deret angka berikut: $2, 5, 10, 17, 26, ...$ Angka selanjutnya yang paling sesuai pada deret tersebut adalah...",
+        "opsi": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola penambahannya adalah deret bilangan ganjil yang bertingkat naik: $+3, +5, +7, +9$. Maka angka penambahan selanjutnya adalah $+11$. Sehingga $26 + 11 = 37$."
+      },
+      {
+        "id": "utbk_kuan_008",
+        "teks": "Perbandingan uang saku milik Anton dan Beni adalah $3 : 4$. Jika diketahui jumlah uang mereka berdua jika digabungkan adalah Rp70.000,00, berapakah selisih uang mereka?",
+        "opsi": [
+          "Rp10.000,00",
+          "Rp15.000,00",
+          "Rp20.000,00",
+          "Rp25.000,00",
+          "Rp30.000,00"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Rasio jumlah = $3 + 4 = 7$. Rasio selisih = $4 - 3 = 1$. Selisih uang = $\\frac{\\text{Rasio Selisih}}{\\text{Rasio Jumlah}} \\times \\text{Total Uang} = \\frac{1}{7} \\times 70.000 = 10.000$."
+      },
+      {
+        "id": "utbk_kuan_009",
+        "teks": "Sebuah bidang berbentuk persegi panjang memiliki luas 60 cm². Jika panjangnya diukur adalah 10 cm, berapakah keliling persegi panjang tersebut?",
+        "opsi": [
+          "28 cm",
+          "30 cm",
+          "32 cm",
+          "34 cm",
+          "36 cm"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Luas = Panjang $\\times$ Lebar $\\implies 60 = 10 \\times L \\implies L = 6$ cm. Keliling = $2 \\times (p + l) = 2 \\times (10 + 6) = 2 \\times 16 = 32$ cm."
+      },
+      {
+        "id": "utbk_kuan_010",
+        "teks": "Usia Ani saat ini diketahui 3 tahun lebih tua daripada usia Budi. Jika jumlah usia mereka berdua saat ini adalah 27 tahun, berapakah usia Ani?",
+        "opsi": [
+          "12 tahun",
+          "13 tahun",
+          "14 tahun",
+          "15 tahun",
+          "16 tahun"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Misalkan usia Budi = $x$, maka usia Ani = $x + 3$. Jumlah usia = $x + (x + 3) = 27 \\implies 2x + 3 = 27 \\implies 2x = 24 \\implies x = 12$. Maka usia Ani = $12 + 3 = 15$ tahun."
+      },
+      {
+        "id": "utbk_kuan_011",
+        "teks": "Nilai matematis 40% dari 150 sama besarnya dengan nilai $X\\%$ dari 200. Berapakah nilai $X$ yang tepat?",
+        "opsi": [
+          "20",
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung 40% dari 150 = $\\frac{40}{100} \\times 150 = 60$. Susun ke dalam persamaan: $\\frac{X}{100} \\times 200 = 60 \\implies 2X = 60 \\implies X = 30$."
+      },
+      {
+        "id": "utbk_kuan_012",
+        "teks": "Seorang pedagang menjual sebuah barang elektronik seharga Rp120.000,00 dan dari penjualan tersebut ia telah mendapatkan margin keuntungan sebesar 20%. Berapakah harga beli (modal dasar) barang tersebut?",
+        "opsi": [
+          "Rp80.000,00",
+          "Rp90.000,00",
+          "Rp96.000,00",
+          "Rp100.000,00",
+          "Rp105.000,00"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Harga Jual = Harga Beli + Keuntungan (20% HB) = 120% Harga Beli. Maka, Harga Beli = $\\frac{100}{120} \\times 120.000 = 100.000$."
+      },
+      {
+        "id": "utbk_kuan_013",
+        "teks": "Hasil penyelesaian dari operasi pecahan desimal $\\frac{2}{5} + 0,25 - \\frac{1}{2}$ adalah...",
+        "opsi": [
+          "0,05",
+          "0,10",
+          "0,15",
+          "0,20",
+          "0,25"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ubah seluruh elemen ke dalam bentuk desimal agar selaras: $\\frac{2}{5} = 0,40$; $\\frac{1}{2} = 0,50$. Operasinya menjadi: $0,40 + 0,25 - 0,50 = 0,65 - 0,50 = 0,15$."
+      },
+      {
+        "id": "utbk_kuan_014",
+        "teks": "Jika volume sebuah bangun ruang kubus adalah 125 cm³, berapakah luas seluruh permukaan luarnya?",
+        "opsi": [
+          "100 cm²",
+          "125 cm²",
+          "150 cm²",
+          "175 cm²",
+          "200 cm²"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Volume kubus = $s^3 = 125 \\implies s = \\sqrt[3]{125} = 5$ cm. Luas seluruh permukaan kubus = $6 \\times s^2 = 6 \\times (5^2) = 6 \\times 25 = 150$ cm²."
+      },
+      {
+        "id": "utbk_kuan_015",
+        "teks": "Dalam sebuah kotak hitam tertutup terdapat 5 buah kelereng merah dan 3 buah kelereng biru. Jika Anda mengambil tepat satu kelereng secara acak, berapakah peluang terambilnya kelereng berwarna biru?",
+        "opsi": [
+          "3/5",
+          "3/8",
+          "5/8",
+          "1/3",
+          "1/8"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Peluang = $\\frac{\\text{Kejadian Diinginkan (Kelereng Biru)}}{\\text{Total Semesta Kejadian (Total Kelereng)}} = \\frac{3}{5 + 3} = \\frac{3}{8}$."
+      },
+      {
+        "id": "utbk_kuan_016",
+        "teks": "Diketahui persamaan aljabar $2a = 3b$ dan $4b = 5c$. Perbandingan lurus antara nilai $a$ dan $c$ (atau $a : c$) adalah...",
+        "opsi": [
+          "15 : 8",
+          "8 : 15",
+          "10 : 12",
+          "5 : 6",
+          "6 : 5"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Dari persamaan pertama, kita dapatkan $b = \\frac{2a}{3}$. Substitusikan nilai $b$ ini ke persamaan kedua: $4\\left(\\frac{2a}{3}\\right) = 5c \\implies \\frac{8a}{3} = 5c \\implies 8a = 15c \\implies \\frac{a}{c} = \\frac{15}{8}$. Maka rasionya adalah $a : c = 15 : 8$."
+      },
+      {
+        "id": "utbk_kuan_017",
+        "teks": "Diketahui bahwa tiga perempat (3/4) dari suatu bilangan misterius bernilai 18. Berapakah nilai asli dari bilangan misterius tersebut?",
+        "opsi": [
+          "20",
+          "22",
+          "24",
+          "26",
+          "28"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misalkan bilangan tersebut adalah $X$. Persamaannya menjadi $\\frac{3}{4} \\times X = 18 \\implies 3X = 18 \\times 4 = 72 \\implies X = \\frac{72}{3} = 24$."
+      },
+      {
+        "id": "utbk_kuan_018",
+        "teks": "Perhatikan dengan saksama deret bilangan berikut: $1, 8, 27, 64, ...$ Angka selanjutnya yang paling tepat untuk melengkapi deret tersebut adalah...",
+        "opsi": [
+          "100",
+          "121",
+          "125",
+          "144",
+          "216"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deret tersebut merupakan himpunan barisan bilangan kubik murni (pangkat tiga secara berurutan): $1^3, 2^3, 3^3, 4^3$. Maka angka selanjutnya adalah $5^3 = 125$."
+      },
+      {
+        "id": "utbk_kuan_019",
+        "teks": "Ketiga sudut dalam sebuah bangun segitiga memiliki rasio perbandingan $2 : 3 : 4$. Berapakah besar derajat sudut yang paling kecil dalam segitiga tersebut?",
+        "opsi": [
+          "20 derajat",
+          "30 derajat",
+          "40 derajat",
+          "60 derajat",
+          "80 derajat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Jumlah total sudut di bagian dalam sebuah segitiga datar mutlak 180 derajat. Total rasio gabungan = $2 + 3 + 4 = 9$. Sudut terkecil = $\\frac{2}{9} \\times 180 = 40$ derajat."
+      },
+      {
+        "id": "utbk_kuan_020",
+        "teks": "Mesin cetak spanduk tipe A dapat menyelesaikan sebuah pesanan penuh dalam waktu 4 jam. Mesin cetak tipe B yang lebih lambat dapat menyelesaikan pesanan yang sama dalam waktu 6 jam. Jika kedua mesin dinyalakan dan dioperasikan secara bersama-sama, berapa total waktu yang dibutuhkan pesanan tersebut untuk selesai?",
+        "opsi": [
+          "2 jam 15 menit",
+          "2 jam 24 menit",
+          "2 jam 30 menit",
+          "2 jam 45 menit",
+          "3 jam 10 menit"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gunakan rumus kecepatan kerja gabungan: $\\frac{1}{T_{total}} = \\frac{1}{T_A} + \\frac{1}{T_B} = \\frac{1}{4} + \\frac{1}{6} = \\frac{3}{12} + \\frac{2}{12} = \\frac{5}{12}$. Waktu total = $\\frac{12}{5}$ jam = $2,4$ jam. Pecahan jam diubah menjadi menit: $0,4 \\times 60 = 24$ menit. Jadi total waktu kerjanya persis 2 jam 24 menit."
+      },
+      {
+        "id": "utbk_kuan_021",
+        "teks": "Diketahui sebuah persamaan kuadrat aljabar $x^2 - y^2 = 24$ dan juga diketahui nilai $x + y = 6$. Berapakah nilai pastinya dari ekspresi $x - y$?",
+        "opsi": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan prinsip pemfaktoran selisih dua kuadrat, didapatkan rumus mutlak: $x^2 - y^2 = (x + y)(x - y)$. Substitusikan angka yang diketahui: $24 = 6 \\times (x - y) \\implies x - y = \\frac{24}{6} = 4$."
+      },
+      {
+        "id": "utbk_kuan_022",
+        "teks": "Dina membeli sepasang sepatu lari seharga Rp500.000,00 yang sedang didiskon toko sebesar 30%. Jika Dina menuju kasir dan membayar lunas dengan menyerahkan dua lembar uang bernominal Rp200.000,00-an, berapakah uang kembalian yang harus diterima Dina?",
+        "opsi": [
+          "Rp20.000,00",
+          "Rp30.000,00",
+          "Rp40.000,00",
+          "Rp50.000,00",
+          "Rp60.000,00"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Potongan diskon = $30\\% \\times 500.000 = 150.000$. Harga bersih yang harus dibayar = $500.000 - 150.000 = 350.000$. Uang fisik yang diserahkan ke kasir = $2 \\times 200.000 = 400.000$. Kembalian = $400.000 - 350.000 = 50.000$."
+      },
+      {
+        "id": "utbk_kuan_023",
+        "teks": "Seseorang sedang asyik mengendarai sepeda dan menempuh jarak sejauh 10 km dalam kurun waktu 15 menit. Berapakah kecepatan rata-rata pesepeda tersebut apabila dihitung ke dalam satuan ukur km/jam?",
+        "opsi": [
+          "25 km/jam",
+          "30 km/jam",
+          "35 km/jam",
+          "40 km/jam",
+          "45 km/jam"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Ubah satuan menit ke dalam format jam: 15 menit = $\\frac{15}{60}$ jam = $\\frac{1}{4}$ jam. Kecepatan = $\\frac{\\text{Jarak}}{\\text{Waktu}} = \\frac{10}{\\frac{1}{4}} = 10 \\times 4 = 40$ km/jam."
+      },
+      {
+        "id": "utbk_kuan_024",
+        "teks": "Di dalam sebuah kelas MIPA, terdapat total 40 siswa. Jika persentase 60% dari total jumlah siswa tersebut diketahui berjenis kelamin perempuan, berapakah jumlah siswa laki-laki di kelas tersebut?",
+        "opsi": [
+          "12 siswa",
+          "14 siswa",
+          "16 siswa",
+          "18 siswa",
+          "24 siswa"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Jika perempuan 60%, maka persentase siswa laki-laki adalah = $100\\% - 60\\% = 40\\%$. Jumlah siswa laki-laki = $40\\% \\times 40 = \\frac{40}{100} \\times 40 = 16$ siswa."
+      },
+      {
+        "id": "utbk_kuan_025",
+        "teks": "Diketahui dua buah nilai matematika besar, yaitu $X = 123 \\times 456$ dan $Y = 124 \\times 455$. Pernyataan deduktif yang paling benar mengenai perbandingan hubungan X dan Y adalah...",
+        "opsi": [
+          "X > Y",
+          "X < Y",
+          "X = Y",
+          "X = 2Y",
+          "Hubungan X dan Y tidak dapat ditentukan tanpa kalkulator"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ubah manipulasi bentuk aljabar Y agar menyerupai fondasi X: $Y = (123 + 1) \\times (456 - 1) = (123 \\times 456) - 123(1) + 1(456) - 1(1)$. Sederhanakan: $Y = X - 123 + 456 - 1 \\implies Y = X + 332$. Karena $Y$ memiliki hasil penjumlahan tambahan positif dibandingkan $X$, maka disimpulkan nilai $Y$ lebih besar dari $X$, atau secara penulisan setara dengan $X < Y$."
+      },
+      {
+        "id": "utbk_kuan_026",
+        "teks": "Harga sebuah buku setelah didiskon 20% adalah Rp60.000,00. Berapakah harga awal buku tersebut sebelum didiskon?",
+        "opsi": [
+          "Rp70.000,00",
+          "Rp72.000,00",
+          "Rp75.000,00",
+          "Rp80.000,00",
+          "Rp85.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Harga setelah diskon adalah 80% dari harga awal. $80\\% \\times \\text{Harga Awal} = 60.000 \\implies \\text{Harga Awal} = \\frac{100}{80} \\times 60.000 = 75.000$."
+      },
+      {
+        "id": "utbk_kuan_027",
+        "teks": "Tiga orang pekerja bangunan dapat mengecat sebuah ruangan dalam waktu 4 jam. Jika hanya ada 2 orang pekerja dengan kecepatan yang sama, berapa jam waktu yang dibutuhkan untuk mengecat ruangan tersebut?",
+        "opsi": [
+          "4,5 jam",
+          "5 jam",
+          "5,5 jam",
+          "6 jam",
+          "7 jam"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Menggunakan perbandingan berbalik nilai: $3 \\text{ orang} \\times 4 \\text{ jam} = 2 \\text{ orang} \\times x \\text{ jam} \\implies 12 = 2x \\implies x = 6$ jam."
+      },
+      {
+        "id": "utbk_kuan_028",
+        "teks": "Usia Anton saat ini dua kali lebih tua dari usia Budi. Tiga tahun yang lalu, usia Anton tiga kali lebih tua dari usia Budi. Berapakah usia Anton saat ini?",
+        "opsi": [
+          "8 tahun",
+          "10 tahun",
+          "12 tahun",
+          "14 tahun",
+          "16 tahun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misalkan usia Budi saat ini = $B$, maka Anton = $2B$. Tiga tahun lalu: $(2B - 3) = 3(B - 3) \\implies 2B - 3 = 3B - 9 \\implies B = 6$. Usia Anton sekarang = $2 \\times 6 = 12$ tahun."
+      },
+      {
+        "id": "utbk_kuan_029",
+        "teks": "Perhatikan deret bilangan berikut: $3, 4, 7, 12, 19, 28, ...$ Angka yang paling tepat untuk melanjutkan deret tersebut adalah...",
+        "opsi": [
+          "37",
+          "38",
+          "39",
+          "41",
+          "43"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deretnya memiliki beda ganjil bertingkat: $+1, +3, +5, +7, +9$. Maka beda selanjutnya adalah $+11$. Sehingga $28 + 11 = 39$."
+      },
+      {
+        "id": "utbk_kuan_030",
+        "teks": "Jarak dari kota P ke kota Q adalah 180 km. Jika sebuah bus berangkat dari kota P pada pukul 07.00 pagi dengan kecepatan konstan 60 km/jam tanpa berhenti, pada pukul berapakah bus tersebut tiba di kota Q?",
+        "opsi": [
+          "09.00",
+          "09.30",
+          "10.00",
+          "10.30",
+          "11.00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Waktu tempuh = Jarak / Kecepatan = $180 / 60 = 3$ jam. Waktu tiba = 07.00 + 3 jam = 10.00."
+      },
+      {
+        "id": "utbk_kuan_031",
+        "teks": "Diketahui sistem persamaan linear dua variabel: $2x + 3y = 12$ dan $x - y = 1$. Berapakah nilai dari $x + y$?",
+        "opsi": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dari persamaan kedua, $x = y + 1$. Substitusi ke persamaan pertama: $2(y + 1) + 3y = 12 \\implies 2y + 2 + 3y = 12 \\implies 5y = 10 \\implies y = 2$. Maka $x = 2 + 1 = 3$. Nilai $x + y = 3 + 2 = 5$."
+      },
+      {
+        "id": "utbk_kuan_032",
+        "teks": "Dua buah dadu bersisi enam dilemparkan secara bersamaan. Berapakah peluang munculnya jumlah mata dadu sama dengan 7?",
+        "opsi": [
+          "1/4",
+          "1/5",
+          "1/6",
+          "1/7",
+          "1/8"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ruang sampel lemparan dua dadu = $6 \\times 6 = 36$. Pasangan mata dadu berjumlah 7 adalah: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), total ada 6 kejadian. Peluang = $6/36 = 1/6$."
+      },
+      {
+        "id": "utbk_kuan_033",
+        "teks": "Dalam sebuah kelompok belajar, 20 siswa menyukai Matematika, 15 siswa menyukai Fisika, dan 5 siswa menyukai keduanya. Jika tidak ada siswa yang tidak menyukai keduanya, berapakah jumlah total siswa dalam kelompok tersebut?",
+        "opsi": [
+          "25 siswa",
+          "30 siswa",
+          "35 siswa",
+          "40 siswa",
+          "45 siswa"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Menggunakan diagram Venn atau rumus gabungan himpunan: Total = $n(M) + n(F) - n(M \\cap F) = 20 + 15 - 5 = 30$ siswa."
+      },
+      {
+        "id": "utbk_kuan_034",
+        "teks": "Rata-rata nilai ujian dari 4 orang siswa adalah 15. Ketika nilai seorang siswa kelima dimasukkan, rata-ratanya naik menjadi 16. Berapakah nilai ujian siswa kelima tersebut?",
+        "opsi": [
+          "18",
+          "19",
+          "20",
+          "21",
+          "22"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total nilai 4 siswa = $4 \\times 15 = 60$. Total nilai 5 siswa = $5 \\times 16 = 80$. Nilai siswa kelima = $80 - 60 = 20$."
+      },
+      {
+        "id": "utbk_kuan_035",
+        "teks": "Berapakah hasil dari operasi matematis $0,25 \\div 0,05 + 10 \\times 0,1$?",
+        "opsi": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan hierarki operasi matematika (pembagian dan perkalian didahulukan): $(0,25 / 0,05) + (10 \\times 0,1) = 5 + 1 = 6$."
+      },
+      {
+        "id": "utbk_kuan_036",
+        "teks": "Sebuah bangun datar persegi diketahui memiliki keliling sepanjang 48 cm. Berapakah luas area persegi tersebut?",
+        "opsi": [
+          "100 cm²",
+          "121 cm²",
+          "144 cm²",
+          "169 cm²",
+          "196 cm²"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Keliling persegi = $4 \\times s = 48 \\implies s = 12$ cm. Luas persegi = $s^2 = 12^2 = 144$ cm²."
+      },
+      {
+        "id": "utbk_kuan_037",
+        "teks": "Diketahui dua buah nilai, yaitu $A = \\frac{3}{8}$ dan $B = 37,5\\%$. Hubungan komparatif yang tepat antara A dan B adalah...",
+        "opsi": [
+          "A > B",
+          "A < B",
+          "A = B",
+          "A = 2B",
+          "Hubungan A dan B tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ubah ke dalam format yang sama. $B = 37,5\\% = \\frac{37,5}{100} = \\frac{375}{1000} = \\frac{3}{8}$. Maka nilai $A$ mutlak sama dengan $B$ ($A = B$)."
+      },
+      {
+        "id": "utbk_kuan_038",
+        "teks": "Suatu bilangan apabila dikalikan 4, kemudian dikurangi 5, akan menghasilkan angka 23. Berapakah bilangan tersebut?",
+        "opsi": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misalkan bilangan tersebut adalah $X$. Persamaannya: $4X - 5 = 23 \\implies 4X = 28 \\implies X = \\frac{28}{4} = 7$."
+      },
+      {
+        "id": "utbk_kuan_039",
+        "teks": "Sebuah bak penampungan air dapat diisi penuh oleh kran A saja dalam waktu 3 jam, dan oleh kran B saja dalam waktu 6 jam. Jika kedua kran dibuka secara bersamaan, dalam berapa jam bak tersebut akan penuh?",
+        "opsi": [
+          "1,5 jam",
+          "2 jam",
+          "2,5 jam",
+          "3 jam",
+          "4,5 jam"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kecepatan gabungan = $1 / T_t = 1/T_A + 1/T_B = 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2$. Maka $T_t = 2/1 = 2$ jam."
+      },
+      {
+        "id": "utbk_kuan_040",
+        "teks": "Perhatikan deret pola dua barisan yang saling menyisip berikut: $1, 8, 9, 27, 25, 64, 49, ...$ Angka selanjutnya pada deret tersebut adalah...",
+        "opsi": [
+          "81",
+          "100",
+          "125",
+          "216",
+          "343"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan. Pola urutan ganjil (1st, 3rd, 5th, 7th): $1^2, 3^2, 5^2, 7^2$ ($1, 9, 25, 49$). Pola urutan genap (2nd, 4th, 6th): $2^3, 3^3, 4^3$ ($8, 27, 64$). Angka selanjutnya ada di urutan genap ke-8, yaitu $5^3 = 125$."
+      },
+      {
+        "id": "utbk_kuan_041",
+        "teks": "Jika diketahui $a = 2$ dan $b = 3$, berapakah nilai dari persamaan $c = a^2 + 2ab + b^2$?",
+        "opsi": [
+          "15",
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Persamaan aljabar $a^2 + 2ab + b^2$ adalah bentuk panjang (ekspansi) dari $(a + b)^2$. Substitusikan angka: $(2 + 3)^2 = 5^2 = 25$."
+      },
+      {
+        "id": "utbk_kuan_042",
+        "teks": "Di dalam sebuah keranjang undian, terdapat 4 bola merah, 6 bola biru, dan 5 bola hijau. Jika panitia mengambil 1 bola secara acak dengan mata tertutup, berapakah peluang terambilnya bola yang <b>bukan</b> berwarna merah?",
+        "opsi": [
+          "4/15",
+          "7/15",
+          "9/15",
+          "11/15",
+          "13/15"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Total bola di keranjang = $4 + 6 + 5 = 15$. Bola yang bukan merah (yaitu biru + hijau) = $6 + 5 = 11$. Peluang = $\\frac{\\text{Kejadian}}{Total} = \\frac{11}{15}$."
+      },
+      {
+        "id": "utbk_kuan_043",
+        "teks": "Karena butuh uang cepat, Siska menjual sebuah pesawat televisi bekas seharga Rp1.700.000,00 dan mengalami kerugian sebesar 15% dari harga beli awalnya. Berapakah harga beli awal televisi tersebut?",
+        "opsi": [
+          "Rp1.900.000,00",
+          "Rp1.950.000,00",
+          "Rp2.000.000,00",
+          "Rp2.050.000,00",
+          "Rp2.100.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Harga jual = Harga beli - Rugi (15%). Artinya Harga Jual adalah 85% dari Harga Beli. $85\\% \\times \\text{HB} = 1.700.000 \\implies \\text{HB} = \\frac{100}{85} \\times 1.700.000 = 2.000.000$."
+      },
+      {
+        "id": "utbk_kuan_044",
+        "teks": "Diketahui sebuah barisan aritmetika dengan pola: $3, 7, 11, 15, ...$ Berapakah nilai pada suku ke-10 dari barisan tersebut?",
+        "opsi": [
+          "35",
+          "37",
+          "39",
+          "41",
+          "43"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Suku pertama ($a$) = 3. Beda ($b$) = $7 - 3 = 4$. Rumus suku ke-n = $U_n = a + (n-1)b$. Maka $U_{10} = 3 + (10-1)4 = 3 + 9(4) = 3 + 36 = 39$."
+      },
+      {
+        "id": "utbk_kuan_045",
+        "teks": "Berapakah panjang garis diagonal melintang dari sebuah persegi yang memiliki ukuran sisi tepinya sepanjang 10 cm?",
+        "opsi": [
+          "10 cm",
+          "$10\\sqrt{2}$ cm",
+          "20 cm",
+          "$20\\sqrt{2}$ cm",
+          "100 cm"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Rumus cepat panjang diagonal sebuah persegi adalah $s\\sqrt{2}$, di mana $s$ adalah panjang sisi. Maka diagonalnya mutlak $= 10\\sqrt{2}$ cm. (Atau dihitung dari Phytagoras: $\\sqrt{10^2 + 10^2} = \\sqrt{200} = 10\\sqrt{2}$)."
+      },
+      {
+        "id": "utbk_kuan_046",
+        "teks": "Sistem komputasi pada mobil mencatat konsumsi BBM 8 liter untuk menempuh jarak 96 km. Jika indikator bensin saat ini menunjukkan sisa bahan bakar 15 liter, berapa kilometer jarak maksimal yang masih bisa ditempuh?",
+        "opsi": [
+          "150 km",
+          "160 km",
+          "170 km",
+          "180 km",
+          "190 km"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Rasio konsumsi bensin (perbandingan senilai): $96 / 8 = 12$ km/liter. Jarak maksimal dengan sisa 15 liter = $15 \\times 12 = 180$ km."
+      },
+      {
+        "id": "utbk_kuan_047",
+        "teks": "Perhatikan variabel akar kuadrat berikut: $x = \\sqrt{144} + \\sqrt{25}$ dan $y = \\sqrt{169}$. Pernyataan yang benar mengenai perbandingan kedua nilai tersebut adalah...",
+        "opsi": [
+          "x > y",
+          "x < y",
+          "x = y",
+          "x = 2y",
+          "Hubungan x dan y tidak dapat ditentukan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Selesaikan akar dari masing-masing variabel secara terpisah. $x = 12 + 5 = 17$. $y = 13$. Karena $17 > 13$, maka $x > y$."
+      },
+      {
+        "id": "utbk_kuan_048",
+        "teks": "Jika diketahui persamaan aljabar $\\frac{1}{x} + \\frac{1}{y} = 5$ dan $\\frac{1}{x} - \\frac{1}{y} = 1$, maka berapakah nilai perkalian dari $x \\cdot y$?",
+        "opsi": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5",
+          "1/6"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Gunakan eliminasi pada dua persamaan tersebut. Tambahkan: $(1/x + 1/y) + (1/x - 1/y) = 5 + 1 \\implies 2/x = 6 \\implies x = 1/3$. Kurangkan: $(1/x + 1/y) - (1/x - 1/y) = 5 - 1 \\implies 2/y = 4 \\implies y = 1/2$. Maka $x \\cdot y = (1/3) \\times (1/2) = 1/6$."
+      },
+      {
+        "id": "utbk_kuan_049",
+        "teks": "Nilai rata-rata hitung (mean) dari tiga buah variabel aljabar: $2a$, $3a$, dan $4a$ diketahui bernilai 12. Berapakah nilai pasti dari variabel $a$?",
+        "opsi": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rumus rata-rata = Jumlah semua nilai / Banyaknya data. $\\frac{2a + 3a + 4a}{3} = 12 \\implies \\frac{9a}{3} = 12 \\implies 3a = 12 \\implies a = 4$."
+      },
+      {
+        "id": "utbk_kuan_050",
+        "teks": "Di sebuah toko alat tulis, Tono membeli 2 batang pensil dan 3 buah penghapus seharga Rp12.000,00. Sementara itu, Tini membeli 1 batang pensil dan 2 buah penghapus dengan jenis yang sama seharga Rp7.000,00. Berapakah harga satuan untuk 1 batang pensil?",
+        "opsi": [
+          "Rp2.000,00",
+          "Rp2.500,00",
+          "Rp3.000,00",
+          "Rp3.500,00",
+          "Rp4.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Persamaan (1): $2p + 3e = 12.000$. Persamaan (2): $p + 2e = 7.000$. Kalikan persamaan (2) dengan dua: $2p + 4e = 14.000$. Kurangi hasil ini dengan persamaan (1): $(2p + 4e) - (2p + 3e) = 14.000 - 12.000 \\implies e = 2.000$. Substitusikan nilai $e$ ke persamaan (2): $p + 2(2.000) = 7.000 \\implies p + 4.000 = 7.000 \\implies p = 3.000$."
+      },
+      {
+        "id": "utbk_kuan_051",
+        "teks": "Seorang pedagang membeli sepasang sepatu seharga Rp150.000,00. Jika ia menjual sepatu tersebut dan mendapatkan keuntungan sebesar 20%, berapakah harga jual sepatu tersebut?",
+        "opsi": [
+          "Rp165.000,00",
+          "Rp170.000,00",
+          "Rp180.000,00",
+          "Rp190.000,00",
+          "Rp200.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Keuntungan = $20\\% \\times 150.000 = 30.000$. Harga Jual = Harga Beli + Keuntungan = $150.000 + 30.000 = 180.000$."
+      },
+      {
+        "id": "utbk_kuan_052",
+        "teks": "Andi dapat menyelesaikan sebuah pekerjaan mencat dinding dalam waktu 6 hari. Sedangkan Budi dapat menyelesaikan pekerjaan yang sama dalam waktu 12 hari. Jika mereka berdua bekerja bersama-sama, berapa hari waktu yang dibutuhkan untuk menyelesaikan pekerjaan tersebut?",
+        "opsi": [
+          "3 hari",
+          "4 hari",
+          "5 hari",
+          "6 hari",
+          "9 hari"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kecepatan kerja gabungan = $\\frac{1}{t_{total}} = \\frac{1}{t_A} + \\frac{1}{t_B} = \\frac{1}{6} + \\frac{1}{12} = \\frac{2}{12} + \\frac{1}{12} = \\frac{3}{12} = \\frac{1}{4}$. Maka $t_{total} = 4$ hari."
+      },
+      {
+        "id": "utbk_kuan_053",
+        "teks": "Perhatikan deret bilangan berikut: $2, 6, 12, 20, 30, ...$ Angka selanjutnya yang paling tepat adalah...",
+        "opsi": [
+          "40",
+          "42",
+          "44",
+          "46",
+          "48"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola penambahan bertingkat (aritmetika tingkat dua): $+4, +6, +8, +10$. Maka penambahan selanjutnya adalah $+12$. Sehingga $30 + 12 = 42$."
+      },
+      {
+        "id": "utbk_kuan_054",
+        "teks": "Perbandingan umur seorang ayah dan anaknya adalah $7 : 2$. Jika jumlah umur mereka berdua saat ini adalah 45 tahun, berapakah umur sang ayah?",
+        "opsi": [
+          "30 tahun",
+          "35 tahun",
+          "40 tahun",
+          "45 tahun",
+          "50 tahun"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Jumlah rasio = $7 + 2 = 9$. Umur ayah = $\\frac{7}{9} \\times 45 = 7 \\times 5 = 35$ tahun."
+      },
+      {
+        "id": "utbk_kuan_055",
+        "teks": "Anton berangkat dari kota X menuju kota Y dengan sepeda motor berkecepatan 40 km/jam pada pukul 08.00. Setengah jam kemudian, Budi menyusul dari kota X melalui rute yang sama dengan mobil berkecepatan 60 km/jam. Pada pukul berapakah Budi berhasil menyusul Anton?",
+        "opsi": [
+          "09.00",
+          "09.15",
+          "09.30",
+          "09.45",
+          "10.00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Jarak yang sudah ditempuh Anton dalam 0,5 jam (setengah jam) = $40 \\times 0,5 = 20$ km. Waktu menyusul = $\\frac{\\text{Selisih Jarak}}{\\text{Selisih Kecepatan}} = \\frac{20}{60 - 40} = \\frac{20}{20} = 1$ jam. Budi berangkat pukul 08.30, maka ia menyusul pukul $08.30 + 1$ jam = 09.30."
+      },
+      {
+        "id": "utbk_kuan_056",
+        "teks": "Rata-rata nilai ujian Matematika dari 5 orang siswa adalah 8. Jika nilai ujian milik Cici dimasukkan, rata-ratanya naik menjadi 9. Berapakah nilai ujian Matematika milik Cici?",
+        "opsi": [
+          "10",
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total nilai 5 siswa = $5 \\times 8 = 40$. Total nilai 6 siswa (ditambah Cici) = $6 \\times 9 = 54$. Nilai Cici = $54 - 40 = 14$."
+      },
+      {
+        "id": "utbk_kuan_057",
+        "teks": "Hasil penyelesaian dari operasi pecahan matematis $\\frac{3}{8} + \\frac{1}{4} - \\frac{1}{2}$ adalah...",
+        "opsi": [
+          "1/8",
+          "1/4",
+          "3/8",
+          "1/2",
+          "5/8"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Samakan semua penyebut menjadi 8: $\\frac{3}{8} + \\frac{2}{8} - \\frac{4}{8} = \\frac{3+2-4}{8} = \\frac{1}{8}$."
+      },
+      {
+        "id": "utbk_kuan_058",
+        "teks": "Sebuah lingkaran berada tepat di dalam sebuah bangun datar persegi yang memiliki panjang sisi 14 cm, sedemikian rupa sehingga tepi lingkaran menyinggung keempat sisi persegi tersebut. Berapakah luas lingkaran tersebut? (Gunakan $\\pi = \\frac{22}{7}$)",
+        "opsi": [
+          "144 cm²",
+          "154 cm²",
+          "164 cm²",
+          "174 cm²",
+          "184 cm²"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Diameter lingkaran sama dengan panjang sisi persegi, yaitu $d = 14$ cm, maka jari-jarinya $r = 7$ cm. Luas lingkaran = $\\pi \\times r^2 = \\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 154$ cm²."
+      },
+      {
+        "id": "utbk_kuan_059",
+        "teks": "Jika diketahui persamaan linier $3x - 4 = 11$, maka berapakah nilai dari ekspresi $2x + 5$?",
+        "opsi": [
+          "10",
+          "12",
+          "15",
+          "18",
+          "20"
+        ],
+        "jawaban": 2,
+        "pembahasan": "$3x = 11 + 4 \\implies 3x = 15 \\implies x = 5$. Substitusikan nilai $x$: $2(5) + 5 = 10 + 5 = 15$."
+      },
+      {
+        "id": "utbk_kuan_060",
+        "teks": "Dua buah dadu bersisi enam dilemparkan secara bersama-sama. Berapakah peluang kejadian munculnya jumlah mata dadu yang sama dengan 8?",
+        "opsi": [
+          "1/6",
+          "5/36",
+          "1/9",
+          "7/36",
+          "1/12"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Total ruang sampel pelemparan 2 dadu = $6 \\times 6 = 36$. Kombinasi yang menghasilkan jumlah 8 adalah: (2,6), (3,5), (4,4), (5,3), (6,2) $\\implies$ ada 5 kejadian. Peluang = $5/36$."
+      },
+      {
+        "id": "utbk_kuan_061",
+        "teks": "Sebuah proyek gedung dirancang untuk selesai dalam waktu 15 hari dengan tenaga kerja sebanyak 8 orang. Apabila pimpinan proyek menginginkan gedung tersebut selesai lebih cepat dalam waktu 10 hari saja, berapa total tenaga kerja yang dibutuhkan?",
+        "opsi": [
+          "10 orang",
+          "12 orang",
+          "14 orang",
+          "16 orang",
+          "18 orang"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Perbandingan berbalik nilai. $O_1 \\times H_1 = O_2 \\times H_2 \\implies 8 \\times 15 = x \\times 10 \\implies 120 = 10x \\implies x = 12$ orang."
+      },
+      {
+        "id": "utbk_kuan_062",
+        "teks": "Jika diketahui $15\\%$ dari angka 40 sama nilainya dengan $X\\%$ dari angka 60. Berapakah nilai $X$?",
+        "opsi": [
+          "5",
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "jawaban": 1,
+        "pembahasan": "$15\\% \\times 40 = 6$. Masukkan ke persamaan kedua: $\\frac{X}{100} \\times 60 = 6 \\implies 0,6X = 6 \\implies X = 10$."
+      },
+      {
+        "id": "utbk_kuan_063",
+        "teks": "Dalam sebuah kelas yang terdiri dari 30 siswa, diketahui ada 18 siswa yang menyukai pelajaran Matematika, 15 siswa menyukai pelajaran Fisika, dan 5 siswa sama sekali tidak menyukai keduanya. Berapakah jumlah siswa yang menyukai kedua mata pelajaran tersebut secara bersamaan?",
+        "opsi": [
+          "5 siswa",
+          "6 siswa",
+          "8 siswa",
+          "10 siswa",
+          "12 siswa"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rumus himpunan gabungan: $\\text{Total} = n(M) + n(F) - n(M \\cap F) + n(\\text{Tidak Suka Keduanya})$. $30 = 18 + 15 - x + 5 \\implies 30 = 38 - x \\implies x = 8$ siswa."
+      },
+      {
+        "id": "utbk_kuan_064",
+        "teks": "Diketahui sebuah sistem persamaan linear: $x + 2y = 10$ dan $2x - y = 5$. Berapakah hasil dari $x + y$?",
+        "opsi": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kalikan persamaan kedua dengan 2: $4x - 2y = 10$. Tambahkan dengan persamaan pertama: $(x + 2y) + (4x - 2y) = 10 + 10 \\implies 5x = 20 \\implies x = 4$. Substitusikan $x$: $4 + 2y = 10 \\implies 2y = 6 \\implies y = 3$. Maka $x + y = 4 + 3 = 7$."
+      },
+      {
+        "id": "utbk_kuan_065",
+        "teks": "Perhatikan deret pola bilangan berikut: $1, 4, 13, 40, ...$ Angka selanjutnya pada deret tersebut adalah...",
+        "opsi": [
+          "111",
+          "121",
+          "131",
+          "141",
+          "151"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola deret tersebut adalah dikali 3 kemudian ditambah 1. $1 \\times 3 + 1 = 4$; $4 \\times 3 + 1 = 13$; $13 \\times 3 + 1 = 40$. Maka angka selanjutnya adalah $40 \\times 3 + 1 = 120 + 1 = 121$."
+      },
+      {
+        "id": "utbk_kuan_066",
+        "teks": "Sebuah lapangan berbentuk persegi panjang memiliki luas area 48 meter persegi. Jika lebarnya diketahui berukuran 6 meter, berapakah keliling lapangan tersebut?",
+        "opsi": [
+          "24 meter",
+          "26 meter",
+          "28 meter",
+          "30 meter",
+          "32 meter"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Luas = panjang $\\times$ lebar $\\implies 48 = p \\times 6 \\implies p = 8$ meter. Keliling = $2 \\times (p + l) = 2 \\times (8 + 6) = 2 \\times 14 = 28$ meter."
+      },
+      {
+        "id": "utbk_kuan_067",
+        "teks": "Pada perayaan ulang tahunnya, sebuah toko tas bermerek memberikan diskon ganda kepada pelanggannya. Diskon pertama sebesar 50%, lalu pada saat di kasir diberikan lagi diskon tambahan sebesar 20% dari harga setelah diskon pertama. Berapakah persentase total diskon aktual yang didapatkan pelanggan?",
+        "opsi": [
+          "60%",
+          "65%",
+          "70%",
+          "75%",
+          "80%"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Misal harga awal = 100%. Setelah diskon pertama 50%, sisa harga = 50%. Diskon kedua 20% dihitung dari sisa harga: $20\\% \\times 50\\% = 10\\%$. Total potongan harga = $50\\% + 10\\% = 60\\%$."
+      },
+      {
+        "id": "utbk_kuan_068",
+        "teks": "Berapakah hasil dari penyederhanaan operasi eksponensial $\\frac{2^5 \\times 2^3}{2^4}$?",
+        "opsi": [
+          "8",
+          "16",
+          "32",
+          "64",
+          "128"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dalam perkalian dan pembagian basis yang sama, pangkat dijumlahkan dan dikurangkan: $2^{(5+3-4)} = 2^4 = 16$."
+      },
+      {
+        "id": "utbk_kuan_069",
+        "teks": "Diketahui jumlah uang yang dimiliki oleh A adalah $\\frac{2}{3}$ dari jumlah uang yang dimiliki oleh B. Jika total uang mereka berdua saat digabungkan adalah Rp100.000,00, berapakah jumlah uang yang dimiliki oleh si A?",
+        "opsi": [
+          "Rp30.000,00",
+          "Rp40.000,00",
+          "Rp50.000,00",
+          "Rp60.000,00",
+          "Rp70.000,00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Persamaan perbandingan A : B = 2 : 3. Rasio total = $2 + 3 = 5$. Uang A = $\\frac{2}{5} \\times 100.000 = 40.000$."
+      },
+      {
+        "id": "utbk_kuan_070",
+        "teks": "Diketahui sebuah barisan aritmetika dengan suku pertama ($a$) bernilai 5 dan beda antar suku ($b$) bernilai 3. Berapakah nilai pada suku ke-15 dari barisan tersebut?",
+        "opsi": [
+          "43",
+          "45",
+          "47",
+          "49",
+          "51"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rumus suku ke-n barisan aritmetika: $U_n = a + (n-1)b$. Maka $U_{15} = 5 + (15-1)3 = 5 + 14(3) = 5 + 42 = 47$."
+      },
+      {
+        "id": "utbk_kuan_071",
+        "teks": "Tentukan hasil dari operasi hitung campuran berikut: $12,5 \\times 8 - 150 \\div 3$",
+        "opsi": [
+          "30",
+          "40",
+          "50",
+          "60",
+          "70"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kerjakan perkalian dan pembagian terlebih dahulu secara terpisah. $(12,5 \\times 8) - (150 \\div 3) = 100 - 50 = 50$."
+      },
+      {
+        "id": "utbk_kuan_072",
+        "teks": "Sebuah bangun datar belah ketupat memiliki ukuran dua diagonal yang melintang masing-masing sepanjang 10 cm dan 24 cm. Berapakah keliling total dari belah ketupat tersebut?",
+        "opsi": [
+          "48 cm",
+          "50 cm",
+          "52 cm",
+          "54 cm",
+          "56 cm"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Diagonal berpotongan tegak lurus membagi dua sama panjang (5 cm dan 12 cm). Panjang sisi belah ketupat dihitung dengan teorema Pythagoras: $s = \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$ cm. Keliling = $4 \\times s = 4 \\times 13 = 52$ cm."
+      },
+      {
+        "id": "utbk_kuan_073",
+        "teks": "Berapakah hasil akhir dari operasi penyederhanaan bentuk akar berikut: $\\sqrt{125} - \\sqrt{45} + \\sqrt{20}$?",
+        "opsi": [
+          "$2\\sqrt{5}$",
+          "$3\\sqrt{5}$",
+          "$4\\sqrt{5}$",
+          "$5\\sqrt{5}$",
+          "$6\\sqrt{5}$"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sederhanakan masing-masing akar: $\\sqrt{25 \\times 5} - \\sqrt{9 \\times 5} + \\sqrt{4 \\times 5} = 5\\sqrt{5} - 3\\sqrt{5} + 2\\sqrt{5}$. Hasilnya = $(5 - 3 + 2)\\sqrt{5} = 4\\sqrt{5}$."
+      },
+      {
+        "id": "utbk_kuan_074",
+        "teks": "Diketahui secara empiris bahwa 3 ekor kucing mampu menangkap 3 ekor tikus dalam waktu 3 menit. Berapakah jumlah kucing yang dibutuhkan untuk dapat menangkap 100 ekor tikus dalam waktu 100 menit?",
+        "opsi": [
+          "3 ekor",
+          "10 ekor",
+          "33 ekor",
+          "100 ekor",
+          "300 ekor"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Logika kecepatan kerja. 3 kucing menangkap 3 tikus dalam 3 menit. Artinya, rasio kemampuan kelompok 3 ekor kucing tersebut adalah menangkap 1 tikus per menit (3 tikus / 3 menit). Karena mereka bersama-sama menangkap 1 tikus/menit, maka dalam waktu 100 menit, kelompok berisi 3 ekor kucing yang sama akan mampu menangkap $100 \\times 1 = 100$ ekor tikus. Jadi jumlah kucingnya tetap 3 ekor."
+      },
+      {
+        "id": "utbk_kuan_075",
+        "teks": "Diketahui tiga buah nilai desimal dan pecahan, yakni $x = \\frac{3}{4}$, $y = 75\\%$, dan $z = 0,75$. Pernyataan komparatif manakah di bawah ini yang paling tepat untuk menggambarkan hubungan ketiganya?",
+        "opsi": [
+          "x > y",
+          "x < y",
+          "x = y = z",
+          "x > z",
+          "y < z"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Mari kita konversikan semuanya ke dalam bentuk desimal standar. $x = \\frac{3}{4} = 0,75$. $y = 75\\% = \\frac{75}{100} = 0,75$. $z = 0,75$. Dapat dilihat secara mutlak bahwa ketiga nilai tersebut adalah setara / bernilai sama ($x = y = z$)."
+      },
+      {
+        "id": "utbk_kuan_076",
+        "teks": "Sebuah toko buku memberikan diskon 20% untuk semua jenis buku fiksi. Jika Budi membayar Rp64.000,00 untuk sebuah buku di kasir, berapakah harga awal buku tersebut sebelum didiskon?",
+        "opsi": [
+          "Rp72.000,00",
+          "Rp75.000,00",
+          "Rp80.000,00",
+          "Rp84.000,00",
+          "Rp90.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Harga bayar yang dikenakan di kasir adalah 80% dari harga awalnya. Maka $80\\% \\times \\text{Harga Awal} = 64.000 \\implies \\text{Harga Awal} = \\frac{100}{80} \\times 64.000 = 80.000$."
+      },
+      {
+        "id": "utbk_kuan_077",
+        "teks": "Perhatikan deret angka berikut: $2, 4, 12, 48, 240, ...$ Angka yang paling tepat untuk melanjutkan deret tersebut adalah...",
+        "opsi": [
+          "960",
+          "1200",
+          "1440",
+          "1680",
+          "1920"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola deret tersebut adalah perkalian yang terus meningkat: $\\times 2, \\times 3, \\times 4, \\times 5$. Maka angka selanjutnya didapat dari pengali berikutnya yaitu $\\times 6$. Sehingga $240 \\times 6 = 1440$."
+      },
+      {
+        "id": "utbk_kuan_078",
+        "teks": "Suatu pemborong memperkirakan dapat menyelesaikan sebuah bangunan dalam waktu 24 hari jika ia mempekerjakan 15 orang. Apabila pemilik bangunan meminta agar pekerjaan tersebut dipaksa selesai lebih cepat dalam waktu 18 hari, berapa banyak <b>tambahan</b> pekerja yang diperlukan?",
+        "opsi": [
+          "4 orang",
+          "5 orang",
+          "6 orang",
+          "10 orang",
+          "20 orang"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gunakan perbandingan berbalik nilai: $15 \\times 24 = x \\times 18 \\implies 360 = 18x \\implies x = 20$ pekerja total. Karena pertanyaannya adalah pekerja \"tambahan\", maka $20 - 15 = 5$ orang tambahan pekerja."
+      },
+      {
+        "id": "utbk_kuan_079",
+        "teks": "Jika diketahui nilai $a = 4$ dan $b = -3$, berapakah hasil dari ekspresi aljabar $a^2 - 2ab + b^2$?",
+        "opsi": [
+          "1",
+          "7",
+          "13",
+          "25",
+          "49"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Bentuk persamaan $a^2 - 2ab + b^2$ adalah hasil penjabaran bentuk ringkas dari $(a - b)^2$. Substitusikan nilainya langsung: $(4 - (-3))^2 = (4 + 3)^2 = 7^2 = 49$. (Atau dihitung manual: $16 - 2(4)(-3) + 9 = 16 + 24 + 9 = 49$)."
+      },
+      {
+        "id": "utbk_kuan_080",
+        "teks": "Sebuah buku catatan berbentuk persegi panjang memiliki keliling sepanjang 40 cm. Jika panjang buku tersebut diukur adalah 12 cm, berapakah luas area permukaan buku catatan tersebut?",
+        "opsi": [
+          "72 cm²",
+          "84 cm²",
+          "96 cm²",
+          "108 cm²",
+          "144 cm²"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rumus keliling = $2(p + l) \\implies 40 = 2(12 + l) \\implies 20 = 12 + l \\implies l = 8$ cm. Rumus luas = $p \\times l = 12 \\times 8 = 96$ cm²."
+      },
+      {
+        "id": "utbk_kuan_081",
+        "teks": "Dua buah dadu bersisi enam dilemparkan satu kali secara bersamaan di atas meja. Berapakah peluang teoritis munculnya jumlah kedua mata dadu persis bernilai 9?",
+        "opsi": [
+          "1/6",
+          "1/9",
+          "1/12",
+          "5/36",
+          "7/36"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Total titik sampel dari dua dadu adalah $6 \\times 6 = 36$. Himpunan kejadian munculnya jumlah 9 adalah: (3,6), (4,5), (5,4), (6,3), yaitu sebanyak 4 kejadian. Peluang = $4 / 36 = 1 / 9$."
+      },
+      {
+        "id": "utbk_kuan_082",
+        "teks": "Rasio perbandingan umur Ali dan umur Budi saat ini adalah $2 : 3$. Jika total jumlah umur mereka berdua saat digabungkan adalah 35 tahun, berapakah umur Budi saat ini?",
+        "opsi": [
+          "14 tahun",
+          "15 tahun",
+          "18 tahun",
+          "21 tahun",
+          "24 tahun"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Jumlah rasio mereka = $2 + 3 = 5$. Untuk mencari umur Budi, gunakan persentase rasionya dikali total jumlah umur: $\\frac{3}{5} \\times 35 = 3 \\times 7 = 21$ tahun."
+      },
+      {
+        "id": "utbk_kuan_083",
+        "teks": "Tentukan hasil akhir dari operasi hitung campuran bilangan desimal, pecahan, dan persentase berikut: $0,5 + \\frac{1}{4} - 20\\%$.",
+        "opsi": [
+          "0,45",
+          "0,55",
+          "0,65",
+          "0,75",
+          "0,85"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ubah semua bilangan ke dalam bentuk format desimal agar selaras. Pecahan $\\frac{1}{4} = 0,25$ dan $20\\% = 0,20$. Maka: $0,50 + 0,25 - 0,20 = 0,75 - 0,20 = 0,55$."
+      },
+      {
+        "id": "utbk_kuan_084",
+        "teks": "Dalam sebuah kelompok pemuda RT yang terdiri dari 40 orang, diketahui 25 orang gemar bermain sepak bola, 20 orang gemar bermain basket, dan 5 orang tidak gemar bermain keduanya. Berapakah jumlah pemuda yang gemar bermain <b>kedua</b> olahraga tersebut?",
+        "opsi": [
+          "5 orang",
+          "8 orang",
+          "10 orang",
+          "12 orang",
+          "15 orang"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gunakan rumus gabungan dua himpunan: Total = Suka A + Suka B - Suka Keduanya ($x$) + Tidak Keduanya. $40 = 25 + 20 - x + 5 \\implies 40 = 50 - x \\implies x = 10$ orang."
+      },
+      {
+        "id": "utbk_kuan_085",
+        "teks": "Jarak jalur tol antara Kota P dan Kota Q adalah 150 km. Andi berangkat dari Kota P menuju Kota Q dengan kecepatan konstan 40 km/jam pada pukul 07.00. Pada waktu yang persis sama, Budi berangkat dari Kota Q menuju Kota P dengan kecepatan konstan 60 km/jam. Pada pukul berapakah mereka berdua akan saling berpapasan di jalan tol tersebut?",
+        "opsi": [
+          "08.00",
+          "08.15",
+          "08.30",
+          "08.45",
+          "09.00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rumus waktu berpapasan dengan waktu berangkat yang sama = $\\frac{\\text{Jarak Total}}{\\text{Kecepatan 1} + \\text{Kecepatan 2}} = \\frac{150}{40 + 60} = \\frac{150}{100} = 1,5$ jam. Tambahkan 1,5 jam (1 jam 30 menit) ke pukul 07.00, maka didapatkan pukul 08.30."
+      },
+      {
+        "id": "utbk_kuan_086",
+        "teks": "Diberikan sebuah sistem persamaan linier dua variabel: $2x + y = 8$ dan $x - y = 1$. Berapakah nilai pasti dari hasil kali $x \\cdot y$?",
+        "opsi": [
+          "4",
+          "5",
+          "6",
+          "8",
+          "10"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Lakukan eliminasi dengan menjumlahkan kedua persamaan: $(2x + y) + (x - y) = 8 + 1 \\implies 3x = 9 \\implies x = 3$. Substitusikan nilai $x$ ke persamaan kedua: $3 - y = 1 \\implies y = 2$. Hasil kali $x \\cdot y = 3 \\times 2 = 6$."
+      },
+      {
+        "id": "utbk_kuan_087",
+        "teks": "Berapakah hasil dari penyederhanaan ekspresi hitung campuran bilangan akar murni $\\sqrt{169} - \\sqrt{144} + \\sqrt{25}$?",
+        "opsi": [
+          "4",
+          "5",
+          "6",
+          "8",
+          "10"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung masing-masing akarnya terlebih dahulu untuk menyederhanakan perhitungan: $13 - 12 + 5 = 1 + 5 = 6$."
+      },
+      {
+        "id": "utbk_kuan_088",
+        "teks": "Perhatikan urutan deret angka berikut ini: $1, 3, 4, 7, 11, 18, ...$ Angka selanjutnya yang paling pas untuk melengkapi deret tersebut adalah...",
+        "opsi": [
+          "25",
+          "27",
+          "29",
+          "31",
+          "35"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deret tersebut merupakan modifikasi berpolakan deret Fibonacci, di mana nilai suatu suku adalah hasil penjumlahan dari dua suku yang berada tepat di belakangnya. Suku selanjutnya adalah $11 + 18 = 29$."
+      },
+      {
+        "id": "utbk_kuan_089",
+        "teks": "Pak Joko awalnya membeli sebuah sepeda bekas dengan harga Rp2.000.000,00. Karena butuh uang cepat, ia menjual kembali sepeda tersebut dan terpaksa menanggung kerugian sebesar 10% dihitung dari harga belinya. Berapa harga jual yang diberikan Pak Joko?",
+        "opsi": [
+          "Rp1.700.000,00",
+          "Rp1.750.000,00",
+          "Rp1.800.000,00",
+          "Rp1.850.000,00",
+          "Rp1.900.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kerugian nominal = $10\\% \\times 2.000.000 = 200.000$. Harga Jual = Harga Beli - Kerugian = $2.000.000 - 200.000 = 1.800.000$. (Atau $90\\% \\times 2.000.000 = 1.800.000$)."
+      },
+      {
+        "id": "utbk_kuan_090",
+        "teks": "Rata-rata nilai ulangan fisika murni dari 4 orang siswa adalah 7,0. Ketika lembar nilai milik seorang siswa kelima (susulan) digabungkan, nilai rata-ratanya naik menjadi 7,5. Berapakah nilai ulangan siswa kelima (susulan) tersebut?",
+        "opsi": [
+          "8,5",
+          "9,0",
+          "9,5",
+          "10,0",
+          "10,5"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total akumulasi nilai 4 siswa = $4 \\times 7,0 = 28$. Total akumulasi nilai 5 siswa (setelah digabung) = $5 \\times 7,5 = 37,5$. Nilai murni siswa kelima = $37,5 - 28 = 9,5$."
+      },
+      {
+        "id": "utbk_kuan_091",
+        "teks": "Rasio perbandingan uang saku milik Tika dan uang saku milik Rina adalah $3 : 5$. Jika diketahui selisih uang mereka berdua adalah Rp10.000,00, berapakah jumlah uang saku yang dimiliki oleh Tika?",
+        "opsi": [
+          "Rp15.000,00",
+          "Rp20.000,00",
+          "Rp25.000,00",
+          "Rp30.000,00",
+          "Rp40.000,00"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Rasio selisih = $5 - 3 = 2$. Untuk mencari uang Tika, bagi rasionya dengan rasio selisih lalu kalikan dengan selisih nominal: $\\frac{3}{2} \\times 10.000 = 3 \\times 5.000 = 15.000$."
+      },
+      {
+        "id": "utbk_kuan_092",
+        "teks": "Jika didefinisikan bahwa $X$ adalah $15\\%$ dari 40, dan $Y$ adalah $10\\%$ dari 60, maka pernyataan perbandingan di bawah ini yang mempresentasikan keduanya secara akurat adalah...",
+        "opsi": [
+          "X > Y",
+          "X < Y",
+          "X = Y",
+          "X = 2Y",
+          "Hubungan X dan Y tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung masing-masing variabel: Nilai $X = 15\\% \\times 40 = \\frac{15}{100} \\times 40 = 6$. Nilai $Y = 10\\% \\times 60 = \\frac{10}{100} \\times 60 = 6$. Maka dipastikan $X = Y$."
+      },
+      {
+        "id": "utbk_kuan_093",
+        "teks": "Kran air A mampu mengisi sebuah bak mandi hingga penuh dalam waktu 2 jam saja. Sementara kran air B mampu mengisi bak mandi yang sama hingga penuh dalam waktu 3 jam. Jika kedua kran dibuka secara bersamaan, berapa lamakah waktu yang dibutuhkan agar bak mandi tersebut penuh seluruhnya?",
+        "opsi": [
+          "1 jam 12 menit",
+          "1 jam 15 menit",
+          "1 jam 20 menit",
+          "1 jam 30 menit",
+          "2 jam 30 menit"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gunakan rumus kecepatan gabungan debit air: $1/T = 1/T_A + 1/T_B = 1/2 + 1/3 = 3/6 + 2/6 = 5/6$. Waktu total $T = 6/5$ jam = $1,2$ jam. Karena 0,2 jam adalah setara dengan 12 menit, maka total waktunya 1 jam 12 menit."
+      },
+      {
+        "id": "utbk_kuan_094",
+        "teks": "Perhatikan pola deret geometri pecahan berikut: $\\frac{1}{2}, 1, 2, 4, 8, ...$ Angka selanjutnya yang paling pas pada deret tersebut adalah...",
+        "opsi": [
+          "10",
+          "12",
+          "14",
+          "16",
+          "32"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola deret geometri ini memiliki rasio konstanta perkalian 2 secara berkesinambungan. Suku selanjutnya diperoleh langsung dari $8 \\times 2 = 16$."
+      },
+      {
+        "id": "utbk_kuan_095",
+        "teks": "Sebuah bidang datar berbentuk persegi panjang memiliki ukuran panjang 8 cm dan lebar 6 cm. Berapakah panjang garis diagonal lurus yang membelah persegi panjang tersebut?",
+        "opsi": [
+          "8 cm",
+          "10 cm",
+          "12 cm",
+          "14 cm",
+          "16 cm"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Panjang diagonal sebuah persegi panjang dicari dengan Teorema Pythagoras dasar: $d = \\sqrt{p^2 + l^2} = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10$ cm."
+      },
+      {
+        "id": "utbk_kuan_096",
+        "teks": "Di antara daftar pecahan matematis di bawah ini, manakah yang memiliki nilai pembagian paling besar?",
+        "opsi": [
+          "1/3",
+          "2/5",
+          "3/7",
+          "4/9",
+          "5/11"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Konversikan ke bentuk desimal di belakang koma untuk membandingkan. 1/3 = 0,333; 2/5 = 0,400; 3/7 = 0,428; 4/9 = 0,444; 5/11 = 0,454. Nilai terbesarnya mutlak adalah 5/11."
+      },
+      {
+        "id": "utbk_kuan_097",
+        "teks": "Diketahui sebuah persamaan rasio aljabar tunggal: $\\frac{2}{x} = \\frac{4}{5}$. Berapakah nilai mutlak dari variabel $x$?",
+        "opsi": [
+          "1,5",
+          "2,0",
+          "2,5",
+          "3,0",
+          "3,5"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gunakan perkalian silang dasar: $2 \\times 5 = 4 \\times x \\implies 10 = 4x \\implies x = \\frac{10}{4} = 2,5$."
+      },
+      {
+        "id": "utbk_kuan_098",
+        "teks": "Berapakah hasil murni operasi persentase bertingkat dari $20\\%$ dari $50\\%$ dari angka 1.000?",
+        "opsi": [
+          "50",
+          "100",
+          "150",
+          "200",
+          "250"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Operasinya bisa dilakukan dengan perkalian desimal bersusun ke belakang: $0,20 \\times 0,50 \\times 1.000 = 0,10 \\times 1.000 = 100$."
+      },
+      {
+        "id": "utbk_kuan_099",
+        "teks": "Harga paket belanja untuk 3 ekor ayam dan 2 ekor bebek di pasar tradisional adalah Rp130.000,00. Sedangkan harga untuk 1 ekor ayam dan 1 ekor bebek dari penjual yang sama adalah Rp50.000,00. Berapakah harga satuan untuk 1 ekor ayam murni?",
+        "opsi": [
+          "Rp20.000,00",
+          "Rp25.000,00",
+          "Rp30.000,00",
+          "Rp35.000,00",
+          "Rp40.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sistem persamaan: (1) $3a + 2b = 130.000$ dan (2) $a + b = 50.000$. Kalikan pers (2) dengan 2 menjadi: $2a + 2b = 100.000$. Kurangi pers (1) dengan pers (2) modifikasi tadi: $(3a+2b) - (2a+2b) = 130.000 - 100.000 \\implies a = 30.000$."
+      },
+      {
+        "id": "utbk_kuan_100",
+        "teks": "Perhatikan pola barisan bilangan aritmetika tersembunyi berikut: $2, 5, 11, 23, ...$ Berapakah angka selanjutnya yang mengisi dan melanjutkan barisan tersebut?",
+        "opsi": [
+          "45",
+          "46",
+          "47",
+          "48",
+          "49"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola operasi gandanya adalah dikali 2 kemudian ditambah 1. $(2 \\times 2) + 1 = 5$; $(5 \\times 2) + 1 = 11$; $(11 \\times 2) + 1 = 23$. Maka angka selanjutnya adalah $(23 \\times 2) + 1 = 46 + 1 = 47$."
+      },
+      {
+        "id": "utbk_kuan_101",
+        "teks": "Sebuah mobil menempuh perjalanan sejauh 120 km. Pada paruh pertama perjalanannya (60 km pertama), mobil melaju dengan kecepatan 40 km/jam. Pada paruh kedua (60 km sisanya), mobil melaju dengan kecepatan 60 km/jam. Berapakah kecepatan rata-rata mobil tersebut untuk keseluruhan perjalanan?",
+        "opsi": [
+          "40 km/jam",
+          "44 km/jam",
+          "48 km/jam",
+          "50 km/jam",
+          "52 km/jam"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Waktu paruh pertama = $\\frac{60}{40} = 1,5$ jam. Waktu paruh kedua = $\\frac{60}{60} = 1$ jam. Total waktu = $1,5 + 1 = 2,5$ jam. Kecepatan rata-rata = $\\frac{\\text{Total Jarak}}{\\text{Total Waktu}} = \\frac{120}{2,5} = 48$ km/jam."
+      },
+      {
+        "id": "utbk_kuan_102",
+        "teks": "Seorang pedagang berhasil meraup keuntungan sebesar 25% dari penjualan sebuah tas. Jika nominal keuntungan yang ia dapatkan tersebut adalah Rp50.000,00, berapakah harga jual tas tersebut ke pembeli?",
+        "opsi": [
+          "Rp150.000,00",
+          "Rp200.000,00",
+          "Rp225.000,00",
+          "Rp250.000,00",
+          "Rp300.000,00"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Keuntungan 25% dari Harga Beli (HB) = 50.000. Maka $0,25 \\times \\text{HB} = 50.000 \\implies \\text{HB} = \\frac{50.000}{0,25} = 200.000$. Harga Jual = Harga Beli + Keuntungan = $200.000 + 50.000 = 250.000$."
+      },
+      {
+        "id": "utbk_kuan_103",
+        "teks": "Diketahui bahwa $30\\%$ dari suatu bilangan misterius $X$ bernilai 45. Berapakah nilai dari $50\\%$ bilangan $X$ tersebut?",
+        "opsi": [
+          "55",
+          "60",
+          "65",
+          "70",
+          "75"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kita cari nilai $X$ terlebih dahulu: $\\frac{30}{100} \\times X = 45 \\implies 3X = 450 \\implies X = 150$. Kemudian hitung $50\\%$ dari $X$: $50\\% \\times 150 = 75$."
+      },
+      {
+        "id": "utbk_kuan_104",
+        "teks": "Perhatikan deret bilangan berikut: $3, 6, 11, 18, 27, ...$ Berapakah angka selanjutnya yang tepat untuk melengkapi deret tersebut?",
+        "opsi": [
+          "34",
+          "35",
+          "36",
+          "38",
+          "40"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola penambahan antarsuku membentuk barisan bilangan ganjil: $+3, +5, +7, +9$. Maka beda penambahan selanjutnya adalah $+11$. Sehingga $27 + 11 = 38$."
+      },
+      {
+        "id": "utbk_kuan_105",
+        "teks": "Umur Andi saat ini adalah tiga kali lipat umur Budi. Sepuluh tahun yang akan datang, umur Andi menjadi tepat dua kali lipat umur Budi. Berapakah umur Budi saat ini?",
+        "opsi": [
+          "5 tahun",
+          "10 tahun",
+          "15 tahun",
+          "20 tahun",
+          "25 tahun"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Misal umur Budi sekarang = $B$, maka umur Andi $A = 3B$. Sepuluh tahun lagi persamaannya: $A + 10 = 2(B + 10)$. Substitusikan $A$: $3B + 10 = 2B + 20 \\implies B = 10$ tahun."
+      },
+      {
+        "id": "utbk_kuan_106",
+        "teks": "Pekerja A dapat menyelesaikan sebuah proyek pembuatan taman sendirian dalam waktu 10 hari. Pekerja B dapat menyelesaikan proyek yang sama sendirian dalam waktu 15 hari. Jika mereka berdua bekerja sama-sama, berapa hari proyek tersebut akan selesai?",
+        "opsi": [
+          "4 hari",
+          "5 hari",
+          "6 hari",
+          "7 hari",
+          "8 hari"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rumus kecepatan gabungan: $\\frac{1}{T_{total}} = \\frac{1}{T_A} + \\frac{1}{T_B} = \\frac{1}{10} + \\frac{1}{15} = \\frac{3}{30} + \\frac{2}{30} = \\frac{5}{30} = \\frac{1}{6}$. Maka $T_{total} = 6$ hari."
+      },
+      {
+        "id": "utbk_kuan_107",
+        "teks": "Perbandingan jumlah uang milik Ali dan Budi adalah $2 : 3$, sedangkan perbandingan uang Budi dan Cici adalah $4 : 5$. Jika total keseluruhan uang mereka bertiga adalah Rp70.000,00, berapakah jumlah uang milik Budi?",
+        "opsi": [
+          "Rp12.000,00",
+          "Rp14.000,00",
+          "Rp24.000,00",
+          "Rp30.000,00",
+          "Rp35.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Samakan rasio Budi. $A : B = 2 : 3$ (kalikan 4) $\\implies 8 : 12$. $B : C = 4 : 5$ (kalikan 3) $\\implies 12 : 15$. Maka rasio gabungannya $A : B : C = 8 : 12 : 15$. Total rasio = $8 + 12 + 15 = 35$. Uang Budi = $\\frac{12}{35} \\times 70.000 = 12 \\times 2.000 = 24.000$."
+      },
+      {
+        "id": "utbk_kuan_108",
+        "teks": "Di dalam sebuah kelas yang terdiri atas 50 siswa, terdapat 30 siswa yang menyukai pelajaran Matematika, 25 siswa menyukai Bahasa Inggris, dan 10 siswa menyukai kedua pelajaran tersebut. Berapakah jumlah siswa yang <b>tidak</b> menyukai Matematika maupun Bahasa Inggris?",
+        "opsi": [
+          "5 siswa",
+          "10 siswa",
+          "15 siswa",
+          "20 siswa",
+          "25 siswa"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gunakan rumus himpunan: Total = Suka MTK + Suka B.Ing - Suka Keduanya + Tidak Suka Keduanya. $50 = 30 + 25 - 10 + X \\implies 50 = 45 + X \\implies X = 5$ siswa."
+      },
+      {
+        "id": "utbk_kuan_109",
+        "teks": "Berapakah hasil akhir dari penyelesaian operasi akar kuadrat $\\sqrt{144 \\times 25}$?",
+        "opsi": [
+          "30",
+          "40",
+          "50",
+          "60",
+          "70"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sifat akar perkalian memungkinkan kita menarik akar masing-masing bilangan secara terpisah: $\\sqrt{144} \\times \\sqrt{25} = 12 \\times 5 = 60$."
+      },
+      {
+        "id": "utbk_kuan_110",
+        "teks": "Sebuah butik pakaian memberikan promo diskon akhir tahun berlapis untuk sebuah gaun, yakni diskon sebesar 40% kemudian dilanjutkan diskon tambahan 10% di kasir. Berapakah persentase total diskon aktual yang dinikmati oleh pembeli?",
+        "opsi": [
+          "46%",
+          "48%",
+          "50%",
+          "52%",
+          "54%"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Misal harga awal = 100%. Setelah diskon pertama 40%, sisa harga = 60%. Diskon kedua 10% dari 60% = 6%. Total diskon = 40% + 6% = 46%. (Pembeli membayar 54% dari harga asli)."
+      },
+      {
+        "id": "utbk_kuan_111",
+        "teks": "Sebuah taman berbentuk lingkaran memiliki luas area sebesar 154 meter persegi. Jika digunakan nilai $\\pi = \\frac{22}{7}$, berapakah keliling dari taman lingkaran tersebut?",
+        "opsi": [
+          "22 meter",
+          "44 meter",
+          "66 meter",
+          "88 meter",
+          "110 meter"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Luas = $\\pi \\times r^2 \\implies 154 = \\frac{22}{7} \\times r^2 \\implies r^2 = \\frac{154 \\times 7}{22} = 49 \\implies r = 7$ meter. Keliling = $2 \\times \\pi \\times r = 2 \\times \\frac{22}{7} \\times 7 = 44$ meter."
+      },
+      {
+        "id": "utbk_kuan_112",
+        "teks": "Diketahui dua buah nilai operasi hitung: $X = \\frac{1}{2} \\div \\frac{1}{4}$ dan $Y = 0,5 \\times 4$. Pernyataan yang benar mengenai komparasi $X$ dan $Y$ adalah...",
+        "opsi": [
+          "X > Y",
+          "X < Y",
+          "X = Y",
+          "X = 2Y",
+          "Hubungan X dan Y tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Selesaikan nilai $X$: $\\frac{1}{2} \\times \\frac{4}{1} = \\frac{4}{2} = 2$. Selesaikan nilai $Y$: $0,5 \\times 4 = 2$. Karena $X = 2$ dan $Y = 2$, maka dipastikan mutlak $X = Y$."
+      },
+      {
+        "id": "utbk_kuan_113",
+        "teks": "Dari sebuah sistem persamaan linear dua variabel, diketahui bahwa $2x + y = 12$ dan $x + 2y = 9$. Berapakah nilai pasti dari ekspresi $(x + y)$?",
+        "opsi": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Untuk cara cepat, tambahkan saja kedua persamaan tersebut secara vertikal: $(2x + x) + (y + 2y) = 12 + 9 \\implies 3x + 3y = 21$. Bagi kedua ruas dengan 3, maka didapatkan $x + y = 7$."
+      },
+      {
+        "id": "utbk_kuan_114",
+        "teks": "Dua buah dadu bermata enam dilemparkan secara bersama-sama satu kali. Berapakah peluang munculnya mata dadu yang apabila dijumlahkan akan menghasilkan nilai genap 10?",
+        "opsi": [
+          "1/6",
+          "1/9",
+          "1/12",
+          "1/18",
+          "1/36"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total ruang sampel ($S$) pelemparan 2 dadu = $6 \\times 6 = 36$. Kejadian ($A$) muncul jumlah 10 adalah pasangan mata dadu: (4,6), (5,5), dan (6,4). Ada 3 kejadian. Peluang = $3 / 36 = 1 / 12$."
+      },
+      {
+        "id": "utbk_kuan_115",
+        "teks": "Ditentukan bahwa variabel $x$ bernilai sama dengan $\\frac{2}{3}$ dari angka 60, sedangkan variabel $y$ bernilai sama dengan $50\\%$ dari angka 80. Hubungan kuantitatif yang tepat adalah...",
+        "opsi": [
+          "x > y",
+          "x < y",
+          "x = y",
+          "x = 2y",
+          "Hubungan x dan y tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung $x = \\frac{2}{3} \\times 60 = 40$. Hitung $y = 50\\% \\times 80 = \\frac{1}{2} \\times 80 = 40$. Maka didapatkan nilai $x$ sama persis dengan nilai $y$ ($x = y$)."
+      },
+      {
+        "id": "utbk_kuan_116",
+        "teks": "Pak Rudi meminjam uang di sebuah koperasi desa sebesar Rp2.000.000,00 dengan sistem bunga tunggal sebesar 12% per tahun. Jika ia melunasi pinjaman tersebut tepat setelah 9 bulan berjalan, berapakah total uang yang harus ia kembalikan ke koperasi?",
+        "opsi": [
+          "Rp2.100.000,00",
+          "Rp2.120.000,00",
+          "Rp2.150.000,00",
+          "Rp2.180.000,00",
+          "Rp2.200.000,00"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Hitung nominal bunga untuk 9 bulan: $Bunga = \\frac{Waktu}{12} \\times \\text{Suku Bunga} \\times \\text{Pinjaman Awal} = \\frac{9}{12} \\times 12\\% \\times 2.000.000 = \\frac{3}{4} \\times 240.000 = 180.000$. Total yang dikembalikan = $2.000.000 + 180.000 = 2.180.000$."
+      },
+      {
+        "id": "utbk_kuan_117",
+        "teks": "Bagas berangkat dari Jakarta menuju Bandung menggunakan mobil dengan kecepatan rata-rata 60 km/jam pada pukul 07.00 WIB. Setengah jam berselang, yaitu pukul 07.30 WIB, Dika menyusul Bagas melalui rute yang sama menggunakan mobil dengan kecepatan rata-rata 80 km/jam. Pada pukul berapakah Dika diprediksi akan berhasil menyusul Bagas?",
+        "opsi": [
+          "08.30 WIB",
+          "08.45 WIB",
+          "09.00 WIB",
+          "09.15 WIB",
+          "09.30 WIB"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Selisih waktu = 0,5 jam. Selisih jarak yang telah ditempuh Bagas = $60 \\text{ km/jam} \\times 0,5 \\text{ jam} = 30$ km. Waktu menyusul bagi Dika = $\\frac{\\text{Selisih Jarak}}{\\text{Selisih Kecepatan}} = \\frac{30}{80 - 60} = \\frac{30}{20} = 1,5$ jam. Dika berangkat pukul 07.30, maka ia menyusul pada pukul $07.30 + 1,5$ jam (1 jam 30 menit) = 09.00 WIB."
+      },
+      {
+        "id": "utbk_kuan_118",
+        "teks": "Berapakah hasil operasi perkalian dari pecahan campuran $2 \\frac{1}{2} \\times 1 \\frac{1}{5}$?",
+        "opsi": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ubah pecahan campuran menjadi pecahan biasa (improper fraction) terlebih dahulu: $2 \\frac{1}{2} = \\frac{5}{2}$ dan $1 \\frac{1}{5} = \\frac{6}{5}$. Kalikan keduanya: $\\frac{5}{2} \\times \\frac{6}{5} = \\frac{30}{10} = 3$."
+      },
+      {
+        "id": "utbk_kuan_119",
+        "teks": "Pada sebuah peta geografi, skala yang digunakan adalah 1 : 500.000. Jika jarak ukur antara Kota A dan Kota B pada peta tersebut adalah sepanjang 4 cm, berapakah jarak sebenarnya antara kedua kota tersebut?",
+        "opsi": [
+          "2 km",
+          "20 km",
+          "50 km",
+          "200 km",
+          "500 km"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Jarak sebenarnya = Jarak pada peta $\\times$ Skala = $4 \\text{ cm} \\times 500.000 = 2.000.000$ cm. Konversikan satuan dari cm ke km dengan membagi 100.000: $2.000.000 / 100.000 = 20$ km."
+      },
+      {
+        "id": "utbk_kuan_120",
+        "teks": "Diketahui sebuah barisan bilangan geometri dengan pola suku sebagai berikut: $2, 6, 18, 54, ...$ Berapakah nilai pada suku ke-6 dari barisan tersebut?",
+        "opsi": [
+          "243",
+          "324",
+          "486",
+          "729",
+          "1458"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Suku pertama ($a$) = 2, rasio perkalian ($r$) = 3. Rumus suku ke-n barisan geometri: $U_n = a \\times r^{(n-1)}$. Maka $U_6 = 2 \\times 3^{(6-1)} = 2 \\times 3^5 = 2 \\times 243 = 486$."
+      },
+      {
+        "id": "utbk_kuan_121",
+        "teks": "Nilai rata-rata ulangan sejarah dari kelompok pertama yang berisi 10 siswa adalah 70. Sementara itu, nilai rata-rata dari kelompok kedua yang berisi 15 siswa adalah 80. Berapakah nilai rata-rata gabungan dari keseluruhan 25 siswa tersebut?",
+        "opsi": [
+          "72",
+          "74",
+          "75",
+          "76",
+          "78"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Total nilai kelompok 1 = $10 \\times 70 = 700$. Total nilai kelompok 2 = $15 \\times 80 = 1200$. Rata-rata gabungan = $\\frac{\\text{Total Nilai 1} + \\text{Total Nilai 2}}{\\text{Total Siswa}} = \\frac{700 + 1200}{25} = \\frac{1900}{25} = 76$."
+      },
+      {
+        "id": "utbk_kuan_122",
+        "teks": "Sebuah kotak berbentuk balok diketahui memiliki volume 240 cm³. Jika kotak tersebut memiliki ukuran panjang 8 cm dan lebar 6 cm, berapakah tinggi balok tersebut?",
+        "opsi": [
+          "3 cm",
+          "4 cm",
+          "5 cm",
+          "6 cm",
+          "7 cm"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rumus volume balok = panjang $\\times$ lebar $\\times$ tinggi. Masukkan variabel yang diketahui: $240 = 8 \\times 6 \\times t \\implies 240 = 48 \\times t \\implies t = \\frac{240}{48} = 5$ cm."
+      },
+      {
+        "id": "utbk_kuan_123",
+        "teks": "Tentukan hasil akhir dari operasi perkalian desimal berikut: $0,125 \\times 8$ adalah...",
+        "opsi": [
+          "0,5",
+          "1,0",
+          "1,5",
+          "2,0",
+          "2,5"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Nilai desimal 0,125 adalah bentuk ekuivalen dari pecahan murni $\\frac{1}{8}$. Dengan demikian, perhitungannya bisa disederhanakan menjadi $\\frac{1}{8} \\times 8 = 1,0$."
+      },
+      {
+        "id": "utbk_kuan_124",
+        "teks": "Budi membeli sebuah laptop *gaming* seharga Rp4.000.000,00. Kebetulan toko tersebut sedang merayakan ulang tahun dan memberikan diskon tunggal sebesar 15%. Berapa rupiah harga final yang harus dibayar oleh Budi?",
+        "opsi": [
+          "Rp3.200.000,00",
+          "Rp3.400.000,00",
+          "Rp3.500.000,00",
+          "Rp3.600.000,00",
+          "Rp3.800.000,00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pembeli hanya perlu membayar sisa harga setelah didiskon, yaitu $100\\% - 15\\% = 85\\%$ dari harga asli. Maka, $85\\% \\times 4.000.000 = \\frac{85}{100} \\times 4.000.000 = 85 \\times 40.000 = 3.400.000$."
+      },
+      {
+        "id": "utbk_kuan_125",
+        "teks": "Lima tahun yang lalu, usia Kakak dicatat tepat empat kali lebih tua dari usia Adik. Saat ini, usia Kakak tepat tiga kali lebih tua dari usia Adik. Berapakah usia Kakak saat ini?",
+        "opsi": [
+          "30 tahun",
+          "35 tahun",
+          "40 tahun",
+          "45 tahun",
+          "50 tahun"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Misal usia Kakak sekarang $K$ dan Adik $A$. Persamaan 1: $K - 5 = 4(A - 5) \\implies K = 4A - 20 + 5 \\implies K = 4A - 15$. Persamaan 2: $K = 3A$. Substitusi: $3A = 4A - 15 \\implies A = 15$ tahun. Usia Kakak sekarang = $3 \\times 15 = 45$ tahun."
+      },
+      {
+        "id": "utbk_kuan_126",
+        "teks": "Pak Anton menabung uang di sebuah bank sebesar Rp5.000.000,00 dengan sistem bunga tunggal sebesar 10% per tahun. Berapakah total tabungan Pak Anton setelah diendapkan selama 2 tahun penuh?",
+        "opsi": [
+          "Rp5.500.000,00",
+          "Rp6.000.000,00",
+          "Rp6.050.000,00",
+          "Rp6.500.000,00",
+          "Rp7.000.000,00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Bunga tunggal per tahun = $10\\% \\times 5.000.000 = 500.000$. Bunga selama 2 tahun = $2 \\times 500.000 = 1.000.000$. Total tabungan = Modal Awal + Bunga = $5.000.000 + 1.000.000 = 6.000.000$."
+      },
+      {
+        "id": "utbk_kuan_127",
+        "teks": "Sebuah proyek pengaspalan jalan dapat diselesaikan oleh 18 orang pekerja dalam waktu 24 hari. Jika pimpinan proyek ingin pekerjaan tersebut selesai dalam waktu 16 hari saja, berapakah banyak pekerja tambahan yang harus direkrut?",
+        "opsi": [
+          "7 orang",
+          "8 orang",
+          "9 orang",
+          "10 orang",
+          "12 orang"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gunakan perbandingan berbalik nilai. $18 \\times 24 = x \\times 16 \\implies 432 = 16x \\implies x = 27$ pekerja total. Karena yang ditanya adalah 'tambahan' pekerja, maka $27 - 18 = 9$ orang."
+      },
+      {
+        "id": "utbk_kuan_128",
+        "teks": "Perhatikan barisan bilangan aritmetika bertingkat berikut: $2, 5, 10, 17, 26, ...$ Angka yang paling sesuai untuk melanjutkan deret tersebut adalah...",
+        "opsi": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola beda antarsuku dari deret tersebut membentuk barisan bilangan ganjil: $+3, +5, +7, +9$. Maka beda penambahan selanjutnya adalah $+11$. Sehingga $26 + 11 = 37$."
+      },
+      {
+        "id": "utbk_kuan_129",
+        "teks": "Andi berangkat dari kota A menuju kota B mengendarai sepeda motor dengan kecepatan konstan 40 km/jam pada pukul 08.00. Budi menyusul Andi dari kota A menuju kota B dengan kecepatan konstan 60 km/jam pada pukul 08.30. Pada pukul berapakah Budi akan berhasil menyusul Andi?",
+        "opsi": [
+          "09.00",
+          "09.15",
+          "09.30",
+          "09.45",
+          "10.00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Jarak yang sudah ditempuh Andi dalam 30 menit (0,5 jam) = $40 \\times 0,5 = 20$ km. Waktu Budi untuk menyusul = $\\frac{\\text{Selisih Jarak}}{\\text{Selisih Kecepatan}} = \\frac{20}{60 - 40} = \\frac{20}{20} = 1$ jam. Budi berangkat pukul 08.30, maka ia menyusul 1 jam kemudian, yakni pukul 09.30."
+      },
+      {
+        "id": "utbk_kuan_130",
+        "teks": "Jika diketahui persamaan aljabar $x^2 - y^2 = 60$ dan juga $x + y = 12$, berapakah nilai pasti dari ekspresi $x - y$?",
+        "opsi": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan prinsip pemfaktoran selisih kuadrat: $x^2 - y^2 = (x + y)(x - y)$. Substitusikan angka yang diketahui: $60 = 12 \\times (x - y) \\implies x - y = \\frac{60}{12} = 5$."
+      },
+      {
+        "id": "utbk_kuan_131",
+        "teks": "Di dalam sebuah kelas yang dihuni oleh 60 siswa, dilakukan survei ekstrakurikuler. Sebanyak 40 siswa mengikuti ekskul Matematika, 30 siswa mengikuti ekskul Bahasa Inggris, dan 10 siswa tidak mengikuti keduanya. Berapakah jumlah siswa yang mengikuti <b>kedua</b> ekstrakurikuler tersebut?",
+        "opsi": [
+          "10 siswa",
+          "15 siswa",
+          "20 siswa",
+          "25 siswa",
+          "30 siswa"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gunakan rumus himpunan: Total = $n(M) + n(B) - n(M \\cap B) + n(\\text{Tidak Keduanya})$. $60 = 40 + 30 - x + 10 \\implies 60 = 80 - x \\implies x = 20$ siswa."
+      },
+      {
+        "id": "utbk_kuan_132",
+        "teks": "Dua buah dadu bermata enam dilemparkan satu kali secara bersama-sama. Berapakah peluang teoritis kemunculan mata dadu yang jika dijumlahkan akan bernilai tepat 9?",
+        "opsi": [
+          "1/6",
+          "1/9",
+          "1/12",
+          "5/36",
+          "1/18"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Total ruang sampel ($S$) dua dadu = $6 \\times 6 = 36$. Kejadian ($A$) jumlah mata dadu 9 adalah: (3,6), (4,5), (5,4), dan (6,3), yaitu sebanyak 4 kejadian. Peluang = $4 / 36 = 1 / 9$."
+      },
+      {
+        "id": "utbk_kuan_133",
+        "teks": "Pada acara cuci gudang akhir tahun, sebuah toko pakaian memberikan promo \"Diskon 30% + 20%\" untuk semua produknya. Jika Anda membeli produk seharga Rp100.000,00, berapa persentase total diskon aktual yang sebenarnya Anda terima?",
+        "opsi": [
+          "44%",
+          "46%",
+          "48%",
+          "50%",
+          "56%"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Diskon tidak boleh dijumlahkan langsung (30+20=50 salah). Diskon bertingkat: Harga setelah diskon 30% = 70%. Lalu diskon 20% dari sisa 70% tersebut: $20\\% \\times 70\\% = 14\\%$. Total diskon aktual = $30\\% + 14\\% = 44\\%$. (Harga bayar = 56%)."
+      },
+      {
+        "id": "utbk_kuan_134",
+        "teks": "Rata-rata nilai ujian dari kelompok A yang berisi 10 siswa adalah 60. Rata-rata nilai ujian dari kelompok B yang berisi 15 siswa adalah 80. Berapakah rata-rata gabungan dari seluruh 25 siswa tersebut?",
+        "opsi": [
+          "70",
+          "72",
+          "74",
+          "75",
+          "76"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Total nilai A = $10 \\times 60 = 600$. Total nilai B = $15 \\times 80 = 1200$. Rata-rata gabungan = $\\frac{\\text{Total A} + \\text{Total B}}{\\text{Total Siswa}} = \\frac{600 + 1200}{25} = \\frac{1800}{25} = 72$."
+      },
+      {
+        "id": "utbk_kuan_135",
+        "teks": "Umur seorang ayah saat ini dikonfirmasi empat kali lebih tua dari umur anak laki-lakinya. Jika selisih umur di antara keduanya adalah 27 tahun, berapakah umur sang ayah sekarang?",
+        "opsi": [
+          "32 tahun",
+          "34 tahun",
+          "36 tahun",
+          "38 tahun",
+          "40 tahun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misal umur anak = $x$, maka umur ayah = $4x$. Selisih umur mereka: $4x - x = 27 \\implies 3x = 27 \\implies x = 9$. Umur sang ayah adalah $4 \\times 9 = 36$ tahun."
+      },
+      {
+        "id": "utbk_kuan_136",
+        "teks": "Sebuah lahan kosong berbentuk persegi panjang memiliki keliling sepanjang 60 meter. Jika ukuran panjangnya adalah 6 meter lebih panjang daripada ukuran lebarnya, berapakah luas area lahan tersebut?",
+        "opsi": [
+          "180 m²",
+          "200 m²",
+          "216 m²",
+          "224 m²",
+          "240 m²"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Keliling = $2(p + l) \\implies 60 = 2((l+6) + l) \\implies 30 = 2l + 6 \\implies 2l = 24 \\implies l = 12$ meter. Panjang ($p$) = $12 + 6 = 18$ meter. Luas = $p \\times l = 18 \\times 12 = 216$ meter persegi."
+      },
+      {
+        "id": "utbk_kuan_137",
+        "teks": "Tentukan hasil yang tepat dari operasi pembagian pecahan berikut: $\\frac{2}{3} \\div \\frac{4}{9}$",
+        "opsi": [
+          "1,0",
+          "1,25",
+          "1,5",
+          "1,75",
+          "2,0"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pembagian pecahan dikonversikan menjadi perkalian dengan membalik pecahan kedua: $\\frac{2}{3} \\times \\frac{9}{4} = \\frac{18}{12}$. Disederhanakan menjadi $\\frac{3}{2}$ atau 1,5 dalam desimal."
+      },
+      {
+        "id": "utbk_kuan_138",
+        "teks": "Diketahui sebuah sistem persamaan linear dua variabel, yakni $3x + 2y = 16$ dan $x - y = 2$. Berapakah nilai dari operasi perkalian $x \\cdot y$?",
+        "opsi": [
+          "6",
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dari persamaan kedua, $x = y + 2$. Substitusikan ke persamaan pertama: $3(y + 2) + 2y = 16 \\implies 3y + 6 + 2y = 16 \\implies 5y = 10 \\implies y = 2$. Jika $y = 2$, maka $x = 2 + 2 = 4$. Hasil kali $x \\cdot y = 4 \\times 2 = 8$."
+      },
+      {
+        "id": "utbk_kuan_139",
+        "teks": "Rasio perbandingan jumlah tabungan milik Tono dan Tini adalah $4 : 5$. Jika diketahui bahwa jumlah total gabungan tabungan mereka adalah Rp81.000,00, berapakah nominal selisih tabungan di antara keduanya?",
+        "opsi": [
+          "Rp8.000,00",
+          "Rp9.000,00",
+          "Rp10.000,00",
+          "Rp11.000,00",
+          "Rp12.000,00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Rasio selisih = $5 - 4 = 1$. Rasio jumlah = $5 + 4 = 9$. Selisih nominal = $\\frac{\\text{Rasio Selisih}}{\\text{Rasio Jumlah}} \\times \\text{Total Tabungan} = \\frac{1}{9} \\times 81.000 = 9.000$."
+      },
+      {
+        "id": "utbk_kuan_140",
+        "teks": "Sebuah bangun ruang kubus diketahui memiliki volume total sebesar 343 cm³. Berapakah luas seluruh permukaan bagian luar dari kubus tersebut?",
+        "opsi": [
+          "196 cm²",
+          "216 cm²",
+          "256 cm²",
+          "294 cm²",
+          "343 cm²"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Volume kubus = $s^3 = 343 \\implies s = \\sqrt[3]{343} = 7$ cm. Luas seluruh permukaan kubus = $6 \\times s^2 = 6 \\times (7^2) = 6 \\times 49 = 294$ cm²."
+      },
+      {
+        "id": "utbk_kuan_141",
+        "teks": "Diketahui persamaan eksponensial sederhana $3^x = 81$. Berapakah nilai eksponensial dari $x^2$?",
+        "opsi": [
+          "9",
+          "12",
+          "16",
+          "25",
+          "36"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Cari nilai $x$ terlebih dahulu: $3^x = 81 \\implies 3^x = 3^4 \\implies x = 4$. Maka nilai dari $x^2$ adalah $4^2 = 16$."
+      },
+      {
+        "id": "utbk_kuan_142",
+        "teks": "Berapakah hasil dari operasi penyederhanaan bentuk bilangan akar $\\sqrt{256} - \\sqrt{196} + \\sqrt{64}$?",
+        "opsi": [
+          "8",
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Selesaikan dan tarik akar bulat dari masing-masing bilangan: $16 - 14 + 8$. Hasil perhitungannya adalah $2 + 8 = 10$."
+      },
+      {
+        "id": "utbk_kuan_143",
+        "teks": "Jarak tol antara Kota X dan Kota Y adalah 200 km. Andi berangkat dari Kota X pukul 06.00 WIB dengan kecepatan konstan 60 km/jam menuju Kota Y. Pada saat yang sama, Beni berangkat dari Kota Y pukul 06.00 WIB dengan kecepatan 40 km/jam menuju Kota X. Pada pukul berapakah mereka berdua akan saling berpapasan?",
+        "opsi": [
+          "07.30 WIB",
+          "08.00 WIB",
+          "08.15 WIB",
+          "08.30 WIB",
+          "09.00 WIB"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Rumus waktu berpapasan dengan jam berangkat sama = $\\frac{\\text{Jarak Total}}{V_1 + V_2} = \\frac{200}{60 + 40} = \\frac{200}{100} = 2$ jam. Waktu berpapasan = 06.00 WIB + 2 jam = 08.00 WIB."
+      },
+      {
+        "id": "utbk_kuan_144",
+        "teks": "Diketahui sebuah barisan bilangan geometri yang memiliki pola: $2, 4, 8, 16, ...$ Berapakah nilai pada suku ke-7 dari barisan tersebut?",
+        "opsi": [
+          "64",
+          "96",
+          "128",
+          "256",
+          "512"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ini adalah deret geometri dengan suku pertama ($a$) = 2 dan rasio ($r$) = 2. Rumus suku ke-n: $U_n = a \\times r^{(n-1)}$. Maka $U_7 = 2 \\times 2^{(7-1)} = 2 \\times 2^6 = 2 \\times 64 = 128$."
+      },
+      {
+        "id": "utbk_kuan_145",
+        "teks": "Nilai ekuivalen dari $60\\%$ dari sebuah bilangan 150 adalah sama besarnya dengan nilai $25\\%$ dari bilangan $X$. Berapakah besaran bilangan $X$ tersebut?",
+        "opsi": [
+          "240",
+          "280",
+          "300",
+          "320",
+          "360"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Hitung ruas kiri terlebih dahulu: $60\\% \\times 150 = 0,6 \\times 150 = 90$. Susun persamaan: $25\\% \\times X = 90 \\implies 0,25 X = 90 \\implies X = \\frac{90}{0,25} = 360$."
+      },
+      {
+        "id": "utbk_kuan_146",
+        "teks": "Sebuah panitia inti organisasi pemuda harus dibentuk yang terdiri atas 3 orang (Ketua, Sekretaris, Bendahara). Jika terdapat 5 orang kandidat pemuda yang bersedia dan mumpuni, berapakah banyak susunan variasi panitia yang dapat dibentuk?",
+        "opsi": [
+          "15 cara",
+          "20 cara",
+          "30 cara",
+          "60 cara",
+          "120 cara"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Karena posisi kepanitiaan membedakan urutan dan jabatan (permutasi), maka perhitungannya menggunakan $P(5,3) = \\frac{5!}{(5-3)!} = \\frac{5 \\times 4 \\times 3 \\times 2!}{2!} = 5 \\times 4 \\times 3 = 60$ susunan cara."
+      },
+      {
+        "id": "utbk_kuan_147",
+        "teks": "Kran air panas saja dapat memenuhi sebuah kolam dalam waktu 6 jam. Kran air dingin saja dapat memenuhi kolam yang sama dalam waktu 12 jam. Jika kedua kran dibuka secara bersamaan ke dalam kolam yang kosong, dalam waktu berapa jam kolam tersebut akan penuh?",
+        "opsi": [
+          "3 jam",
+          "4 jam",
+          "4,5 jam",
+          "5 jam",
+          "6 jam"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Rumus kecepatan gabungan: $\\frac{1}{T_{total}} = \\frac{1}{T_A} + \\frac{1}{T_B} = \\frac{1}{6} + \\frac{1}{12} = \\frac{2}{12} + \\frac{1}{12} = \\frac{3}{12} = \\frac{1}{4}$. Maka $T_{total}$ yang dibutuhkan adalah 4 jam penuh."
+      },
+      {
+        "id": "utbk_kuan_148",
+        "teks": "Perhatikan pola peningkatan barisan angka berikut: $1, 3, 6, 10, 15, ...$ Berapakah angka yang akan menduduki urutan suku ke-7 pada barisan tersebut?",
+        "opsi": [
+          "21",
+          "25",
+          "27",
+          "28",
+          "30"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola beda antarsukunya adalah peningkatan angka secara linier: $+2, +3, +4, +5$. Suku ke-6 akan bertambah $+6$ menjadi $15 + 6 = 21$. Suku ke-7 akan bertambah $+7$ menjadi $21 + 7 = 28$."
+      },
+      {
+        "id": "utbk_kuan_149",
+        "teks": "Tentukan hasil akhir dari operasi hitung campuran bilangan desimal dan pecahan berikut ini: $0,75 \\times \\frac{8}{3} - 0,5$",
+        "opsi": [
+          "1,0",
+          "1,25",
+          "1,5",
+          "1,75",
+          "2,0"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Konversikan desimal $0,75$ menjadi pecahan murni $\\frac{3}{4}$ agar lebih mudah dioperasikan. Perkalian: $\\frac{3}{4} \\times \\frac{8}{3} = \\frac{24}{12} = 2$. Kemudian selesaikan operasi pengurangannya: $2 - 0,5 = 1,5$."
+      },
+      {
+        "id": "utbk_kuan_150",
+        "teks": "Ditentukan bahwa variabel $P$ adalah sebesar $12,5\\%$ dari angka 104, sedangkan variabel $Q$ adalah sebesar $\\frac{1}{8}$ dari angka 104. Pernyataan komparatif manakah di bawah ini yang mempresentasikan hubungan P dan Q dengan benar?",
+        "opsi": [
+          "P > Q",
+          "P < Q",
+          "P = Q",
+          "P = 2Q",
+          "Hubungan P dan Q tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dalam matematika pecahan dasar, persentase $12,5\\%$ adalah bentuk persis yang sama atau ekuivalen dari pecahan murni $\\frac{1}{8}$. Karena angka yang dikalikan (104) juga sama, maka nilai variabel P mutlak sama dengan nilai variabel Q ($P = Q$)."
+      },
+      {
+        "id": "utbk_kuan_151",
+        "teks": "Sebuah bilangan misterius diketahui bernilai $25\\%$ lebih besar dari angka 60. Berapakah nilai pasti dari bilangan misterius tersebut?",
+        "opsi": [
+          "65",
+          "70",
+          "75",
+          "80",
+          "85"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Nilai 25% dari 60 adalah $\\frac{25}{100} \\times 60 = 15$. Karena bilangan tersebut 25% lebih besar dari 60, maka nilainya adalah $60 + 15 = 75$. Atau dapat dihitung langsung dengan $(100\\% + 25\\%) \\times 60 = 125\\% \\times 60 = 1,25 \\times 60 = 75$."
+      },
+      {
+        "id": "utbk_kuan_152",
+        "teks": "Jika diketahui sebuah persamaan aljabar $3x + 5 = 20$, maka berapakah nilai dari ekspresi matematika $6x - 2$?",
+        "opsi": [
+          "22",
+          "24",
+          "26",
+          "28",
+          "30"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Cari nilai $x$ terlebih dahulu: $3x + 5 = 20 \\implies 3x = 15 \\implies x = 5$. Substitusikan nilai $x$ ke dalam ekspresi yang ditanyakan: $6(5) - 2 = 30 - 2 = 28$."
+      },
+      {
+        "id": "utbk_kuan_153",
+        "teks": "Rasio perbandingan jumlah kelereng yang dimiliki oleh Andi dan Budi adalah $3 : 4$. Jika diketahui Andi memiliki 15 butir kelereng, berapakah jumlah total kelereng yang dimiliki oleh mereka berdua jika digabungkan?",
+        "opsi": [
+          "25 butir",
+          "30 butir",
+          "35 butir",
+          "40 butir",
+          "45 butir"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rasio kelereng Andi = 3. Kelereng Andi = 15. Maka nilai satu bagian rasio adalah $15 / 3 = 5$. Total rasio mereka = $3 + 4 = 7$. Maka total kelereng mereka adalah $7 \\times 5 = 35$ butir."
+      },
+      {
+        "id": "utbk_kuan_154",
+        "teks": "Seseorang mengendarai mobil dan berhasil menempuh jarak sejauh 120 km dalam kurun waktu 2 jam 30 menit. Berapakah kecepatan rata-rata mobil tersebut secara konsisten?",
+        "opsi": [
+          "42 km/jam",
+          "45 km/jam",
+          "48 km/jam",
+          "50 km/jam",
+          "52 km/jam"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ubah waktu tempuh ke dalam format desimal jam: 2 jam 30 menit = $2,5$ jam. Kecepatan rata-rata = $\\frac{\\text{Jarak}}{\\text{Waktu}} = \\frac{120}{2,5} = \\frac{1200}{25} = 48$ km/jam."
+      },
+      {
+        "id": "utbk_kuan_155",
+        "teks": "Sebuah pekerjaan pencetakan massal dapat diselesaikan oleh 4 buah mesin cetak secara bersamaan dalam waktu 6 jam. Jika satu mesin rusak sehingga hanya tersisa 3 buah mesin yang berfungsi, berapa lama waktu yang dibutuhkan untuk menyelesaikan pekerjaan yang sama?",
+        "opsi": [
+          "7 jam",
+          "7,5 jam",
+          "8 jam",
+          "8,5 jam",
+          "9 jam"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gunakan perbandingan berbalik nilai. Semakin sedikit mesin, semakin lama waktu yang dibutuhkan. $M_1 \\times W_1 = M_2 \\times W_2 \\implies 4 \\times 6 = 3 \\times W_2 \\implies 24 = 3 \\times W_2 \\implies W_2 = \\frac{24}{3} = 8$ jam."
+      },
+      {
+        "id": "utbk_kuan_156",
+        "teks": "Sebuah bidang datar berbentuk persegi panjang memiliki luas area sebesar 96 cm² dan ukuran lebarnya adalah 8 cm. Berapakah keliling dari persegi panjang tersebut?",
+        "opsi": [
+          "32 cm",
+          "36 cm",
+          "40 cm",
+          "44 cm",
+          "48 cm"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Luas = panjang $\\times$ lebar $\\implies 96 = p \\times 8 \\implies p = \\frac{96}{8} = 12$ cm. Keliling = $2 \\times (p + l) = 2 \\times (12 + 8) = 2 \\times 20 = 40$ cm."
+      },
+      {
+        "id": "utbk_kuan_157",
+        "teks": "Perhatikan deret bilangan rasio berikut: $5, 10, 20, 40, ...$ Berapakah nilai pada suku ke-6 dari deret geometri tersebut?",
+        "opsi": [
+          "80",
+          "100",
+          "120",
+          "140",
+          "160"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Deret geometri ini memiliki suku pertama $a = 5$ dan rasio $r = 2$. Suku ke-5 = $40 \\times 2 = 80$. Suku ke-6 = $80 \\times 2 = 160$."
+      },
+      {
+        "id": "utbk_kuan_158",
+        "teks": "Tentukan hasil akhir yang paling sederhana dari operasi hitung campuran pecahan berikut: $\\frac{2}{5} + \\frac{1}{3} - \\frac{1}{2}$",
+        "opsi": [
+          "1/5",
+          "7/30",
+          "4/15",
+          "1/3",
+          "11/30"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Samakan seluruh penyebut pecahan tersebut menggunakan KPK dari 5, 3, dan 2, yaitu 30. $\\frac{12}{30} + \\frac{10}{30} - \\frac{15}{30} = \\frac{12 + 10 - 15}{30} = \\frac{7}{30}$."
+      },
+      {
+        "id": "utbk_kuan_159",
+        "teks": "Berapakah hasil dari operasi penyederhanaan eksponen perpangkatan $3^4 - 2^5$?",
+        "opsi": [
+          "17",
+          "33",
+          "49",
+          "65",
+          "81"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung masing-masing nilai pangkatnya secara mandiri: $3^4 = 81$ dan $2^5 = 32$. Selisihnya adalah $81 - 32 = 49$."
+      },
+      {
+        "id": "utbk_kuan_160",
+        "teks": "Rata-rata berat badan dari 4 orang siswa diketahui adalah 50 kg. Jika Anton bergabung ke dalam kelompok tersebut, rata-rata berat badan kelima anak tersebut naik menjadi 52 kg. Berapakah berat badan Anton?",
+        "opsi": [
+          "56 kg",
+          "58 kg",
+          "60 kg",
+          "62 kg",
+          "64 kg"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total kumulatif berat badan 4 siswa = $4 \\times 50 = 200$ kg. Total kumulatif berat badan 5 siswa (setelah Anton masuk) = $5 \\times 52 = 260$ kg. Berat badan Anton murni = $260 - 200 = 60$ kg."
+      },
+      {
+        "id": "utbk_kuan_161",
+        "teks": "Sebuah dadu standar bersisi enam dilempar satu kali di atas meja. Berapakah peluang teoretis munculnya mata dadu berupa bilangan prima?",
+        "opsi": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "2/3",
+          "5/6"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ruang sampel pelemparan sebuah dadu adalah {1, 2, 3, 4, 5, 6} (n=6). Himpunan bilangan prima pada mata dadu adalah {2, 3, 5} (ada 3 angka). Peluang = $\\frac{3}{6}$, yang jika disederhanakan menjadi $\\frac{1}{2}$."
+      },
+      {
+        "id": "utbk_kuan_162",
+        "teks": "Dalam sebuah kelas yang dihuni oleh 30 siswa, dilakukan pendataan minuman favorit. Terdapat 20 siswa yang menyukai teh, dan 15 siswa menyukai kopi. Jika diasumsikan semua siswa di kelas tersebut menyukai setidaknya satu dari kedua jenis minuman, berapa banyak siswa yang menyukai teh <b>sekaligus</b> kopi?",
+        "opsi": [
+          "5 siswa",
+          "8 siswa",
+          "10 siswa",
+          "12 siswa",
+          "15 siswa"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gunakan rumus dasar gabungan himpunan: Total Siswa = Suka Teh + Suka Kopi - Suka Keduanya. $30 = 20 + 15 - x \\implies 30 = 35 - x \\implies x = 5$ siswa."
+      },
+      {
+        "id": "utbk_kuan_163",
+        "teks": "Siska membeli sepotong kemeja premium seharga Rp150.000,00 dan mendapatkan potongan diskon tunggal sebesar 20% saat berada di kasir. Berapa rupiah harga final kemeja tersebut yang harus dibayarkan oleh Siska?",
+        "opsi": [
+          "Rp110.000,00",
+          "Rp115.000,00",
+          "Rp120.000,00",
+          "Rp125.000,00",
+          "Rp130.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Nominal diskon = $20\\% \\times 150.000 = 30.000$. Harga bersih setelah diskon = $150.000 - 30.000 = 120.000$. (Bisa dihitung cepat: Siska membayar 80% dari harga awal $\\implies 0,8 \\times 150.000 = 120.000$)."
+      },
+      {
+        "id": "utbk_kuan_164",
+        "teks": "Lima tahun yang lalu, usia sang Kakak diketahui tepat dua kali lipat usia sang Adik. Saat ini, jumlah usia mereka berdua apabila digabungkan adalah 34 tahun. Berapakah usia Kakak saat ini?",
+        "opsi": [
+          "19 tahun",
+          "20 tahun",
+          "21 tahun",
+          "22 tahun",
+          "23 tahun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misal Kakak = $K$ dan Adik = $A$. Persamaan 1 (5 th lalu): $(K-5) = 2(A-5) \\implies K - 5 = 2A - 10 \\implies K - 2A = -5$. Persamaan 2 (sekarang): $K + A = 34 \\implies A = 34 - K$. Substitusi: $K - 2(34 - K) = -5 \\implies K - 68 + 2K = -5 \\implies 3K = 63 \\implies K = 21$ tahun."
+      },
+      {
+        "id": "utbk_kuan_165",
+        "teks": "Diberikan sebuah sistem persamaan linier dua variabel berikut: $2x + y = 10$ dan $x - y = 2$. Berapakah nilai pasti dari operasi perkalian $x \\times y$?",
+        "opsi": [
+          "6",
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gunakan metode eliminasi (penjumlahan): $(2x + y) + (x - y) = 10 + 2 \\implies 3x = 12 \\implies x = 4$. Substitusikan nilai $x$: $4 - y = 2 \\implies y = 2$. Hasil kali $x \\times y = 4 \\times 2 = 8$."
+      },
+      {
+        "id": "utbk_kuan_166",
+        "teks": "Perhatikan deret pola angka kuadrat berikut dengan saksama: $4, 9, 16, 25, 36, ...$ Angka selanjutnya yang paling tepat untuk melengkapi deret tersebut adalah...",
+        "opsi": [
+          "45",
+          "47",
+          "49",
+          "51",
+          "53"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deret tersebut merupakan himpunan bilangan kuadrat sempurna yang berurutan secara konstan: $2^2, 3^2, 4^2, 5^2, 6^2$. Maka bilangan selanjutnya yang tepat adalah $7^2 = 49$."
+      },
+      {
+        "id": "utbk_kuan_167",
+        "teks": "Berapakah hasil kali yang tepat dari operasi perkalian pecahan desimal $0,15 \\times 0,4$?",
+        "opsi": [
+          "0,006",
+          "0,06",
+          "0,6",
+          "6,0",
+          "60"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kalikan angka dasarnya: $15 \\times 4 = 60$. Jumlah total angka di belakang koma dari kedua bilangan tersebut adalah $2 + 1 = 3$ angka di belakang koma. Maka hasilnya menjadi $0,060$ atau cukup ditulis $0,06$."
+      },
+      {
+        "id": "utbk_kuan_168",
+        "teks": "Jika didefinisikan bahwa nilai $X$ adalah sebesar $\\frac{1}{4}$ dari 80, dan nilai $Y$ adalah sebesar $20\\%$ dari 100. Maka pernyataan perbandingan yang tepat di bawah ini adalah...",
+        "opsi": [
+          "X > Y",
+          "X < Y",
+          "X = Y",
+          "X = 2Y",
+          "Hubungan X dan Y tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung masing-masing nilainya: $X = \\frac{1}{4} \\times 80 = 20$. Nilai $Y = \\frac{20}{100} \\times 100 = 20$. Secara nyata, nilai $X$ sama persis dengan $Y$ ($X = Y$)."
+      },
+      {
+        "id": "utbk_kuan_169",
+        "teks": "Di sebuah toko perlengkapan alat tulis, harga paket untuk 3 lusin pensil adalah Rp45.000,00. Jika Anton hanya ingin membeli secara eceran, berapakah harga yang harus dibayar untuk 8 buah batang pensil?",
+        "opsi": [
+          "Rp8.000,00",
+          "Rp9.000,00",
+          "Rp10.000,00",
+          "Rp11.000,00",
+          "Rp12.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ketahui jumlah barang dalam lusin: 1 lusin = 12 batang, maka 3 lusin = 36 batang. Harga per batang pensil = Rp45.000 / 36 = Rp1.250,00. Harga 8 batang pensil = $8 \\times 1.250 = 10.000$."
+      },
+      {
+        "id": "utbk_kuan_170",
+        "teks": "Usia Sinta saat ini diketahui 3 tahun lebih muda daripada usia Dona. Jika jumlah usia mereka berdua saat dijumlahkan adalah 25 tahun, berapakah usia Sinta saat ini?",
+        "opsi": [
+          "9 tahun",
+          "10 tahun",
+          "11 tahun",
+          "12 tahun",
+          "13 tahun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misal usia Sinta = $S$, Dona = $D$. $S = D - 3$. Jumlah usia: $S + D = 25$. Substitusi $S$: $(D - 3) + D = 25 \\implies 2D - 3 = 25 \\implies 2D = 28 \\implies D = 14$ tahun. Maka usia Sinta ($S$) adalah $14 - 3 = 11$ tahun."
+      },
+      {
+        "id": "utbk_kuan_171",
+        "teks": "Tukang cat A mampu mengecat sebuah ruangan besar dalam waktu 4 hari secara sendirian. Tukang cat B dapat melakukan pekerjaan yang persis sama sendirian dalam waktu 12 hari. Jika keduanya bekerja dan mengecat secara bersama-sama, dalam berapa hari ruangan tersebut selesai dicat?",
+        "opsi": [
+          "2 hari",
+          "3 hari",
+          "4 hari",
+          "5 hari",
+          "6 hari"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kecepatan kerja gabungan = $\\frac{1}{T_{total}} = \\frac{1}{T_A} + \\frac{1}{T_B} = \\frac{1}{4} + \\frac{1}{12} = \\frac{3}{12} + \\frac{1}{12} = \\frac{4}{12} = \\frac{1}{3}$. Maka waktu total ($T_{total}$) yang diperlukan adalah 3 hari."
+      },
+      {
+        "id": "utbk_kuan_172",
+        "teks": "Bentuk konversi persentase yang senilai persis dengan pecahan rasio $\\frac{3}{8}$ adalah...",
+        "opsi": [
+          "32,5%",
+          "35%",
+          "37,5%",
+          "40%",
+          "42,5%"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Untuk mengubah pecahan menjadi persen, kalikan dengan 100%: $\\frac{3}{8} \\times 100\\% = \\frac{300}{8}\\% = 37,5\\%$."
+      },
+      {
+        "id": "utbk_kuan_173",
+        "teks": "Sebuah lapangan olahraga berbentuk lingkaran memiliki luas area sebesar 154 meter persegi. Jika digunakan pendekatan konstanta $\\pi = \\frac{22}{7}$, berapakah panjang garis tengah (diameter) dari lapangan tersebut?",
+        "opsi": [
+          "7 meter",
+          "14 meter",
+          "21 meter",
+          "28 meter",
+          "35 meter"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Luas = $\\pi \\times r^2 \\implies 154 = \\frac{22}{7} \\times r^2 \\implies r^2 = \\frac{154 \\times 7}{22} = 7 \\times 7 = 49 \\implies r = 7$ meter. Diameter adalah dua kali jari-jari, yaitu $2 \\times 7 = 14$ meter."
+      },
+      {
+        "id": "utbk_kuan_174",
+        "teks": "Perhatikan dengan teliti deret bilangan matematika berikut: $1, 1, 2, 3, 5, 8, ...$ Angka selanjutnya yang paling pas pada barisan bilangan di atas adalah...",
+        "opsi": [
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deret tersebut adalah barisan bilangan Fibonacci klasik, di mana nilai suatu suku adalah hasil penjumlahan dari dua suku yang mendahuluinya. Maka suku selanjutnya adalah $5 + 8 = 13$."
+      },
+      {
+        "id": "utbk_kuan_175",
+        "teks": "Seorang pedagang sayur membeli barang dagangan dengan modal awal sebesar Rp80.000,00 dan ia berhasil menjual semuanya kembali dengan total penerimaan seharga Rp100.000,00. Berapakah persentase margin keuntungan yang dinikmati oleh pedagang tersebut?",
+        "opsi": [
+          "15%",
+          "20%",
+          "25%",
+          "30%",
+          "35%"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Nominal keuntungan = Harga Jual - Modal Awal = $100.000 - 80.000 = 20.000$. Persentase keuntungan dihitung dari modal: $\\frac{20.000}{80.000} \\times 100\\% = \\frac{1}{4} \\times 100\\% = 25\\%$."
+      },
+      {
+        "id": "utbk_kuan_176",
+        "teks": "Pak Rudi membeli sebuah sepeda motor bekas dengan harga Rp4.000.000,00. Setelah diperbaiki dengan biaya Rp500.000,00, ia menjual sepeda motor tersebut dengan harga Rp5.400.000,00. Berapakah persentase keuntungan bersih yang diperoleh Pak Rudi dari total modalnya?",
+        "opsi": [
+          "10%",
+          "15%",
+          "20%",
+          "25%",
+          "30%"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total Modal = Harga Beli + Biaya Perbaikan = Rp4.000.000 + Rp500.000 = Rp4.500.000. Keuntungan = Harga Jual - Total Modal = Rp5.400.000 - Rp4.500.000 = Rp900.000. Persentase Keuntungan = $(900.000 / 4.500.000) \\times 100\\% = \\frac{1}{5} \\times 100\\% = 20\\%$."
+      },
+      {
+        "id": "utbk_kuan_177",
+        "teks": "Sebuah proyek perbaikan jalan dijadwalkan selesai dalam waktu 30 hari oleh 15 orang pekerja. Setelah 10 hari bekerja, proyek terpaksa dihentikan selama 5 hari karena cuaca buruk. Agar proyek dapat selesai tepat pada waktu yang telah dijadwalkan sejak awal, berapa banyak pekerja tambahan yang diperlukan?",
+        "opsi": [
+          "3 orang",
+          "4 orang",
+          "5 orang",
+          "6 orang",
+          "8 orang"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total beban kerja sisa setelah 10 hari = $15 \\text{ pekerja} \\times 20 \\text{ hari} = 300$ orang-hari. Karena terhenti 5 hari, sisa waktu tinggal $20 - 5 = 15$ hari. Pekerja yang dibutuhkan untuk mengejar sisa waktu = $\\frac{300}{15} = 20$ pekerja. Tambahan pekerja = $20 - 15 = 5$ orang."
+      },
+      {
+        "id": "utbk_kuan_178",
+        "teks": "Perhatikan deret huruf berikut: B, E, I, N, T, ... Huruf selanjutnya yang paling tepat adalah...",
+        "opsi": [
+          "Y",
+          "Z",
+          "A",
+          "B",
+          "C"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ubah huruf menjadi angka: B(2), E(5), I(9), N(14), T(20). Pola penambahannya adalah $+3, +4, +5, +6$. Penambahan selanjutnya adalah $+7$. Angka selanjutnya $20 + 7 = 27$. Karena abjad hanya sampai 26 (Z), maka huruf ke-27 akan mengulang ke awal alfabet, yaitu huruf A."
+      },
+      {
+        "id": "utbk_kuan_179",
+        "teks": "Berapakah hasil dari operasi pecahan matematika $\\frac{2}{3} + \\frac{1}{4} \\div \\frac{3}{8}$?",
+        "opsi": [
+          "1/2",
+          "2/3",
+          "1",
+          "4/3",
+          "5/3"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kerjakan operasi pembagian terlebih dahulu dengan membalik pecahan: $\\frac{1}{4} \\times \\frac{8}{3} = \\frac{8}{12} = \\frac{2}{3}$. Kemudian jumlahkan: $\\frac{2}{3} + \\frac{2}{3} = \\frac{4}{3}$."
+      },
+      {
+        "id": "utbk_kuan_180",
+        "teks": "Usia seorang kakek saat ini adalah 5 kali usia cucunya. Jika jumlah usia kakek dan cucunya pada 4 tahun yang lalu adalah 64 tahun, berapakah usia kakek saat ini?",
+        "opsi": [
+          "55 tahun",
+          "60 tahun",
+          "65 tahun",
+          "70 tahun",
+          "75 tahun"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Misalkan usia Kakek = $K$ dan Cucu = $C$. Persamaan 1: $K = 5C$. Persamaan 2 (4 tahun lalu): $(K - 4) + (C - 4) = 64 \\implies K + C - 8 = 64 \\implies K + C = 72$. Substitusikan Persamaan 1: $5C + C = 72 \\implies 6C = 72 \\implies C = 12$. Maka usia Kakek saat ini adalah $5 \\times 12 = 60$ tahun."
+      },
+      {
+        "id": "utbk_kuan_181",
+        "teks": "Diketahui bahwa nilai $X$ adalah sebesar $37,5\\%$ dari angka 120. Sedangkan nilai $Y$ adalah sebesar $\\frac{5}{8}$ dari angka 72. Pernyataan perbandingan manakah yang benar?",
+        "opsi": [
+          "X > Y",
+          "X < Y",
+          "X = Y",
+          "X = 2Y",
+          "Hubungan X dan Y tidak dapat ditentukan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung nilai $X$: Persentase $37,5\\%$ senilai dengan pecahan $\\frac{3}{8}$. Maka $X = \\frac{3}{8} \\times 120 = 3 \\times 15 = 45$. Hitung nilai $Y$: $Y = \\frac{5}{8} \\times 72 = 5 \\times 9 = 45$. Dengan demikian, nilai $X$ sama dengan $Y$ ($X = Y$)."
+      },
+      {
+        "id": "utbk_kuan_182",
+        "teks": "Jarak tol antara Kota A dan Kota B adalah 210 km. Andi berangkat dari Kota A menuju Kota B pukul 08.00 dengan kecepatan konstan 40 km/jam. Budi berangkat dari Kota B menuju Kota A pada pukul 08.30 dengan kecepatan konstan 60 km/jam. Pada pukul berapakah mereka berdua akan saling berpapasan?",
+        "opsi": [
+          "10.00",
+          "10.12",
+          "10.24",
+          "10.36",
+          "10.48"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Andi berangkat 30 menit (0,5 jam) lebih dulu. Jarak yang sudah ditempuh Andi = $40 \\times 0,5 = 20$ km. Sisa jarak = $210 - 20 = 190$ km. Waktu untuk berpapasan = $\\frac{\\text{Sisa Jarak}}{K_A + K_B} = \\frac{190}{40 + 60} = \\frac{190}{100} = 1,9$ jam. Ubah 0,9 jam ke menit = $0,9 \\times 60 = 54$ menit. Waktu berpapasan dihitung dari waktu Budi berangkat (08.30) ditambah 1 jam 54 menit = 10.24."
+      },
+      {
+        "id": "utbk_kuan_183",
+        "teks": "Perbandingan uang saku milik Ali, Budi, dan Cici adalah $2 : 3 : 5$. Jika diketahui bahwa selisih uang antara Ali dan Cici adalah sebesar Rp45.000,00, berapakah nominal uang saku yang dimiliki oleh Budi?",
+        "opsi": [
+          "Rp30.000,00",
+          "Rp45.000,00",
+          "Rp60.000,00",
+          "Rp75.000,00",
+          "Rp90.000,00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Selisih rasio antara Ali dan Cici adalah $5 - 2 = 3$. Uang Budi dihitung dengan: $\\frac{\\text{Rasio Budi}}{\\text{Selisih Rasio (A&C)}} \\times \\text{Selisih Nominal} = \\frac{3}{3} \\times 45.000 = 45.000$."
+      },
+      {
+        "id": "utbk_kuan_184",
+        "teks": "Sebuah taman berbentuk persegi panjang memiliki keliling sepanjang 60 meter. Jika ukuran panjang taman tersebut diketahui 6 meter lebih panjang dari ukuran lebarnya, berapakah luas area taman tersebut?",
+        "opsi": [
+          "200 m²",
+          "216 m²",
+          "224 m²",
+          "240 m²",
+          "256 m²"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Keliling = $2(p + l) \\implies 60 = 2(p + l) \\implies p + l = 30$. Diketahui $p = l + 6$. Substitusikan: $(l + 6) + l = 30 \\implies 2l + 6 = 30 \\implies 2l = 24 \\implies l = 12$ meter. Maka panjangnya $p = 12 + 6 = 18$ meter. Luas taman = $p \\times l = 18 \\times 12 = 216$ m²."
+      },
+      {
+        "id": "utbk_kuan_185",
+        "teks": "Diberikan sebuah sistem persamaan linier dua variabel berikut: $3x - 2y = 12$ dan $5x + y = 33$. Berapakah nilai pasti dari hasil pengurangan $x - y$?",
+        "opsi": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dari persamaan kedua, didapatkan $y = 33 - 5x$. Substitusikan ke persamaan pertama: $3x - 2(33 - 5x) = 12 \\implies 3x - 66 + 10x = 12 \\implies 13x = 78 \\implies x = 6$. Substitusikan nilai $x$ untuk mencari $y$: $y = 33 - 5(6) = 33 - 30 = 3$. Hasil pengurangan $x - y = 6 - 3 = 3$."
+      },
+      {
+        "id": "utbk_kuan_186",
+        "teks": "Di dalam sebuah keranjang tertutup terdapat 5 buah bola merah, 3 bola biru, dan 2 bola kuning. Jika panitia mengambil dua bola secara acak satu per satu <b>tanpa pengembalian</b>, berapakah peluang terambilnya bola pertama berwarna merah dan bola kedua berwarna biru?",
+        "opsi": [
+          "1/6",
+          "1/5",
+          "2/15",
+          "3/20",
+          "1/10"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Total bola awal = 10. Peluang bola pertama merah ($P(M_1)$) = $\\frac{5}{10} = \\frac{1}{2}$. Karena tidak dikembalikan, sisa bola menjadi 9. Peluang bola kedua biru ($P(B_2)$) = $\\frac{3}{9} = \\frac{1}{3}$. Peluang gabungan = $\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6}$."
+      },
+      {
+        "id": "utbk_kuan_187",
+        "teks": "Sebuah butik pakaian memberikan diskon sebesar 20% untuk semua jenis kemeja. Jika seorang pembeli menunjukkan kartu anggota (<i>member</i>), ia akan mendapatkan diskon tambahan sebesar 10% yang dihitung dari harga setelah diskon pertama. Jika harga label sebuah kemeja adalah Rp250.000,00, berapakah harga final yang harus dibayar pembeli yang memiliki kartu anggota tersebut?",
+        "opsi": [
+          "Rp170.000,00",
+          "Rp175.000,00",
+          "Rp180.000,00",
+          "Rp190.000,00",
+          "Rp200.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Diskon bertingkat tidak dijumlahkan langsung. Harga setelah diskon 20% = $80\\% \\times 250.000 = 200.000$. Harga setelah diskon tambahan 10% (dari 200.000) = $90\\% \\times 200.000 = 180.000$."
+      },
+      {
+        "id": "utbk_kuan_188",
+        "teks": "Perhatikan pola deret kombinasi angka berikut: $3, 4, 8, 9, 18, 19, ...$ Angka selanjutnya yang paling tepat untuk melengkapi deret tersebut adalah...",
+        "opsi": [
+          "36",
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pola operasi matematika pada deret ini dilakukan secara berselang-seling: ditambah 1, lalu dikali 2. ($3+1=4$; $4\\times2=8$; $8+1=9$; $9\\times2=18$; $18+1=19$). Maka operasi selanjutnya adalah dikali 2, yaitu $19 \\times 2 = 38$."
+      },
+      {
+        "id": "utbk_kuan_189",
+        "teks": "Rata-rata nilai ujian matematika kelas XII A yang terdiri atas 30 siswa adalah 75. Sementara rata-rata nilai ujian kelas XII B yang terdiri atas 20 siswa adalah 80. Berapakah rata-rata nilai ujian gabungan dari keseluruhan 50 siswa di kedua kelas tersebut?",
+        "opsi": [
+          "76",
+          "77",
+          "77.5",
+          "78",
+          "79"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Total nilai kelas A = $30 \\times 75 = 2.250$. Total nilai kelas B = $20 \\times 80 = 1.600$. Total nilai gabungan = $2.250 + 1.600 = 3.850$. Rata-rata gabungan = $\\frac{3.850}{50} = 77$."
+      },
+      {
+        "id": "utbk_kuan_190",
+        "teks": "Sebuah tangki air dapat diisi penuh oleh kran A dalam waktu 4 jam, sedangkan kran B dapat mengisi penuh tangki yang sama dalam waktu 6 jam. Di dasar tangki terdapat sebuah lubang pembuangan C yang dapat mengosongkan tangki yang penuh dalam waktu 12 jam. Jika kran A, kran B, dan lubang pembuangan C dibuka secara bersamaan dari tangki kosong, dalam waktu berapa jam tangki tersebut akan penuh?",
+        "opsi": [
+          "2 jam",
+          "2.5 jam",
+          "3 jam",
+          "3.5 jam",
+          "4 jam"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gunakan rumus debit/kecepatan gabungan. Ingat bahwa pembuangan bersifat mengurangi debit (negatif). $\\frac{1}{T} = \\frac{1}{T_A} + \\frac{1}{T_B} - \\frac{1}{T_C} = \\frac{1}{4} + \\frac{1}{6} - \\frac{1}{12}$. Samakan penyebutnya: $\\frac{3}{12} + \\frac{2}{12} - \\frac{1}{12} = \\frac{4}{12} = \\frac{1}{3}$. Maka waktu total ($T$) adalah 3 jam."
+      },
+      {
+        "id": "utbk_kuan_191",
+        "teks": "Berapakah hasil akhir dari penyelesaian operasi eksponensial berikut: $\\left( \\frac{2^4 \\times 3^2}{2^2 \\times 3} \\right)^2$?",
+        "opsi": [
+          "36",
+          "72",
+          "108",
+          "144",
+          "216"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sederhanakan bentuk di dalam kurung terlebih dahulu menggunakan sifat pembagian pangkat (pangkat dikurang): $\\frac{2^4}{2^2} = 2^{(4-2)} = 2^2$ dan $\\frac{3^2}{3} = 3^{(2-1)} = 3^1$. Hasil di dalam kurung adalah $(2^2 \\times 3) = (4 \\times 3) = 12$. Kemudian pangkatkan dua di luar kurung: $12^2 = 144$."
+      },
+      {
+        "id": "utbk_kuan_192",
+        "teks": "Diketahui sebuah barisan bilangan aritmetika yang memiliki suku ke-3 senilai 11 dan suku ke-7 senilai 27. Berapakah besaran nilai dari suku ke-10 pada barisan tersebut?",
+        "opsi": [
+          "35",
+          "37",
+          "39",
+          "41",
+          "43"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Rumus suku ke-n adalah $U_n = a + (n-1)b$. Persamaan 1: $a + 2b = 11$. Persamaan 2: $a + 6b = 27$. Lakukan eliminasi dengan mengurangkan Persamaan 2 dengan Persamaan 1: $4b = 16 \\implies b = 4$. Substitusikan nilai b: $a + 2(4) = 11 \\implies a + 8 = 11 \\implies a = 3$. Maka $U_{10} = a + 9b = 3 + 9(4) = 3 + 36 = 39$."
+      },
+      {
+        "id": "utbk_kuan_193",
+        "teks": "Sebuah survei tentang hobi dilakukan pada 50 orang pemuda di sebuah karang taruna. Hasil pendataan menunjukkan 28 orang hobi mendaki gunung, 25 orang hobi bersepeda, dan 7 orang tidak menyukai kedua hobi tersebut. Berapa banyak pemuda yang <b>hanya</b> menyukai hobi bersepeda saja?",
+        "opsi": [
+          "10 orang",
+          "12 orang",
+          "15 orang",
+          "18 orang",
+          "20 orang"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Gunakan rumus himpunan: $\\text{Total} = n(G) + n(S) - n(G \\cap S) + \\text{Tidak Keduanya}$. $50 = 28 + 25 - x + 7 \\implies 50 = 60 - x \\implies x = 10$ (Jumlah yang suka KEDUANYA). Untuk mencari yang HANYA suka bersepeda, kurangi total penyuka sepeda dengan irisan (keduanya): $25 - 10 = 15$ orang."
+      },
+      {
+        "id": "utbk_kuan_194",
+        "teks": "Di antara deretan nilai pecahan desimal dan pecahan biasa di bawah ini, manakah pecahan yang memiliki nilai perbandingan yang paling kecil?",
+        "opsi": [
+          "3/8",
+          "4/11",
+          "2/5",
+          "5/14",
+          "7/20"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Ubah setiap pecahan ke bentuk desimal untuk membandingkan: 3/8 = 0,375. 4/11 ≈ 0,363. 2/5 = 0,400. 5/14 ≈ 0,357. 7/20 = 0,350. Angka desimal terkecil di antara semuanya adalah 0,350 yang merepresentasikan pecahan 7/20."
+      },
+      {
+        "id": "utbk_kuan_195",
+        "teks": "Sebuah bidang datar berbentuk persegi panjang mengalami peningkatan ukuran. Jika ukuran panjangnya ditambah sebesar 20% dan ukuran lebarnya ditambah sebesar 10%, berapakah total persentase peningkatan luas area persegi panjang tersebut?",
+        "opsi": [
+          "30%",
+          "32%",
+          "35%",
+          "38%",
+          "40%"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Misalkan panjang awal = $P$ (100% atau 1) dan lebar awal = $L$ (100% atau 1). Luas awal = $P \\times L$. Setelah ditambah, panjang baru menjadi $1,2P$ dan lebar baru menjadi $1,1L$. Luas baru = $1,2P \\times 1,1L = 1,32(PL)$. Ini berarti luasnya menjadi 132% dari luas awal. Maka persentase peningkatannya adalah $132\\% - 100\\% = 32\\%$."
+      },
+      {
+        "id": "utbk_kuan_196",
+        "teks": "Berapakah hasil yang tepat dari penyederhanaan ekspresi bentuk akar berikut: $\\frac{\\sqrt{75} + \\sqrt{48} - \\sqrt{27}}{\\sqrt{3}}$?",
+        "opsi": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sederhanakan bentuk akar pembilang terlebih dahulu: $\\sqrt{25 \\times 3} + \\sqrt{16 \\times 3} - \\sqrt{9 \\times 3} = 5\\sqrt{3} + 4\\sqrt{3} - 3\\sqrt{3} = 6\\sqrt{3}$. Kemudian lakukan operasi pembagian: $\\frac{6\\sqrt{3}}{\\sqrt{3}} = 6$."
+      },
+      {
+        "id": "utbk_kuan_197",
+        "teks": "Dalam sebuah riset peternakan, diketahui secara empiris bahwa 4 ekor ayam dapat menghabiskan 4 kg pakan secara pas dalam waktu 4 hari berturut-turut. Berdasarkan rasio kecepatan tersebut, berapakah jumlah kilogram pakan yang dibutuhkan oleh 12 ekor ayam dalam kurun waktu 12 hari?",
+        "opsi": [
+          "12 kg",
+          "24 kg",
+          "36 kg",
+          "48 kg",
+          "64 kg"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika rasio kecepatan (Work Rate). 4 ayam menghabiskan 4 kg dalam 4 hari. Artinya, 4 ayam menghabiskan 1 kg/hari. Jadi 1 ayam menghabiskan $\\frac{1}{4}$ kg (0,25 kg) pakan per harinya. Kebutuhan untuk 12 ayam dalam 12 hari adalah = $12 \\text{ ayam} \\times 0,25 \\text{ kg/hari} \\times 12 \\text{ hari} = 3 \\times 12 = 36$ kg."
+      },
+      {
+        "id": "utbk_kuan_198",
+        "teks": "Pak Anton membeli sebidang tanah kosong dengan harga pokok Rp150.000.000,00. Dua tahun kemudian, ia menjual tanah tersebut dan dipotong biaya administrasi serta pajak penjualan sebesar 5% dari harga kesepakatan jual beli (harga kotor). Jika setelah dipotong pajak ia masih mengantongi uang bersih masuk ke rekeningnya sebesar Rp171.000.000,00, berapakah persentase keuntungan kotor yang dinikmati Pak Anton sebelum dipotong pajak (dihitung dari modal belinya)?",
+        "opsi": [
+          "15%",
+          "20%",
+          "25%",
+          "30%",
+          "35%"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Uang Bersih = Harga Jual Kotor $\\times (100\\% - 5\\%)$. $171.000.000 = \\text{HJ} \\times 95\\% \\implies \\text{HJ} = \\frac{171.000.000}{0,95} = 180.000.000$. Nominal Keuntungan Kotor = $180.000.000 - 150.000.000 = 30.000.000$. Persentase keuntungan kotor dari modal = $\\frac{30.000.000}{150.000.000} \\times 100\\% = \\frac{1}{5} \\times 100\\% = 20\\%$."
+      },
+      {
+        "id": "utbk_kuan_199",
+        "teks": "Diketahui perbandingan jumlah siswa laki-laki dan perempuan di suatu kelas adalah $3 : 5$. Jika dilaporkan bahwa jumlah siswa perempuan adalah 10 orang lebih banyak daripada siswa laki-laki, berapakah total populasi seluruh siswa di kelas tersebut?",
+        "opsi": [
+          "32 siswa",
+          "36 siswa",
+          "40 siswa",
+          "45 siswa",
+          "48 siswa"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Selisih rasio antara perempuan dan laki-laki adalah $5 - 3 = 2$. Selisih ini mewakili 10 orang (beda jumlah riil). Nilai untuk 1 unit rasio adalah $10 / 2 = 5$ orang. Total rasio siswa seluruh kelas = $3 + 5 = 8$. Total populasi siswa = $8 \\times 5 = 40$ siswa."
+      },
+      {
+        "id": "utbk_kuan_200",
+        "teks": "Diketahui ada dua nilai persentase matematika, yakni $P = 12 \\frac{1}{2}\\%$ dari angka 80 dan $Q = 25\\%$ dari angka 40. Pernyataan silogisme mana yang paling tepat untuk menggambarkan perbandingan $P$ dan $Q$?",
+        "opsi": [
+          "P > Q",
+          "P < Q",
+          "P = Q",
+          "P = 2Q",
+          "Hubungan P dan Q tidak dapat ditentukan secara rasional"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung masing-masing variabel. Nilai $12 \\frac{1}{2}\\%$ sama dengan pecahan $\\frac{1}{8}$. Maka $P = \\frac{1}{8} \\times 80 = 10$. Sedangkan $25\\%$ sama dengan $\\frac{1}{4}$. Maka $Q = \\frac{1}{4} \\times 40 = 10$. Secara pasti dapat disimpulkan bahwa $P$ bernilai persis sama dengan $Q$ ($P = Q$)."
+      },
+      {
+        "id": "utbk_kuan_201",
+        "teks": "Sebuah kolam renang buatan dapat diisi penuh oleh pompa air A saja dalam waktu 20 jam, sedangkan pompa air B membutuhkan waktu 30 jam. Jika kedua pompa tersebut dinyalakan dan digunakan secara bersamaan, berapa jam waktu yang dibutuhkan untuk mengisi kolam hingga penuh?",
+        "opsi": [
+          "10 jam",
+          "12 jam",
+          "15 jam",
+          "18 jam",
+          "25 jam"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gunakan rumus kecepatan debit gabungan: $\\frac{1}{T_{total}} = \\frac{1}{T_A} + \\frac{1}{T_B} = \\frac{1}{20} + \\frac{1}{30}$. Samakan penyebutnya menjadi 60: $\\frac{3}{60} + \\frac{2}{60} = \\frac{5}{60} = \\frac{1}{12}$. Maka waktu total ($T_{total}$) adalah 12 jam."
+      },
+      {
+        "id": "utbk_kuan_202",
+        "teks": "Perhatikan deret bilangan berikut: $1, 2, 6, 24, 120, ...$ Angka selanjutnya yang paling tepat untuk melengkapi deret tersebut adalah...",
+        "opsi": [
+          "240",
+          "360",
+          "480",
+          "720",
+          "840"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pola deret tersebut adalah operasi perkalian yang angkanya terus bertambah secara berurutan (faktorial). $\\times 2, \\times 3, \\times 4, \\times 5$. Maka angka selanjutnya harus dikalikan 6, yaitu $120 \\times 6 = 720$."
+      },
+      {
+        "id": "utbk_kuan_203",
+        "teks": "Harga sebuah barang elektronik awalnya dinaikkan sebesar 20% dari harga aslinya. Karena sepi pembeli, toko tersebut kemudian memberikan diskon promosi sebesar 20% dari harga baru tersebut. Persentase perubahan harga barang tersebut jika dibandingkan dari harga aslinya adalah...",
+        "opsi": [
+          "Sama dengan harga asli (0%)",
+          "Turun 2%",
+          "Turun 4%",
+          "Naik 2%",
+          "Naik 4%"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Misalkan harga asli adalah 100%. Setelah dinaikkan 20%, harganya menjadi 120%. Kemudian didiskon 20% dari 120%, yaitu sebesar $20\\% \\times 120\\% = 24\\%$. Harga akhir menjadi $120\\% - 24\\% = 96\\%$. Karena harga aslinya 100% dan sekarang 96%, maka harga barang tersebut turun sebesar 4%."
+      },
+      {
+        "id": "utbk_kuan_204",
+        "teks": "Lima tahun yang lalu, usia seorang ayah tercatat persis 5 kali lipat usia anak laki-lakinya. Saat ini, usia ayah tersebut adalah 3 kali lipat usia sang anak. Berapakah usia ayah saat ini?",
+        "opsi": [
+          "25 tahun",
+          "30 tahun",
+          "35 tahun",
+          "40 tahun",
+          "45 tahun"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Misal usia ayah sekarang $K$ dan anak $A$. Persamaan 1 (5 th lalu): $K - 5 = 5(A - 5) \\implies K = 5A - 25 + 5 \\implies K = 5A - 20$. Persamaan 2 (sekarang): $K = 3A$. Substitusi: $3A = 5A - 20 \\implies 2A = 20 \\implies A = 10$. Maka usia ayah sekarang adalah $3 \\times 10 = 30$ tahun."
+      },
+      {
+        "id": "utbk_kuan_205",
+        "teks": "Tentukan hasil akhir dari operasi hitung pecahan majemuk $\\frac{2}{3} \\times \\frac{9}{4} \\div \\frac{1}{2}$ adalah...",
+        "opsi": [
+          "1,5",
+          "2,0",
+          "2,5",
+          "3,0",
+          "3,5"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Ubah operasi pembagian menjadi perkalian dengan membalik pecahan terakhir: $\\frac{2}{3} \\times \\frac{9}{4} \\times \\frac{2}{1}$. Selesaikan langkah demi langkah: $(\\frac{18}{12}) \\times \\frac{2}{1} = \\frac{3}{2} \\times \\frac{2}{1} = \\frac{6}{2} = 3$ atau $3,0$."
+      },
+      {
+        "id": "utbk_kuan_206",
+        "teks": "Sebuah mobil melaju dengan kecepatan konstan 40 km/jam selama 2 jam pertama, kemudian sang sopir mempercepat lajunya menjadi 60 km/jam selama 3 jam berikutnya di jalan bebas hambatan. Berapakah kecepatan rata-rata mobil tersebut selama total perjalanan?",
+        "opsi": [
+          "48 km/jam",
+          "50 km/jam",
+          "52 km/jam",
+          "54 km/jam",
+          "56 km/jam"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kecepatan Rata-Rata = Total Jarak / Total Waktu. Jarak tempuh pertama = $40 \\times 2 = 80$ km. Jarak tempuh kedua = $60 \\times 3 = 180$ km. Total Jarak = $80 + 180 = 260$ km. Total Waktu = $2 + 3 = 5$ jam. Kecepatan rata-rata = $\\frac{260}{5} = 52$ km/jam."
+      },
+      {
+        "id": "utbk_kuan_207",
+        "teks": "Jika dua buah dadu standar bersisi enam dilemparkan secara bersamaan di atas papan, berapakah peluang teoritis munculnya jumlah kedua mata dadu bernilai persis 8?",
+        "opsi": [
+          "1/6",
+          "5/36",
+          "1/9",
+          "7/36",
+          "1/12"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Total ruang sampel ($S$) pelemparan 2 dadu = $6 \\times 6 = 36$. Kejadian ($A$) muncul jumlah 8 terdiri dari pasangan mata dadu: (2,6), (3,5), (4,4), (5,3), dan (6,2), yaitu sebanyak 5 kejadian. Maka Peluangnya adalah $5 / 36$."
+      },
+      {
+        "id": "utbk_kuan_208",
+        "teks": "Diketahui sebuah sistem pemfaktoran aljabar bahwa $x^2 - y^2 = 45$ dan selisih $x - y = 3$. Berapakah nilai pasti dari operasi penjumlahan $x + y$?",
+        "opsi": [
+          "12",
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Berdasarkan prinsip selisih dua kuadrat dalam aljabar: $x^2 - y^2 = (x + y)(x - y)$. Substitusikan angka yang telah diketahui: $45 = (x + y) \\times 3$. Maka $x + y = \\frac{45}{3} = 15$."
+      },
+      {
+        "id": "utbk_kuan_209",
+        "teks": "Dalam sebuah kelas yang terdiri dari 50 siswa, terdapat 30 siswa yang menyukai pelajaran Matematika, dan 20 siswa menyukai pelajaran Bahasa Inggris. Jika terdapat 10 siswa yang menyukai kedua pelajaran tersebut secara bersamaan, berapakah jumlah siswa yang sama sekali <b>tidak</b> menyukai keduanya?",
+        "opsi": [
+          "5 siswa",
+          "10 siswa",
+          "15 siswa",
+          "20 siswa",
+          "25 siswa"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gunakan rumus himpunan: Total Siswa = Suka MTK + Suka B.Ing - Suka Keduanya + Tidak Suka Keduanya. $50 = 30 + 20 - 10 + X \\implies 50 = 40 + X \\implies X = 10$ siswa."
+      },
+      {
+        "id": "utbk_kuan_210",
+        "teks": "Sebuah lapangan rumput berbentuk lingkaran penuh memiliki luas area sebesar 616 m². Jika digunakan nilai konstanta $\\pi = \\frac{22}{7}$, berapakah keliling lapangan lingkaran tersebut?",
+        "opsi": [
+          "66 m",
+          "88 m",
+          "110 m",
+          "132 m",
+          "154 m"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Cari jari-jari ($r$) terlebih dahulu dari rumus Luas: $616 = \\frac{22}{7} \\times r^2 \\implies r^2 = \\frac{616 \\times 7}{22} = 28 \\times 7 = 196$. Maka $r = \\sqrt{196} = 14$ meter. Hitung keliling: $K = 2 \\times \\pi \\times r = 2 \\times \\frac{22}{7} \\times 14 = 44 \\times 2 = 88$ meter."
+      },
+      {
+        "id": "utbk_kuan_211",
+        "teks": "Diberikan dua persamaan linier sederhana: $2x + y = 11$ dan $x + 2y = 10$. Berapakah nilai akhir dari ekspresi $(x + y)$?",
+        "opsi": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Trik cepat untuk jenis persamaan simetris ini adalah dengan menjumlahkan kedua persamaan tersebut secara vertikal: $(2x + x) + (y + 2y) = 11 + 10 \\implies 3x + 3y = 21$. Kemudian bagi kedua ruas dengan angka 3, maka didapatkan $x + y = 7$."
+      },
+      {
+        "id": "utbk_kuan_212",
+        "teks": "Sebuah toko pakaian premium memberikan promosi diskon ganda berturut-turut sebesar 50% dan ditambah lagi diskon 20% di kasir untuk sebuah kemeja. Total persentase diskon aktual sesungguhnya yang didapatkan pelanggan tersebut adalah...",
+        "opsi": [
+          "60%",
+          "65%",
+          "70%",
+          "75%",
+          "80%"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Diskon tidak bisa sekadar dijumlahkan (50+20=70 salah). Hitung bertahap: Harga setelah diskon 50% = 50% sisa. Lalu diskon tambahan 20% dihitung dari sisa 50% tersebut: $20\\% \\times 50\\% = 10\\%$. Total potongan harga = $50\\% + 10\\% = 60\\%$."
+      },
+      {
+        "id": "utbk_kuan_213",
+        "teks": "Seseorang pengusaha meminjam uang modal di bank sebesar Rp2.000.000,00 dengan ketentuan suku bunga tunggal 12% per tahun. Berapakah total uang (pokok + bunga) yang harus dikembalikan jika ia hanya meminjam selama 8 bulan berjalan?",
+        "opsi": [
+          "Rp2.120.000,00",
+          "Rp2.140.000,00",
+          "Rp2.160.000,00",
+          "Rp2.180.000,00",
+          "Rp2.200.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Hitung nominal bunga untuk 8 bulan: $Bunga = \\frac{\\text{Bulan}}{12} \\times \\text{Persen Bunga} \\times \\text{Modal} = \\frac{8}{12} \\times 12\\% \\times 2.000.000 = \\frac{2}{3} \\times 240.000 = 160.000$. Total yang harus dikembalikan = $2.000.000 + 160.000 = 2.160.000$."
+      },
+      {
+        "id": "utbk_kuan_214",
+        "teks": "Berapakah hasil dari penyederhanaan ekspresi eksponensial matematis $\\frac{2^5 \\times 3^3}{2^3 \\times 3}$?",
+        "opsi": [
+          "12",
+          "18",
+          "24",
+          "36",
+          "72"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Gunakan sifat pembagian pada bilangan berpangkat (pangkatnya dikurangkan untuk basis yang sama): $2^{(5-3)} \\times 3^{(3-1)} = 2^2 \\times 3^2 = 4 \\times 9 = 36$."
+      },
+      {
+        "id": "utbk_kuan_215",
+        "teks": "Perbandingan tabungan Andi dan Budi adalah $3 : 4$, sedangkan perbandingan tabungan Budi dan Cici adalah $4 : 5$. Jika diketahui jumlah total tabungan mereka bertiga jika digabungkan adalah Rp120.000,00, berapakah jumlah tabungan milik Budi?",
+        "opsi": [
+          "Rp30.000,00",
+          "Rp40.000,00",
+          "Rp50.000,00",
+          "Rp60.000,00",
+          "Rp70.000,00"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Karena rasio Budi pada kedua perbandingan sama-sama bernilai 4, kita bisa langsung menggabungkannya menjadi A : B : C = 3 : 4 : 5. Total rasio keseluruhan = $3 + 4 + 5 = 12$. Tabungan Budi = $\\frac{\\text{Rasio Budi}}{\\text{Total Rasio}} \\times \\text{Total Uang} = \\frac{4}{12} \\times 120.000 = 40.000$."
+      },
+      {
+        "id": "utbk_kuan_216",
+        "teks": "Diketahui sebuah barisan bilangan aritmetika memiliki suku pertama ($a$) bernilai 5 dan selisih beda antar suku ($b$) bernilai konstan 4. Berapakah besaran nilai pada suku ke-10 dari barisan tersebut?",
+        "opsi": [
+          "37",
+          "41",
+          "45",
+          "49",
+          "53"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gunakan rumus suku ke-n barisan aritmetika: $U_n = a + (n-1)b$. Masukkan variabelnya: $U_{10} = 5 + (10-1)4 = 5 + 9(4) = 5 + 36 = 41$."
+      },
+      {
+        "id": "utbk_kuan_217",
+        "teks": "Suatu pekerjaan menggali sumur dapat diselesaikan oleh 5 orang pekerja dalam waktu 12 hari. Jika pekerjaan tersebut dikerjakan oleh 6 orang pekerja dengan kemampuan yang setara, dalam berapa hari pekerjaan itu akan selesai seluruhnya?",
+        "opsi": [
+          "8 hari",
+          "9 hari",
+          "10 hari",
+          "11 hari",
+          "12 hari"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perbandingan berbalik nilai (semakin banyak pekerja, semakin singkat waktunya). $5 \\text{ orang} \\times 12 \\text{ hari} = 6 \\text{ orang} \\times X \\text{ hari} \\implies 60 = 6X \\implies X = 10$ hari."
+      },
+      {
+        "id": "utbk_kuan_218",
+        "teks": "Seorang pedagang pakaian membeli barang kemeja modal seharga Rp100.000,00 per potong. Jika ia ingin mendapatkan margin keuntungan kotor sebesar 15% dari penjualan, berapakah harga jual yang harus ia tetapkan?",
+        "opsi": [
+          "Rp105.000,00",
+          "Rp110.000,00",
+          "Rp115.000,00",
+          "Rp120.000,00",
+          "Rp125.000,00"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Nominal keuntungan = $15\\% \\times 100.000 = 15.000$. Harga Jual = Harga Modal Beli + Keuntungan = $100.000 + 15.000 = 115.000$."
+      },
+      {
+        "id": "utbk_kuan_219",
+        "teks": "Berapakah hasil dari operasi perhitungan perkalian dua bilangan desimal $0,15 \\times 0,2$?",
+        "opsi": [
+          "0,003",
+          "0,03",
+          "0,3",
+          "3,0",
+          "30"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kalikan angka basisnya terlebih dahulu: $15 \\times 2 = 30$. Total angka di belakang koma dari kedua pengali tersebut adalah $2 + 1 = 3$ desimal. Maka letakkan koma 3 digit dari kanan: $0,030$ yang dapat disederhanakan menjadi $0,03$."
+      },
+      {
+        "id": "utbk_kuan_220",
+        "teks": "Di antara deretan nilai pecahan biasa di bawah ini, manakah yang memiliki nilai matematis paling besar jika diubah ke dalam bentuk desimal?",
+        "opsi": [
+          "1/2",
+          "3/5",
+          "4/7",
+          "5/9",
+          "6/11"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Konversikan masing-masing pecahan ke desimal untuk membandingkan. 1/2 = 0,500; 3/5 = 0,600; 4/7 ≈ 0,571; 5/9 ≈ 0,555; 6/11 ≈ 0,545. Nilai yang paling besar secara mutlak adalah 3/5 (0,600)."
+      },
+      {
+        "id": "utbk_kuan_221",
+        "teks": "Nilai rata-rata ulangan sejarah dari 4 orang siswa adalah 6,0. Jika seorang siswa baru yang bernama Anton mengikuti ulangan susulan dan nilainya digabungkan ke kelompok tersebut, nilai rata-ratanya secara keseluruhan naik menjadi 7,0. Berapakah nilai ulangan sejarah Anton?",
+        "opsi": [
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Total akumulasi nilai 4 siswa = $4 \\times 6,0 = 24$. Total akumulasi nilai 5 siswa (ditambah Anton) = $5 \\times 7,0 = 35$. Nilai murni ujian Anton = $35 - 24 = 11$."
+      },
+      {
+        "id": "utbk_kuan_222",
+        "teks": "Berapakah hasil dari penyederhanaan ekspresi bilangan akar campuran $\\sqrt{50} + \\sqrt{18} - \\sqrt{8}$?",
+        "opsi": [
+          "$4\\sqrt{2}$",
+          "$5\\sqrt{2}$",
+          "$6\\sqrt{2}$",
+          "$7\\sqrt{2}$",
+          "$8\\sqrt{2}$"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sederhanakan masing-masing komponen akar dengan memfaktorkannya: $\\sqrt{25 \\times 2} + \\sqrt{9 \\times 2} - \\sqrt{4 \\times 2} = 5\\sqrt{2} + 3\\sqrt{2} - 2\\sqrt{2}$. Kelompokkan dan operasikan angka di luar akar: $(5 + 3 - 2)\\sqrt{2} = 6\\sqrt{2}$."
+      },
+      {
+        "id": "utbk_kuan_223",
+        "teks": "Secara observasi empiris di gudang diketahui bahwa 2 ekor kucing yang kompak mampu menangkap 2 ekor tikus dengan tepat dalam waktu 2 menit. Berdasarkan rasio kecepatan kinerja tersebut, berapakah waktu yang dibutuhkan oleh 10 ekor kucing untuk menangkap 10 ekor tikus?",
+        "opsi": [
+          "2 menit",
+          "5 menit",
+          "10 menit",
+          "20 menit",
+          "100 menit"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Soal logika kecepatan kerja (*work rate*). Jika 2 kucing menangkap 2 tikus dalam 2 menit, artinya setiap 1 kucing membutuhkan waktu 2 menit untuk menangkap 1 tikus. Jika ada 10 kucing yang bekerja secara bersamaan masing-masing menargetkan 1 tikus, mereka semua akan menyelesaikan tugasnya dalam waktu 2 menit."
+      },
+      {
+        "id": "utbk_kuan_224",
+        "teks": "Sebuah buku gambar berbentuk persegi panjang memiliki keliling sepanjang 40 cm. Jika panjang buku tersebut diketahui berukuran 4 cm lebih panjang daripada lebarnya, berapakah luas area dari persegi panjang tersebut?",
+        "opsi": [
+          "84 cm²",
+          "96 cm²",
+          "108 cm²",
+          "120 cm²",
+          "144 cm²"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Keliling = $2(P + L) \\implies 40 = 2(P + L) \\implies P + L = 20$. Diketahui $P = L + 4$. Substitusikan: $(L + 4) + L = 20 \\implies 2L + 4 = 20 \\implies 2L = 16 \\implies L = 8$ cm. Maka $P = 8 + 4 = 12$ cm. Luas area = $P \\times L = 12 \\times 8 = 96$ cm²."
+      },
+      {
+        "id": "utbk_kuan_225",
+        "teks": "Perhatikan deret pola angka kuadrat berikut ini dengan teliti: $1, 4, 9, 16, 25, 36, ...$ Berapakah angka selanjutnya yang akan melengkapi deret tersebut secara logis?",
+        "opsi": [
+          "45",
+          "47",
+          "49",
+          "51",
+          "53"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deret tersebut merupakan himpunan barisan bilangan kuadrat sempurna yang meningkat secara berurutan secara konstan: $1^2, 2^2, 3^2, 4^2, 5^2, 6^2$. Maka bilangan selanjutnya yang melengkapi deret tersebut adalah $7^2 = 49$."
+      }
+    ]
+  }
+}

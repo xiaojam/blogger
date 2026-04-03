@@ -1,0 +1,2606 @@
+{
+  "soal": {
+    "Penalaran Deduktif": [
+      {
+        "id": "utbk_ded_001",
+        "teks": "Semua mahasiswa jurusan Teknik Informatika wajib mengambil mata kuliah Algoritma dan Pemrograman. Sebagian anggota paduan suara kampus adalah mahasiswa jurusan Teknik Informatika. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Semua anggota paduan suara kampus wajib mengambil mata kuliah Algoritma dan Pemrograman.",
+          "Sebagian anggota paduan suara kampus wajib mengambil mata kuliah Algoritma dan Pemrograman.",
+          "Semua mahasiswa jurusan Teknik Informatika adalah anggota paduan suara kampus.",
+          "Tidak ada anggota paduan suara kampus yang mengambil mata kuliah Algoritma dan Pemrograman.",
+          "Sebagian mahasiswa yang mengambil mata kuliah Algoritma dan Pemrograman bukan mahasiswa Teknik Informatika."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik. Premis 1: Semua mahasiswa TI (A) wajib mengambil Algoritma (B). Premis 2: Sebagian anggota paduan suara (C) adalah mahasiswa TI (A). Kesimpulan: Sebagian anggota paduan suara (C) wajib mengambil Algoritma (B)."
+      },
+      {
+        "id": "utbk_ded_002",
+        "teks": "Jika kualitas udara di suatu kota sangat buruk, maka jarak pandang penerbangan akan berkurang. Jika jarak pandang penerbangan berkurang, maka jadwal keberangkatan pesawat akan ditunda. Hari ini, jadwal keberangkatan pesawat di bandara kota X tidak ditunda. Simpulan yang sah adalah...",
+        "opsi": [
+          "Kualitas udara di kota X sangat buruk.",
+          "Jarak pandang penerbangan di kota X tidak berkurang, meskipun udaranya buruk.",
+          "Kualitas udara di kota X tidak sangat buruk.",
+          "Jadwal keberangkatan pesawat ditunda karena alasan selain jarak pandang.",
+          "Cuaca di kota X sedang cerah berawan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme transitif digabung dengan Modus Tollens. P -> Q, Q -> R. Kesimpulan: P -> R (Jika udara buruk, pesawat ditunda). Fakta: ~R (Pesawat tidak ditunda). Kesimpulan akhir: ~P (Udara tidak sangat buruk)."
+      },
+      {
+        "id": "utbk_ded_003",
+        "teks": "Tidak ada peserta ujian yang membawa telepon seluler ke dalam ruangan yang tidak didiskualifikasi. Budi tidak didiskualifikasi dari ujian. Simpulan yang paling tepat adalah...",
+        "opsi": [
+          "Budi mungkin membawa telepon seluler ke dalam ruangan.",
+          "Budi tidak membawa telepon seluler ke dalam ruangan.",
+          "Budi membawa telepon seluler namun tidak ketahuan pengawas.",
+          "Sebagian peserta ujian tidak didiskualifikasi.",
+          "Semua peserta yang membawa telepon seluler lulus ujian."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Premis 1 dapat diubah maknanya menjadi: 'Semua peserta yang membawa HP pasti didiskualifikasi' (P -> Q). Fakta (Premis 2): Budi tidak didiskualifikasi (~Q). Berdasarkan Modus Tollens, maka kesimpulannya ~P (Budi tidak membawa HP)."
+      },
+      {
+        "id": "utbk_ded_004",
+        "teks": "Semua tanaman hias yang diletakkan di teras rumah Bu Ani berbunga indah. Bunga anggrek adalah salah satu tanaman hias yang diletakkan di teras rumah Bu Ani. Simpulan yang benar adalah...",
+        "opsi": [
+          "Bunga anggrek Bu Ani belum tentu berbunga indah.",
+          "Semua bunga anggrek berbunga indah.",
+          "Hanya bunga anggrek yang berbunga indah di teras Bu Ani.",
+          "Bunga anggrek Bu Ani berbunga indah.",
+          "Tanaman selain anggrek tidak diletakkan di teras rumah Bu Ani."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Kategorik (Modus Barbara). Premis Mayor: Semua tanaman di teras Bu Ani berbunga indah. Premis Minor: Bunga anggrek ada di teras Bu Ani. Kesimpulan: Bunga anggrek Bu Ani berbunga indah."
+      },
+      {
+        "id": "utbk_ded_005",
+        "teks": "Jika devisa negara bertambah, maka nilai tukar rupiah menguat. Jika nilai tukar rupiah menguat, maka harga barang impor menjadi lebih murah. Saat ini, harga barang impor tidak menjadi lebih murah. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Devisa negara bertambah.",
+          "Devisa negara tidak bertambah.",
+          "Nilai tukar rupiah tetap menguat meskipun barang impor mahal.",
+          "Harga barang ekspor menjadi lebih mahal.",
+          "Pemerintah sengaja tidak menambah devisa negara."
+        ],
+        "jawaban": 1,
+        "pembahasan": "P -> Q, Q -> R. Maka P -> R (Jika devisa bertambah, harga barang impor murah). Diketahui ~R (harga barang impor tidak murah). Berdasarkan Modus Tollens, kesimpulannya adalah ~P (devisa negara tidak bertambah)."
+      },
+      {
+        "id": "utbk_ded_006",
+        "teks": "Sebagian karyawan di Perusahaan X rajin berolahraga. Semua orang yang rajin berolahraga memiliki tingkat stres yang rendah. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Semua karyawan di Perusahaan X memiliki tingkat stres yang rendah.",
+          "Sebagian karyawan di Perusahaan X memiliki tingkat stres yang rendah.",
+          "Sebagian orang yang memiliki tingkat stres rendah bukan karyawan Perusahaan X.",
+          "Tidak ada karyawan di Perusahaan X yang tingkat stresnya tinggi.",
+          "Semua orang yang tingkat stresnya rendah rajin berolahraga."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik dengan premis partikular ('Sebagian'). Jika semua yang rajin olahraga stresnya rendah, dan sebagian karyawan rajin olahraga, maka sebagian karyawan tersebut (yang olahraga) pasti memiliki tingkat stres yang rendah."
+      },
+      {
+        "id": "utbk_ded_007",
+        "teks": "Hanya penduduk lokal yang memiliki kartu tanda penduduk (KTP) yang diperbolehkan memasuki area cagar alam secara gratis. Pak Anton diperbolehkan memasuki area cagar alam secara gratis. Simpulan yang logis adalah...",
+        "opsi": [
+          "Pak Anton bukan penduduk lokal.",
+          "Pak Anton adalah penduduk lokal yang memiliki KTP.",
+          "Semua yang memiliki KTP pasti masuk secara gratis.",
+          "Pak Anton mungkin membayar tiket secara diam-diam.",
+          "Penduduk asing juga bisa masuk asalkan memiliki KTP."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kata 'Hanya' menunjukkan syarat mutlak (P <-> Q atau jika Q maka P). Karena Pak Anton diizinkan masuk gratis, ia mutlak harus memenuhi syarat tersebut, yakni Pak Anton adalah penduduk lokal yang memiliki KTP."
+      },
+      {
+        "id": "utbk_ded_008",
+        "teks": "Jika perusahaan XYZ berhasil memenangkan tender proyek pemerintah, maka seluruh staf divisi pemasaran akan diberikan bonus akhir tahun. Tahun ini, perusahaan XYZ berhasil memenangkan tender proyek pemerintah. Simpulan yang paling tepat adalah...",
+        "opsi": [
+          "Sebagian staf divisi pemasaran diberikan bonus akhir tahun.",
+          "Seluruh staf perusahaan XYZ diberikan bonus akhir tahun.",
+          "Seluruh staf divisi pemasaran diberikan bonus akhir tahun.",
+          "Perusahaan XYZ selalu memenangkan tender proyek pemerintah.",
+          "Hanya staf divisi pemasaran yang kinerjanya bagus yang mendapat bonus."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ini adalah Modus Ponens klasik. P -> Q. Faktanya P terjadi (menang tender). Maka kesimpulan mutlaknya adalah Q terjadi (seluruh staf divisi pemasaran diberikan bonus akhir tahun)."
+      },
+      {
+        "id": "utbk_ded_009",
+        "teks": "Semua mamalia bernapas menggunakan paru-paru. Ikan paus adalah hewan mamalia. Simpulan yang pasti benar adalah...",
+        "opsi": [
+          "Ikan paus bernapas menggunakan insang.",
+          "Sebagian ikan paus bernapas menggunakan paru-paru.",
+          "Semua ikan bernapas menggunakan paru-paru.",
+          "Ikan paus bernapas menggunakan paru-paru.",
+          "Hanya ikan paus mamalia laut yang bernapas dengan paru-paru."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Bentuk deduksi silogisme kategorik afirmatif. Semua M (mamalia) adalah P (paru-paru). Paus adalah M. Maka Paus adalah P (bertemu di satu kesimpulan universal spesifik: ikan paus bernapas menggunakan paru-paru)."
+      },
+      {
+        "id": "utbk_ded_010",
+        "teks": "Setiap hari Minggu, jalan tol kota ditutup untuk acara maraton dan dialihkan ke jalan arteri. Hari ini jalan tol kota tidak ditutup untuk acara maraton. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Hari ini adalah hari Minggu.",
+          "Hari ini jalan arteri sedang diperbaiki.",
+          "Hari ini bukan hari Minggu.",
+          "Maraton dibatalkan karena cuaca buruk.",
+          "Hari ini mungkin hari libur nasional."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika Modus Tollens. Jika Minggu (P) -> Tol ditutup (Q). Fakta: Tol tidak ditutup (~Q). Kesimpulan: Bukan hari Minggu (~P)."
+      },
+      {
+        "id": "utbk_ded_011",
+        "teks": "Semua guru di Sekolah Harapan Bangsa diwajibkan mengenakan seragam batik setiap hari Kamis. Bu Siska adalah guru di Sekolah Harapan Bangsa. Hari ini adalah hari Kamis. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Bu Siska tidak mengenakan seragam batik.",
+          "Sebagian guru di Sekolah Harapan Bangsa mengenakan seragam batik.",
+          "Bu Siska mengenakan seragam batik selain hari Kamis.",
+          "Bu Siska diwajibkan mengenakan seragam batik hari ini.",
+          "Hanya Bu Siska yang mengenakan seragam batik."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kaidah deduktif murni. Karena semua guru wajib memakai batik pada hari Kamis, dan Bu Siska adalah guru di sana pada hari Kamis, maka aturan tersebut mutlak berlaku padanya (wajib mengenakan batik hari ini)."
+      },
+      {
+        "id": "utbk_ded_012",
+        "teks": "Jika harga pupuk naik, maka biaya produksi petani meningkat. Jika biaya produksi petani meningkat, maka harga jual beras di pasar akan melambung tinggi. Saat ini harga jual beras di pasar stabil dan tidak melambung tinggi. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Harga pupuk naik.",
+          "Harga pupuk tidak naik.",
+          "Biaya produksi petani meningkat secara rahasia.",
+          "Harga beras dikendalikan oleh pemerintah.",
+          "Petani mendapatkan subsidi pupuk."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme bersyarat: A -> B, B -> C, maka A -> C. (Jika pupuk naik, harga beras melambung). Fakta menolak konsekuen: ~C (beras tidak melambung). Modus Tollens menyimpulkan ~A (harga pupuk tidak naik)."
+      },
+      {
+        "id": "utbk_ded_013",
+        "teks": "Tidak ada benda padat yang wujudnya berubah mengikuti bentuk wadahnya secara langsung. Air wujudnya selalu berubah mengikuti bentuk wadahnya secara langsung. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Air adalah benda padat.",
+          "Sebagian benda padat berubah wujud.",
+          "Air bukan benda padat.",
+          "Air adalah gas.",
+          "Semua wadah berisi air."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Tidak ada A (padat) yang B (berubah wujud). C (air) adalah B. Maka C (air) bukan A (bukan benda padat)."
+      },
+      {
+        "id": "utbk_ded_014",
+        "teks": "Jika suatu bilangan berakhiran angka 0 atau 5, maka bilangan tersebut habis dibagi 5. Bilangan X tidak habis dibagi 5. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Bilangan X pasti berakhiran 0.",
+          "Bilangan X pasti berakhiran 5.",
+          "Bilangan X tidak berakhiran 0 dan tidak berakhiran 5.",
+          "Bilangan X adalah bilangan ganjil.",
+          "Bilangan X hanya bisa dibagi oleh 2."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Aturan Modus Tollens. P -> Q. Faktanya ~Q (tidak habis dibagi 5). Kesimpulannya ~P (tidak berakhiran 0 ATAU 5). Ingkaran dari (0 atau 5) adalah (tidak 0 DAN tidak 5)."
+      },
+      {
+        "id": "utbk_ded_015",
+        "teks": "Semua komputer di ruang IT sudah dipasang perangkat lunak antivirus terbaru. Beberapa perangkat elektronik di meja Tono adalah komputer yang berasal dari ruang IT. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua perangkat elektronik di meja Tono sudah dipasang antivirus.",
+          "Beberapa perangkat elektronik di meja Tono sudah dipasang antivirus.",
+          "Tono bekerja di ruang IT.",
+          "Tidak ada perangkat di meja Tono yang memiliki antivirus.",
+          "Hanya komputer Tono yang memiliki antivirus terbaru."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme partikular. Karena 'beberapa' perangkat di meja Tono adalah komputer dari ruang IT, dan 'semua' komputer di sana ber-antivirus, maka pasti ada 'beberapa' perangkat di meja Tono yang ber-antivirus."
+      },
+      {
+        "id": "utbk_ded_016",
+        "teks": "Jika Ani minum kopi setelah pukul 20.00, maka ia tidak bisa tidur sebelum pukul 02.00 dini hari. Semalam Ani minum kopi pada pukul 21.00. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Ani bisa tidur pulas sebelum pukul 02.00 dini hari.",
+          "Ani tidak bisa tidur sebelum pukul 02.00 dini hari.",
+          "Ani bangun pada pukul 02.00 dini hari.",
+          "Kopi yang diminum Ani adalah kopi tanpa kafein.",
+          "Ani harus minum susu agar bisa tidur."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ini adalah penerapan Modus Ponens langsung. P: minum kopi setelah jam 20.00. Q: tidak bisa tidur sebelum jam 02.00. Fakta: Ani melakukan P (pukul 21.00 > 20.00). Maka akibatnya Q (tidak bisa tidur sebelum jam 02.00) pasti terjadi."
+      },
+      {
+        "id": "utbk_ded_017",
+        "teks": "Tidak ada mahasiswa Fakultas Hukum yang mengambil mata kuliah Anatomi Manusia. Dina mengambil mata kuliah Anatomi Manusia semester ini. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Dina adalah mahasiswa Fakultas Kedokteran.",
+          "Sebagian mahasiswa Fakultas Hukum mengambil mata kuliah Anatomi Manusia.",
+          "Dina bukan mahasiswa Fakultas Hukum.",
+          "Dina adalah mahasiswa pindahan.",
+          "Semua mahasiswa yang mengambil Anatomi Manusia akan menjadi dokter."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sama dengan kaidah himpunan yang saling lepas. Himpunan A (Hukum) tidak beririsan dengan B (Anatomi). Dina berada di dalam himpunan B. Oleh karena itu, Dina mutlak tidak berada di dalam himpunan A."
+      },
+      {
+        "id": "utbk_ded_018",
+        "teks": "Setiap peserta lomba lari estafet harus mendaftarkan dirinya secara daring sebelum hari Jumat. Tim X berhasil menjadi juara dalam lomba lari estafet tersebut. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Tim X mendaftarkan diri secara daring tepat pada hari Jumat.",
+          "Tim X memenangkan lomba tanpa perlu mendaftar.",
+          "Anggota Tim X mendaftarkan dirinya secara daring sebelum hari Jumat.",
+          "Tim X adalah satu-satunya tim yang mendaftar secara daring.",
+          "Tim X mendaftar secara langsung di lokasi acara."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Syarat mutlak untuk menjadi peserta (dan tentunya menjadi juara) adalah mendaftar daring sebelum hari Jumat. Karena Tim X terbukti sebagai peserta, mereka pasti telah memenuhi syarat tersebut."
+      },
+      {
+        "id": "utbk_ded_019",
+        "teks": "Jika lampu lalu lintas menyala merah, maka semua kendaraan wajib berhenti di belakang garis marka. Sebuah mobil warna hitam melaju kencang melewati garis marka saat lampu menyala merah. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Mobil warna hitam tersebut mematuhi aturan lalu lintas.",
+          "Lampu lalu lintas di perempatan tersebut rusak.",
+          "Mobil warna hitam tersebut melanggar aturan lalu lintas (kewajiban berhenti).",
+          "Polisi akan langsung menembak ban mobil tersebut.",
+          "Semua kendaraan di belakang mobil hitam ikut melaju kencang."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Deduksi logika norma/hukum. Peraturan mutlak (merah = wajib berhenti). Jika ada subjek yang tidak berhenti saat merah, maka subjek tersebut secara deduktif telah melanggar aturan."
+      },
+      {
+        "id": "utbk_ded_020",
+        "teks": "Semua karyawan yang memiliki kinerja sangat baik di akhir tahun akan mendapatkan promosi jabatan. Andi tidak mendapatkan promosi jabatan di akhir tahun. Simpulan yang benar adalah...",
+        "opsi": [
+          "Andi adalah karyawan yang malas dan sering bolos.",
+          "Kinerja Andi di akhir tahun tidak tergolong sangat baik.",
+          "Andi akan segera dipecat dari pekerjaannya.",
+          "Atasan Andi tidak menyukai kinerja Andi secara personal.",
+          "Andi menolak tawaran promosi jabatan dari perusahaan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan Modus Tollens. Kinerja sangat baik (P) -> Promosi jabatan (Q). Fakta: Tidak promosi (~Q). Kesimpulan: Kinerja tidak sangat baik (~P)."
+      },
+      {
+        "id": "utbk_ded_021",
+        "teks": "Semua pelaut yang berpengalaman mampu membaca rasi bintang di malam hari. Budi tidak mampu membaca rasi bintang di malam hari. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Budi adalah kapten kapal.",
+          "Budi sedang berlayar di siang hari.",
+          "Budi adalah pelaut yang tidak berpengalaman atau bukan pelaut.",
+          "Budi mungkin seorang pelaut yang berpengalaman.",
+          "Membaca rasi bintang sangat sulit dipelajari oleh Budi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Sama dengan kaidah Modus Tollens. A -> B. Karena Budi tidak memiliki kemampuan B (membaca rasi bintang), maka Budi tidak mungkin berstatus A (pelaut berpengalaman)."
+      },
+      {
+        "id": "utbk_ded_022",
+        "teks": "Sebagian mahasiswa baru Universitas X mengikuti unit kegiatan mahasiswa (UKM) Jurnalistik. Semua anggota UKM Jurnalistik diwajibkan menyerahkan artikel opini setiap bulan. Simpulan yang benar adalah...",
+        "opsi": [
+          "Semua mahasiswa baru Universitas X wajib menyerahkan artikel opini setiap bulan.",
+          "Sebagian mahasiswa baru Universitas X wajib menyerahkan artikel opini setiap bulan.",
+          "Semua mahasiswa lama Universitas X bebas dari kewajiban menulis artikel.",
+          "Tidak ada mahasiswa baru yang tidak menyerahkan artikel opini.",
+          "UKM Jurnalistik hanya menerima mahasiswa baru Universitas X."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik dengan premis minor yang bersifat partikular. Karena 'sebagian' maba ikut Jurnalistik, dan 'semua' anggota Jurnalistik wajib setor artikel, maka 'sebagian' maba tersebut (yang ikut UKM) wajib setor artikel."
+      },
+      {
+        "id": "utbk_ded_023",
+        "teks": "Hanya peserta yang mendapatkan nilai di atas 80 yang dinyatakan lulus seleksi beasiswa. Rika mendapatkan nilai 75 pada seleksi tersebut. Kesimpulan yang mutlak benar adalah...",
+        "opsi": [
+          "Rika dinyatakan lulus dengan syarat tertentu.",
+          "Rika akan mengikuti ujian ulang minggu depan.",
+          "Rika dinyatakan tidak lulus seleksi beasiswa.",
+          "Nilai Rika dinaikkan menjadi 80 oleh panitia.",
+          "Banyak peserta lain yang mendapatkan nilai di bawah 80."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Syarat mutlak ('hanya jika'). Kelulusan membutuhkan nilai > 80. Karena nilai Rika adalah 75 (yang mana < 80), maka syarat kelulusan tidak terpenuhi, sehingga Rika secara mutlak tidak lulus."
+      },
+      {
+        "id": "utbk_ded_024",
+        "teks": "Jika musim penghujan tiba, maka populasi nyamuk <i>Aedes aegypti</i> meningkat tajam. Jika populasi nyamuk <i>Aedes aegypti</i> meningkat tajam, maka kasus penyakit demam berdarah di rumah sakit akan melonjak. Saat ini kasus demam berdarah di rumah sakit tidak melonjak. Kesimpulan deduktifnya adalah...",
+        "opsi": [
+          "Musim penghujan telah tiba.",
+          "Musim penghujan belum/tidak tiba.",
+          "Populasi nyamuk meningkat namun tidak menyebabkan penyakit.",
+          "Nyamuk <i>Aedes aegypti</i> bermutasi menjadi kebal obat.",
+          "Pemerintah berhasil membagikan vaksin demam berdarah."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penalaran transitif: A -> B, B -> C (Maka A -> C: Jika musim penghujan tiba, demam berdarah melonjak). Berdasarkan Modus Tollens, karena fakta adalah ~C (tidak melonjak), maka simpulannya adalah ~A (musim penghujan belum tiba)."
+      },
+      {
+        "id": "utbk_ded_025",
+        "teks": "Semua berlian asli memiliki struktur kristal karbon yang sangat keras dan mampu menggores kaca. Sebuah batu permata milik Tono tidak mampu menggores kaca. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Batu permata Tono adalah berlian asli yang sedang cacat.",
+          "Batu permata Tono mungkin terbuat dari kaca asli.",
+          "Kaca tersebut lebih keras daripada berlian asli di dunia.",
+          "Batu permata milik Tono bukan berlian asli.",
+          "Semua berlian palsu sangat lunak dan mudah hancur."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Karakteristik mutlak (A -> B). Berlian asli (A) pasti mampu menggores kaca (B). Karena batu Tono tidak mampu menggores kaca (~B), maka kesimpulannya dengan mutlak batu tersebut bukan berlian asli (~A)."
+      },
+      {
+        "id": "utbk_ded_026",
+        "teks": "Semua pekerja proyek konstruksi diwajibkan memakai helm pelindung kuning. Budi sedang bekerja di proyek konstruksi. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Budi mungkin memakai helm pelindung kuning.",
+          "Semua yang memakai helm pelindung kuning adalah pekerja konstruksi.",
+          "Budi diwajibkan memakai helm pelindung kuning.",
+          "Hanya Budi yang memakai helm pelindung kuning.",
+          "Budi tidak memakai helm pelindung kuning."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik (Modus Barbara). Premis mayor: Semua pekerja konstruksi (A) wajib memakai helm (B). Premis minor: Budi (C) adalah pekerja konstruksi (A). Kesimpulan mutlak: Budi (C) wajib memakai helm (B)."
+      },
+      {
+        "id": "utbk_ded_027",
+        "teks": "Jika musim kemarau panjang melanda, maka sumur warga akan mengering. Saat ini sumur warga di desa X tidak mengering. Simpulan yang sah adalah...",
+        "opsi": [
+          "Desa X sedang dilanda musim hujan.",
+          "Musim kemarau panjang belum atau tidak melanda desa X.",
+          "Warga desa X memiliki pompa air yang canggih.",
+          "Musim kemarau panjang melanda desa X tetapi sumurnya dalam.",
+          "Sebagian sumur warga desa X mengering."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Modus Tollens. P -> Q (Kemarau panjang -> Sumur mengering). Fakta: ~Q (Sumur tidak mengering). Kesimpulan: ~P (Tidak melanda musim kemarau panjang)."
+      },
+      {
+        "id": "utbk_ded_028",
+        "teks": "Tidak ada ikan yang bernapas menggunakan paru-paru. Lumba-lumba bernapas menggunakan paru-paru. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Lumba-lumba adalah sejenis ikan laut.",
+          "Semua ikan bernapas menggunakan insang.",
+          "Lumba-lumba bukan ikan.",
+          "Sebagian lumba-lumba bernapas dengan insang.",
+          "Lumba-lumba adalah ikan yang mengalami mutasi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Tidak ada A (Ikan) yang B (Bernapas dengan paru-paru). C (Lumba-lumba) adalah B. Maka kesimpulannya C (Lumba-lumba) bukan A (bukan ikan)."
+      },
+      {
+        "id": "utbk_ded_029",
+        "teks": "Jika karyawan mencapai target penjualan, maka ia akan mendapatkan bonus akhir bulan. Jika karyawan mendapatkan bonus akhir bulan, maka ia bisa pergi berlibur. Rina mencapai target penjualan bulan ini. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Rina tidak pergi berlibur.",
+          "Rina mendapatkan bonus tetapi tidak berlibur.",
+          "Rina bisa pergi berlibur.",
+          "Rina berlibur meskipun tidak mencapai target.",
+          "Hanya Rina yang pergi berlibur."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Transitif + Modus Ponens. (P -> Q) dan (Q -> R) menghasilkan (P -> R). Fakta: P terjadi (Rina mencapai target). Kesimpulan: R pasti terjadi (Rina bisa pergi berlibur)."
+      },
+      {
+        "id": "utbk_ded_030",
+        "teks": "Hanya mahasiswa tingkat akhir yang sudah menyelesaikan skripsi yang diizinkan mendaftar wisuda. Andi diizinkan mendaftar wisuda. Simpulan yang logis adalah...",
+        "opsi": [
+          "Andi belum menyelesaikan skripsinya.",
+          "Andi adalah mahasiswa tingkat akhir yang sudah menyelesaikan skripsi.",
+          "Semua mahasiswa tingkat akhir pasti mendaftar wisuda.",
+          "Sebagian mahasiswa tingkat akhir tidak diizinkan mendaftar wisuda.",
+          "Andi mungkin mahasiswa pindahan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Syarat mutlak ('Hanya jika'). Jika diizinkan wisuda (Q), maka mutlak harus memenuhi syarat (P), yakni mahasiswa tingkat akhir yang sudah lulus skripsi. Karena Andi diizinkan (Q), maka Andi mutlak memenuhi syarat (P)."
+      },
+      {
+        "id": "utbk_ded_031",
+        "teks": "Semua dokter di Rumah Sakit Z ahli dalam melakukan pembedahan. Sebagian relawan medis di zona bencana adalah dokter dari Rumah Sakit Z. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua relawan medis ahli dalam melakukan pembedahan.",
+          "Semua dokter di zona bencana berasal dari Rumah Sakit Z.",
+          "Tidak ada relawan medis yang ahli pembedahan.",
+          "Sebagian relawan medis di zona bencana ahli dalam melakukan pembedahan.",
+          "Hanya relawan medis yang ahli pembedahan yang berasal dari Rumah Sakit Z."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Partikular Afirmatif. Karena sebagian relawan adalah dokter RS Z, dan semua dokter RS Z ahli bedah, maka 'sebagian' relawan tersebut pastilah memiliki keahlian pembedahan."
+      },
+      {
+        "id": "utbk_ded_032",
+        "teks": "Jika tingkat inflasi naik secara signifikan, maka daya beli masyarakat akan menurun. Jika daya beli masyarakat menurun, maka penjualan ritel akan anjlok. Saat ini, penjualan ritel tidak anjlok. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Daya beli masyarakat sedang naik drastis.",
+          "Tingkat inflasi tidak naik secara signifikan.",
+          "Tingkat inflasi naik namun penjualan ritel tetap stabil.",
+          "Penjualan ritel disubsidi oleh pemerintah.",
+          "Masyarakat berhenti berbelanja di toko ritel."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme hipotesis (P -> Q, Q -> R maka P -> R). Fakta menolak R (~R: penjualan ritel tidak anjlok). Menggunakan Modus Tollens (~R -> ~P), kesimpulannya adalah ~P (tingkat inflasi tidak naik signifikan)."
+      },
+      {
+        "id": "utbk_ded_033",
+        "teks": "Tidak ada bilangan ganjil yang habis dibagi dua. Angka 18 habis dibagi dua. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Angka 18 adalah bilangan ganjil.",
+          "Angka 18 bukan bilangan ganjil.",
+          "Sebagian bilangan ganjil habis dibagi dua.",
+          "Angka 18 adalah bilangan prima.",
+          "Semua angka genap habis dibagi ganjil."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kaidah eksklusi (himpunan saling lepas). Himpunan bilangan ganjil (A) tidak memiliki irisan dengan himpunan yang habis dibagi dua (B). Angka 18 ada di himpunan (B). Maka, Angka 18 mutlak tidak mungkin berada di himpunan (A)."
+      },
+      {
+        "id": "utbk_ded_034",
+        "teks": "Semua tanaman karnivora memakan serangga untuk mendapatkan nutrisi. Kantong semar adalah tanaman karnivora. Simpulan yang pasti benar adalah...",
+        "opsi": [
+          "Kantong semar memakan serangga untuk mendapatkan nutrisi.",
+          "Sebagian kantong semar memakan serangga.",
+          "Hanya kantong semar yang memakan serangga.",
+          "Kantong semar tidak membutuhkan cahaya matahari.",
+          "Semua serangga dimakan oleh kantong semar."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Silogisme Kategorik sederhana. Semua A (tanaman karnivora) melakukan B (makan serangga). C (kantong semar) adalah A. Maka C (kantong semar) pasti melakukan B."
+      },
+      {
+        "id": "utbk_ded_035",
+        "teks": "Jika lampu peringatan di mesin menyala merah, maka mesin mengalami panas berlebih (<i>overheat</i>). Mesin tidak mengalami panas berlebih. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Lampu peringatan di mesin mungkin menyala hijau.",
+          "Mesin sedang dalam kondisi dimatikan.",
+          "Lampu peringatan di mesin tidak menyala merah.",
+          "Lampu peringatan rusak dan harus diganti.",
+          "Mesin baru saja diperbaiki oleh teknisi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Modus Tollens murni. P -> Q (Merah -> Overheat). Fakta: ~Q (Tidak overheat). Kesimpulan pasti: ~P (Tidak menyala merah)."
+      },
+      {
+        "id": "utbk_ded_036",
+        "teks": "Semua siswa kelas 12 diwajibkan mengikuti ujian akhir nasional. Tono tidak mengikuti ujian akhir nasional. Simpulan yang sah adalah...",
+        "opsi": [
+          "Tono adalah siswa kelas 12 yang sedang sakit.",
+          "Tono bukan siswa kelas 12.",
+          "Tono sudah lulus ujian tahun lalu.",
+          "Sebagian siswa kelas 12 tidak ikut ujian.",
+          "Tono mungkin siswa kelas 12 yang mendapat dispensasi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Logika universal afirmatif digabung dengan Modus Tollens. Semua A melakukan B. Jika subjek X tidak melakukan B, maka subjek X mutlak bukan A. Tono tidak melakukan B (ujian), maka Tono bukan A (siswa kelas 12)."
+      },
+      {
+        "id": "utbk_ded_037",
+        "teks": "Jika perusahaan memotong anggaran pemasaran, maka jumlah pelanggan baru akan menurun. Jika jumlah pelanggan baru menurun, maka total pendapatan perusahaan berkurang. Perusahaan memotong anggaran pemasaran. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Total pendapatan perusahaan tidak terpengaruh.",
+          "Jumlah pelanggan lama akan meningkat.",
+          "Total pendapatan perusahaan berkurang.",
+          "Perusahaan akan segera mengalami kebangkrutan.",
+          "Anggaran pemasaran tidak jadi dipotong."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Transitif (A -> B, B -> C, maka A -> C) ditambah Modus Ponens (Fakta A terjadi). Jika perusahaan memotong anggaran (A), maka pendapatan berkurang (C). Fakta: A terjadi. Kesimpulan: C terjadi."
+      },
+      {
+        "id": "utbk_ded_038",
+        "teks": "Tidak ada pahlawan kemerdekaan yang berkhianat kepada negaranya. Jenderal X berkhianat kepada negaranya. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Jenderal X adalah pahlawan kemerdekaan yang berubah pikiran.",
+          "Jenderal X bukan pahlawan kemerdekaan.",
+          "Sebagian pahlawan kemerdekaan berkhianat.",
+          "Jenderal X adalah mata-mata asing.",
+          "Semua pengkhianat adalah jenderal militer."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme negatif (EAE). Karena sifat 'pahlawan' (A) dan 'pengkhianat' (B) adalah himpunan saling eksklusif (tidak ada A yang B). Jenderal X memiliki sifat (B), maka Jenderal X mutlak bukan (A)."
+      },
+      {
+        "id": "utbk_ded_039",
+        "teks": "Semua obat sirup untuk anak-anak harus dikocok terlebih dahulu sebelum diminum. Obat parasetamol merek A adalah obat sirup untuk anak-anak. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Obat parasetamol merek A tidak perlu dikocok jika sudah tercampur rata.",
+          "Obat parasetamol merek A harus dikocok terlebih dahulu sebelum diminum.",
+          "Hanya obat parasetamol merek A yang harus dikocok.",
+          "Semua obat yang dikocok adalah obat sirup untuk anak-anak.",
+          "Obat parasetamol merek A sangat manjur untuk menurunkan demam anak."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik dasar. Semua X (obat sirup anak) memiliki aturan Y (harus dikocok). Karena A masuk dalam kategori X, maka aturan Y berlaku mutlak pada A."
+      },
+      {
+        "id": "utbk_ded_040",
+        "teks": "Jika seseorang memiliki indeks massa tubuh (BMI) di atas 30, maka ia dikategorikan obesitas. Tika tidak dikategorikan obesitas. Simpulan yang benar adalah...",
+        "opsi": [
+          "Tika pasti sangat kurus.",
+          "Tika memiliki indeks massa tubuh (BMI) di bawah 20.",
+          "Tika memiliki indeks massa tubuh (BMI) di atas 30 namun sehat.",
+          "Tika tidak memiliki indeks massa tubuh (BMI) di atas 30.",
+          "BMI Tika tidak dapat diukur oleh dokter."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Modus Tollens. P -> Q (BMI > 30 -> obesitas). Fakta: ~Q (Tidak obesitas). Kesimpulan: ~P (Tidak memiliki BMI di atas 30). Pilihan 3 secara logis adalah negasi pasti dari premis P."
+      },
+      {
+        "id": "utbk_ded_041",
+        "teks": "Sebagian mahasiswa yang lulus *cum laude* mendapatkan beasiswa S2 ke luar negeri. Semua penerima beasiswa S2 ke luar negeri wajib mengikuti kursus bahasa Inggris intensif. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Semua mahasiswa yang lulus *cum laude* wajib mengikuti kursus bahasa Inggris intensif.",
+          "Sebagian mahasiswa yang lulus *cum laude* wajib mengikuti kursus bahasa Inggris intensif.",
+          "Semua mahasiswa yang ikut kursus bahasa Inggris pasti lulus *cum laude*.",
+          "Tidak ada mahasiswa *cum laude* yang belajar bahasa Inggris.",
+          "Sebagian penerima beasiswa S2 ke luar negeri bukan mahasiswa *cum laude*."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme dengan premis partikular. Jika semua P (penerima beasiswa) wajib Q (kursus bahasa), dan sebagian S (mahasiswa cum laude) adalah P. Maka sebagian S (mahasiswa cum laude) tersebut pasti wajib Q."
+      },
+      {
+        "id": "utbk_ded_042",
+        "teks": "Setiap dokumen resmi yang dikeluarkan oleh kantor pajak harus dicap basah dan ditandatangani oleh kepala kantor. Dokumen X tidak dicap basah oleh kantor pajak. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Dokumen X tetap sah karena sudah ditandatangani kepala kantor.",
+          "Dokumen X pasti dikeluarkan oleh instansi selain kantor pajak.",
+          "Dokumen X bukan dokumen resmi yang dikeluarkan oleh kantor pajak.",
+          "Dokumen X adalah draf mentah yang belum selesai.",
+          "Dokumen X harus segera dibawa ke kepala kantor untuk ditandatangani."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kondisi keharusan gabungan (P -> Q AND R). Jika P (dokumen resmi) maka harus ada Q (cap) dan R (tanda tangan). Fakta: ~Q (tidak ada cap). Modus Tollens menyimpulkan ~P (bukan dokumen resmi yang dikeluarkan)."
+      },
+      {
+        "id": "utbk_ded_043",
+        "teks": "Jika pemerintah membangun waduk baru, maka pasokan air untuk irigasi sawah terjamin. Pasokan air untuk irigasi sawah terjamin. Kesimpulan yang paling logis adalah...",
+        "opsi": [
+          "Pemerintah pasti telah membangun waduk baru.",
+          "Pemerintah sedang berencana membangun waduk baru.",
+          "Petani tidak akan pernah mengalami gagal panen.",
+          "Tidak dapat disimpulkan secara mutlak (pemerintah mungkin membangun waduk baru atau ada faktor lain).",
+          "Pemerintah tidak membangun waduk baru."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kesalahan logika *Affirming the Consequent*. P -> Q. Faktanya Q terjadi. Dari sisi deduktif, kita tidak bisa memastikan P (pemerintah bangun waduk) terjadi, karena Q (pasokan terjamin) bisa disebabkan oleh hujan lebat (faktor lain). Jadi tidak dapat disimpulkan mutlak."
+      },
+      {
+        "id": "utbk_ded_044",
+        "teks": "Semua hewan pemamah biak adalah herbivora (pemakan tumbuhan). Tidak ada herbivora yang memakan daging segar. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Sebagian hewan pemamah biak memakan daging segar.",
+          "Semua herbivora adalah hewan pemamah biak.",
+          "Tidak ada hewan pemamah biak yang memakan daging segar.",
+          "Hewan pemamah biak memakan tumbuhan dan daging segar.",
+          "Hanya hewan pemakan daging segar yang bukan pemamah biak."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik (A=B, tidak ada B yang C). Semua pemamah biak adalah herbivora. Karena tidak ada satu pun herbivora yang makan daging, maka mutlak tidak ada pemamah biak yang makan daging."
+      },
+      {
+        "id": "utbk_ded_045",
+        "teks": "Hanya warga negara yang telah berusia 17 tahun atau sudah menikah yang berhak memiliki Kartu Tanda Penduduk (KTP). Anton berhak memiliki Kartu Tanda Penduduk (KTP). Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Anton pasti sudah berusia 17 tahun dan sudah menikah.",
+          "Anton belum berusia 17 tahun namun sudah menikah.",
+          "Anton sudah berusia 17 tahun atau sudah menikah.",
+          "Anton pasti berusia di atas 20 tahun.",
+          "Anton adalah warga negara asing yang tinggal di Indonesia."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Syarat eksklusif bersyarat ganda (Jika Q, maka P1 ATAU P2). Karena Anton memiliki hak tersebut (Q), maka ia mutlak harus memenuhi setidaknya salah satu syaratnya: berusia 17 tahun atau sudah menikah."
+      },
+      {
+        "id": "utbk_ded_046",
+        "teks": "Jika Andi rajin berlatih setiap hari, maka ia memenangkan kejuaraan renang. Jika Andi memenangkan kejuaraan renang, maka ia mendapatkan medali emas. Andi tidak mendapatkan medali emas. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Andi rajin berlatih setiap hari tetapi tidak menang.",
+          "Andi tidak memenangkan kejuaraan renang meskipun rajin berlatih.",
+          "Andi tidak rajin berlatih setiap hari.",
+          "Andi mendapatkan medali perak sebagai juara kedua.",
+          "Andi didiskualifikasi dari kejuaraan renang."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Transitif + Modus Tollens. A -> B, B -> C. Maka A -> C (Jika rajin berlatih, dapat medali emas). Fakta ~C (Tidak dapat medali emas). Maka ~A (Andi tidak rajin berlatih setiap hari)."
+      },
+      {
+        "id": "utbk_ded_047",
+        "teks": "Semua mahasiswa tingkat satu diwajibkan tinggal di asrama kampus. Budi tinggal di asrama kampus. Simpulan deduktif yang paling tepat adalah...",
+        "opsi": [
+          "Budi pasti mahasiswa tingkat satu.",
+          "Budi bukan mahasiswa tingkat satu.",
+          "Budi mungkin mahasiswa tingkat satu (tidak dapat dipastikan).",
+          "Semua yang tinggal di asrama kampus adalah mahasiswa tingkat satu.",
+          "Mahasiswa tingkat akhir dilarang tinggal di asrama kampus."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kesesatan Logika *Affirming the Consequent*. P -> Q (Tingkat 1 -> Asrama). Fakta Q (Budi di asrama). Kesimpulannya tidak bisa dipastikan bahwa Budi adalah tingkat 1, karena bisa saja asrama juga diisi oleh mahasiswa tingkat lain atau staf kampus."
+      },
+      {
+        "id": "utbk_ded_048",
+        "teks": "Semua penumpang pesawat komersial harus melalui pemeriksaan sinar-X di bandara. Pak Joko adalah penumpang pesawat komersial di bandara. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Pak Joko berhasil menyelundupkan barang berbahaya.",
+          "Pak Joko tidak perlu melalui pemeriksaan jika ia penumpang kelas bisnis.",
+          "Pak Joko harus melalui pemeriksaan sinar-X di bandara.",
+          "Hanya Pak Joko yang harus melalui pemeriksaan sinar-X.",
+          "Sebagian penumpang pesawat komersial bebas pemeriksaan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Aturan universal deduktif. Karena aturan mewajibkan semua elemen dalam himpunan (penumpang komersial) melakukan hal tertentu, dan Pak Joko berada dalam himpunan tersebut, maka ia mutlak harus melalui pemeriksaan."
+      },
+      {
+        "id": "utbk_ded_049",
+        "teks": "Jika komputer terkena virus <i>ransomware</i>, maka seluruh data dokumen akan terkunci rapat. Seluruh data dokumen di komputer Doni tidak terkunci rapat. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Komputer Doni terkena virus jenis lain.",
+          "Komputer Doni tidak terkena virus <i>ransomware</i>.",
+          "Virus <i>ransomware</i> berhasil dihapus oleh antivirus Doni.",
+          "Doni tidak menyimpan dokumen penting di komputernya.",
+          "Komputer Doni sedang dimatikan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Tollens. Jika P maka Q. Jika faktanya adalah ~Q (dokumen tidak terkunci), maka deduksinya mutlak menolak premis awal, yakni ~P (komputer tidak terkena virus ransomware)."
+      },
+      {
+        "id": "utbk_ded_050",
+        "teks": "Sebagian pahlawan revolusi gugur di medan pertempuran. Semua orang yang gugur di medan pertempuran berhak dimakamkan di taman makam pahlawan. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua pahlawan revolusi berhak dimakamkan di taman makam pahlawan.",
+          "Sebagian pahlawan revolusi berhak dimakamkan di taman makam pahlawan.",
+          "Semua yang dimakamkan di taman makam pahlawan adalah pahlawan revolusi.",
+          "Tidak ada pahlawan revolusi yang selamat dari medan pertempuran.",
+          "Hanya pahlawan revolusi yang boleh dimakamkan di taman makam pahlawan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Partikular. Karena 'semua' yang gugur berhak dimakamkan di makam pahlawan, dan 'sebagian' pahlawan revolusi adalah orang yang gugur, maka 'sebagian' pahlawan revolusi tersebut berhak dimakamkan di taman makam pahlawan."
+      },
+      {
+        "id": "utbk_ded_051",
+        "teks": "Jika hujan turun dengan sangat deras, maka debit air di sungai akan meluap. Saat ini, hujan turun dengan sangat deras. Kesimpulan deduktif yang paling tepat adalah...",
+        "opsi": [
+          "Sungai mungkin akan meluap.",
+          "Debit air di sungai tidak meluap.",
+          "Debit air di sungai pasti meluap.",
+          "Hujan deras disebabkan oleh sungai yang meluap.",
+          "Debit air di sungai meluap jika tidak hujan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penalaran Modus Ponens murni. Premis 1: Jika P maka Q. Premis 2: Terjadi P (Hujan turun deras). Kesimpulan mutlak: Terjadi Q (Debit air di sungai pasti meluap)."
+      },
+      {
+        "id": "utbk_ded_052",
+        "teks": "Semua karyawan berstatus tetap di Perusahaan X mendapatkan fasilitas asuransi kesehatan dari kantor. Tono adalah karyawan berstatus tetap di Perusahaan X. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Tono mungkin mendapatkan fasilitas asuransi kesehatan.",
+          "Tono tidak mendapatkan fasilitas asuransi kesehatan.",
+          "Hanya Tono yang mendapatkan fasilitas asuransi kesehatan.",
+          "Tono pasti mendapatkan fasilitas asuransi kesehatan dari kantor.",
+          "Sebagian karyawan tetap tidak mendapatkan asuransi."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Kategorik Afirmatif (Modus Barbara). Semua A (Karyawan tetap) berhak atas B (asuransi). Karena C (Tono) adalah A, maka C mutlak berhak atas B."
+      },
+      {
+        "id": "utbk_ded_053",
+        "teks": "Jika rapat evaluasi tahunan sudah dimulai, maka pintu utama ruang pertemuan akan ditutup rapat. Saat ini pintu utama ruang pertemuan tidak ditutup rapat. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Rapat evaluasi tahunan sudah dimulai.",
+          "Rapat evaluasi tahunan dibatalkan.",
+          "Rapat evaluasi tahunan belum atau tidak dimulai.",
+          "Pintu utama ruang pertemuan sedang rusak.",
+          "Sebagian peserta rapat belum hadir."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika Modus Tollens. P -> Q (Rapat dimulai -> Pintu ditutup). Fakta: ~Q (Pintu tidak ditutup). Kesimpulan: ~P (Rapat belum/tidak dimulai)."
+      },
+      {
+        "id": "utbk_ded_054",
+        "teks": "Tidak ada benda berwujud gas yang memiliki volume dan bentuk yang tetap. Oksigen adalah benda berwujud gas. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Oksigen memiliki volume dan bentuk yang tetap.",
+          "Sebagian oksigen memiliki bentuk yang tetap.",
+          "Oksigen bukan benda berwujud gas.",
+          "Oksigen tidak memiliki volume dan bentuk yang tetap.",
+          "Oksigen mungkin berubah wujud menjadi padat."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Tidak ada A (gas) yang bersifat B (volume dan bentuk tetap). Karena C (oksigen) adalah A, maka C mutlak tidak bersifat B."
+      },
+      {
+        "id": "utbk_ded_055",
+        "teks": "Jika investasi asing meningkat, maka jumlah lapangan kerja baru akan bertambah. Jika jumlah lapangan kerja baru bertambah, maka tingkat pengangguran akan menurun. Kenyataannya, tingkat pengangguran saat ini tidak menurun. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Investasi asing meningkat secara drastis.",
+          "Investasi asing tidak meningkat.",
+          "Jumlah lapangan kerja baru bertambah namun pengangguran tetap.",
+          "Investasi asing meningkat tetapi tidak ada lapangan kerja baru.",
+          "Tingkat pengangguran dikendalikan oleh pemerintah."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Transitif (P -> Q, Q -> R menghasilkan P -> R). P = Investasi naik, R = Pengangguran turun. Fakta: ~R (Pengangguran tidak turun). Berdasarkan Modus Tollens (~R -> ~P), kesimpulannya investasi asing tidak meningkat."
+      },
+      {
+        "id": "utbk_ded_056",
+        "teks": "Semua mahasiswa diwajibkan mengikuti program Kuliah Kerja Nyata (KKN). Sebagian pengurus Badan Eksekutif Mahasiswa (BEM) adalah mahasiswa. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Semua pengurus BEM diwajibkan mengikuti program KKN.",
+          "Sebagian pengurus BEM diwajibkan mengikuti program KKN.",
+          "Semua mahasiswa adalah pengurus BEM.",
+          "Tidak ada pengurus BEM yang mengikuti program KKN.",
+          "Sebagian pengurus BEM bukan mahasiswa."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Partikular. Karena 'semua' mahasiswa wajib KKN, dan 'sebagian' pengurus BEM berstatus sebagai mahasiswa, maka 'sebagian' pengurus BEM tersebut mutlak diwajibkan mengikuti KKN."
+      },
+      {
+        "id": "utbk_ded_057",
+        "teks": "Hanya kendaraan yang memiliki stiker akses khusus yang diperbolehkan parkir di area VVIP. Mobil milik Bapak Direktur diperbolehkan parkir di area VVIP. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Mobil Bapak Direktur mungkin tidak memiliki stiker akses khusus.",
+          "Semua mobil di area VVIP adalah milik direktur.",
+          "Mobil Bapak Direktur pasti memiliki stiker akses khusus.",
+          "Stiker akses khusus hanya dibagikan kepada para direktur.",
+          "Mobil Bapak Direktur diperbolehkan parkir karena jabatannya."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kata 'Hanya' merupakan prasyarat mutlak. Untuk bisa parkir di VVIP (Q), wajib memiliki stiker (P). Fakta: Mobil Direktur parkir di VVIP (Q). Maka mutlak mobil tersebut memenuhi syarat (P), yakni memiliki stiker akses khusus."
+      },
+      {
+        "id": "utbk_ded_058",
+        "teks": "Hari ini Tika pergi ke perpustakaan kota atau pergi ke kantin sekolah. Tika terlihat sedang membaca buku namun ia dipastikan tidak pergi ke kantin sekolah. Simpulan yang benar adalah...",
+        "opsi": [
+          "Tika pergi ke perpustakaan kota dan ke kantin sekolah.",
+          "Tika tidak pergi ke mana-pun.",
+          "Tika pergi ke perpustakaan kota.",
+          "Tika mungkin pergi ke perpustakaan kota.",
+          "Tika berada di kantin sekolah secara sembunyi-sembunyi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Disjungtif (P atau Q). Fakta membuktikan salah satu opsi salah (~Q: tidak pergi ke kantin). Maka secara deduktif, opsi yang lain pasti benar (P: pergi ke perpustakaan)."
+      },
+      {
+        "id": "utbk_ded_059",
+        "teks": "Jika cuaca sedang sangat dingin, maka Budi selalu memakai jaket tebal kesayangannya. Saat Anda bertemu dengannya hari ini, Budi terlihat memakai jaket tebal kesayangannya. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Cuaca hari ini pasti sangat dingin.",
+          "Cuaca hari ini tidak dingin.",
+          "Budi sedang merasa sakit demam.",
+          "Tidak dapat disimpulkan secara mutlak apakah cuaca sedang dingin atau tidak.",
+          "Budi memakai jaket tebal karena ia menyukainya."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kesesatan logika (Fallacy) *Affirming the Consequent*. Rumusnya P -> Q. Faktanya Q terjadi (Budi pakai jaket). Dari fakta Q, kita TIDAK BISA menyimpulkan P pasti terjadi, karena Budi bisa saja memakai jaket karena alasan lain (misal sedang naik motor), bukan murni karena cuaca dingin."
+      },
+      {
+        "id": "utbk_ded_060",
+        "teks": "Semua hewan yang digolongkan sebagai ikan bernapas menggunakan insang. Paus adalah hewan mamalia laut yang sama sekali tidak bernapas menggunakan insang. Kesimpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Paus adalah ikan yang unik.",
+          "Sebagian paus bernapas dengan insang.",
+          "Paus bukan digolongkan sebagai ikan.",
+          "Semua ikan laut bernapas menggunakan paru-paru.",
+          "Paus bernapas menggunakan kulitnya."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan Modus Tollens dalam himpunan. Ikan (A) -> Insang (B). Paus (C) terbukti Tidak Insang (~B). Maka Paus (C) mutlak Bukan Ikan (~A)."
+      },
+      {
+        "id": "utbk_ded_061",
+        "teks": "Jika sirine tanda bahaya berbunyi, maka seluruh penghuni gedung diwajibkan melakukan evakuasi keluar ruangan. Saat ini tidak ada satu pun penghuni gedung yang melakukan evakuasi keluar ruangan. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Sirine tanda bahaya sedang rusak.",
+          "Sirine tanda bahaya berbunyi tetapi diabaikan.",
+          "Sirine tanda bahaya tidak berbunyi.",
+          "Penghuni gedung sedang tertidur lelap.",
+          "Evakuasi dibatalkan oleh pihak keamanan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penerapan Modus Tollens. Jika P (sirine bunyi) maka Q (evakuasi). Fakta di lapangan adalah ~Q (tidak ada evakuasi). Oleh karena itu, kesimpulannya mutlak ~P (sirine tanda bahaya tidak berbunyi)."
+      },
+      {
+        "id": "utbk_ded_062",
+        "teks": "Sebagian pegawai negeri sipil (PNS) di kota Z berprofesi sebagai guru sekolah dasar. Semua guru sekolah dasar telah memiliki sertifikat pendidik profesional. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Semua PNS di kota Z memiliki sertifikat pendidik profesional.",
+          "Sebagian PNS di kota Z memiliki sertifikat pendidik profesional.",
+          "Tidak ada PNS yang memiliki sertifikat pendidik profesional.",
+          "Semua yang memiliki sertifikat pendidik profesional adalah PNS.",
+          "Sebagian guru sekolah dasar bukan berstatus sebagai PNS."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Partikular. Karena semua guru (A) memiliki sertifikat (B), dan sebagian PNS (C) adalah guru (A), maka sebagian PNS (C) tersebut mutlak memiliki sertifikat (B)."
+      },
+      {
+        "id": "utbk_ded_063",
+        "teks": "Tidak ada benda berwujud cair yang memiliki bentuk yang tetap. Es batu diketahui memiliki bentuk yang tetap dan padat. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Es batu akan segera mencair.",
+          "Sebagian benda cair memiliki bentuk yang tetap.",
+          "Es batu bukan benda berwujud cair.",
+          "Es batu adalah benda cair yang dibekukan.",
+          "Air dan es batu adalah benda yang sama."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kaidah eksklusi (himpunan yang saling lepas). Himpunan cair (A) tidak beririsan dengan himpunan bentuk tetap (B). Es batu memiliki sifat B. Maka es batu secara logis deduktif dipastikan bukan anggota himpunan A (benda cair)."
+      },
+      {
+        "id": "utbk_ded_064",
+        "teks": "Jika seorang pasien meminum obat antibiotiknya secara teratur sampai habis, maka infeksi bakterinya akan cepat sembuh. Pasien A mengalami infeksi bakteri yang tidak kunjung sembuh (tidak cepat sembuh). Simpulan yang sah adalah...",
+        "opsi": [
+          "Pasien A meminum obat antibiotiknya secara teratur sampai habis.",
+          "Pasien A tidak meminum obat antibiotiknya secara teratur sampai habis.",
+          "Pasien A meminum obat yang salah resep.",
+          "Bakteri pada tubuh Pasien A sudah kebal terhadap obat.",
+          "Pasien A mungkin lupa meminum obatnya sekali saja."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Modus Tollens. Minum teratur (P) -> Cepat sembuh (Q). Fakta: Tidak cepat sembuh (~Q). Kesimpulan mutlak: Tidak minum teratur sampai habis (~P)."
+      },
+      {
+        "id": "utbk_ded_065",
+        "teks": "Semua bangunan bertingkat tinggi komersial wajib memiliki tangga darurat anti api. Gedung Hotel M adalah sebuah bangunan bertingkat tinggi komersial yang beroperasi di pusat kota. Simpulan deduktifnya adalah...",
+        "opsi": [
+          "Gedung Hotel M mungkin tidak memiliki tangga darurat.",
+          "Gedung Hotel M wajib memiliki tangga darurat anti api.",
+          "Hanya Gedung Hotel M yang memiliki tangga darurat anti api.",
+          "Semua bangunan yang memiliki tangga darurat adalah hotel.",
+          "Gedung Hotel M bebas dari aturan keselamatan jika bangunannya baru."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Logika deduktif universal. Aturan mengikat semua anggota dalam kategori 'bangunan bertingkat tinggi komersial'. Karena Hotel M terbukti masuk ke dalam kategori tersebut, maka Hotel M mutlak terikat oleh aturan tersebut."
+      },
+      {
+        "id": "utbk_ded_066",
+        "teks": "Jika Rina berhasil lulus ujian masuk perguruan tinggi, maka ayahnya berjanji akan membelikannya sebuah sepeda motor baru. Hari ini, ayah Rina terlihat membelikannya sebuah sepeda motor baru. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Rina pasti berhasil lulus ujian masuk perguruan tinggi.",
+          "Rina gagal ujian masuk namun tetap dibelikan motor.",
+          "Rina membeli motor dengan uang tabungannya sendiri.",
+          "Ayah Rina sedang berulang tahun.",
+          "Tidak dapat disimpulkan secara pasti apakah Rina lulus ujian atau tidak."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kesesatan Logika *Affirming the Consequent*. P -> Q. Faktanya Q terjadi. Dari segi penalaran deduktif murni, jika akibatnya (Q) terjadi, tidak otomatis membuktikan penyebab spesifiknya (P) terjadi. Ayahnya bisa saja membelikan motor karena alasan lain (misal untuk dipakai bekerja), bukan murni karena ia lulus ujian."
+      },
+      {
+        "id": "utbk_ded_067",
+        "teks": "Hanya anggota perpustakaan yang memiliki kartu keanggotaan aktif yang diizinkan untuk meminjam buku bawa pulang. Sita hari ini terlihat diizinkan meminjam tiga buah buku bawa pulang dari perpustakaan tersebut. Simpulan yang benar adalah...",
+        "opsi": [
+          "Sita adalah pustakawan yang bekerja di sana.",
+          "Sita mungkin meminjam kartu keanggotaan milik temannya.",
+          "Sita memiliki kartu keanggotaan aktif perpustakaan tersebut.",
+          "Semua anggota perpustakaan meminjam tiga buku.",
+          "Sita menyelinap meminjam buku tanpa diketahui petugas."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penggunaan kata 'Hanya' berarti syarat mutlak. Seseorang baru bisa meminjam (akibat) jika syaratnya terpenuhi. Karena Sita berhasil meminjam buku, deduksi mutlaknya adalah Sita memenuhi syarat (punya kartu aktif)."
+      },
+      {
+        "id": "utbk_ded_068",
+        "teks": "Semua jenis burung yang dapat terbang memiliki sayap yang kuat. Tidak ada satupun hewan bersayap yang berkembang biak dengan cara beranak (vivipar). Simpulan yang tepat adalah...",
+        "opsi": [
+          "Semua jenis burung berkembang biak dengan cara beranak.",
+          "Sebagian burung tidak memiliki sayap.",
+          "Tidak ada burung bersayap kuat yang berkembang biak dengan cara beranak.",
+          "Hewan yang beranak pasti memiliki sayap.",
+          "Semua hewan bersayap dapat terbang tinggi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Negatif. Burung (A) -> Bersayap (B). Tidak ada Bersayap (B) yang Beranak (C). Maka disimpulkan Tidak ada Burung (A) yang Beranak (C)."
+      },
+      {
+        "id": "utbk_ded_069",
+        "teks": "Jika harga bahan bakar minyak (BBM) industri naik, maka biaya distribusi sembako akan meningkat tajam. Saat ini, tercatat biaya distribusi sembako di berbagai daerah tidak meningkat tajam. Kesimpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Harga bahan bakar minyak (BBM) industri naik sedikit.",
+          "Harga bahan bakar minyak (BBM) industri tidak naik.",
+          "Pemerintah memberikan subsidi untuk biaya distribusi sembako.",
+          "Harga sembako tetap stabil karena stok melimpah.",
+          "Masyarakat beralih menggunakan bahan bakar alternatif gas."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Modus Tollens. Jika P (BBM naik) -> Q (Distribusi meningkat tajam). Mengingat faktanya adalah ~Q (Distribusi tidak meningkat tajam), maka secara deduktif kesimpulannya adalah ~P (BBM tidak naik)."
+      },
+      {
+        "id": "utbk_ded_070",
+        "teks": "Sebagian buah yang dijual di Pasar Induk adalah buah impor dari luar negeri. Semua buah impor yang masuk secara legal harganya mahal karena pajak masuk. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua buah di Pasar Induk harganya mahal.",
+          "Hanya buah impor yang dijual di Pasar Induk.",
+          "Semua buah lokal harganya sangat murah.",
+          "Sebagian buah yang dijual di Pasar Induk harganya mahal.",
+          "Tidak ada buah impor yang harganya murah di pasar."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Partikular. Karena 'semua' buah impor mahal, dan 'sebagian' buah di Pasar Induk adalah buah impor, maka himpunan 'sebagian buah di Pasar Induk' tersebut pastilah mewarisi sifat mahal."
+      },
+      {
+        "id": "utbk_ded_071",
+        "teks": "Pada tekanan 1 atmosfer, jika suhu air dipanaskan hingga mencapai tepat 100 derajat Celcius, maka air tersebut pasti mendidih. Budi sedang memanaskan air di panci, namun air tersebut diamati tidak mendidih sama sekali. Simpulan yang benar adalah...",
+        "opsi": [
+          "Air tersebut bukanlah air murni yang bisa mendidih.",
+          "Panci yang digunakan Budi terlalu tebal.",
+          "Suhu air tersebut belum atau tidak mencapai 100 derajat Celcius.",
+          "Kompor yang digunakan Budi tiba-tiba kehabisan gas.",
+          "Budi menambahkan garam ke dalam air tersebut."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penerapan Modus Tollens mutlak. Syarat P (suhu mencapai 100) -> Akibat Q (mendidih). Karena faktanya ~Q (tidak mendidih), maka dipastikan kondisi syarat ~P (suhu tidak mencapai 100 derajat) adalah yang terjadi."
+      },
+      {
+        "id": "utbk_ded_072",
+        "teks": "Tidak ada spesies mamalia laut yang bernapas menggunakan insang. Kuda laut adalah spesies hewan yang bernapas sepenuhnya menggunakan insang. Simpulan yang paling tepat adalah...",
+        "opsi": [
+          "Kuda laut adalah sejenis ikan paus.",
+          "Semua mamalia laut bernapas dengan paru-paru.",
+          "Kuda laut bukanlah spesies mamalia laut.",
+          "Sebagian mamalia laut memiliki insang saat kecil.",
+          "Kuda laut dapat hidup lama di daratan terbuka."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme eksklusi (Camestres). Himpunan Mamalia (A) terpisah dengan himpunan Insang (B). Kuda laut (C) berada di himpunan Insang (B). Karena A dan B terpisah mutlak, Kuda laut (C) tidak mungkin menjadi Mamalia laut (A)."
+      },
+      {
+        "id": "utbk_ded_073",
+        "teks": "Jika seorang atlet memenangkan medali emas di kejuaraan dunia, maka ia akan diberikan bonus rumah mewah dari pemerintah. Budi adalah atlet yang baru saja diberikan bonus rumah mewah oleh pemerintah. Kesimpulan deduktif yang logis adalah...",
+        "opsi": [
+          "Budi pasti memenangkan medali emas di kejuaraan dunia.",
+          "Budi memenangkan medali perak namun tetap diberi rumah.",
+          "Budi bukan atlet melainkan pelatih yang sukses.",
+          "Budi akan segera menjual rumah mewahnya.",
+          "Tidak dapat disimpulkan secara mutlak alasan pemerintah memberikan rumah mewah tersebut kepada Budi."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Ini adalah *Affirming the Consequent*. Menang Emas (P) -> Dapat Rumah (Q). Fakta Budi mendapat rumah (Q), tidak berarti Budi pasti menang medali emas (P). Ia bisa saja mendapat bonus rumah karena prestasinya di kompetisi lain atau penghargaan lain."
+      },
+      {
+        "id": "utbk_ded_074",
+        "teks": "Jika suplai aliran listrik dari pusat padam total, maka sistem <i>Air Conditioner</i> (AC) sentral di gedung perkantoran akan mati. Saat ini, teknisi melaporkan bahwa suplai aliran listrik dari pusat sedang padam total. Simpulan yang sah adalah...",
+        "opsi": [
+          "AC sentral di gedung perkantoran rusak dan butuh perbaikan.",
+          "AC sentral di gedung perkantoran menyala menggunakan genset.",
+          "AC sentral di gedung perkantoran pasti mati.",
+          "Sebagian AC di ruangan tertentu masih bisa menyala terang.",
+          "Pekerja di gedung perkantoran akan dipulangkan karena kepanasan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Modus Ponens lurus. Sebab P (Listrik padam) -> Akibat Q (AC mati). Karena dilaporkan bahwa sebab P terjadi, maka akibat Q (AC mati) mutlak harus terjadi."
+      },
+      {
+        "id": "utbk_ded_075",
+        "teks": "Semua hewan yang diklasifikasikan sebagai unggas berkembang biak dengan cara bertelur (ovipar). Sebagian hewan peliharaan di rumah Dika adalah mamalia yang tidak berkembang biak dengan cara bertelur. Kesimpulan deduktifnya adalah...",
+        "opsi": [
+          "Semua hewan peliharaan Dika adalah unggas.",
+          "Tidak ada hewan peliharaan Dika yang bertelur.",
+          "Sebagian hewan peliharaan Dika bukanlah unggas.",
+          "Dika hanya memelihara burung dan kucing.",
+          "Semua unggas yang tidak bertelur adalah mamalia."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Baroco (Modifikasi). Semua Unggas (A) -> Bertelur (B). Sebagian hewan Dika (C) -> Tidak Bertelur (~B). Karena A mutlak B, dan sebagian C adalah ~B, maka sebagian C tersebut mutlak bukan A (bukan unggas)."
+      },
+      {
+        "id": "utbk_ded_076",
+        "teks": "Jika sebuah perusahaan rintisan (<i>startup</i>) berhasil mendapatkan pendanaan seri A, maka perusahaan tersebut akan melakukan ekspansi besar-besaran. Tahun ini, perusahaan <i>startup</i> Z tidak melakukan ekspansi besar-besaran. Simpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Perusahaan <i>startup</i> Z berhasil mendapatkan pendanaan seri A.",
+          "Perusahaan <i>startup</i> Z tidak berhasil mendapatkan pendanaan seri A.",
+          "Perusahaan <i>startup</i> Z mungkin mendapatkan pendanaan seri B.",
+          "Ekspansi besar-besaran dibatalkan karena krisis ekonomi global.",
+          "Pendanaan seri A tidak berpengaruh pada perusahaan <i>startup</i> Z."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Tollens. Jika P (dapat pendanaan) maka Q (ekspansi). Karena faktanya adalah ~Q (tidak ekspansi), maka kesimpulannya mutlak ~P (tidak dapat pendanaan seri A)."
+      },
+      {
+        "id": "utbk_ded_077",
+        "teks": "Semua dokter spesialis diwajibkan memiliki Surat Tanda Registrasi (STR) yang masih aktif. Sebagian dosen pengajar di Fakultas Kedokteran Universitas M adalah dokter spesialis. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Semua dosen pengajar di Fakultas Kedokteran Universitas M memiliki STR aktif.",
+          "Hanya dosen pengajar yang memiliki STR aktif yang menjadi dokter spesialis.",
+          "Tidak ada dosen Fakultas Kedokteran Universitas M yang memiliki STR aktif.",
+          "Sebagian dosen pengajar di Fakultas Kedokteran Universitas M diwajibkan memiliki STR yang masih aktif.",
+          "Sebagian dokter spesialis tidak mengajar di Universitas M."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Kategorik Partikular. Karena 'semua' dokter spesialis wajib memiliki STR, dan 'sebagian' dosen adalah dokter spesialis, maka kelompok 'sebagian' dosen tersebut mutlak terikat kewajiban memiliki STR aktif."
+      },
+      {
+        "id": "utbk_ded_078",
+        "teks": "Tidak ada hewan herbivora murni yang memiliki gigi taring tajam untuk merobek daging. Sapi perah adalah spesies hewan herbivora murni. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Sapi perah mungkin berevolusi memiliki gigi taring yang tajam.",
+          "Sapi perah memiliki gigi taring tajam untuk mengunyah rumput.",
+          "Sapi perah tidak memiliki gigi taring tajam untuk merobek daging.",
+          "Sebagian hewan herbivora memiliki gigi taring tajam.",
+          "Semua sapi perah adalah hewan pemakan daging."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Himpunan Herbivora (A) tidak beririsan dengan himpunan Bergigi Taring (B). Karena Sapi (C) adalah bagian dari Herbivora (A), maka Sapi (C) mutlak tidak mungkin berada dalam himpunan Bergigi Taring (B)."
+      },
+      {
+        "id": "utbk_ded_079",
+        "teks": "Jika curah hujan di hulu sungai sangat tinggi, maka petugas akan membuka pintu bendungan utama. Pagi ini pantauan satelit menunjukkan curah hujan di hulu sungai sangat tinggi. Simpulan yang logis adalah...",
+        "opsi": [
+          "Pintu bendungan utama mungkin akan dibuka.",
+          "Pintu bendungan utama tidak akan dibuka karena takut banjir.",
+          "Petugas sedang memperbaiki pintu bendungan utama.",
+          "Petugas akan membuka pintu bendungan utama.",
+          "Curah hujan di hilir sungai sangat rendah."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Penerapan Modus Ponens Lurus. Jika P maka Q. Faktanya P terjadi secara sah (curah hujan sangat tinggi). Maka akibatnya Q mutlak harus terjadi (petugas akan membuka pintu bendungan)."
+      },
+      {
+        "id": "utbk_ded_080",
+        "teks": "Jika seorang siswa memiliki wawasan yang luas, maka ia akan mudah mengerjakan soal esai ujian akhir. Jika ia sering membaca buku nonfiksi setiap hari, maka wawasannya akan luas. Anton diketahui sering membaca buku nonfiksi setiap hari. Kesimpulan deduktifnya adalah...",
+        "opsi": [
+          "Anton akan mudah mengerjakan soal esai ujian akhir.",
+          "Anton sering kesulitan mengerjakan soal esai ujian akhir.",
+          "Soal esai ujian akhir sangat mudah dikerjakan oleh siapa saja.",
+          "Anton hanya membaca buku saat menjelang ujian.",
+          "Buku nonfiksi berisi bocoran soal esai ujian akhir."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Silogisme Transitif berantai (A -> B, B -> C, maka A -> C) ditambah Modus Ponens. Jika rajin baca (A) maka mudah esai (C). Karena faktanya Anton rajin baca (A terjadi), maka Anton mudah mengerjakan esai (C pasti terjadi)."
+      },
+      {
+        "id": "utbk_ded_081",
+        "teks": "Acara perpisahan angkatan sekolah akan diselenggarakan di aula utama kampus atau di taman terbuka hijau. Karena hujan badai lebat, pihak sekolah memastikan acara tidak diselenggarakan di taman terbuka hijau. Simpulan yang benar adalah...",
+        "opsi": [
+          "Acara perpisahan dibatalkan sepenuhnya.",
+          "Acara perpisahan diundur ke minggu depan.",
+          "Acara perpisahan diselenggarakan di aula utama kampus.",
+          "Hujan badai lebat merusak aula utama kampus.",
+          "Acara tetap dipaksakan di taman terbuka hijau menggunakan tenda."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Disjungtif (P atau Q). Premis menyatakan hanya ada dua opsi ruang (P atau Q). Faktanya satu opsi terbantahkan (~Q: tidak di taman terbuka). Maka secara deduktif sisa opsi pasti benar (P: acara diselenggarakan di aula utama)."
+      },
+      {
+        "id": "utbk_ded_082",
+        "teks": "Jika jalan protokol utama ditutup oleh pihak kepolisian, maka arus lalu lintas akan dialihkan ke jalan-jalan alternatif pinggiran kota. Siang ini, arus lalu lintas terpantau sedang dialihkan ke jalan-jalan alternatif pinggiran kota. Simpulan yang sah adalah...",
+        "opsi": [
+          "Jalan protokol utama pasti sedang ditutup oleh pihak kepolisian.",
+          "Polisi sedang berpatroli di jalan alternatif pinggiran kota.",
+          "Jalan alternatif pinggiran kota mengalami kemacetan parah.",
+          "Tidak dapat disimpulkan secara pasti apakah jalan protokol utama ditutup atau tidak.",
+          "Jalan protokol utama tidak ditutup oleh pihak kepolisian."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kesesatan Logika (<i>Fallacy of Affirming the Consequent</i>). P -> Q. Faktanya akibat (Q) terjadi. Hal ini tidak bisa memastikan penyebabnya (P) terjadi, karena lalu lintas bisa dialihkan akibat alasan lain selain jalan ditutup (misalnya ada perbaikan pipa di jalan lain, bukan jalan utama)."
+      },
+      {
+        "id": "utbk_ded_083",
+        "teks": "Hanya pegawai yang telah mengabdi lebih dari 5 tahun berturut-turut tanpa teguran yang berhak mengajukan cuti besar (sabbatical leave). Bapak Anton bulan ini resmi mengajukan dan disetujui untuk mengambil cuti besar. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Bapak Anton adalah direktur utama di perusahaan tersebut.",
+          "Bapak Anton telah mengabdi lebih dari 5 tahun berturut-turut tanpa teguran.",
+          "Bapak Anton mungkin baru bekerja selama 2 tahun namun memiliki kinerja istimewa.",
+          "Semua pegawai yang sudah bekerja 5 tahun pasti akan mengambil cuti besar.",
+          "Bapak Anton tidak pernah mengambil cuti tahunan sebelumnya."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kata 'Hanya' menandakan syarat keharusan yang mutlak. Untuk mendapatkan akibat (hak cuti besar), seseorang WAJIB memenuhi syarat (mengabdi 5 tahun tanpa teguran). Karena Anton mendapatkan akibat tersebut, ia mutlak memenuhi syaratnya."
+      },
+      {
+        "id": "utbk_ded_084",
+        "teks": "Jika sebuah negara diklasifikasikan sebagai negara maju secara ekonomi, maka tingkat pendidikan warganya tinggi dan angka penganggurannya sangat rendah. Lembaga statistik merilis bahwa angka pengangguran di Negara X tidak rendah. Simpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Negara X adalah negara maju yang sedang mengalami krisis sesaat.",
+          "Tingkat pendidikan warga di Negara X pasti sangat rendah.",
+          "Negara X tidak diklasifikasikan sebagai negara maju secara ekonomi.",
+          "Negara X hanya fokus pada pembangunan infrastruktur fisik.",
+          "Negara X akan segera menjadi negara maju tahun depan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Modus Tollens dengan Konsekuen Majemuk. P -> (Q dan R). Faktanya salah satu konsekuen batal, yakni pengangguran tidak rendah (~R). Maka gabungan (Q dan R) menjadi batal. Kesimpulannya mutlak ~P (Negara X bukan negara maju)."
+      },
+      {
+        "id": "utbk_ded_085",
+        "teks": "Semua jenis kucing (Felidae) adalah hewan karnivora sejati. Semua hewan karnivora sejati sistem pencernaannya berevolusi khusus untuk memakan daging. Anggora adalah sejenis kucing peliharaan. Simpulan yang benar adalah...",
+        "opsi": [
+          "Sebagian kucing Anggora mungkin memakan sayuran hijau.",
+          "Kucing Anggora tidak perlu memakan daging jika dipelihara di rumah.",
+          "Sistem pencernaan kucing Anggora berevolusi khusus untuk memakan daging.",
+          "Hewan pemakan daging belum tentu termasuk jenis kucing Anggora.",
+          "Semua hewan peliharaan di rumah adalah karnivora sejati."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Berantai (Sorites). Kucing -> Karnivora. Karnivora -> Makan Daging. Maka: Kucing -> Makan Daging. Karena Anggora adalah Kucing, maka Anggora mutlak bersistem pencernaan untuk memakan daging."
+      },
+      {
+        "id": "utbk_ded_086",
+        "teks": "Jika Rina giat belajar setiap hari, maka ia akan lulus ujian CPNS. Jika Rina rajin berdoa, maka ia akan lulus ujian CPNS. Hari ini Rina giat belajar setiap hari atau rajin berdoa. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Rina pasti menjadi peringkat pertama dalam ujian CPNS.",
+          "Rina akan lulus ujian CPNS.",
+          "Rina mungkin gagal ujian CPNS jika ia kurang beruntung.",
+          "Rina tidak akan lulus ujian CPNS karena ia kelelahan belajar.",
+          "Tidak dapat disimpulkan karena premisnya membingungkan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dilema Konstruktif (Logika Proposisi). (P -> Q) dan (R -> Q). Diketahui faktanya (P atau R) terjadi. Karena baik P maupun R sama-sama menghasilkan Q secara mutlak, maka kesimpulannya pasti Q (Rina akan lulus ujian)."
+      },
+      {
+        "id": "utbk_ded_087",
+        "teks": "Tidak ada alat elektronik komunikasi yang diperbolehkan dibawa masuk ke dalam ruang ujian UTBK. Telepon pintar (<i>smartphone</i>) adalah alat elektronik komunikasi. Simpulan yang benar adalah...",
+        "opsi": [
+          "Sebagian telepon pintar boleh dibawa jika dimatikan.",
+          "Hanya telepon pintar bermerek tertentu yang dilarang dibawa.",
+          "Telepon pintar tidak diperbolehkan dibawa masuk ke dalam ruang ujian UTBK.",
+          "Peserta ujian boleh membawa alat elektronik selain telepon pintar.",
+          "Telepon pintar bukan merupakan alat elektronik komunikasi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Negatif Mutlak (Celarent). Himpunan Alat Komunikasi (A) dilarang masuk (B). Smartphone (C) adalah A. Maka C (Smartphone) mutlak dilarang masuk (B)."
+      },
+      {
+        "id": "utbk_ded_088",
+        "teks": "Jika tingkat polusi udara sangat pekat, maka kualitas kesehatan pernapasan warga akan menurun. Jika kualitas kesehatan pernapasan warga menurun, maka anggaran klaim asuransi kesehatan BPJS akan melonjak tajam. Laporan keuangan mencatat bahwa anggaran klaim asuransi kesehatan BPJS tidak melonjak tajam. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Polusi udara sedang dalam kondisi sangat pekat.",
+          "Warga sudah kebal terhadap kualitas polusi udara yang pekat.",
+          "Pemerintah berhasil membagikan masker medis secara gratis.",
+          "Tingkat polusi udara tidak sangat pekat.",
+          "Kualitas kesehatan warga tetap menurun meskipun anggaran tidak melonjak."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Hipotesis + Modus Tollens. A -> B, B -> C (Maka A -> C: Jika polusi pekat, klaim BPJS melonjak). Fakta ~C (Klaim BPJS tidak melonjak). Kesimpulan mutlak: ~A (Tingkat polusi udara tidak sangat pekat)."
+      },
+      {
+        "id": "utbk_ded_089",
+        "teks": "Setiap pelamar kerja yang lolos seleksi berkas administrasi dan mendapatkan nilai sempurna pada tes wawancara psikologi, pasti akan diterima bekerja di Perusahaan T. Doni adalah pelamar yang lolos seleksi berkas administrasi dan sukses mendapatkan nilai sempurna pada tes wawancara psikologi. Simpulan deduktifnya adalah...",
+        "opsi": [
+          "Doni mungkin akan diterima bekerja di Perusahaan T jika tidak ada pelamar lain yang lebih baik.",
+          "Doni pasti akan diterima bekerja di Perusahaan T.",
+          "Doni harus mengikuti tahap tes kesehatan sebelum diterima bekerja.",
+          "Sebagian pelamar yang lolos berkas tidak diterima bekerja.",
+          "Doni diterima bekerja namun di anak cabang Perusahaan T."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Ponens dengan Anteseden Majemuk. Jika (P dan Q) maka R. Fakta Doni memenuhi syarat lengkap (P dan Q terjadi). Maka kesimpulannya mutlak R terjadi (pasti diterima bekerja)."
+      },
+      {
+        "id": "utbk_ded_090",
+        "teks": "Semua peserta seminar nasional yang hadir tepat waktu akan mendapatkan modul materi cetak eksklusif. Sebagian peserta seminar nasional berasal dari institusi pendidikan di luar kota. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Semua peserta seminar dari luar kota pasti hadir tepat waktu.",
+          "Hanya peserta dari luar kota yang mendapatkan modul materi cetak eksklusif.",
+          "Tidak ada peserta dari luar kota yang mendapatkan modul materi cetak eksklusif.",
+          "Sebagian peserta seminar dari institusi pendidikan luar kota tidak mendapat modul.",
+          "Sebagian peserta seminar dari institusi pendidikan luar kota yang hadir tepat waktu akan mendapatkan modul materi cetak eksklusif."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Silogisme kategorik perpotongan himpunan. Himpunan A (hadir tepat waktu) mendapat B (modul). Himpunan C (luar kota) adalah irisan dari peserta. Maka, anggota himpunan C (peserta luar kota) yang juga memenuhi syarat A (hadir tepat waktu) mutlak akan mendapatkan B (modul)."
+      },
+      {
+        "id": "utbk_ded_091",
+        "teks": "Padi unggul varietas M akan tumbuh lebat <b>hanya jika</b> ladang disiram rutin setiap pagi dan sore hari secara disiplin. Pak Ahmad diketahui tidak menyiram ladang padi varietas M-nya secara rutin setiap pagi dan sore hari. Simpulan yang paling logis adalah...",
+        "opsi": [
+          "Padi varietas M milik Pak Ahmad akan tumbuh dengan sangat kerdil dan menguning.",
+          "Padi varietas M milik Pak Ahmad tidak akan tumbuh lebat.",
+          "Pak Ahmad menggunakan pupuk kimia dosis tinggi sebagai pengganti air siraman.",
+          "Padi varietas M tetap akan tumbuh lebat asalkan curah hujan sedang tinggi.",
+          "Padi varietas M milik Pak Ahmad gagal panen secara keseluruhan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kondisi 'Hanya jika' (Only if) adalah syarat keharusan (Necessary Condition). Jika syarat mutlak (disiram rutin) tidak dipenuhi, maka akibatnya (tumbuh lebat) mutlak tidak akan pernah tercapai."
+      },
+      {
+        "id": "utbk_ded_092",
+        "teks": "Jika ban mobil sebelah kiri mengalami kebocoran parah di tengah jalan, maka laju mobil tersebut pasti akan terhenti. Saat Anda melihat mobil paman di pinggir jalan, ban mobil sebelah kirinya sama sekali tidak mengalami kebocoran. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Laju mobil paman pasti tidak terhenti dan sedang berjalan kencang.",
+          "Mobil paman berhenti karena mesinnya mogok kepanasan.",
+          "Tidak dapat disimpulkan secara pasti apakah laju mobil paman terhenti atau tidak.",
+          "Mobil paman sedang menepi untuk mengganti ban cadangan.",
+          "Ban mobil sebelah kanan paman yang mengalami kebocoran parah."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kesesatan Logika (<i>Fallacy of Denying the Antecedent</i>). P -> Q. Faktanya ~P (ban tidak bocor). Kesimpulannya tidak bisa dipastikan ~Q (tidak berhenti), karena mobil bisa saja terhenti oleh alasan lain (misal bensin habis atau lampu merah)."
+      },
+      {
+        "id": "utbk_ded_093",
+        "teks": "Semua hewan yang memiliki kelenjar susu dan secara alami menyusui anaknya diklasifikasikan sebagai hewan mamalia. Paus biru adalah hewan laut yang secara alami menyusui anaknya. Simpulan yang mutlak benar adalah...",
+        "opsi": [
+          "Paus biru adalah hewan mamalia darat yang berevolusi.",
+          "Paus biru diklasifikasikan sebagai hewan mamalia.",
+          "Semua hewan laut yang menyusui adalah ikan.",
+          "Sebagian paus biru tidak memiliki kelenjar susu saat dewasa.",
+          "Hanya paus biru yang merupakan hewan mamalia di lautan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik Afirmatif Universal (Barbara). Semua A (menyusui) adalah B (mamalia). C (paus biru) adalah A (menyusui). Maka mutlak kesimpulannya C (paus biru) adalah B (mamalia)."
+      },
+      {
+        "id": "utbk_ded_094",
+        "teks": "Jika seorang operator pabrik menggunakan seragam keamanan kerja pelindung standar (APD) yang lengkap, maka ia diizinkan masuk ke area produksi mesin berat. Hari ini, Joko sama sekali tidak diizinkan masuk ke area produksi mesin berat oleh penjaga. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Joko adalah karyawan baru yang belum mendapatkan seragam (APD) lengkap.",
+          "Joko sedang dihukum oleh atasannya karena terlambat datang bekerja.",
+          "Joko tidak menggunakan seragam keamanan kerja pelindung standar (APD) yang lengkap.",
+          "Area produksi mesin berat sedang ditutup sementara waktu untuk perbaikan rutin.",
+          "Seragam (APD) milik Joko kotor dan harus dicuci terlebih dahulu."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penerapan Modus Tollens. Jika P (pakai seragam lengkap) maka Q (diizinkan masuk). Faktanya adalah ~Q (Joko tidak diizinkan masuk). Maka kesimpulan mutlaknya adalah ~P (Joko tidak memakai seragam lengkap)."
+      },
+      {
+        "id": "utbk_ded_095",
+        "teks": "Sebuah dokumen kontrak rahasia perusahaan dikirim melalui layanan kurir jalur darat atau layanan kargo udara eksklusif. Sekretaris memastikan bahwa dokumen tersebut tidak mungkin dikirim melalui layanan kargo udara eksklusif karena anggarannya dicabut. Simpulan yang benar adalah...",
+        "opsi": [
+          "Dokumen kontrak rahasia tersebut batal dikirimkan ke tujuan.",
+          "Dokumen tersebut dikirim melalui surel (email) yang dienkripsi ketat.",
+          "Dokumen tersebut dibawa langsung oleh sang sekretaris menggunakan mobil pribadi.",
+          "Dokumen kontrak rahasia perusahaan tersebut dikirim melalui layanan kurir jalur darat.",
+          "Kurir jalur darat menolak mengirimkan dokumen karena terlalu jauh."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Disjungtif Mutlak. P (darat) atau Q (udara). Fakta menolak salah satu opsi, yaitu ~Q (tidak lewat udara). Maka secara deduktif, opsi yang tersisa pasti benar, yakni P (dikirim via darat)."
+      },
+      {
+        "id": "utbk_ded_096",
+        "teks": "Semua atlet olimpiade profesional sangat ketat menjaga pola asupan nutrisi dan gizi harian mereka. Sebagian tetangga yang tinggal di lingkungan perumahan Pak RT adalah atlet olimpiade profesional. Kesimpulan deduktifnya adalah...",
+        "opsi": [
+          "Semua tetangga di perumahan Pak RT menjaga pola asupan nutrisi dan gizi harian.",
+          "Sebagian tetangga yang tinggal di lingkungan perumahan Pak RT sangat ketat menjaga pola asupan nutrisi dan gizi harian mereka.",
+          "Tidak ada warga di perumahan Pak RT yang makan sembarangan.",
+          "Semua atlet olimpiade profesional tinggal di perumahan Pak RT.",
+          "Sebagian tetangga Pak RT yang bukan atlet tidak menjaga gizi harian mereka."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Partikular (Darii). Karena 'semua' atlet ketat menjaga gizi, dan 'sebagian' tetangga adalah atlet, maka 'sebagian' tetangga tersebut pastilah mewarisi sifat ketat menjaga gizi."
+      },
+      {
+        "id": "utbk_ded_097",
+        "teks": "Jika tarif dasar listrik industri diturunkan oleh pemerintah, maka harga pokok produksi barang di pabrik-pabrik akan menurun. Jika harga pokok produksi menurun, maka daya saing ekspor nasional akan meningkat tajam. Laporan kementerian perdagangan menyatakan bahwa daya saing ekspor nasional saat ini tidak meningkat tajam. Simpulan yang logis adalah...",
+        "opsi": [
+          "Tarif dasar listrik industri pasti dinaikkan secara diam-diam oleh pemerintah.",
+          "Harga pokok produksi barang di pabrik-pabrik tidak menurun meskipun listrik murah.",
+          "Tarif dasar listrik industri tidak diturunkan oleh pemerintah.",
+          "Eksportir nasional mengalami kebangkrutan massal.",
+          "Pabrik-pabrik industri memutus jaringan listrik dan beralih ke panel surya."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Hipotesis Bersyarat dirangkai dengan Modus Tollens. A -> B, B -> C. Maka A -> C (Listrik turun -> Ekspor naik). Faktanya adalah ~C (Ekspor tidak naik). Maka kesimpulannya adalah ~A (Tarif listrik tidak diturunkan)."
+      },
+      {
+        "id": "utbk_ded_098",
+        "teks": "Tidak ada anak-anak yang belum berusia 13 tahun yang diizinkan menaiki wahana '*Roller Coaster Extreme*' di taman hiburan tersebut. Budi adalah seorang anak yang baru saja merayakan ulang tahunnya yang ke-10 bulan lalu. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Budi diizinkan menaiki wahana asalkan didampingi oleh kedua orang tuanya.",
+          "Sebagian anak berusia 10 tahun sangat berani menaiki wahana ekstrem.",
+          "Budi tidak diizinkan menaiki wahana '*Roller Coaster Extreme*' di taman hiburan tersebut.",
+          "Petugas taman hiburan akan memalsukan usia Budi agar ia bisa naik.",
+          "Budi diizinkan menaiki wahana lain yang jauh lebih ekstrem dari '*Roller Coaster*'."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kaidah Negasi Himpunan Eksepsional. Aturan mutlak menetapkan bahwa seluruh himpunan anak usia < 13 tahun dilarang naik. Karena Budi (10 tahun) berada dalam himpunan tersebut, ia mutlak terkena larangan tersebut tanpa syarat."
+      },
+      {
+        "id": "utbk_ded_099",
+        "teks": "Kartu kredit *Platinum* dari Bank S hanya diterbitkan dan disetujui bagi nasabah prioritas yang memiliki penghasilan bersih bulanan di atas 50 juta rupiah. Pak Tono pagi ini baru saja resmi menerima paket pengiriman kartu kredit *Platinum* fisik dari Bank S. Kesimpulan deduktif yang pasti benar adalah...",
+        "opsi": [
+          "Pak Tono adalah pemegang saham mayoritas atau pemilik dari Bank S.",
+          "Pak Tono memiliki penghasilan bersih bulanan di atas 50 juta rupiah.",
+          "Bank S sering kali melonggarkan aturannya demi mendapatkan nasabah baru.",
+          "Pak Tono menyuap petugas bank agar pengajuan kartunya segera disetujui.",
+          "Penghasilan Pak Tono di bawah 50 juta rupiah namun ia memiliki aset rumah mewah."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kata 'Hanya' mengikat syarat kausalitas mutlak (Kondisi Keharusan / *Necessary Condition*). Karena Pak Tono berhasil memenuhi akibatnya (menerima kartu Platinum), maka ia secara deduktif dipastikan telah memenuhi syarat keharusannya (penghasilan > 50 juta)."
+      },
+      {
+        "id": "utbk_ded_100",
+        "teks": "Semua hewan unggas memiliki selimut bulu pada permukaan tubuhnya. Semua spesies hewan yang memiliki selimut bulu dapat menggunakan bulunya untuk kemampuan terbang di udara atau kemampuan menghangatkan suhu tubuh di iklim dingin. Pinguin Kaisar adalah salah satu jenis hewan unggas yang secara biologis sama sekali tidak bisa terbang di udara. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Pinguin Kaisar bukan termasuk jenis hewan unggas karena tidak bisa terbang.",
+          "Pinguin Kaisar tidak memiliki bulu di permukaan tubuhnya dan hanya memiliki lemak tebal.",
+          "Pinguin Kaisar menggunakan selimut bulunya untuk kemampuan menghangatkan suhu tubuh di iklim dingin.",
+          "Sebagian Pinguin Kaisar bisa terbang jika dilatih sejak baru menetas dari telur.",
+          "Hewan yang tidak bisa terbang di udara pasti tidak akan pernah memiliki selimut bulu di tubuhnya."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Rantai Eksklusif (Sorites Disjungtif). Unggas (A) -> Berbulu (B). Berbulu (B) -> Terbang (C) ATAU Menghangatkan Tubuh (D). Pinguin adalah (A) maka Pinguin adalah (B). Pinguin adalah (B), maka Pinguin adalah (C) ATAU (D). Fakta menyebutkan Pinguin BUKAN (C). Maka secara deduktif Pinguin mutlak mengandalkan opsi yang tersisa, yakni (D)."
+      },
+      {
+        "id": "utbk_ded_101",
+        "teks": "Semua bunga mawar di taman botani kota berwarna merah. Tanaman X yang dibawa oleh Andi adalah bunga mawar dari taman botani kota tersebut. Kesimpulan deduktif yang paling tepat adalah...",
+        "opsi": [
+          "Tanaman X mungkin berwarna putih.",
+          "Tanaman X pasti berwarna merah.",
+          "Semua tanaman berwarna merah adalah bunga mawar.",
+          "Tanaman X bukan bunga mawar jika warnanya tidak merah.",
+          "Hanya taman botani kota yang memiliki bunga mawar merah."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik Afirmatif (Modus Barbara). Premis mayor: Semua Mawar Taman Kota (A) berwarna Merah (B). Premis minor: Tanaman X (C) adalah Mawar Taman Kota (A). Kesimpulan: Tanaman X (C) mutlak berwarna Merah (B)."
+      },
+      {
+        "id": "utbk_ded_102",
+        "teks": "Jika suhu lingkungan turun drastis di bawah nol derajat Celcius, maka permukaan air danau akan membeku menjadi es. Pagi ini, dipastikan permukaan air danau sama sekali tidak membeku menjadi es. Simpulan yang sah adalah...",
+        "opsi": [
+          "Suhu lingkungan turun namun belum mencapai nol derajat Celcius.",
+          "Suhu lingkungan tidak turun drastis di bawah nol derajat Celcius.",
+          "Air danau membeku hanya pada malam hari.",
+          "Permukaan air danau mencair karena sinar matahari.",
+          "Suhu lingkungan sedang sangat ekstrem dinginnya."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penalaran Modus Tollens. P -> Q (Suhu < 0 -> Air membeku). Fakta: ~Q (Air tidak membeku). Kesimpulan mutlak: ~P (Suhu tidak turun di bawah nol derajat Celcius)."
+      },
+      {
+        "id": "utbk_ded_103",
+        "teks": "Semua Pegawai Negeri Sipil (PNS) menerima pembayaran gaji rutin dari kas negara. Sebagian guru di sekolah dasar pedalaman adalah Pegawai Negeri Sipil (PNS). Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua guru sekolah dasar pedalaman menerima pembayaran gaji rutin dari kas negara.",
+          "Hanya guru sekolah dasar yang berstatus PNS yang menerima gaji.",
+          "Sebagian guru di sekolah dasar pedalaman menerima pembayaran gaji rutin dari kas negara.",
+          "Tidak ada guru sekolah dasar pedalaman yang menerima gaji dari kas negara.",
+          "Semua penerima gaji dari kas negara adalah guru sekolah dasar."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Partikular. Semua A (PNS) adalah B (Terima gaji negara). Sebagian C (Guru) adalah A (PNS). Maka sebagian C (Guru) mutlak adalah B (Terima gaji negara)."
+      },
+      {
+        "id": "utbk_ded_104",
+        "teks": "Rapat dewan direksi perusahaan akan diadakan di Ruang Rapat Alpha atau Ruang Rapat Beta. Karena sistem pendingin udara (AC) rusak, dipastikan rapat dewan direksi tidak diadakan di Ruang Rapat Alpha. Simpulan deduktifnya adalah...",
+        "opsi": [
+          "Rapat dewan direksi ditunda hingga AC di Ruang Rapat Alpha diperbaiki.",
+          "Rapat dewan direksi diadakan di Ruang Rapat Beta.",
+          "Rapat dewan direksi dibatalkan sepenuhnya.",
+          "Ruang Rapat Beta juga mengalami kerusakan AC.",
+          "Direksi mengadakan rapat di luar gedung kantor."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Disjungtif Mutlak (P atau Q). Fakta menolak salah satu premis, yaitu ~P (Bukan di Ruang Alpha). Maka secara deduktif sisa opsi pasti benar, yakni Q (Diadakan di Ruang Rapat Beta)."
+      },
+      {
+        "id": "utbk_ded_105",
+        "teks": "Jika Budi makan udang laut, maka ia akan mengalami reaksi alergi gatal-gatal di sekujur tubuhnya. Saat ini, Budi sedang mengalami reaksi alergi gatal-gatal di sekujur tubuhnya. Kesimpulan yang paling logis adalah...",
+        "opsi": [
+          "Budi pasti baru saja memakan udang laut.",
+          "Budi tidak memakan udang laut namun memakan kepiting.",
+          "Udang laut adalah satu-satunya penyebab alergi gatal-gatal Budi.",
+          "Tidak dapat disimpulkan secara pasti apakah Budi makan udang laut atau tidak.",
+          "Budi makan udang laut namun telah meminum obat alergi."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kesesatan Logika (<i>Affirming the Consequent</i>). P -> Q. Faktanya Q terjadi (Budi gatal). Hal ini tidak dapat disimpulkan bahwa P (makan udang) pasti terjadi, karena Budi bisa saja gatal karena gigitan serangga atau alergi makanan lain."
+      },
+      {
+        "id": "utbk_ded_106",
+        "teks": "Jika seorang warga rajin menabung uang setiap bulan, maka saldo tabungannya di bank akan bertambah. Jika saldo tabungannya di bank bertambah, maka ia bisa membeli rumah baru tahun depan. Diketahui bahwa Pak Anton sangat rajin menabung uang setiap bulan. Simpulan yang sah adalah...",
+        "opsi": [
+          "Pak Anton tidak jadi membeli rumah baru.",
+          "Pak Anton bisa membeli rumah baru tahun depan.",
+          "Saldo tabungan Pak Anton tidak bertambah.",
+          "Pak Anton membeli rumah baru dengan cara mencicil.",
+          "Hanya Pak Anton yang bisa membeli rumah baru."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Transitif + Modus Ponens. P -> Q dan Q -> R, maka P -> R (Jika rajin menabung -> bisa beli rumah). Fakta: P terjadi (Anton rajin menabung). Kesimpulan mutlak: R terjadi (Anton bisa membeli rumah)."
+      },
+      {
+        "id": "utbk_ded_107",
+        "teks": "Tidak ada satupun hewan herbivora murni yang saluran pencernaannya mampu memproses daging mentah. Harimau Siberia adalah hewan yang saluran pencernaannya secara alami memproses daging mentah. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Harimau Siberia mungkin berevolusi menjadi herbivora.",
+          "Semua hewan herbivora takut pada Harimau Siberia.",
+          "Sebagian hewan yang memproses daging mentah adalah herbivora.",
+          "Harimau Siberia bukan hewan herbivora murni.",
+          "Harimau Siberia tidak bisa memakan rumput liar."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Himpunan Herbivora (A) tidak beririsan dengan himpunan Pemakan Daging (B). Harimau (C) ada di dalam himpunan Pemakan Daging (B). Maka Harimau (C) mutlak tidak mungkin ada di himpunan Herbivora (A)."
+      },
+      {
+        "id": "utbk_ded_108",
+        "teks": "Seorang pelamar kerja dinyatakan lulus tes seleksi <b>hanya jika</b> skor psikotesnya berada di atas angka 85. Skor psikotes Doni yang dirilis oleh panitia adalah 80. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Doni dinyatakan lulus dengan syarat khusus.",
+          "Doni diminta untuk mengulang tes seleksi minggu depan.",
+          "Doni dinyatakan tidak lulus tes seleksi.",
+          "Panitia menaikkan skor Doni menjadi 85 karena ia berbakat.",
+          "Skor psikotes Doni adalah yang tertinggi di antara pelamar lain."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Konjungsi 'Hanya jika' (Only if) menandakan syarat keharusan mutlak. Lulus -> Skor > 85. Karena Doni mendapat 80 (syarat mutlak gagal terpenuhi), maka akibatnya (lulus) mutlak tidak akan terjadi."
+      },
+      {
+        "id": "utbk_ded_109",
+        "teks": "Semua buku ensiklopedia yang disimpan di rak perpustakaan A memiliki tebal lebih dari 500 halaman. Sebagian buku yang diletakkan di meja baca perpustakaan tidak memiliki tebal lebih dari 500 halaman. Simpulan yang sah adalah...",
+        "opsi": [
+          "Semua buku di meja baca bukan buku ensiklopedia dari rak A.",
+          "Sebagian buku di meja baca bukan buku ensiklopedia dari rak perpustakaan A.",
+          "Tidak ada buku tebal di meja baca perpustakaan.",
+          "Semua buku ensiklopedia di rak A dipindahkan ke meja baca.",
+          "Sebagian buku ensiklopedia tidak memiliki tebal lebih dari 500 halaman."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Negatif Partikular (Baroco). Semua A (Buku rak A) adalah B (>500 hal). Sebagian C (Buku di meja) adalah ~B (Tidak >500 hal). Maka sebagian C (Buku di meja) mutlak bukan A (Bukan buku rak A)."
+      },
+      {
+        "id": "utbk_ded_110",
+        "teks": "Jika seorang calon mahasiswa lulus tes potensi skolastik tertulis dan juga lolos tes wawancara, maka ia mutlak diterima di perguruan tinggi kedinasan T. Tono dinyatakan lulus tes potensi skolastik tertulis dan sukses lolos tes wawancara. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Tono mungkin diterima jika kuota belum penuh.",
+          "Tono pasti diterima di perguruan tinggi kedinasan T.",
+          "Tono harus menjalani tes kesehatan sebelum diterima.",
+          "Sebagian calon mahasiswa yang lulus tes belum tentu diterima.",
+          "Tono lulus namun ditempatkan di kampus cabang."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Modus Ponens dengan Anteseden Majemuk. Aturan: (P AND Q) -> R. Fakta Tono: P dan Q terbukti terjadi. Maka konsekuensinya R (pasti diterima) mutlak terjadi tanpa syarat tambahan."
+      },
+      {
+        "id": "utbk_ded_111",
+        "teks": "Jika hutan di area lereng gunung ditebang secara liar secara masif, maka akan terjadi bencana banjir bandang. Jika terjadi bencana banjir bandang, maka penduduk desa di kaki gunung harus mengungsi. Kenyataannya, penduduk desa di kaki gunung saat ini tidak mengungsi. Kesimpulan deduktifnya adalah...",
+        "opsi": [
+          "Hutan di area lereng gunung ditebang secara liar namun tidak masif.",
+          "Banjir bandang terjadi namun penduduk desa menolak mengungsi.",
+          "Hutan di area lereng gunung tidak ditebang secara liar secara masif.",
+          "Penduduk desa membangun tanggul penahan banjir bandang.",
+          "Pemerintah berhasil melarang penebangan hutan liar tepat waktu."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Hipotesis + Modus Tollens. P -> Q, Q -> R. Maka P -> R (Tebang liar -> Warga mengungsi). Faktanya adalah ~R (Warga tidak mengungsi). Maka kesimpulannya mutlak ~P (Hutan tidak ditebang secara liar masif)."
+      },
+      {
+        "id": "utbk_ded_112",
+        "teks": "Semua alat musik petik akustik mutlak memiliki senar (dawai) untuk menghasilkan bunyi. Alat tiup tradisional seruling bambu sama sekali tidak memiliki senar (dawai). Simpulan yang tepat adalah...",
+        "opsi": [
+          "Seruling bambu adalah variasi alat musik petik tanpa senar.",
+          "Semua alat musik tiup tidak memiliki senar.",
+          "Seruling bambu bukan merupakan alat musik petik akustik.",
+          "Sebagian alat musik petik akustik tidak memiliki senar.",
+          "Senar pada seruling bambu disembunyikan di dalam kayunya."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Eksklusi Modus Tollens. Himpunan A (Alat petik) memiliki sifat B (Senar). Objek C (Seruling) terbukti ~B (Tidak bersenar). Maka C (Seruling) mutlak ~A (Bukan alat musik petik)."
+      },
+      {
+        "id": "utbk_ded_113",
+        "teks": "Jika hari ini adalah tanggal merah di kalender nasional, maka semua kantor cabang bank komersial tutup untuk beroperasi. Berdasarkan penanggalan, hari ini ditetapkan sebagai tanggal merah kalender nasional. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Beberapa kantor cabang bank komersial mungkin tetap buka setengah hari.",
+          "Semua kantor cabang bank komersial tutup untuk beroperasi.",
+          "Karyawan bank komersial bekerja secara *online* dari rumah.",
+          "Kantor cabang bank komersial tutup hanya di ibu kota negara.",
+          "Tanggal merah nasional tidak berlaku bagi bank internasional."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Ponens Lurus. Aturan P (Tanggal merah) -> Q (Bank tutup). Fakta: P benar-benar terjadi. Maka Q (Semua kantor cabang bank komersial tutup) mutlak terjadi."
+      },
+      {
+        "id": "utbk_ded_114",
+        "teks": "Jika lampu peringatan baterai di panel instrumen mobil menyala merah, maka pengemudi harus segera mematikan mesin. Saat Anda menyetir, lampu peringatan baterai di panel instrumen mobil Anda tidak menyala merah. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Anda tidak boleh mematikan mesin mobil.",
+          "Mesin mobil Anda dalam keadaan sangat prima dan tidak akan pernah rusak.",
+          "Anda tetap harus mematikan mesin mobil jika ingin berhenti di tujuan.",
+          "Lampu peringatan baterai di panel instrumen mungkin rusak.",
+          "Tidak dapat disimpulkan secara mutlak apakah pengemudi mematikan mesin atau tidak."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kesesatan Logika (<i>Denying the Antecedent</i>). P -> Q. Faktanya ~P (lampu tidak menyala). Kita tidak bisa menyimpulkan ~Q (tidak mematikan mesin) karena pengemudi bisa saja mematikan mesin karena sudah sampai di rumah, ingin parkir, dll."
+      },
+      {
+        "id": "utbk_ded_115",
+        "teks": "Semua jenis kendaraan bermotor roda empat wajib membayar tarif saat memasuki ruas jalan tol. Taksi reguler yang beroperasi di kota tersebut diklasifikasikan sebagai jenis kendaraan bermotor roda empat. Simpulan yang sah adalah...",
+        "opsi": [
+          "Taksi reguler mendapatkan diskon tarif saat memasuki ruas jalan tol.",
+          "Taksi reguler wajib membayar tarif saat memasuki ruas jalan tol.",
+          "Semua yang membayar tarif di ruas jalan tol adalah taksi reguler.",
+          "Sebagian taksi reguler dibebaskan dari pembayaran tarif tol.",
+          "Taksi reguler dilarang memasuki ruas jalan tol."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik Afirmatif (Barbara). Semua A (Roda empat) wajib B (Bayar tol). C (Taksi reguler) adalah A. Maka C (Taksi reguler) mutlak wajib B (Bayar tol)."
+      },
+      {
+        "id": "utbk_ded_116",
+        "teks": "Hanya tamu undangan yang menggunakan gelang pemindai warna biru yang diizinkan masuk ke zona panggung VIP. Rio terlihat asyik berfoto di dalam zona panggung VIP konser tersebut. Kesimpulan yang mutlak benar adalah...",
+        "opsi": [
+          "Rio adalah panitia penyelenggara konser tersebut.",
+          "Semua tamu yang menggunakan gelang biru pasti masuk ke zona panggung VIP.",
+          "Rio menggunakan gelang pemindai warna biru.",
+          "Rio menyelinap masuk tanpa diketahui petugas penjaga keamanan.",
+          "Gelang pemindai warna biru milik Rio hilang saat di dalam zona VIP."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kondisi keharusan mutlak ('Hanya'). Syarat untuk Masuk VIP (Q) adalah Gelang Biru (P). Karena faktanya Rio sudah di dalam VIP (Q terjadi), maka syaratnya (P) mutlak telah ia penuhi (Rio menggunakan gelang biru)."
+      },
+      {
+        "id": "utbk_ded_117",
+        "teks": "Jika kepala koki jatuh sakit, maka restoran masakan Eropa tersebut akan ditutup. Jika restoran masakan Eropa tersebut ditutup, maka seluruh pelayannya akan diliburkan secara penuh. Hari ini, seluruh pelayan di restoran tersebut tidak diliburkan secara penuh (tetap bekerja). Simpulan yang logis adalah...",
+        "opsi": [
+          "Kepala koki jatuh sakit namun restoran tetap dibuka.",
+          "Restoran masakan Eropa tersebut ditutup setengah hari.",
+          "Seluruh pelayan sedang melakukan aksi mogok kerja.",
+          "Kepala koki restoran masakan Eropa tersebut tidak jatuh sakit.",
+          "Restoran tersebut merekrut kepala koki pengganti."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Hipotesis Transitif dengan Modus Tollens. A -> B, B -> C, maka A -> C (Koki sakit -> Pelayan libur). Fakta: ~C (Pelayan tidak libur). Maka kesimpulannya adalah ~A (Koki tidak sakit)."
+      },
+      {
+        "id": "utbk_ded_118",
+        "teks": "Pasien penderita flu parah di klinik dr. Yanto hanya akan diresepkan obat dalam bentuk tablet padat atau dalam bentuk sirup cair. Pasien Tono dengan tegas menolak meminum obat dalam bentuk sirup cair karena tidak suka rasanya. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Tono tidak diberikan obat apa pun oleh dr. Yanto.",
+          "Tono diresepkan obat dalam bentuk kapsul lunak.",
+          "Tono diresepkan obat dalam bentuk tablet padat.",
+          "Tono harus dirawat inap di klinik dr. Yanto karena membandel.",
+          "Dokter Yanto mencampur obat tablet dan sirup menjadi satu."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Disjungtif Mutlak. Premis memberikan dua opsi eksklusif: P (Tablet) atau Q (Sirup). Fakta membatalkan salah satu: ~Q (Bukan sirup). Maka opsi lainnya mutlak menjadi kenyataan: P (Tono diresepkan tablet padat)."
+      },
+      {
+        "id": "utbk_ded_119",
+        "teks": "Tidak ada spesies burung unta (<i>ostrich</i>) yang memiliki kemampuan untuk terbang melayang di angkasa. Burung elang jawa diketahui memiliki kemampuan untuk terbang melayang sangat tinggi di angkasa. Simpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Semua burung yang tidak bisa terbang adalah burung unta.",
+          "Burung elang jawa adalah burung unta yang telah berevolusi.",
+          "Burung elang jawa bukan merupakan spesies burung unta.",
+          "Sebagian burung unta terbang pada malam hari.",
+          "Semua elang jawa bersarang di atas tanah seperti burung unta."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Himpunan Burung Unta (A) berpotongan nol / tidak beririsan dengan himpunan Bisa Terbang (B). Elang Jawa (C) berada di dalam himpunan Bisa Terbang (B). Maka C mutlak bukan A."
+      },
+      {
+        "id": "utbk_ded_120",
+        "teks": "Jika terjadi korsleting (hubungan arus pendek) listrik di dalam rumah, maka saklar sekering pengaman utama akan otomatis turun memutus arus. Malam ini, saklar sekering pengaman utama di rumah Tika tiba-tiba turun memutus arus. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Pasti telah terjadi korsleting listrik di dalam rumah Tika.",
+          "Tika sengaja mematikan lampu rumahnya untuk tidur.",
+          "Tidak dapat disimpulkan secara mutlak apakah terjadi korsleting listrik atau tidak.",
+          "Tegangan listrik dari PLN sedang mengalami lonjakan drastis.",
+          "Kabel di rumah Tika digigit tikus hingga putus."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kesesatan Logika (<i>Affirming the Consequent</i>). P -> Q (Korsleting -> Sekering turun). Fakta Q terjadi (Sekering turun). Secara logika deduktif, kita tidak bisa memastikan P (korsleting) adalah penyebab tunggalnya, karena sekering bisa turun akibat beban daya berlebih (*overload*), dsb."
+      },
+      {
+        "id": "utbk_ded_121",
+        "teks": "Dokumen tender perusahaan dianggap sah <b>jika dan hanya jika</b> dokumen tersebut telah ditandatangani oleh direktur utama <b>dan</b> dibubuhi cap resmi perusahaan. Dokumen tender milik Perusahaan K dinyatakan oleh panitia sebagai dokumen yang tidak sah. Simpulan deduktif yang benar adalah...",
+        "opsi": [
+          "Dokumen tersebut pasti tidak ditandatangani oleh direktur utama dan tidak dicap resmi sama sekali.",
+          "Dokumen tersebut tidak ditandatangani oleh direktur utama <b>atau</b> tidak dibubuhi cap resmi perusahaan.",
+          "Direktur utama perusahaan K sedang berada di luar kota saat dokumen itu dibuat.",
+          "Panitia tender melakukan kecurangan untuk membatalkan Perusahaan K.",
+          "Dokumen tersebut ditandatangani oleh wakil direktur dengan cap palsu."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Hukum De Morgan dengan Modus Tollens. Aturan Sah (R) = Tanda Tangan (P) AND Cap (Q). Fakta: Tidak Sah (~R). Maka Kesimpulannya: ~(P AND Q) yang ekuivalen dengan (~P OR ~Q), yaitu tidak ditandatangani direktur ATAU tidak dibubuhi cap resmi."
+      },
+      {
+        "id": "utbk_ded_122",
+        "teks": "Semua atlet lari profesional jarak jauh diwajibkan memakai sepatu lari tipe <i>marathon</i> bersol tebal saat bertanding. Joko terlihat mengikuti lomba lari, namun ia sama sekali tidak memakai sepatu lari tipe <i>marathon</i> bersol tebal. Kesimpulan yang logis adalah...",
+        "opsi": [
+          "Joko akan didiskualifikasi dari pertandingan tersebut sebelum mencapai garis finis.",
+          "Joko berlari menggunakan kaki ayam (tanpa alas kaki) demi memecahkan rekor.",
+          "Joko bukanlah seorang atlet lari profesional jarak jauh.",
+          "Sepatu lari milik Joko rusak sesaat sebelum pertandingan dimulai.",
+          "Semua atlet lari profesional yang kalah tidak memakai sepatu tipe <i>marathon</i>."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika universal afirmatif digabung Modus Tollens. Semua A (Atlet Jarak Jauh) memiliki sifat B (Pakai Sepatu Maraton). Karena subjek Joko terbukti tidak memiliki sifat B, maka Joko secara mutlak Bukan A."
+      },
+      {
+        "id": "utbk_ded_123",
+        "teks": "Sebagian staf administrasi yang bekerja di gedung balai kota mengenakan kacamata minus tebal. Semua orang yang mengenakan kacamata minus tebal terlihat seperti seorang kutu buku yang pintar. Simpulan deduktifnya adalah...",
+        "opsi": [
+          "Semua staf administrasi di balai kota terlihat seperti seorang kutu buku yang pintar.",
+          "Hanya staf administrasi balai kota yang terlihat seperti kutu buku yang pintar.",
+          "Sebagian staf administrasi yang bekerja di gedung balai kota terlihat seperti seorang kutu buku yang pintar.",
+          "Tidak ada staf administrasi yang terlihat kutu buku jika tidak bekerja di balai kota.",
+          "Semua orang yang terlihat kutu buku pasti bekerja sebagai staf administrasi balai kota."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Partikular Afirmatif (Darii). 'Sebagian' staf balai kota adalah orang berkacamata tebal. 'Semua' orang berkacamata tebal terlihat kutu buku. Maka 'sebagian' staf balai kota tersebut mutlak akan memantulkan sifat terlihat seperti kutu buku."
+      },
+      {
+        "id": "utbk_ded_124",
+        "teks": "Tanaman anggrek bulan spesies langka ini akan mekar bunganya <b>hanya jika</b> disiram cairan pupuk organik secara rutin setiap dua hari sekali. Pengamat botani mencatat bahwa tanaman anggrek bulan spesies langka ini akhirnya mekar bunganya hari ini. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Tanaman anggrek bulan tersebut disiram air hujan setiap hari.",
+          "Tanaman anggrek bulan tersebut disiram cairan pupuk organik secara rutin setiap dua hari sekali.",
+          "Pupuk organik tersebut dibuat dari ekstrak tumbuhan langka.",
+          "Sebagian anggrek bulan mekar tanpa perlu disiram pupuk organik.",
+          "Tanaman anggrek bulan tersebut akan layu kembali esok harinya."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Syarat 'Hanya jika' (Only If) adalah syarat keharusan (Necessary Condition). P hanya jika Q berarti jika P (mekar) terjadi, maka Q (disiram rutin) mutlak pasti telah terjadi/terpenuhi."
+      },
+      {
+        "id": "utbk_ded_125",
+        "teks": "Jika tiket penerbangan sedang mengadakan promo diskon besar, maka Anton dan keluarganya akan pergi berlibur. Jika Anton dan keluarganya pergi berlibur, maka mereka pasti akan mengunjungi Pulau Bali. Di situs web maskapai, tiket penerbangan saat ini sedang mengadakan promo diskon besar. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Anton dan keluarganya membatalkan liburannya ke Pulau Bali.",
+          "Anton dan keluarganya pasti akan mengunjungi Pulau Bali.",
+          "Semua orang akan pergi berlibur ke Pulau Bali hari ini.",
+          "Harga tiket ke Pulau Bali tidak jadi didiskon karena terlalu banyak peminat.", 
+          "Anton dan keluarganya pergi berlibur ke luar negeri selain Bali."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Hipotesis Transitif dengan Modus Ponens Lurus. (A -> B) dan (B -> C) menjadi A -> C (Jika promo tiket -> pergi ke Bali). Karena faktanya A (promo tiket) terbukti terjadi, maka C (pergi ke Bali) mutlak terjadi."
+      },
+      {
+        "id": "utbk_ded_126",
+        "teks": "Semua penderita diabetes dianjurkan oleh dokter untuk tidak mengonsumsi makanan yang mengandung kadar gula tinggi. Tono baru saja didiagnosis sebagai penderita diabetes oleh dokternya. Kesimpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Tono hanya boleh makan makanan yang pahit.",
+          "Semua makanan yang mengandung kadar gula tinggi pasti dilarang di rumah sakit.",
+          "Tono dianjurkan oleh dokter untuk tidak mengonsumsi makanan yang mengandung kadar gula tinggi.",
+          "Sebagian penderita diabetes masih boleh memakan gula pasir.",
+          "Tono mungkin akan segera sembuh dari diabetes jika ia berhenti makan gula."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Afirmatif (Barbara). Semua A (penderita diabetes) dianjurkan B (tidak konsumsi gula tinggi). Karena C (Tono) adalah A, maka C (Tono) mutlak dianjurkan B."
+      },
+      {
+        "id": "utbk_ded_127",
+        "teks": "Jika sebuah perusahaan mencapai target keuntungan tahunan yang luar biasa, maka seluruh karyawannya akan mendapatkan bonus akhir tahun. Kenyataannya, tahun ini seluruh karyawan di Perusahaan X tidak mendapatkan bonus akhir tahun. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Perusahaan X mungkin mengalami kebangkrutan bulan depan.",
+          "Perusahaan X tidak mencapai target keuntungan tahunan yang luar biasa.",
+          "Sebagian karyawan Perusahaan X menolak bonus akhir tahun.",
+          "Hanya pimpinan Perusahaan X yang mendapatkan bonus.",
+          "Perusahaan X mencapai target keuntungan namun uangnya dipakai untuk ekspansi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Tollens. P -> Q (Untung luar biasa -> Karyawan dapat bonus). Fakta yang terjadi adalah ~Q (Karyawan tidak dapat bonus). Maka kesimpulan mutlaknya adalah ~P (Perusahaan tidak mencapai target keuntungan luar biasa)."
+      },
+      {
+        "id": "utbk_ded_128",
+        "teks": "Hanya siswa yang memiliki rata-rata nilai rapor di atas 90 yang diizinkan untuk mendaftar program beasiswa prestasi ke luar negeri. Rina hari ini terlihat sedang mendaftar program beasiswa prestasi ke luar negeri. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Rina adalah siswa yang paling cerdas di sekolahnya.",
+          "Rina mungkin memalsukan nilai rapornya agar bisa mendaftar.",
+          "Semua siswa yang nilainya di atas 90 pasti mendaftar beasiswa tersebut.",
+          "Rina memiliki rata-rata nilai rapor di atas 90.",
+          "Sebagian siswa yang mendaftar beasiswa tidak memiliki nilai di atas 90."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kata 'Hanya' menunjukkan syarat mutlak (Kondisi Keharusan / *Necessary Condition*). Mendaftar beasiswa (Q) hanya bisa dilakukan jika nilai > 90 (P). Karena faktanya Rina mendaftar (Q terjadi), maka syaratnya (P) mutlak telah ia penuhi."
+      },
+      {
+        "id": "utbk_ded_129",
+        "teks": "Tidak ada satu pun jenis mamalia yang berkembang biak dengan cara murni bertelur tanpa menyusui (kecuali platipus dan echidna). Kucing liar adalah hewan mamalia darat yang normal. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Kucing liar berkembang biak dengan cara murni bertelur.",
+          "Sebagian kucing liar bisa bertelur di alam liar.",
+          "Kucing liar tidak berkembang biak dengan cara murni bertelur tanpa menyusui.",
+          "Kucing liar adalah platipus yang telah berevolusi.",
+          "Hanya mamalia laut yang tidak bertelur."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Himpunan Mamalia Normal (A) tidak beririsan dengan himpunan Bertelur (B). Kucing liar (C) adalah Mamalia Normal (A). Maka Kucing liar (C) mutlak tidak berada di himpunan Bertelur (B)."
+      },
+      {
+        "id": "utbk_ded_130",
+        "teks": "Jika jalan tol antarprovinsi ditutup total oleh petugas, maka seluruh kendaraan ekspedisi logistik akan dialihkan ke jalan arteri. Sore ini, seluruh kendaraan ekspedisi logistik terlihat dialihkan ke jalan arteri. Simpulan yang paling logis adalah...",
+        "opsi": [
+          "Jalan tol antarprovinsi pasti sedang ditutup total oleh petugas.",
+          "Polisi lalu lintas sedang memperbaiki jalan arteri.",
+          "Jalan arteri mengalami kemacetan yang sangat parah sore ini.",
+          "Tidak dapat disimpulkan secara mutlak apakah jalan tol ditutup atau tidak.",
+          "Jalan tol antarprovinsi tidak ditutup total oleh petugas."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kesesatan Logika (<i>Fallacy of Affirming the Consequent</i>). P -> Q. Faktanya akibat (Q) terjadi. Hal ini secara deduktif tidak bisa memastikan penyebab utamanya (P) benar-benar terjadi, karena pengalihan lalu lintas bisa saja disebabkan oleh hal lain (misal kecelakaan di jalur tol tanpa harus ditutup total, atau sedang ada perbaikan)."
+      },
+      {
+        "id": "utbk_ded_131",
+        "teks": "Semua perangkat keras (<i>hardware</i>) komputer yang dijual di Toko Elektronik M memiliki garansi resmi dari distributor selama 2 tahun. Sebuah kartu grafis (VGA) kelas atas ini dibeli dari Toko Elektronik M kemarin. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Kartu grafis tersebut mungkin rusak dalam waktu kurang dari setahun.",
+          "Sebagian kartu grafis di Toko Elektronik M tidak memiliki garansi.",
+          "Kartu grafis tersebut memiliki garansi resmi dari distributor selama 2 tahun.",
+          "Hanya kartu grafis yang bergaransi 2 tahun di Toko M.",
+          "Toko Elektronik M adalah distributor utama kartu grafis."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika deduktif universal. Semua A (barang Toko M) memiliki B (garansi 2 tahun). Objek X (kartu grafis ini) adalah A (dibeli dari Toko M). Maka objek X mutlak mewarisi sifat B (bergaransi 2 tahun)."
+      },
+      {
+        "id": "utbk_ded_132",
+        "teks": "Jika Andi sering begadang untuk bermain gim <i>online</i>, maka ia akan mengantuk saat jam pelajaran pertama di kelas. Jika Andi mengantuk di kelas, maka ia akan ditegur dengan keras oleh gurunya. Tadi malam, Andi diketahui begadang semalaman bermain gim <i>online</i>. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Andi tidak ditegur dengan keras oleh gurunya.",
+          "Andi membolos sekolah karena terlalu mengantuk.",
+          "Guru Andi sedang sakit dan tidak masuk kelas.",
+          "Andi akan ditegur dengan keras oleh gurunya.",
+          "Hanya siswa yang main gim <i>online</i> yang ditegur guru."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Hipotesis Berantai (P -> Q, Q -> R). Maka P -> R (Jika begadang -> Ditegur guru). Karena faktanya P terjadi (Andi begadang), maka berdasarkan Modus Ponens, akibat akhirnya R (ditegur guru) pasti terjadi."
+      },
+      {
+        "id": "utbk_ded_133",
+        "teks": "Sebagian guru di sekolah menengah atas tersebut mengenakan kacamata berlensa tebal. Semua orang yang mengenakan kacamata berlensa tebal terlihat sangat cerdas dan banyak membaca. Simpulan deduktifnya adalah...",
+        "opsi": [
+          "Semua guru di sekolah menengah atas tersebut terlihat sangat cerdas dan banyak membaca.",
+          "Hanya guru yang berkacamata yang terlihat cerdas.",
+          "Sebagian guru di sekolah menengah atas tersebut terlihat sangat cerdas dan banyak membaca.",
+          "Tidak ada guru yang terlihat cerdas jika tidak memakai kacamata tebal.",
+          "Semua orang yang terlihat cerdas pasti berprofesi sebagai guru."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Partikular Afirmatif (Darii). Karena 'semua' orang berkacamata tebal terlihat cerdas (A -> B), dan 'sebagian' guru masuk dalam kelompok orang berkacamata tebal (Sebagian C -> A), maka 'sebagian' guru tersebut mutlak mewarisi sifat terlihat cerdas (Sebagian C -> B)."
+      },
+      {
+        "id": "utbk_ded_134",
+        "teks": "Jika mesin pabrik kekurangan cairan pelumas pada porosnya, maka mesin tersebut akan dengan cepat memanas (<i>overheat</i>). Teknisi mengecek indikator dan memastikan bahwa mesin tersebut sama sekali tidak cepat memanas saat beroperasi. Simpulan yang logis adalah...",
+        "opsi": [
+          "Mesin pabrik tersebut sedang dalam keadaan mati total.",
+          "Mesin pabrik tersebut tidak kekurangan cairan pelumas pada porosnya.",
+          "Cairan pelumas yang digunakan pasti berharga sangat mahal.",
+          "Mesin tersebut akan segera meledak secara mendadak.",
+          "Lampu indikator mesin tersebut pasti sedang rusak."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Modus Tollens lurus. P -> Q (Kurang pelumas -> Cepat panas). Fakta: ~Q (Tidak cepat panas). Kesimpulan yang secara deduktif wajib ditarik adalah ~P (Tidak kurang pelumas)."
+      },
+      {
+        "id": "utbk_ded_135",
+        "teks": "Pendaftaran calon peserta lomba debat bahasa Inggris tingkat nasional akan ditutup secara resmi pada hari Senin atau hari Selasa minggu ini. Berdasarkan pengumuman terbaru panitia, dipastikan pendaftaran tersebut tidak ditutup pada hari Senin. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Pendaftaran diperpanjang hingga hari Rabu minggu depan.",
+          "Lomba debat bahasa Inggris tingkat nasional dibatalkan oleh panitia.",
+          "Pendaftaran calon peserta lomba debat ditutup secara resmi pada hari Selasa minggu ini.",
+          "Tidak ada peserta yang mendaftar pada hari Senin.",
+          "Panitia lupa menutup pendaftaran."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Disjungtif (P atau Q). Hanya ada dua alternatif mutlak yang disediakan (Senin atau Selasa). Karena satu alternatif terbukti salah atau batal (~P: tidak Senin), maka secara otomatis alternatif lainnya mutlak benar (Q: hari Selasa)."
+      },
+      {
+        "id": "utbk_ded_136",
+        "teks": "Semua tanaman kaktus sukulen memiliki kemampuan adaptasi tinggi untuk bertahan hidup dalam cuaca ekstrem yang sangat kering dan panas. Tanaman hias Y yang dibeli oleh Andi layu dan mati karena tidak bertahan hidup dalam cuaca kering dan panas. Simpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Tanaman hias Y mungkin adalah sejenis kaktus yang cacat.",
+          "Tanaman hias Y membutuhkan banyak sekali air dan pupuk setiap hari.",
+          "Andi sengaja membunuh tanaman hias Y tersebut.",
+          "Tanaman hias Y bukanlah jenis tanaman kaktus sukulen.",
+          "Semua tanaman hias di rumah Andi akan segera mati kepanasan."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Modus Tollens dalam himpunan. Semua Kaktus (A) pasti Tahan Panas (B). Fakta: Tanaman Y tidak memiliki sifat Tahan Panas (~B). Kesimpulannya, Tanaman Y mutlak tidak mungkin berasal dari himpunan Kaktus (~A)."
+      },
+      {
+        "id": "utbk_ded_137",
+        "teks": "Jika seseorang mengonsumsi makanan laut (<i>seafood</i>) yang tidak segar, maka ia berisiko besar mengalami keracunan makanan. Budi diketahui tidak mengonsumsi makanan laut yang tidak segar saat pesta semalam. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Budi pasti mengalami keracunan makanan ringan.",
+          "Budi sama sekali tidak akan mengalami keracunan makanan hari ini.",
+          "Semua orang di pesta tersebut mengalami keracunan makanan kecuali Budi.",
+          "Tidak dapat disimpulkan secara mutlak apakah Budi mengalami keracunan makanan atau tidak.",
+          "Budi alergi terhadap semua jenis makanan laut."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kesesatan Logika (<i>Denying the Antecedent</i>). P -> Q (Makan seafood tidak segar -> Keracunan). Faktanya adalah ~P (Budi tidak makan seafood tidak segar). Kita TIDAK BISA menyimpulkan secara otomatis bahwa ~Q (Budi pasti tidak keracunan) karena Budi bisa saja keracunan dari makanan lain (misal susu basi atau daging busuk)."
+      },
+      {
+        "id": "utbk_ded_138",
+        "teks": "Semua pengemudi mobil komersial diwajibkan memiliki Surat Izin Mengemudi (SIM) golongan A Umum yang masih berlaku. Pak Joko terlihat sedang mengemudikan mobil komersial milik perusahaannya. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Pak Joko adalah pemilik dari perusahaan mobil komersial tersebut.",
+          "Pak Joko mungkin memiliki SIM B untuk mengemudikan truk besar.",
+          "Hanya Pak Joko yang memiliki SIM A Umum di perusahaannya.",
+          "Sebagian pengemudi mobil komersial tidak perlu memiliki SIM.",
+          "Pak Joko diwajibkan memiliki Surat Izin Mengemudi (SIM) golongan A Umum yang masih berlaku."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kaidah Afirmatif Universal. Aturan menetapkan bahwa 'semua' anggota himpunan X (pengemudi mobil komersial) wajib memenuhi syarat Y. Pak Joko ada di dalam himpunan X, sehingga ia mutlak wajib memenuhi syarat Y."
+      },
+      {
+        "id": "utbk_ded_139",
+        "teks": "Tidak ada spesies ikan hiu putih besar yang berkembang biak dengan cara mengeluarkan telur bercangkang di dasar laut. Spesies laut M diketahui berkembang biak dengan cara mengeluarkan telur bercangkang di dasar laut. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Spesies laut M adalah sejenis ikan hiu putih besar yang bermutasi.",
+          "Spesies laut M bukanlah spesies ikan hiu putih besar.",
+          "Sebagian ikan hiu putih besar mampu memproduksi telur bercangkang.",
+          "Semua spesies laut bertelur di dasar laut.",
+          "Ikan hiu putih besar adalah hewan mamalia."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Eksklusi (Celarent). Himpunan Hiu Putih (A) tidak beririsan dengan himpunan Bertelur (B). Spesies M (C) memiliki karakteristik Bertelur (B). Oleh karena itu, Spesies M mutlak tidak mungkin berada di himpunan Hiu Putih (A)."
+      },
+      {
+        "id": "utbk_ded_140",
+        "teks": "Jika nilai tukar mata uang rupiah melemah secara ekstrem terhadap dolar Amerika, maka harga barang-barang elektronik impor akan meroket naik. Menurut pantauan pasar hari ini, harga barang-barang elektronik impor tetap stabil dan tidak meroket naik. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Harga barang-barang lokal justru yang meroket naik tajam.",
+          "Nilai tukar mata uang rupiah melemah secara ekstrem terhadap dolar Amerika.",
+          "Nilai tukar mata uang rupiah tidak melemah secara ekstrem terhadap dolar Amerika.",
+          "Pemerintah membagikan barang-barang elektronik secara gratis kepada rakyat.",
+          "Mata uang dolar Amerika kehilangan nilainya di pasar global."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Modus Tollens. Jika P (rupiah melemah ekstrem) -> Q (harga impor meroket). Karena fakta aktual adalah ~Q (harga impor tidak meroket), kesimpulan deduktifnya mutlak menolak premis awal, yakni ~P (rupiah tidak melemah secara ekstrem)."
+      },
+      {
+        "id": "utbk_ded_141",
+        "teks": "Sebagian siswa kelas XII di SMA Cendekia sangat menyukai pelajaran Fisika Kuantum. Semua orang yang sangat menyukai pelajaran Fisika Kuantum memiliki kemampuan analisis logika hitung yang di atas rata-rata. Kesimpulan deduktifnya adalah...",
+        "opsi": [
+          "Semua siswa kelas XII di SMA Cendekia memiliki kemampuan analisis logika hitung di atas rata-rata.",
+          "Sebagian siswa kelas XII di SMA Cendekia memiliki kemampuan analisis logika hitung yang di atas rata-rata.",
+          "Hanya siswa yang pandai Fisika Kuantum yang bisa lulus dari SMA Cendekia.",
+          "Tidak ada siswa kelas XII yang gagal dalam pelajaran Fisika Kuantum.",
+          "Semua siswa yang memiliki kemampuan analisis logika hitung pasti menyukai Fisika Kuantum."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Partikular Afirmatif. Karena 'semua' orang yang menyukai Fisika Kuantum (A) bersifat punya logika hitung tinggi (B), dan 'sebagian' siswa XII (C) adalah (A), maka 'sebagian' siswa XII (C) tersebut mutlak memiliki sifat (B)."
+      },
+      {
+        "id": "utbk_ded_142",
+        "teks": "Syarat mutlak untuk dapat diterima sebagai staf kabin pramugari di Maskapai Z adalah memiliki tinggi badan minimal 160 cm tanpa alas kaki. Siska baru saja diterima dan resmi bekerja sebagai staf kabin pramugari di Maskapai Z. Simpulan yang pasti benar adalah...",
+        "opsi": [
+          "Tinggi badan Siska pasti persis 160 cm, tidak kurang dan tidak lebih.",
+          "Siska adalah pramugari paling tinggi di antara rekan-rekannya di Maskapai Z.",
+          "Siska memalsukan data tinggi badannya saat proses seleksi wawancara.",
+          "Sebagian pramugari di Maskapai Z memiliki tinggi di bawah 160 cm.",
+          "Tinggi badan Siska minimal 160 cm tanpa alas kaki."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kondisi Keharusan (*Necessary Condition*). Menjadi pramugari (Q) mensyaratkan secara mutlak tinggi >= 160 cm (P). Karena Siska terbukti mencapai akibatnya (menjadi pramugari), maka Siska mutlak telah memenuhi syarat esensialnya (tinggi minimal 160 cm)."
+      },
+      {
+        "id": "utbk_ded_143",
+        "teks": "Semua Pegawai Negeri Sipil (PNS) pusat menerima tunjangan kinerja (tukin) bulanan dari anggaran pemerintah. Budi sama sekali bukan seorang Pegawai Negeri Sipil (PNS) pusat. Kesimpulan yang logis adalah...",
+        "opsi": [
+          "Budi pasti tidak menerima tunjangan kinerja (tukin) bulanan dari anggaran pemerintah.",
+          "Budi adalah seorang pengusaha sukses yang tidak butuh tunjangan.",
+          "Budi mungkin saja menerima tunjangan kinerja dari anggaran pemerintah dengan status lain, atau dari swasta.",
+          "Semua orang yang bukan PNS pusat pasti menjadi pengangguran.",
+          "Tidak dapat disimpulkan secara mutlak apakah Budi menerima tunjangan kinerja (tukin) bulanan dari anggaran pemerintah atau tidak."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kesesatan Logika (<i>Denying the Antecedent</i>). Semua PNS pusat (P) -> terima tukin (Q). Fakta Budi bukan PNS pusat (~P). Hal ini tidak berarti Budi pasti tidak terima tukin (~Q), karena Budi bisa saja seorang pegawai BUMN, anggota TNI/Polri, atau instansi lain yang juga menerima tukin dari pemerintah. Sehingga tidak dapat ditarik simpulan mutlak."
+      },
+      {
+        "id": "utbk_ded_144",
+        "teks": "Jika tegangan listrik utama di gedung padam secara tiba-tiba, maka mesin *Air Conditioner* (AC) sentral di seluruh ruangan akan mati. Baru saja dilaporkan bahwa tegangan listrik utama di gedung padam secara tiba-tiba akibat tersambar petir. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Gedung tersebut akan segera terbakar akibat sambaran petir.",
+          "Mesin *Air Conditioner* (AC) sentral di seluruh ruangan mati.",
+          "Mesin AC sentral tetap menyala menggunakan daya baterai cadangan yang sangat besar.",
+          "Petugas PLN akan tiba dalam waktu 5 menit untuk memperbaiki aliran listrik.",
+          "Sebagian ruangan VIP di gedung tersebut tidak terdampak pemadaman."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Ponens klasik yang paling lurus. Pemicu (Listrik padam) -> Akibat (AC mati). Karena fakta menunjukkan bahwa pemicunya benar-benar terjadi, maka akibatnya (AC mati) harus diterima sebagai kenyataan mutlak."
+      },
+      {
+        "id": "utbk_ded_145",
+        "teks": "Tidak ada spesies mamalia darat yang organ pernapasannya menggunakan insang layaknya ikan laut. Spesies Hiu Macan secara ilmiah bernapas menggunakan insang. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Spesies Hiu Macan adalah mamalia darat yang bisa berenang di lautan.",
+          "Spesies Hiu Macan bukan merupakan spesies mamalia darat.",
+          "Sebagian mamalia darat mungkin memiliki organ pernapasan insang tersembunyi.",
+          "Semua hiu adalah mamalia yang bertelur di dasar samudera.",
+          "Hiu Macan akan berevolusi menjadi hewan amfibi dalam jutaan tahun ke depan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Himpunan Mamalia Darat (A) tidak beririsan (nol irisan) dengan himpunan Berinsang (B). Hiu Macan (C) berada di himpunan Berinsang (B). Secara logika mutlak, Hiu Macan (C) tidak bisa berada di himpunan Mamalia Darat (A)."
+      },
+      {
+        "id": "utbk_ded_146",
+        "teks": "Jika harga beras lokal meroket naik, maka para ibu rumah tangga akan banyak yang mengeluh. Jika para ibu rumah tangga banyak yang mengeluh, maka bapak-bapak kepala keluarga akan merasa bingung mengatur keuangan. Bulan ini, dilaporkan bahwa harga beras lokal meroket naik sangat tajam. Simpulan yang logis adalah...",
+        "opsi": [
+          "Pemerintah akan segera mengimpor beras dari luar negeri besar-besaran.",
+          "Bapak-bapak kepala keluarga akan merasa bingung mengatur keuangan.",
+          "Para ibu rumah tangga akan melakukan protes dan demonstrasi turun ke jalan.",
+          "Harga kebutuhan pokok selain beras lokal pasti ikut meroket naik tajam.",
+          "Bapak-bapak kepala keluarga tidak akan terpengaruh sama sekali oleh harga beras."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Hipotesis Berantai (Hukum Transitif). A -> B, B -> C, sehingga A -> C (Jika beras naik -> bapak-bapak bingung). Karena faktanya A (beras naik) terjadi, maka menggunakan Modus Ponens, C (bapak-bapak bingung) pasti akan terjadi."
+      },
+      {
+        "id": "utbk_ded_147",
+        "teks": "Sesuai keputusan dewan direksi, rapat pleno pemegang saham bulan ini hanya akan diselenggarakan secara tatap muka di Aula Lantai 1 atau di Ruang Konferensi Lantai 2. Pagi ini, departemen sarana prasarana memastikan bahwa rapat pleno pemegang saham tidak diselenggarakan di Ruang Konferensi Lantai 2 karena sedang direnovasi. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Rapat pleno pemegang saham bulan ini dibatalkan secara sepihak oleh dewan direksi.",
+          "Rapat pleno pemegang saham diselenggarakan secara virtual (<i>online</i>) dari rumah masing-masing.",
+          "Rapat pleno pemegang saham bulan ini diselenggarakan secara tatap muka di Aula Lantai 1.",
+          "Ruang Konferensi Lantai 2 akan selesai direnovasi tepat sebelum rapat pleno dimulai.",
+          "Rapat pleno dipindahkan ke hotel berbintang lima di pusat kota."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika Silogisme Disjungtif Mutlak (P OR Q). Premis menyatakan dua opsi ruang terbatas (Lantai 1 atau Lantai 2). Satu opsi telah digugurkan kebenarannya oleh fakta (~Q: tidak di Lantai 2). Maka secara deduktif, opsi yang lain pasti adalah yang benar (P: di Aula Lantai 1)."
+      },
+      {
+        "id": "utbk_ded_148",
+        "teks": "Sebagian murid pindahan di kelas X MIPA sangat hobi membaca novel fantasi ilmiah di perpustakaan. Semua orang yang sangat hobi membaca novel fantasi ilmiah cenderung pandai merangkai kata dan memiliki imajinasi kuat. Simpulan deduktifnya adalah...",
+        "opsi": [
+          "Hanya murid pindahan di kelas X MIPA yang pandai merangkai kata dan berimajinasi kuat.",
+          "Semua murid di kelas X MIPA pandai merangkai kata dan memiliki imajinasi kuat.",
+          "Sebagian murid pindahan di kelas X MIPA cenderung pandai merangkai kata dan memiliki imajinasi kuat.",
+          "Tidak ada murid pindahan di kelas X MIPA yang menyukai pelajaran matematika eksakta.",
+          "Semua orang yang pandai merangkai kata pasti berstatus sebagai murid pindahan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Partikular Afirmatif (Darii). 'Sebagian' kelompok subjek (murid pindahan) memiliki sifat A (hobi novel). 'Semua' sifat A memiliki sifat bawaan B (pandai kata & imajinasi). Maka kelompok 'sebagian' subjek tersebut mutlak akan mewarisi sifat B."
+      },
+      {
+        "id": "utbk_ded_149",
+        "teks": "Jika tanaman hias pekarangan disiram air nutrisi secara rutin setiap pagi, maka tanaman tersebut akan tumbuh subur dan berbunga lebat. Saat Anda berkunjung ke rumah tetangga, Anda melihat tanaman hias di pekarangannya tumbuh sangat subur dan berbunga amat lebat. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Tetangga Anda pasti menyiram tanamannya dengan air nutrisi secara rutin setiap pagi.",
+          "Tetangga Anda menggunakan sihir atau pestisida kimia ilegal untuk menumbuhkan tanamannya.",
+          "Tanaman tersebut dibeli secara instan dari toko bunga terkenal di kota.",
+          "Semua tanaman di lingkungan perumahan Anda tumbuh subur dan berbunga lebat.",
+          "Tidak dapat disimpulkan secara mutlak apakah tetangga Anda menyiram air nutrisi setiap pagi atau tidak."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Kesesatan Logika (<i>Affirming the Consequent</i>). P -> Q (Jika disiram nutrisi -> Tumbuh subur). Fakta yang terlihat adalah akibat Q (Tumbuh subur). Secara logika deduktif murni, kita tidak bisa menyimpulkan penyebab tunggalnya P (disiram nutrisi), karena tanaman bisa saja tumbuh subur karena faktor alam lain seperti tanah yang memang sangat bagus atau genetik tanaman yang unggul."
+      },
+      {
+        "id": "utbk_ded_150",
+        "teks": "Semua jenis kendaraan bermotor roda empat atau lebih yang melewati gerbang tol komersial diwajibkan membayar tarif retribusi sesuai golongan. Truk pengangkut barang X saat ini sedang melintas masuk melewati gerbang tol komersial dan diketahui memiliki enam buah roda. Simpulan yang mutlak benar adalah...",
+        "opsi": [
+          "Truk pengangkut barang X bebas dari tarif retribusi karena mengangkut bahan pokok logistik.",
+          "Truk pengangkut barang X diwajibkan membayar tarif retribusi sesuai golongan.",
+          "Truk pengangkut barang X dilarang melewati gerbang tol komersial tersebut.",
+          "Hanya truk pengangkut barang X yang wajib membayar tarif retribusi tertinggi.",
+          "Sebagian kendaraan yang melintas di gerbang tol tidak perlu membayar retribusi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Kategorik Afirmatif Universal. Aturan menetapkan bahwa 'semua' anggota himpunan kendaraan beroda 4 atau lebih (A) wajib membayar tol (B). Karena Truk X memiliki 6 roda, Truk X sah masuk ke dalam himpunan A. Oleh karenanya, Truk X mutlak wajib memenuhi aturan B (membayar tarif retribusi)."
+      },
+      {
+        "id": "utbk_ded_151",
+        "teks": "Semua nasabah di Bank XYZ yang memiliki total saldo tabungan di atas satu miliar rupiah secara otomatis mendapatkan fasilitas layanan <i>Priority Banking</i>. Bapak Anton adalah nasabah di Bank XYZ yang saat ini memiliki total saldo tabungan sebesar dua miliar rupiah. Simpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Bapak Anton mungkin menolak fasilitas layanan <i>Priority Banking</i>.",
+          "Sebagian nasabah Bank XYZ tidak mendapatkan layanan <i>Priority Banking</i>.",
+          "Bapak Anton secara otomatis mendapatkan fasilitas layanan <i>Priority Banking</i>.",
+          "Hanya Bapak Anton yang mendapatkan fasilitas layanan <i>Priority Banking</i>.",
+          "Fasilitas layanan <i>Priority Banking</i> diberikan kepada nasabah baru."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penerapan Silogisme Kategorik Afirmatif (Modus Barbara). Aturan universal: Semua A (Saldo > 1 M) mendapatkan B (Priority Banking). Karena Anton terbukti berada dalam kelompok A (Saldo 2 M), maka ia mutlak mendapatkan B."
+      },
+      {
+        "id": "utbk_ded_152",
+        "teks": "Jika volume kendaraan bermotor di ruas jalan tol melebihi kapasitas maksimalnya, maka pihak pengelola jalan tol akan segera memberlakukan sistem <i>contraflow</i> (lawan arus). Siang ini, dipastikan bahwa pihak pengelola jalan tol sama sekali tidak memberlakukan sistem <i>contraflow</i>. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Sistem <i>contraflow</i> dibatalkan karena tidak ada petugas yang berjaga.",
+          "Volume kendaraan bermotor di ruas jalan tol tidak melebihi kapasitas maksimalnya.",
+          "Jalan tol sedang ditutup untuk perbaikan aspal.",
+          "Volume kendaraan bermotor di ruas jalan tol sedang padat merayap.",
+          "Pengelola jalan tol lupa memberlakukan sistem <i>contraflow</i>."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Tollens. Premis mayor: Jika P (Volume melebihi kapasitas) maka Q (Sistem contraflow diberlakukan). Fakta: ~Q (Sistem contraflow tidak diberlakukan). Maka kesimpulan mutlaknya adalah ~P (Volume tidak melebihi kapasitas)."
+      },
+      {
+        "id": "utbk_ded_153",
+        "teks": "Sebagian dosen pengajar di Universitas Merdeka adalah lulusan dari perguruan tinggi luar negeri. Semua orang yang merupakan lulusan dari perguruan tinggi luar negeri diwajibkan menguasai setidaknya dua bahasa asing. Simpulan yang benar adalah...",
+        "opsi": [
+          "Semua dosen pengajar di Universitas Merdeka diwajibkan menguasai setidaknya dua bahasa asing.",
+          "Semua orang yang menguasai dua bahasa asing adalah lulusan perguruan tinggi luar negeri.",
+          "Sebagian dosen pengajar di Universitas Merdeka diwajibkan menguasai setidaknya dua bahasa asing.",
+          "Tidak ada dosen di Universitas Merdeka yang tidak menguasai bahasa asing.",
+          "Hanya lulusan luar negeri yang boleh mengajar di Universitas Merdeka."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Partikular (Darii). Karena 'semua' lulusan luar negeri wajib menguasai 2 bahasa asing, dan 'sebagian' dosen adalah lulusan luar negeri, maka himpunan 'sebagian' dosen tersebut mutlak mewarisi kewajiban menguasai 2 bahasa asing."
+      },
+      {
+        "id": "utbk_ded_154",
+        "teks": "Setiap peserta lomba penulisan esai nasional diperbolehkan untuk mengirimkan karyanya dalam bahasa Indonesia <b>atau</b> bahasa Inggris. Budi adalah salah satu peserta lomba penulisan esai tersebut, dan panitia memastikan bahwa esai milik Budi tidak dikirimkan dalam bahasa Inggris. Kesimpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Budi didiskualifikasi dari lomba penulisan esai nasional tersebut.",
+          "Budi mengirimkan karyanya dalam bahasa daerah.",
+          "Budi mengirimkan karyanya dalam bahasa Indonesia.",
+          "Panitia menolak karya Budi karena salah bahasa.",
+          "Budi mungkin mengirimkan esai dalam dua bahasa sekaligus."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Disjungtif Mutlak (P OR Q). Premis menyatakan dua opsi valid: P (Indonesia) atau Q (Inggris). Karena satu opsi telah dibantah oleh fakta (~Q: tidak bahasa Inggris), maka secara logika opsi yang tersisa mutlak benar, yaitu P (bahasa Indonesia)."
+      },
+      {
+        "id": "utbk_ded_155",
+        "teks": "Jika seseorang secara tidak sengaja memakan kacang tanah, maka penyakit alerginya akan segera kambuh. Saat Anda bertemu Tono di rumah sakit, penyakit alerginya terlihat sedang kambuh parah. Kesimpulan yang paling logis adalah...",
+        "opsi": [
+          "Tono pasti baru saja memakan kacang tanah secara tidak sengaja.",
+          "Tono memakan makanan laut (<i>seafood</i>) yang sudah basi.",
+          "Tidak dapat disimpulkan secara mutlak apakah Tono memakan kacang tanah atau tidak.",
+          "Tono sengaja memakan kacang tanah untuk menguji alerginya.",
+          "Alergi Tono disebabkan oleh debu dan polusi udara."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kesesatan Logika (<i>Fallacy of Affirming the Consequent</i>). P -> Q (Makan kacang -> Alergi kambuh). Faktanya Q terjadi (Alergi kambuh). Dari segi deduktif, kita tidak bisa menyimpulkan bahwa P (makan kacang) pasti terjadi, karena alergi Tono bisa saja kambuh akibat faktor lain (seafood, debu, bulu kucing, dll)."
+      },
+      {
+        "id": "utbk_ded_156",
+        "teks": "Sebuah desa akan secara resmi mendapatkan predikat 'Desa Mandiri' dari kementerian <b>hanya jika</b> desa tersebut berhasil memenuhi 10 indikator kesejahteraan masyarakat. Hari ini, Desa Suka Maju diresmikan dan mendapatkan predikat 'Desa Mandiri'. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Desa Suka Maju mungkin menyuap pejabat kementerian untuk mendapat predikat tersebut.",
+          "Desa Suka Maju berhasil memenuhi 10 indikator kesejahteraan masyarakat.",
+          "Semua desa di kementerian tersebut telah memenuhi 10 indikator kesejahteraan.",
+          "Desa Suka Maju adalah desa pertama yang menjadi 'Desa Mandiri'.",
+          "Kementerian menurunkan standar indikator kesejahteraan untuk Desa Suka Maju."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kondisi Keharusan / *Necessary Condition* ('Hanya jika'). Mendapat predikat (Q) HANYA BISA terjadi jika syarat (P: memenuhi 10 indikator) terpenuhi. Karena fakta menyatakan akibat (Q) terjadi, maka syaratnya (P) mutlak telah terpenuhi."
+      },
+      {
+        "id": "utbk_ded_157",
+        "teks": "Tidak ada spesies ikan air tawar asli sungai yang dapat bertahan hidup secara alami di laut lepas yang bersalinitas (kadar garam) tinggi. Ikan Hiu Putih adalah spesies yang dapat bertahan hidup secara alami di laut lepas bersalinitas tinggi. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Ikan Hiu Putih adalah ikan air tawar yang bermutasi genetik.",
+          "Sebagian ikan air tawar bisa hidup di laut lepas jika berukuran besar.",
+          "Ikan Hiu Putih bukan merupakan spesies ikan air tawar asli sungai.",
+          "Semua ikan laut pasti bisa hidup di sungai air tawar.",
+          "Hanya Ikan Hiu Putih yang bisa hidup di dua alam."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Negatif Eksklusif (Celarent). Himpunan Ikan Air Tawar (A) tidak beririsan dengan himpunan Hidup di Laut Lepas (B). Karena Hiu Putih (C) berada di himpunan Hidup di Laut Lepas (B), maka Hiu Putih (C) mutlak tidak mungkin berasal dari himpunan Ikan Air Tawar (A)."
+      },
+      {
+        "id": "utbk_ded_158",
+        "teks": "Jika harga tiket pesawat promo maskapai L dibuka, maka *server* aplikasi pemesanan tiket akan kelebihan beban (<i>overload</i>). Jika *server* aplikasi kelebihan beban (<i>overload</i>), maka ribuan pelanggan akan kesulitan mengakses aplikasi tersebut. Hari ini, harga tiket pesawat promo maskapai L resmi dibuka. Simpulan yang sah adalah...",
+        "opsi": [
+          "Pelanggan tidak akan memedulikan promo maskapai L karena terlalu murah.",
+          "Ribuan pelanggan akan kesulitan mengakses aplikasi pemesanan tiket tersebut.",
+          "Aplikasi pemesanan tiket akan diperbaiki oleh teknisi dalam waktu singkat.",
+          "Maskapai L akan membatalkan promo tiket karena *server* mereka lumpuh.",
+          "*Server* aplikasi tidak kelebihan beban meskipun promo tiket dibuka."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Hipotesis Berantai (P -> Q, Q -> R) menghasilkan P -> R. Artinya: Jika tiket promo dibuka (P), maka pelanggan kesulitan akses (R). Karena faktanya P (promo dibuka) terjadi, maka berlakulah Modus Ponens di mana R (pelanggan kesulitan akses) pasti terjadi."
+      },
+      {
+        "id": "utbk_ded_159",
+        "teks": "Setiap peserta rapat koordinasi nasional yang hadir membawa surat undangan fisik akan diberikan sebuah tanda pengenal (<i>name tag</i>) khusus berwarna merah. Bapak Suryo adalah salah satu peserta rapat koordinasi nasional yang hadir dengan membawa surat undangan fisik. Kesimpulan yang paling tepat adalah...",
+        "opsi": [
+          "Bapak Suryo adalah panitia yang bertugas membagikan surat undangan.",
+          "Sebagian peserta yang membawa undangan fisik tidak diberi tanda pengenal.",
+          "Bapak Suryo mungkin lupa membawa tanda pengenalnya.",
+          "Bapak Suryo akan diberikan sebuah tanda pengenal (<i>name tag</i>) khusus berwarna merah.",
+          "Hanya Bapak Suryo yang mendapatkan tanda pengenal berwarna merah."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Penerapan aturan universal afirmatif. Semua himpunan X (membawa undangan) harus mendapat perlakuan Y (diberi name tag merah). Bapak Suryo masuk di dalam himpunan X, sehingga secara deduktif Bapak Suryo wajib menerima perlakuan Y."
+      },
+      {
+        "id": "utbk_ded_160",
+        "teks": "Jika seorang pengemudi mengantuk berat saat berkendara di jalan tol, maka mobil yang dikemudikannya akan keluar dari lajur marka jalan. Mobil Pak Anton sama sekali tidak keluar dari lajur marka jalan saat ia berkendara di tol semalam. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Pak Anton tidak mengantuk berat saat berkendara di jalan tol semalam.",
+          "Pak Anton menggunakan fitur autopilot di mobilnya.",
+          "Mobil Pak Anton tidak bisa keluar jalur karena melaju sangat pelan.",
+          "Tidak dapat disimpulkan secara mutlak apakah Pak Anton mengantuk atau tidak.",
+          "Pak Anton sempat tertidur sesaat di lampu merah."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Modus Tollens Lurus. Jika P (mengantuk) -> Q (keluar lajur). Karena fakta mengatakan ~Q (tidak keluar lajur), maka kesimpulannya haruslah ~P (tidak mengantuk berat)."
+      },
+      {
+        "id": "utbk_ded_161",
+        "teks": "Sebagian besar komputer generasi terbaru di laboratorium IT menggunakan prosesor <i>octa-core</i>. Semua perangkat yang menggunakan prosesor <i>octa-core</i> mampu merender video 4K tanpa hambatan. Simpulan yang logis adalah...",
+        "opsi": [
+          "Semua komputer di laboratorium IT mampu merender video 4K tanpa hambatan.",
+          "Sebagian besar komputer generasi terbaru di laboratorium IT mampu merender video 4K tanpa hambatan.",
+          "Tidak ada komputer generasi lama yang bisa merender video 4K.",
+          "Hanya prosesor <i>octa-core</i> yang ada di laboratorium IT.",
+          "Sebagian prosesor <i>octa-core</i> bukan milik komputer generasi terbaru."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Partikular Afirmatif. Karena 'semua' yang pakai octa-core (A) mampu merender 4K (B), dan 'sebagian besar' komputer terbaru (C) menggunakan octa-core (A), maka kelompok 'sebagian besar' komputer terbaru (C) tersebut mutlak mampu merender 4K (B)."
+      },
+      {
+        "id": "utbk_ded_162",
+        "teks": "Jika status gunung berapi dinaikkan menjadi 'Level Awas', maka seluruh penerbangan komersial di radius 50 kilometer akan dibatalkan. Hari ini, seluruh penerbangan komersial di radius tersebut tidak dibatalkan (beroperasi normal). Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Gunung berapi tersebut sedang mengalami erupsi kecil.",
+          "Status gunung berapi mungkin sedang dalam 'Level Siaga'.",
+          "Status gunung berapi tidak dinaikkan menjadi 'Level Awas'.",
+          "Penerbangan komersial menggunakan rute lain yang lebih jauh.",
+          "Pesawat komersial tidak terpengaruh oleh abu vulkanik gunung berapi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Modus Tollens murni. P -> Q (Level Awas -> Penerbangan dibatalkan). Fakta aktual menunjukkan ~Q (Penerbangan tidak dibatalkan). Oleh karena itu, kita dapat menyimpulkan dengan pasti ~P (Status gunung berapi tidak dinaikkan menjadi 'Level Awas')."
+      },
+      {
+        "id": "utbk_ded_163",
+        "teks": "Tidak ada satu pun barang berbahan dasar logam baja yang dapat mengapung secara alami di permukaan air tawar. Sebuah benda berbentuk kubus misterius X terlihat mengapung dengan tenang secara alami di permukaan air tawar danau. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Benda kubus X mungkin terbuat dari kayu atau gabus ringan.",
+          "Sebagian logam baja dapat diubah agar bisa mengapung di air tawar.",
+          "Benda kubus misterius X tersebut tidak berbahan dasar logam baja.",
+          "Semua benda yang mengapung di air tawar pasti bukan logam.",
+          "Air danau tersebut memiliki massa jenis yang lebih berat dari air laut."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Eksklusi (Camestres). Sifat Logam Baja (A) mutlak ditolak oleh sifat Mengapung (B) [A -> ~B]. Fakta membuktikan Benda X memiliki sifat Mengapung (B). Maka Benda X mutlak bukan Logam Baja (~A)."
+      },
+      {
+        "id": "utbk_ded_164",
+        "teks": "Jika pelamar kerja mencantumkan sertifikat TOEFL di atas 550, maka ia akan langsung dipanggil untuk tahap wawancara direksi. Jika ia dipanggil untuk tahap wawancara direksi, maka ia harus menyiapkan presentasi proposal bisnis. Diketahui bahwa Sinta tidak harus menyiapkan presentasi proposal bisnis. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Sinta tidak mencantumkan sertifikat TOEFL di atas 550.",
+          "Sinta ditolak bekerja di perusahaan tersebut tanpa wawancara.",
+          "Sinta mungkin mencantumkan sertifikat TOEFL dengan skor 500.",
+          "Sinta sudah diterima bekerja sehingga tidak perlu presentasi.",
+          "Sertifikat TOEFL Sinta hilang saat proses pengiriman berkas."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Silogisme Transitif dipadukan dengan Modus Tollens. A -> B dan B -> C menghasilkan A -> C (Jika TOEFL >550 -> Siapkan presentasi). Fakta: ~C (Sinta tidak menyiapkan presentasi). Maka kesimpulannya mutlak ~A (Sinta tidak mencantumkan TOEFL >550)."
+      },
+      {
+        "id": "utbk_ded_165",
+        "teks": "Semua resep obat keras yang mengandung antibiotik harus ditebus dengan menggunakan resep asli dari dokter berlisensi. Obat jenis Cefadroxil diklasifikasikan sebagai salah satu resep obat keras yang mengandung antibiotik. Simpulan deduktifnya adalah...",
+        "opsi": [
+          "Sebagian apotek mungkin menjual obat jenis Cefadroxil secara bebas tanpa resep.",
+          "Obat jenis Cefadroxil harus ditebus dengan menggunakan resep asli dari dokter berlisensi.",
+          "Hanya obat jenis Cefadroxil yang memerlukan resep asli dari dokter.",
+          "Semua dokter berlisensi wajib meresepkan obat jenis Cefadroxil.",
+          "Obat jenis Cefadroxil tidak boleh dikonsumsi oleh anak-anak di bawah umur."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sillogisme Kategorik Afirmatif (Barbara). Himpunan X (Semua obat antibiotik) tunduk pada Aturan Y (harus pakai resep asli). Karena Obat Cefadroxil berada di dalam Himpunan X, maka obat tersebut mutlak tunduk pada Aturan Y."
+      },
+      {
+        "id": "utbk_ded_166",
+        "teks": "Seseorang akan dikenai denda keterlambatan pembayaran pajak bumi dan bangunan (PBB) <b>hanya jika</b> ia melewati tanggal jatuh tempo pembayaran di akhir bulan Agustus. Pak Joko hari ini resmi dikenai denda keterlambatan pembayaran PBB oleh kantor pajak. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Pak Joko sengaja tidak membayar pajaknya karena sedang kesulitan ekonomi.",
+          "Kantor pajak melakukan kesalahan dalam memproses data pembayaran Pak Joko.",
+          "Pak Joko pasti membayar tagihan PBB-nya melewati tanggal jatuh tempo di akhir bulan Agustus.",
+          "Semua warga yang membayar pajak di bulan Agustus tidak akan didenda.",
+          "Pak Joko akan disita rumahnya jika tidak segera membayar denda tersebut."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kondisi Keharusan / *Necessary Condition* ('Hanya jika'). Kena Denda (Q) mutlak mensyaratkan Lewat Jatuh Tempo (P). Karena akibatnya (Q) sudah terjadi/ditetapkan, maka syaratnya (P) mutlak pasti telah terjadi di dunia nyata."
+      },
+      {
+        "id": "utbk_ded_167",
+        "teks": "Jika sebuah *startup* diakuisisi oleh perusahaan teknologi raksasa, maka struktur organisasi *startup* tersebut akan dirombak total. Berita hari ini menyebutkan bahwa struktur organisasi *startup* Alpha baru saja dirombak total. Simpulan yang paling tepat adalah...",
+        "opsi": [
+          "Startup Alpha pasti baru saja diakuisisi oleh perusahaan teknologi raksasa.",
+          "Startup Alpha akan segera memecat setengah dari jumlah karyawannya.",
+          "Tidak dapat disimpulkan secara mutlak apakah *startup* Alpha diakuisisi atau tidak.",
+          "Perusahaan teknologi raksasa tersebut bangkrut setelah mengakuisisi Alpha.",
+          "Startup Alpha tidak diakuisisi namun mereka mengubah logo perusahaan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kesesatan Logika *Affirming the Consequent*. P -> Q (Diakuisisi -> Struktur dirombak). Jika faktanya Q (struktur dirombak) terjadi, maka P (diakuisisi) tidak bisa dipastikan secara deduktif, karena perombakan struktur bisa saja terjadi karena pergantian CEO internal atau efisiensi biaya, bukan hanya karena akuisisi."
+      },
+      {
+        "id": "utbk_ded_168",
+        "teks": "Pemilihan rute kereta logistik akan melewati Rute Utara yang menanjak atau Rute Selatan yang memutar lebih jauh. Karena adanya perbaikan jembatan panjang, pihak masinis memastikan kereta tidak akan melewati Rute Utara yang menanjak. Simpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Kereta logistik membatalkan perjalanannya hari ini.",
+          "Kereta logistik akan melewati Rute Selatan yang memutar lebih jauh.",
+          "Masinis akan menunggu jembatan panjang selesai diperbaiki.",
+          "Rute Selatan juga sedang mengalami perbaikan jembatan panjang.",
+          "Kereta logistik dialihkan menggunakan moda transportasi laut."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Disjungtif (P atau Q). Hanya ada dua pilihan eksklusif (Utara atau Selatan). Fakta membantah opsi P (~P: tidak lewat Utara). Maka secara mutlak opsi yang harus dipilih adalah Q (lewat Rute Selatan)."
+      },
+      {
+        "id": "utbk_ded_169",
+        "teks": "Semua tanaman perkebunan yang diserang hama wereng secara masif akan mengalami gagal panen dan daunnya menguning. Tidak ada satu pun tanaman jagung di ladang Pak Amir yang mengalami gagal panen maupun daun menguning. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Tanaman jagung di ladang Pak Amir tidak diserang hama wereng secara masif.",
+          "Hama wereng hanya menyerang tanaman padi, bukan tanaman jagung.",
+          "Pak Amir menggunakan pestisida kimia yang sangat kuat di ladangnya.",
+          "Sebagian tanaman jagung Pak Amir mungkin akan menguning bulan depan.",
+          "Semua tanaman yang tidak diserang wereng pasti tumbuh sangat subur."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Penerapan Modus Tollens pada aturan universal. Semua A (diserang wereng) pasti B (gagal panen & menguning). Fakta: Tanaman jagung Pak Amir adalah ~B (tidak gagal panen & menguning). Maka mutlak tanaman tersebut ~A (tidak diserang wereng secara masif)."
+      },
+      {
+        "id": "utbk_ded_170",
+        "teks": "Jika aplikasi pengantaran makanan sedang mengalami gangguan (<i>error</i>), maka tombol pemesanan tidak dapat ditekan oleh pengguna. Saat Anda membuka aplikasi tersebut, Anda mendapati bahwa tombol pemesanan dapat ditekan dan berfungsi normal. Kesimpulan deduktifnya adalah...",
+        "opsi": [
+          "Aplikasi pengantaran makanan tersebut sedang tidak mengalami gangguan (<i>error</i>).",
+          "Aplikasi tersebut mungkin hanya mengalami gangguan pada fitur pelacakan kurir.",
+          "Restoran yang Anda tuju sedang tutup meskipun tombol pemesanan berfungsi.",
+          "Anda harus segera memperbarui (<i>update</i>) aplikasi tersebut ke versi terbaru.",
+          "Kurir pengantaran makanan sedang sibuk mengantar pesanan orang lain."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Modus Tollens Lurus. P -> Q (Aplikasi error -> Tombol tidak bisa ditekan). Fakta yang terjadi di lapangan adalah ~Q (Tombol pemesanan BISA ditekan/berfungsi). Maka kesimpulan mutlaknya adalah ~P (Aplikasi TIDAK sedang error)."
+      },
+      {
+        "id": "utbk_ded_171",
+        "teks": "Sebagian besar siswa yang tergabung dalam tim olimpiade sains sekolah juga aktif mengikuti bimbingan belajar tambahan di luar jam sekolah. Semua siswa yang aktif mengikuti bimbingan belajar tambahan pulang ke rumah pada malam hari. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua siswa tim olimpiade sains pulang ke rumah pada malam hari.",
+          "Hanya siswa yang ikut bimbingan belajar yang bisa masuk tim olimpiade sains.",
+          "Sebagian besar siswa yang tergabung dalam tim olimpiade sains sekolah pulang ke rumah pada malam hari.",
+          "Tidak ada anggota tim olimpiade sains yang belajar secara mandiri di rumah.",
+          "Semua siswa yang pulang malam hari pasti cerdas dalam pelajaran sains."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Partikular (Darii). Karena 'semua' yang ikut bimbel (A) pulang malam (B), dan 'sebagian besar' tim olimpiade (C) adalah peserta bimbel (A). Maka kelompok 'sebagian besar' olimpiade (C) itu secara mutlak memantulkan sifat pulang malam (B)."
+      },
+      {
+        "id": "utbk_ded_172",
+        "teks": "Jika seorang debitur telat membayar angsuran kartu kredit selama lebih dari tiga bulan berturut-turut, maka namanya akan dimasukkan ke dalam daftar hitam Bank Indonesia (BI Checking). Pak Budi mendapati bahwa namanya dipastikan tidak dimasukkan ke dalam daftar hitam Bank Indonesia. Simpulan yang sah adalah...",
+        "opsi": [
+          "Pak Budi tidak memiliki kartu kredit dari bank mana pun.",
+          "Bank Indonesia salah memasukkan data debitur lainnya.",
+          "Pak Budi selalu membayar angsuran kartu kreditnya tepat waktu sebelum tanggal jatuh tempo setiap bulan.",
+          "Pak Budi tidak telat membayar angsuran kartu kredit selama lebih dari tiga bulan berturut-turut.",
+          "Pak Budi membayar lunas semua utang kartu kreditnya dalam waktu singkat."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Modus Tollens murni. P -> Q (Telat > 3 bulan -> Masuk daftar hitam). Fakta: ~Q (Tidak masuk daftar hitam). Kesimpulan logis mutlak: ~P (Tidak telat membayar angsuran lebih dari 3 bulan berturut-turut). Perhatikan bahwa opsi C terlalu jauh menyimpulkan 'selalu tepat waktu', yang paling presisi adalah negasi dari P (opsi D)."
+      },
+      {
+        "id": "utbk_ded_173",
+        "teks": "Tidak ada hewan vertebrata (bertulang belakang) jenis amfibi yang memiliki suhu tubuh panas dan konstan seperti mamalia. Katak Pohon Hijau diklasifikasikan sebagai hewan vertebrata berjenis amfibi. Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Katak Pohon Hijau mungkin bisa hidup di kutub utara berkat evolusi genetik.",
+          "Katak Pohon Hijau memiliki suhu tubuh panas dan konstan seperti mamalia.",
+          "Sebagian besar katak tidak memiliki tulang belakang saat masih berupa berudu.",
+          "Katak Pohon Hijau tidak memiliki suhu tubuh panas dan konstan seperti mamalia.",
+          "Mamalia berevolusi dari hewan amfibi yang kehilangan tulang belakangnya."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Kategorik Negatif (Celarent). Aturan menyatakan Himpunan Amfibi (A) beririsan nol dengan Himpunan Suhu Panas Konstan (B). Karena Katak Pohon (C) adalah bagian dari Amfibi (A), maka Katak Pohon (C) mutlak BUKAN Himpunan Suhu Panas Konstan (~B)."
+      },
+      {
+        "id": "utbk_ded_174",
+        "teks": "Semua laptop <i>gaming</i> dengan spesifikasi layar <i>refresh rate</i> 144Hz atau lebih tinggi dibekali dengan kipas pendingin ganda super besar. Laptop Z adalah laptop <i>gaming</i> yang spesifikasi layarnya memiliki <i>refresh rate</i> 240Hz. Simpulan yang mutlak benar adalah...",
+        "opsi": [
+          "Laptop Z sangat berat dan tebal sehingga sulit untuk dibawa bepergian jauh.",
+          "Laptop Z tidak akan pernah mengalami <i>overheating</i> meskipun dipakai seharian.",
+          "Laptop Z dibekali dengan kipas pendingin ganda super besar.",
+          "Semua laptop yang memiliki kipas pendingin ganda adalah laptop dengan layar 240Hz.",
+          "Sebagian laptop layar 144Hz tidak cocok digunakan untuk keperluan desain grafis."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Afirmatif Universal. Semua laptop layar >= 144Hz (A) memiliki kipas ganda (B). Karena Laptop Z memiliki layar 240Hz (termasuk kriteria A), maka Laptop Z mutlak dibekali kipas ganda (B)."
+      },
+      {
+        "id": "utbk_ded_175",
+        "teks": "Seseorang dapat diangkat menjadi pejabat notaris secara sah <b>hanya jika</b> ia telah menyelesaikan pendidikan Magister Kenotariatan. Ibu Dewi minggu lalu baru saja dilantik secara sah menjadi pejabat notaris di wilayah kerjanya. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Ibu Dewi mungkin menggunakan ijazah sarjana hukum biasa untuk mendaftar.",
+          "Ibu Dewi pasti telah menyelesaikan pendidikan Magister Kenotariatan.",
+          "Hanya Ibu Dewi yang menyelesaikan pendidikan Magister Kenotariatan di wilayahnya.",
+          "Semua lulusan Magister Kenotariatan pasti akan diangkat menjadi notaris.",
+          "Ibu Dewi memiliki kerabat yang bekerja di kementerian terkait pengangkatan tersebut."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kondisi 'Hanya jika' (*Necessary Condition*). Dilantik menjadi notaris (Q) mensyaratkan secara mutlak harus sudah lulus Magister Kenotariatan (P). Karena faktanya Ibu Dewi sudah dilantik (Q terjadi), maka syarat esensialnya (P) mutlak telah ia selesaikan."
+      },
+      {
+        "id": "utbk_ded_176",
+        "teks": "Jika proyek pembangunan jalan tol selesai sebelum tenggat waktu yang ditentukan, maka seluruh tim pekerja akan mendapatkan bonus gaji dari kontraktor. Hari ini diumumkan bahwa proyek pembangunan jalan tol tersebut telah selesai dua minggu sebelum tenggat waktu. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Kontraktor mungkin kehabisan dana untuk memberikan bonus gaji.",
+          "Seluruh tim pekerja pasti akan mendapatkan bonus gaji dari kontraktor.",
+          "Tim pekerja akan mendapatkan libur tambahan selama dua minggu.",
+          "Jalan tol tersebut dibangun dengan kualitas yang asal-asalan.",
+          "Sebagian tim pekerja menolak bonus gaji yang diberikan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Ponens lurus. Jika P (selesai sebelum tenggat) maka Q (dapat bonus). Fakta menyatakan P terjadi (selesai 2 minggu sebelum tenggat). Maka akibatnya Q (dapat bonus) mutlak terjadi."
+      },
+      {
+        "id": "utbk_ded_177",
+        "teks": "Semua kendaraan angkutan barang yang melintasi jalur antarprovinsi diwajibkan telah lulus uji KIR (Kelaikan Kendaraan). Truk boks milik Pak Yanto baru saja dihentikan petugas dan terbukti belum lulus uji KIR. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Truk boks milik Pak Yanto dilarang melintasi jalur antarprovinsi.",
+          "Truk boks milik Pak Yanto adalah kendaraan angkutan penumpang.",
+          "Pak Yanto mungkin akan menyuap petugas agar diizinkan lewat.",
+          "Sebagian kendaraan yang lulus uji KIR tidak melintasi jalur antarprovinsi.",
+          "Truk boks milik Pak Yanto bukan kendaraan angkutan barang yang melintasi jalur antarprovinsi (atau belum sah melintasinya)."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Modus Tollens / Silogisme Kategorik. Semua A (Lintas Provinsi) wajib B (Lulus KIR). Truk Yanto tidak B (Belum lulus KIR). Maka Truk Yanto mutlak tidak diizinkan menjadi A (bukan kendaraan yang sah melintasi jalur antarprovinsi)."
+      },
+      {
+        "id": "utbk_ded_178",
+        "teks": "Semua zat cair di alam semesta secara fisika akan selalu mengikuti bentuk dari wadah yang menempatinya. Raksa adalah salah satu jenis zat cair meskipun tergolong sebagai logam. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Raksa tidak dapat ditempatkan di sembarang wadah.",
+          "Sebagian raksa tidak akan mengikuti bentuk wadahnya.",
+          "Raksa akan selalu mengikuti bentuk dari wadah yang menempatinya.",
+          "Semua wadah yang diisi raksa pasti akan meleleh.",
+          "Hanya raksa yang merupakan logam berbentuk cair."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Kategorik Afirmatif (Barbara). Premis 1: Semua Zat Cair (A) mengikuti bentuk wadah (B). Premis 2: Raksa (C) adalah Zat Cair (A). Kesimpulan: Raksa (C) mutlak mengikuti bentuk wadah (B)."
+      },
+      {
+        "id": "utbk_ded_179",
+        "teks": "Setiap mahasiswa di Fakultas Hukum diwajibkan untuk mempelajari mata kuliah Konstitusi Negara secara mendalam. Sebagian anggota Badan Eksekutif Mahasiswa (BEM) di kampus tersebut adalah mahasiswa dari Fakultas Hukum. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Semua anggota BEM di kampus tersebut mempelajari mata kuliah Konstitusi Negara secara mendalam.",
+          "Hanya anggota BEM yang diwajibkan mempelajari Konstitusi Negara.",
+          "Tidak ada mahasiswa Hukum yang bukan anggota BEM.",
+          "Sebagian anggota Badan Eksekutif Mahasiswa (BEM) mempelajari mata kuliah Konstitusi Negara secara mendalam.",
+          "Sebagian mahasiswa yang mempelajari Konstitusi Negara bukan mahasiswa Hukum."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Partikular (Darii). Karena 'semua' mahasiswa Hukum wajib belajar Konstitusi, dan 'sebagian' anggota BEM adalah mahasiswa Hukum, maka 'sebagian' anggota BEM tersebut mutlak mewarisi kewajiban belajar Konstitusi."
+      },
+      {
+        "id": "utbk_ded_180",
+        "teks": "Peserta pelatihan kepemimpinan gelombang pertama dapat memilih untuk menghadiri kelas sesi pagi <b>atau</b> kelas sesi malam. Budi adalah peserta gelombang pertama dan ia secara resmi telah mengonfirmasi bahwa ia tidak dapat menghadiri kelas sesi pagi. Simpulan yang sah adalah...",
+        "opsi": [
+          "Budi membatalkan keikutsertaannya dalam pelatihan kepemimpinan.",
+          "Budi akan menghadiri kelas sesi malam.",
+          "Budi meminta panitia untuk membuka kelas sesi siang.",
+          "Kelas sesi malam telah penuh sehingga Budi tidak bisa ikut.",
+          "Semua peserta lain pasti menghadiri kelas sesi pagi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Disjungtif Mutlak (P ATAU Q). Hanya ada dua pilihan (Pagi atau Malam). Fakta membantah satu pilihan (~P: tidak pagi). Maka secara deduktif pilihan sisanya mutlak benar (Q: kelas sesi malam)."
+      },
+      {
+        "id": "utbk_ded_181",
+        "teks": "Seseorang akan dinyatakan lulus dalam tahapan tes kesehatan di akademi kepolisian <b>hanya jika</b> tekanan darahnya berada pada rentang normal. Dokter pemeriksa baru saja menyatakan bahwa tekanan darah Cici berada jauh di atas rentang normal (hipertensi). Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Cici dinyatakan tidak lulus dalam tahapan tes kesehatan di akademi kepolisian.",
+          "Cici diberi obat penurun tensi dan diminta mengulang tes besok pagi.",
+          "Cici dinyatakan lulus dengan catatan khusus dari dokter.",
+          "Hanya tekanan darah normal yang menjadi syarat kelulusan akademi kepolisian.",
+          "Sebagian pendaftar akademi kepolisian memiliki tekanan darah tinggi."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Syarat Mutlak/Keharusan ('Hanya jika'). Kelulusan (Q) mensyaratkan mutlak Tekanan Darah Normal (P). Karena Cici tidak memenuhi syarat P (tekanan darahnya tidak normal), maka akibat Q (lulus) mutlak tidak akan terjadi padanya."
+      },
+      {
+        "id": "utbk_ded_182",
+        "teks": "Jika harga pasokan bahan baku gandum impor naik, maka harga jual produk mi instan di dalam negeri akan dinaikkan oleh produsen. Jika harga jual produk mi instan dinaikkan, maka permintaan dan daya beli konsumen menengah ke bawah akan menurun. Hari ini, harga pasokan bahan baku gandum impor dilaporkan resmi naik tajam. Simpulan yang tepat adalah...",
+        "opsi": [
+          "Harga jual produk mi instan di dalam negeri tidak akan dinaikkan.",
+          "Masyarakat akan berhenti mengonsumsi mi instan selamanya.",
+          "Produsen mi instan akan mengalami kebangkrutan massal bulan depan.",
+          "Permintaan dan daya beli konsumen menengah ke bawah akan menurun.",
+          "Pemerintah akan menyubsidi harga gandum impor secara penuh."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Silogisme Hipotesis Transitif (A -> B, B -> C, maka A -> C) dirangkai dengan Modus Ponens Lurus. Jika gandum naik (A) maka permintaan turun (C). Faktanya A terjadi, maka C (permintaan turun) mutlak terjadi."
+      },
+      {
+        "id": "utbk_ded_183",
+        "teks": "Jika Tono sedang terserang sakit demam, maka ia dipastikan tidak akan masuk sekolah. Hari ini Tono dipastikan tidak masuk sekolah. Kesimpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Tono pasti sedang terserang sakit demam hari ini.",
+          "Tono sedang berlibur bersama keluarganya ke luar kota.",
+          "Tidak dapat disimpulkan secara mutlak apakah Tono sedang sakit demam atau tidak.",
+          "Tono membolos karena belum mengerjakan pekerjaan rumah (PR).",
+          "Semua siswa yang tidak masuk sekolah pasti sedang sakit demam."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kesesatan Logika (<i>Affirming the Consequent</i>). Rumusnya P -> Q. Faktanya Q (tidak masuk sekolah) terjadi. Secara deduktif murni kita TIDAK BISA menyimpulkan bahwa P (sakit demam) adalah penyebabnya, karena Tono tidak masuk bisa karena izin acara keluarga, kecelakaan, dsb."
+      },
+      {
+        "id": "utbk_ded_184",
+        "teks": "Tidak ada spesies ikan di laut yang memiliki organ paru-paru untuk bernapas mengambil oksigen bebas di udara. Ikan mas koki adalah salah satu spesies ikan yang banyak dipelihara di akuarium. Kesimpulan yang logis adalah...",
+        "opsi": [
+          "Ikan mas koki tidak memiliki organ paru-paru untuk bernapas mengambil oksigen bebas di udara.",
+          "Sebagian ikan mas koki mampu bertahan hidup di darat tanpa air.",
+          "Semua ikan yang dipelihara di akuarium memiliki insang buatan.",
+          "Ikan mas koki bukanlah spesies ikan yang sebenarnya.",
+          "Hanya ikan laut yang tidak memiliki paru-paru, sedangkan ikan hias punya."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Silogisme Kategorik Negatif Mutlak (Celarent). Himpunan Ikan (A) tidak memiliki sifat Paru-paru (B). Ikan mas koki (C) adalah bagian dari Himpunan Ikan (A). Maka Ikan mas koki (C) mutlak tidak memiliki sifat Paru-paru (B)."
+      },
+      {
+        "id": "utbk_ded_185",
+        "teks": "Jika sebuah perusahaan rintisan (<i>startup</i>) terus-menerus mengalami kerugian finansial yang sangat besar, maka perusahaan tersebut akan melakukan Pemutusan Hubungan Kerja (PHK) massal. Tahun ini, dipastikan sama sekali tidak ada kebijakan PHK massal di perusahaan <i>startup</i> TokoHijau. Simpulan deduktifnya adalah...",
+        "opsi": [
+          "Perusahaan <i>startup</i> TokoHijau mungkin sedang bersiap untuk gulung tikar.",
+          "Perusahaan <i>startup</i> TokoHijau tidak terus-menerus mengalami kerugian finansial yang sangat besar.",
+          "Semua karyawan di perusahaan <i>startup</i> TokoHijau baru saja naik gaji.",
+          "Perusahaan <i>startup</i> TokoHijau mengalami kerugian namun dibantu oleh investor baru.",
+          "PHK massal hanya dilakukan oleh perusahaan yang sudah besar dan mapan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Tollens. Jika P (rugi besar) maka Q (PHK massal). Fakta yang terjadi adalah ~Q (tidak ada PHK massal). Maka kesimpulan mutlaknya adalah ~P (perusahaan tidak mengalami kerugian finansial yang besar)."
+      },
+      {
+        "id": "utbk_ded_186",
+        "teks": "Sebuah bangun datar dua dimensi secara matematis disebut sebagai segitiga sama sisi <b>jika dan hanya jika</b> bangun tersebut memiliki ketiga sisi yang sama panjang dan ketiga sudut yang sama besar. Bangun datar ABC yang digambar oleh Dika diketahui memiliki ketiga sisi yang sama persis panjangnya dan ketiga sudutnya sama besar. Kesimpulan yang benar adalah...",
+        "opsi": [
+          "Bangun datar ABC tersebut adalah sebuah persegi panjang.",
+          "Bangun datar ABC tersebut tidak bisa diklasifikasikan.",
+          "Bangun datar ABC tersebut adalah sebuah segitiga sama sisi.",
+          "Bangun datar ABC tersebut mungkin sebuah segitiga sama kaki.",
+          "Hanya Dika yang bisa menggambar segitiga sama sisi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pernyataan Bi-implikasi (Jika dan Hanya Jika / <i>If and Only If</i>). Syarat mutlak dan cukup (P <-> Q). Karena Bangun ABC terbukti memenuhi seluruh prasyarat yang dijabarkan (P), maka status konklusinya (Q: disebut segitiga sama sisi) mutlak tersemat pada bangun tersebut."
+      },
+      {
+        "id": "utbk_ded_187",
+        "teks": "Setiap pegawai pemerintah di instansi pusat diwajibkan memakai seragam dinas warna khaki pada hari Senin. Sebagian orang yang sedang antre membeli makan di kantin siang ini adalah pegawai pemerintah instansi pusat. Simpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Semua orang yang ada di kantin saat ini memakai seragam dinas warna khaki.",
+          "Hanya pegawai pemerintah yang diizinkan antre membeli makan di kantin tersebut.",
+          "Sebagian orang yang sedang antre membeli makan di kantin memakai seragam dinas warna khaki pada hari Senin.",
+          "Tidak ada orang di kantin yang memakai seragam dinas warna khaki pada hari Senin.",
+          "Pegawai pemerintah instansi pusat dilarang keluar ke kantin pada hari Senin."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Partikular (Darii). Karena 'semua' pegawai pemerintah (A) wajib berseragam khaki di hari Senin (B), dan 'sebagian' orang di kantin (C) adalah pegawai pemerintah (A), maka 'sebagian' orang di kantin tersebut mutlak mewarisi sifat B (memakai seragam khaki hari Senin)."
+      },
+      {
+        "id": "utbk_ded_188",
+        "teks": "Jika Andi sangat rajin berlatih fisik setiap subuh, maka kapasitas staminanya akan menjadi sangat kuat. Jika staminanya sangat kuat, maka ia dipastikan akan memenangkan kejuaraan lari maraton kota. Kenyataannya, Andi gagal memenangkan kejuaraan lari maraton kota tersebut. Kesimpulan yang sah adalah...",
+        "opsi": [
+          "Andi sangat rajin berlatih fisik setiap subuh, namun staminanya tetap lemah.",
+          "Andi tidak rajin berlatih fisik setiap subuh.",
+          "Kapasitas stamina Andi sangat kuat, tetapi ia tersandung batu saat lomba.",
+          "Andi memenangkan perlombaan lari jarak pendek sebagai gantinya.",
+          "Semua peserta maraton rajin berlatih fisik setiap subuh kecuali Andi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Hipotesis Berantai digabung dengan Modus Tollens. A -> B, B -> C, sehingga A -> C (Jika rajin -> Menang). Fakta aktual adalah ~C (Andi tidak menang). Maka kesimpulan akhirnya haruslah ditarik mundur menjadi ~A (Andi tidak rajin berlatih fisik setiap subuh)."
+      },
+      {
+        "id": "utbk_ded_189",
+        "teks": "Tidak ada satu pun atlet profesional binaan pusat pelatihan nasional (Pelatnas) yang mengonsumsi rokok secara aktif. Sebagian paman dari Rina yang tinggal di kampung adalah atlet profesional binaan pusat pelatihan nasional (Pelatnas). Simpulan yang logis adalah...",
+        "opsi": [
+          "Semua paman Rina adalah perokok yang sangat aktif.",
+          "Hanya paman Rina yang tidak mengonsumsi rokok secara aktif.",
+          "Sebagian paman dari Rina tidak mengonsumsi rokok secara aktif.",
+          "Sebagian atlet profesional binaan Pelatnas mengonsumsi rokok secara sembunyi-sembunyi.",
+          "Tidak ada paman Rina yang menjadi atlet profesional binaan Pelatnas."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Negatif Partikular (Ferio). Himpunan Pelatnas (A) menolak sifat Perokok (B). Sebagian Paman Rina (C) adalah bagian dari Pelatnas (A). Maka Sebagian Paman Rina tersebut mutlak menolak sifat Perokok (B)."
+      },
+      {
+        "id": "utbk_ded_190",
+        "teks": "Jika suhu sensor mesin pemanas pabrik menyentuh angka 100 derajat Celcius, maka alarm peringatan <i>overheat</i> akan otomatis berbunyi kencang. Saat teknisi melakukan inspeksi pagi ini, suhu sensor mesin pemanas terpantau hanya berada di angka 85 derajat Celcius (tidak mencapai 100 derajat Celcius). Kesimpulan deduktif yang tepat adalah...",
+        "opsi": [
+          "Alarm peringatan <i>overheat</i> pasti sedang rusak dan harus diganti.",
+          "Tidak dapat disimpulkan secara mutlak apakah alarm peringatan <i>overheat</i> berbunyi atau tidak.",
+          "Alarm peringatan <i>overheat</i> pasti tidak akan berbunyi kencang pagi ini.",
+          "Mesin pemanas tersebut akan segera meledak karena terlalu dingin.",
+          "Teknisi harus mematikan mesin pemanas secara manual sekarang juga."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kesesatan Logika (<i>Fallacy of Denying the Antecedent</i>). P -> Q (Suhu 100 -> Alarm bunyi). Fakta: ~P (Suhu tidak 100). Kita TIDAK BISA menyimpulkan secara mutlak bahwa ~Q (Alarm pasti tidak bunyi), karena alarm bisa saja berbunyi akibat faktor lain seperti korsleting listrik, *error* sistem, atau jadwal tes alarm manual."
+      },
+      {
+        "id": "utbk_ded_191",
+        "teks": "Seorang mahasiswa akan dinyatakan memenuhi kualifikasi beasiswa prestasi <b>jika</b> ia memiliki IPK di atas 3,80 <b>dan</b> aktif dalam kegiatan organisasi kemahasiswaan tingkat universitas. Siska adalah mahasiswa dengan IPK 3,95 dan menjabat sebagai ketua BEM universitas tahun ini. Kesimpulan yang pasti benar adalah...",
+        "opsi": [
+          "Siska memenuhi kualifikasi beasiswa prestasi.",
+          "Siska akan menolak beasiswa prestasi tersebut karena sibuk di BEM.",
+          "Siska tidak memenuhi kualifikasi beasiswa prestasi karena IPK-nya terlalu tinggi.",
+          "Hanya Siska yang mendapatkan beasiswa prestasi di universitas tersebut.",
+          "Sebagian mahasiswa yang aktif organisasi tidak memiliki IPK di atas 3,80."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Modus Ponens Majemuk. Aturan: Jika (P AND Q) terjadi, maka R terjadi. Fakta Siska menunjukkan bahwa ia secara mutlak memenuhi kedua anteseden tersebut secara lengkap (P dan Q terpenuhi), sehingga akibatnya R (memenuhi syarat beasiswa) mutlak berlaku untuknya."
+      },
+      {
+        "id": "utbk_ded_192",
+        "teks": "Untuk berangkat menuju kantor setiap pagi, Pak Budi hanya mengendarai mobil pribadinya <b>atau</b> menggunakan kereta api komuter komersial lintas kota. Pagi ini, rekan kerjanya melihat dengan jelas bahwa Pak Budi baru saja memarkirkan mobil pribadinya di halaman parkir kantor. Simpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Pak Budi hari ini tidak menggunakan kereta api komuter komersial lintas kota.",
+          "Kereta api komuter komersial lintas kota sedang mengalami gangguan teknis pagi ini.",
+          "Pak Budi besok pagi pasti akan menggunakan kereta api komuter komersial lintas kota.",
+          "Mobil pribadi Pak Budi sedang dalam kondisi rusak ringan.",
+          "Semua pegawai di kantor Pak Budi pergi bekerja mengendarai mobil pribadi."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Silogisme Disjungtif Eksklusif (P XOR Q). Premis menyatakan Budi hanya memilih satu dari dua opsi transportasi (Mobil atau Kereta). Karena faktanya satu opsi terbukti dipilih (Mobil/P), maka opsi lainnya mutlak ditolak (~Q: tidak naik kereta api)."
+      },
+      {
+        "id": "utbk_ded_193",
+        "teks": "Semua jenis obat lambung (obat maag) yang dijual di apotek secara komposisi mutlak mengandung zat aktif senyawa antasida. Pil suplemen herbal merek Z yang dijual di pasaran sama sekali tidak mengandung zat aktif senyawa antasida di dalamnya. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Pil suplemen herbal merek Z mungkin akan merusak dinding lambung penggunanya.",
+          "Pil suplemen herbal merek Z adalah obat lambung alami yang revolusioner.",
+          "Pil suplemen herbal merek Z bukan merupakan jenis obat lambung (obat maag).",
+          "Semua obat di apotek pasti mengandung zat aktif senyawa antasida yang tinggi.",
+          "Hanya pil suplemen herbal merek Z yang tidak dijual di apotek konvensional."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Silogisme Eksklusi (Camestres). Himpunan Obat Maag (A) mutlak bersinggungan dengan Sifat Antasida (B). Suplemen Z (C) terbukti tidak memiliki Sifat Antasida (~B). Maka Suplemen Z (C) mutlak tidak masuk ke dalam himpunan Obat Maag (~A)."
+      },
+      {
+        "id": "utbk_ded_194",
+        "teks": "Hanya warga asli yang memiliki Kartu Tanda Penduduk (KTP) Desa X yang diperbolehkan secara hukum untuk menangkap ikan menggunakan jaring di perairan Danau Y. Bapak Anton pagi ini terlihat sedang sibuk menangkap ikan menggunakan jaring di perairan Danau Y tanpa dihentikan petugas. Simpulan yang logis adalah...",
+        "opsi": [
+          "Bapak Anton sedang menangkap ikan secara ilegal dan menyuap petugas Danau Y.",
+          "Semua warga Desa X pasti berprofesi sebagai nelayan yang menangkap ikan di Danau Y.",
+          "Bapak Anton adalah warga asli yang memiliki Kartu Tanda Penduduk (KTP) Desa X.",
+          "Danau Y telah dibuka untuk umum dan siapa saja bebas memancing di sana.",
+          "Ikan di perairan Danau Y hanya boleh ditangkap pada saat pagi hari saja."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Syarat Mutlak Eksklusif ('Hanya'). Tindakan Menangkap Ikan (Q) hanya boleh dilakukan oleh pihak yang memenuhi syarat KTP Desa X (P). Karena Bapak Anton terbukti melakukan tindakan (Q), maka deduksi mutlaknya adalah Bapak Anton memenuhi syarat tersebut (P)."
+      },
+      {
+        "id": "utbk_ded_195",
+        "teks": "Jika salju tebal turun menutupi kota semalaman, maka jalanan utama akan tertutup es tebal yang membeku. Jika jalanan utama tertutup es tebal yang membeku, maka arus lalu lintas pagi hari akan terhambat macet parah. Pagi ini dilaporkan arus lalu lintas di kota tersebut sama sekali tidak terhambat dan sangat lancar. Kesimpulan deduktifnya adalah...",
+        "opsi": [
+          "Petugas pembersih salju telah bekerja sangat keras sejak semalaman suntuk.",
+          "Salju tebal tidak turun menutupi kota semalaman.",
+          "Kendaraan di kota tersebut sudah dilengkapi dengan rantai anti-salju canggih.",
+          "Jalanan utama tertutup es tebal namun mobil-mobil tetap bisa melaju kencang.",
+          "Semua warga kota memutuskan untuk tidak keluar rumah dan bekerja secara *online*."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Transitif (A -> B, B -> C, menjadi A -> C: Salju turun -> Lalu lintas macet) dikombinasikan dengan Modus Tollens. Fakta yang terjadi adalah ~C (Lalu lintas lancar/tidak macet). Maka, kita dapat menarik kesimpulan mundur yang mutlak yaitu ~A (Salju tebal tidak turun semalaman)."
+      },
+      {
+        "id": "utbk_ded_196",
+        "teks": "Semua jenis tanaman dari keluarga tumbuhan paku-pakuan (<i>Pteridophyta</i>) dapat bertahan hidup dengan baik di iklim hutan hujan yang lembap dan minim sinar matahari. Tumbuhan jenis Pakis Haji (<i>Cycas revoluta</i>) yang dibawa oleh guru biologi diklasifikasikan sebagai salah satu tanaman paku-pakuan. Simpulan yang pasti benar adalah...",
+        "opsi": [
+          "Tumbuhan Pakis Haji akan segera mati jika ditanam di padang pasir yang sangat gersang.",
+          "Hanya tumbuhan Pakis Haji yang bisa hidup di iklim hutan hujan yang lembap.",
+          "Tumbuhan Pakis Haji dapat bertahan hidup dengan baik di iklim hutan hujan yang lembap dan minim sinar matahari.",
+          "Sebagian tumbuhan paku-pakuan tidak dapat hidup tanpa sinar matahari langsung yang terik.",
+          "Semua tanaman di hutan hujan yang lembap adalah jenis tumbuhan paku-pakuan."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika Universal Afirmatif (Silogisme Kategorik Dasar / Barbara). Semua A (Paku-pakuan) memiliki kemampuan B (hidup lembap). Karena C (Pakis Haji) termasuk dalam kelompok A, maka C mutlak mewarisi kemampuan B tersebut."
+      },
+      {
+        "id": "utbk_ded_197",
+        "teks": "Jika Rika mengingat untuk membawa payung dari rumahnya, maka ia pasti tidak akan kehujanan saat pulang kerja. Sore ini, Rika tiba di rumahnya dalam keadaan basah kuyup karena kehujanan. Kesimpulan yang tepat adalah...",
+        "opsi": [
+          "Payung milik Rika bocor atau terbang tertiup angin kencang.",
+          "Rika tidak mengingat untuk membawa payung dari rumahnya.",
+          "Hujan yang turun sore ini berupa badai badai es yang sangat lebat.",
+          "Rika meminjamkan payungnya kepada teman kantornya yang lebih membutuhkan.",
+          "Semua orang yang membawa payung pasti akan tetap basah kuyup jika hujannya lebat."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penerapan Modus Tollens Lurus. Aturan: P (bawa payung) -> Q (tidak kehujanan). Fakta yang terlihat di lapangan adalah ~Q (Rika basah kuyup/kehujanan). Maka kesimpulannya mutlak ~P (Rika tidak membawa payung dari rumahnya)."
+      },
+      {
+        "id": "utbk_ded_198",
+        "teks": "Semua hewan yang diklasifikasikan sebagai spesies burung pasti memiliki selimut bulu di tubuhnya. Sebagian hewan peliharaan eksotis milik Dika terbukti secara ilmiah sama sekali tidak memiliki selimut bulu di tubuhnya (kulit bersisik atau botak). Simpulan deduktif yang sah adalah...",
+        "opsi": [
+          "Semua hewan peliharaan eksotis milik Dika pasti bukan merupakan spesies burung.",
+          "Sebagian hewan peliharaan eksotis milik Dika bukanlah spesies burung.",
+          "Hewan peliharaan eksotis milik Dika yang tidak memiliki bulu adalah hewan melata (reptil).",
+          "Semua burung di dunia pasti kehilangan bulunya saat mengalami pergantian musim.",
+          "Tidak ada spesies burung yang boleh dipelihara secara eksotis oleh Dika di rumahnya."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Partikular Negatif (Baroco). Semua Burung (A) Berbulu (B). Sebagian Hewan Dika (C) adalah Tidak Berbulu (~B). Karena A mutlak terikat pada B, maka kelompok 'sebagian' C yang menolak B mutlak juga menolak A. (Sebagian hewan Dika bukanlah spesies burung)."
+      },
+      {
+        "id": "utbk_ded_199",
+        "teks": "Jika standar kualitas layanan di sebuah hotel mewah terbukti sangat buruk dan mengecewakan, maka para pelanggan yang menginap pasti akan melayangkan komplain resmi. Jika para pelanggan sering melayangkan komplain resmi, maka peringkat reputasi hotel tersebut di aplikasi wisata akan menurun drastis. Sebuah ulasan menyebutkan standar kualitas layanan di Hotel M sangat buruk dan mengecewakan. Kesimpulan yang logis adalah...",
+        "opsi": [
+          "Pelanggan yang menginap di Hotel M memilih untuk bersabar dan diam saja.",
+          "Peringkat reputasi Hotel M di aplikasi wisata akan menurun drastis.",
+          "Manajemen Hotel M akan memecat seluruh staf pelayanannya besok pagi.",
+          "Aplikasi wisata akan memblokir nama Hotel M dari daftar pencarian pelanggannya.",
+          "Tidak ada hotel mewah lain yang memiliki kualitas layanan sebaik Hotel M."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Silogisme Hipotesis Berantai (A -> B, B -> C). Rumus utamanya A -> C (Jika layanan buruk, reputasi menurun). Karena fakta aktual membuktikan A (layanan Hotel M buruk) terjadi, maka menggunakan hukum Modus Ponens, C (reputasi menurun drastis) pasti menjadi kenyataan mutlak."
+      },
+      {
+        "id": "utbk_ded_200",
+        "teks": "Sesuai tabel periodik unsur kimia, tidak ada satu pun unsur logam murni yang berwujud cairan pada suhu ruangan yang normal, <b>terkecuali</b> logam raksa (merkuri). Emas murni 24 karat adalah unsur logam mulia yang secara kimiawi sama sekali bukan tergolong raksa (merkuri). Simpulan yang mutlak benar adalah...",
+        "opsi": [
+          "Emas murni 24 karat mungkin akan meleleh dengan sendirinya tanpa bantuan alat pemanas.",
+          "Sebagian besar logam mulia lainnya selain emas juga berwujud cairan pada suhu ruangan normal.",
+          "Emas murni 24 karat pasti tidak berwujud cairan pada suhu ruangan yang normal.",
+          "Logam raksa (merkuri) adalah satu-satunya benda berwujud cairan di seluruh alam semesta.",
+          "Emas murni 24 karat akan mendidih dan menguap pada suhu yang sangat rendah."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Logika Eksklusi dengan Pengecualian Absolut. Aturan menetapkan: Logam (A) BUKAN Cair (B), KECUALI Raksa (R). Emas adalah Logam (A) tetapi Bukan Raksa (~R). Karena ia tidak memiliki hak pengecualian mutlak tersebut, maka Emas (A) mutlak mematuhi aturan standar, yaitu BUKAN Cair (~B)."
+      }
+    ]
+  }
+}

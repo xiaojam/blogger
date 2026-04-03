@@ -1,0 +1,2606 @@
+{
+  "soal": {
+    "Pengetahuan dan Pemahaman Umum": [
+      {
+        "id": "utbk_ppu_001",
+        "teks": "Penulisan kata baku yang paling tepat di bawah ini adalah...",
+        "opsi": [
+          "Apotik",
+          "Praktek",
+          "Analisa",
+          "Nasihat",
+          "Resiko"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Berdasarkan Kamus Besar Bahasa Indonesia (KBBI), penulisan yang baku adalah: Apotek, Praktik, Analisis, Nasihat, dan Risiko. Maka jawaban yang benar adalah Nasihat."
+      },
+      {
+        "id": "utbk_ppu_002",
+        "teks": "Sinonim atau padanan kata dari <b>EVOKASI</b> adalah...",
+        "opsi": [
+          "Penggugah rasa",
+          "Penilaian",
+          "Provokasi",
+          "Perubahan",
+          "Izin"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan KBBI, evokasi berarti (daya) penggugah rasa; daya pengunggah kenangan."
+      },
+      {
+        "id": "utbk_ppu_003",
+        "teks": "Lawan kata atau antonim dari <b>APATIS</b> adalah...",
+        "opsi": [
+          "Skeptis",
+          "Peduli",
+          "Pesimis",
+          "Ramah",
+          "Dinamis"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Apatis berarti acuh tak acuh; tidak peduli; masa bodoh. Antonim atau lawan kata yang tepat adalah peduli, simpati, atau antusias."
+      },
+      {
+        "id": "utbk_ppu_004",
+        "teks": "<i>\"Bagi semua mahasiswa yang mengambil mata kuliah ini harus mengumpulkan tugas pada hari Senin.\"</i><br><br>Kalimat di atas tidak efektif karena...",
+        "opsi": [
+          "Tidak memiliki subjek yang jelas",
+          "Tidak memiliki predikat",
+          "Penggunaan kata 'semua' yang berlebihan",
+          "Tidak memiliki objek",
+          "Keterangan waktu diletakkan di akhir"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Penggunaan preposisi atau kata depan ('Bagi', 'Dalam', 'Di', 'Untuk') pada awal kalimat dapat mengaburkan fungsi Subjek. Kalimat tersebut kehilangan subjeknya. Seharusnya kata 'Bagi' dihilangkan menjadi: <i>\"Semua mahasiswa yang mengambil mata kuliah ini harus mengumpulkan tugas pada hari Senin.\"</i>"
+      },
+      {
+        "id": "utbk_ppu_005",
+        "teks": "Penggunaan tanda koma (,) yang <b>salah</b> terdapat pada kalimat...",
+        "opsi": [
+          "Saya ingin membeli buku, tetapi uang saya belum cukup.",
+          "Oleh karena itu, kita harus menjaga kebersihan lingkungan.",
+          "Ibu membeli sayur, ikan, dan buah di pasar.",
+          "Dia sangat pandai dalam matematika, sedangkan adiknya pandai melukis.",
+          "Jika hari hujan, maka saya tidak akan pergi ke sekolah."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Tanda koma tidak digunakan jika ada kata hubung korelatif seperti 'maka' yang tidak perlu digunakan bersamaan dengan 'jika'. Kalimat E salah struktur dan tanda bacanya. Seharusnya: 'Jika hari hujan, saya tidak akan pergi ke sekolah.' Tanda koma pada opsi A, B, C, dan D sudah tepat sesuai PUEBI."
+      },
+      {
+        "id": "utbk_ppu_006",
+        "teks": "Penulisan gelar akademik yang paling tepat sesuai dengan Ejaan Bahasa Indonesia adalah...",
+        "opsi": [
+          "Prof. DR. H. Muh. Yamin S.H.",
+          "Prof. Dr. H. Muh. Yamin, S.H.",
+          "Prof. Dr. H. Muh Yamin, S.H",
+          "Prof. Dr. H. Muh. Yamin. S.H.",
+          "Prof, Dr, H, Muh. Yamin, SH."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penulisan gelar: Setiap singkatan gelar dipisahkan dengan tanda titik. Antara nama dan gelar di belakangnya harus dipisah dengan tanda koma. Jawaban B paling tepat: <i>Prof. Dr. H. Muh. Yamin, S.H.</i>"
+      },
+      {
+        "id": "utbk_ppu_007",
+        "teks": "Makna ungkapan atau idiom <b>\"Kambing Hitam\"</b> adalah...",
+        "opsi": [
+          "Orang yang sangat berkuasa",
+          "Orang yang selalu beruntung",
+          "Orang yang disalahkan atas suatu kejadian",
+          "Orang yang memiliki banyak hutang",
+          "Orang yang suka melawan aturan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dalam bahasa Indonesia, ungkapan 'kambing hitam' bermakna orang yang dalam suatu peristiwa sebenarnya tidak bersalah, tetapi dipersalahkan atau dijadikan tumpuan kesalahan."
+      },
+      {
+        "id": "utbk_ppu_008",
+        "teks": "Penggunaan huruf kapital yang benar terdapat pada kalimat...",
+        "opsi": [
+          "Kita harus menghormati Bapak Presiden Joko Widodo.",
+          "Paman baru saja pulang dari danau Toba.",
+          "Banyak orang suka memancing di Sungai.",
+          "Ia sangat menyukai masakan khas jawa.",
+          "Gubernur sumatera barat akan meresmikan jembatan itu."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Opsi A benar. Opsi B salah (danau Toba -> Danau Toba). Opsi C salah (Sungai -> sungai). Opsi D salah (jawa -> Jawa). Opsi E salah (sumatera barat -> Sumatera Barat). Nama jabatan diikuti nama orang/instansi memakai kapital."
+      },
+      {
+        "id": "utbk_ppu_009",
+        "teks": "Sinonim dari kata <b>AFIRMASI</b> adalah...",
+        "opsi": [
+          "Penolakan",
+          "Penilaian",
+          "Penegasan",
+          "Penggabungan",
+          "Pendekatan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, afirmasi berarti penetapan yang positif, penegasan, atau pengesahan."
+      },
+      {
+        "id": "utbk_ppu_010",
+        "teks": "Lawan kata atau antonim dari <b>PROGRESIF</b> adalah...",
+        "opsi": [
+          "Dinamis",
+          "Aktif",
+          "Revolusioner",
+          "Regresif",
+          "Stagnan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Progresif berarti ke arah kemajuan; berhaluan ke arah perbaikan. Antonim atau lawan kata yang paling sepadan adalah Regresif (bersifat mundur / kembali ke belakang)."
+      },
+      {
+        "id": "utbk_ppu_011",
+        "teks": "Kata serapan yang penulisannya sesuai dengan kaidah bahasa Indonesia baku adalah...",
+        "opsi": [
+          "Standarisasi",
+          "Legaligasi",
+          "Standardisasi",
+          "Atlit",
+          "Pebruari"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Bentuk baku dari standardization adalah 'Standardisasi' (berasal dari kata standar + isasi). Kata yang baku: Standardisasi, Legalisasi, Atlet, Februari."
+      },
+      {
+        "id": "utbk_ppu_012",
+        "teks": "Konjungsi antarkalimat yang digunakan untuk menyatakan pertentangan dengan kalimat sebelumnya adalah...",
+        "opsi": [
+          "Oleh karena itu",
+          "Dengan demikian",
+          "Selanjutnya",
+          "Akan tetapi",
+          "Selain itu"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Konjungsi 'Akan tetapi', 'Namun', dan 'Sebaliknya' merupakan konjungsi antarkalimat yang berfungsi menyatakan pertentangan atau perbedaan dengan pernyataan di kalimat sebelumnya."
+      },
+      {
+        "id": "utbk_ppu_013",
+        "teks": "(1) Membaca buku sangat bermanfaat bagi kesehatan otak. (2) Selain menambah wawasan, membaca juga dapat melatih daya ingat. (3) Menurut para ahli, orang yang rutin membaca memiliki risiko lebih rendah terkena penyakit Alzheimer di usia tua. (4) Oleh karena itu, kita harus membiasakan diri membaca buku setiap hari.<br><br>Gagasan utama paragraf di atas terletak pada kalimat nomor...",
+        "opsi": [
+          "(1)",
+          "(2)",
+          "(3)",
+          "(4)",
+          "(1) dan (4)"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gagasan utama adalah ide pokok yang mendasari paragraf. Paragraf ini bersifat deduktif (ide pokok di awal). Kalimat (1) merupakan gagasan utama, sedangkan kalimat (2), (3), dan (4) adalah kalimat penjelas dan kesimpulan."
+      },
+      {
+        "id": "utbk_ppu_014",
+        "teks": "Sinonim dari kata <b>SIGNIFIKAN</b> adalah...",
+        "opsi": [
+          "Penting",
+          "Sederhana",
+          "Biasa",
+          "Menyimpang",
+          "Berbeda"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Signifikan berarti penting, berarti, atau bermakna (berpengaruh besar)."
+      },
+      {
+        "id": "utbk_ppu_015",
+        "teks": "Penggunaan preposisi (kata depan) <i>di</i> yang tepat terdapat pada kalimat...",
+        "opsi": [
+          "Buku itu diletakkan dimeja.",
+          "Dia selalu diam dirumah saat akhir pekan.",
+          "Obat tersebut harus diminum setelah makan.",
+          "Surat itu sudah di kirim kemarin.",
+          "Mereka bertemu disebuah restoran mewah."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kata 'di' ditulis serangkai jika berfungsi sebagai imbuhan pembentuk kata kerja pasif (diminum, dikirim). Kata 'di' ditulis terpisah jika berfungsi sebagai kata depan penunjuk tempat (di meja, di rumah, di sebuah)."
+      },
+      {
+        "id": "utbk_ppu_016",
+        "teks": "Antonim dari kata <b>EMPIRIS</b> adalah...",
+        "opsi": [
+          "Faktual",
+          "Nyata",
+          "Teoritis",
+          "Logis",
+          "Pragmatis"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Empiris berarti berdasarkan pengalaman (terutama yang diperoleh dari penemuan, percobaan, pengamatan yang telah dilakukan). Antonimnya adalah Teoritis (hanya berdasarkan teori/belum diuji)."
+      },
+      {
+        "id": "utbk_ppu_017",
+        "teks": "Sinonim dari kata <b>TENDENSI</b> adalah...",
+        "opsi": [
+          "Kekuatan",
+          "Ketegangan",
+          "Kecenderungan",
+          "Keharusan",
+          "Kepastian"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Tendensi berarti kecenderungan atau kecondongan (pada suatu hal)."
+      },
+      {
+        "id": "utbk_ppu_018",
+        "teks": "Penulisan gabungan kata (kata majemuk) yang benar di bawah ini adalah...",
+        "opsi": [
+          "Tanggungjawab",
+          "Tandatangan",
+          "Kacamata",
+          "Kerjasama",
+          "Terimakasih"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penulisan gabungan kata baku yang benar: tanggung jawab, tanda tangan, kaca mata (kacamata), kerja sama, terima kasih. Jadi yang benar digabung hanya kacamata."
+      },
+      {
+        "id": "utbk_ppu_019",
+        "teks": "Makna dari ungkapan <b>\"Buah bibir\"</b> adalah...",
+        "opsi": [
+          "Bahan pembicaraan",
+          "Orang kesayangan",
+          "Hasil karya",
+          "Suka menggosip",
+          "Cepat marah"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Ungkapan 'buah bibir' bermakna sesuatu yang selalu menjadi bahan pembicaraan orang banyak."
+      },
+      {
+        "id": "utbk_ppu_020",
+        "teks": "Lawan kata atau antonim dari <b>EKSPLISIT</b> adalah...",
+        "opsi": [
+          "Tegas",
+          "Implisit",
+          "Gamblang",
+          "Terbuka",
+          "Jelas"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Eksplisit berarti terus terang dan tidak berbelit-belit sehingga orang dapat menangkap maksudnya dengan mudah (tersurat). Antonimnya adalah Implisit (tersirat/terkandung di dalam namun tidak dijelaskan secara langsung)."
+      },
+      {
+        "id": "utbk_ppu_021",
+        "teks": "Sinonim dari kata <b>KOMPREHENSIF</b> adalah...",
+        "opsi": [
+          "Eksklusif",
+          "Sebagian",
+          "Menyeluruh",
+          "Terperinci",
+          "Terbatas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, komprehensif berarti bersifat mampu menangkap (menerima) dengan baik; luas dan lengkap; atau menyeluruh."
+      },
+      {
+        "id": "utbk_ppu_022",
+        "teks": "Makna dari ungkapan <b>\"Lapang dada\"</b> adalah...",
+        "opsi": [
+          "Merasa bangga",
+          "Sabar dan menerima dengan ikhlas",
+          "Orang yang pemberani",
+          "Sulit memaafkan",
+          "Bekerja tanpa pamrih"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ungkapan 'lapang dada' bermakna merasa lega; sabar; atau menerima keadaan dengan ikhlas tanpa rasa dendam."
+      },
+      {
+        "id": "utbk_ppu_023",
+        "teks": "Penulisan partikel <i>-pun</i> yang benar terdapat pada kalimat...",
+        "opsi": [
+          "Apa pun masalahnya, kita harus hadapi bersama.",
+          "Dia tidak datang, walau pun sudah diundang.",
+          "Meskipun lelah, ia tetap belajar.",
+          "Kami pun turut berduka cita atas kejadian itu.",
+          "Semua jawaban A, C, dan D benar."
+        ],
+        "jawaban": 4,
+        "pembahasan": "Partikel 'pun' dipisah jika bermakna 'juga' (Apa pun, Kami pun). Namun, 'pun' digabung jika merupakan unsur konjungsi lazim (Meskipun, Walaupun, Adapun). Pilihan A, C, dan D semuanya benar secara kaidah."
+      },
+      {
+        "id": "utbk_ppu_024",
+        "teks": "Kalimat yang <b>ambigu</b> (bermakna ganda) di bawah ini adalah...",
+        "opsi": [
+          "Ibu sedang memasak nasi di dapur.",
+          "Kucing tetangga yang hitam itu hilang.",
+          "Lukisan Andi yang baru saja dipamerkan sangat mahal.",
+          "Budi membeli buku dan alat tulis di koperasi.",
+          "Ayah membaca koran pagi ini."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kalimat 'Lukisan Andi yang baru' memiliki makna ganda (ambigu): Apakah lukisannya yang baru, ataukah Andi yang baru? Hal ini bisa menimbulkan kesalahpahaman penafsiran (apakah lukisan buatan Andi atau lukisan milik Andi)."
+      },
+      {
+        "id": "utbk_ppu_025",
+        "teks": "Penggunaan tanda titik dua (:) yang tepat terdapat pada kalimat...",
+        "opsi": [
+          "Ibu membeli buah-buahan seperti: apel, jeruk, dan mangga.",
+          "Mereka memerlukan: kursi, meja, dan lemari.",
+          "Fakultas ini memiliki tiga jurusan: Sosiologi, Antropologi, dan Ilmu Komunikasi.",
+          "Kita harus: rajin belajar, berdoa, dan berusaha.",
+          "Ayah berpesan: \"Jangan lupa kunci pintu rumah!\""
+        ],
+        "jawaban": 2,
+        "pembahasan": "Tanda titik dua (:) dipakai pada akhir suatu pernyataan lengkap yang diikuti perincian atau penjelasan. Jika perincian itu merupakan pelengkap yang mengakhiri pernyataan, tanda titik dua tidak dipakai (salah di opsi A, B, D). Opsi C adalah penggunaan yang paling tepat."
+      },
+      {
+        "id": "utbk_ppu_026",
+        "teks": "Sinonim dari kata <b>MILITAN</b> adalah...",
+        "opsi": [
+          "Damai",
+          "Keras kepala",
+          "Bersemangat tinggi",
+          "Pengecut",
+          "Konservatif"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Militan bermakna bersemangat tinggi; penuh gairah; atau berhaluan keras (dalam memperjuangkan sesuatu)."
+      },
+      {
+        "id": "utbk_ppu_027",
+        "teks": "Lawan kata atau antonim dari <b>DESTRUKTIF</b> adalah...",
+        "opsi": [
+          "Instruktif",
+          "Inovatif",
+          "Konsumtif",
+          "Konstruktif",
+          "Defensif"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Destruktif berarti bersifat merusak, memusnahkan, atau menghancurkan. Antonim yang tepat adalah konstruktif (bersifat membangun, membina, atau memperbaiki)."
+      },
+      {
+        "id": "utbk_ppu_028",
+        "teks": "Penulisan gabungan kata berimbuhan yang benar di bawah ini adalah...",
+        "opsi": [
+          "Bertanggungjawab",
+          "Di tanda tangani",
+          "Mempertanggung jawabkan",
+          "Ditandatangani",
+          "Menggaris bawahi"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Berdasarkan pedoman ejaan, jika gabungan kata (kata majemuk) mendapat awalan dan akhiran sekaligus, penulisannya harus dirangkai/digabung. Contoh: <i>ditandatangani</i>, <i>mempertanggungjawabkan</i>. Jika hanya mendapat awalan atau akhiran saja, penulisannya tetap dipisah."
+      },
+      {
+        "id": "utbk_ppu_029",
+        "teks": "Makna ungkapan <b>\"Gulung tikar\"</b> adalah...",
+        "opsi": [
+          "Pindah rumah",
+          "Bangkrut",
+          "Bekerja keras",
+          "Menyerah",
+          "Berbenah"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ungkapan 'gulung tikar' adalah bentuk kiasan yang bermakna bangkrut atau kehabisan modal (khususnya dalam dunia usaha)."
+      },
+      {
+        "id": "utbk_ppu_030",
+        "teks": "Sinonim dari kata <b>PRAGMATIS</b> adalah...",
+        "opsi": [
+          "Teoritis",
+          "Logis",
+          "Praktis",
+          "Rumit",
+          "Sistematis"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pragmatis berarti bersifat praktis dan berguna bagi umum; mementingkan hasil akhir yang nyata atau kepraktisan daripada sekadar teori."
+      },
+      {
+        "id": "utbk_ppu_031",
+        "teks": "Lawan kata atau antonim dari kata <b>VIRTUAL</b> adalah...",
+        "opsi": [
+          "Maya",
+          "Digital",
+          "Nyata",
+          "Modern",
+          "Kuno"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Virtual bermakna (secara) maya; hadir secara elektronik melalui perangkat komputer dan tidak hadir secara fisik. Antonimnya adalah nyata atau faktual."
+      },
+      {
+        "id": "utbk_ppu_032",
+        "teks": "<i>\"Dalam pertemuan itu membahas tentang upaya pelestarian lingkungan.\"</i><br><br>Kalimat di atas tidak efektif karena...",
+        "opsi": [
+          "Tidak memiliki predikat",
+          "Penggunaan kata 'tentang' yang mubazir dan subjek yang kabur akibat kata 'Dalam'",
+          "Tidak ada objek yang dikenai tindakan",
+          "Keterangan waktu kurang jelas",
+          "Kalimatnya terlalu panjang"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kalimat tersebut salah karena dua hal: (1) Kata depan 'Dalam' membuat subjek kalimat ('pertemuan itu') berubah fungsi menjadi keterangan. (2) Kata kerja 'membahas' adalah verba transitif yang harus langsung diikuti objek, sehingga preposisi 'tentang' tidak diperlukan. Perbaikan: \"Pertemuan itu membahas upaya pelestarian lingkungan.\""
+      },
+      {
+        "id": "utbk_ppu_033",
+        "teks": "Sinonim dari kata <b>PARADOKS</b> adalah...",
+        "opsi": [
+          "Persamaan",
+          "Keselarasan",
+          "Kontradiksi",
+          "Kemiripan",
+          "Konsekuensi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Paradoks bermakna pernyataan yang seolah-olah bertentangan atau berlawanan dengan pendapat umum, tetapi kenyataannya mengandung kebenaran; kontradiksi."
+      },
+      {
+        "id": "utbk_ppu_034",
+        "teks": "Antonim dari kata <b>AUTENTIK</b> adalah...",
+        "opsi": [
+          "Asli",
+          "Tiruan",
+          "Kuno",
+          "Modern",
+          "Unik"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Autentik berarti asli; dapat dipercaya; sah. Antonim atau lawan kata dari autentik adalah tiruan atau palsu."
+      },
+      {
+        "id": "utbk_ppu_035",
+        "teks": "Penggunaan huruf miring yang <b>salah</b> terdapat pada kalimat...",
+        "opsi": [
+          "Kakak sedang membaca novel <i>Laskar Pelangi</i> karya Andrea Hirata.",
+          "Kata <i>download</i> dalam bahasa Indonesia dipadankan dengan kata unduh.",
+          "Majalah <i>Tempo</i> terbit setiap minggu.",
+          "Kami baru saja membaca artikel di <i>Koran Kompas</i>.",
+          "Nama ilmiah padi adalah <i>Oryza sativa</i>."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Huruf miring digunakan untuk menuliskan judul buku, nama majalah, atau nama surat kabar yang dikutip dalam tulisan. Namun, kata 'Koran' tidak perlu dimiringkan karena bukan merupakan bagian dari nama resmi surat kabarnya. Yang tepat: koran <i>Kompas</i>."
+      },
+      {
+        "id": "utbk_ppu_036",
+        "teks": "Makna dari ungkapan <b>\"Meja hijau\"</b> adalah...",
+        "opsi": [
+          "Meja judi",
+          "Pengadilan",
+          "Tempat rapat",
+          "Pasar",
+          "Rumah sakit"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dalam bahasa Indonesia, idiom atau ungkapan 'meja hijau' adalah bentuk kiasan yang merujuk pada pengadilan atau proses peradilan."
+      },
+      {
+        "id": "utbk_ppu_037",
+        "teks": "Sinonim dari kata <b>KENDALA</b> adalah...",
+        "opsi": [
+          "Dorongan",
+          "Hambatan",
+          "Dukungan",
+          "Bantuan",
+          "Peluang"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kendala berarti halangan; rintangan; atau hambatan yang membatasi suatu proses atau kelancaran kegiatan."
+      },
+      {
+        "id": "utbk_ppu_038",
+        "teks": "Antonim dari kata <b>SPORADIS</b> adalah...",
+        "opsi": [
+          "Jarang",
+          "Berdekatan",
+          "Sering",
+          "Teratur",
+          "Terpisah"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sporadis berarti keadaan yang tidak merata; jarang-jarang; atau kadang-kadang terjadi. Antonim yang paling tepat adalah teratur atau sering."
+      },
+      {
+        "id": "utbk_ppu_039",
+        "teks": "Penulisan angka dan bilangan yang tepat terdapat pada kalimat...",
+        "opsi": [
+          "15 orang peserta lulus ujian CPNS tahun ini.",
+          "Di desa itu terdapat 250 ekor ayam dan dua puluh ekor kambing.",
+          "Tiga per empat bagian kue itu sudah dimakan adik.",
+          "Harganya sekitar Rp. 5.000.000,00.",
+          "Abad ke 20 ditandai dengan kemajuan teknologi."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Opsi C benar, bilangan pecahan yang berdiri sendiri ditulis terpisah (Tiga per empat). Opsi A salah karena angka di awal kalimat harus dieja (Lima belas). Opsi B salah karena perincian angka sejenis harus diseragamkan (250 ekor dan 20 ekor). Opsi D salah, tidak ada titik setelah lambang mata uang (Rp5.000.000,00). Opsi E salah, harus memakai tanda hubung (ke-20)."
+      },
+      {
+        "id": "utbk_ppu_040",
+        "teks": "Sinonim dari kata <b>KOLUSI</b> adalah...",
+        "opsi": [
+          "Suap-menyuap",
+          "Penyalahgunaan wewenang",
+          "Permufakatan jahat",
+          "Korupsi waktu",
+          "Tindakan kekerasan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, kolusi adalah kerja sama rahasia atau permufakatan jahat untuk maksud tidak terpuji, merugikan pihak lain, atau melanggar hukum."
+      },
+      {
+        "id": "utbk_ppu_041",
+        "teks": "Antonim dari kata <b>NISKALA</b> adalah...",
+        "opsi": [
+          "Fana",
+          "Abstrak",
+          "Nyata",
+          "Kekal",
+          "Rapuh"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Niskala berarti tidak berwujud atau abstrak. Antonim atau lawan kata yang tepat adalah berwujud (sekala) atau nyata."
+      },
+      {
+        "id": "utbk_ppu_042",
+        "teks": "Kata turunan berawalan me- yang penulisannya benar menurut ejaan bahasa Indonesia adalah...",
+        "opsi": [
+          "Mempengaruhi",
+          "Mengkonsumsi",
+          "Mensukseskan",
+          "Memercayai",
+          "Mentertawakan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Hukum peluluhan awalan me- berlaku untuk kata dasar yang berawalan huruf K, P, T, S dan diikuti oleh huruf vokal. Kata dasar 'percaya' diawali huruf 'p' dan diikuti vokal 'e', sehingga luluh menjadi 'memercayai'. Yang lain salah; seharusnya: memengaruhi, mengonsumsi, menyukseskan, menertawakan."
+      },
+      {
+        "id": "utbk_ppu_043",
+        "teks": "Makna kata <b>\"Birokrasi\"</b> secara harfiah menurut KBBI adalah...",
+        "opsi": [
+          "Pemerintahan oleh rakyat",
+          "Sistem pemerintahan yang dijalankan oleh pegawai pemerintah",
+          "Kekuasaan di tangan kaum bangsawan",
+          "Sistem ekonomi yang diatur negara",
+          "Aturan hukum yang tidak tertulis"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Birokrasi berarti sistem pemerintahan yang dijalankan oleh pegawai pemerintah karena telah berpegang pada hierarki dan jenjang jabatan. Kadang pula dikonotasikan sebagai cara kerja yang serba lamban dan berbelit-belit."
+      },
+      {
+        "id": "utbk_ppu_044",
+        "teks": "Sinonim dari kata <b>INSINUASI</b> adalah...",
+        "opsi": [
+          "Penilaian",
+          "Sindiran",
+          "Sanjungan",
+          "Pernyataan",
+          "Tebakan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Menurut Kamus Besar Bahasa Indonesia (KBBI), insinuasi berarti tuduhan tersembunyi, tidak terang-terangan, atau sindiran."
+      },
+      {
+        "id": "utbk_ppu_045",
+        "teks": "Antonim dari kata <b>EKSTRINSIK</b> adalah...",
+        "opsi": [
+          "Eksklusif",
+          "Eksternal",
+          "Luaran",
+          "Asing",
+          "Intrinsik"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Ekstrinsik bermakna hal yang berasal dari luar. Antonimnya yang paling tepat adalah Intrinsik, yang berarti terkandung di dalam atau berasal dari dalam."
+      },
+      {
+        "id": "utbk_ppu_046",
+        "teks": "Kalimat yang mengandung <b>pleonasme</b> (pemborosan kata) di bawah ini adalah...",
+        "opsi": [
+          "Banyak anak sedang bermain di taman.",
+          "Mereka sedang berdiskusi di ruang rapat.",
+          "Para hadirin sekalian dimohon berdiri.",
+          "Ibu membeli sayuran di pasar tradisional.",
+          "Ayah bekerja keras demi keluarga."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pleonasme adalah pemakaian kata yang maknanya sama atau tidak perlu secara berlebihan. Kata 'Para' dan 'Hadirin' sudah bermakna jamak (banyak), ditambah lagi dengan kata 'sekalian'. Seharusnya cukup: 'Para hadirin dimohon berdiri' atau 'Hadirin sekalian dimohon berdiri'."
+      },
+      {
+        "id": "utbk_ppu_047",
+        "teks": "Sinonim dari kata <b>PARIPURNA</b> adalah...",
+        "opsi": [
+          "Sederhana",
+          "Sebagian",
+          "Lengkap",
+          "Terbatas",
+          "Rapat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, paripurna berarti penuh lengkap; sempurna; tiada cacat dan celanya."
+      },
+      {
+        "id": "utbk_ppu_048",
+        "teks": "Antonim dari kata <b>PASCA</b> adalah...",
+        "opsi": [
+          "Sebelum",
+          "Sesudah",
+          "Pra",
+          "Purna",
+          "Mantan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Pasca adalah bentuk terikat yang berarti sesudah atau setelah (seperti pascasarjana, pascapanen). Antonim yang sepadan sebagai bentuk terikat adalah pra- (sebelum), seperti prasejarah."
+      },
+      {
+        "id": "utbk_ppu_049",
+        "teks": "Pemakaian tanda petik tunggal ('...') yang benar terdapat pada kalimat...",
+        "opsi": [
+          "Kudengar teriakannya, 'Tolong!'",
+          "Tanya dia, \"Kaudengar bunyi 'kring-kring' tadi?\"",
+          "Buku itu berjudul 'Laskar Pelangi'.",
+          "Ia memakai baju 'merah'.",
+          "'Merdeka atau mati!' seru Bung Tomo."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Tanda petik tunggal ('...') utamanya digunakan untuk mengapit petikan yang terdapat di dalam petikan lain (seperti kutipan langsung yang di dalamnya ada penekanan kata atau suara). Kalimat B mencontohkan penggunaan ini secara tepat."
+      },
+      {
+        "id": "utbk_ppu_050",
+        "teks": "Makna ungkapan <b>\"Tangan kanan\"</b> adalah...",
+        "opsi": [
+          "Orang yang kuat",
+          "Orang kepercayaan",
+          "Orang yang kidal",
+          "Tukang pukul",
+          "Suka membantu"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dalam peribahasa bahasa Indonesia, idiom 'tangan kanan' bermakna orang kepercayaan atau orang yang sangat diandalkan oleh atasannya."
+      },
+      {
+        "id": "utbk_ppu_051",
+        "teks": "Sinonim atau padanan kata dari <b>ELABORASI</b> adalah...",
+        "opsi": [
+          "Penyusutan",
+          "Penggarapan secara tekun dan terperinci",
+          "Pemendekan makna",
+          "Penyampaian secara lisan",
+          "Penilaian akhir"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, elaborasi berarti penggarapan secara tekun dan cermat; atau penjelasan secara terperinci."
+      },
+      {
+        "id": "utbk_ppu_052",
+        "teks": "Antonim dari kata <b>APRIORI</b> adalah...",
+        "opsi": [
+          "Aposteriori",
+          "Dugaan",
+          "Prasangka",
+          "Hipotesis",
+          "Asumsi"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Apriori berarti beranggapan sebelum mengetahui keadaan yang sebenarnya (hanya berdasarkan dugaan). Antonimnya adalah Aposteriori, yang berarti setelah diketahui keadaan yang sebenarnya (berdasarkan observasi/pengalaman)."
+      },
+      {
+        "id": "utbk_ppu_053",
+        "teks": "Di antara deretan kata berikut, penulisan kata yang <b>TIDAK</b> baku menurut KBBI adalah...",
+        "opsi": [
+          "Kuitansi",
+          "Ijazah",
+          "Jadwal",
+          "Antri",
+          "Risiko"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Bentuk baku dari kata 'Antri' adalah 'Antre'. Sedangkan Kuitansi, Ijazah, Jadwal, dan Risiko sudah merupakan bentuk penulisan yang baku."
+      },
+      {
+        "id": "utbk_ppu_054",
+        "teks": "Makna kiasan dari ungkapan <b>\"Tebal muka\"</b> adalah...",
+        "opsi": [
+          "Berwajah tampan/cantik",
+          "Suka marah",
+          "Tidak tahu malu",
+          "Sangat sabar",
+          "Sering tersenyum"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dalam bahasa Indonesia, ungkapan 'tebal muka' atau 'muka badak' ditujukan kepada seseorang yang tidak mempunyai rasa malu (tidak tahu malu)."
+      },
+      {
+        "id": "utbk_ppu_055",
+        "teks": "Penggunaan huruf kapital yang tepat terdapat pada kalimat...",
+        "opsi": [
+          "Penduduk asli pulau Bali mayoritas beragama Hindu.",
+          "Ibu sedang membuat pisang Ambon goreng di dapur.",
+          "Andi sangat fasih berbicara dalam bahasa Inggris.",
+          "Mereka berlayar menyeberangi selat Sunda.",
+          "Pamanku baru saja dilantik menjadi seorang Gubernur."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Opsi C benar karena 'Inggris' adalah nama bangsa/bahasa yang harus dikapitalkan, sedangkan kata 'bahasa' tetap kecil. Opsi A salah (pulau Bali -> Pulau Bali). Opsi B salah (pisang Ambon -> pisang ambon, karena jenis pisang bukan nama geografi). Opsi D salah (selat Sunda -> Selat Sunda). Opsi E salah (Gubernur tanpa nama tempat tetap huruf kecil)."
+      },
+      {
+        "id": "utbk_ppu_056",
+        "teks": "Kalimat manakah di bawah ini yang merupakan kalimat efektif?",
+        "opsi": [
+          "Bagi para mahasiswa diharap segera memasuki ruangan.",
+          "Waktu dan tempat kami persilakan kepada Bapak Kepala Sekolah.",
+          "Atas perhatiannya, kami ucapkan terima kasih banyak.",
+          "Saran yang dikemukakan olehnya akan kami pertimbangkan.",
+          "Untuk menghemat waktu, mari kita mulai acara ini."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Opsi D adalah kalimat efektif dan logis. Opsi A salah karena subjek terhalang 'Bagi'. Opsi B salah karena yang dipersilakan adalah 'waktu dan tempat', bukan 'Bapak Kepala Sekolah'. Opsi C salah karena penggunaan akhiran '-nya' tidak tepat (seharusnya 'perhatian Bapak/Ibu'). Opsi E salah karena waktu tidak bisa 'dihemat', lebih tepat 'mempersingkat waktu'."
+      },
+      {
+        "id": "utbk_ppu_057",
+        "teks": "Sinonim dari kata <b>ANOMALI</b> adalah...",
+        "opsi": [
+          "Persamaan",
+          "Keteraturan",
+          "Penyimpangan",
+          "Kebiasaan",
+          "Keserasian"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Anomali berarti ketidaknormalan; penyimpangan dari yang sudah ada (biasa terjadi)."
+      },
+      {
+        "id": "utbk_ppu_058",
+        "teks": "Antonim dari kata <b>EKSENTRIK</b> adalah...",
+        "opsi": [
+          "Aneh",
+          "Ganjil",
+          "Nyentrik",
+          "Wajar",
+          "Unik"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Eksentrik berarti aneh; ganjil; tidak wajar (tentang perilaku, gaya, dll). Antonim atau lawan kata yang paling tepat adalah wajar atau biasa."
+      },
+      {
+        "id": "utbk_ppu_059",
+        "teks": "Penggunaan tanda hubung (-) yang <b>SALAH</b> terdapat pada...",
+        "opsi": [
+          "Tahun 90-an",
+          "Juara ke-2",
+          "se-Indonesia",
+          "mem-PHK-kan",
+          "ber-KTP"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sesuai PUEBI, tanda hubung digunakan untuk merangkaikan imbuhan dengan singkatan berhuruf kapital. Penulisan yang benar adalah mem-PHK, tidak perlu ditambah akhiran '-kan' karena 'K' pada PHK sudah bermakna 'Kerja' (Pemutusan Hubungan Kerja)."
+      },
+      {
+        "id": "utbk_ppu_060",
+        "teks": "Makna dari kata <b>\"Literasi\"</b> adalah...",
+        "opsi": [
+          "Kumpulan karya sastra klasik",
+          "Kemampuan menulis dan membaca",
+          "Proses penerjemahan bahasa asing",
+          "Cara berbicara di depan umum",
+          "Sistem penghitungan angka"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, literasi berarti kemampuan menulis dan membaca; pengetahuan atau keterampilan dalam bidang atau aktivitas tertentu."
+      },
+      {
+        "id": "utbk_ppu_061",
+        "teks": "Deretan kata serapan berikut yang <b>semuanya</b> ditulis dengan baku adalah...",
+        "opsi": [
+          "Sistim, Ekstrim, Karir",
+          "Sistem, Ekstrem, Karier",
+          "Sistem, Ekstrim, Karier",
+          "Sistim, Ekstrem, Karir",
+          "Sistem, Ekstrem, Karir"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Bentuk kata serapan yang baku sesuai dengan Kamus Besar Bahasa Indonesia (KBBI) adalah Sistem (bukan sistim), Ekstrem (bukan ekstrim), dan Karier (bukan karir)."
+      },
+      {
+        "id": "utbk_ppu_062",
+        "teks": "Lawan kata atau antonim dari <b>VETERAN</b> adalah...",
+        "opsi": [
+          "Senior",
+          "Pakar",
+          "Pemula",
+          "Pensiunan",
+          "Ahli"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Veteran berarti orang yang sudah banyak pengalaman dalam suatu pekerjaan/bidang (atau mantan prajurit). Antonim yang tepat adalah pemula."
+      },
+      {
+        "id": "utbk_ppu_063",
+        "teks": "Sinonim dari kata <b>ENTITAS</b> adalah...",
+        "opsi": [
+          "Ketiadaan",
+          "Kelompok",
+          "Wujud",
+          "Batasan",
+          "Identitas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Entitas bermakna satuan yang berwujud; sesuatu yang memiliki keberadaan yang unik dan berbeda, walaupun tidak harus dalam bentuk fisik (wujud)."
+      },
+      {
+        "id": "utbk_ppu_064",
+        "teks": "Makna ungkapan <b>\"Panjang tangan\"</b> adalah...",
+        "opsi": [
+          "Suka menolong",
+          "Suka mencuri",
+          "Suka berbohong",
+          "Orang yang jangkung",
+          "Orang yang pelit"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ungkapan 'panjang tangan' dalam bahasa Indonesia dikonotasikan secara negatif, yaitu memiliki sifat suka mencuri (kleptomania)."
+      },
+      {
+        "id": "utbk_ppu_065",
+        "teks": "Penggunaan tanda koma (,) yang tepat dalam penyusunan kalimat majemuk adalah...",
+        "opsi": [
+          "Dia tidak masuk sekolah, karena sedang sakit demam.",
+          "Karena sedang sakit demam, dia tidak masuk sekolah.",
+          "Dia tidak masuk sekolah karena, sedang sakit demam.",
+          "Karena sedang sakit demam dia, tidak masuk sekolah.",
+          "Dia, tidak masuk sekolah karena sedang sakit demam."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Tanda koma dipakai untuk memisahkan anak kalimat dari induk kalimat JIKA anak kalimat mendahului induk kalimatnya (Opsi B benar). Jika induk kalimat mendahului anak kalimat (seperti opsi A), tanda koma tidak boleh digunakan sebelum kata 'karena'."
+      },
+      {
+        "id": "utbk_ppu_066",
+        "teks": "Antonim dari kata <b>KONKRET</b> adalah...",
+        "opsi": [
+          "Nyata",
+          "Wujud",
+          "Abstrak",
+          "Jelas",
+          "Padat"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Konkret berarti nyata; benar-benar ada (berwujud). Antonim atau lawan kata yang tepat adalah abstrak (tidak berwujud/tidak nyata)."
+      },
+      {
+        "id": "utbk_ppu_067",
+        "teks": "Sinonim dari kata <b>IMPLISIT</b> adalah...",
+        "opsi": [
+          "Tersurat",
+          "Gamblang",
+          "Tersirat",
+          "Tegas",
+          "Langsung"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Implisit memiliki arti terkandung di dalamnya (meskipun tidak dinyatakan secara jelas); tersimpul; atau tersirat."
+      },
+      {
+        "id": "utbk_ppu_068",
+        "teks": "Kalimat yang <b>ambigu</b> atau bermakna ganda adalah...",
+        "opsi": [
+          "Adik sedang belajar matematika di kamar.",
+          "Buku sejarah itu dibeli oleh paman kemarin.",
+          "Istri kepala desa yang baik hati itu sedang membagikan sembako.",
+          "Banjir melanda kawasan pesisir akibat hujan lebat.",
+          "Mereka menyelesaikan tugas itu bersama-sama."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kalimat C bersifat ambigu karena frasa 'yang baik hati itu' bisa merujuk kepada sang 'Istri' atau merujuk kepada sang 'Kepala desa'."
+      },
+      {
+        "id": "utbk_ppu_069",
+        "teks": "Penggunaan tanda titik koma (;) yang paling tepat terdapat pada kalimat...",
+        "opsi": [
+          "Ibu membeli sayur; buah; dan ikan di pasar.",
+          "Hari sudah malam; anak-anak masih asyik bermain di halaman.",
+          "Kita harus menjaga: kebersihan; keamanan; dan kenyamanan lingkungan.",
+          "Dia; yang selalu datang terlambat, akhirnya dihukum.",
+          "Jika hari hujan; maka saya tidak akan pergi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Tanda titik koma (;) dapat dipakai sebagai pengganti kata penghubung untuk memisahkan kalimat setara (kalimat majemuk) yang satu dari kalimat setara yang lain. Opsi B tepat karena memisahkan dua klausa independen tanpa kata hubung."
+      },
+      {
+        "id": "utbk_ppu_070",
+        "teks": "Penulisan kata ganti <i>ku-</i>, <i>kau-</i>, <i>-ku</i>, <i>-mu</i>, dan <i>-nya</i> yang benar terdapat pada kalimat...",
+        "opsi": [
+          "Buku ini boleh kau baca kapan saja.",
+          "Rumah nya berada di ujung jalan sana.",
+          "Pena itu sudah ku pinjam sejak kemarin.",
+          "Apa yang kumiliki adalah juga milikmu.",
+          "Tolong ambilkan buku ku di atas meja."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Sesuai PUEBI, kata ganti ku- dan kau- ditulis serangkai (menyatu) dengan kata yang mengikutinya, sedangkan -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya. Pilihan D (kumiliki, milikmu) ditulis dengan benar."
+      },
+      {
+        "id": "utbk_ppu_071",
+        "teks": "Sinonim dari kata <b>RELEVAN</b> adalah...",
+        "opsi": [
+          "Berbeda",
+          "Biasa",
+          "Kuno",
+          "Bersangkut paut",
+          "Terpisah"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Relevan berarti kait-mengait; bersangkut paut; berguna secara langsung (berkaitan erat dengan topik yang sedang dibahas)."
+      },
+      {
+        "id": "utbk_ppu_072",
+        "teks": "Antonim dari kata <b>STATIS</b> adalah...",
+        "opsi": [
+          "Labil",
+          "Pasif",
+          "Dinamis",
+          "Konstan",
+          "Diam"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Statis bermakna dalam keadaan diam (tidak bergerak, tidak berubah). Antonim yang tepat adalah Dinamis (penuh pergerakan, semangat, dan mudah menyesuaikan dengan keadaan)."
+      },
+      {
+        "id": "utbk_ppu_073",
+        "teks": "Makna ungkapan kiasan <b>\"Bunga tidur\"</b> adalah...",
+        "opsi": [
+          "Orang yang suka tidur",
+          "Mimpi",
+          "Ranjang bunga",
+          "Penyakit insomnia",
+          "Obat tidur"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dalam peribahasa atau idiom bahasa Indonesia, 'bunga tidur' memiliki makna kiasan yang berarti mimpi (sesuatu yang dialami saat sedang tidur)."
+      },
+      {
+        "id": "utbk_ppu_074",
+        "teks": "Kalimat manakah yang strukturnya <b>TIDAK LOGIS</b> atau rancu?",
+        "opsi": [
+          "Kepada para pemenang lomba, dipersilakan naik ke atas panggung.",
+          "Pencuri perhiasan itu berhasil ditangkap oleh pihak kepolisian setempat.",
+          "Yang membawa telepon seluler harap segera dimatikan.",
+          "Meskipun hari hujan lebat, ayah tetap berangkat pergi ke kantor.",
+          "Buku sejarah tersebut ditulis oleh seorang ilmuwan terkenal."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kalimat C tidak logis dan salah nalar. Subjek dari kalimat tersebut adalah 'Yang membawa telepon seluler' (orangnya). Sehingga jika diartikan secara harfiah, orangnyalah yang harap 'dimatikan'. Seharusnya: 'Telepon seluler yang dibawa harap segera dimatikan'."
+      },
+      {
+        "id": "utbk_ppu_075",
+        "teks": "Penulisan dua kata yang digabungkan namun harus ditulis <b>terpisah</b> yang benar adalah...",
+        "opsi": [
+          "Bimasakti",
+          "Kacamata",
+          "Orang tua",
+          "Beasiswa",
+          "Olahraga"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Bentuk gabungan kata yang harus ditulis terpisah adalah 'Orang tua' dan 'Olah raga' (menurut kaidah baku). Namun, 'olahraga' diizinkan digabung dalam perkembangan kebahasaan tertentu, tetapi 'orang tua' mutlak ditulis terpisah. 'Kacamata', 'beasiswa', dan 'bimasakti' adalah kata majemuk yang sudah padu (ditulis serangkai)."
+      },
+      {
+        "id": "utbk_ppu_076",
+        "teks": "Sinonim atau padanan kata dari <b>ESENSI</b> adalah...",
+        "opsi": [
+          "Permulaan",
+          "Hakikat",
+          "Tambahan",
+          "Penjelasan",
+          "Permukaan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, esensi berarti hakikat; inti; atau hal yang pokok dari sesuatu."
+      },
+      {
+        "id": "utbk_ppu_077",
+        "teks": "Lawan kata atau antonim dari <b>APRESIASI</b> adalah...",
+        "opsi": [
+          "Penghargaan",
+          "Pujian",
+          "Sanjungan",
+          "Hinaan",
+          "Dukungan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Apresiasi berarti penilaian atau penghargaan yang positif terhadap sesuatu. Antonim atau lawan kata yang paling sesuai adalah hinaan, cacian, atau celaan."
+      },
+      {
+        "id": "utbk_ppu_078",
+        "teks": "Penulisan gelar akademik yang benar dan sesuai dengan Ejaan Bahasa Indonesia (PUEBI) adalah...",
+        "opsi": [
+          "Dr. Ir. Ahmad Yani, M.Sc",
+          "Dr. Ir. Ahmad Yani. M.Sc.",
+          "Dr. Ir. Ahmad Yani, M.Sc.",
+          "DR. Ir. Ahmad Yani, MSc.",
+          "Dr. Ir. Ahmad Yani, M.Sc"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Setiap singkatan gelar diakhiri dengan tanda titik. Antara nama dan gelar, serta antar gelar, dipisahkan dengan tanda koma. Jawaban yang tepat: Dr. Ir. Ahmad Yani, M.Sc."
+      },
+      {
+        "id": "utbk_ppu_079",
+        "teks": "Makna ungkapan <b>\"Banting tulang\"</b> dalam kalimat 'Ayah banting tulang demi menyekolahkan anak-anaknya' adalah...",
+        "opsi": [
+          "Merusak tulang",
+          "Bekerja sangat keras",
+          "Suka mengeluh",
+          "Bekerja dengan otot",
+          "Membanting barang"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ungkapan 'banting tulang' dalam bahasa Indonesia bermakna bekerja dengan sangat keras atau mengerahkan segala tenaga."
+      },
+      {
+        "id": "utbk_ppu_080",
+        "teks": "Kalimat yang mengandung pemborosan kata (pleonasme) adalah...",
+        "opsi": [
+          "Banyak anak sedang bermain di taman.",
+          "Para tamu-tamu undangan dimohon memasuki ruangan.",
+          "Ibu membeli sayuran di pasar.",
+          "Andi bekerja keras untuk mencapai cita-citanya.",
+          "Mereka berdiskusi mengenai masalah tersebut."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kata 'Para' sudah menunjukkan makna jamak (banyak), begitu juga dengan bentuk ulang 'tamu-tamu'. Penggunaan keduanya secara bersamaan merupakan pemborosan kata (pleonasme). Seharusnya: 'Para tamu undangan...' atau 'Tamu-tamu undangan...'."
+      },
+      {
+        "id": "utbk_ppu_081",
+        "teks": "Sinonim dari kata <b>IMPLIKASI</b> adalah...",
+        "opsi": [
+          "Penyebab",
+          "Akibat",
+          "Keterlibatan",
+          "Penyelesaian",
+          "Dugaan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Implikasi bermakna keterlibatan (dalam suatu hal) atau akibat (konsekuensi) yang ditimbulkan oleh suatu kejadian. Dari opsi yang ada, 'Keterlibatan' atau 'Akibat' merupakan padanan kata yang tepat."
+      },
+      {
+        "id": "utbk_ppu_082",
+        "teks": "Antonim dari kata <b>TENTATIF</b> adalah...",
+        "opsi": [
+          "Sementara",
+          "Pasti",
+          "Ragu-ragu",
+          "Belum jelas",
+          "Wacana"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Tentatif berarti belum pasti; masih dapat diubah; atau sementara waktu. Antonim yang paling tepat adalah pasti atau final."
+      },
+      {
+        "id": "utbk_ppu_083",
+        "teks": "Penulisan kelompok kata baku yang benar semuanya adalah...",
+        "opsi": [
+          "Nasehat, Hakikat, Hirarki",
+          "Nasihat, Hakekat, Hierarki",
+          "Nasihat, Hakikat, Hierarki",
+          "Nasehat, Hakekat, Hirarki",
+          "Nasihat, Hakikat, Hirarki"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, bentuk ejaan yang baku adalah Nasihat (bukan nasehat), Hakikat (bukan hakekat), dan Hierarki (bukan hirarki)."
+      },
+      {
+        "id": "utbk_ppu_084",
+        "teks": "Penggunaan tanda koma (,) yang <b>SALAH</b> terdapat pada kalimat...",
+        "opsi": [
+          "Saya ingin pergi, tetapi hari hujan.",
+          "Dia sangat rajin, sedangkan adiknya pemalas.",
+          "Budi tidak hadir di kelas, karena ia sedang sakit.",
+          "Oleh karena itu, kita harus belajar dengan giat.",
+          "Jika kamu setuju, saya akan membantumu."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Tanda koma tidak digunakan sebelum konjungsi subordinatif 'karena' jika anak kalimat berada di belakang induk kalimat. Kalimat C salah karena ada koma sebelum 'karena'. Seharusnya: 'Budi tidak hadir di kelas karena ia sedang sakit.'"
+      },
+      {
+        "id": "utbk_ppu_085",
+        "teks": "Sinonim dari kata <b>DIVERGEN</b> adalah...",
+        "opsi": [
+          "Menyebar",
+          "Memusat",
+          "Sejalan",
+          "Sejajar",
+          "Beraturan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Divergen bermakna dalam keadaan menyebar; bercabang-cabang dari satu titik; atau berbeda-beda arah. Lawannya adalah konvergen (memusat)."
+      },
+      {
+        "id": "utbk_ppu_086",
+        "teks": "Antonim dari kata <b>SKEPTIS</b> adalah...",
+        "opsi": [
+          "Ragu-ragu",
+          "Yakin",
+          "Curiga",
+          "Cemas",
+          "Apatis"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Skeptis berarti kurang percaya atau ragu-ragu (terhadap keberhasilan, kebenaran, dsb). Antonim atau lawan kata yang paling tepat adalah yakin atau optimis."
+      },
+      {
+        "id": "utbk_ppu_087",
+        "teks": "Penggunaan preposisi <i>di-</i> yang ditulis dengan benar terdapat pada kata...",
+        "opsi": [
+          "di pukul",
+          "diantara",
+          "dibalik",
+          "di rumah",
+          "di larang"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kata 'di' yang menunjukkan tempat atau lokasi harus ditulis terpisah dari kata yang mengikutinya (di rumah, di antara, di balik). Jika berfungsi sebagai awalan pembentuk kata kerja pasif, harus ditulis digabung (dipukul, dilarang)."
+      },
+      {
+        "id": "utbk_ppu_088",
+        "teks": "Makna ungkapan kiasan <b>\"Buah tangan\"</b> adalah...",
+        "opsi": [
+          "Hasil karya seni",
+          "Orang kepercayaan",
+          "Oleh-oleh",
+          "Anak kesayangan",
+          "Tulisan tangan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dalam perbendaharaan bahasa Indonesia, 'buah tangan' adalah ungkapan kiasan yang bermakna barang bawaan yang dibawa dari bepergian, atau oleh-oleh."
+      },
+      {
+        "id": "utbk_ppu_089",
+        "teks": "Kalimat yang <b>ambigu</b> (memiliki lebih dari satu penafsiran makna) adalah...",
+        "opsi": [
+          "Budi membeli buku tulis di koperasi.",
+          "Anak pegawai yang gemuk itu sedang makan.",
+          "Ibu memasak rendang daging di dapur.",
+          "Mereka sedang membahas rencana liburan akhir tahun.",
+          "Pemerintah akan membangun jembatan baru bulan depan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kalimat B ambigu dan dapat menimbulkan kebingungan karena frasa 'yang gemuk itu' bisa saja menerangkan sang 'Anak' atau menerangkan sang 'Pegawai'."
+      },
+      {
+        "id": "utbk_ppu_090",
+        "teks": "Sinonim dari kata <b>KLARIFIKASI</b> adalah...",
+        "opsi": [
+          "Penolakan",
+          "Penyembunyian",
+          "Penjelasan",
+          "Perubahan",
+          "Penyatuan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Klarifikasi berarti penjernihan, penjelasan, atau pengembalian kepada apa yang sebenarnya (tentang suatu hal atau masalah)."
+      },
+      {
+        "id": "utbk_ppu_091",
+        "teks": "Antonim dari kata <b>MAYORITAS</b> adalah...",
+        "opsi": [
+          "Banyak",
+          "Sedikit",
+          "Dominan",
+          "Minoritas",
+          "Masyarakat"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Mayoritas adalah jumlah terbanyak atau bagian terbesar dari suatu himpunan. Antonim atau lawan katanya adalah minoritas (bagian/jumlah terkecil)."
+      },
+      {
+        "id": "utbk_ppu_092",
+        "teks": "Penggunaan huruf kapital yang tepat untuk unsur nama geografi adalah...",
+        "opsi": [
+          "Mereka mendaki gunung Semeru.",
+          "Banyak perahu melintas di sungai Musi.",
+          "Kami berlibur ke Danau Toba.",
+          "Penduduk pulau Jawa sangat padat.",
+          "Ayah mandi di Danau yang airnya jernih."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Huruf pertama unsur nama geografi yang diikuti nama diri harus ditulis kapital (Gunung Semeru, Sungai Musi, Danau Toba, Pulau Jawa). Jika tidak diikuti nama diri, ditulis huruf kecil (mandi di danau)."
+      },
+      {
+        "id": "utbk_ppu_093",
+        "teks": "Manakah kelompok kata serapan yang seluruhnya baku?",
+        "opsi": [
+          "Kwalitas, Kuantitas, Frekwensi",
+          "Kualitas, Kwantitas, Frekuensi",
+          "Kualitas, Kuantitas, Frekuensi",
+          "Kwalitas, Kwantitas, Frekwensi",
+          "Kualitas, Kuantitas, Frekwensi"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan pedoman penyerapan kata dalam KBBI, ejaan yang baku adalah Kualitas (bukan kwalitas), Kuantitas (bukan kwantitas), dan Frekuensi (bukan frekwensi)."
+      },
+      {
+        "id": "utbk_ppu_094",
+        "teks": "Sinonim dari kata <b>FLUKTUATIF</b> adalah...",
+        "opsi": [
+          "Tetap",
+          "Statis",
+          "Turun naik",
+          "Beraturan",
+          "Menetap"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Fluktuatif berarti bersifat fluktuasi; keadaan yang turun naik; labil; atau tidak tetap (umumnya digunakan tentang harga, nilai tukar, grafik, dsb)."
+      },
+      {
+        "id": "utbk_ppu_095",
+        "teks": "Antonim dari kata <b>PROLOG</b> adalah...",
+        "opsi": [
+          "Dialog",
+          "Monolog",
+          "Katalog",
+          "Epilog",
+          "Episentrum"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Prolog adalah kata pendahuluan (pembukaan) dalam sebuah karya sastra atau drama. Antonimnya adalah Epilog (bagian penutup)."
+      },
+      {
+        "id": "utbk_ppu_096",
+        "teks": "Kalimat yang strukturnya <b>TIDAK LOGIS</b> (rancu) di bawah ini adalah...",
+        "opsi": [
+          "Demi menghemat waktu, mari kita mulai rapat ini.",
+          "Waktu dan tempat kami persilakan kepada Bapak Lurah.",
+          "Banyak warga yang mengungsi akibat banjir bandang.",
+          "Buku sejarah itu ditulis oleh seorang peneliti terkenal.",
+          "Para peserta diharapkan segera memasuki ruangan."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kalimat 'Waktu dan tempat kami persilakan' salah nalar (rancu) karena yang dipersilakan adalah waktu dan tempatnya, bukan orangnya (Bapak Lurah). Kalimat yang logis adalah 'Kepada Bapak Lurah, kami persilakan'."
+      },
+      {
+        "id": "utbk_ppu_097",
+        "teks": "Makna kiasan <b>\"Bintang kelas\"</b> adalah...",
+        "opsi": [
+          "Siswa yang paling tinggi",
+          "Siswa yang suka benda langit",
+          "Siswa paling menonjol atau terpintar di kelas",
+          "Siswa yang paling kaya",
+          "Ketua kelas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ungkapan 'bintang kelas' merupakan majas atau kiasan untuk menyebutkan siswa yang paling pandai, berprestasi, atau paling menonjol di kelasnya."
+      },
+      {
+        "id": "utbk_ppu_098",
+        "teks": "Sinonim dari kata <b>STIGMA</b> adalah...",
+        "opsi": [
+          "Tanda jasa",
+          "Pujian",
+          "Ciri negatif atau cap buruk",
+          "Cacat fisik",
+          "Kenyataan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Stigma bermakna ciri negatif yang menempel pada pribadi seseorang karena pengaruh atau penilaian lingkungannya; cap buruk."
+      },
+      {
+        "id": "utbk_ppu_099",
+        "teks": "Antonim dari kata <b>NOMADEN</b> adalah...",
+        "opsi": [
+          "Mandiri",
+          "Menetap",
+          "Berpindah-pindah",
+          "Primitif",
+          "Modern"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Nomaden berarti kaum pengembara atau sekelompok orang yang tidak mempunyai tempat tinggal tetap (suka berpindah-pindah). Antonimnya adalah Menetap."
+      },
+      {
+        "id": "utbk_ppu_100",
+        "teks": "Penulisan nilai mata uang dan bilangan yang benar menurut PUEBI adalah...",
+        "opsi": [
+          "Rp. 5.000,00",
+          "Rp 5.000,00",
+          "Rp5.000,00",
+          "Rp5.000,-",
+          "Rp. 5.000,-"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penulisan lambang mata uang rupiah (Rp) tidak diikuti tanda titik dan tidak dipisahkan dengan spasi dari angka nominal yang mengikutinya. Angka diakhiri dengan tanda koma dan dua angka nol (00). Yang benar adalah Rp5.000,00."
+      },
+      {
+        "id": "utbk_ppu_101",
+        "teks": "Penulisan kata baku yang benar dari kelompok kata di bawah ini adalah...",
+        "opsi": [
+          "Jadual, Aktip, Konkrit",
+          "Jadwal, Aktif, Konkret",
+          "Jadwal, Aktip, Konkrit",
+          "Jadual, Aktif, Kongkret",
+          "Jadwal, Aktif, Konkrit"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan Kamus Besar Bahasa Indonesia (KBBI), penulisan yang baku adalah jadwal (bukan jadual), aktif (bukan aktip), dan konkret (bukan konkrit atau kongkret)."
+      },
+      {
+        "id": "utbk_ppu_102",
+        "teks": "Sinonim dari kata <b>KORELASI</b> adalah...",
+        "opsi": [
+          "Hubungan timbal balik",
+          "Perbedaan nyata",
+          "Dampak beruntun",
+          "Pengaruh searah",
+          "Pertentangan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Korelasi berarti hubungan timbal balik atau sebab-akibat yang menunjukkan keterkaitan antara dua hal."
+      },
+      {
+        "id": "utbk_ppu_103",
+        "teks": "Antonim dari kata <b>PROMINEN</b> adalah...",
+        "opsi": [
+          "Terkemuka",
+          "Hebat",
+          "Biasa",
+          "Menonjol",
+          "Asing"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Prominen bermakna terkemuka; menonjol; atau luar biasa (dikenal banyak orang). Antonim atau lawan kata yang paling tepat adalah biasa."
+      },
+      {
+        "id": "utbk_ppu_104",
+        "teks": "Penggunaan huruf kapital yang <b>SALAH</b> terdapat pada kalimat...",
+        "opsi": [
+          "Adik lahir pada bulan Agustus.",
+          "Ayah membeli pisang Ambon di pasar.",
+          "Paman menjabat sebagai Bupati Bantul.",
+          "Pegunungan Jayawijaya terletak di Papua.",
+          "Presiden Joko Widodo meresmikan bendungan itu."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kata 'ambon' pada frasa 'pisang ambon' menunjukkan jenis atau varietas, bukan menunjukkan nama geografi (daerah asal). Sehingga huruf 'A' tidak boleh ditulis dengan huruf kapital (pisang ambon)."
+      },
+      {
+        "id": "utbk_ppu_105",
+        "teks": "Makna ungkapan <b>\"Tangan besi\"</b> adalah...",
+        "opsi": [
+          "Pekerja kasar",
+          "Orang yang kuat fisiknya",
+          "Kekuasaan dengan kekerasan",
+          "Orang yang kikir/pelit",
+          "Sangat pandai memukul"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ungkapan 'tangan besi' dalam bahasa Indonesia bermakna kekuasaan atau tindakan yang dilakukan dengan sangat keras, kejam, dan tanpa ampun."
+      },
+      {
+        "id": "utbk_ppu_106",
+        "teks": "Kalimat di bawah ini yang merupakan kalimat <b>efektif</b> adalah...",
+        "opsi": [
+          "Para siswa-siswa sedang belajar di kelas.",
+          "Demi untuk ibunya, ia rela bekerja keras setiap hari.",
+          "Hadirin dimohon berdiri sejenak.",
+          "Ia memajukan mobilnya ke depan agar tidak menghalangi jalan.",
+          "Rapat itu membahas tentang masalah keuangan desa."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Opsi A pleonasme (Para siswa-siswa -> Para siswa). Opsi B pemborosan preposisi (Demi untuk -> Demi / Untuk). Opsi D pleonasme (maju pasti arahnya ke depan). Opsi E penggunaan 'tentang' setelah verba transitif 'membahas' adalah salah (membahas masalah). Opsi C sudah efektif."
+      },
+      {
+        "id": "utbk_ppu_107",
+        "teks": "Sinonim dari kata <b>INTERVENSI</b> adalah...",
+        "opsi": [
+          "Perlindungan",
+          "Perdebatan",
+          "Campur tangan",
+          "Perdamaian",
+          "Perlawanan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, intervensi berarti campur tangan dalam perselisihan antara dua pihak (orang, golongan, negara, dsb)."
+      },
+      {
+        "id": "utbk_ppu_108",
+        "teks": "Antonim dari kata <b>MUTLAK</b> adalah...",
+        "opsi": [
+          "Pasti",
+          "Absolut",
+          "Relatif",
+          "Tetap",
+          "Penuh"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Mutlak berarti segenap tenaga; tidak boleh tidak; pasti; absolut. Antonim atau lawan katanya adalah relatif (nisbi, bergantung pada sesuatu yang lain)."
+      },
+      {
+        "id": "utbk_ppu_109",
+        "teks": "Penggunaan tanda koma (,) yang tepat terdapat pada kalimat...",
+        "opsi": [
+          "Saya tidak datang, karena hari hujan.",
+          "Ibu memasak nasi dan, ayah membaca koran.",
+          "Ia sangat kaya, tetapi sangat kikir.",
+          "Jika kamu menangis, maka ibu akan sedih.",
+          "Budi membeli, buku, pensil, dan tas."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Tanda koma digunakan sebelum kata penghubung pertentangan seperti 'tetapi', 'melainkan', dan 'sedangkan'. Opsi A salah karena anak kalimat di belakang tidak perlu koma. Opsi B, D, dan E salah penempatan koma."
+      },
+      {
+        "id": "utbk_ppu_110",
+        "teks": "Proses pembentukan kata (afiksasi) yang benar jika kata dasar <b>\"rusak\"</b> mendapat awalan <b>pe-</b> adalah...",
+        "opsi": [
+          "Perusak",
+          "Pengrusak",
+          "Pemrusak",
+          "Penyurusak",
+          "Penrusak"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Kata dasar yang berawalan dengan konsonan 'r', 'l', 'w', 'y' tidak luluh dan tidak mendapat sengau (nasal) bila diberi awalan pe-. Sehingga pe- + rusak menjadi 'perusak', bukan 'pengrusak'."
+      },
+      {
+        "id": "utbk_ppu_111",
+        "teks": "Makna dari kata <b>\"Amnesti\"</b> adalah...",
+        "opsi": [
+          "Pengampunan atau penghapusan hukuman yang diberikan oleh kepala negara.",
+          "Pengurangan masa tahanan seorang narapidana.",
+          "Pembebasan bersyarat bagi narapidana berkelakuan baik.",
+          "Penangkapan kembali tahanan yang melarikan diri.",
+          "Pemindahan lokasi tahanan narapidana ke lembaga pemasyarakatan lain."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Amnesti adalah pengampunan atau penghapusan hukuman yang diberikan kepala negara kepada seseorang atau sekelompok orang yang telah melakukan tindak pidana tertentu. (B adalah Remisi, C adalah Pembebasan bersyarat)."
+      },
+      {
+        "id": "utbk_ppu_112",
+        "teks": "Sinonim dari kata <b>KREDIBEL</b> adalah...",
+        "opsi": [
+          "Nyata",
+          "Andal",
+          "Dapat dipercaya",
+          "Hebat",
+          "Cerdas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kredibel berarti dapat dipercaya (biasanya digunakan dalam konteks kualitas sumber informasi, institusi, lembaga, atau kesaksian seseorang)."
+      },
+      {
+        "id": "utbk_ppu_113",
+        "teks": "Antonim dari kata <b>HOMOGEN</b> adalah...",
+        "opsi": [
+          "Sama",
+          "Seragam",
+          "Heterogen",
+          "Murni",
+          "Campuran"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Homogen berarti terdiri atas berbagai unsur yang sama (seragam/sejenis). Antonim atau lawan katanya adalah heterogen (terdiri dari unsur yang beraneka ragam/berbeda-beda)."
+      },
+      {
+        "id": "utbk_ppu_114",
+        "teks": "Di antara deretan kata berikut, manakah kata yang penulisannya <b>TIDAK BAKU</b> menurut ejaan bahasa Indonesia?",
+        "opsi": [
+          "Izin",
+          "Zaman",
+          "Antre",
+          "Ekstrim",
+          "Sistem"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Bentuk baku dari kata tersebut menurut KBBI adalah 'Ekstrem', bukan 'Ekstrim'. Kata Izin, Zaman, Antre, dan Sistem adalah contoh penulisan kata baku."
+      },
+      {
+        "id": "utbk_ppu_115",
+        "teks": "Makna ungkapan <b>\"Kutu buku\"</b> adalah...",
+        "opsi": [
+          "Orang yang sangat gemar membaca buku",
+          "Buku yang sudah kotor dan rusak",
+          "Orang yang pendiam di kelas",
+          "Pemalas yang hanya tidur",
+          "Orang yang suka merusak buku"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Ungkapan kiasan 'kutu buku' digunakan untuk menyebut orang yang sangat gemar atau gila membaca dan menelaah buku kapan pun dan di mana pun."
+      },
+      {
+        "id": "utbk_ppu_116",
+        "teks": "Penulisan preposisi (kata depan) <i>di</i> yang <b>SALAH</b> terdapat pada kata...",
+        "opsi": [
+          "di pasar",
+          "di mana",
+          "di rumah",
+          "di makan",
+          "di samping"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kata 'di' yang berfungsi sebagai kata depan (menunjuk keterangan tempat) ditulis terpisah dari kata yang mengikutinya (di pasar, di mana, di rumah, di samping). Kata 'di' pada 'dimakan' adalah imbuhan awalan pembentuk kata kerja pasif, sehingga harus ditulis digabung."
+      },
+      {
+        "id": "utbk_ppu_117",
+        "teks": "Sinonim dari kata <b>AGITASI</b> adalah...",
+        "opsi": [
+          "Hasutan",
+          "Perdamaian",
+          "Penolakan",
+          "Dukungan",
+          "Penyebaran"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan KBBI, agitasi berarti hasutan kepada orang banyak (untuk mengadakan huru-hara, pemberontakan, dan sebagainya)."
+      },
+      {
+        "id": "utbk_ppu_118",
+        "teks": "Antonim dari kata <b>MASIF</b> adalah...",
+        "opsi": [
+          "Besar",
+          "Padat",
+          "Utuh",
+          "Parsial",
+          "Kuat"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Masif berarti utuh dan padat; kuat; atau berskala sangat besar/menyeluruh. Antonim yang paling tepat dalam konteks menyeluruh (besar-besaran) adalah parsial (sebagian)."
+      },
+      {
+        "id": "utbk_ppu_119",
+        "teks": "Kalimat di bawah ini yang <b>ambigu</b> (menimbulkan penafsiran ganda) adalah...",
+        "opsi": [
+          "Rina membaca majalah remaja di kamar.",
+          "Ibu menanam bunga mawar yang indah.",
+          "Ayah mencuci mobil di garasi.",
+          "Kucing makan tikus mati.",
+          "Anak itu menangis karena terjatuh."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kalimat 'Kucing makan tikus mati' bermakna ganda (ambigu): Apakah 'kucing memakan tikus yang sudah mati' ATAU 'seekor kucing makan seekor tikus, lalu kucing tersebut mati'? Penafsiran ganda ini disebabkan oleh ketiadaan jeda intonasi atau struktur kalimat yang rancu."
+      },
+      {
+        "id": "utbk_ppu_120",
+        "teks": "Penulisan partikel <i>pun</i> yang digabung secara tepat terdapat pada kata...",
+        "opsi": [
+          "Apa pun",
+          "Siapa pun",
+          "Walaupun",
+          "Satu pun",
+          "Di mana pun"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Secara umum, partikel 'pun' ditulis terpisah dari kata yang mendahuluinya karena bermakna 'juga' (apa pun, siapa pun, satu pun, di mana pun). Namun, partikel 'pun' yang merupakan unsur kata penghubung (konjungsi) harus ditulis serangkai (menyatu), seperti: walaupun, meskipun, adapun, bagaimanapun."
+      },
+      {
+        "id": "utbk_ppu_121",
+        "teks": "Sinonim dari kata <b>FLUKTUASI</b> adalah...",
+        "opsi": [
+          "Keadaan tetap",
+          "Gejala turun naik",
+          "Kejatuhan drastis",
+          "Kenaikan perlahan",
+          "Puncak tertinggi"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Fluktuasi berarti gejala yang menunjukkan turun naiknya harga, keadaan, grafik, dsb; keadaan yang tidak tetap atau labil."
+      },
+      {
+        "id": "utbk_ppu_122",
+        "teks": "Antonim dari kata <b>OBJEKTIF</b> adalah...",
+        "opsi": [
+          "Subjektif",
+          "Faktual",
+          "Nyata",
+          "Ilmiah",
+          "Pasti"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Objektif berarti mengenai keadaan yang sebenarnya tanpa dipengaruhi pendapat atau pandangan pribadi. Antonimnya adalah Subjektif (berdasarkan pandangan, preferensi, atau perasaan sendiri)."
+      },
+      {
+        "id": "utbk_ppu_123",
+        "teks": "Penulisan gelar keakademikan yang paling benar sesuai PUEBI adalah...",
+        "opsi": [
+          "Dr. Budi Santoso S.E., M.M.",
+          "Dr. Budi Santoso, S.E., M.M.",
+          "Dr. Budi Santoso, S.E, M.M.",
+          "DR. Budi Santoso S.E, M.M.",
+          "Dr. Budi Santoso. S.E., M.M."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Penulisan gelar diakhiri dengan titik untuk tiap unsur singkatan. Antara nama dengan gelar, dan antara satu gelar dengan gelar lainnya (yang sejajar/berurutan) wajib dipisahkan oleh tanda koma. Jawaban yang tepat: Dr. Budi Santoso, S.E., M.M."
+      },
+      {
+        "id": "utbk_ppu_124",
+        "teks": "Makna dari ungkapan <b>\"Kepala dingin\"</b> adalah...",
+        "opsi": [
+          "Mudah marah",
+          "Sabar dan tenang",
+          "Bertindak bodoh",
+          "Keras kepala",
+          "Orang yang egois"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ungkapan 'berkepala dingin' atau 'kepala dingin' memiliki makna kiasan bersikap tenang, sabar, dan tidak terburu-buru dikuasai emosi dalam menghadapi suatu masalah."
+      },
+      {
+        "id": "utbk_ppu_125",
+        "teks": "Kalimat yang mengandung <b>pleonasme</b> (pemborosan kata) adalah...",
+        "opsi": [
+          "Ayah membelikan adik mainan baru.",
+          "Kami berdiskusi di ruang rapat selama dua jam.",
+          "Rombongan menteri telah tiba di lokasi acara.",
+          "Para ibu-ibu sedang arisan di balai desa.",
+          "Semua peserta diharap tenang saat ujian berlangsung."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Pleonasme adalah penggunaan kata-kata yang berlebihan (makna tumpang tindih). Kata 'Para' sudah bermakna jamak (banyak), ditambah lagi dengan pengulangan kata 'ibu-ibu' yang juga bermakna jamak. Seharusnya: 'Para ibu' atau 'Ibu-ibu'."
+      },
+      {
+        "id": "utbk_ppu_126",
+        "teks": "Penulisan kata baku yang paling tepat di bawah ini adalah...",
+        "opsi": [
+          "Khotbah",
+          "Hutang",
+          "Jadual",
+          "Ijasah",
+          "Cidera"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan KBBI, penulisan yang baku adalah Khotbah. Opsi lain bentuk bakunya adalah: Utang, Jadwal, Ijazah, Cedera."
+      },
+      {
+        "id": "utbk_ppu_127",
+        "teks": "Sinonim atau padanan kata dari <b>ELUSIF</b> adalah...",
+        "opsi": [
+          "Sulit dipahami",
+          "Mudah dimengerti",
+          "Menghindar",
+          "Halus",
+          "Berkelit"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan KBBI, elusif berarti sukar dipahami atau sukar diartikan."
+      },
+      {
+        "id": "utbk_ppu_128",
+        "teks": "Lawan kata atau antonim dari <b>ABSURD</b> adalah...",
+        "opsi": [
+          "Aneh",
+          "Masuk akal",
+          "Konyol",
+          "Ganjil",
+          "Nyata"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Absurd berarti tidak masuk akal; mustahil; konyol. Antonim atau lawan kata yang paling sesuai adalah masuk akal atau logis."
+      },
+      {
+        "id": "utbk_ppu_129",
+        "teks": "Penggunaan tanda koma (,) yang <b>SALAH</b> terdapat pada kalimat...",
+        "opsi": [
+          "Wah, ternyata pemandangannya indah sekali.",
+          "Karena sedih, adik menangis di kamar.",
+          "Adik menangis di kamar, karena sedih.",
+          "Budi, siswa teladan itu, mendapat beasiswa.",
+          "Saya tidak akan pergi, kecuali jika kamu ikut."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Tanda koma tidak digunakan jika anak kalimat (perluasan kalimat) mengikuti induk kalimatnya. Konjungsi subordinatif 'karena' tidak boleh didahului koma jika posisinya di belakang induk kalimat. Seharusnya: 'Adik menangis di kamar karena sedih.'"
+      },
+      {
+        "id": "utbk_ppu_130",
+        "teks": "Makna dari ungkapan <b>\"Tinggi hati\"</b> adalah...",
+        "opsi": [
+          "Sombong",
+          "Sabar",
+          "Pemarah",
+          "Percaya diri",
+          "Baik hati"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Ungkapan 'tinggi hati' merupakan idiom yang bermakna sombong atau angkuh."
+      },
+      {
+        "id": "utbk_ppu_131",
+        "teks": "Sinonim dari kata <b>RESIDU</b> adalah...",
+        "opsi": [
+          "Sisa",
+          "Hasil",
+          "Polusi",
+          "Gas",
+          "Asap"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Residu bermakna ampas; endapan; atau sisa (dari suatu proses kimia atau pembakaran)."
+      },
+      {
+        "id": "utbk_ppu_132",
+        "teks": "Kalimat yang mengandung pemborosan kata (pleonasme) adalah...",
+        "opsi": [
+          "Ia turun ke bawah untuk mengambil buku yang jatuh.",
+          "Ayah membaca koran di teras rumah.",
+          "Ibu memasak ayam goreng untuk makan malam.",
+          "Mereka berdiskusi di dalam kelas.",
+          "Adik berlari kencang mengejar bola."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Kata 'turun' sudah pasti arahnya ke 'bawah'. Penambahan frasa 'ke bawah' setelah kata turun adalah bentuk pemborosan kata (pleonasme)."
+      },
+      {
+        "id": "utbk_ppu_133",
+        "teks": "Antonim dari kata <b>ANTAGONIS</b> adalah...",
+        "opsi": [
+          "Lawan",
+          "Protagonis",
+          "Tritagonis",
+          "Figuran",
+          "Penentang"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Antagonis adalah tokoh penentang (lawan) dalam karya sastra/drama. Antonimnya adalah Protagonis (tokoh utama/pemeran utama yang baik)."
+      },
+      {
+        "id": "utbk_ppu_134",
+        "teks": "Penulisan huruf kapital yang benar terdapat pada frasa...",
+        "opsi": [
+          "Suku batak",
+          "Bika Ambon",
+          "Pulau Bali",
+          "Hari lebaran",
+          "sungai Kapuas"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penulisan unsur nama geografi yang diiringi nama diri ditulis kapital (Pulau Bali). Opsi A salah (Suku Batak), opsi B salah karena nama jenis (bika ambon), opsi D salah (hari Lebaran), opsi E salah (Sungai Kapuas)."
+      },
+      {
+        "id": "utbk_ppu_135",
+        "teks": "Penulisan kata serapan yang baku menurut PUEBI adalah...",
+        "opsi": [
+          "Komplek",
+          "Konkrit",
+          "Frustasi",
+          "Hierarki",
+          "Formil"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Berdasarkan KBBI, bentuk ejaan yang baku adalah Hierarki. Opsi lain bentuk bakunya adalah: Kompleks, Konkret, Frustrasi, dan Formal."
+      },
+      {
+        "id": "utbk_ppu_136",
+        "teks": "Makna dari kata <b>\"Deforestasi\"</b> adalah...",
+        "opsi": [
+          "Penebangan hutan",
+          "Penanaman kembali hutan yang gundul",
+          "Pelestarian alam sekitar",
+          "Pemupukan lahan pertanian",
+          "Penghijauan lingkungan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan KBBI, deforestasi adalah penebangan hutan (penggundulan hutan) untuk diambil kayunya atau untuk mengubah peruntukan lahan."
+      },
+      {
+        "id": "utbk_ppu_137",
+        "teks": "Sinonim dari kata <b>TENTATIF</b> adalah...",
+        "opsi": [
+          "Pasti",
+          "Belum pasti",
+          "Selesai",
+          "Berulang",
+          "Tepat"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Tentatif bermakna belum pasti; masih dapat diubah; atau berlaku untuk sementara waktu."
+      },
+      {
+        "id": "utbk_ppu_138",
+        "teks": "Antonim dari kata <b>MANDIRI</b> adalah...",
+        "opsi": [
+          "Berdikari",
+          "Bergantung",
+          "Swadaya",
+          "Bebas",
+          "Otonom"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Mandiri berarti dalam keadaan dapat berdiri sendiri; tidak bergantung pada orang lain. Antonim yang tepat adalah bergantung."
+      },
+      {
+        "id": "utbk_ppu_139",
+        "teks": "Kata turunan (berimbuhan <i>me-</i>) yang penulisannya sesuai kaidah peluluhan adalah...",
+        "opsi": [
+          "Mengkonsumsi",
+          "Mensukseskan",
+          "Mempesona",
+          "Memedulikan",
+          "Menterjemahkan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kaidah peluluhan K, P, T, S berlaku jika kata dasar diawali huruf tersebut dan diikuti huruf vokal. Kata dasar 'peduli' luluh menjadi 'memedulikan'. Opsi lain seharusnya: mengonsumsi, menyukseskan, memesona, menerjemahkan."
+      },
+      {
+        "id": "utbk_ppu_140",
+        "teks": "Makna dari ungkapan <b>\"Kepala batu\"</b> adalah...",
+        "opsi": [
+          "Bodoh",
+          "Keras kepala",
+          "Pandai",
+          "Pemarah",
+          "Pelupa"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ungkapan 'kepala batu' bermakna keras kepala; tegar tengkuk; atau tidak mau menerima nasihat/pendapat orang lain."
+      },
+      {
+        "id": "utbk_ppu_141",
+        "teks": "Sinonim dari kata <b>AKSELERASI</b> adalah...",
+        "opsi": [
+          "Perlambatan",
+          "Percepatan",
+          "Perhentian",
+          "Penurunan",
+          "Penahanan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Akselerasi memiliki makna proses mempercepat, peningkatan kecepatan, atau percepatan."
+      },
+      {
+        "id": "utbk_ppu_142",
+        "teks": "Antonim dari kata <b>HETEROGEN</b> adalah...",
+        "opsi": [
+          "Beragam",
+          "Majemuk",
+          "Homogen",
+          "Campuran",
+          "Plural"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Heterogen berarti beraneka ragam (terdiri dari unsur yang berbeda). Antonimnya adalah Homogen (terdiri atas berbagai unsur yang sama/seragam)."
+      },
+      {
+        "id": "utbk_ppu_143",
+        "teks": "Kalimat yang bermakna ganda (<b>ambigu</b>) di bawah ini adalah...",
+        "opsi": [
+          "Istri lurah yang ramah itu membagikan sembako di balai desa.",
+          "Kucing itu melompat ke atas meja makan.",
+          "Andi membeli dua buah buku cerita fiksi.",
+          "Mereka sedang menonton siaran langsung di televisi.",
+          "Pohon besar itu tumbang ditiup angin kencang."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Kalimat A bersifat ambigu karena frasa 'yang ramah itu' bisa menunjuk kepada sang 'Istri', atau bisa juga menunjuk kepada sang 'Lurah'."
+      },
+      {
+        "id": "utbk_ppu_144",
+        "teks": "Penggunaan tanda hubung (-) yang <b>benar</b> terdapat pada frasa...",
+        "opsi": [
+          "se-Indonesia",
+          "mem-PHK kan",
+          "ke 20",
+          "tahun 90 an",
+          "hari-H"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Tanda hubung dipakai untuk merangkaikan awalan 'se-' dengan kata berikutnya yang dimulai dengan huruf kapital (se-Indonesia). Opsi lain yang benar: mem-PHK, ke-20, tahun 90-an, hari H."
+      },
+      {
+        "id": "utbk_ppu_145",
+        "teks": "Sinonim dari kata <b>INKLUSIF</b> adalah...",
+        "opsi": [
+          "Terbuka",
+          "Tertutup",
+          "Eksklusif",
+          "Terbatas",
+          "Khusus"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Inklusif berarti termasuk di dalamnya; atau bersifat menempatkan dirinya ke dalam cara pandang orang lain/kelompok lain (terbuka dan merangkul)."
+      },
+      {
+        "id": "utbk_ppu_146",
+        "teks": "Antonim dari kata <b>MAYORITAS</b> adalah...",
+        "opsi": [
+          "Dominan",
+          "Terbanyak",
+          "Minoritas",
+          "Keseluruhan",
+          "Sebagian besar"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Mayoritas adalah jumlah terbanyak dari suatu kelompok. Antonim atau lawan katanya adalah Minoritas (jumlah paling sedikit)."
+      },
+      {
+        "id": "utbk_ppu_147",
+        "teks": "Penulisan partikel <i>-lah</i> yang benar menurut Ejaan Bahasa Indonesia terdapat pada kalimat...",
+        "opsi": [
+          "Makan lah makanan ini selagi hangat!",
+          "Apalah daya ku untuk membantumu.",
+          "Dialah yang mengambil tas itu kemarin.",
+          "Pergi-lah sekarang sebelum hujan lebat!",
+          "Jangan lah begitu kepada orang tua."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Partikel -lah, -kah, dan -tah ditulis serangkai dengan kata yang mendahuluinya tanpa menggunakan tanda hubung. Penulisan yang tepat adalah 'Dialah'."
+      },
+      {
+        "id": "utbk_ppu_148",
+        "teks": "Makna kata <b>\"Makar\"</b> dalam konteks politik adalah...",
+        "opsi": [
+          "Tipu muslihat untuk menipu lawan",
+          "Usaha untuk menjatuhkan pemerintahan yang sah",
+          "Perbuatan baik terhadap sesama",
+          "Sistem pertahanan keamanan negara",
+          "Kerja sama politik antarpartai"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Dalam ranah politik dan hukum, makar bermakna perbuatan/usaha untuk menggulingkan atau menjatuhkan pemerintahan yang sah."
+      },
+      {
+        "id": "utbk_ppu_149",
+        "teks": "Sinonim dari ungkapan bahasa Latin <b>SINE QUA NON</b> adalah...",
+        "opsi": [
+          "Hal yang tidak penting",
+          "Syarat mutlak",
+          "Keputusan sepihak",
+          "Perjanjian damai",
+          "Hak istimewa"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Sine qua non adalah frasa bahasa Latin yang berarti 'tanpa hal itu, tidak akan terjadi apa-apa', yang sering diartikan sebagai syarat mutlak atau sesuatu yang harus ada."
+      },
+      {
+        "id": "utbk_ppu_150",
+        "teks": "<i>\"Bagi para siswa-siswa yang akan mengikuti ujian, diharap berkumpul di lapangan.\"</i><br><br>Kalimat tersebut <b>tidak efektif</b> karena...",
+        "opsi": [
+          "Tidak memiliki subjek dan mengandung pemborosan kata",
+          "Tidak memiliki objek dan pelengkap",
+          "Predikatnya bermakna ganda (ambigu)",
+          "Kata 'diharap' merupakan bentuk kata tidak baku",
+          "Keterangan tempat diletakkan di akhir kalimat"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Kalimat tersebut tidak memiliki subjek yang jelas karena terhalang oleh preposisi 'Bagi'. Selain itu, terdapat pleonasme (pemborosan kata) pada frasa 'para siswa-siswa'. Perbaikan: <i>\"Para siswa yang akan mengikuti ujian diharap berkumpul di lapangan.\"</i>"
+      },
+      {
+        "id": "utbk_ppu_151",
+        "teks": "Sinonim atau padanan kata dari <b>DEGRADASI</b> adalah...",
+        "opsi": [
+          "Perkembangan",
+          "Kemunduran",
+          "Pemisahan",
+          "Penggabungan",
+          "Peningkatan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Menurut Kamus Besar Bahasa Indonesia (KBBI), degradasi berarti kemunduran, kemerosotan, atau penurunan tentang mutu, moral, pangkat, dan sebagainya."
+      },
+      {
+        "id": "utbk_ppu_152",
+        "teks": "Antonim dari kata <b>PLURAL</b> adalah...",
+        "opsi": [
+          "Jamak",
+          "Banyak",
+          "Tunggal",
+          "Majemuk",
+          "Beragam"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Plural bermakna jamak atau lebih dari satu. Antonim atau lawan kata yang paling tepat adalah tunggal (singular)."
+      },
+      {
+        "id": "utbk_ppu_153",
+        "teks": "Penulisan kelompok kata baku yang <b>semuanya benar</b> adalah...",
+        "opsi": [
+          "Cendikiawan, Saksama, Hierarki",
+          "Cendekiawan, Seksama, Hirarki",
+          "Cendekiawan, Saksama, Hierarki",
+          "Cendikiawan, Seksama, Hierarki",
+          "Cendekiawan, Saksama, Hirarki"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, bentuk ejaan yang baku adalah Cendekiawan (bukan cendikiawan), Saksama (bukan seksama), dan Hierarki (bukan hirarki)."
+      },
+      {
+        "id": "utbk_ppu_154",
+        "teks": "Makna kiasan dari ungkapan <b>\"Kuda hitam\"</b> dalam suatu kompetisi adalah...",
+        "opsi": [
+          "Peserta yang melakukan kecurangan",
+          "Peserta yang sangat diunggulkan sejak awal",
+          "Peserta yang awalnya tidak diperhitungkan tetapi secara mengejutkan meraih kemenangan",
+          "Kuda peliharaan yang diikutkan dalam arena lomba",
+          "Peserta yang selalu kalah dalam setiap pertandingan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Dalam konteks kompetisi atau perlombaan, ungkapan idiom 'kuda hitam' ditujukan kepada peserta yang awalnya tidak dianggap sebagai unggulan, namun secara mengejutkan mampu bersaing dan meraih kemenangan."
+      },
+      {
+        "id": "utbk_ppu_155",
+        "teks": "Penggunaan tanda pisah (&mdash;) yang paling tepat terdapat pada kalimat...",
+        "opsi": [
+          "Acara pameran tersebut diselenggarakan pada tahun 2015-2020.",
+          "Jarak kota Jakarta-Bandung adalah sekitar 150 kilometer.",
+          "Acara pameran tersebut diselenggarakan pada tahun 2015&mdash;2020.",
+          "Perusahaan itu terpaksa mem-PHK-kan sejumlah karyawannya.",
+          "Para siswa-siswi sedang belajar dengan tekun di dalam kelas."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Tanda pisah (&mdash;) dipakai di antara dua bilangan, tanggal, atau nama tempat yang memiliki arti 'sampai dengan' atau 'sampai ke'. Contoh yang benar: 2015&mdash;2020 (Opsi C). Opsi A dan B keliru karena menggunakan tanda hubung (-) biasa untuk konteks rentang/jarak."
+      },
+      {
+        "id": "utbk_ppu_156",
+        "teks": "Kalimat yang memiliki struktur <b>paling efektif</b> dan logis di bawah ini adalah...",
+        "opsi": [
+          "Bagi para mahasiswa yang belum membayar uang kuliah diharap segera melapor ke bagian administrasi.",
+          "Waktu dan tempat kami persilakan kepada Bapak Rektor.",
+          "Untuk menghemat waktu, mari kita lanjutkan acara berikutnya.",
+          "Saran yang dikemukakan olehnya sangat bermanfaat sekali.",
+          "Meskipun ia sedang sakit, tetapi ia tetap memaksakan diri berangkat bekerja."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Opsi C adalah kalimat yang efektif. Opsi A salah karena subjek terhalang preposisi 'Bagi'. Opsi B rancu secara nalar karena yang dipersilakan adalah 'waktu dan tempat', bukan 'Bapak Rektor'. Opsi D mengalami pleonasme (sangat bermanfaat sekali). Opsi E menggunakan konjungsi ganda yang berlebihan (meskipun ... tetapi)."
+      },
+      {
+        "id": "utbk_ppu_157",
+        "teks": "Sinonim dari kata <b>KONVENSIONAL</b> adalah...",
+        "opsi": [
+          "Modern",
+          "Canggih",
+          "Unik",
+          "Tradisional",
+          "Aneh"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Konvensional memiliki arti berdasarkan konvensi (kesepakatan) umum; tradisional; atau mengikuti cara-cara yang sudah biasa atau sudah lazim digunakan secara turun-temurun."
+      },
+      {
+        "id": "utbk_ppu_158",
+        "teks": "Antonim dari kata <b>FIKTIF</b> adalah...",
+        "opsi": [
+          "Khayalan",
+          "Faktual",
+          "Imajinasi",
+          "Mitos",
+          "Palsu"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Fiktif berarti bersifat fiksi; hanya terdapat dalam khayalan atau rekaan semata. Antonim atau lawan kata yang paling sesuai adalah faktual (nyata/berdasarkan fakta)."
+      },
+      {
+        "id": "utbk_ppu_159",
+        "teks": "Kata bentukan (berimbuhan) yang penulisannya sesuai dengan kaidah peluluhan bunyi K, P, T, S adalah...",
+        "opsi": [
+          "Mempengaruhi",
+          "Mensukseskan",
+          "Mengkonsumsi",
+          "Menyukseskan",
+          "Menterjemahkan"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Huruf K, P, T, S pada awal kata dasar akan luluh jika mendapat awalan me- dan langsung diikuti huruf vokal. Kata dasar 'sukses' diawali 's' dan vokal 'u', sehingga luluh menjadi 'menyukseskan'. Pilihan lain seharusnya: memengaruhi, mengonsumsi, menerjemahkan."
+      },
+      {
+        "id": "utbk_ppu_160",
+        "teks": "Makna kata <b>\"Konsolidasi\"</b> menurut KBBI adalah...",
+        "opsi": [
+          "Pemecahbelahan suatu kelompok secara sengaja",
+          "Perbuatan memperteguh atau memperkuat persatuan dan hubungan",
+          "Penyebaran informasi secara masif dan cepat",
+          "Pengurangan jumlah personel demi penghematan",
+          "Tindakan penghancuran atau sabotase"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan KBBI, konsolidasi berarti perbuatan (hal dan sebagainya) memperteguh atau memperkuat (perhubungan, persatuan, dan sebagainya)."
+      },
+      {
+        "id": "utbk_ppu_161",
+        "teks": "Sinonim dari kata <b>AFILIASI</b> adalah...",
+        "opsi": [
+          "Pertentangan",
+          "Permusuhan",
+          "Hubungan atau pertalian",
+          "Penyusutan",
+          "Perpecahan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Afiliasi bermakna bentuk kerja sama atau pertalian sebagai anggota atau cabang (biasanya tentang institusi, perusahaan, organisasi, dll); perhubungan."
+      },
+      {
+        "id": "utbk_ppu_162",
+        "teks": "Antonim dari kata <b>PROFAN</b> adalah...",
+        "opsi": [
+          "Fana",
+          "Duniawi",
+          "Kasar",
+          "Sakral",
+          "Biasa"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Profan berarti tidak bersangkutan dengan agama atau tujuan agama; duniawi; tidak suci. Antonimnya adalah sakral (bersifat suci/sangat berkaitan dengan keagamaan)."
+      },
+      {
+        "id": "utbk_ppu_163",
+        "teks": "Penggunaan huruf kapital untuk sapaan atau kekerabatan yang <b>benar</b> adalah...",
+        "opsi": [
+          "Kapan bapak akan berangkat ke luar kota?",
+          "Silakan duduk di sini, Pak.",
+          "Ia menceritakan bahwa ia memiliki dua orang Adik.",
+          "Hari ini paman akan datang berkunjung ke rumah.",
+          "Tolong ambilkan tas hitam itu, bu!"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Huruf kapital digunakan sebagai huruf pertama kata penunjuk kekerabatan yang digunakan dalam penyapaan atau pengacuan langsung. 'Silakan duduk di sini, Pak.' merupakan kalimat sapaan langsung. Opsi E salah karena sapaan 'bu' ditulis dengan huruf kecil."
+      },
+      {
+        "id": "utbk_ppu_164",
+        "teks": "Makna ungkapan <b>\"Cuci tangan\"</b> dalam kalimat 'Pimpinan proyek itu malah cuci tangan saat terjadi masalah korupsi' adalah...",
+        "opsi": [
+          "Menjaga kebersihan secara berlebihan",
+          "Turut campur tangan dalam suatu penyelesaian",
+          "Tidak mau ikut campur dalam suatu urusan yang juga ia ikuti sebelumnya (lepas tanggung jawab)",
+          "Membersihkan barang bukti kejahatan",
+          "Menyerahkan diri kepada pihak kepolisian"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Idiom 'cuci tangan' memiliki arti kiasan tidak mau ikut campur lagi dalam suatu urusan; lepas tangan; atau melepaskan tanggung jawab dari suatu kesalahan yang dilakukan bersama."
+      },
+      {
+        "id": "utbk_ppu_165",
+        "teks": "Penulisan kata serapan yang <b>SALAH</b> terdapat pada kata...",
+        "opsi": [
+          "Apotek",
+          "Sistem",
+          "Ekstrim",
+          "Jadwal",
+          "Karier"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penulisan kata serapan yang baku dan benar menurut KBBI adalah 'Ekstrem', bukan 'Ekstrim'. Adapun kata-kata lainnya dalam daftar opsi tersebut sudah ditulis secara baku."
+      },
+      {
+        "id": "utbk_ppu_166",
+        "teks": "Sinonim dari kata <b>INTEGRASI</b> adalah...",
+        "opsi": [
+          "Pemisahan",
+          "Diskriminasi",
+          "Pembauran menjadi kesatuan yang utuh",
+          "Pembedaan",
+          "Pecah belah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Integrasi berarti pembauran atau penyatuan berbagai unsur yang berbeda hingga menjadi kesatuan yang utuh atau bulat."
+      },
+      {
+        "id": "utbk_ppu_167",
+        "teks": "Antonim dari kata <b>FUNDAMENTAL</b> adalah...",
+        "opsi": [
+          "Mendasar",
+          "Prinsip",
+          "Pokok",
+          "Sekunder",
+          "Penting"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Fundamental berarti bersifat dasar, pokok, atau prinsipal (utama). Antonim atau lawan kata yang tepat adalah sekunder (kurang penting/sekadar tambahan)."
+      },
+      {
+        "id": "utbk_ppu_168",
+        "teks": "Kalimat yang mengandung <b>pleonasme</b> (pemborosan kata) adalah...",
+        "opsi": [
+          "Ia terlihat sangat cantik sekali dengan gaun malam itu.",
+          "Para siswa belajar dengan sangat rajin.",
+          "Buku sejarah itu sedang dibaca oleh Budi.",
+          "Mereka semua sedang rapat di dalam ruang guru.",
+          "Udara pagi hari ini terasa cukup dingin."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pleonasme adalah penggunaan kata yang maknanya tumpang tindih secara berlebihan. Frasa 'sangat cantik sekali' adalah bentuk pemborosan karena kata 'sangat' dan 'sekali' bermakna identik. Cukup gunakan 'sangat cantik' atau 'cantik sekali'."
+      },
+      {
+        "id": "utbk_ppu_169",
+        "teks": "Penulisan kata depan (preposisi) <i>di</i> yang tepat terdapat pada kalimat...",
+        "opsi": [
+          "Ia selalu rutin menyimpan uangnya dibank.",
+          "Buku catatan itu di letakkan di atas meja.",
+          "Dimana kamu tinggal sekarang?",
+          "Kami sedang menyantap hidangan makan siang di restoran.",
+          "Surat penting itu sudah dikirim kerumahnya tadi pagi."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Preposisi 'di' yang menunjukkan penunjuk arah/tempat wajib ditulis terpisah. Opsi A salah (dibank -> di bank). Opsi B salah (di letakkan -> diletakkan). Opsi C salah (Dimana -> Di mana). Opsi E menggunakan preposisi 'ke' yang salah ketik (kerumahnya -> ke rumahnya). Opsi D (di restoran) adalah penggunaan yang benar."
+      },
+      {
+        "id": "utbk_ppu_170",
+        "teks": "Sinonim dari kata <b>AKOMODASI</b> adalah...",
+        "opsi": [
+          "Penolakan",
+          "Perselisihan",
+          "Penyediaan tempat tinggal atau fasilitas pendukung",
+          "Pengusiran",
+          "Perpecahan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Akomodasi dalam KBBI memiliki beberapa makna, salah satu makna utamanya adalah sesuatu yang disediakan untuk memenuhi kebutuhan, seperti tempat menginap atau fasilitas sementara."
+      },
+      {
+        "id": "utbk_ppu_171",
+        "teks": "Antonim dari kata <b>APATIS</b> adalah...",
+        "opsi": [
+          "Acuh tak acuh",
+          "Masa bodoh",
+          "Antusias",
+          "Skeptis",
+          "Pesimis"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Apatis berarti bersifat acuh tak acuh; tidak peduli; masa bodoh. Antonim yang tepat adalah antusias (peduli, bersemangat, atau memiliki minat tinggi)."
+      },
+      {
+        "id": "utbk_ppu_172",
+        "teks": "Makna kiasan <b>\"Kutu loncat\"</b> adalah...",
+        "opsi": [
+          "Orang yang sangat lincah dalam berolahraga",
+          "Orang yang suka berpindah-pindah pekerjaan atau kelompok demi keuntungan pribadi",
+          "Orang yang suka melompat-lompat kesenangan",
+          "Orang yang selalu menghindari masalah",
+          "Orang yang tidak punya tempat tinggal tetap"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Idiom 'kutu loncat' lazim digunakan untuk menggambarkan karakter seseorang yang suka atau mudah sekali berpindah-pindah dari satu pekerjaan ke pekerjaan lain, atau dari satu kelompok ke kelompok lain secara oportunis."
+      },
+      {
+        "id": "utbk_ppu_173",
+        "teks": "Penggunaan tanda titik koma (;) yang benar menurut kaidah PUEBI terdapat pada kalimat...",
+        "opsi": [
+          "Hari sudah malam; anak-anak masih sibuk bermain di luar rumah.",
+          "Ibu pergi membeli; apel, jeruk, dan mangga segar.",
+          "Karena hari sedang hujan; kami tidak jadi berangkat.",
+          "Dia sangat pandai di kelas; tetapi ia sangat pemalas.",
+          "Budi baru saja membeli sepatu; dan sebuah tas baru."
+        ],
+        "jawaban": 0,
+        "pembahasan": "Tanda titik koma (;) dapat dipakai sebagai pengganti kata penghubung untuk memisahkan kalimat setara yang satu dari kalimat setara yang lain dalam suatu kesatuan kalimat majemuk. Opsi A memisahkan dua klausa setara tanpa konjungsi dengan benar."
+      },
+      {
+        "id": "utbk_ppu_174",
+        "teks": "Makna dari kata <b>\"Anekdot\"</b> adalah...",
+        "opsi": [
+          "Cerita panjang bersambung yang membosankan",
+          "Cerita fiksi rekaan yang menceritakan kesedihan mendalam",
+          "Cerita singkat yang menarik karena lucu dan mengesankan, biasanya mengenai orang penting berdasarkan kejadian sebenarnya",
+          "Bentuk puisi lama bersajak a-b-a-b",
+          "Berita resmi yang diterbitkan oleh institusi pemerintah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan rujukan KBBI, anekdot adalah cerita singkat yang menarik karena lucu dan mengesankan, biasanya mengenai orang penting atau terkenal dan berdasarkan pada kejadian yang sebenarnya."
+      },
+      {
+        "id": "utbk_ppu_175",
+        "teks": "Kalimat yang strukturnya menjadi <b>rancu</b> akibat penggunaan konjungsi ganda yang tidak tepat adalah...",
+        "opsi": [
+          "Meskipun hujan turun dengan lebat, ia tetap berangkat ke sekolah.",
+          "Karena jalanan utama macet total, ia datang terlambat ke kantor.",
+          "Meskipun hujan turun dengan lebat, tetapi ia tetap memaksakan diri berangkat ke sekolah.",
+          "Ia datang terlambat pagi ini karena jalanan utama macet total.",
+          "Budi adalah anak yang sangat pandai, namun ia sedikit pemalas."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Penggunaan konjungsi subordinatif 'Meskipun' di awal kalimat sudah cukup untuk menandakan bahwa itu adalah anak kalimat. Penambahan konjungsi koordinatif 'tetapi' pada awal induk kalimat membuatnya menjadi rancu dan tidak baku. Jadi kalimat C adalah yang paling rancu."
+      },
+      {
+        "id": "utbk_ppu_176",
+        "teks": "Manakah di antara deretan kata berikut yang <b>semuanya</b> merupakan kata baku menurut KBBI?",
+        "opsi": [
+          "Cinderamata, Otentik, Karir",
+          "Cenderamata, Autentik, Karier",
+          "Cinderamata, Autentik, Karier",
+          "Cenderamata, Otentik, Karir",
+          "Cenderamata, Autentik, Karir"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Berdasarkan pedoman Kamus Besar Bahasa Indonesia (KBBI), penulisan ejaan yang baku adalah: Cenderamata, Autentik, dan Karier."
+      },
+      {
+        "id": "utbk_ppu_177",
+        "teks": "Sinonim atau padanan kata dari <b>PREVENTIF</b> adalah...",
+        "opsi": [
+          "Penyembuhan",
+          "Pencegahan",
+          "Perawatan",
+          "Pemberantasan",
+          "Penindakan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Preventif berarti bersifat mencegah (supaya jangan terjadi hal-hal yang tidak diinginkan). Padanan katanya adalah pencegahan."
+      },
+      {
+        "id": "utbk_ppu_178",
+        "teks": "Antonim atau lawan kata dari <b>KONSERVATIF</b> adalah...",
+        "opsi": [
+          "Tradisional",
+          "Kuno",
+          "Kolot",
+          "Progresif",
+          "Primitif"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Konservatif bermakna bersikap mempertahankan keadaan, kebiasaan, dan tradisi yang berlaku. Antonim yang tepat adalah Progresif (berhaluan ke arah kemajuan/perbaikan)."
+      },
+      {
+        "id": "utbk_ppu_179",
+        "teks": "Penggunaan huruf miring yang <b>SALAH</b> terdapat pada kalimat...",
+        "opsi": [
+          "Majalah <i>Tempo</i> selalu menyajikan berita aktual.",
+          "Ia sangat menyukai buku <i>Laskar Pelangi</i>.",
+          "Kapal <i>Phinisi</i> merupakan kapal tradisional dari Sulawesi.",
+          "Keluarga itu baru saja pindah ke kota <i>Bandung</i>.",
+          "Istilah <i>upload</i> dalam bahasa Indonesia adalah unggah."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Huruf miring dipakai untuk menuliskan judul buku, nama majalah, nama surat kabar, istilah bahasa asing/daerah, dan nama ilmiah. Nama geografi (kota, provinsi, negara) seperti Bandung tidak perlu dicetak miring."
+      },
+      {
+        "id": "utbk_ppu_180",
+        "teks": "Makna ungkapan <b>\"Bintang lapangan\"</b> adalah...",
+        "opsi": [
+          "Orang yang suka berada di luar ruangan",
+          "Pemain cadangan yang jarang dimainkan",
+          "Pemain yang paling menonjol atau terbaik dalam sebuah pertandingan",
+          "Wasit yang memimpin pertandingan",
+          "Penonton yang membuat keributan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Ungkapan 'bintang lapangan' merupakan idiom yang ditujukan kepada pemain yang berpenampilan sangat baik, paling menonjol, atau menjadi pusat perhatian dalam sebuah pertandingan olahraga."
+      },
+      {
+        "id": "utbk_ppu_181",
+        "teks": "Kalimat yang merupakan <b>kalimat efektif</b> di bawah ini adalah...",
+        "opsi": [
+          "Bagi semua siswa diharap untuk segera berkumpul di aula.",
+          "Untuk penyelesaian tugas ini membutuhkan waktu dua hari.",
+          "Buku itu menceritakan tentang sejarah kemerdekaan Indonesia.",
+          "Hadirin dipersilakan untuk mencicipi hidangan yang telah disediakan.",
+          "Ia memakai baju warna merah yang sangat mencolok sekali."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Opsi C adalah yang paling efektif. Opsi A salah karena subjek terhalang preposisi 'Bagi'. Opsi B salah karena subjek terhalang 'Untuk'. Opsi C rancu karena 'menceritakan' adalah verba transitif yang tidak butuh preposisi 'tentang'. Opsi E pleonasme (sangat ... sekali)."
+      },
+      {
+        "id": "utbk_ppu_182",
+        "teks": "Sinonim dari kata <b>REKONSILIASI</b> adalah...",
+        "opsi": [
+          "Perselisihan",
+          "Permusuhan",
+          "Pemulihan hubungan persahabatan (perdamaian)",
+          "Perlawanan",
+          "Pecah belah"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, rekonsiliasi berarti perbuatan memulihkan hubungan persahabatan ke keadaan semula; perbuatan menyelesaikan perbedaan (perdamaian)."
+      },
+      {
+        "id": "utbk_ppu_183",
+        "teks": "Antonim dari kata <b>ORTODOKS</b> adalah...",
+        "opsi": [
+          "Tradisional",
+          "Kolot",
+          "Kuno",
+          "Modern",
+          "Kaku"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Ortodoks berarti berpegang teguh pada peraturan/ajaran resmi yang sudah mapan, kuno, atau berpandangan kolot. Antonimnya adalah modern atau kekinian."
+      },
+      {
+        "id": "utbk_ppu_184",
+        "teks": "Penggunaan tanda titik koma (;) yang <b>benar</b> terdapat pada kalimat...",
+        "opsi": [
+          "Kita membutuhkan; meja, kursi, dan lemari.",
+          "Malam makin larut; pekerjaan kami belum selesai juga.",
+          "Buku ini sangat bagus; tetapi harganya mahal.",
+          "Ayah berkata; \"Jangan pulang malam-malam.\"",
+          "Karena hari hujan; kami tidak jadi pergi."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Tanda titik koma (;) digunakan sebagai pengganti kata penghubung untuk memisahkan bagian kalimat majemuk setara. Opsi B tepat memisahkan dua klausa (Malam makin larut; pekerjaan kami belum selesai). Opsi lain salah penempatan."
+      },
+      {
+        "id": "utbk_ppu_185",
+        "teks": "Makna kata <b>\"Dispensasi\"</b> menurut KBBI adalah...",
+        "opsi": [
+          "Pengecualian dari aturan karena adanya pertimbangan yang khusus",
+          "Pemberian hukuman ganda",
+          "Pengurangan masa tahanan",
+          "Pemindahan jadwal ujian",
+          "Denda akibat keterlambatan"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Dispensasi adalah kelonggaran atau pengecualian dari suatu aturan/kewajiban karena adanya pertimbangan yang khusus atau mendesak."
+      },
+      {
+        "id": "utbk_ppu_186",
+        "teks": "Sinonim dari kata <b>KOMPETEN</b> adalah...",
+        "opsi": [
+          "Lamban",
+          "Amatir",
+          "Cakap atau mampu",
+          "Pengecut",
+          "Ragu-ragu"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kompeten memiliki arti cakap (mengetahui); berkuasa (memutuskan); atau memiliki kemampuan dan wewenang untuk melakukan suatu hal."
+      },
+      {
+        "id": "utbk_ppu_187",
+        "teks": "Antonim dari kata <b>GENERIK</b> adalah...",
+        "opsi": [
+          "Umum",
+          "Biasa",
+          "Lumbung",
+          "Spesifik",
+          "Asli"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Generik berarti lazim; umum; mencakup keseluruhan/keluarga besar. Antonim atau lawan kata yang tepat adalah spesifik (khusus)."
+      },
+      {
+        "id": "utbk_ppu_188",
+        "teks": "Penulisan kata depan yang tepat terdapat pada kalimat...",
+        "opsi": [
+          "Dimana kamu menyimpan buku itu?",
+          "Surat ini akan dikirim kemana?",
+          "Ia lebih memilih diam dari pada berbicara.",
+          "Buku ini diletakkan di atas meja belajarnya.",
+          "Mereka baru saja kembali dari pada luar kota."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kata depan (di, ke, dari) ditulis terpisah dari kata penunjuk tempat yang mengikutinya. Opsi A salah (Dimana -> Di mana). Opsi B salah (kemana -> ke mana). Opsi C salah (dari pada -> daripada). Opsi D benar ('di atas' dipisah)."
+      },
+      {
+        "id": "utbk_ppu_189",
+        "teks": "Makna ungkapan <b>\"Ringan tangan\"</b> dalam konotasi positif adalah...",
+        "opsi": [
+          "Suka memukul",
+          "Suka menolong atau membantu",
+          "Orang yang pelit",
+          "Mudah marah",
+          "Orang yang ceroboh"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ungkapan 'ringan tangan' memiliki dua arti. Dalam konotasi negatif berarti suka memukul, sedangkan dalam konotasi positif berarti suka menolong atau suka membantu orang lain."
+      },
+      {
+        "id": "utbk_ppu_190",
+        "teks": "Kalimat yang <b>ambigu</b> (memiliki penafsiran ganda) di bawah ini adalah...",
+        "opsi": [
+          "Ayah membelikan sepeda baru untuk adik.",
+          "Sumbangan kedua sekolah itu sudah disalurkan.",
+          "Kakak sedang membaca buku sejarah di perpustakaan.",
+          "Banjir bandang menghancurkan puluhan rumah warga.",
+          "Mereka berdiskusi tentang masalah lingkungan hidup."
+        ],
+        "jawaban": 1,
+        "pembahasan": "Kalimat B bersifat ambigu karena dapat dimaknai dua hal: (1) Sumbangan dari 'sekolah yang kedua', ATAU (2) Sumbangan milik 'dua buah sekolah' tersebut."
+      },
+      {
+        "id": "utbk_ppu_191",
+        "teks": "Sinonim dari kata <b>SUBSTITUSI</b> adalah...",
+        "opsi": [
+          "Pengurangan",
+          "Penambahan",
+          "Penggantian",
+          "Pemotongan",
+          "Penyatuan"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Berdasarkan KBBI, substitusi berarti penggantian (misalnya penggantian barang yang satu dengan barang yang lain yang memiliki fungsi serupa)."
+      },
+      {
+        "id": "utbk_ppu_192",
+        "teks": "Antonim dari kata <b>KOLEKTIF</b> adalah...",
+        "opsi": [
+          "Bersama",
+          "Gabungan",
+          "Komunal",
+          "Individual",
+          "Kelompok"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Kolektif berarti secara bersama-sama atau secara gabungan. Antonim atau lawan kata yang paling sesuai adalah individual (perseorangan)."
+      },
+      {
+        "id": "utbk_ppu_193",
+        "teks": "Penulisan bilangan tingkat yang benar menurut PUEBI adalah...",
+        "opsi": [
+          "Abad ke 21",
+          "Abad ke-XXI",
+          "Abad dua puluh satu",
+          "Abad ke-21",
+          "Abad ke 21st"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Penulisan bilangan tingkat (ordinal) jika memakai angka Arab harus dirangkaikan dengan tanda hubung (ke-21). Jika memakai angka Romawi, tidak perlu tanda hubung (Abad XXI). Jika dieja dengan huruf, ditulis serangkai (kedua puluh satu)."
+      },
+      {
+        "id": "utbk_ppu_194",
+        "teks": "Makna dari kata <b>\"Justifikasi\"</b> adalah...",
+        "opsi": [
+          "Penolakan terhadap suatu sistem",
+          "Putusan pembatalan hukum",
+          "Pembenaran atau alasan yang membenarkan suatu tindakan",
+          "Hukuman pengadilan negeri",
+          "Tindakan main hakim sendiri"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Justifikasi bermakna putusan (alasan, pertimbangan) yang dikemukakan sebagai sebuah pembenaran terhadap suatu tindakan atau sikap."
+      },
+      {
+        "id": "utbk_ppu_195",
+        "teks": "Sinonim dari kata <b>KLASIFIKASI</b> adalah...",
+        "opsi": [
+          "Pencampuran",
+          "Pengelompokan",
+          "Penyusunan",
+          "Penghancuran",
+          "Pemisahan"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Klasifikasi berarti penyusunan atau pengelompokan bersistem dalam kelas atau golongan menurut kaidah atau standar yang ditetapkan."
+      },
+      {
+        "id": "utbk_ppu_196",
+        "teks": "Antonim dari kata <b>KRUSIAL</b> adalah...",
+        "opsi": [
+          "Penting",
+          "Gawat",
+          "Gentir",
+          "Sepele",
+          "Berbahaya"
+        ],
+        "jawaban": 3,
+        "pembahasan": "Krusial berarti sangat penting, gawat, atau menentukan nasib/keadaan sesuatu. Antonimnya adalah sepele (tidak penting)."
+      },
+      {
+        "id": "utbk_ppu_197",
+        "teks": "Penggunaan huruf kapital yang tepat pada nama peristiwa sejarah adalah...",
+        "opsi": [
+          "Soekarno membacakan teks proklamasi kemerdekaan.",
+          "Mereka mempelajari sejarah perang dunia ke II.",
+          "Jepang menyerah pada sekutu setelah bom atom dijatuhkan.",
+          "Belanda melancarkan Agresi Militer Belanda II pada tahun 1948.",
+          "Rakyat memperingati hari kebangkitan nasional setiap tahun."
+        ],
+        "jawaban": 3,
+        "pembahasan": "Huruf pertama nama peristiwa sejarah yang resmi harus ditulis kapital (Agresi Militer Belanda II, Perang Dunia II, Proklamasi Kemerdekaan Indonesia). Opsi A salah karena 'proklamasi kemerdekaan' di situ ditulis tidak lengkap dengan nama peristiwanya (seharusnya Proklamasi Kemerdekaan)."
+      },
+      {
+        "id": "utbk_ppu_198",
+        "teks": "Makna ungkapan <b>\"Makan asam garam\"</b> adalah...",
+        "opsi": [
+          "Suka memakan makanan yang basi",
+          "Memiliki banyak pengalaman hidup (baik manis maupun pahit)",
+          "Orang yang menderita kelaparan parah",
+          "Suka mengeluh",
+          "Suka mencampuri urusan orang lain"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Ungkapan 'sudah banyak makan asam garam' bermakna seseorang yang sudah sangat berpengalaman dalam menghadapi berbagai lika-liku dan cobaan hidup."
+      },
+      {
+        "id": "utbk_ppu_199",
+        "teks": "Kalimat di bawah ini yang mengalami <b>pemborosan kata</b> (pleonasme) adalah...",
+        "opsi": [
+          "Pancasila adalah dasar negara Republik Indonesia.",
+          "Ia turun dari tangga dengan sangat hati-hati.",
+          "Buku ini adalah merupakan sumber belajar yang sangat bagus.",
+          "Mahasiswa itu sedang menyelesaikan skripsinya di perpustakaan.",
+          "Kepada para tamu undangan, kami persilakan masuk."
+        ],
+        "jawaban": 2,
+        "pembahasan": "Kalimat C mengalami pleonasme karena penggunaan kata 'adalah' dan 'merupakan' secara bersamaan. Keduanya memiliki fungsi yang sama sebagai verba kopula. Seharusnya pilih salah satu: 'Buku ini adalah sumber belajar...' atau 'Buku ini merupakan sumber belajar...'."
+      },
+      {
+        "id": "utbk_ppu_200",
+        "teks": "Sinonim dari kata <b>DIFERENSIASI</b> adalah...",
+        "opsi": [
+          "Persamaan",
+          "Penggabungan",
+          "Pembedaan",
+          "Pemantauan",
+          "Pembiaran"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Diferensiasi berarti proses atau perbuatan pembedaan; atau perkembangan tunggal (kebudayaan dan sebagainya) yang terpecah menjadi beberapa bagian."
+      }
+    ]
+  }
+}
