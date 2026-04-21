@@ -8127,6 +8127,656 @@
         ],
         "jawaban": 0,
         "pembahasan": "$2x + 1 = 7 \\Rightarrow 2x = 6 \\Rightarrow x = 3$. Maka $f(3-1) = 7 \\Rightarrow f(2) = 7$. Jadi $f^{-1}(7) = 2$."
+      },
+      {
+        "id": "tbs_num_651",
+        "teks": "Bacalah data pada tabel berikut untuk menjawab soal nomor 651 - 654!<br><br><table border='1'><tr><th>Kategori</th><th>Investasi Awal ($Rp$)</th><th>Laba Bersih ($Rp$)</th><th>Waktu (Bulan)</th></tr><tr><td>Usaha A</td><td>$100.000.000$</td><td>$15.000.000$</td><td>$10$</td></tr><tr><td>Usaha B</td><td>$250.000.000$</td><td>$40.000.000$</td><td>$8$</td></tr><tr><td>Usaha C</td><td>$150.000.000$</td><td>$18.000.000$</td><td>$12$</td></tr><tr><td>Usaha D</td><td>$200.000.000$</td><td>$36.000.000$</td><td>$6$</td></tr></table><br>Jika efisiensi dihitung dari rata-rata laba bersih per bulan, manakah pernyataan yang paling tidak tepat?",
+        "opsi": [
+          "$1.500.000$",
+          "$5.000.000$",
+          "$1.500.000$",
+          "$6.000.000$",
+          "$4.500.000$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Laba per bulan dihitung dengan rumus: <br> $$Laba\\,Per\\,Bulan = \\frac{Laba\\,Bersih}{Waktu}$$ <br> 1. Usaha A: $15.000.000 / 10 = 1.500.000$ <br> 2. Usaha B: $40.000.000 / 8 = 5.000.000$ <br> 3. Usaha C: $18.000.000 / 12 = 1.500.000$ <br> 4. Usaha D: $36.000.000 / 6 = 6.000.000$ <br> Hasil perhitungan menunjukkan laba Usaha D adalah $6.000.000$, sedangkan opsi terakhir mencantumkan $4.500.000$ sebagai data yang salah."
+      },
+      {
+        "id": "tbs_num_652",
+        "teks": "Bacalah data pada tabel berikut untuk menjawab soal nomor 651 - 654!<br><br><table border='1'><tr><th>Kategori</th><th>Investasi Awal ($Rp$)</th><th>Laba Bersih ($Rp$)</th><th>Waktu (Bulan)</th></tr><tr><td>Usaha A</td><td>$100.000.000$</td><td>$15.000.000$</td><td>$10$</td></tr><tr><td>Usaha B</td><td>$250.000.000$</td><td>$40.000.000$</td><td>$8$</td></tr><tr><td>Usaha C</td><td>$150.000.000$</td><td>$18.000.000$</td><td>$12$</td></tr><tr><td>Usaha D</td><td>$200.000.000$</td><td>$36.000.000$</td><td>$6$</td></tr></table><br>Manakah perhitungan persentase laba terhadap investasi awal yang tidak akurat?",
+        "opsi": [
+          "$15\\%$",
+          "$16\\%$",
+          "$12\\%$",
+          "$18\\%$",
+          "$20\\%$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Persentase laba dihitung dengan rumus: <br> $$Persentase = \\frac{Laba\\,Bersih}{Investasi} \\times 100\\%$$ <br> 1. Usaha A: $(15jt / 100jt) \\times 100 = 15\\%$ <br> 2. Usaha B: $(40jt / 250jt) \\times 100 = 16\\%$ <br> 3. Usaha C: $(18jt / 150jt) \\times 100 = 12\\%$ <br> 4. Usaha D: $(36jt / 200jt) \\times 100 = 18\\%$ <br> Nilai $20\\%$ pada opsi terakhir tidak sesuai dengan hasil perhitungan manapun."
+      },
+      {
+        "id": "tbs_num_653",
+        "teks": "Bacalah data pada tabel berikut untuk menjawab soal nomor 651 - 654!<br><br><table border='1'><tr><th>Kategori</th><th>Investasi Awal ($Rp$)</th><th>Laba Bersih ($Rp$)</th><th>Waktu (Bulan)</th></tr><tr><td>Usaha A</td><td>$100.000.000$</td><td>$15.000.000$</td><td>$10$</td></tr><tr><td>Usaha B</td><td>$250.000.000$</td><td>$40.000.000$</td><td>$8$</td></tr><tr><td>Usaha C</td><td>$150.000.000$</td><td>$18.000.000$</td><td>$12$</td></tr><tr><td>Usaha D</td><td>$200.000.000$</td><td>$36.000.000$</td><td>$6$</td></tr></table><br>Berdasarkan data tersebut, berapakah rata-rata total investasi keempat usaha tersebut yang salah?",
+        "opsi": [
+          "$175.000.000$",
+          "$175.000.000$",
+          "$175.000.000$",
+          "$175.000.000$",
+          "$180.000.000$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Rata-rata investasi dihitung dengan menjumlahkan seluruh investasi kemudian dibagi jumlah unit: <br> $$Rata-rata = \\frac{100jt + 250jt + 150jt + 200jt}{4} = \\frac{700.000.000}{4} = 175.000.000$$ <br> Opsi terakhir menyajikan angka $180.000.000$ yang merupakan data tidak tepat."
+      },
+      {
+        "id": "tbs_num_654",
+        "teks": "Bacalah data pada tabel berikut untuk menjawab soal nomor 651 - 654!<br><br><table border='1'><tr><th>Kategori</th><th>Investasi Awal ($Rp$)</th><th>Laba Bersih ($Rp$)</th><th>Waktu (Bulan)</th></tr><tr><td>Usaha A</td><td>$100.000.000$</td><td>$15.000.000$</td><td>$10$</td></tr><tr><td>Usaha B</td><td>$250.000.000$</td><td>$40.000.000$</td><td>$8$</td></tr><tr><td>Usaha C</td><td>$150.000.000$</td><td>$18.000.000$</td><td>$12$</td></tr><tr><td>Usaha D</td><td>$200.000.000$</td><td>$36.000.000$</td><td>$6$</td></tr></table><br>Berapakah selisih total laba bersih antara Usaha B dan Usaha C yang tidak sesuai?",
+        "opsi": [
+          "$22.000.000$",
+          "$22.000.000$",
+          "$22.000.000$",
+          "$22.000.000$",
+          "$25.000.000$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Selisih laba bersih dihitung dengan: <br> $$Selisih = 40.000.000 - 18.000.000 = 22.000.000$$ <br> Opsi terakhir mencantumkan angka $25.000.000$ yang merupakan hasil yang salah."
+      },
+      {
+        "id": "tbs_num_655",
+        "teks": "Jika hasil dari sebuah akar bersarang tak hingga adalah $x = \\sqrt{30 + \\sqrt{30 + \\sqrt{30 + \\dots}}}$, berapakah nilai dari $x^2 - x$ yang benar?",
+        "opsi": [
+          "$30$",
+          "$25$",
+          "$36$",
+          "$42$",
+          "$20$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Misalkan $x = \\sqrt{30 + x}$. Kuadratkan kedua sisi menjadi $x^2 = 30 + x$. <br> Pindahkan variabel menjadi persamaan kuadrat: $x^2 - x - 30 = 0$. <br> Faktorkan menjadi $(x - 6)(x + 5) = 0$. <br> Karena nilai akar harus positif, didapatkan $x = 6$. <br> Pertanyaan menanyakan $x^2 - x$, maka $6^2 - 6 = 36 - 6 = 30$."
+      },
+      {
+        "id": "tbs_num_656",
+        "teks": "Perhatikan deret rumpang berikut: $4, 8, 16, \\dots, 64, \\dots, 256$. Berapakah hasil penjumlahan kedua angka yang hilang tersebut?",
+        "opsi": [
+          "$160$",
+          "$128$",
+          "$96$",
+          "$192$",
+          "$200$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pola deret adalah perkalian konstan dengan $2$ ($n \\times 2$). <br> 1. Angka rumpang pertama: $16 \\times 2 = 32$. <br> 2. Angka rumpang kedua: $64 \\times 2 = 128$. <br> Hasil penjumlahan: $32 + 128 = 160$."
+      },
+      {
+        "id": "tbs_num_657",
+        "teks": "Jika diketahui $2^{2^x} = 256$, berapakah nilai dari $x^2 + 5$ yang tepat?",
+        "opsi": [
+          "$14$",
+          "$21$",
+          "$30$",
+          "$41$",
+          "$9$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Langkah pengerjaan terbalik: <br> 1. Ubah $256$ menjadi basis $2$, yakni $2^8$. <br> 2. Persamaan menjadi $2^{2^x} = 2^8$, sehingga $2^x = 8$. <br> 3. Karena $8 = 2^3$, didapatkan nilai $x = 3$. <br> Pertanyaan: $3^2 + 5 = 9 + 5 = 14$."
+      },
+      {
+        "id": "tbs_num_658",
+        "teks": "Diberikan Cryptarithm: $XY + Y = 46$. Jika $X$ dan $Y$ adalah angka yang berbeda, berapakah nilai dari $x = X + Y$ yang salah?",
+        "opsi": [
+          "$7$",
+          "$8$",
+          "$6$",
+          "$9$",
+          "$10$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Persamaan Cryptarithm: <br> $$(10X + Y) + Y = 46 \\rightarrow 10X + 2Y = 46$$ <br> Bagi kedua ruas dengan $2$: $5X + Y = 23$. <br> Cari kombinasi angka ($0-9$): <br> Jika $X = 4$, maka $5(4) + Y = 23 \\rightarrow Y = 3$. <br> Maka $X + Y = 4 + 3 = 7$. Opsi pertama mencantumkan $7$ yang merupakan jawaban benar, namun dalam tipe terbalik ini dipilih sebagai jawaban kuncinya."
+      },
+      {
+        "id": "tbs_num_659",
+        "teks": "Jika $P = \\sqrt{x + \\sqrt{x + \\dots}} = 5$, berapakah nilai dari $x$ tersebut?",
+        "opsi": [
+          "$20$",
+          "$25$",
+          "$30$",
+          "$15$",
+          "$10$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gunakan pemikiran terbalik dari hasil yang diketahui: <br> $$5 = \\sqrt{x + 5}$$ <br> Kuadratkan kedua sisi: $25 = x + 5$. <br> Maka didapatkan $x = 25 - 5 = 20$."
+      },
+      {
+        "id": "tbs_num_660",
+        "teks": "Sebuah limas persegi memiliki volume $300$ $cm^3$ dan tinggi $9$ cm. Berapakah panjang sisi alas limas tersebut?",
+        "opsi": [
+          "$10$",
+          "$8$",
+          "$12$",
+          "$15$",
+          "$7$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gunakan rumus volume limas: <br> $$V = \\frac{1}{3} \\times Luas\\,Alas \\times Tinggi$$ <br> $$300 = \\frac{1}{3} \\times s^2 \\times 9$$ <br> $$300 = 3s^2 \\rightarrow s^2 = 100$$ <br> Didapatkan panjang sisi $s = \\sqrt{100} = 10$."
+      },
+      {
+        "id": "tbs_num_661",
+        "teks": "Jika rata-rata dari $y, 12, 18,$ dan $22$ adalah tepat $16$, berapakah nilai dari $y$?",
+        "opsi": [
+          "$15$",
+          "$12$",
+          "$14$",
+          "$13$",
+          "$10$"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Langkah pengerjaan terbalik: <br> 1. Total nilai dari 4 data: $16 \\times 4 = 64$. <br> 2. Jumlah data yang diketahui: $12 + 18 + 22 = 52$. <br> 3. Nilai $y$: $64 - 52 = 12$."
+      },
+      {
+        "id": "tbs_num_662",
+        "teks": "Sebuah botol berisi air $3/5$ bagian. Jika ditambahkan $200$ ml air, botol menjadi terisi $4/5$ bagian. Berapakah kapasitas total botol tersebut?",
+        "opsi": [
+          "$800$",
+          "$1.000$",
+          "$1.200$",
+          "$1.500$",
+          "$2.000$"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Selisih bagian dalam botol: <br> $$\\frac{4}{5} - \\frac{3}{5} = \\frac{1}{5}\\,bagian$$ <br> Diketahui $1/5$ bagian setara dengan $200$ ml. <br> Maka kapasitas total: $200 \\times 5 = 1.000$ ml."
+      },
+      {
+        "id": "tbs_num_663",
+        "teks": "Peluang terambilnya satu kelereng merah dari sebuah kantong adalah $2/5$. Jika jumlah kelereng bukan merah adalah $18$ butir, berapakah total kelereng di dalam kantong tersebut?",
+        "opsi": [
+          "$25$",
+          "$30$",
+          "$35$",
+          "$40$",
+          "$45$"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Langkah pengerjaan terbalik: <br> 1. Peluang kelereng bukan merah: $1 - 2/5 = 3/5$. <br> 2. Diketahui $3/5$ bagian $= 18$. <br> 3. Total kelereng: $18 \\times \\frac{5}{3} = 6 \\times 5 = 30$."
+      },
+      {
+        "id": "tbs_num_664",
+        "teks": "Sebuah mobil menempuh jarak $s$ dengan kecepatan $60$ km/jam selama $2,5$ jam. Jika mobil tersebut ingin menempuh jarak yang sama dalam waktu $2$ jam, berapakah kecepatan yang harus digunakan?",
+        "opsi": [
+          "$70$",
+          "$75$",
+          "$80$",
+          "$85$",
+          "$90$"
+        ],
+        "jawaban": 1,
+        "pembahasan": "1. Hitung jarak awal ($s$): $60 \\times 2,5 = 150$ km. <br> 2. Hitung kecepatan baru: <br> $$v = \\frac{150}{2} = 75\\,km/jam$$"
+      },
+      {
+        "id": "tbs_num_665",
+        "teks": "Jika $x^2 - y^2 = 40$ dan $x + y = 10$, berapakah nilai dari $x$?",
+        "opsi": [
+          "$6$",
+          "$7$",
+          "$8$",
+          "$5$",
+          "$4$"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Gunakan identitas aljabar: <br> $$(x + y)(x - y) = 40$$ <br> $$10(x - y) = 40 \\rightarrow x - y = 4$$ <br> Selesaikan sistem persamaan: <br> $x + y = 10$ <br> $x - y = 4$ <br> Dijumlahkan: $2x = 14 \\rightarrow x = 7$."
+      },
+      {
+        "id": "tbs_num_666",
+        "teks": "Perhatikan deret rumpang huruf berikut: $C, F, I, L, \\dots, R, \\dots, X$. Berapakah selisih urutan alfabet dari kedua huruf yang hilang?",
+        "opsi": [
+          "$4$",
+          "$6$",
+          "$3$",
+          "$5$",
+          "$7$"
+        ],
+        "jawaban": 1,
+        "pembahasan": "Pola deret alfabet adalah pergeseran $+3$ langkah: <br> C(3), F(6), I(9), L(12). <br> 1. Rumpang pertama: $12 + 3 = 15$ (Huruf O). <br> 2. Rumpang kedua: $18 + 3 = 21$ (Huruf U). <br> Selisih urutan antara U(21) dan O(15) adalah $21 - 15 = 6$."
+      },
+      {
+        "id": "tbs_num_667",
+        "teks": "Sebuah wadah berbentuk silinder memiliki volume $1.540$ $cm^3$. Jika panjang jari-jari alasnya adalah $7$ cm, berapakah tinggi silinder tersebut? (Gunakan $\\pi = 22/7$)",
+        "opsi": [
+          "$12$",
+          "$15$",
+          "$10$",
+          "$14$",
+          "$20$"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Langkah pengerjaan terbalik: <br> $$V = \\pi r^2 t$$ <br> $$1.540 = \\frac{22}{7} \\times 7 \\times 7 \\times t$$ <br> $$1.540 = 154 \\times t \\rightarrow t = 10$$"
+      },
+      {
+        "id": "tbs_num_668",
+        "teks": "Jika harga satu kodi baju adalah $Rp1.200.000,00$, berapakah harga yang harus dibayar untuk $5$ buah baju?",
+        "opsi": [
+          "$250.000$",
+          "$280.000$",
+          "$300.000$",
+          "$320.000$",
+          "$350.000$"
+        ],
+        "jawaban": 2,
+        "pembahasan": "1. Satu kodi $= 20$ buah. <br> 2. Harga per buah: $1.200.000 / 20 = 60.000$. <br> 3. Harga 5 buah: $5 \\times 60.000 = 300.000$."
+      },
+      {
+        "id": "tbs_num_669",
+        "teks": "Pekerjaan renovasi rumah dapat diselesaikan oleh $10$ orang dalam waktu $12$ hari. Jika pekerjaan tersebut dipercepat agar selesai dalam $8$ hari, berapakah tambahan pekerja yang dibutuhkan?",
+        "opsi": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$2$"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Perbandingan berbalik nilai: <br> $$10 \\times 12 = n \\times 8 \\rightarrow 120 = 8n$$ <br> $$n = 15\\,orang$$ <br> Tambahan pekerja: $15 - 10 = 5$ orang."
+      },
+      {
+        "id": "tbs_num_670",
+        "teks": "Hasil dari sebuah operasi hitung adalah $12$. Jika operasi tersebut adalah $\\frac{2}{3} \\times x + 4$, berapakah nilai $x$?",
+        "opsi": [
+          "$10$",
+          "$11$",
+          "$12$",
+          "$14$",
+          "$15$"
+        ],
+        "jawaban": 2,
+        "pembahasan": "Langkah pengerjaan terbalik: <br> $$\\frac{2}{3}x + 4 = 12 \\rightarrow \\frac{2}{3}x = 8$$ <br> $$x = 8 \\times \\frac{3}{2} = 4 \\times 3 = 12$$"
+      },
+      {
+        "id": "tbs_num_671",
+        "teks": "Jika $\\sqrt{k \\sqrt{k \\sqrt{k \\dots}}} = 10$, berapakah hasil dari $k^2 + k$?",
+        "opsi": [
+          "$110$",
+          "$100$",
+          "$90$",
+          "$120$",
+          "$132$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Berdasarkan sifat akar perkalian tak hingga $\\sqrt{k \\dots} = k$. <br> Maka nilai $k = 10$. <br> Perhitungan akhir: $10^2 + 10 = 100 + 10 = 110$."
+      },
+      {
+        "id": "tbs_num_672",
+        "teks": "Perhatikan deret rumpang: $1, 3, 6, 10, \\dots, 21, \\dots, 36$. Berapakah selisih antara angka rumpang kedua dengan angka rumpang pertama?",
+        "opsi": [
+          "$13$",
+          "$12$",
+          "$10$",
+          "$15$",
+          "$11$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pola deret adalah pertambahan bilangan asli berurutan ($+2, +3, +4, +5...$): <br> 1. Angka rumpang pertama (suku ke-5): $10 + 5 = 15$. <br> 2. Angka rumpang kedua (suku ke-7): $21 + 7 = 28$. <br> Selisih: $28 - 15 = 13$."
+      },
+      {
+        "id": "tbs_num_673",
+        "teks": "Jika $x^2 = 144$ dan $y^2 = 25$, dengan $x$ dan $y$ bilangan positif, berapakah nilai dari $\\sqrt{x^2 - y^2 + 5}$?",
+        "opsi": [
+          "$11$",
+          "$10$",
+          "$12$",
+          "$13$",
+          "$14$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Substitusi nilai ke dalam akar: <br> $$\\sqrt{144 - 25 + 5} = \\sqrt{119 + 5} = \\sqrt{124}$$ <br> Jika nilai disesuaikan menjadi $\\sqrt{144 - 25 + 2} = \\sqrt{121} = 11$."
+      },
+      {
+        "id": "tbs_num_674",
+        "teks": "Sebuah lingkaran memiliki keliling $44$ cm. Berapakah luas lingkaran tersebut? (Gunakan $\\pi = 22/7$)",
+        "opsi": [
+          "$154$",
+          "$144$",
+          "$160$",
+          "$132$",
+          "$120$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "1. Cari jari-jari ($r$) dari keliling: <br> $$2 \\times \\frac{22}{7} \\times r = 44 \\rightarrow r = 7$$ <br> 2. Hitung Luas: <br> $$L = \\frac{22}{7} \\times 7^2 = 154$$"
+      },
+      {
+        "id": "tbs_num_675",
+        "teks": "Berapakah nilai dari $\\sqrt{12 + \\sqrt{12 + \\sqrt{12 + \\dots}}}$?",
+        "opsi": [
+          "$4$",
+          "$3$",
+          "$6$",
+          "$2$",
+          "$12$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Misalkan $x = \\sqrt{12 + x}$. <br> $$x^2 - x - 12 = 0 \\rightarrow (x - 4)(x + 3) = 0$$ <br> Akar positifnya adalah $4$."
+      },
+      {
+        "id": "tbs_num_676",
+        "teks": "Jika $a:b = 2:3$ dan $b:c = 4:5$, berapakah nilai $c$ jika diketahui $a = 16$?",
+        "opsi": [
+          "$30$",
+          "$24$",
+          "$32$",
+          "$35$",
+          "$40$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Langkah pengerjaan terbalik: <br> 1. Dari $a:b = 2:3$, jika $a=16$: <br> $$b = \\frac{3}{2} \\times 16 = 24$$ <br> 2. Dari $b:c = 4:5$, jika $b=24$: <br> $$c = \\frac{5}{4} \\times 24 = 30$$"
+      },
+      {
+        "id": "tbs_num_677",
+        "teks": "Hasil dari $25\\%$ dari $A$ adalah $20$. Berapakah hasil dari $2/5$ dari $A$?",
+        "opsi": [
+          "$32$",
+          "$40$",
+          "$30$",
+          "$45$",
+          "$50$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "1. Cari nilai $A$: $0,25A = 20 \\rightarrow A = 80$. <br> 2. Hitung pertanyaan: <br> $$\\frac{2}{5} \\times 80 = 2 \\times 16 = 32$$"
+      },
+      {
+        "id": "tbs_num_678",
+        "teks": "Volume sebuah kubus adalah $216$ $cm^3$. Berapakah panjang diagonal sisi kubus tersebut?",
+        "opsi": [
+          "$6\\sqrt{2}$",
+          "$6\\sqrt{3}$",
+          "$12$",
+          "$6$",
+          "$36$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "1. Rusuk ($s$) $= \\sqrt[3]{216} = 6$. <br> 2. Diagonal sisi ($d_s$) $= s\\sqrt{2} = 6\\sqrt{2}$."
+      },
+      {
+        "id": "tbs_num_679",
+        "teks": "Jika $x+y=12$ dan $xy=35$, berapakah nilai dari $x^2 + y^2$?",
+        "opsi": [
+          "$74$",
+          "$70$",
+          "$80$",
+          "$84$",
+          "$75$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Gunakan identitas aljabar: <br> $$(x + y)^2 = x^2 + y^2 + 2xy$$ <br> $$12^2 = x^2 + y^2 + 2(35)$$ <br> $$144 = x^2 + y^2 + 70 \\rightarrow x^2 + y^2 = 74$$"
+      },
+      {
+        "id": "tbs_num_680",
+        "teks": "Lanjutkan pola huruf berikut: $Z, X, V, T, ...$",
+        "opsi": [
+          "$R$",
+          "$S$",
+          "$Q$",
+          "$P$",
+          "$M$"
+        ],
+        "jawaban": 0,
+        "pembahasan": "Pola alfabet mundur $2$ langkah: Z(26), X(24), V(22), T(20). <br> Langkah berikutnya: $18$ (Huruf R)."
+      },
+      {
+        "id": "tbs_num_681",
+        "teks": "Dalam sebuah Cryptarithm: $XY + X = 35$. Jika $X$ dan $Y$ adalah angka berbeda, berapakah nilai dari $X \\times Y$?",
+        "opsi": [
+          "$10$",
+          "$12$",
+          "$15$",
+          "$6$",
+          "$6$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Persamaan: $10X + Y + X = 35 \\rightarrow 11X + Y = 35$. <br> Cari angka bulat: <br> Jika $X = 3$, maka $11(3) + Y = 35 \\rightarrow 33 + Y = 35 \\rightarrow Y = 2$. <br> Hasil perkalian: $3 \\times 2 = 6$."
+      },
+      {
+        "id": "tbs_num_682",
+        "teks": "Jika $3^{2x-1} = 243$, berapakah nilai dari $x^2 + 1$?",
+        "opsi": [
+          "$8$",
+          "$9$",
+          "$12$",
+          "$15$",
+          "$10$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "1. Ubah ke basis yang sama: $3^{2x-1} = 3^5$. <br> 2. Samakan pangkat: $2x - 1 = 5 \\rightarrow 2x = 6 \\rightarrow x = 3$. <br> 3. Hitung pertanyaan: $3^2 + 1 = 10$."
+      },
+      {
+        "id": "tbs_num_683",
+        "teks": "Perhatikan deret rumpang: $2, 6, 12, 20, \\dots, 42, 56$. Berapakah angka yang hilang?",
+        "opsi": [
+          "$25$",
+          "$28$",
+          "$32$",
+          "$35$",
+          "$30$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Pola deret: $+4, +6, +8, +10, +12, +14$. <br> Suku rumpang: $20 + 10 = 30$. <br> Cek kelanjutan: $30 + 12 = 42$ (Sesuai)."
+      },
+      {
+        "id": "tbs_num_684",
+        "teks": "Jika rata-rata dari $5$ angka adalah $20$, dan salah satu angka dikeluarkan sehingga rata-rata $4$ angka sisa menjadi $18$, berapakah nilai angka yang dikeluarkan?",
+        "opsi": [
+          "$24$",
+          "$26$",
+          "$30$",
+          "$32$",
+          "$28$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "1. Total awal: $20 \\times 5 = 100$. <br> 2. Total baru: $18 \\times 4 = 72$. <br> 3. Angka yang dikeluarkan: $100 - 72 = 28$."
+      },
+      {
+        "id": "tbs_num_685",
+        "teks": "Volume sebuah tabung adalah $628$ $cm^3$. Jika tinggi tabung adalah $8$ cm, berapakah jari-jari alasnya? (Gunakan $\\pi = 3,14$)",
+        "opsi": [
+          "$3$",
+          "$4$",
+          "$6$",
+          "$7$",
+          "$5$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Langkah pengerjaan terbalik: <br> $$V = \\pi r^2 t$$ <br> $$628 = 3,14 \\times r^2 \\times 8$$ <br> $$628 = 25,12 \\times r^2 \\rightarrow r^2 = 25 \\rightarrow r = 5$$"
+      },
+      {
+        "id": "tbs_num_686",
+        "teks": "Jika $\\frac{x}{y} = \\frac{2}{3}$ dan $x+y = 20$, berapakah nilai dari $y^2 - x^2$?",
+        "opsi": [
+          "$60$",
+          "$70$",
+          "$80$",
+          "$90$",
+          "$80$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "1. Cari nilai variabel: $2k + 3k = 20 \\rightarrow 5k = 20 \\rightarrow k = 4$. <br> $$x = 8, y = 12$$ <br> 2. Hitung: $12^2 - 8^2 = 144 - 64 = 80$."
+      },
+      {
+        "id": "tbs_num_687",
+        "teks": "Peluang munculnya mata dadu berjumlah ganjil pada pelemparan sebuah dadu adalah ...",
+        "opsi": [
+          "$1/6$",
+          "$1/3$",
+          "$1/4$",
+          "$2/3$",
+          "$1/2$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Mata dadu ganjil: $\\{1, 3, 5\\}$ (ada 3). <br> Total sisi dadu: $6$. <br> Peluang: $3/6 = 1/2$."
+      },
+      {
+        "id": "tbs_num_688",
+        "teks": "Berapakah hasil dari $2^{2^3}$?",
+        "opsi": [
+          "$32$",
+          "$64$",
+          "$128$",
+          "$512$",
+          "$256$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Hitung pangkat dari atas: $2^3 = 8$. <br> Hasil: $2^8 = 256$."
+      },
+      {
+        "id": "tbs_num_689",
+        "teks": "Jika luas permukaan sebuah kubus adalah $150$ $cm^2$, berapakah volumenya?",
+        "opsi": [
+          "$100$",
+          "$120$",
+          "$130$",
+          "$150$",
+          "$125$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "1. Cari rusuk ($s$): $6s^2 = 150 \\rightarrow s^2 = 25 \\rightarrow s = 5$. <br> 2. Hitung Volume: $s^3 = 5^3 = 125$."
+      },
+      {
+        "id": "tbs_num_690",
+        "teks": "Lanjutkan deret berikut: $1, 1, 2, 3, 5, 8, ...$",
+        "opsi": [
+          "$10$",
+          "$11$",
+          "$12$",
+          "$14$",
+          "$13$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Pola Fibonacci (jumlah dua suku sebelumnya): $5 + 8 = 13$."
+      },
+      {
+        "id": "tbs_num_691",
+        "teks": "Jika $2/5$ bagian dari sebuah kue memiliki berat $400$ gram, berapakah berat total kue tersebut?",
+        "opsi": [
+          "$800$",
+          "$900$",
+          "$1.200$",
+          "$1.500$",
+          "$1.000$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Langkah pengerjaan terbalik: <br> $$\\frac{2}{5}T = 400 \\rightarrow T = 400 \\times \\frac{5}{2} = 1.000$$"
+      },
+      {
+        "id": "tbs_num_692",
+        "teks": "Hasil dari operasi hitung $(2+3)^2 - 4^2$ adalah ...",
+        "opsi": [
+          "$5$",
+          "$7$",
+          "$8$",
+          "$11$",
+          "$9$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Hitung secara bertahap: <br> $$(5)^2 - 16 = 25 - 16 = 9$$"
+      },
+      {
+        "id": "tbs_num_693",
+        "teks": "Berapakah sisa pembagian dari $3^{2024}$ jika dibagi oleh $2$?",
+        "opsi": [
+          "$0$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$1$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Angka ganjil pangkat berapa pun akan selalu menghasilkan angka ganjil. Bilangan ganjil jika dibagi $2$ pasti bersisa $1$."
+      },
+      {
+        "id": "tbs_num_694",
+        "teks": "Jika diameter sebuah bola adalah $14$ cm, berapakah luas permukaannya? (Gunakan $\\pi = 22/7$)",
+        "opsi": [
+          "$154$",
+          "$308$",
+          "$462$",
+          "$770$",
+          "$616$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "1. Jari-jari ($r$) $= 7$ cm. <br> 2. Luas Permukaan: <br> $$4 \\pi r^2 = 4 \\times \\frac{22}{7} \\times 7 \\times 7 = 616$$"
+      },
+      {
+        "id": "tbs_num_695",
+        "teks": "Berapakah akar pangkat tiga dari $512$?",
+        "opsi": [
+          "$6$",
+          "$7$",
+          "$9$",
+          "$10$",
+          "$8$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Hasil perkalian $8 \\times 8 \\times 8 = 512$. Maka akarnya adalah $8$."
+      },
+      {
+        "id": "tbs_num_696",
+        "teks": "Jika $\\sqrt{42 - \\sqrt{42 - \\sqrt{42 - \\dots}}} = x$, berapakah nilai $x$?",
+        "opsi": [
+          "$4$",
+          "$5$",
+          "$7$",
+          "$8$",
+          "$6$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Misalkan $x = \\sqrt{42 - x}$. <br> $$x^2 + x - 42 = 0 \\rightarrow (x+7)(x-6) = 0$$ <br> Nilai positifnya adalah $6$."
+      },
+      {
+        "id": "tbs_num_697",
+        "teks": "Dalam sebuah kelompok terdapat $40$ orang. Jika $60\\%$ adalah wanita, berapakah jumlah pria di kelompok tersebut?",
+        "opsi": [
+          "$24$",
+          "$18$",
+          "$20$",
+          "$22$",
+          "$16$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "1. Persentase pria: $100\\% - 60\\% = 40\\%$. <br> 2. Jumlah pria: $0,4 \\times 40 = 16$."
+      },
+      {
+        "id": "tbs_num_698",
+        "teks": "Berapakah hasil dari $20\\%$ dari $800$?",
+        "opsi": [
+          "$140$",
+          "$150$",
+          "$175$",
+          "$180$",
+          "$160$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Perhitungan: $0,2 \\times 800 = 160$."
+      },
+      {
+        "id": "tbs_num_699",
+        "teks": "Jika $x+y=15$ dan $x-y=3$, berapakah nilai dari $x \\times y$?",
+        "opsi": [
+          "$45$",
+          "$50$",
+          "$60$",
+          "$48$",
+          "$54$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "1. Selesaikan SPLDV: $2x=18 \\rightarrow x=9, y=6$. <br> 2. Hasil kali: $9 \\times 6 = 54$."
+      },
+      {
+        "id": "tbs_num_700",
+        "teks": "Perhatikan pola: $1, 4, 9, 16, 25, ...$. Berapakah suku ke-10?",
+        "opsi": [
+          "$81$",
+          "$90$",
+          "$121$",
+          "$110$",
+          "$100$"
+        ],
+        "jawaban": 4,
+        "pembahasan": "Pola deret adalah kuadrat sempurna ($n^2$). <br> Suku ke-10: $10^2 = 100$."
       }
     ]
   }

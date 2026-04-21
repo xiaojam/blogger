@@ -103,7 +103,7 @@
           "$2.500 \\text{ botol}$"
         ],
         "jawaban": 3,
-        "pembahasan": "Volume tangki $= 1 \\text{ m}^3 = 1.000 \\text{ liter} = 1.000 .000 \\text{ ml}$. Jumlah botol $= 1.000 .000 \\div 500 = 2.000$ botol."
+        "pembahasan": "Volume tangki $= 1 \\text{ m}^3 = 1.000 \\text{ liter} = 1.000.000 \\text{ ml}$. Jumlah botol $= 1.000.000 \\div 500 = 2.000$ botol."
       },
       {
         "id": "utbk_kuan_009",
@@ -2248,7 +2248,7 @@
           "$Rp1.000.000$"
         ],
         "jawaban": 2,
-        "pembahasan": "Jumlah bagian rasio adalah $3 + 4 = 7$. Nilai satu bagian adalah $1.400 .000 \\div 7 = 200.000$. Maka tabungan Budi adalah $4 \\times 200.000 = 800.000$."
+        "pembahasan": "Jumlah bagian rasio adalah $3 + 4 = 7$. Nilai satu bagian adalah $1.400.000 \\div 7 = 200.000$. Maka tabungan Budi adalah $4 \\times 200.000 = 800.000$."
       },
       {
         "id": "utbk_kuan_174",
@@ -2716,7 +2716,7 @@
           "$Rp5.200.000$"
         ],
         "jawaban": 2,
-        "pembahasan": "Selisih bagian rasio adalah $7 - 4 = 3$. Nilai satu bagian rasio adalah $1.200 .000 \\div 3 = 400.000$. Total bagian rasio mereka adalah $4 + 7 = 11$. Maka total tabungan adalah $11 \\times 400.000 = 4.400.000$."
+        "pembahasan": "Selisih bagian rasio adalah $7 - 4 = 3$. Nilai satu bagian rasio adalah $1.200.000 \\div 3 = 400.000$. Total bagian rasio mereka adalah $4 + 7 = 11$. Maka total tabungan adalah $11 \\times 400.000 = 4.400.000$."
       },
       {
         "id": "utbk_kuan_210",
@@ -5043,7 +5043,7 @@
           "$Rp4.500.000$"
         ],
         "jawaban": 0,
-        "pembahasan": "Selisih rasio $= 5 - 3 = 2$. Nilai 1 unit $= 1.200 .000 / 2 = 600.000$. Total tabungan $(3+5) \\times 600.000 = 4.800 .000$."
+        "pembahasan": "Selisih rasio $= 5 - 3 = 2$. Nilai 1 unit $= 1.200.000 / 2 = 600.000$. Total tabungan $(3+5) \\times 600.000 = 4.800.000$."
       },
       {
         "id": "utbk_kuan_389",
@@ -6841,7 +6841,7 @@
       },
       {
         "id": "utbk_kuan_526",
-        "teks": "Bacalah tabel harga emas per gram berikut!<br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Hari</th><th>Harga (Rupiah)</th></tr><tr><td>Senin</td><td>$1.000 .000$</td></tr><tr><td>Selasa</td><td>$1.050 .000$</td></tr><tr><td>Rabu</td><td>$1.029 .000$</td></tr></table><br>Berapakah persentase perubahan harga emas dari hari Selasa ke hari Rabu?",
+        "teks": "Bacalah tabel harga emas per gram berikut!<br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Hari</th><th>Harga (Rupiah)</th></tr><tr><td>Senin</td><td>$1.000.000$</td></tr><tr><td>Selasa</td><td>$1.050.000$</td></tr><tr><td>Rabu</td><td>$1.029.000$</td></tr></table><br>Berapakah persentase perubahan harga emas dari hari Selasa ke hari Rabu?",
         "opsi": [
           "$\\text{Turun } 2\\%$",
           "$\\text{Turun } 2,1\\%$",
@@ -6850,7 +6850,7 @@
           "$\\text{Naik } 2\\%$"
         ],
         "jawaban": 0,
-        "pembahasan": "Selisih $= 1.050 .000 - 1.029 .000 = 21.000$. Persentase $= (21.000 / 1.050 .000) \\times 100\\% = 2\\%$. Karena harga berkurang, maka turun $2\\%$."
+        "pembahasan": "Selisih $= 1.050.000 - 1.029.000 = 21.000$. Persentase $= (21.000 / 1.050.000) \\times 100\\% = 2\\%$. Karena harga berkurang, maka turun $2\\%$."
       },
       {
         "id": "utbk_kuan_527",
