@@ -1,6 +1,6 @@
 {
   "soal": {
-    "TPA Numerik": [
+    "Tes Numerik": [
       {
         "id": "tpa_num_001",
         "teks": "Bacalah data pada tabel berikut untuk menjawab soal nomor 1 - 4!<br><br><table border='1'><tr><th>Mesin</th><th>Produksi (unit)</th><th>Energi (kWh)</th><th>Bahan Baku (kg)</th></tr><tr><td>Mesin P</td><td>$500$</td><td>$100$</td><td>$250$</td></tr><tr><td>Mesin Q</td><td>$750$</td><td>$125$</td><td>$300$</td></tr><tr><td>Mesin R</td><td>$600$</td><td>$150$</td><td>$400$</td></tr><tr><td>Mesin S</td><td>$900$</td><td>$180$</td><td>$450$</td></tr></table><br>Berapakah efisiensi Mesin Q jika dihitung berdasarkan rasio jumlah unit yang dihasilkan per $1$ kWh energi?",
