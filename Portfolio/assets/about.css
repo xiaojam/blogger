@@ -1,0 +1,726 @@
+.abt-grid-container {
+  max-width: 1366px;
+  margin: 24px auto 0;
+  padding: 0 32px 100px;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 20px;
+}
+
+.abt-card {
+  background: var(--card-bg);
+  border: 1.5px solid var(--card-border);
+  border-radius: var(--radius-xl);
+  padding: 24px;
+  box-shadow: var(--card-shadow);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.abt-widget-caption {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.abt-card-pass {
+  grid-column: span 7;
+  grid-row: span 2;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+.abt-pass-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  flex: 0 0 55%;
+  justify-content: center;
+}
+
+.abt-avatar-frame {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  flex-shrink: 0;
+}
+
+.abt-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--card-bg);
+}
+
+.abt-pulse-dot {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 14px;
+  height: 14px;
+  background: var(--accent-emerald);
+  border: 2px solid var(--card-bg);
+  border-radius: 50%;
+}
+
+.abt-pass-identity {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+}
+
+.abt-pass-id-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+.abt-pass-name-sub {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.abt-pass-name {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.1;
+}
+
+.abt-pass-title {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.abt-pass-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+
+  border-left: 1px solid var(--accent-emerald);
+  padding-left: 10px;
+}
+.abt-pass-bio {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+.abt-pass-bio span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.abt-pass-bio span:last-child {
+  margin-bottom: 0;
+}
+
+.abt-pass-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.abt-pass-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-main);
+  padding: 6px 14px;
+}
+
+.abt-btn-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--text-main);
+  color: var(--card-bg);
+  padding: 10px 18px;
+  border-radius: var(--radius-md);
+  font-size: 12px;
+  font-weight: 700;
+  transition: transform 0.2s ease;
+}
+
+.abt-btn-action:hover {
+  transform: translateY(-2px);
+}
+
+.abt-card-terminal-work {
+  grid-column: span 7;
+  grid-row: span 4;
+  padding: 0;
+  background: var(--terminal-bg);
+  border: 1.5px solid var(--terminal-border);
+}
+
+.abt-card-terminal-org {
+  grid-column: span 6;
+  grid-row: span 5;
+  padding: 0;
+  background: var(--terminal-bg);
+  border: 1.5px solid var(--terminal-border);
+}
+
+.abt-card-terminal-edu {
+  grid-column: span 6;
+  grid-row: span 3;
+  padding: 0;
+  background: var(--terminal-bg);
+  border: 1.5px solid var(--terminal-border);
+}
+
+.abt-terminal-bar {
+  background: var(--terminal-bar-bg);
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid var(--terminal-border);
+}
+
+.abt-terminal-dots {
+  display: flex;
+  gap: 8px;
+}
+
+.abt-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+.abt-dot.dot-red {
+  background: #ef4444;
+}
+.abt-dot.dot-yellow {
+  background: #f59e0b;
+}
+.abt-dot.dot-green {
+  background: #10b981;
+}
+
+.abt-terminal-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.abt-terminal-body {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.abt-term-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.abt-term-prompt {
+  display: flex;
+  gap: 8px;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+
+.abt-prompt-path {
+  color: var(--accent-sky);
+  font-weight: 700;
+}
+.abt-prompt-branch {
+  color: var(--accent-purple);
+}
+.abt-prompt-cmd {
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.abt-term-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 6px;
+}
+
+.abt-role-node {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.abt-role-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.abt-role-company {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.abt-role-subhead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.abt-role-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.abt-role-date {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.abt-code-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.abt-code-list li {
+  font-size: 12.5px;
+  color: var(--text-main);
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.abt-code-list li svg {
+  color: var(--primary);
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.abt-card-awards {
+  grid-column: span 3;
+  grid-row: span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abt-award-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  align-items: center;
+  color: var(--accent-teal);
+}
+
+.abt-award-list svg {
+  stroke: var(--accent-teal);
+  fill: var(--accent-teal);
+}
+
+.abt-award-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.abt-award-awardee {
+  font-size: 28px;
+  color: var(--accent-teal-deep);
+  font-weight: 800;
+}
+.abt-award-name {
+  font-size: 14;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.abt-award-host {
+  font-size: 16px;
+  font-weight: 700;
+}
+.abt-card-vol {
+  grid-column: span 7;
+  grid-row: span 1;
+  color: var(--accent-amber);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abt-vol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.abt-vol-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.abt-vol-head {
+  display: flex;
+  flex-direction: column;
+}
+.abt-vol-title {
+  color: var(--accent-amber-deep);
+  font-weight: 800;
+  font-size: 18px;
+}
+.abt-vol-host {
+  font-weight: 700;
+  font-size: 14px;
+}
+.abt-vol-detail {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.abt-card-beyond {
+  grid-column: span 4;
+  grid-row: span 1;
+  gap: 16px;
+}
+
+.abt-beyond-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+}
+.beyond-box {
+  border-radius: var(--radius-md);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  border: 1px solid var(--card-border);
+}
+.beyond-icon {
+  display: flex;
+  align-items: center;
+}
+.beyond-content-highlight-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--accent-orange);
+}
+.beyond-1 svg {
+  padding: 0;
+  width: 36px !important;
+  height: 36px !important;
+  stroke: var(--accent-orange-deep);
+  stroke-width: 1.5;
+}
+.beyond-1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: end;
+}
+.beyond-box-2 {
+  border-radius: var(--radius-md);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 2px;
+  border: 1px solid var(--card-border);
+}
+.beyond-content-highlight-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: var(--accent-cyan);
+}
+.beyond-2 svg {
+  padding: 0;
+  width: 36px !important;
+  height: 36px !important;
+  color: var(--text-main);
+  stroke: var(--accent-cyan-deep);
+}
+.beyond-2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  font-weight: 500;
+  align-items: end;
+}
+
+.beyond-box-3 {
+  border-radius: var(--radius-md);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  border: 1px solid var(--card-border);
+}
+.beyond-content-highlight-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--accent-fuchsia);
+}
+.beyond-3 svg {
+  padding: 0;
+  width: 36px !important;
+  height: 36px !important;
+  color: var(--text-main);
+  stroke: var(--accent-fuchsia-deep);
+  stroke-width: 0.75;
+  margin: 10px 5px 0 2px;
+}
+.beyond-3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  align-items: center;
+}
+
+.beyond-box-4 {
+  border-radius: var(--radius-md);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 2px;
+  border: 1px solid var(--card-border);
+}
+.beyond-content-highlight-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: var(--accent-pink);
+}
+.beyond-4 svg {
+  padding: 0;
+  width: 36px !important;
+  height: 36px !important;
+  color: var(--text-main);
+  vertical-align: bottom;
+  stroke: var(--accent-pink-deep);
+}
+.beyond-4 {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 600;
+  align-items: flex-end;
+  border-bottom: 2px solid var(--accent-pink-deep);
+}
+
+.abt-term-detail {
+  margin-top: 6px;
+  padding: 8px 12px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  line-height: 1.45;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.json-line {
+  color: var(--text-main);
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+
+.json-line.indent {
+  padding-left: 56px;
+  text-indent: -28px;
+}
+
+.json-key {
+  color: var(--accent-sky);
+  font-weight: 700;
+}
+.json-str {
+  color: var(--accent-pink-deep);
+  font-weight: 500;
+}
+.json-num {
+  color: var(--accent-teal-deep);
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1366px) {
+  .abt-card-awards {
+    grid-column: span 7;
+  }
+
+  .abt-role-subhead {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .abt-card-beyond {
+    grid-column: span 7;
+  }
+  .abt-card-terminal-org {
+    grid-row: span 6;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .abt-grid-container {
+    max-width: 1366px;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .abt-pass-header {
+    flex: 0 0 45%;
+  }
+  .abt-card-pass {
+    grid-column: span 12;
+  }
+  .abt-card-terminal-work {
+    grid-column: span 5;
+  }
+  .abt-card-terminal-edu {
+    grid-column: span 7;
+  }
+  .abt-card-terminal-org {
+    grid-column: span 7;
+    grid-row: span 4;
+  }
+  .abt-card-awards {
+    grid-column: span 5;
+  }
+  .abt-card-vol {
+    grid-column: span 5;
+  }
+  .abt-card-beyond {
+    grid-column: span 5;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .abt-card-pass {
+    grid-column: span 12;
+  }
+  .abt-card-terminal-work {
+    grid-column: span 12;
+  }
+  .abt-card-terminal-edu {
+    grid-column: span 12;
+  }
+  .abt-card-terminal-org {
+    grid-column: span 12;
+  }
+  .abt-card-awards {
+    grid-column: span 5;
+  }
+  .abt-card-vol {
+    grid-column: span 12;
+  }
+  .abt-card-vol {
+    align-items: flex-start;
+  }
+  .abt-card-beyond {
+    grid-column: span 7;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .abt-grid-container {
+    padding: 16px 16px 100px;
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .abt-pass-header {
+    flex: 0 0 55%;
+  }
+  .abt-card-vol {
+    grid-column: span 6;
+  }
+  .abt-card-awards {
+    grid-column: span 6;
+  }
+  .abt-card-beyond {
+    grid-column: span 12;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .abt-card-pass {
+    flex-direction: column;
+  }
+  .abt-pass-header {
+    gap: 5px;
+  }
+  .abt-pass-detail {
+    text-align: center;
+    border: 1px solid var(--accent-emerald);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .abt-pass-header {
+    flex: 0 0 55%;
+  }
+  .abt-card-vol {
+    grid-column: span 12;
+  }
+  .abt-card-awards {
+    grid-column: span 12;
+  }
+  .abt-card-beyond {
+    grid-column: span 12;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .abt-beyond-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3px;
+  }
+}

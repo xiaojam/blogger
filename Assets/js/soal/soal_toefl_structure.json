@@ -921,7 +921,7 @@
           "They collected",
           "Were collected"
         ],
-        "jawaban": 0,
+        "jawaban": 1,
         "pembahasan": "Past participle 'collected' berfungsi sebagai adjective yang menerangkan 'rock samples' dalam bentuk reduced relative clause (pasif)."
       },
       {
@@ -5952,7 +5952,7 @@
           "To influence",
           "Is influenced"
         ],
-        "jawaban": 1,
+        "jawaban": 0,
         "pembahasan": "Ini adalah reduced relative clause pasif. Bentuk aslinya 'which was influenced', disederhanakan menjadi past participle 'influenced' untuk menerangkan subjek 'ancient heritage'."
       },
       {
@@ -16708,7 +16708,7 @@
       },
       {
         "id": "toefl_structure_1286",
-        "teks": "Agriculture in tidal lands, or 'pertambakan', ___ a sophisticated understanding of water salinity and soil acidity levels.",
+        "teks": "Agriculture in tidal lands, ___ a sophisticated understanding of water salinity and soil acidity levels.",
         "opsi": [
           "Necessitate",
           "Necessitating",
