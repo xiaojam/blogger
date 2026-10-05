@@ -913,10 +913,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .pub-type-2 {
-    grid-column: span 3;
-  }
-
   .pub-t2-squircle svg {
     width: 32px !important;
   }

@@ -695,15 +695,13 @@
   }
   .abt-pass-header {
     gap: 5px;
+    flex: 1;
   }
   .abt-pass-detail {
     text-align: center;
     border: 1px solid var(--accent-emerald);
     padding: 5px;
     border-radius: 5px;
-  }
-  .abt-pass-header {
-    flex: 0 0 55%;
   }
   .abt-card-vol {
     grid-column: span 12;

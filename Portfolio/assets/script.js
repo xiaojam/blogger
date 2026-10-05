@@ -278,12 +278,36 @@ document.addEventListener('DOMContentLoaded', () => {
     const openModalBtns = document.querySelectorAll('.crt-open-modal');
 
     function openModal(imgSrc, title) {
-        if (!modal || !modalImg || !modalTitle) return;
+        if (!modal || !modalTitle) return;
 
-        if (imgSrc) {
-            modalImg.src = imgSrc;
-        }
         modalTitle.textContent = title || 'Certificate Preview';
+
+        const modalBody = modal.querySelector('.crt-modal-body') || modal; // Sesuaikan container modal Anda
+        const isPdf = imgSrc && imgSrc.toLowerCase().endsWith('.pdf');
+
+        if (isPdf) {
+            modalImg.style.display = 'none';
+
+            let iframe = modal.querySelector('#crt-modal-pdf');
+            if (!iframe) {
+                iframe = document.createElement('iframe');
+                iframe.id = 'crt-modal-pdf';
+                iframe.style.width = '100%';
+                iframe.style.height = '500px';
+                iframe.style.border = 'none';
+                modalImg.parentNode.appendChild(iframe);
+            }
+            iframe.src = imgSrc;
+            iframe.style.display = 'block';
+        } else {
+            const iframe = modal.querySelector('#crt-modal-pdf');
+            if (iframe) iframe.style.display = 'none';
+
+            if (modalImg) {
+                modalImg.src = imgSrc;
+                modalImg.style.display = 'block';
+            }
+        }
 
         modal.classList.add('active');
         document.body.style.overflow = 'hidden';
